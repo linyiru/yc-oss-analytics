@@ -1,0 +1,7 @@
+{
+  "_doc": "Manual fixes for the upstream yc-oss dataset. 'additions' recover open-source YC companies that are missing the official 'Open Source' tag on the YC site (false negatives): a company whose tags are empty will not appear in the tag-derived dataset even when it ships a public repo. Each addition needs a slug present in companies/all.json (for batch/website/etc.) and the owner/repo of its primary repository. 'corrections' remap a wrong repo; 'exclusions' drop a slug. Keep this list evidence-based and neutral — it exists to improve coverage, not to single anyone out.",
+  "_example": { "slug": "<yc-company-slug>", "github": "<owner>/<repo>", "reason": "<why the tag missed it>" },
+  "additions": [],
+  "corrections": {},
+  "exclusions": []
+}
