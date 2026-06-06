@@ -1,0 +1,19 @@
+# dependencies & build output
+node_modules/
+web/dist/
+web/.astro/
+
+# local git clones used for analysis (re-created by the pipeline)
+pipeline/.clones/
+
+# upstream caches — re-fetchable via pipeline/fetch_sources.sh
+pipeline/_src_*.json
+
+# generated artifacts — produced by build_candidates.py / discover.py
+pipeline/repos.yaml
+data/candidates.json
+data/discovered.json
+
+# OS / editor
+.DS_Store
+*.log
