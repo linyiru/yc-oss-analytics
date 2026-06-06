@@ -1,10 +1,21 @@
 ---
-import Base from '../layouts/Base.astro';
-import { t } from '../i18n/ui';
+import '../styles/ds.css';
+import '../styles/app.css';
 ---
-<Base locale="en" title={`404 · ${t('en', 'site.title')}`} path="">
-  <div style="text-align:center;padding:80px 20px">
-    <h1 style="font-size:48px;margin:0">404</h1>
-    <p style="color:var(--mut)">This page doesn't exist. <a href="/" style="color:var(--ac)">Back to repos →</a></p>
-  </div>
-</Base>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 · oss/signal</title>
+    <script is:inline>try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}</script>
+  </head>
+  <body>
+    <div class="wrap" style="min-height:84vh;display:grid;place-items:center;text-align:center">
+      <div>
+        <div class="mono" style="font-size:var(--fs-display);font-weight:700;color:var(--accent);letter-spacing:-.02em">404</div>
+        <p class="muted" style="margin-top:8px">This page doesn't exist. <a href="/" style="color:var(--accent-text)">← Back to oss/signal</a></p>
+      </div>
+    </div>
+  </body>
+</html>
