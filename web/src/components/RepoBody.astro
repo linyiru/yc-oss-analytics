@@ -4,10 +4,11 @@ import Punchcard from './Punchcard.astro';
 import StarCurve from './charts/StarCurve.tsx';
 import MonthlyBar from './charts/MonthlyBar.tsx';
 import Churn from './charts/Churn.tsx';
-import { devToolsFor, type RepoData } from '../lib/data';
+import { devToolsFor, authFor, type RepoData } from '../lib/data';
 const { repo, locale = 'en' } = Astro.props as { repo: RepoData; locale: Locale };
 const r = repo;
 const dt = devToolsFor(r.slug);
+const auth = authFor(r.slug);
 const cmax = r.contributors[0]?.count || 1;
 const langTotal = Object.values(r.stack.languages).reduce((a, b) => a + b, 0) || 1;
 const topLangs = Object.entries(r.stack.languages).sort((a, b) => b[1] - a[1]).slice(0, 5);
@@ -68,6 +69,12 @@ const stats = [
     <h2>{t(locale, 'repo.section.workflow')}</h2>
     <div class="kv"><span>{t(locale, 'repo.workflow.conventional')}</span><b>{r.workflow.conventional_pct}%</b></div>
     <div class="kv"><span>{t(locale, 'repo.workflow.merge')}</span><b>{r.workflow.merge_pct}%</b></div>
+    {auth?.stars_per_fork != null && (
+      <div class="kv"><span>{t(locale, 'repo.workflow.spf')}</span><b>{auth.stars_per_fork}:1</b></div>
+    )}
+    {auth?.stars_per_contributor != null && (
+      <div class="kv"><span>{t(locale, 'repo.workflow.spc')}</span><b>{auth.stars_per_contributor}:1</b></div>
+    )}
     <div class="kv"><span>{t(locale, 'repo.workflow.ai')}</span><b>{r.intensity.ai_coauthor_total}</b></div>
     {dt && (dt.ai_tools.length > 0 || dt.editors.length > 0) && (
       <div class="kv"><span>{t(locale, 'repo.workflow.tools')}</span>

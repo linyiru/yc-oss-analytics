@@ -30,3 +30,10 @@ export interface DevTools { github: string; ai_tools: string[]; editors: string[
 const devToolsMod = import.meta.glob<{ default: Record<string, DevTools> }>('../data/dev_tools.json', { eager: true });
 export const devTools: Record<string, DevTools> = (Object.values(devToolsMod)[0] as any)?.default ?? {};
 export const devToolsFor = (slug: string): DevTools | undefined => devTools[slug];
+
+// Star-traction transparency signals (optional file from pipeline/authenticity.py).
+// We surface only the neutral ratios on the UI — never a "score" or accusation.
+export interface Authenticity { stars_per_fork: number | null; stars_per_contributor: number | null; fork_engagement_pct: number | null; organic_score: number; flags: string[] }
+const authMod = import.meta.glob<{ default: Record<string, Authenticity> }>('../data/authenticity.json', { eager: true });
+export const authenticity: Record<string, Authenticity> = (Object.values(authMod)[0] as any)?.default ?? {};
+export const authFor = (slug: string): Authenticity | undefined => authenticity[slug];
