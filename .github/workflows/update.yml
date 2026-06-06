@@ -1,0 +1,83 @@
+name: update-dataset
+
+# Track the upstream yc-oss datasets: detect companies that newly appear
+# (open-source / newly tagged) or disappear (delisted, acquired, lost the tag),
+# analyze the newcomers, and commit the refreshed data.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      analyze_cap:
+        description: "Max newly-appeared repos to analyze this run"
+        default: "20"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dataset
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 5000 req/hr — see README rate-limit policy
+      ANALYZE_CAP: ${{ github.event.inputs.analyze_cap || '20' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch upstream datasets
+        run: bash pipeline/fetch_sources.sh
+
+      - name: Build candidate list
+        run: python3 pipeline/build_candidates.py
+
+      - name: Detect appeared / disappeared
+        run: python3 pipeline/update.py > appeared.txt
+
+      - name: Analyze newly appeared repos (capped)
+        run: |
+          total=$(grep -c . appeared.txt || true)
+          if [ "$total" -gt "$ANALYZE_CAP" ]; then
+            echo "::notice::$total appeared; analyzing first $ANALYZE_CAP this run, rest next run"
+          fi
+          head -n "$ANALYZE_CAP" appeared.txt | while read -r slug; do
+            [ -z "$slug" ] && continue
+            gh=$(python3 -c "import json,sys;print({c['slug']:c['github'] for c in json.load(open('data/candidates.json'))}.get('$slug',''))")
+            [ -z "$gh" ] && continue
+            echo "analyzing $slug ($gh)"
+            python3 pipeline/run.py "$slug" "$gh" || echo "::warning::failed $slug"
+          done
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(data): sync YC OSS registry ($(date -u +%F))"
+            git push
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          if [ -f data/changes.json ]; then
+            python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("data/changes.json"))
+          print(f"### Dataset update — {d['date']}\n")
+          print(f"- **Appeared:** {len(d['appeared'])} {d['appeared'][:10]}")
+          print(f"- **Disappeared:** {len(d['disappeared'])} {d['disappeared'][:10]}")
+          print(f"- **Restored:** {len(d['restored'])}")
+          print(f"- **Tracked total:** {d['total_tracked']} (present {d['present']})")
+          PY
+          fi
