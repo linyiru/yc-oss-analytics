@@ -35,6 +35,9 @@ const href = (l: Locale) => (l === defaultLocale ? `/${path}` : `/${l}/${path}`)
       .langs { display: flex; gap: 4px; flex-wrap: wrap; }
       .langs a { font-size: 12px; color: var(--mut); text-decoration: none; padding: 3px 8px; border-radius: 14px; border: 1px solid transparent; }
       .langs a.on { color: var(--tx); border-color: var(--ac); }
+      /* chart islands sit in fixed-height wrappers; override Astro's default display:contents
+         so Chart.js can measure a real parent height */
+      astro-island { display: block !important; height: 100% !important; }
       .card { background: var(--card); border: 1px solid var(--bd); border-radius: 14px; padding: 18px 20px; margin-bottom: 20px; }
       .card h2 { margin: 0 0 4px; font-size: 16px; }
       .card .desc { color: var(--mut); font-size: 13px; margin: 0 0 14px; }
