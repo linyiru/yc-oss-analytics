@@ -1,0 +1,14 @@
+{
+  // Static Astro site on Cloudflare Workers (Workers Static Assets).
+  // Fully static (output: 'static') -> no adapter, no `main` Worker entry needed.
+  // Build with `astro build`, then `wrangler deploy`.
+  "name": "yc-oss-analytics",
+  "compatibility_date": "2026-06-06",
+  "assets": {
+    "directory": "./dist",
+    // Astro emits /path/index.html; serve directory URLs and add trailing slashes.
+    "html_handling": "auto-trailing-slash",
+    // serve the generated 404 page on misses
+    "not_found_handling": "404-page"
+  }
+}

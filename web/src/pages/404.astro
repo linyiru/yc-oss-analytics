@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n/ui';
+---
+<Base locale="en" title={`404 · ${t('en', 'site.title')}`} path="">
+  <div style="text-align:center;padding:80px 20px">
+    <h1 style="font-size:48px;margin:0">404</h1>
+    <p style="color:var(--mut)">This page doesn't exist. <a href="/" style="color:var(--ac)">Back to repos →</a></p>
+  </div>
+</Base>
