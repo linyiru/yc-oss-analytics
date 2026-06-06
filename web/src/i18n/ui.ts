@@ -73,10 +73,10 @@ const zhHant: Partial<Record<UIKey, string>> = {
   'nav.about': '方法',
   'home.heading': '從 git 歷史解構 YC 開源團隊',
   'home.intro': '{count} 個 YC 開源公司的 commit 節奏、技術棧與工作流程訊號。',
-  'home.scatter.title': 'Batch 年資 × 當前活躍度',
-  'home.scatter.desc': '每個泡泡是一個 repo。X = 距 YC batch 幾年,Y = 現在的活躍度。左上 = 常青(老但至今高度活躍)。',
+  'home.scatter.title': '梯次年資 × 當前活躍度',
+  'home.scatter.desc': '每個泡泡是一個 repo。X = 距 YC 梯次幾年,Y = 現在的活躍度。左上 = 常青(老但至今高度活躍)。',
   'home.table.repo': '專案',
-  'home.table.batch': '批次',
+  'home.table.batch': '梯次',
   'home.table.stars': 'Stars',
   'home.table.commitsWk': '週 commit',
   'home.table.liveness': '活躍度',
@@ -122,10 +122,10 @@ const zhHans: Partial<Record<UIKey, string>> = {
   'nav.about': '方法',
   'home.heading': '从 git 历史解构 YC 开源团队',
   'home.intro': '{count} 个 YC 开源公司的 commit 节奏、技术栈与工作流程信号。',
-  'home.scatter.title': 'Batch 年限 × 当前活跃度',
-  'home.scatter.desc': '每个气泡是一个 repo。X = 距 YC batch 几年,Y = 现在的活跃度。左上 = 常青(老但至今高度活跃)。',
+  'home.scatter.title': '梯次年限 × 当前活跃度',
+  'home.scatter.desc': '每个气泡是一个 repo。X = 距 YC 梯次几年,Y = 现在的活跃度。左上 = 常青(老但至今高度活跃)。',
   'home.table.repo': '项目',
-  'home.table.batch': '批次',
+  'home.table.batch': '梯次',
   'home.table.stars': 'Stars',
   'home.table.commitsWk': '周 commit',
   'home.table.liveness': '活跃度',
@@ -161,10 +161,21 @@ const zhHans: Partial<Record<UIKey, string>> = {
   'footer.source': '数据:yc-oss · 分析:本项目',
 };
 
-// ja / ko / pt: seeded with English fallback — TODO native translation.
-const ja: Partial<Record<UIKey, string>> = {};
-const ko: Partial<Record<UIKey, string>> = {};
-const pt: Partial<Record<UIKey, string>> = {};
+// ja / ko / pt: English fallback for prose (TODO native review). The YC-cohort term is
+// translated now since "batch" is a false friend in every one of these languages —
+// the precise word is cohort/intake, not processing-batch.
+const ja: Partial<Record<UIKey, string>> = {
+  'home.table.batch': '期', // YC's cohort, e.g. 2025年冬期 (not バッチ = processing batch)
+  'class.evergreen': '常緑', 'class.rising': '成長中', 'class.steady': '安定', 'class.dormant': '休眠',
+};
+const ko: Partial<Record<UIKey, string>> = {
+  'home.table.batch': '기수', // cohort number (not 배치 = processing batch)
+  'class.evergreen': '상록', 'class.rising': '성장 중', 'class.steady': '안정', 'class.dormant': '휴면',
+};
+const pt: Partial<Record<UIKey, string>> = {
+  'home.table.batch': 'Turma', // cohort/class (not Lote = processing batch)
+  'class.evergreen': 'Perene', 'class.rising': 'Em ascensão', 'class.steady': 'Estável', 'class.dormant': 'Dormente',
+};
 
 const dicts: Record<Locale, Partial<Record<UIKey, string>>> = {
   en,
