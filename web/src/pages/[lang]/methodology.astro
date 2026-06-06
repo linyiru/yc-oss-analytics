@@ -1,0 +1,20 @@
+---
+import '../../styles/ds.css';
+import '../../styles/app.css';
+import MethodologyPage from '../../components/MethodologyPage.jsx';
+import { locales, defaultLocale } from '../../i18n/ui';
+export function getStaticPaths() {
+  return locales.filter((l) => l !== defaultLocale).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as any;
+---
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Methodology · oss/signal</title>
+    <script is:inline>try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}</script>
+  </head>
+  <body><MethodologyPage client:only="react" initialLocale={lang} /></body>
+</html>
