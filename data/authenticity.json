@@ -1,0 +1,1244 @@
+{
+ "artillery": {
+  "stars_per_fork": 16.3,
+  "stars_per_contributor": 52.9,
+  "fork_engagement_pct": 19,
+  "organic_score": 19,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "posthog": {
+  "stars_per_fork": 12.3,
+  "stars_per_contributor": 63.2,
+  "fork_engagement_pct": 44,
+  "organic_score": 44,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "infisical": {
+  "stars_per_fork": 13.9,
+  "stars_per_contributor": 98.0,
+  "fork_engagement_pct": 28,
+  "organic_score": 28,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "paradedb": {
+  "stars_per_fork": 22.7,
+  "stars_per_contributor": 72.4,
+  "fork_engagement_pct": 7,
+  "organic_score": 7,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "shuttle": {
+  "stars_per_fork": 23.3,
+  "stars_per_contributor": 56.3,
+  "fork_engagement_pct": 5,
+  "organic_score": 5,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "vocode": {
+  "stars_per_fork": 5.7,
+  "stars_per_contributor": 60.6,
+  "fork_engagement_pct": 87,
+  "organic_score": 87,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "gitlab": {
+  "stars_per_fork": 4.2,
+  "stars_per_contributor": 8.4,
+  "fork_engagement_pct": 93,
+  "organic_score": 93,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "replicate": {
+  "stars_per_fork": 13.7,
+  "stars_per_contributor": 95.2,
+  "fork_engagement_pct": 30,
+  "organic_score": 30,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "expected-parrot": {
+  "stars_per_fork": 6.3,
+  "stars_per_contributor": 17.2,
+  "fork_engagement_pct": 84,
+  "organic_score": 84,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "peerdb": {
+  "stars_per_fork": 16.3,
+  "stars_per_contributor": 59.1,
+  "fork_engagement_pct": 17,
+  "organic_score": 17,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "codestream": {
+  "stars_per_fork": 1.8,
+  "stars_per_contributor": 1.3,
+  "fork_engagement_pct": 99,
+  "organic_score": 99,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "supertokens": {
+  "stars_per_fork": 22.7,
+  "stars_per_contributor": 367.8,
+  "fork_engagement_pct": 6,
+  "organic_score": 6,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "dittofeed": {
+  "stars_per_fork": 7.9,
+  "stars_per_contributor": 82.1,
+  "fork_engagement_pct": 75,
+  "organic_score": 75,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "jitsu": {
+  "stars_per_fork": 13.5,
+  "stars_per_contributor": 164.9,
+  "fork_engagement_pct": 33,
+  "organic_score": 33,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "common-paper": {
+  "stars_per_fork": 7.3,
+  "stars_per_contributor": 25.5,
+  "fork_engagement_pct": 80,
+  "organic_score": 80,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "airbyte": {
+  "stars_per_fork": 4.1,
+  "stars_per_contributor": 16.9,
+  "fork_engagement_pct": 93,
+  "organic_score": 93,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "superagent": {
+  "stars_per_fork": 6.9,
+  "stars_per_contributor": 1103.7,
+  "fork_engagement_pct": 82,
+  "organic_score": 82,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "requestly": {
+  "stars_per_fork": 9.6,
+  "stars_per_contributor": 83.0,
+  "fork_engagement_pct": 66,
+  "organic_score": 66,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "signoz": {
+  "stars_per_fork": 12.4,
+  "stars_per_contributor": 118.4,
+  "fork_engagement_pct": 44,
+  "organic_score": 44,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "keep": {
+  "stars_per_fork": 8.5,
+  "stars_per_contributor": 63.6,
+  "fork_engagement_pct": 74,
+  "organic_score": 74,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "morphik": {
+  "stars_per_fork": 11.7,
+  "stars_per_contributor": 156.7,
+  "fork_engagement_pct": 50,
+  "organic_score": 50,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mito": {
+  "stars_per_fork": 12.7,
+  "stars_per_contributor": 94.2,
+  "fork_engagement_pct": 40,
+  "organic_score": 40,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "daily": {
+  "stars_per_fork": 5.9,
+  "stars_per_contributor": 41.3,
+  "fork_engagement_pct": 87,
+  "organic_score": 87,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "chatwoot": {
+  "stars_per_fork": 4.0,
+  "stars_per_contributor": 80.0,
+  "fork_engagement_pct": 94,
+  "organic_score": 94,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "epicenter": {
+  "stars_per_fork": 13.3,
+  "stars_per_contributor": 121.2,
+  "fork_engagement_pct": 34,
+  "organic_score": 34,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "fig": {
+  "stars_per_fork": 4.6,
+  "stars_per_contributor": 47.6,
+  "fork_engagement_pct": 91,
+  "organic_score": 91,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "hatchet-run": {
+  "stars_per_fork": 17.8,
+  "stars_per_contributor": 96.1,
+  "fork_engagement_pct": 12,
+  "organic_score": 12,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "superglue": {
+  "stars_per_fork": 16.4,
+  "stars_per_contributor": 84.1,
+  "fork_engagement_pct": 17,
+  "organic_score": 17,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "stackup": {
+  "stars_per_fork": 1.8,
+  "stars_per_contributor": 48.8,
+  "fork_engagement_pct": 99,
+  "organic_score": 99,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "citus-data": {
+  "stars_per_fork": 16.1,
+  "stars_per_contributor": 77.9,
+  "fork_engagement_pct": 20,
+  "organic_score": 20,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mindsdb": {
+  "stars_per_fork": 6.3,
+  "stars_per_contributor": 42.4,
+  "fork_engagement_pct": 83,
+  "organic_score": 83,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "activeloop": {
+  "stars_per_fork": 12.9,
+  "stars_per_contributor": 61.5,
+  "fork_engagement_pct": 39,
+  "organic_score": 39,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "tensil": {
+  "stars_per_fork": 12.1,
+  "stars_per_contributor": 79.6,
+  "fork_engagement_pct": 45,
+  "organic_score": 45,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "tesseral": {
+  "stars_per_fork": 22.2,
+  "stars_per_contributor": 161.9,
+  "fork_engagement_pct": 7,
+  "organic_score": 7,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "skyvern": {
+  "stars_per_fork": 10.7,
+  "stars_per_contributor": 218.4,
+  "fork_engagement_pct": 58,
+  "organic_score": 58,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "convoy-2": {
+  "stars_per_fork": 16.0,
+  "stars_per_contributor": 72.0,
+  "fork_engagement_pct": 21,
+  "organic_score": 21,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "langfuse": {
+  "stars_per_fork": 9.7,
+  "stars_per_contributor": 162.4,
+  "fork_engagement_pct": 66,
+  "organic_score": 66,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "reflex": {
+  "stars_per_fork": 16.4,
+  "stars_per_contributor": 134.9,
+  "fork_engagement_pct": 16,
+  "organic_score": 16,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "cactus": {
+  "stars_per_fork": 12.6,
+  "stars_per_contributor": 106.2,
+  "fork_engagement_pct": 42,
+  "organic_score": 42,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "flowiseai": {
+  "stars_per_fork": 2.2,
+  "stars_per_contributor": 154.3,
+  "fork_engagement_pct": 98,
+  "organic_score": 98,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "tusk": {
+  "stars_per_fork": 28.2,
+  "stars_per_contributor": 20.1,
+  "fork_engagement_pct": 3,
+  "organic_score": 3,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lamin": {
+  "stars_per_fork": 10.7,
+  "stars_per_contributor": 12.1,
+  "fork_engagement_pct": 59,
+  "organic_score": 59,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "netmaker": {
+  "stars_per_fork": 18.0,
+  "stars_per_contributor": 102.7,
+  "fork_engagement_pct": 11,
+  "organic_score": 11,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "fern": {
+  "stars_per_fork": 11.4,
+  "stars_per_contributor": 19.8,
+  "fork_engagement_pct": 52,
+  "organic_score": 52,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "char": {
+  "stars_per_fork": 13.7,
+  "stars_per_contributor": 220.3,
+  "fork_engagement_pct": 31,
+  "organic_score": 31,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "cmux": {
+  "stars_per_fork": 13.2,
+  "stars_per_contributor": 196.9,
+  "fork_engagement_pct": 35,
+  "organic_score": 35,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "freestyle": {
+  "stars_per_fork": 2.5,
+  "stars_per_contributor": 125.2,
+  "fork_engagement_pct": 97,
+  "organic_score": 97,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "activepieces": {
+  "stars_per_fork": 6.0,
+  "stars_per_contributor": 45.9,
+  "fork_engagement_pct": 86,
+  "organic_score": 86,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "webiny": {
+  "stars_per_fork": 11.9,
+  "stars_per_contributor": 90.8,
+  "fork_engagement_pct": 47,
+  "organic_score": 47,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "pipelinedb": {
+  "stars_per_fork": 11.0,
+  "stars_per_contributor": 147.9,
+  "fork_engagement_pct": 56,
+  "organic_score": 56,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "botcity": {
+  "stars_per_fork": 6.2,
+  "stars_per_contributor": 11.0,
+  "fork_engagement_pct": 85,
+  "organic_score": 85,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "vibe-kanban": {
+  "stars_per_fork": 9.5,
+  "stars_per_contributor": 419.1,
+  "fork_engagement_pct": 68,
+  "organic_score": 68,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "browser-use": {
+  "stars_per_fork": 8.9,
+  "stars_per_contributor": 273.1,
+  "fork_engagement_pct": 70,
+  "organic_score": 70,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "pretzel-ai": {
+  "stars_per_fork": 13.9,
+  "stars_per_contributor": 145.9,
+  "fork_engagement_pct": 29,
+  "organic_score": 29,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "rethinkdb": {
+  "stars_per_fork": 14.6,
+  "stars_per_contributor": 110.7,
+  "fork_engagement_pct": 26,
+  "organic_score": 26,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "hydra": {
+  "stars_per_fork": 17.1,
+  "stars_per_contributor": 65.1,
+  "fork_engagement_pct": 13,
+  "organic_score": 13,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "keydb": {
+  "stars_per_fork": 18.9,
+  "stars_per_contributor": 19.5,
+  "fork_engagement_pct": 10,
+  "organic_score": 10,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "corsair": {
+  "stars_per_fork": 11.6,
+  "stars_per_contributor": 39.2,
+  "fork_engagement_pct": 51,
+  "organic_score": 51,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "ollama": {
+  "stars_per_fork": 10.5,
+  "stars_per_contributor": 277.4,
+  "fork_engagement_pct": 61,
+  "organic_score": 61,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "manaflow": {
+  "stars_per_fork": 13.2,
+  "stars_per_contributor": 196.9,
+  "fork_engagement_pct": 35,
+  "organic_score": 35,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "growthbook": {
+  "stars_per_fork": 10.3,
+  "stars_per_contributor": 55.7,
+  "fork_engagement_pct": 62,
+  "organic_score": 62,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "infracost": {
+  "stars_per_fork": 4.4,
+  "stars_per_contributor": 6.9,
+  "fork_engagement_pct": 91,
+  "organic_score": 91,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "opslane": {
+  "stars_per_fork": 37.7,
+  "stars_per_contributor": 113.0,
+  "fork_engagement_pct": 0,
+  "organic_score": 0,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "firezone": {
+  "stars_per_fork": 20.9,
+  "stars_per_contributor": 146.4,
+  "fork_engagement_pct": 9,
+  "organic_score": 9,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mastra": {
+  "stars_per_fork": 11.3,
+  "stars_per_contributor": 50.6,
+  "fork_engagement_pct": 54,
+  "organic_score": 54,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "confident-ai": {
+  "stars_per_fork": 10.6,
+  "stars_per_contributor": 51.3,
+  "fork_engagement_pct": 60,
+  "organic_score": 60,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "highlight-io": {
+  "stars_per_fork": 14.3,
+  "stars_per_contributor": 96.7,
+  "fork_engagement_pct": 26,
+  "organic_score": 26,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "vibrant-labs": {
+  "stars_per_fork": 9.7,
+  "stars_per_contributor": 57.5,
+  "fork_engagement_pct": 65,
+  "organic_score": 65,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "grai": {
+  "stars_per_fork": 15.7,
+  "stars_per_contributor": 18.5,
+  "fork_engagement_pct": 23,
+  "organic_score": 23,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "apollo": {
+  "stars_per_fork": 7.3,
+  "stars_per_contributor": 20.8,
+  "fork_engagement_pct": 79,
+  "organic_score": 79,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "okteto": {
+  "stars_per_fork": 11.2,
+  "stars_per_contributor": 42.3,
+  "fork_engagement_pct": 54,
+  "organic_score": 54,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "standard-cyborg": {
+  "stars_per_fork": 2.6,
+  "stars_per_contributor": 16.5,
+  "fork_engagement_pct": 97,
+  "organic_score": 97,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "questdb": {
+  "stars_per_fork": 10.7,
+  "stars_per_contributor": 87.8,
+  "fork_engagement_pct": 60,
+  "organic_score": 60,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "dagworks-inc": {
+  "stars_per_fork": 13.2,
+  "stars_per_contributor": 22.2,
+  "fork_engagement_pct": 36,
+  "organic_score": 36,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "svix": {
+  "stars_per_fork": 13.0,
+  "stars_per_contributor": 34.8,
+  "fork_engagement_pct": 38,
+  "organic_score": 38,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lunatic": {
+  "stars_per_fork": 33.1,
+  "stars_per_contributor": 135.2,
+  "fork_engagement_pct": 1,
+  "organic_score": 1,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mentra": {
+  "stars_per_fork": 7.0,
+  "stars_per_contributor": 27.6,
+  "fork_engagement_pct": 81,
+  "organic_score": 81,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "optic": {
+  "stars_per_fork": 16.3,
+  "stars_per_contributor": 56.8,
+  "fork_engagement_pct": 17,
+  "organic_score": 17,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "ukama": {
+  "stars_per_fork": 6.1,
+  "stars_per_contributor": 11.7,
+  "fork_engagement_pct": 85,
+  "organic_score": 85,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "trieve": {
+  "stars_per_fork": 10.9,
+  "stars_per_contributor": 36.6,
+  "fork_engagement_pct": 57,
+  "organic_score": 57,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "nango": {
+  "stars_per_fork": 9.6,
+  "stars_per_contributor": 42.1,
+  "fork_engagement_pct": 67,
+  "organic_score": 67,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "bun": {
+  "stars_per_fork": 19.7,
+  "stars_per_contributor": 98.5,
+  "fork_engagement_pct": 9,
+  "organic_score": 9,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "tiptap": {
+  "stars_per_fork": 12.4,
+  "stars_per_contributor": 72.4,
+  "fork_engagement_pct": 43,
+  "organic_score": 43,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lantern-2": {
+  "stars_per_fork": 13.4,
+  "stars_per_contributor": 52.0,
+  "fork_engagement_pct": 34,
+  "organic_score": 34,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "helicone": {
+  "stars_per_fork": 9.7,
+  "stars_per_contributor": 54.0,
+  "fork_engagement_pct": 64,
+  "organic_score": 64,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "influxdata": {
+  "stars_per_fork": 8.5,
+  "stars_per_contributor": 44.7,
+  "fork_engagement_pct": 73,
+  "organic_score": 73,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "unsloth-ai": {
+  "stars_per_fork": 11.2,
+  "stars_per_contributor": 311.0,
+  "fork_engagement_pct": 54,
+  "organic_score": 54,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "hyperdx": {
+  "stars_per_fork": 23.5,
+  "stars_per_contributor": 136.9,
+  "fork_engagement_pct": 5,
+  "organic_score": 5,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "elementary": {
+  "stars_per_fork": 10.7,
+  "stars_per_contributor": 19.3,
+  "fork_engagement_pct": 58,
+  "organic_score": 58,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "docker": {
+  "stars_per_fork": 2.8,
+  "stars_per_contributor": 5.7,
+  "fork_engagement_pct": 96,
+  "organic_score": 96,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "reworkd": {
+  "stars_per_fork": 3.9,
+  "stars_per_contributor": 457.7,
+  "fork_engagement_pct": 95,
+  "organic_score": 95,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mem0": {
+  "stars_per_fork": 8.7,
+  "stars_per_contributor": 174.9,
+  "fork_engagement_pct": 72,
+  "organic_score": 72,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "litellm": {
+  "stars_per_fork": 5.7,
+  "stars_per_contributor": 32.2,
+  "fork_engagement_pct": 88,
+  "organic_score": 88,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "chaos-genius": {
+  "stars_per_fork": 9.1,
+  "stars_per_contributor": 17.6,
+  "fork_engagement_pct": 69,
+  "organic_score": 69,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "arroyo": {
+  "stars_per_fork": 13.7,
+  "stars_per_contributor": 100.7,
+  "fork_engagement_pct": 31,
+  "organic_score": 31,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lotus": {
+  "stars_per_fork": 13.8,
+  "stars_per_contributor": 52.2,
+  "fork_engagement_pct": 30,
+  "organic_score": 30,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "medplum": {
+  "stars_per_fork": 3.0,
+  "stars_per_contributor": 12.5,
+  "fork_engagement_pct": 95,
+  "organic_score": 95,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "sst": {
+  "stars_per_fork": 12.4,
+  "stars_per_contributor": 84.1,
+  "fork_engagement_pct": 42,
+  "organic_score": 42,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "beam": {
+  "stars_per_fork": 11.7,
+  "stars_per_contributor": 69.3,
+  "fork_engagement_pct": 50,
+  "organic_score": 50,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "formance": {
+  "stars_per_fork": 7.5,
+  "stars_per_contributor": 50.1,
+  "fork_engagement_pct": 77,
+  "organic_score": 77,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "khoj": {
+  "stars_per_fork": 15.7,
+  "stars_per_contributor": 465.7,
+  "fork_engagement_pct": 23,
+  "organic_score": 23,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "windmill": {
+  "stars_per_fork": 17.0,
+  "stars_per_contributor": 94.1,
+  "fork_engagement_pct": 13,
+  "organic_score": 13,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "firecrawl": {
+  "stars_per_fork": 16.8,
+  "stars_per_contributor": 804.3,
+  "fork_engagement_pct": 15,
+  "organic_score": 15,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "openfoundry": {
+  "stars_per_fork": 13.2,
+  "stars_per_contributor": 57.0,
+  "fork_engagement_pct": 36,
+  "organic_score": 36,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "hubble": {
+  "stars_per_fork": 8.1,
+  "stars_per_contributor": 32.8,
+  "fork_engagement_pct": 75,
+  "organic_score": 75,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lunasec": {
+  "stars_per_fork": 8.8,
+  "stars_per_contributor": 39.7,
+  "fork_engagement_pct": 72,
+  "organic_score": 72,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "protocol-labs": {
+  "stars_per_fork": 5.4,
+  "stars_per_contributor": 34.0,
+  "fork_engagement_pct": 89,
+  "organic_score": 89,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lago": {
+  "stars_per_fork": 15.8,
+  "stars_per_contributor": 187.9,
+  "fork_engagement_pct": 22,
+  "organic_score": 22,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "traceloop": {
+  "stars_per_fork": 7.3,
+  "stars_per_contributor": 61.9,
+  "fork_engagement_pct": 79,
+  "organic_score": 79,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "lancedb": {
+  "stars_per_fork": 11.8,
+  "stars_per_contributor": 47.4,
+  "fork_engagement_pct": 48,
+  "organic_score": 48,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "payload": {
+  "stars_per_fork": 11.3,
+  "stars_per_contributor": 74.0,
+  "fork_engagement_pct": 52,
+  "organic_score": 52,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "moonrepo": {
+  "stars_per_fork": 16.9,
+  "stars_per_contributor": 44.3,
+  "fork_engagement_pct": 15,
+  "organic_score": 15,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "refine": {
+  "stars_per_fork": 11.3,
+  "stars_per_contributor": 101.0,
+  "fork_engagement_pct": 53,
+  "organic_score": 53,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "sails-co": {
+  "stars_per_fork": 11.9,
+  "stars_per_contributor": 76.5,
+  "fork_engagement_pct": 46,
+  "organic_score": 46,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "supabase": {
+  "stars_per_fork": 8.2,
+  "stars_per_contributor": 52.9,
+  "fork_engagement_pct": 74,
+  "organic_score": 74,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "alokai": {
+  "stars_per_fork": 5.2,
+  "stars_per_contributor": 24.9,
+  "fork_engagement_pct": 89,
+  "organic_score": 89,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "sourcebot": {
+  "stars_per_fork": 12.0,
+  "stars_per_contributor": 65.4,
+  "fork_engagement_pct": 46,
+  "organic_score": 46,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "better-auth": {
+  "stars_per_fork": 11.0,
+  "stars_per_contributor": 32.9,
+  "fork_engagement_pct": 56,
+  "organic_score": 56,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "authzed": {
+  "stars_per_fork": 17.0,
+  "stars_per_contributor": 80.5,
+  "fork_engagement_pct": 13,
+  "organic_score": 13,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "wasp": {
+  "stars_per_fork": 12.7,
+  "stars_per_contributor": 144.7,
+  "fork_engagement_pct": 41,
+  "organic_score": 41,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "trigger-dev": {
+  "stars_per_fork": 11.8,
+  "stars_per_contributor": 101.6,
+  "fork_engagement_pct": 48,
+  "organic_score": 48,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "recipeui": {
+  "stars_per_fork": 33.4,
+  "stars_per_contributor": 190.9,
+  "fork_engagement_pct": 1,
+  "organic_score": 1,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "insforge": {
+  "stars_per_fork": 11.8,
+  "stars_per_contributor": 110.7,
+  "fork_engagement_pct": 49,
+  "organic_score": 49,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "asayer": {
+  "stars_per_fork": 15.9,
+  "stars_per_contributor": 145.7,
+  "fork_engagement_pct": 21,
+  "organic_score": 21,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "matano": {
+  "stars_per_fork": 14.0,
+  "stars_per_contributor": 111.7,
+  "fork_engagement_pct": 27,
+  "organic_score": 27,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "wasmer": {
+  "stars_per_fork": 21.3,
+  "stars_per_contributor": 75.3,
+  "fork_engagement_pct": 8,
+  "organic_score": 8,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "embrace": {
+  "stars_per_fork": 8.9,
+  "stars_per_contributor": 6.4,
+  "fork_engagement_pct": 70,
+  "organic_score": 70,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "laudspeaker": {
+  "stars_per_fork": 12.8,
+  "stars_per_contributor": 144.5,
+  "fork_engagement_pct": 40,
+  "organic_score": 40,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "manufact": {
+  "stars_per_fork": 7.6,
+  "stars_per_contributor": 228.7,
+  "fork_engagement_pct": 76,
+  "organic_score": 76,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "twenty": {
+  "stars_per_fork": 7.0,
+  "stars_per_contributor": 73.8,
+  "fork_engagement_pct": 81,
+  "organic_score": 81,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "font-awesome": {
+  "stars_per_fork": 6.3,
+  "stars_per_contributor": 15326.4,
+  "fork_engagement_pct": 83,
+  "organic_score": 83,
+  "flags": [
+   "few contributors for the stars (15326:1)"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "coreos": {
+  "stars_per_fork": 5.0,
+  "stars_per_contributor": 43.6,
+  "fork_engagement_pct": 90,
+  "organic_score": 90,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "evidently-ai": {
+  "stars_per_fork": 8.8,
+  "stars_per_contributor": 74.3,
+  "fork_engagement_pct": 71,
+  "organic_score": 71,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "rowboat-labs": {
+  "stars_per_fork": 9.8,
+  "stars_per_contributor": 932.7,
+  "fork_engagement_pct": 64,
+  "organic_score": 64,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "nao-labs": {
+  "stars_per_fork": 7.3,
+  "stars_per_contributor": 26.0,
+  "fork_engagement_pct": 77,
+  "organic_score": 77,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "pangolin": {
+  "stars_per_fork": 30.1,
+  "stars_per_contributor": 196.5,
+  "fork_engagement_pct": 2,
+  "organic_score": 2,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "rivet": {
+  "stars_per_fork": 29.4,
+  "stars_per_contributor": 179.5,
+  "fork_engagement_pct": 3,
+  "organic_score": 3,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "sublingual": {
+  "stars_per_fork": 13.0,
+  "stars_per_contributor": 13.0,
+  "fork_engagement_pct": 38,
+  "organic_score": 38,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "monosi": {
+  "stars_per_fork": 10.3,
+  "stars_per_contributor": 47.1,
+  "fork_engagement_pct": 62,
+  "organic_score": 62,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "onyx": {
+  "stars_per_fork": 7.3,
+  "stars_per_contributor": 141.1,
+  "fork_engagement_pct": 77,
+  "organic_score": 77,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "anythingllm": {
+  "stars_per_fork": 9.2,
+  "stars_per_contributor": 296.9,
+  "fork_engagement_pct": 68,
+  "organic_score": 68,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "openpipe": {
+  "stars_per_fork": 16.1,
+  "stars_per_contributor": 165.3,
+  "fork_engagement_pct": 19,
+  "organic_score": 19,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "warrant": {
+  "stars_per_fork": 25.7,
+  "stars_per_contributor": 167.1,
+  "fork_engagement_pct": 4,
+  "organic_score": 4,
+  "flags": [
+   "fork engagement in bottom 10% of peers"
+  ],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "dench-com": {
+  "stars_per_fork": 14.0,
+  "stars_per_contributor": 2.0,
+  "fork_engagement_pct": 27,
+  "organic_score": 27,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "helixdb": {
+  "stars_per_fork": 18.4,
+  "stars_per_contributor": 146.1,
+  "fork_engagement_pct": 11,
+  "organic_score": 11,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "mattermost": {
+  "stars_per_fork": 4.3,
+  "stars_per_contributor": 30.3,
+  "fork_engagement_pct": 92,
+  "organic_score": 92,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "tracecat": {
+  "stars_per_fork": 10.1,
+  "stars_per_contributor": 78.9,
+  "fork_engagement_pct": 63,
+  "organic_score": 63,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "pyroscope": {
+  "stars_per_fork": 14.9,
+  "stars_per_contributor": 43.0,
+  "fork_engagement_pct": 25,
+  "organic_score": 25,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "rownd": {
+  "stars_per_fork": 14.8,
+  "stars_per_contributor": 39.5,
+  "fork_engagement_pct": 25,
+  "organic_score": 25,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "stagewise": {
+  "stars_per_fork": 13.6,
+  "stars_per_contributor": 418.0,
+  "fork_engagement_pct": 32,
+  "organic_score": 32,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ },
+ "cua": {
+  "stars_per_fork": 15.6,
+  "stars_per_contributor": 242.6,
+  "fork_engagement_pct": 24,
+  "organic_score": 24,
+  "flags": [],
+  "note": "descriptive peer-relative signals, not a fraud verdict"
+ }
+}
