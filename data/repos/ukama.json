@@ -610,6 +610,15 @@
   "infra": []
  },
  "churn": null,
- "stars_curve": [],
+ "stars_curve": [
+  {
+   "t": "2022-10-06",
+   "n": 1
+  },
+  {
+   "t": "2024-02-15",
+   "n": 101
+  }
+ ],
  "viral": null
 }

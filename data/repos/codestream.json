@@ -660,6 +660,11 @@
   ]
  },
  "churn": null,
- "stars_curve": [],
+ "stars_curve": [
+  {
+   "t": "2020-06-12",
+   "n": 1
+  }
+ ],
  "viral": null
 }

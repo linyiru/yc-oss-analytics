@@ -296,6 +296,11 @@
   "infra": []
  },
  "churn": null,
- "stars_curve": [],
+ "stars_curve": [
+  {
+   "t": "2025-11-13",
+   "n": 1
+  }
+ ],
  "viral": null
 }

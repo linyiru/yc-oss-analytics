@@ -441,6 +441,11 @@
   ]
  },
  "churn": null,
- "stars_curve": [],
+ "stars_curve": [
+  {
+   "t": "2024-05-22",
+   "n": 1
+  }
+ ],
  "viral": null
 }

@@ -290,6 +290,11 @@
   "infra": []
  },
  "churn": null,
- "stars_curve": [],
+ "stars_curve": [
+  {
+   "t": "2021-02-27",
+   "n": 1
+  }
+ ],
  "viral": null
 }
