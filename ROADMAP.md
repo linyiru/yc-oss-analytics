@@ -44,15 +44,6 @@ Surface **signals, never verdicts** (see README ethics).
   cross-starring — **no roster of individuals**. Distinguishes legit YC-network amplification
   (high-quality accounts) from farmed stars (low-quality accounts).
 
-### "Most hustling" developer leaderboard — *rejected, will not build*
-A leaderboard ranking individual developers by "hustle" (night-owl %, weekend %, etc.) was
-considered and **deliberately dropped**. Our user-perspective review (YC partner, OSS
-maintainer, and others) was clear: ranking named individuals on work-timing glorifies overwork
-and turns commit history into personal surveillance — and the signal is methodologically weak
-(timezone/rebase/squash artifacts make "night owl" mostly an artifact). We keep work-rhythm data
-strictly at the **repo/aggregate level** (punch cards), never as a per-person leaderboard. The
-contributor view shows public handles and commit counts only.
-
 ## Data quality
 
 ### Verification-based discovery — *implemented; full sweep pending*
