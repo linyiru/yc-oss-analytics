@@ -1,0 +1,24 @@
+---
+// Static weekday × hour heatmap (no JS needed).
+const { punch, color = '#7c5cff' } = Astro.props as { punch: number[][]; color?: string };
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+const mx = Math.max(1, ...punch.flat());
+---
+<div class="hm">
+  <div class="hm-row"><div class="hm-lbl"></div>{Array.from({ length: 24 }, (_, h) => <div class="hm-h">{h % 6 === 0 ? h : ''}</div>)}</div>
+  {punch.map((row, w) => (
+    <div class="hm-row">
+      <div class="hm-lbl">{days[w]}</div>
+      {row.map((v, h) => (
+        <div class="hm-c" style={`--a:${(v / mx).toFixed(3)};--c:${color}`} title={`${days[w]} ${String(h).padStart(2, '0')}:00 · ${v}`}></div>
+      ))}
+    </div>
+  ))}
+</div>
+<style>
+  .hm { font-size: 11px; overflow-x: auto; }
+  .hm-row { display: flex; gap: 3px; margin-bottom: 3px; }
+  .hm-lbl { width: 28px; color: #8b949e; text-align: right; padding-right: 4px; flex: none; line-height: 16px; }
+  .hm-h { width: 16px; color: #8b949e; text-align: center; flex: none; font-size: 9px; }
+  .hm-c { width: 16px; height: 16px; flex: none; border-radius: 3px; background: color-mix(in srgb, var(--c) calc(var(--a) * 100%), #1b2230); }
+</style>
