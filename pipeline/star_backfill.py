@@ -72,12 +72,12 @@ for f in files:
     if not d.get("stars_curve"):
         todo.append((f, d))
 
+already_done = len([f for f in files if f.endswith(".json")]) - len(todo)
 cap = int(next((a for a in sys.argv[1:] if a.isdigit()), 0)) or None
 if cap:
     todo = todo[:cap]
 
-print(f"backfilling star curves for {len(todo)} repos (already done: "
-      f"{len([f for f in files if f.endswith('.json')]) - len(todo)})")
+print(f"backfilling star curves for {len(todo)} repos (already have a curve: {already_done})")
 for i, (f, d) in enumerate(todo, 1):
     respect_rate_limit()
     stars = d.get("metrics", {}).get("stars") or 0
