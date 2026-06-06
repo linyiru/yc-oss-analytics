@@ -66,19 +66,55 @@ export default function RepoPage({ view, initialLocale }) {
           {stats.map(([l, v, s, a]) => <StatCard key={l} label={l} value={v} sub={s} accent={a} />)}
         </div>
 
+        {/* peer context + at-application snapshot */}
+        <div className="viz-2col" style={{ marginBottom: 16 }}>
+          <Section title="Versus peers" sub="Percentile across all tracked YC OSS repos">
+            <div className="col gap-3">
+              {[['Stars', c.peers.stars], ['Commits / week', c.peers.commitsPerWeek], ['Liveness', c.peers.liveness]].map(([k, p]) => (
+                <div key={k} className="row spread" style={{ alignItems: 'center', gap: 12 }}>
+                  <span className="muted" style={{ fontSize: 'var(--fs-sm)' }}>{k}</span>
+                  <span className="row gap-3" style={{ alignItems: 'center' }}>
+                    <span className="meter" style={{ width: 120 }}><i style={{ width: `${100 - p}%`, background: p <= 25 ? 'var(--evergreen)' : p <= 60 ? 'var(--steady)' : 'var(--text-3)' }}></i></span>
+                    <b className="mono tabular" style={{ fontSize: 'var(--fs-sm)', width: 56, textAlign: 'right' }}>top {p}%</b>
+                  </span>
+                </div>
+              ))}
+              <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 4 }}>Relative rank, not an absolute grade — context for "is this normal for the cohort?"</p>
+            </div>
+          </Section>
+
+          {c.apply ? (
+            <Section title="At YC application" sub="Approximate — reconstructed from commit & star history">
+              <div className="row gap-6" style={{ flexWrap: 'wrap', marginBottom: 12 }}>
+                <div className="col" style={{ gap: 2 }}><span className="eyebrow">Stars then</span><span className="mono" style={{ fontSize: 'var(--fs-xl)', fontWeight: 600 }}>{fc(c.apply.starsThen)}</span><span className="faint" style={{ fontSize: 'var(--fs-xs)' }}>now {fc(c.stars)}</span></div>
+                <div className="col" style={{ gap: 2 }}><span className="eyebrow">Commits then</span><span className="mono" style={{ fontSize: 'var(--fs-xl)', fontWeight: 600 }}>{fc(c.apply.commitsThen)}</span><span className="faint" style={{ fontSize: 'var(--fs-xs)' }}>now {fc(c.commits)}</span></div>
+                <div className="col" style={{ gap: 2 }}><span className="eyebrow">Head start</span><span className="mono" style={{ fontSize: 'var(--fs-xl)', fontWeight: 600 }}>{c.apply.leadMonths > 0 ? `~${c.apply.leadMonths} mo` : c.apply.leadMonths < 0 ? `+${-c.apply.leadMonths} mo` : '~0'}</span><span className="faint" style={{ fontSize: 'var(--fs-xs)' }}>{c.apply.leadMonths > 0 ? 'before batch' : c.apply.leadMonths < 0 ? 'into batch' : 'at batch'}</span></div>
+              </div>
+              <p className="muted" style={{ fontSize: 'var(--fs-sm)', lineHeight: 1.55 }}>
+                {c.apply.leadMonths > 0
+                  ? <>First commit was <b style={{ color: 'var(--text)' }}>~{c.apply.leadMonths} months before</b> the {c.batch} batch started — roughly what this team had built when they got in.</>
+                  : c.apply.leadMonths < 0
+                    ? <>The public repo began <b style={{ color: 'var(--text)' }}>~{-c.apply.leadMonths} months into</b> the {c.batch} batch.</>
+                    : <>The public repo started right around the {c.batch} batch.</>}
+              </p>
+              <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 8 }}>Batch timing is approximate (YC applications close a few months before a batch begins).</p>
+            </Section>
+          ) : <Section title="At YC application" sub="Not available"><p className="faint" style={{ fontSize: 'var(--fs-sm)' }}>Batch date couldn't be resolved for this repo.</p></Section>}
+        </div>
+
         <div className="viz-2col" style={{ marginBottom: 16 }}>
           <Section title="Star growth" sub="Cumulative GitHub stars · viral moment marked"><StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} locale={intl} height={216} /></Section>
           <Section title="Monthly commit volume" sub="Commits authored per calendar month"><ColumnBars data={d.monthlyCommits} locale={intl} height={216} /></Section>
         </div>
 
-        <Section title="Commit rhythm" sub={`Weekday × hour · ${c.weekendPct}% of commits land on weekends`} style={{ marginBottom: 16 }}
+        <Section title="Commit rhythm" sub={`Weekday × hour · author-local time · ${c.weekendPct}% on weekends (suggestive, not forensic)`} style={{ marginBottom: 16 }}
           right={<span className="row gap-2 faint" style={{ fontSize: 'var(--fs-xs)' }}>less <span className="meter" style={{ width: 60, background: 'linear-gradient(90deg, var(--heat-0), var(--accent))', height: 8 }}></span> more</span>}>
           <PunchCard grid={d.punchcard.grid} max={d.punchcard.max} locale={intl} />
         </Section>
 
         <div className="viz-2col" style={{ marginBottom: 16 }}>
           <Section title="Net code growth" sub="Lines added vs deleted per month"><CodeGrowth data={d.codeGrowth} locale={intl} height={208} /></Section>
-          <Section title="Core contributors" sub={`${fi(c.contributors)} total · top ${d.contributors.length} by commits`}><RankedBars items={d.contributors.map((p) => ({ label: p.handle, value: p.commits }))} locale={intl} color="var(--steady)" /></Section>
+          <Section title="Core contributors" sub={`${fi(c.contributors)} total · top contributor ${c.concentration.top1}% · top 3 = ${c.concentration.top3}% of commits`}><RankedBars items={d.contributors.map((p, i) => ({ label: p.handle, value: p.commits, color: i === 0 ? 'var(--accent)' : 'var(--steady)' }))} locale={intl} /></Section>
         </div>
 
         <div className="repo-side" style={{ marginBottom: 16 }}>

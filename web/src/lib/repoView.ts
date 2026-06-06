@@ -1,7 +1,26 @@
 // Map one RepoData -> the repo-detail view shape consumed by RepoPage.jsx.
-import { repoBySlug, devToolsFor, type RepoData } from './data';
+import { repos, repoBySlug, devToolsFor, type RepoData } from './data';
 
 const cap = (s: string) => (s ? s[0].toUpperCase() + s.slice(1) : s);
+
+// YC batch code (e.g. "S20", "W21", "X25", "F25") -> approximate calendar month.
+const BATCH_MONTH: Record<string, number> = { W: 1, X: 4, S: 6, F: 9 };
+function batchDecimal(batch: string): { dec: number; ym: string } | null {
+  const m = /^([WXSF])(\d{2})$/.exec(batch || '');
+  if (!m) return null;
+  const month = BATCH_MONTH[m[1]];
+  const year = 2000 + parseInt(m[2], 10);
+  return { dec: year + (month - 1) / 12, ym: `${year}-${String(month).padStart(2, '0')}` };
+}
+const toDecimal = (iso: string) => { const [y, mo] = iso.split('-').map(Number); return y + ((mo || 1) - 1) / 12; };
+
+// "top X%" — higher value ranks better. Computed across all repos with the metric.
+function topPct(value: number, all: number[]): number {
+  const xs = all.filter((v) => v != null);
+  if (!xs.length) return 50;
+  const below = xs.filter((v) => v < value).length;
+  return Math.max(1, 100 - Math.round((100 * below) / xs.length));
+}
 const LANGCOLOR: Record<string, string> = {
   TypeScript: '#3178c6', JavaScript: '#f1e05a', Python: '#3572A5', Rust: '#dea584', Go: '#00ADD8',
   Ruby: '#701516', Kotlin: '#A97BFF', Java: '#b07219', 'C++': '#f34b7d', 'C#': '#178600', Swift: '#F05138',
@@ -31,6 +50,32 @@ export function toRepoView(slug: string) {
   const total = langs.reduce((a, [, b]) => a + b, 0) || 1;
   const topLangs = langs.sort((a, b) => b[1] - a[1]).slice(0, 6).map(([name, b]) => ({ name, pct: Math.round((b / total) * 100), color: lc(name) }));
 
+  // --- at-application snapshot (from existing data) ---
+  const bd = batchDecimal(r.yc?.batch ?? '');
+  let apply: any = null;
+  if (bd) {
+    const firstDec = r.timeline?.first ? toDecimal(r.timeline.first) : bd.dec;
+    const leadMonths = Math.round((bd.dec - firstDec) * 12);
+    const commitsThen = (r.monthly ?? []).filter((x) => x.m <= bd.ym).reduce((a, x) => a + x.c, 0);
+    let starsThen = 0;
+    for (const p of r.stars_curve ?? []) { if (p.t.slice(0, 7) <= bd.ym) starsThen = p.n; else break; }
+    apply = { batchYM: bd.ym, leadMonths, commitsThen, starsThen };
+  }
+
+  // --- peer percentiles across the whole dataset ---
+  const allStars = repos.map((x) => x.metrics?.stars ?? 0);
+  const allCpw = repos.map((x) => x.intensity?.commits_per_week ?? 0);
+  const allLive = repos.map((x) => x.activity?.liveness ?? 0);
+  const peers = {
+    stars: topPct(r.metrics?.stars ?? 0, allStars),
+    commitsPerWeek: topPct(r.intensity?.commits_per_week ?? 0, allCpw),
+    liveness: topPct(r.activity?.liveness ?? 0, allLive),
+  };
+
+  // --- contributor concentration (neutral: highlight, don't label as risk) ---
+  const contribs = r.contributors ?? [];
+  const concentration = { top1: contribs[0]?.pct ?? 0, top3: Math.round(contribs.slice(0, 3).reduce((a, c) => a + c.pct, 0)) };
+
   const dt = devToolsFor(slug);
   const aiTools = [
     ...((dt?.ai_tools ?? []).map((n) => ({ id: n.toLowerCase().replace(/[^a-z0-9]+/g, '-'), name: n, kind: 'config' }))),
@@ -48,6 +93,8 @@ export function toRepoView(slug: string) {
       weekendPct: r.intensity?.weekend_pct ?? 0, aiAssisted: aiPct,
       monthsActive: r.timeline?.span_months ?? 0, type: cap(r.activity?.class ?? 'steady'),
       license: r.metrics?.license ?? '—', pkgManager: r.stack?.pkg_manager ?? '—', infra: r.stack?.infra ?? [],
+      firstCommit: r.timeline?.first ?? null,
+      apply, peers, concentration,
     },
     d: {
       starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30 },
