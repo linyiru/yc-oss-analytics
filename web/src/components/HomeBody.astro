@@ -1,0 +1,50 @@
+---
+import { repos } from '../lib/data';
+import { t, fmtNum, defaultLocale, type Locale } from '../i18n/ui';
+import Scatter from './charts/Scatter.tsx';
+const { locale = 'en' } = Astro.props as { locale: Locale };
+const link = (slug: string) => (locale === defaultLocale ? `/${slug}` : `/${locale}/${slug}`);
+const pts = repos
+  .filter((r) => r.activity.batch_age_years != null)
+  .map((r) => ({ slug: r.slug, x: r.activity.batch_age_years!, y: r.activity.liveness, stars: r.metrics.stars, cls: r.activity.class, name: r.yc.one_liner ? r.slug : r.slug }));
+---
+<h1 style="font-size:26px;margin:18px 0 6px">{t(locale, 'home.heading')}</h1>
+<p style="color:var(--mut);margin:0 0 24px">{t(locale, 'home.intro', { count: repos.length })}</p>
+
+<div class="card">
+  <h2>{t(locale, 'home.scatter.title')}</h2>
+  <p class="desc">{t(locale, 'home.scatter.desc')}</p>
+  <div style="height:300px"><Scatter client:only="react" points={pts} /></div>
+</div>
+
+<div class="card" style="padding:0;overflow:hidden">
+  <table>
+    <thead><tr>
+      <th>{t(locale, 'home.table.repo')}</th><th>{t(locale, 'home.table.batch')}</th>
+      <th class="n">{t(locale, 'home.table.stars')}</th><th class="n">{t(locale, 'home.table.commitsWk')}</th>
+      <th class="n">{t(locale, 'home.table.liveness')}</th><th>{t(locale, 'home.table.class')}</th>
+    </tr></thead>
+    <tbody>
+      {repos.map((r) => (
+        <tr>
+          <td><a href={link(r.slug)} class="rl"><b>{r.slug}</b><span>{r.yc.one_liner}</span></a></td>
+          <td class="mut">{r.yc.batch}</td>
+          <td class="n">{fmtNum(locale, r.metrics.stars)}</td>
+          <td class="n">{r.intensity.commits_per_week}</td>
+          <td class="n">{r.activity.liveness}</td>
+          <td><span class={`badge b-${r.activity.class}`}>{t(locale, `class.${r.activity.class}` as any)}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<style>
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 11px 14px; border-bottom: 1px solid var(--bd); text-align: left; }
+  th { color: var(--mut); font-weight: 600; font-size: 12px; }
+  .n { text-align: right; font-variant-numeric: tabular-nums; }
+  .mut { color: var(--mut); }
+  .rl { text-decoration: none; display: flex; flex-direction: column; }
+  .rl span { color: var(--mut); font-size: 12px; }
+  tbody tr:hover { background: #1b2230; }
+</style>

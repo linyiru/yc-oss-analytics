@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import RepoBody from '../../components/RepoBody.astro';
+import { repos } from '../../lib/data';
+import { locales, t, defaultLocale } from '../../i18n/ui';
+export function getStaticPaths() {
+  const langs = locales.filter((l) => l !== defaultLocale);
+  return langs.flatMap((lang) => repos.map((r) => ({ params: { lang, slug: r.slug }, props: { repo: r } })));
+}
+const { lang } = Astro.params as any;
+const { repo } = Astro.props;
+---
+<Base locale={lang} title={`${repo.slug} · ${t(lang, 'site.title')}`} path={repo.slug}>
+  <RepoBody repo={repo} locale={lang} />
+</Base>

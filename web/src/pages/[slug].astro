@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import RepoBody from '../components/RepoBody.astro';
+import { repos } from '../lib/data';
+import { t } from '../i18n/ui';
+export function getStaticPaths() {
+  return repos.map((r) => ({ params: { slug: r.slug }, props: { repo: r } }));
+}
+const { repo } = Astro.props;
+---
+<Base locale="en" title={`${repo.slug} · ${t('en', 'site.title')}`} path={repo.slug}>
+  <RepoBody repo={repo} locale="en" />
+</Base>

@@ -1,0 +1,98 @@
+---
+import { t, fmtNum, type Locale } from '../i18n/ui';
+import Punchcard from './Punchcard.astro';
+import StarCurve from './charts/StarCurve.tsx';
+import MonthlyBar from './charts/MonthlyBar.tsx';
+import Churn from './charts/Churn.tsx';
+import type { RepoData } from '../lib/data';
+const { repo, locale = 'en' } = Astro.props as { repo: RepoData; locale: Locale };
+const r = repo;
+const cmax = r.contributors[0]?.count || 1;
+const langTotal = Object.values(r.stack.languages).reduce((a, b) => a + b, 0) || 1;
+const topLangs = Object.entries(r.stack.languages).sort((a, b) => b[1] - a[1]).slice(0, 5);
+const stat = (v: string | number, k: string) => ({ v, k });
+const stats = [
+  stat(fmtNum(locale, r.metrics.stars ?? 0), t(locale, 'repo.stars')),
+  stat(fmtNum(locale, r.metrics.commits), t(locale, 'repo.commits')),
+  stat(r.intensity.commits_per_week, t(locale, 'repo.commitsPerWeek')),
+  stat(r.metrics.contributors, t(locale, 'repo.contributors')),
+  stat(r.timeline.span_months, t(locale, 'repo.months')),
+  stat(r.activity.liveness, t(locale, 'repo.liveness')),
+  stat(`${r.intensity.weekend_pct}%`, t(locale, 'repo.weekend')),
+];
+---
+<div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:18px 0 4px">
+  <h1 style="font-size:28px;margin:0">{r.slug}</h1>
+  <span class={`badge b-${r.activity.class}`}>{t(locale, `class.${r.activity.class}` as any)}</span>
+  <a href={`https://github.com/${r.github}`} style="color:var(--mut);font-size:14px">{r.github}</a>
+</div>
+<p style="color:var(--mut);margin:0 0 6px">{r.yc.one_liner} · {r.yc.batch} · {r.metrics.primary_lang}</p>
+
+{r.viral && (
+  <p style="color:var(--ac);font-weight:600;margin:0 0 18px">🚀 {t(locale, 'insight.viral', { gain: fmtNum(locale, r.viral.gain), days: r.viral.days })} ({r.viral.from} → {r.viral.to})</p>
+)}
+
+<div class="stats">
+  {stats.map((s) => <div class="st"><div class="v">{s.v}</div><div class="k">{s.k}</div></div>)}
+</div>
+
+{r.stars_curve?.length > 0 && (
+  <div class="card"><h2>{t(locale, 'repo.section.stars')}</h2><div style="height:120px"><StarCurve client:visible points={r.stars_curve} /></div></div>
+)}
+
+<div class="grid2">
+  <div class="card"><h2>{t(locale, 'repo.section.monthly')}</h2><div style="height:170px"><MonthlyBar client:visible data={r.monthly} /></div></div>
+  {r.churn ? (
+    <div class="card"><h2>{t(locale, 'repo.section.churn')}</h2><div style="height:180px"><Churn client:visible data={r.churn.by_month} addLabel={t(locale, 'repo.churn.added')} delLabel={t(locale, 'repo.churn.deleted')} /></div></div>
+  ) : (
+    <div class="card"><h2>{t(locale, 'repo.section.churn')}</h2><p class="desc">— (cheap tier: churn not computed)</p></div>
+  )}
+</div>
+
+<div class="card">
+  <h2>{t(locale, 'repo.section.punchcard')}</h2>
+  <p class="desc">{t(locale, 'repo.punchcard.desc', { pct: r.intensity.weekend_pct })}</p>
+  <Punchcard punch={r.intensity.punchcard} />
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <h2>{t(locale, 'repo.section.stack')}</h2>
+    <div class="kv"><span>{t(locale, 'repo.stack.pkg')}</span><b>{r.stack.pkg_manager || '—'}</b></div>
+    <div class="kv"><span>{t(locale, 'repo.stack.langs')}</span><b>{topLangs.map(([l, b]) => `${l} ${Math.round((b / langTotal) * 100)}%`).join(' · ')}</b></div>
+    <div class="kv"><span>{t(locale, 'repo.stack.infra')}</span><b>{r.stack.infra.join(' · ') || '—'}</b></div>
+    {r.stack.deps_top.length > 0 && <div class="kv"><span>deps</span><b style="font-weight:400;color:var(--mut)">{r.stack.deps_top.slice(0, 12).join(', ')}</b></div>}
+  </div>
+  <div class="card">
+    <h2>{t(locale, 'repo.section.workflow')}</h2>
+    <div class="kv"><span>{t(locale, 'repo.workflow.conventional')}</span><b>{r.workflow.conventional_pct}%</b></div>
+    <div class="kv"><span>{t(locale, 'repo.workflow.merge')}</span><b>{r.workflow.merge_pct}%</b></div>
+    <div class="kv"><span>{t(locale, 'repo.workflow.ai')}</span><b>{r.intensity.ai_coauthor_total}</b></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>{t(locale, 'repo.section.contributors')}</h2>
+  {r.contributors.map((c) => (
+    <div class="bar-row">
+      <div class="bn">{c.name}</div>
+      <div class="bt"><div class="bf" style={`width:${(100 * c.count) / cmax}%`}></div></div>
+      <div class="bv">{c.count} · {c.pct}%</div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 22px; }
+  .st { background: var(--card); border: 1px solid var(--bd); border-radius: 12px; padding: 14px; }
+  .st .v { font-size: 22px; font-weight: 700; color: #a78bfa; }
+  .st .k { font-size: 11px; color: var(--mut); margin-top: 2px; }
+  .kv { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--bd); font-size: 13px; }
+  .kv span { color: var(--mut); }
+  .kv b { text-align: right; }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin: 7px 0; font-size: 13px; }
+  .bn { width: 130px; flex: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bt { flex: 1; background: #1b2230; border-radius: 5px; height: 14px; overflow: hidden; }
+  .bf { height: 100%; background: linear-gradient(90deg, #7c5cff, #a78bfa); border-radius: 5px; }
+  .bv { width: 110px; flex: none; text-align: right; color: var(--mut); font-variant-numeric: tabular-nums; }
+</style>
