@@ -14,7 +14,13 @@ const href = (l: Locale) => (l === defaultLocale ? `/${path}` : `/${l}/${path}`)
   </head>
   <body>
     <header class="top">
-      <a class="brand" href={locale === defaultLocale ? '/' : `/${locale}/`}>◆ {t(locale, 'site.title')}</a>
+      <div class="left">
+        <a class="brand" href={locale === defaultLocale ? '/' : `/${locale}/`}>◆ {t(locale, 'site.title')}</a>
+        <nav class="sections">
+          <a href={locale === defaultLocale ? '/' : `/${locale}/`}>{t(locale, 'nav.home')}</a>
+          <a href={locale === defaultLocale ? '/trends' : `/${locale}/trends`}>{t(locale, 'nav.trends')}</a>
+        </nav>
+      </div>
       <nav class="langs">
         {locales.map((l) => <a class={l === locale ? 'on' : ''} href={href(l)}>{localeNames[l]}</a>)}
       </nav>
@@ -31,7 +37,11 @@ const href = (l: Locale) => (l === defaultLocale ? `/${path}` : `/${l}/${path}`)
       main { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
       a { color: inherit; }
       .top { max-width: 1080px; margin: 0 auto; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; border-bottom: 1px solid var(--bd); }
+      .left { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
       .brand { font-weight: 700; text-decoration: none; font-size: 16px; }
+      .sections { display: flex; gap: 14px; }
+      .sections a { font-size: 13px; color: var(--mut); text-decoration: none; }
+      .sections a:hover { color: var(--tx); }
       .langs { display: flex; gap: 4px; flex-wrap: wrap; }
       .langs a { font-size: 12px; color: var(--mut); text-decoration: none; padding: 3px 8px; border-radius: 14px; border: 1px solid transparent; }
       .langs a.on { color: var(--tx); border-color: var(--ac); }

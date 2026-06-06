@@ -1,0 +1,47 @@
+---
+import { languageTrends } from '../lib/trends';
+import { repos } from '../lib/data';
+import { t, type Locale } from '../i18n/ui';
+import LangTrends from './charts/LangTrends.tsx';
+import MonthlyBar from './charts/MonthlyBar.tsx';
+const { locale = 'en' } = Astro.props as { locale: Locale };
+const { years, languages } = languageTrends();
+const aiSeries = years.map((y) => ({ m: String(y.year), c: y.aiAdoptionPct }));
+---
+<h1 style="font-size:26px;margin:18px 0 6px">{t(locale, 'trends.heading')}</h1>
+<p style="color:var(--mut);margin:0 0 24px">{t(locale, 'trends.intro', { count: repos.length })}</p>
+
+<div class="card">
+  <h2>{t(locale, 'trends.lang.title')}</h2>
+  <p class="desc">{t(locale, 'trends.lang.desc')}</p>
+  <div style="height:300px"><LangTrends client:only="react" years={years} languages={languages} /></div>
+</div>
+
+<div class="card">
+  <h2>{t(locale, 'trends.ai.title')}</h2>
+  <p class="desc">{t(locale, 'trends.ai.desc')}</p>
+  <div style="height:170px"><MonthlyBar client:only="react" data={aiSeries} color="#3fb950" /></div>
+</div>
+
+<div class="card" style="padding:0;overflow:hidden">
+  <table>
+    <thead><tr>
+      <th>{t(locale, 'trends.table.year')}</th><th class="n">{t(locale, 'trends.table.repos')}</th>
+      <th>{t(locale, 'trends.table.topLang')}</th><th class="n">{t(locale, 'trends.table.ai')}</th>
+    </tr></thead>
+    <tbody>
+      {years.map((y) => (
+        <tr>
+          <td>{y.year}</td><td class="n">{y.count}</td>
+          <td>{y.topLang}</td><td class="n">{y.aiAdoptionPct}%</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<style>
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 10px 14px; border-bottom: 1px solid var(--bd); text-align: left; }
+  th { color: var(--mut); font-weight: 600; font-size: 12px; }
+  .n { text-align: right; font-variant-numeric: tabular-nums; }
+</style>

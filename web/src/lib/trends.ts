@@ -1,0 +1,51 @@
+// Cross-repo aggregations. Batch year is the time axis — no historical snapshots needed.
+import { repos, type RepoData } from './data';
+
+export interface YearBucket {
+  year: number;
+  count: number;
+  langs: Record<string, number>; // share 0..1 by bytes
+  topLang: string;
+  pkgManagers: Record<string, number>;
+  aiAdoptionPct: number; // % of repos in the cohort with an AI-coding signal
+}
+
+const AI_SIGNALS = new Set(['claude-code']); // infra markers that imply an AI coding tool
+
+function batchYear(r: RepoData): number | null {
+  return r.activity?.batch_year ?? null;
+}
+
+export function languageTrends(top = 8): { years: YearBucket[]; languages: string[] } {
+  const byYear = new Map<number, RepoData[]>();
+  for (const r of repos) {
+    const y = batchYear(r);
+    if (y == null) continue;
+    (byYear.get(y) ?? byYear.set(y, []).get(y)!).push(r);
+  }
+
+  // global top languages by total bytes (to keep the stack readable)
+  const globalBytes: Record<string, number> = {};
+  for (const r of repos) for (const [l, b] of Object.entries(r.stack?.languages ?? {})) globalBytes[l] = (globalBytes[l] ?? 0) + b;
+  const languages = Object.entries(globalBytes).sort((a, b) => b[1] - a[1]).slice(0, top).map(([l]) => l);
+
+  const years: YearBucket[] = [];
+  for (const [year, rs] of [...byYear.entries()].sort((a, b) => a[0] - b[0])) {
+    const bytes: Record<string, number> = {};
+    const pkg: Record<string, number> = {};
+    let aiCount = 0;
+    for (const r of rs) {
+      for (const [l, b] of Object.entries(r.stack?.languages ?? {})) bytes[l] = (bytes[l] ?? 0) + b;
+      if (r.stack?.pkg_manager) pkg[r.stack.pkg_manager] = (pkg[r.stack.pkg_manager] ?? 0) + 1;
+      const ai = (r.intensity?.ai_coauthor_total ?? 0) > 0 || (r.stack?.infra ?? []).some((i) => AI_SIGNALS.has(i));
+      if (ai) aiCount++;
+    }
+    const total = Object.values(bytes).reduce((a, b) => a + b, 0) || 1;
+    const langs: Record<string, number> = {};
+    for (const l of languages) langs[l] = (bytes[l] ?? 0) / total;
+    langs['Other'] = 1 - Object.values(langs).reduce((a, b) => a + b, 0);
+    const topLang = Object.entries(bytes).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '—';
+    years.push({ year, count: rs.length, langs, topLang, pkgManagers: pkg, aiAdoptionPct: Math.round((100 * aiCount) / rs.length) });
+  }
+  return { years, languages: [...languages, 'Other'] };
+}
