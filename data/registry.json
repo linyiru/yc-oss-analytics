@@ -1,0 +1,1575 @@
+{
+ "updated": "2026-06-06",
+ "companies": {
+  "ollama": {
+   "github": "ollama/ollama",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 173287,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "firecrawl": {
+   "github": "firecrawl/firecrawl",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 129159,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "supabase": {
+   "github": "supabase/supabase",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 103652,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "browser-use": {
+   "github": "browser-use/browser-use",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 97382,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "bun": {
+   "github": "oven-sh/bun",
+   "batch": "S19",
+   "status": "Acquired",
+   "stars": 92865,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "font-awesome": {
+   "github": "FortAwesome/Font-Awesome",
+   "batch": "S15",
+   "status": "Active",
+   "stars": 76630,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "unsloth-ai": {
+   "github": "unslothai/unsloth",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 65881,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "anythingllm": {
+   "github": "Mintplex-Labs/anything-llm",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 61120,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mem0": {
+   "github": "mem0ai/mem0",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 57832,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "flowiseai": {
+   "github": "FlowiseAI/Flowise",
+   "batch": "S23",
+   "status": "Acquired",
+   "stars": 53373,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "coreos": {
+   "github": "etcd-io/etcd",
+   "batch": "S13",
+   "status": "Acquired",
+   "stars": 51775,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "litellm": {
+   "github": "BerriAI/litellm",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 49432,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "twenty": {
+   "github": "twentyhq/twenty",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 49116,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "payload": {
+   "github": "payloadcms/payload",
+   "batch": "S22",
+   "status": "Acquired",
+   "stars": 42821,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mindsdb": {
+   "github": "mindsdb/minds-platform",
+   "batch": "W20",
+   "status": "Active",
+   "stars": 39253,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tiptap": {
+   "github": "ueberdosis/tiptap",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 37125,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mattermost": {
+   "github": "mattermost/mattermost",
+   "batch": "S12",
+   "status": "Active",
+   "stars": 37015,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "reworkd": {
+   "github": "reworkd/AgentGPT",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 36156,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "khoj": {
+   "github": "khoj-ai/khoj",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 34885,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "posthog": {
+   "github": "PostHog/posthog",
+   "batch": "W20",
+   "status": "Active",
+   "stars": 34880,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "refine": {
+   "github": "refinedev/refine",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 34835,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "influxdata": {
+   "github": "influxdata/influxdb",
+   "batch": "W13",
+   "status": "Active",
+   "stars": 31532,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "onyx": {
+   "github": "onyx-dot-app/onyx",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 30040,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "chatwoot": {
+   "github": "chatwoot/chatwoot",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 29974,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "better-auth": {
+   "github": "better-auth/better-auth",
+   "batch": "X25",
+   "status": "Active",
+   "stars": 28606,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "langfuse": {
+   "github": "langfuse/langfuse",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 28563,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "reflex": {
+   "github": "reflex-dev/reflex",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 28457,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "infisical": {
+   "github": "Infisical/infisical",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 27231,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "signoz": {
+   "github": "SigNoz/signoz",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 27214,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "rethinkdb": {
+   "github": "rethinkdb/rethinkdb",
+   "batch": "S09",
+   "status": "Acquired",
+   "stars": 27002,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "vibe-kanban": {
+   "github": "BloopAI/vibe-kanban",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 26818,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "sst": {
+   "github": "anomalyco/sst",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 26058,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "fig": {
+   "github": "withfig/autocomplete",
+   "batch": "S20",
+   "status": "Acquired",
+   "stars": 25190,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mastra": {
+   "github": "mastra-ai/mastra",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 24811,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "gitlab": {
+   "github": "gitlabhq/gitlabhq",
+   "batch": "W15",
+   "status": "Public",
+   "stars": 24366,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "sails-co": {
+   "github": "balderdashy/sails",
+   "batch": "W15",
+   "status": "Active",
+   "stars": 22809,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "activepieces": {
+   "github": "activepieces/activepieces",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 22577,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "skyvern": {
+   "github": "Skyvern-AI/skyvern",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 21832,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "airbyte": {
+   "github": "airbytehq/airbyte",
+   "batch": "W20",
+   "status": "Active",
+   "stars": 21392,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "manaflow": {
+   "github": "manaflow-ai/cmux",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 21168,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "pangolin": {
+   "github": "fosrl/pangolin",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 21000,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "wasmer": {
+   "github": "wasmerio/wasmer",
+   "batch": "S19",
+   "status": "Active",
+   "stars": 20790,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "apollo": {
+   "github": "apollographql/apollo-client",
+   "batch": "S11",
+   "status": "Active",
+   "stars": 19739,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "wasp": {
+   "github": "wasp-lang/wasp",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 18379,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "cua": {
+   "github": "trycua/cua",
+   "batch": "X25",
+   "status": "Active",
+   "stars": 17690,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "protocol-labs": {
+   "github": "ipfs/kubo",
+   "batch": "S14",
+   "status": "Active",
+   "stars": 17040,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "questdb": {
+   "github": "questdb/questdb",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 17030,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "windmill": {
+   "github": "windmill-labs/windmill",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 16662,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "confident-ai": {
+   "github": "confident-ai/deepeval",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 15940,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "trigger-dev": {
+   "github": "triggerdotdev/trigger.dev",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 15231,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "supertokens": {
+   "github": "supertokens/supertokens-core",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 15080,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "rowboat-labs": {
+   "github": "rowboatlabs/rowboat",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 14905,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "vibrant-labs": {
+   "github": "vibrantlabsai/ragas",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 14251,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "daily": {
+   "github": "pipecat-ai/pipecat",
+   "batch": "W16",
+   "status": "Active",
+   "stars": 12671,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "citus-data": {
+   "github": "citusdata/citus",
+   "batch": "S11",
+   "status": "Acquired",
+   "stars": 12540,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "keydb": {
+   "github": "Snapchat/KeyDB",
+   "batch": "S20",
+   "status": "Acquired",
+   "stars": 12485,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "asayer": {
+   "github": "openreplay/openreplay",
+   "batch": "S19",
+   "status": "Active",
+   "stars": 12089,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "keep": {
+   "github": "keephq/keep",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 11898,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "netmaker": {
+   "github": "gravitl/netmaker",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 11602,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "pyroscope": {
+   "github": "grafana/pyroscope",
+   "batch": "W21",
+   "status": "Acquired",
+   "stars": 11477,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "insforge": {
+   "github": "InsForge/InsForge",
+   "batch": "X26",
+   "status": "Active",
+   "stars": 10982,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "alokai": {
+   "github": "vuestorefront/vue-storefront",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 10929,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lancedb": {
+   "github": "lancedb/lancedb",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 10515,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "manufact": {
+   "github": "mcp-use/mcp-use",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 10059,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "nango": {
+   "github": "NangoHQ/nango",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 9925,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lago": {
+   "github": "getlago/lago",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 9770,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "hyperdx": {
+   "github": "hyperdxio/hyperdx",
+   "batch": "S22",
+   "status": "Acquired",
+   "stars": 9577,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "replicate": {
+   "github": "replicate/cog",
+   "batch": "W20",
+   "status": "Acquired",
+   "stars": 9420,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "highlight-io": {
+   "github": "highlight/highlight",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 9287,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "activeloop": {
+   "github": "activeloopai/deeplake",
+   "batch": "S18",
+   "status": "Active",
+   "stars": 9157,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "artillery": {
+   "github": "artilleryio/artillery",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 8993,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "paradedb": {
+   "github": "paradedb/paradedb",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 8905,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "firezone": {
+   "github": "firezone/firezone",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 8637,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "char": {
+   "github": "fastrepl/anarlog",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 8587,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "webiny": {
+   "github": "webiny/webiny-js",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 7989,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "growthbook": {
+   "github": "growthbook/growthbook",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 7855,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "evidently-ai": {
+   "github": "evidentlyai/evidently",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 7574,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "hatchet-run": {
+   "github": "hatchet-dev/hatchet",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 7296,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "traceloop": {
+   "github": "traceloop/openllmetry",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 7177,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "shuttle": {
+   "github": "shuttle-hq/shuttle",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 6922,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "authzed": {
+   "github": "authzed/spicedb",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 6759,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "requestly": {
+   "github": "requestly/requestly",
+   "batch": "W22",
+   "status": "Acquired",
+   "stars": 6725,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "stagewise": {
+   "github": "stagewise-io/stagewise",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 6687,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "superagent": {
+   "github": "superagent-ai/superagent",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 6621,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "docker": {
+   "github": "docker/cli",
+   "batch": "S10",
+   "status": "Active",
+   "stars": 5897,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "hubble": {
+   "github": "lightdash/lightdash",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 5872,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "helicone": {
+   "github": "Helicone/helicone",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 5783,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "rivet": {
+   "github": "rivet-dev/rivet",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 5564,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "cactus": {
+   "github": "cactus-compute/cactus",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 5302,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "arroyo": {
+   "github": "ArroyoSystems/arroyo",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 4932,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lunatic": {
+   "github": "lunatic-solutions/lunatic",
+   "batch": "W21",
+   "status": "Inactive",
+   "stars": 4869,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "jitsu": {
+   "github": "jitsucom/jitsu",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 4781,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "helixdb": {
+   "github": "HelixDB/helix-db",
+   "batch": "X25",
+   "status": "Active",
+   "stars": 4671,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "epicenter": {
+   "github": "EpicenterHQ/epicenter",
+   "batch": "S25",
+   "status": "Active",
+   "stars": 4604,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "moonrepo": {
+   "github": "moonrepo/moon",
+   "batch": "W23",
+   "status": "Inactive",
+   "stars": 3897,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "vocode": {
+   "github": "vocodedev/vocode-core",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 3755,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "fern": {
+   "github": "fern-api/fern",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 3651,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tracecat": {
+   "github": "TracecatHQ/tracecat",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 3630,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "morphik": {
+   "github": "morphik-org/morphik-core",
+   "batch": "X25",
+   "status": "Active",
+   "stars": 3605,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "okteto": {
+   "github": "okteto/okteto",
+   "batch": "W19",
+   "status": "Active",
+   "stars": 3510,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "sourcebot": {
+   "github": "sourcebot-dev/sourcebot",
+   "batch": "F25",
+   "status": "Active",
+   "stars": 3464,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "svix": {
+   "github": "svix/svix-webhooks",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 3237,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "peerdb": {
+   "github": "PeerDB-io/peerdb",
+   "batch": "S23",
+   "status": "Acquired",
+   "stars": 3134,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "hydra": {
+   "github": "duckdb/pg_duckdb",
+   "batch": "W22",
+   "status": "Acquired",
+   "stars": 3124,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "openpipe": {
+   "github": "OpenPipe/OpenPipe",
+   "batch": "S23",
+   "status": "Acquired",
+   "stars": 2809,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "convoy-2": {
+   "github": "frain-dev/convoy",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 2807,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "dittofeed": {
+   "github": "dittofeed/dittofeed",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 2790,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "trieve": {
+   "github": "devflowinc/trieve",
+   "batch": "W24",
+   "status": "Acquired",
+   "stars": 2673,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "pipelinedb": {
+   "github": "pipelinedb/pipelinedb",
+   "batch": "W14",
+   "status": "Acquired",
+   "stars": 2663,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mito": {
+   "github": "mito-ds/mito",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 2637,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "laudspeaker": {
+   "github": "laudspeaker/laudspeaker",
+   "batch": "W21",
+   "status": "Acquired",
+   "stars": 2601,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "dagworks-inc": {
+   "github": "apache/hamilton",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 2512,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "medplum": {
+   "github": "medplum/medplum",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 2384,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "elementary": {
+   "github": "elementary-data/elementary",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 2355,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "pretzel-ai": {
+   "github": "pretzelai/pretzelai",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 2188,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "superglue": {
+   "github": "superglue-ai/superglue",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 2019,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "mentra": {
+   "github": "Mentra-Community/MentraOS",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 2013,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lotus": {
+   "github": "uselotus/lotus",
+   "batch": "S22",
+   "status": "Inactive",
+   "stars": 1827,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "matano": {
+   "github": "matanolabs/matano",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 1675,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "beam": {
+   "github": "beam-cloud/beta9",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 1663,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "dench-com": {
+   "github": "DenchHQ/DenchClaw",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 1607,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "optic": {
+   "github": "opticdev/optic",
+   "batch": "S18",
+   "status": "Acquired",
+   "stars": 1534,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lunasec": {
+   "github": "lunasec-io/lunasec",
+   "batch": "S19",
+   "status": "Inactive",
+   "stars": 1469,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "warrant": {
+   "github": "warrant-dev/warrant",
+   "batch": "S21",
+   "status": "Acquired",
+   "stars": 1337,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "recipeui": {
+   "github": "RecipeUI/RecipeUI",
+   "batch": "S23",
+   "status": "Active",
+   "stars": 1336,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "formance": {
+   "github": "formancehq/ledger",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 1251,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "nao-labs": {
+   "github": "getnao/nao",
+   "batch": "X25",
+   "status": "Active",
+   "stars": 1247,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tesseral": {
+   "github": "tesseral-labs/tesseral",
+   "batch": "W24",
+   "status": "Inactive",
+   "stars": 1133,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "corsair": {
+   "github": "corsairdev/corsair",
+   "batch": "W25",
+   "status": "Active",
+   "stars": 1106,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lantern-2": {
+   "github": "lanterndata/lantern",
+   "batch": "W24",
+   "status": "Inactive",
+   "stars": 884,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "rownd": {
+   "github": "llama-farm/llamafarm",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 829,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "chaos-genius": {
+   "github": "chaos-genius/chaos_genius",
+   "batch": "W20",
+   "status": "Acquired",
+   "stars": 776,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "freestyle": {
+   "github": "freestyle-sh/Adorable",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 751,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "expected-parrot": {
+   "github": "expectedparrot/edsl",
+   "batch": "F25",
+   "status": "Active",
+   "stars": 464,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tensil": {
+   "github": "tensil-ai/tensil",
+   "batch": "S19",
+   "status": "Inactive",
+   "stars": 398,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "openfoundry": {
+   "github": "openfoundry-ai/model_manager",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 342,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "monosi": {
+   "github": "monosidev/monosi",
+   "batch": "S20",
+   "status": "Inactive",
+   "stars": 330,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "grai": {
+   "github": "grai-io/grai-core",
+   "batch": "S22",
+   "status": "Inactive",
+   "stars": 314,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "lamin": {
+   "github": "laminlabs/lamindb",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 267,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "stackup": {
+   "github": "stackup-wallet/stackup-bundler",
+   "batch": "S22",
+   "status": "Active",
+   "stars": 244,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "embrace": {
+   "github": "embrace-io/embrace-android-sdk",
+   "batch": "S19",
+   "status": "Active",
+   "stars": 187,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "botcity": {
+   "github": "botcity-dev/botcity-framework-core-python",
+   "batch": "W22",
+   "status": "Active",
+   "stars": 143,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tusk": {
+   "github": "Use-Tusk/tusk-cli",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 141,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "ukama": {
+   "github": "ukama/ukama",
+   "batch": "S20",
+   "status": "Active",
+   "stars": 129,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "opslane": {
+   "github": "opslane/opslane",
+   "batch": "S24",
+   "status": "Active",
+   "stars": 113,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "standard-cyborg": {
+   "github": "StandardCyborg/StandardCyborgSDK",
+   "batch": "W15",
+   "status": "Inactive",
+   "stars": 66,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "codestream": {
+   "github": "TeamCodeStream/codestream-server",
+   "batch": "W18",
+   "status": "Acquired",
+   "stars": 65,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "infracost": {
+   "github": "infracost/infracost-azure-devops",
+   "batch": "W21",
+   "status": "Active",
+   "stars": 62,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "sublingual": {
+   "github": "sublingual-ai/sublingual-monitoring",
+   "batch": "W25",
+   "status": "Inactive",
+   "stars": 52,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "common-paper": {
+   "github": "CommonPaper/Mutual-NDA",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 51,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "pipekit": {
+   "github": "pipekit/talk-demos",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 27,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "enso": {
+   "github": "enso-org/hiring",
+   "batch": "S21",
+   "status": "Active",
+   "stars": 27,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "openint": {
+   "github": "openint-bak/openint",
+   "batch": "W23",
+   "status": "Acquired",
+   "stars": 10,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "ncompass-technologies": {
+   "github": "nCompass-tech/ncompass",
+   "batch": "W24",
+   "status": "Active",
+   "stars": 10,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "data-mechanics": {
+   "github": "datamechanics/datamechanics_airflow_plugin",
+   "batch": "S19",
+   "status": "Acquired",
+   "stars": 3,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "tipe": {
+   "github": "markAPIado/tipe",
+   "batch": "W18",
+   "status": "Inactive",
+   "stars": 0,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  },
+  "kv-cash": {
+   "github": "kv-cash/spaim",
+   "batch": "W23",
+   "status": "Active",
+   "stars": 0,
+   "source": "yc-tag",
+   "last_seen": "2026-06-06",
+   "first_seen": "2026-06-06",
+   "state": "present"
+  }
+ }
+}
