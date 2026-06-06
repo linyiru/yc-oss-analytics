@@ -1,8 +1,21 @@
 ---
-import Base from '../layouts/Base.astro';
-import HomeBody from '../components/HomeBody.astro';
-import { t } from '../i18n/ui';
+import '../styles/ds.css';
+import '../styles/app.css';
+import Directory from '../components/Directory.jsx';
+import { companies } from '../lib/companies';
 ---
-<Base locale="en" title={t('en', 'site.title')} path="">
-  <HomeBody locale="en" />
-</Base>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>oss/signal — YC Open-Source Analytics</title>
+    <meta name="description" content="How 158 YC open-source teams actually build, decoded from public git history." />
+    <script is:inline>
+      try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <Directory client:only="react" companies={companies} />
+  </body>
+</html>
