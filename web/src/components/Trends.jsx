@@ -52,9 +52,9 @@ export default function Trends({ tr, initialLocale }) {
                 <thead><tr><th>Year</th><th className="num">Repos</th><th>Top language</th><th className="num">AI-assisted</th></tr></thead>
                 <tbody>
                   {tr.byYear.map((y) => (
-                    <tr key={y.year} style={{ cursor: 'default' }}>
+                    <tr key={y.year} style={{ cursor: 'default', opacity: y.repos < 5 ? 0.5 : 1 }} title={y.repos < 5 ? 'small sample (n<5) — not statistically meaningful' : undefined}>
                       <td className="mono" style={{ fontWeight: 600 }}>{y.year}</td>
-                      <td className="num mono tabular">{y.repos}</td>
+                      <td className="num mono tabular">{y.repos}{y.repos < 5 && <span className="faint" style={{ fontSize: 9, marginLeft: 4 }}>n&lt;5</span>}</td>
                       <td><span className="row gap-2" style={{ fontSize: 'var(--fs-sm)', color: 'var(--text-2)' }}><i style={{ width: 8, height: 8, borderRadius: 8, background: colorOf(y.topLang) }}></i>{y.topLang}</span></td>
                       <td><span className="row gap-3" style={{ justifyContent: 'flex-end' }}><b className="mono tabular" style={{ width: 30, textAlign: 'right' }}>{y.aiAvg}%</b><span className="meter" style={{ width: 56 }}><i style={{ width: y.aiAvg + '%', background: 'var(--accent)' }}></i></span></span></td>
                     </tr>
