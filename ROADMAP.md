@@ -44,12 +44,14 @@ Surface **signals, never verdicts** (see README ethics).
   cross-starring — **no roster of individuals**. Distinguishes legit YC-network amplification
   (high-quality accounts) from farmed stars (low-quality accounts).
 
-### "Most hustling" leaderboard — *now, needs identity resolution*
-Rank individual developers across all YC repos by playful "hustle" signals (volume, night-owl
-%, weekend %, marathon span, breadth). Requires an identity-resolution step (GitHub noreply
-emails → handle; group remaining by name/email). Spin-off awards: Night Owl, Weekend Warrior,
-Marathoner, One-Person Army, Most AI-native, Polyglot. **Framing:** commit-*timing* patterns,
-playful, public handles, opt-out, no work-life-balance judgment (see README).
+### "Most hustling" developer leaderboard — *rejected, will not build*
+A leaderboard ranking individual developers by "hustle" (night-owl %, weekend %, etc.) was
+considered and **deliberately dropped**. Our user-perspective review (YC partner, OSS
+maintainer, and others) was clear: ranking named individuals on work-timing glorifies overwork
+and turns commit history into personal surveillance — and the signal is methodologically weak
+(timezone/rebase/squash artifacts make "night owl" mostly an artifact). We keep work-rhythm data
+strictly at the **repo/aggregate level** (punch cards), never as a per-person leaderboard. The
+contributor view shows public handles and commit counts only.
 
 ## Data quality
 
@@ -75,7 +77,7 @@ repos to GH Archive / OSS Insight for unbounded daily history **and** per-star a
 - **Search**: client-side (Orama/Fuse) over a flat record index now; promote to a Workers
   endpoint or Algolia only when client-side stops scaling. Keep the published JSON
   flat/Algolia-ready.
-- **OG social cards** (Satori) per repo + per leaderboard — shareability.
+- **OG social cards** (Satori) per repo — shareability.
 - **Automation**: weekly GitHub Actions cron → re-crawl, accumulate star/fork/commit snapshots,
   commit `data/`, auto-deploy.
 - **i18n**: native review for ja / ko / pt (currently English fallback). en / zh-Hant / zh-Hans
