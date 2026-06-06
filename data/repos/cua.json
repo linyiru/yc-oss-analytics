@@ -1,0 +1,426 @@
+{
+ "slug": "cua",
+ "github": "trycua/cua",
+ "yc": {
+  "batch": "X25",
+  "team_size": 3,
+  "status": "Active",
+  "one_liner": "Give every agent a cloud desktop",
+  "website": "https://cua.ai",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 17708,
+  "forks": 1136,
+  "watchers": 62,
+  "open_issues": 358,
+  "commits": 2982,
+  "contributors": 73,
+  "license": "MIT",
+  "created": "2025-01-31",
+  "primary_lang": "HTML"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-01-31",
+  "last": "2026-06-05",
+  "span_months": 16.1
+ },
+ "intensity": {
+  "commits_per_week": 42.6,
+  "per_day": 6.09,
+  "weekend_pct": 20.8,
+  "punchcard": [
+   [
+    15,
+    7,
+    7,
+    0,
+    4,
+    2,
+    9,
+    3,
+    15,
+    41,
+    26,
+    23,
+    28,
+    26,
+    31,
+    38,
+    57,
+    54,
+    36,
+    20,
+    22,
+    24,
+    17,
+    11
+   ],
+   [
+    18,
+    14,
+    10,
+    16,
+    3,
+    1,
+    5,
+    7,
+    9,
+    21,
+    31,
+    36,
+    47,
+    31,
+    25,
+    32,
+    36,
+    27,
+    28,
+    9,
+    5,
+    13,
+    14,
+    25
+   ],
+   [
+    16,
+    9,
+    7,
+    4,
+    4,
+    8,
+    3,
+    5,
+    10,
+    17,
+    38,
+    29,
+    38,
+    37,
+    46,
+    54,
+    56,
+    32,
+    41,
+    26,
+    17,
+    36,
+    23,
+    21
+   ],
+   [
+    14,
+    3,
+    4,
+    3,
+    1,
+    2,
+    12,
+    13,
+    11,
+    17,
+    27,
+    30,
+    36,
+    16,
+    21,
+    27,
+    50,
+    26,
+    31,
+    20,
+    22,
+    15,
+    16,
+    25
+   ],
+   [
+    5,
+    2,
+    4,
+    8,
+    5,
+    3,
+    7,
+    3,
+    3,
+    3,
+    25,
+    27,
+    38,
+    27,
+    20,
+    18,
+    40,
+    27,
+    32,
+    17,
+    19,
+    16,
+    11,
+    5
+   ],
+   [
+    18,
+    28,
+    4,
+    4,
+    10,
+    7,
+    3,
+    0,
+    3,
+    5,
+    3,
+    7,
+    9,
+    4,
+    3,
+    2,
+    19,
+    24,
+    25,
+    38,
+    16,
+    24,
+    15,
+    12
+   ],
+   [
+    16,
+    10,
+    10,
+    9,
+    4,
+    3,
+    8,
+    9,
+    6,
+    6,
+    16,
+    14,
+    14,
+    10,
+    12,
+    16,
+    28,
+    32,
+    40,
+    26,
+    9,
+    17,
+    6,
+    15
+   ]
+  ],
+  "dow": [
+   516,
+   463,
+   577,
+   442,
+   365,
+   283,
+   336
+  ],
+  "ai_coauthor_total": 368
+ },
+ "workflow": {
+  "conventional_pct": 23,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 236
+   },
+   {
+    "k": "feat",
+    "v": 156
+   },
+   {
+    "k": "docs",
+    "v": 125
+   },
+   {
+    "k": "chore",
+    "v": 110
+   },
+   {
+    "k": "ci",
+    "v": 21
+   },
+   {
+    "k": "refactor",
+    "v": 19
+   },
+   {
+    "k": "blog",
+    "v": 3
+   }
+  ],
+  "merge_pct": 14.5,
+  "median_msg_len": 33
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 266,
+  "commits_90d": 505,
+  "commits_365d": 2418,
+  "active_contributors_90d": 22,
+  "years_since_first_commit": 1.3,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-01",
+   "c": 1
+  },
+  {
+   "m": "2025-02",
+   "c": 27
+  },
+  {
+   "m": "2025-03",
+   "c": 96
+  },
+  {
+   "m": "2025-04",
+   "c": 234
+  },
+  {
+   "m": "2025-05",
+   "c": 179
+  },
+  {
+   "m": "2025-06",
+   "c": 167
+  },
+  {
+   "m": "2025-07",
+   "c": 121
+  },
+  {
+   "m": "2025-08",
+   "c": 263
+  },
+  {
+   "m": "2025-09",
+   "c": 122
+  },
+  {
+   "m": "2025-10",
+   "c": 283
+  },
+  {
+   "m": "2025-11",
+   "c": 241
+  },
+  {
+   "m": "2025-12",
+   "c": 188
+  },
+  {
+   "m": "2026-01",
+   "c": 320
+  },
+  {
+   "m": "2026-02",
+   "c": 216
+  },
+  {
+   "m": "2026-03",
+   "c": 118
+  },
+  {
+   "m": "2026-04",
+   "c": 128
+  },
+  {
+   "m": "2026-05",
+   "c": 255
+  },
+  {
+   "m": "2026-06",
+   "c": 23
+  }
+ ],
+ "contributors": [
+  {
+   "name": "f-trycua",
+   "count": 758,
+   "pct": 25.4
+  },
+  {
+   "name": "Dillon DuPont",
+   "count": 508,
+   "pct": 17.0
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 384,
+   "pct": 12.9
+  },
+  {
+   "name": "Dillon DuPont",
+   "count": 231,
+   "pct": 7.7
+  },
+  {
+   "name": "James Murdza",
+   "count": 197,
+   "pct": 6.6
+  },
+  {
+   "name": "ddupont",
+   "count": 145,
+   "pct": 4.9
+  },
+  {
+   "name": "Sarina Li",
+   "count": 137,
+   "pct": 4.6
+  },
+  {
+   "name": "Morgan Dean",
+   "count": 120,
+   "pct": 4.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "HTML": 19291684,
+   "Python": 6158423,
+   "Rust": 2855553,
+   "Swift": 2096930,
+   "TypeScript": 861091,
+   "Shell": 620079,
+   "PowerShell": 230497,
+   "JavaScript": 103938,
+   "Jupyter Notebook": 97652,
+   "Nix": 93429,
+   "Dockerfile": 31277,
+   "C#": 20700,
+   "CSS": 9152,
+   "Java": 2605,
+   "Makefile": 2058,
+   "Batchfile": 1683,
+   "C": 18
+  },
+  "manifests": [
+   "package.json",
+   "pyproject.toml"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "docker",
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

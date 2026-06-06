@@ -1,0 +1,416 @@
+{
+ "slug": "superglue",
+ "github": "superglue-ai/superglue",
+ "yc": {
+  "batch": "W25",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "AI that fixes enterprise glue",
+  "website": "https://superglue.ai/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 2018,
+  "forks": 123,
+  "watchers": 8,
+  "open_issues": 7,
+  "commits": 1538,
+  "contributors": 24,
+  "license": "NOASSERTION",
+  "created": "2025-01-10",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-01-10",
+  "last": "2026-04-22",
+  "span_months": 15.3
+ },
+ "intensity": {
+  "commits_per_week": 23.1,
+  "per_day": 3.3,
+  "weekend_pct": 5.8,
+  "punchcard": [
+   [
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    15,
+    15,
+    17,
+    36,
+    19,
+    49,
+    30,
+    28,
+    14,
+    26,
+    7,
+    23,
+    6,
+    2
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0,
+    0,
+    0,
+    8,
+    35,
+    23,
+    21,
+    26,
+    28,
+    41,
+    42,
+    20,
+    37,
+    12,
+    6,
+    17,
+    8,
+    1
+   ],
+   [
+    1,
+    8,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    9,
+    23,
+    28,
+    21,
+    11,
+    33,
+    31,
+    21,
+    32,
+    37,
+    28,
+    21,
+    4,
+    3,
+    8
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    6,
+    10,
+    28,
+    33,
+    38,
+    14,
+    17,
+    19,
+    30,
+    16,
+    21,
+    19,
+    16,
+    9,
+    12,
+    8
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    7,
+    6,
+    11,
+    13,
+    37,
+    19,
+    23,
+    20,
+    16,
+    32,
+    0,
+    1,
+    0,
+    5,
+    10
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    2,
+    2,
+    2,
+    0,
+    0,
+    1,
+    5,
+    5,
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    6,
+    0,
+    4,
+    9,
+    4,
+    2,
+    8,
+    6,
+    1,
+    5,
+    1,
+    4,
+    4
+   ]
+  ],
+  "dow": [
+   297,
+   331,
+   321,
+   299,
+   201,
+   34,
+   55
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 4,
+  "conv": [
+   {
+    "k": "sync",
+    "v": 22
+   },
+   {
+    "k": "hotfix",
+    "v": 15
+   },
+   {
+    "k": "feat",
+    "v": 7
+   },
+   {
+    "k": "fix",
+    "v": 4
+   },
+   {
+    "k": "docs",
+    "v": 3
+   },
+   {
+    "k": "refactor",
+    "v": 2
+   },
+   {
+    "k": "bugfix",
+    "v": 2
+   }
+  ],
+  "merge_pct": 13.8,
+  "median_msg_len": 27
+ },
+ "activity": {
+  "last_commit_days": 45,
+  "commits_30d": 0,
+  "commits_90d": 5,
+  "commits_365d": 948,
+  "active_contributors_90d": 3,
+  "years_since_first_commit": 1.4,
+  "liveness": 62,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-01",
+   "c": 1
+  },
+  {
+   "m": "2025-02",
+   "c": 265
+  },
+  {
+   "m": "2025-03",
+   "c": 111
+  },
+  {
+   "m": "2025-04",
+   "c": 59
+  },
+  {
+   "m": "2025-05",
+   "c": 110
+  },
+  {
+   "m": "2025-06",
+   "c": 231
+  },
+  {
+   "m": "2025-07",
+   "c": 216
+  },
+  {
+   "m": "2025-08",
+   "c": 199
+  },
+  {
+   "m": "2025-09",
+   "c": 37
+  },
+  {
+   "m": "2025-10",
+   "c": 75
+  },
+  {
+   "m": "2025-11",
+   "c": 72
+  },
+  {
+   "m": "2025-12",
+   "c": 62
+  },
+  {
+   "m": "2026-01",
+   "c": 76
+  },
+  {
+   "m": "2026-02",
+   "c": 19
+  },
+  {
+   "m": "2026-03",
+   "c": 2
+  },
+  {
+   "m": "2026-04",
+   "c": 3
+  }
+ ],
+ "contributors": [
+  {
+   "name": "stefanfaistenauer",
+   "count": 702,
+   "pct": 45.6
+  },
+  {
+   "name": "Michael",
+   "count": 350,
+   "pct": 22.8
+  },
+  {
+   "name": "Nicolas Neudeck",
+   "count": 122,
+   "pct": 7.9
+  },
+  {
+   "name": "sfaist",
+   "count": 102,
+   "pct": 6.6
+  },
+  {
+   "name": "Nimar",
+   "count": 49,
+   "pct": 3.2
+  },
+  {
+   "name": "Nimar Blume",
+   "count": 48,
+   "pct": 3.1
+  },
+  {
+   "name": "Stefan Faistenauer",
+   "count": 41,
+   "pct": 2.7
+  },
+  {
+   "name": "mintlify[bot]",
+   "count": 34,
+   "pct": 2.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 3609514,
+   "Python": 103849,
+   "JavaScript": 53991,
+   "CSS": 22128,
+   "Shell": 10922,
+   "HTML": 3325,
+   "Dockerfile": 2403
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "npm",
+  "deps_top": [
+   "@types/node",
+   "d3-time",
+   "dotenv",
+   "dotenv-cli",
+   "posthog-js",
+   "superglue",
+   "typescript"
+  ],
+  "infra": [
+   "claude-code",
+   "docker-compose",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

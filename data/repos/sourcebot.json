@@ -1,0 +1,437 @@
+{
+ "slug": "sourcebot",
+ "github": "sourcebot-dev/sourcebot",
+ "yc": {
+  "batch": "F25",
+  "team_size": 3,
+  "status": "Active",
+  "one_liner": "Helping humans and AI agents understand massive codebases",
+  "website": "https://www.sourcebot.dev/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 3467,
+  "forks": 289,
+  "watchers": 14,
+  "open_issues": 133,
+  "commits": 1219,
+  "contributors": 53,
+  "license": "NOASSERTION",
+  "created": "2024-08-23",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-08-23",
+  "last": "2026-06-04",
+  "span_months": 21.4
+ },
+ "intensity": {
+  "commits_per_week": 13.1,
+  "per_day": 1.88,
+  "weekend_pct": 11.1,
+  "punchcard": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    2,
+    9,
+    18,
+    20,
+    14,
+    5,
+    15,
+    16,
+    10,
+    6,
+    11,
+    16,
+    10,
+    12,
+    10
+   ],
+   [
+    6,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2,
+    8,
+    22,
+    12,
+    22,
+    5,
+    25,
+    22,
+    21,
+    17,
+    13,
+    10,
+    20,
+    19,
+    16,
+    14
+   ],
+   [
+    4,
+    3,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    2,
+    4,
+    7,
+    15,
+    12,
+    18,
+    21,
+    12,
+    17,
+    20,
+    13,
+    8,
+    10,
+    14,
+    11,
+    9
+   ],
+   [
+    5,
+    1,
+    0,
+    3,
+    1,
+    2,
+    3,
+    0,
+    1,
+    3,
+    10,
+    12,
+    16,
+    27,
+    21,
+    20,
+    17,
+    35,
+    12,
+    10,
+    8,
+    12,
+    7,
+    1
+   ],
+   [
+    7,
+    5,
+    0,
+    0,
+    1,
+    0,
+    1,
+    4,
+    2,
+    4,
+    17,
+    13,
+    20,
+    25,
+    19,
+    24,
+    15,
+    21,
+    17,
+    5,
+    6,
+    5,
+    5,
+    3
+   ],
+   [
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2,
+    1,
+    2,
+    4,
+    6,
+    3,
+    10,
+    13,
+    13,
+    9,
+    0,
+    5,
+    5,
+    6,
+    3,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5,
+    2,
+    6,
+    6,
+    3,
+    0,
+    1,
+    3,
+    2,
+    0,
+    4,
+    7,
+    3
+   ]
+  ],
+  "dow": [
+   177,
+   257,
+   204,
+   227,
+   219,
+   92,
+   43
+  ],
+  "ai_coauthor_total": 182
+ },
+ "workflow": {
+  "conventional_pct": 45,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 205
+   },
+   {
+    "k": "chore",
+    "v": 166
+   },
+   {
+    "k": "feat",
+    "v": 131
+   },
+   {
+    "k": "docs",
+    "v": 17
+   },
+   {
+    "k": "refactor",
+    "v": 9
+   },
+   {
+    "k": "nit",
+    "v": 6
+   },
+   {
+    "k": "feature",
+    "v": 3
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 43
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 51,
+  "commits_90d": 264,
+  "commits_365d": 826,
+  "active_contributors_90d": 12,
+  "years_since_first_commit": 1.8,
+  "liveness": 99,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2024-08",
+   "c": 30
+  },
+  {
+   "m": "2024-09",
+   "c": 117
+  },
+  {
+   "m": "2024-10",
+   "c": 34
+  },
+  {
+   "m": "2024-11",
+   "c": 32
+  },
+  {
+   "m": "2024-12",
+   "c": 31
+  },
+  {
+   "m": "2025-01",
+   "c": 23
+  },
+  {
+   "m": "2025-02",
+   "c": 12
+  },
+  {
+   "m": "2025-03",
+   "c": 10
+  },
+  {
+   "m": "2025-04",
+   "c": 51
+  },
+  {
+   "m": "2025-05",
+   "c": 38
+  },
+  {
+   "m": "2025-06",
+   "c": 50
+  },
+  {
+   "m": "2025-07",
+   "c": 71
+  },
+  {
+   "m": "2025-08",
+   "c": 27
+  },
+  {
+   "m": "2025-09",
+   "c": 36
+  },
+  {
+   "m": "2025-10",
+   "c": 43
+  },
+  {
+   "m": "2025-11",
+   "c": 45
+  },
+  {
+   "m": "2025-12",
+   "c": 44
+  },
+  {
+   "m": "2026-01",
+   "c": 93
+  },
+  {
+   "m": "2026-02",
+   "c": 146
+  },
+  {
+   "m": "2026-03",
+   "c": 100
+  },
+  {
+   "m": "2026-04",
+   "c": 126
+  },
+  {
+   "m": "2026-05",
+   "c": 49
+  },
+  {
+   "m": "2026-06",
+   "c": 11
+  }
+ ],
+ "contributors": [
+  {
+   "name": "bkellam",
+   "count": 580,
+   "pct": 47.6
+  },
+  {
+   "name": "msukkari",
+   "count": 248,
+   "pct": 20.3
+  },
+  {
+   "name": "Brendan Kellam",
+   "count": 207,
+   "pct": 17.0
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 75,
+   "pct": 6.2
+  },
+  {
+   "name": "dependabot[bot]",
+   "count": 32,
+   "pct": 2.6
+  },
+  {
+   "name": "Konrad Staniszewski",
+   "count": 9,
+   "pct": 0.7
+  },
+  {
+   "name": "drew-u410",
+   "count": 7,
+   "pct": 0.6
+  },
+  {
+   "name": "Brian Phillips",
+   "count": 6,
+   "pct": 0.5
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 4773859,
+   "JavaScript": 82496,
+   "Shell": 15422,
+   "CSS": 13023,
+   "Dockerfile": 12348,
+   "HTML": 3748,
+   "Makefile": 1187,
+   "PLpgSQL": 729
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "yarn",
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "docker",
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

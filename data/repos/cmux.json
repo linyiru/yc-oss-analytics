@@ -1,0 +1,381 @@
+{
+ "slug": "cmux",
+ "github": "manaflow-ai/cmux",
+ "yc": {
+  "batch": null,
+  "team_size": null,
+  "status": null,
+  "one_liner": null,
+  "website": null,
+  "industry": null
+ },
+ "metrics": {
+  "stars": 21260,
+  "forks": 1613,
+  "watchers": 29,
+  "open_issues": 2470,
+  "commits": 3884,
+  "contributors": 108,
+  "license": "NOASSERTION",
+  "created": "2026-01-28",
+  "primary_lang": "Swift"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-01-22",
+  "last": "2026-06-06",
+  "span_months": 4.4
+ },
+ "intensity": {
+  "commits_per_week": 201.4,
+  "per_day": 28.77,
+  "weekend_pct": 15.7,
+  "punchcard": [
+   [
+    33,
+    37,
+    41,
+    47,
+    30,
+    10,
+    2,
+    5,
+    2,
+    3,
+    7,
+    8,
+    4,
+    3,
+    12,
+    27,
+    36,
+    31,
+    46,
+    53,
+    40,
+    27,
+    32,
+    45
+   ],
+   [
+    47,
+    50,
+    47,
+    47,
+    21,
+    20,
+    12,
+    0,
+    2,
+    7,
+    8,
+    6,
+    8,
+    9,
+    24,
+    29,
+    50,
+    60,
+    33,
+    34,
+    33,
+    65,
+    50,
+    29
+   ],
+   [
+    44,
+    60,
+    40,
+    42,
+    29,
+    14,
+    8,
+    8,
+    8,
+    4,
+    4,
+    9,
+    10,
+    33,
+    35,
+    54,
+    67,
+    60,
+    103,
+    50,
+    28,
+    21,
+    33,
+    26
+   ],
+   [
+    21,
+    38,
+    31,
+    37,
+    29,
+    38,
+    11,
+    6,
+    4,
+    6,
+    5,
+    5,
+    7,
+    7,
+    19,
+    25,
+    30,
+    55,
+    23,
+    38,
+    38,
+    38,
+    36,
+    18
+   ],
+   [
+    17,
+    26,
+    31,
+    33,
+    49,
+    29,
+    24,
+    24,
+    3,
+    8,
+    2,
+    9,
+    11,
+    16,
+    26,
+    42,
+    45,
+    45,
+    38,
+    35,
+    34,
+    27,
+    35,
+    38
+   ],
+   [
+    13,
+    23,
+    24,
+    29,
+    30,
+    12,
+    5,
+    1,
+    0,
+    2,
+    2,
+    4,
+    3,
+    5,
+    2,
+    9,
+    8,
+    14,
+    9,
+    10,
+    9,
+    18,
+    10,
+    10
+   ],
+   [
+    12,
+    10,
+    12,
+    11,
+    16,
+    7,
+    2,
+    3,
+    3,
+    0,
+    1,
+    2,
+    9,
+    6,
+    6,
+    12,
+    19,
+    38,
+    51,
+    31,
+    30,
+    37,
+    24,
+    16
+   ]
+  ],
+  "dow": [
+   581,
+   691,
+   790,
+   565,
+   647,
+   252,
+   358
+  ],
+  "ai_coauthor_total": 543
+ },
+ "workflow": {
+  "conventional_pct": 19,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 445
+   },
+   {
+    "k": "test",
+    "v": 110
+   },
+   {
+    "k": "feat",
+    "v": 40
+   },
+   {
+    "k": "ci",
+    "v": 32
+   },
+   {
+    "k": "docs",
+    "v": 18
+   },
+   {
+    "k": "chore",
+    "v": 15
+   },
+   {
+    "k": "web",
+    "v": 13
+   }
+  ],
+  "merge_pct": 16.3,
+  "median_msg_len": 47
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 1576,
+  "commits_90d": 2854,
+  "commits_365d": 3884,
+  "active_contributors_90d": 84,
+  "years_since_first_commit": 0.4,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": null,
+  "batch_age_years": null,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2026-01",
+   "c": 111
+  },
+  {
+   "m": "2026-02",
+   "c": 722
+  },
+  {
+   "m": "2026-03",
+   "c": 850
+  },
+  {
+   "m": "2026-04",
+   "c": 469
+  },
+  {
+   "m": "2026-05",
+   "c": 1260
+  },
+  {
+   "m": "2026-06",
+   "c": 472
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Lawrence Chen",
+   "count": 1523,
+   "pct": 39.2
+  },
+  {
+   "name": "austinpower1258",
+   "count": 1108,
+   "pct": 28.5
+  },
+  {
+   "name": "Lawrence Chen",
+   "count": 926,
+   "pct": 23.8
+  },
+  {
+   "name": "Aziz Albahar",
+   "count": 69,
+   "pct": 1.8
+  },
+  {
+   "name": "Abdulaziz Albahar",
+   "count": 58,
+   "pct": 1.5
+  },
+  {
+   "name": "Austin Wang",
+   "count": 11,
+   "pct": 0.3
+  },
+  {
+   "name": "Daniel Richards",
+   "count": 9,
+   "pct": 0.2
+  },
+  {
+   "name": "Achieve",
+   "count": 9,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Swift": 23604169,
+   "Python": 2425968,
+   "TypeScript": 1344320,
+   "HTML": 750136,
+   "Shell": 558729,
+   "Go": 416050,
+   "JavaScript": 83565,
+   "CSS": 74105,
+   "Rust": 29355,
+   "Objective-C": 11592,
+   "C": 284
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "bun",
+  "deps_top": [
+   "@opentui/core",
+   "prosemirror-commands",
+   "prosemirror-model",
+   "prosemirror-state",
+   "prosemirror-view",
+   "react",
+   "react-dom",
+   "solid-js",
+   "vercel"
+  ],
+  "infra": [
+   "bun",
+   "claude-code"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}
