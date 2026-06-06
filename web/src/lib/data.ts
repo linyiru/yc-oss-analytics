@@ -24,3 +24,9 @@ export const repos: RepoData[] = Object.values(modules)
   .sort((a, b) => b.metrics.stars - a.metrics.stars);
 
 export const repoBySlug = (slug: string): RepoData | undefined => repos.find((r) => r.slug === slug);
+
+// AI dev-tool detection (separate, optional file produced by pipeline/dev_tools.py)
+export interface DevTools { github: string; ai_tools: string[]; editors: string[]; evidence: string }
+const devToolsMod = import.meta.glob<{ default: Record<string, DevTools> }>('../data/dev_tools.json', { eager: true });
+export const devTools: Record<string, DevTools> = (Object.values(devToolsMod)[0] as any)?.default ?? {};
+export const devToolsFor = (slug: string): DevTools | undefined => devTools[slug];

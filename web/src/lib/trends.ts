@@ -1,5 +1,21 @@
 // Cross-repo aggregations. Batch year is the time axis — no historical snapshots needed.
-import { repos, type RepoData } from './data';
+import { repos, devTools, type RepoData } from './data';
+
+export function devToolAdoption(): { scanned: number; withAI: number; tools: { name: string; count: number; pct: number }[]; editors: { name: string; count: number }[] } {
+  const entries = Object.values(devTools);
+  const scanned = entries.length;
+  const ai: Record<string, number> = {}, ed: Record<string, number> = {};
+  let withAI = 0;
+  for (const e of entries) {
+    if (e.ai_tools.length) withAI++;
+    for (const t of e.ai_tools) ai[t] = (ai[t] ?? 0) + 1;
+    for (const x of e.editors) ed[x] = (ed[x] ?? 0) + 1;
+  }
+  const tools = Object.entries(ai).sort((a, b) => b[1] - a[1])
+    .map(([name, count]) => ({ name, count, pct: scanned ? Math.round((100 * count) / scanned) : 0 }));
+  const editors = Object.entries(ed).sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
+  return { scanned, withAI, tools, editors };
+}
 
 export interface YearBucket {
   year: number;
