@@ -272,8 +272,9 @@ function SelectChip({ value, onChange, label, options }) {
   );
 }
 
-export default function Directory({ companies = [] }) {
+export default function Directory({ companies = [], initialLocale }) {
   const { intl, T } = useStore();
+  useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
   const all = companies;
   const [q, setQ] = useState('');
   const [type, setType] = useState('All');
