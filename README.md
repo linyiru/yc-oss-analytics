@@ -136,18 +136,25 @@ bash pipeline/fetch_sources.sh
 # 1. build the ranked candidate list (yc-oss datasets + manual overrides)
 python3 pipeline/build_candidates.py
 
-# 2. analyze one repo -> data/repos/<slug>.json
-python3 pipeline/run.py <slug> <owner/repo> [--full] [--stars]
+# 2a. analyze one repo -> data/repos/<slug>.json
+python3 pipeline/run.py <slug> <owner/repo> [--full] [--stars] [--cleanup]
 
-# 3. (optional) find open-source companies the YC tag missed
-python3 pipeline/discover.py
+# 2b. or analyze everything tracked, disk-safely (one clone at a time, deleted after)
+python3 pipeline/bulk.py [--no-stars] [N]
 
-# 4. site
+# 3. maintain the registry: detect companies that appeared / disappeared upstream
+python3 pipeline/update.py
+
+# 4. (optional) recover open-source companies the YC tag missed (link-verified review queue)
+python3 pipeline/discover.py [N | --all]
+
+# 5. site
 cd web && pnpm install && pnpm dev
 ```
 
 `--full` does a full clone (enables churn); default is a blobless clone (cheaper, metadata
-only). `--stars` reconstructs the star curve (API-heavy).
+only). `--stars` reconstructs the star curve (API-heavy). `--cleanup` deletes the clone after
+analysis — `bulk.py` uses it so hundreds of repos never pile up on disk.
 
 ## GitHub API rate limits — and how we respect them
 

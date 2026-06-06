@@ -48,11 +48,17 @@ playful, public handles, opt-out, no work-life-balance judgment (see README).
 
 ## Data quality
 
-### Verification-based discovery — *now (scrape + verify)*
-Recover open-source YC companies the official tag misses (empty-tag false negatives). Scrape
-company sites for `github.com` links, cross-check the org's profile domain against the company
-domain. Quantify the "YC mis-tag rate." Naive domain→org guessing is too noisy (false
-positives) — verification required.
+### Verification-based discovery — *implemented; full sweep pending*
+Recover open-source YC companies the official tag misses (empty-tag false negatives).
+`pipeline/discover.py` scrapes company sites for `github.com/<org>` links and accepts an org
+only if (a) its GitHub profile points back to the company domain / name matches, **or** (b) the
+site showcases 2+ distinct repos under it. Naive domain→org guessing was too noisy; the
+bidirectional check kills false positives (verified: it rejects `google/<tool>` linked from an
+unrelated company, and accepts a real untagged-OSS company whose org blog matches its domain).
+Emits `data/discovered.json` as a **human-review queue**, never auto-applied.
+**Empirical finding:** sampling shows the upstream mis-tag rate is *low* — most untagged
+companies genuinely aren't open source — so the missing set is small (a handful), not a
+systemic gap. A full `--all` sweep (≈5.7k HTTP fetches) should run as a one-off CI job.
 
 ### Daily-exact star curves — *archive for >40k; now for smaller*
 Full pagination gives exact daily curves under the ~40k-star (400-page) API ceiling. Move large
