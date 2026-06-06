@@ -1,0 +1,352 @@
+{
+ "slug": "superagent",
+ "github": "superagent-ai/superagent",
+ "yc": {
+  "batch": "W24",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Red teaming for AI agents",
+  "website": "https://superagent.sh/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 6622,
+  "forks": 957,
+  "watchers": 59,
+  "open_issues": 8,
+  "commits": 145,
+  "contributors": 6,
+  "license": "MIT",
+  "created": "2023-05-10",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-08-19",
+  "last": "2026-04-11",
+  "span_months": 7.7
+ },
+ "intensity": {
+  "commits_per_week": 4.3,
+  "per_day": 0.62,
+  "weekend_pct": 2.8,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    3,
+    0,
+    2,
+    1,
+    0,
+    4,
+    5,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    7,
+    16,
+    1,
+    2,
+    3,
+    5,
+    1,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    6,
+    7,
+    6,
+    7,
+    2,
+    1,
+    3,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    3,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   27,
+   43,
+   40,
+   19,
+   12,
+   2,
+   2
+  ],
+  "ai_coauthor_total": 13
+ },
+ "workflow": {
+  "conventional_pct": 30,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 25
+   },
+   {
+    "k": "chore",
+    "v": 8
+   },
+   {
+    "k": "fix",
+    "v": 6
+   },
+   {
+    "k": "docs",
+    "v": 3
+   },
+   {
+    "k": "test",
+    "v": 2
+   }
+  ],
+  "merge_pct": 4.0,
+  "median_msg_len": 37
+ },
+ "activity": {
+  "last_commit_days": 56,
+  "commits_30d": 0,
+  "commits_90d": 4,
+  "commits_365d": 145,
+  "active_contributors_90d": 2,
+  "years_since_first_commit": 0.8,
+  "liveness": 59,
+  "still_active": false,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-08",
+   "c": 48
+  },
+  {
+   "m": "2025-09",
+   "c": 16
+  },
+  {
+   "m": "2025-10",
+   "c": 32
+  },
+  {
+   "m": "2025-11",
+   "c": 6
+  },
+  {
+   "m": "2025-12",
+   "c": 9
+  },
+  {
+   "m": "2026-01",
+   "c": 16
+  },
+  {
+   "m": "2026-02",
+   "c": 14
+  },
+  {
+   "m": "2026-03",
+   "c": 3
+  },
+  {
+   "m": "2026-04",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Ismail Pelaseyed",
+   "count": 128,
+   "pct": 88.3
+  },
+  {
+   "name": "Alan Zabihi",
+   "count": 6,
+   "pct": 4.1
+  },
+  {
+   "name": "Ismail Pelaseyed",
+   "count": 4,
+   "pct": 2.8
+  },
+  {
+   "name": "jaydenfyi",
+   "count": 3,
+   "pct": 2.1
+  },
+  {
+   "name": "CDrake",
+   "count": 2,
+   "pct": 1.4
+  },
+  {
+   "name": "Dushyant",
+   "count": 2,
+   "pct": 1.4
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 254206,
+   "Python": 197163,
+   "JavaScript": 15744
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

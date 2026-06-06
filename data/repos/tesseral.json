@@ -1,0 +1,385 @@
+{
+ "slug": "tesseral",
+ "github": "tesseral-labs/tesseral",
+ "yc": {
+  "batch": "W24",
+  "team_size": 5,
+  "status": "Inactive",
+  "one_liner": "The open source platform for managing identity in business software",
+  "website": "https://tesseral.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 1133,
+  "forks": 51,
+  "watchers": 4,
+  "open_issues": 20,
+  "commits": 545,
+  "contributors": 7,
+  "license": "MIT",
+  "created": "2024-10-27",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-10-27",
+  "last": "2025-09-10",
+  "span_months": 10.5
+ },
+ "intensity": {
+  "commits_per_week": 12.0,
+  "per_day": 1.71,
+  "weekend_pct": 4.8,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    10,
+    24,
+    24,
+    4,
+    11,
+    5,
+    13,
+    9,
+    5,
+    2,
+    3,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    8,
+    11,
+    28,
+    9,
+    3,
+    13,
+    15,
+    6,
+    3,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    7,
+    7,
+    9,
+    10,
+    15,
+    9,
+    8,
+    3,
+    1,
+    0,
+    0,
+    6,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    8,
+    17,
+    17,
+    8,
+    20,
+    15,
+    12,
+    7,
+    6,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    17,
+    17,
+    18,
+    4,
+    9,
+    15,
+    5,
+    11,
+    7,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    4,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    4,
+    3,
+    2,
+    1,
+    0,
+    1,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   114,
+   101,
+   80,
+   117,
+   107,
+   7,
+   19
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 2,
+  "conv": [
+   {
+    "k": "console",
+    "v": 2
+   },
+   {
+    "k": "backend",
+    "v": 1
+   },
+   {
+    "k": "chore",
+    "v": 1
+   },
+   {
+    "k": "saml",
+    "v": 1
+   },
+   {
+    "k": "pageshell",
+    "v": 1
+   },
+   {
+    "k": "vault",
+    "v": 1
+   },
+   {
+    "k": "exchangeintermediatesessionforneworganizationsession",
+    "v": 1
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 49
+ },
+ "activity": {
+  "last_commit_days": 269,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 117,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 1.6,
+  "liveness": 14,
+  "still_active": false,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2024-10",
+   "c": 1
+  },
+  {
+   "m": "2024-11",
+   "c": 23
+  },
+  {
+   "m": "2024-12",
+   "c": 56
+  },
+  {
+   "m": "2025-01",
+   "c": 113
+  },
+  {
+   "m": "2025-02",
+   "c": 106
+  },
+  {
+   "m": "2025-03",
+   "c": 39
+  },
+  {
+   "m": "2025-04",
+   "c": 39
+  },
+  {
+   "m": "2025-05",
+   "c": 45
+  },
+  {
+   "m": "2025-06",
+   "c": 45
+  },
+  {
+   "m": "2025-07",
+   "c": 63
+  },
+  {
+   "m": "2025-08",
+   "c": 13
+  },
+  {
+   "m": "2025-09",
+   "c": 2
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Ulysse Carion",
+   "count": 286,
+   "pct": 52.5
+  },
+  {
+   "name": "Blake Williams",
+   "count": 190,
+   "pct": 34.9
+  },
+  {
+   "name": "Dillon Nys",
+   "count": 62,
+   "pct": 11.4
+  },
+  {
+   "name": "dependabot[bot]",
+   "count": 3,
+   "pct": 0.6
+  },
+  {
+   "name": "Blake Williams",
+   "count": 2,
+   "pct": 0.4
+  },
+  {
+   "name": "Ned O'Leary",
+   "count": 1,
+   "pct": 0.2
+  },
+  {
+   "name": "Matias Insaurralde",
+   "count": 1,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 1448826,
+   "Go": 1378913,
+   "CSS": 8466,
+   "JavaScript": 6645,
+   "Shell": 4599,
+   "Dockerfile": 3883,
+   "Makefile": 2961,
+   "HTML": 1448
+  },
+  "manifests": [
+   "package.json",
+   "go.mod"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

@@ -1,0 +1,392 @@
+{
+ "slug": "insforge",
+ "github": "InsForge/InsForge",
+ "yc": {
+  "batch": "X26",
+  "team_size": 6,
+  "status": "Active",
+  "one_liner": "The agent-native cloud infrastructure platform",
+  "website": "https://insforge.dev/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 11407,
+  "forks": 969,
+  "watchers": 34,
+  "open_issues": 86,
+  "commits": 3374,
+  "contributors": 103,
+  "license": "Apache-2.0",
+  "created": "2025-07-29",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-07-28",
+  "last": "2026-06-05",
+  "span_months": 10.2
+ },
+ "intensity": {
+  "commits_per_week": 75.9,
+  "per_day": 10.85,
+  "weekend_pct": 21.0,
+  "punchcard": [
+   [
+    17,
+    13,
+    7,
+    1,
+    2,
+    3,
+    0,
+    2,
+    7,
+    12,
+    13,
+    50,
+    33,
+    34,
+    48,
+    52,
+    48,
+    56,
+    15,
+    27,
+    32,
+    35,
+    50,
+    29
+   ],
+   [
+    22,
+    16,
+    3,
+    1,
+    0,
+    0,
+    0,
+    5,
+    3,
+    7,
+    35,
+    35,
+    32,
+    20,
+    55,
+    30,
+    48,
+    42,
+    28,
+    20,
+    14,
+    31,
+    33,
+    41
+   ],
+   [
+    14,
+    7,
+    3,
+    0,
+    0,
+    0,
+    3,
+    6,
+    8,
+    14,
+    31,
+    38,
+    53,
+    26,
+    37,
+    42,
+    45,
+    49,
+    28,
+    15,
+    20,
+    40,
+    22,
+    22
+   ],
+   [
+    14,
+    7,
+    5,
+    2,
+    2,
+    3,
+    2,
+    8,
+    2,
+    12,
+    20,
+    47,
+    31,
+    44,
+    52,
+    47,
+    44,
+    50,
+    13,
+    23,
+    39,
+    20,
+    24,
+    15
+   ],
+   [
+    14,
+    3,
+    2,
+    2,
+    1,
+    2,
+    7,
+    16,
+    5,
+    16,
+    22,
+    31,
+    30,
+    19,
+    44,
+    37,
+    36,
+    45,
+    31,
+    14,
+    29,
+    36,
+    47,
+    20
+   ],
+   [
+    15,
+    6,
+    4,
+    2,
+    5,
+    5,
+    4,
+    3,
+    7,
+    12,
+    15,
+    15,
+    14,
+    30,
+    21,
+    19,
+    14,
+    30,
+    25,
+    25,
+    18,
+    31,
+    29,
+    28
+   ],
+   [
+    17,
+    13,
+    5,
+    4,
+    1,
+    2,
+    1,
+    2,
+    3,
+    10,
+    16,
+    21,
+    27,
+    20,
+    20,
+    17,
+    36,
+    16,
+    8,
+    12,
+    16,
+    17,
+    27,
+    21
+   ]
+  ],
+  "dow": [
+   586,
+   521,
+   523,
+   526,
+   509,
+   377,
+   332
+  ],
+  "ai_coauthor_total": 243
+ },
+ "workflow": {
+  "conventional_pct": 26,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 358
+   },
+   {
+    "k": "feat",
+    "v": 164
+   },
+   {
+    "k": "chore",
+    "v": 104
+   },
+   {
+    "k": "docs",
+    "v": 102
+   },
+   {
+    "k": "refactor",
+    "v": 53
+   },
+   {
+    "k": "style",
+    "v": 30
+   },
+   {
+    "k": "test",
+    "v": 19
+   }
+  ],
+  "merge_pct": 21.3,
+  "median_msg_len": 29
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 369,
+  "commits_90d": 1098,
+  "commits_365d": 3374,
+  "active_contributors_90d": 61,
+  "years_since_first_commit": 0.9,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-07",
+   "c": 51
+  },
+  {
+   "m": "2025-08",
+   "c": 347
+  },
+  {
+   "m": "2025-09",
+   "c": 441
+  },
+  {
+   "m": "2025-10",
+   "c": 439
+  },
+  {
+   "m": "2025-11",
+   "c": 257
+  },
+  {
+   "m": "2025-12",
+   "c": 179
+  },
+  {
+   "m": "2026-01",
+   "c": 378
+  },
+  {
+   "m": "2026-02",
+   "c": 147
+  },
+  {
+   "m": "2026-03",
+   "c": 349
+  },
+  {
+   "m": "2026-04",
+   "c": 365
+  },
+  {
+   "m": "2026-05",
+   "c": 357
+  },
+  {
+   "m": "2026-06",
+   "c": 64
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Lyu",
+   "count": 934,
+   "pct": 27.7
+  },
+  {
+   "name": "Leo-rq-yu",
+   "count": 476,
+   "pct": 14.1
+  },
+  {
+   "name": "jwfing",
+   "count": 402,
+   "pct": 11.9
+  },
+  {
+   "name": "yaowenc2",
+   "count": 385,
+   "pct": 11.4
+  },
+  {
+   "name": "yaowenc2",
+   "count": 309,
+   "pct": 9.2
+  },
+  {
+   "name": "CarmenDou",
+   "count": 228,
+   "pct": 6.8
+  },
+  {
+   "name": "Abinand P",
+   "count": 42,
+   "pct": 1.2
+  },
+  {
+   "name": "HarshSharma0801",
+   "count": 38,
+   "pct": 1.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 4278562,
+   "Shell": 227399,
+   "PLpgSQL": 72520,
+   "JavaScript": 28046,
+   "CSS": 10868,
+   "Dockerfile": 7331,
+   "HTML": 3201
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "npm",
+  "deps_top": [],
+  "infra": [
+   "docker",
+   "docker-compose",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

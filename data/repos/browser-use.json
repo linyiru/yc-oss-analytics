@@ -1,0 +1,424 @@
+{
+ "slug": "browser-use",
+ "github": "browser-use/browser-use",
+ "yc": {
+  "batch": "W25",
+  "team_size": 7,
+  "status": "Active",
+  "one_liner": "Leading open-source web agent project with 50k stars in 3 months",
+  "website": "https://browser-use.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 97482,
+  "forks": 10901,
+  "watchers": 437,
+  "open_issues": 270,
+  "commits": 6663,
+  "contributors": 357,
+  "license": "MIT",
+  "created": "2024-10-31",
+  "primary_lang": "Python"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-10-31",
+  "last": "2026-06-06",
+  "span_months": 19.1
+ },
+ "intensity": {
+  "commits_per_week": 80.1,
+  "per_day": 11.45,
+  "weekend_pct": 23.8,
+  "punchcard": [
+   [
+    18,
+    15,
+    9,
+    6,
+    6,
+    7,
+    6,
+    15,
+    19,
+    26,
+    52,
+    49,
+    28,
+    50,
+    55,
+    65,
+    77,
+    85,
+    87,
+    40,
+    57,
+    61,
+    58,
+    47
+   ],
+   [
+    39,
+    25,
+    38,
+    34,
+    11,
+    24,
+    24,
+    29,
+    28,
+    21,
+    41,
+    56,
+    78,
+    62,
+    73,
+    62,
+    70,
+    81,
+    87,
+    51,
+    40,
+    69,
+    70,
+    77
+   ],
+   [
+    38,
+    36,
+    32,
+    10,
+    3,
+    4,
+    15,
+    19,
+    28,
+    45,
+    61,
+    69,
+    58,
+    45,
+    59,
+    56,
+    70,
+    65,
+    46,
+    57,
+    36,
+    52,
+    76,
+    70
+   ],
+   [
+    54,
+    22,
+    28,
+    8,
+    14,
+    20,
+    12,
+    19,
+    17,
+    29,
+    57,
+    67,
+    48,
+    31,
+    59,
+    38,
+    59,
+    57,
+    77,
+    67,
+    40,
+    39,
+    50,
+    59
+   ],
+   [
+    51,
+    53,
+    40,
+    32,
+    15,
+    24,
+    9,
+    11,
+    19,
+    17,
+    27,
+    34,
+    32,
+    42,
+    49,
+    44,
+    51,
+    64,
+    84,
+    67,
+    28,
+    39,
+    38,
+    57
+   ],
+   [
+    39,
+    33,
+    15,
+    30,
+    18,
+    15,
+    12,
+    11,
+    21,
+    41,
+    47,
+    45,
+    54,
+    31,
+    26,
+    41,
+    30,
+    50,
+    65,
+    36,
+    36,
+    43,
+    34,
+    46
+   ],
+   [
+    21,
+    13,
+    13,
+    8,
+    3,
+    6,
+    10,
+    12,
+    22,
+    18,
+    28,
+    44,
+    61,
+    33,
+    44,
+    51,
+    57,
+    72,
+    42,
+    39,
+    44,
+    46,
+    41,
+    40
+   ]
+  ],
+  "dow": [
+   938,
+   1190,
+   1050,
+   971,
+   927,
+   819,
+   768
+  ],
+  "ai_coauthor_total": 99
+ },
+ "workflow": {
+  "conventional_pct": 11,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 395
+   },
+   {
+    "k": "feat",
+    "v": 127
+   },
+   {
+    "k": "refactor",
+    "v": 65
+   },
+   {
+    "k": "docs",
+    "v": 44
+   },
+   {
+    "k": "chore",
+    "v": 38
+   },
+   {
+    "k": "style",
+    "v": 15
+   },
+   {
+    "k": "test",
+    "v": 10
+   }
+  ],
+  "merge_pct": 31.1,
+  "median_msg_len": 34
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 418,
+  "commits_90d": 706,
+  "commits_365d": 4588,
+  "active_contributors_90d": 36,
+  "years_since_first_commit": 1.6,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2024-10",
+   "c": 4
+  },
+  {
+   "m": "2024-11",
+   "c": 280
+  },
+  {
+   "m": "2024-12",
+   "c": 117
+  },
+  {
+   "m": "2025-01",
+   "c": 240
+  },
+  {
+   "m": "2025-02",
+   "c": 308
+  },
+  {
+   "m": "2025-03",
+   "c": 264
+  },
+  {
+   "m": "2025-04",
+   "c": 202
+  },
+  {
+   "m": "2025-05",
+   "c": 587
+  },
+  {
+   "m": "2025-06",
+   "c": 827
+  },
+  {
+   "m": "2025-07",
+   "c": 729
+  },
+  {
+   "m": "2025-08",
+   "c": 712
+  },
+  {
+   "m": "2025-09",
+   "c": 437
+  },
+  {
+   "m": "2025-10",
+   "c": 589
+  },
+  {
+   "m": "2025-11",
+   "c": 238
+  },
+  {
+   "m": "2025-12",
+   "c": 71
+  },
+  {
+   "m": "2026-01",
+   "c": 130
+  },
+  {
+   "m": "2026-02",
+   "c": 197
+  },
+  {
+   "m": "2026-03",
+   "c": 190
+  },
+  {
+   "m": "2026-04",
+   "c": 115
+  },
+  {
+   "m": "2026-05",
+   "c": 52
+  },
+  {
+   "m": "2026-06",
+   "c": 374
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Magnus Müller",
+   "count": 2023,
+   "pct": 30.4
+  },
+  {
+   "name": "Nick Sweeting",
+   "count": 1273,
+   "pct": 19.1
+  },
+  {
+   "name": "magmueller",
+   "count": 418,
+   "pct": 6.3
+  },
+  {
+   "name": "mertunsall",
+   "count": 412,
+   "pct": 6.2
+  },
+  {
+   "name": "Gregor Žunič",
+   "count": 361,
+   "pct": 5.4
+  },
+  {
+   "name": "Saurav Panda",
+   "count": 299,
+   "pct": 4.5
+  },
+  {
+   "name": "ShawnPana",
+   "count": 247,
+   "pct": 3.7
+  },
+  {
+   "name": "Alezander9",
+   "count": 109,
+   "pct": 1.6
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Python": 3639964,
+   "Shell": 42741,
+   "Dockerfile": 11201,
+   "HTML": 7953
+  },
+  "manifests": [
+   "pyproject.toml"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "docker"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

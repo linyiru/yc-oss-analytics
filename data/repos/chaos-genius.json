@@ -1,0 +1,427 @@
+{
+ "slug": "chaos-genius",
+ "github": "chaos-genius/chaos_genius",
+ "yc": {
+  "batch": "W20",
+  "team_size": 10,
+  "status": "Acquired",
+  "one_liner": "DataOps Observability Platform for Snowflake",
+  "website": "http://www.chaosgenius.io",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 776,
+  "forks": 85,
+  "watchers": 2,
+  "open_issues": 74,
+  "commits": 2521,
+  "contributors": 44,
+  "license": "MIT",
+  "created": "2021-05-27",
+  "primary_lang": "Python"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2021-05-27",
+  "last": "2024-09-12",
+  "span_months": 39.6
+ },
+ "intensity": {
+  "commits_per_week": 14.7,
+  "per_day": 2.1,
+  "weekend_pct": 7.1,
+  "punchcard": [
+   [
+    2,
+    5,
+    0,
+    1,
+    8,
+    8,
+    2,
+    2,
+    9,
+    8,
+    38,
+    36,
+    34,
+    21,
+    26,
+    36,
+    45,
+    51,
+    45,
+    28,
+    15,
+    14,
+    10,
+    10
+   ],
+   [
+    6,
+    1,
+    0,
+    2,
+    0,
+    0,
+    2,
+    2,
+    1,
+    12,
+    25,
+    38,
+    40,
+    47,
+    34,
+    19,
+    47,
+    51,
+    35,
+    43,
+    37,
+    19,
+    12,
+    15
+   ],
+   [
+    13,
+    4,
+    6,
+    6,
+    1,
+    0,
+    0,
+    3,
+    10,
+    19,
+    32,
+    44,
+    58,
+    42,
+    23,
+    37,
+    35,
+    34,
+    27,
+    21,
+    13,
+    7,
+    17,
+    8
+   ],
+   [
+    5,
+    6,
+    1,
+    2,
+    4,
+    2,
+    4,
+    11,
+    1,
+    49,
+    26,
+    37,
+    66,
+    40,
+    40,
+    39,
+    33,
+    39,
+    29,
+    28,
+    13,
+    17,
+    18,
+    14
+   ],
+   [
+    14,
+    5,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    12,
+    8,
+    28,
+    52,
+    44,
+    26,
+    23,
+    41,
+    36,
+    37,
+    29,
+    22,
+    15,
+    2,
+    9,
+    8
+   ],
+   [
+    1,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    8,
+    8,
+    15,
+    12,
+    18,
+    12,
+    16,
+    9,
+    12,
+    8,
+    4,
+    1,
+    0,
+    0,
+    3
+   ],
+   [
+    5,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    1,
+    1,
+    6,
+    3,
+    3,
+    1,
+    0,
+    5,
+    3,
+    6,
+    4,
+    4,
+    0,
+    1,
+    1
+   ]
+  ],
+  "dow": [
+   454,
+   488,
+   460,
+   524,
+   415,
+   132,
+   48
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 75,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 1113
+   },
+   {
+    "k": "feat",
+    "v": 322
+   },
+   {
+    "k": "chore",
+    "v": 175
+   },
+   {
+    "k": "docs",
+    "v": 123
+   },
+   {
+    "k": "refactor",
+    "v": 79
+   },
+   {
+    "k": "test",
+    "v": 20
+   },
+   {
+    "k": "style",
+    "v": 19
+   }
+  ],
+  "merge_pct": 23.8,
+  "median_msg_len": 43
+ },
+ "activity": {
+  "last_commit_days": 632,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 5.0,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2020,
+  "batch_age_years": 6.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2021-05",
+   "c": 8
+  },
+  {
+   "m": "2021-06",
+   "c": 68
+  },
+  {
+   "m": "2021-07",
+   "c": 151
+  },
+  {
+   "m": "2021-08",
+   "c": 62
+  },
+  {
+   "m": "2021-09",
+   "c": 263
+  },
+  {
+   "m": "2021-10",
+   "c": 278
+  },
+  {
+   "m": "2021-11",
+   "c": 219
+  },
+  {
+   "m": "2021-12",
+   "c": 194
+  },
+  {
+   "m": "2022-01",
+   "c": 186
+  },
+  {
+   "m": "2022-02",
+   "c": 286
+  },
+  {
+   "m": "2022-03",
+   "c": 277
+  },
+  {
+   "m": "2022-04",
+   "c": 133
+  },
+  {
+   "m": "2022-05",
+   "c": 40
+  },
+  {
+   "m": "2022-06",
+   "c": 156
+  },
+  {
+   "m": "2022-07",
+   "c": 76
+  },
+  {
+   "m": "2022-08",
+   "c": 58
+  },
+  {
+   "m": "2022-09",
+   "c": 62
+  },
+  {
+   "m": "2022-10",
+   "c": 2
+  },
+  {
+   "m": "2024-03",
+   "c": 1
+  },
+  {
+   "m": "2024-09",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Samyak S Sarnayak",
+   "count": 502,
+   "pct": 19.9
+  },
+  {
+   "name": "Kartikay Bagla",
+   "count": 358,
+   "pct": 14.2
+  },
+  {
+   "name": "Manas Solanki",
+   "count": 286,
+   "pct": 11.3
+  },
+  {
+   "name": "Kshitij Agarwal",
+   "count": 157,
+   "pct": 6.2
+  },
+  {
+   "name": "Debanjan Dey",
+   "count": 120,
+   "pct": 4.8
+  },
+  {
+   "name": "santhosh kumar",
+   "count": 117,
+   "pct": 4.6
+  },
+  {
+   "name": "varunp2k",
+   "count": 116,
+   "pct": 4.6
+  },
+  {
+   "name": "Amatullah",
+   "count": 115,
+   "pct": 4.6
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Python": 804583,
+   "HTML": 81668,
+   "Jupyter Notebook": 43587,
+   "Shell": 39805,
+   "JavaScript": 33631,
+   "Gherkin": 6778,
+   "Io": 835,
+   "CSS": 776,
+   "Dockerfile": 504,
+   "Mako": 494,
+   "Procfile": 61
+  },
+  "manifests": [
+   "requirements.txt"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "docker",
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

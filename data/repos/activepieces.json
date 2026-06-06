@@ -1,0 +1,551 @@
+{
+ "slug": "activepieces",
+ "github": "activepieces/activepieces",
+ "yc": {
+  "batch": "S22",
+  "team_size": 10,
+  "status": "Active",
+  "one_liner": "Open-source, AI-first and no-code business automation tool",
+  "website": "https://www.activepieces.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 22587,
+  "forks": 3753,
+  "watchers": 125,
+  "open_issues": 488,
+  "commits": 49878,
+  "contributors": 492,
+  "license": "NOASSERTION",
+  "created": "2022-12-03",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2022-12-03",
+  "last": "2026-06-05",
+  "span_months": 42.1
+ },
+ "intensity": {
+  "commits_per_week": 273.0,
+  "per_day": 39.0,
+  "weekend_pct": 13.2,
+  "punchcard": [
+   [
+    114,
+    94,
+    78,
+    51,
+    47,
+    21,
+    18,
+    54,
+    43,
+    107,
+    381,
+    267,
+    315,
+    458,
+    306,
+    299,
+    363,
+    1505,
+    253,
+    568,
+    3121,
+    1037,
+    192,
+    182
+   ],
+   [
+    148,
+    846,
+    60,
+    45,
+    35,
+    27,
+    28,
+    30,
+    52,
+    121,
+    910,
+    284,
+    578,
+    546,
+    365,
+    369,
+    1944,
+    379,
+    306,
+    316,
+    1565,
+    354,
+    167,
+    183
+   ],
+   [
+    135,
+    101,
+    66,
+    33,
+    20,
+    15,
+    33,
+    28,
+    42,
+    76,
+    160,
+    261,
+    301,
+    428,
+    620,
+    341,
+    1198,
+    1462,
+    264,
+    299,
+    1623,
+    190,
+    390,
+    209
+   ],
+   [
+    154,
+    105,
+    91,
+    59,
+    41,
+    38,
+    24,
+    33,
+    38,
+    72,
+    158,
+    217,
+    326,
+    293,
+    343,
+    358,
+    628,
+    793,
+    473,
+    2863,
+    940,
+    135,
+    153,
+    174
+   ],
+   [
+    120,
+    1487,
+    745,
+    58,
+    31,
+    22,
+    9,
+    10,
+    33,
+    74,
+    95,
+    116,
+    332,
+    168,
+    144,
+    144,
+    368,
+    517,
+    569,
+    79,
+    1268,
+    454,
+    68,
+    64
+   ],
+   [
+    70,
+    67,
+    824,
+    44,
+    25,
+    9,
+    4,
+    6,
+    12,
+    18,
+    30,
+    39,
+    50,
+    63,
+    104,
+    66,
+    62,
+    73,
+    41,
+    56,
+    63,
+    79,
+    70,
+    62
+   ],
+   [
+    49,
+    47,
+    34,
+    48,
+    22,
+    14,
+    12,
+    20,
+    26,
+    42,
+    120,
+    172,
+    235,
+    205,
+    277,
+    250,
+    238,
+    222,
+    200,
+    849,
+    979,
+    260,
+    167,
+    142
+   ]
+  ],
+  "dow": [
+   9874,
+   9658,
+   8295,
+   8509,
+   6975,
+   1937,
+   4630
+  ],
+  "ai_coauthor_total": 155
+ },
+ "workflow": {
+  "conventional_pct": 43,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 8814
+   },
+   {
+    "k": "chore",
+    "v": 5167
+   },
+   {
+    "k": "feat",
+    "v": 4968
+   },
+   {
+    "k": "refactor",
+    "v": 1409
+   },
+   {
+    "k": "docs",
+    "v": 958
+   },
+   {
+    "k": "test",
+    "v": 148
+   },
+   {
+    "k": "revert",
+    "v": 69
+   }
+  ],
+  "merge_pct": 16.5,
+  "median_msg_len": 52
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 279,
+  "commits_90d": 1008,
+  "commits_365d": 34091,
+  "active_contributors_90d": 76,
+  "years_since_first_commit": 3.5,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2022,
+  "batch_age_years": 4.5,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2022-12",
+   "c": 552
+  },
+  {
+   "m": "2023-01",
+   "c": 593
+  },
+  {
+   "m": "2023-02",
+   "c": 548
+  },
+  {
+   "m": "2023-03",
+   "c": 598
+  },
+  {
+   "m": "2023-04",
+   "c": 466
+  },
+  {
+   "m": "2023-05",
+   "c": 502
+  },
+  {
+   "m": "2023-06",
+   "c": 562
+  },
+  {
+   "m": "2023-07",
+   "c": 375
+  },
+  {
+   "m": "2023-08",
+   "c": 442
+  },
+  {
+   "m": "2023-09",
+   "c": 349
+  },
+  {
+   "m": "2023-10",
+   "c": 500
+  },
+  {
+   "m": "2023-11",
+   "c": 486
+  },
+  {
+   "m": "2023-12",
+   "c": 574
+  },
+  {
+   "m": "2024-01",
+   "c": 673
+  },
+  {
+   "m": "2024-02",
+   "c": 552
+  },
+  {
+   "m": "2024-03",
+   "c": 514
+  },
+  {
+   "m": "2024-04",
+   "c": 506
+  },
+  {
+   "m": "2024-05",
+   "c": 432
+  },
+  {
+   "m": "2024-06",
+   "c": 521
+  },
+  {
+   "m": "2024-07",
+   "c": 606
+  },
+  {
+   "m": "2024-08",
+   "c": 575
+  },
+  {
+   "m": "2024-09",
+   "c": 559
+  },
+  {
+   "m": "2024-10",
+   "c": 460
+  },
+  {
+   "m": "2024-11",
+   "c": 506
+  },
+  {
+   "m": "2024-12",
+   "c": 510
+  },
+  {
+   "m": "2025-01",
+   "c": 488
+  },
+  {
+   "m": "2025-02",
+   "c": 369
+  },
+  {
+   "m": "2025-03",
+   "c": 449
+  },
+  {
+   "m": "2025-04",
+   "c": 411
+  },
+  {
+   "m": "2025-05",
+   "c": 968
+  },
+  {
+   "m": "2025-06",
+   "c": 742
+  },
+  {
+   "m": "2025-07",
+   "c": 4337
+  },
+  {
+   "m": "2025-08",
+   "c": 16749
+  },
+  {
+   "m": "2025-09",
+   "c": 8167
+  },
+  {
+   "m": "2025-10",
+   "c": 871
+  },
+  {
+   "m": "2025-11",
+   "c": 934
+  },
+  {
+   "m": "2025-12",
+   "c": 789
+  },
+  {
+   "m": "2026-01",
+   "c": 350
+  },
+  {
+   "m": "2026-02",
+   "c": 191
+  },
+  {
+   "m": "2026-03",
+   "c": 378
+  },
+  {
+   "m": "2026-04",
+   "c": 405
+  },
+  {
+   "m": "2026-05",
+   "c": 242
+  },
+  {
+   "m": "2026-06",
+   "c": 77
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Abdul",
+   "count": 14993,
+   "pct": 30.1
+  },
+  {
+   "name": "automated-commits-ap",
+   "count": 12440,
+   "pct": 24.9
+  },
+  {
+   "name": "Mohammad AbuAboud",
+   "count": 6694,
+   "pct": 13.4
+  },
+  {
+   "name": "AbdulTheActivePiecer",
+   "count": 4594,
+   "pct": 9.2
+  },
+  {
+   "name": "Khaled Mashaly",
+   "count": 1508,
+   "pct": 3.0
+  },
+  {
+   "name": "Hazem Adel",
+   "count": 1220,
+   "pct": 2.4
+  },
+  {
+   "name": "Kishan Parmar",
+   "count": 1209,
+   "pct": 2.4
+  },
+  {
+   "name": "Amr Elmohamady",
+   "count": 517,
+   "pct": 1.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 35320576,
+   "CSS": 92728,
+   "Shell": 42086,
+   "JavaScript": 39868,
+   "HTML": 29586,
+   "Python": 17454,
+   "Dockerfile": 7864,
+   "MDX": 6121,
+   "Go Template": 1832
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "bun",
+  "deps_top": [
+   "@activepieces/import-fresh-webpack",
+   "@ai-sdk/amazon-bedrock",
+   "@ai-sdk/anthropic",
+   "@ai-sdk/azure",
+   "@ai-sdk/google",
+   "@ai-sdk/google-vertex",
+   "@ai-sdk/mcp",
+   "@ai-sdk/openai",
+   "@ai-sdk/openai-compatible",
+   "@ai-sdk/provider",
+   "@ai-sdk/replicate",
+   "@authenio/samlify-node-xmllint",
+   "@aws-sdk/client-bedrock",
+   "@aws-sdk/client-s3",
+   "@aws-sdk/client-secrets-manager",
+   "@aws-sdk/s3-request-presigner",
+   "@babel/runtime",
+   "@bull-board/api",
+   "@bull-board/fastify",
+   "@codemirror/lang-javascript",
+   "@codemirror/lang-json",
+   "@datastructures-js/queue",
+   "@dnd-kit/core",
+   "@dnd-kit/modifiers",
+   "@dnd-kit/sortable",
+   "@dnd-kit/utilities",
+   "@electric-sql/pglite",
+   "@fastify/basic-auth",
+   "@fastify/cors",
+   "@fastify/formbody"
+  ],
+  "infra": [
+   "bun",
+   "claude-code",
+   "docker",
+   "docker-compose",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

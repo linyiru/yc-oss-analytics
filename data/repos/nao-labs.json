@@ -1,0 +1,381 @@
+{
+ "slug": "nao-labs",
+ "github": "getnao/nao",
+ "yc": {
+  "batch": "X25",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Open Source Analytics Agent",
+  "website": "https://getnao.io/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 1247,
+  "forks": 170,
+  "watchers": 3,
+  "open_issues": 108,
+  "commits": 545,
+  "contributors": 48,
+  "license": "NOASSERTION",
+  "created": "2025-12-30",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-12-30",
+  "last": "2026-06-04",
+  "span_months": 5.1
+ },
+ "intensity": {
+  "commits_per_week": 24.6,
+  "per_day": 3.52,
+  "weekend_pct": 7.9,
+  "punchcard": [
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    4,
+    8,
+    7,
+    5,
+    1,
+    7,
+    13,
+    12,
+    5,
+    7,
+    3,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    8,
+    9,
+    4,
+    4,
+    10,
+    13,
+    2,
+    19,
+    5,
+    6,
+    3,
+    5,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    2,
+    2,
+    7,
+    12,
+    11,
+    17,
+    0,
+    10,
+    10,
+    8,
+    6,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    6,
+    8,
+    12,
+    25,
+    9,
+    6,
+    12,
+    10,
+    9,
+    16,
+    10,
+    3,
+    8,
+    5,
+    5,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    12,
+    11,
+    11,
+    9,
+    6,
+    8,
+    7,
+    7,
+    4,
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    1,
+    3,
+    0,
+    0,
+    1,
+    3,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3,
+    3
+   ]
+  ],
+  "dow": [
+   79,
+   93,
+   94,
+   151,
+   85,
+   18,
+   25
+  ],
+  "ai_coauthor_total": 19
+ },
+ "workflow": {
+  "conventional_pct": 25,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 50
+   },
+   {
+    "k": "feat",
+    "v": 50
+   },
+   {
+    "k": "chore",
+    "v": 21
+   },
+   {
+    "k": "hotfix",
+    "v": 5
+   },
+   {
+    "k": "ci",
+    "v": 3
+   },
+   {
+    "k": "chat",
+    "v": 3
+   },
+   {
+    "k": "perf",
+    "v": 2
+   }
+  ],
+  "merge_pct": 1.3,
+  "median_msg_len": 44
+ },
+ "activity": {
+  "last_commit_days": 2,
+  "commits_30d": 102,
+  "commits_90d": 282,
+  "commits_365d": 545,
+  "active_contributors_90d": 30,
+  "years_since_first_commit": 0.4,
+  "liveness": 99,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-12",
+   "c": 7
+  },
+  {
+   "m": "2026-01",
+   "c": 95
+  },
+  {
+   "m": "2026-02",
+   "c": 132
+  },
+  {
+   "m": "2026-03",
+   "c": 129
+  },
+  {
+   "m": "2026-04",
+   "c": 66
+  },
+  {
+   "m": "2026-05",
+   "c": 108
+  },
+  {
+   "m": "2026-06",
+   "c": 8
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Christophe Blefari",
+   "count": 262,
+   "pct": 48.1
+  },
+  {
+   "name": "Matéo Le Bras Sancho",
+   "count": 84,
+   "pct": 15.4
+  },
+  {
+   "name": "Stan de La Comble",
+   "count": 40,
+   "pct": 7.3
+  },
+  {
+   "name": "Sarah Berton",
+   "count": 33,
+   "pct": 6.1
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 21,
+   "pct": 3.9
+  },
+  {
+   "name": "Stan de La Comble",
+   "count": 15,
+   "pct": 2.8
+  },
+  {
+   "name": "THUAUD Simon",
+   "count": 12,
+   "pct": 2.2
+  },
+  {
+   "name": "ClaireGz",
+   "count": 9,
+   "pct": 1.7
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 2531619,
+   "Python": 921823,
+   "CSS": 18277,
+   "Shell": 9402,
+   "Jinja": 8547,
+   "Dockerfile": 6008,
+   "JavaScript": 5580,
+   "HTML": 842,
+   "Makefile": 351
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "bun",
+  "deps_top": [
+   "@boxlite-ai/boxlite",
+   "@emnapi/core",
+   "@emnapi/runtime",
+   "@pydantic/monty",
+   "depd"
+  ],
+  "infra": [
+   "bun",
+   "claude-code",
+   "docker",
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

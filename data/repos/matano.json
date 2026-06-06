@@ -1,0 +1,424 @@
+{
+ "slug": "matano",
+ "github": "matanolabs/matano",
+ "yc": {
+  "batch": "W23",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Cloud Native SIEM (alternative to Splunk/Elastic)",
+  "website": "https://www.matano.dev",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 1675,
+  "forks": 120,
+  "watchers": 22,
+  "open_issues": 55,
+  "commits": 576,
+  "contributors": 15,
+  "license": "Apache-2.0",
+  "created": "2022-07-03",
+  "primary_lang": "Rust"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2022-07-14",
+  "last": "2025-01-07",
+  "span_months": 29.9
+ },
+ "intensity": {
+  "commits_per_week": 4.4,
+  "per_day": 0.63,
+  "weekend_pct": 35.2,
+  "punchcard": [
+   [
+    4,
+    0,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    3,
+    5,
+    6,
+    4,
+    4,
+    8,
+    4,
+    3,
+    2,
+    3,
+    3,
+    5,
+    7
+   ],
+   [
+    2,
+    2,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    6,
+    6,
+    1,
+    3,
+    0,
+    2,
+    3,
+    6,
+    4,
+    5,
+    5
+   ],
+   [
+    6,
+    4,
+    2,
+    2,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    1,
+    6,
+    5,
+    6,
+    6,
+    5,
+    6,
+    10,
+    11,
+    6,
+    4,
+    5,
+    3,
+    6
+   ],
+   [
+    4,
+    6,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    1,
+    2,
+    5,
+    4,
+    4,
+    6,
+    2,
+    2,
+    10,
+    7,
+    3,
+    8,
+    3,
+    4
+   ],
+   [
+    5,
+    2,
+    3,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    4,
+    1,
+    3,
+    1,
+    2,
+    0,
+    7,
+    7,
+    4,
+    2,
+    10,
+    4,
+    4,
+    7,
+    8
+   ],
+   [
+    9,
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    5,
+    4,
+    5,
+    3,
+    4,
+    10,
+    12,
+    6,
+    17,
+    16,
+    5,
+    13,
+    7,
+    10
+   ],
+   [
+    6,
+    3,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3,
+    1,
+    2,
+    2,
+    6,
+    3,
+    2,
+    4,
+    3,
+    4,
+    3,
+    6,
+    7,
+    4
+   ]
+  ],
+  "dow": [
+   68,
+   55,
+   97,
+   77,
+   76,
+   139,
+   64
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 34,
+  "conv": [
+   {
+    "k": "minor",
+    "v": 37
+   },
+   {
+    "k": "fix",
+    "v": 31
+   },
+   {
+    "k": "docs",
+    "v": 17
+   },
+   {
+    "k": "infra",
+    "v": 13
+   },
+   {
+    "k": "cli",
+    "v": 10
+   },
+   {
+    "k": "enrichment",
+    "v": 10
+   },
+   {
+    "k": "transformer",
+    "v": 8
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 26
+ },
+ "activity": {
+  "last_commit_days": 514,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 3.9,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2023,
+  "batch_age_years": 3.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2022-07",
+   "c": 113
+  },
+  {
+   "m": "2022-08",
+   "c": 109
+  },
+  {
+   "m": "2022-09",
+   "c": 59
+  },
+  {
+   "m": "2022-10",
+   "c": 57
+  },
+  {
+   "m": "2022-11",
+   "c": 26
+  },
+  {
+   "m": "2022-12",
+   "c": 55
+  },
+  {
+   "m": "2023-01",
+   "c": 58
+  },
+  {
+   "m": "2023-02",
+   "c": 34
+  },
+  {
+   "m": "2023-03",
+   "c": 8
+  },
+  {
+   "m": "2023-04",
+   "c": 8
+  },
+  {
+   "m": "2023-05",
+   "c": 16
+  },
+  {
+   "m": "2023-06",
+   "c": 9
+  },
+  {
+   "m": "2023-07",
+   "c": 12
+  },
+  {
+   "m": "2023-08",
+   "c": 2
+  },
+  {
+   "m": "2023-09",
+   "c": 1
+  },
+  {
+   "m": "2023-11",
+   "c": 4
+  },
+  {
+   "m": "2024-02",
+   "c": 1
+  },
+  {
+   "m": "2024-03",
+   "c": 1
+  },
+  {
+   "m": "2024-05",
+   "c": 1
+  },
+  {
+   "m": "2024-06",
+   "c": 1
+  },
+  {
+   "m": "2025-01",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "🐼 Samrose Ahmed 🐼",
+   "count": 433,
+   "pct": 75.2
+  },
+  {
+   "name": "Shaeq Ahmed",
+   "count": 120,
+   "pct": 20.8
+  },
+  {
+   "name": "Kai Herrera",
+   "count": 6,
+   "pct": 1.0
+  },
+  {
+   "name": "allcontributors[bot]",
+   "count": 4,
+   "pct": 0.7
+  },
+  {
+   "name": "rileydakota",
+   "count": 2,
+   "pct": 0.3
+  },
+  {
+   "name": "Tim O'Guin",
+   "count": 2,
+   "pct": 0.3
+  },
+  {
+   "name": "Darius",
+   "count": 1,
+   "pct": 0.2
+  },
+  {
+   "name": "Iku Turso",
+   "count": 1,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Rust": 355800,
+   "Kotlin": 73207,
+   "TypeScript": 54366,
+   "Python": 31019,
+   "Java": 6283,
+   "JavaScript": 5955,
+   "Makefile": 2429,
+   "Shell": 499,
+   "Batchfile": 61
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

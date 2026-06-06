@@ -1,0 +1,415 @@
+{
+ "slug": "rowboat-labs",
+ "github": "rowboatlabs/rowboat",
+ "yc": {
+  "batch": "S24",
+  "team_size": 3,
+  "status": "Active",
+  "one_liner": "Open-source AI coworker with memory ",
+  "website": "https://www.rowboatlabs.com",
+  "industry": "Consumer"
+ },
+ "metrics": {
+  "stars": 14923,
+  "forks": 1523,
+  "watchers": 83,
+  "open_issues": 114,
+  "commits": 1453,
+  "contributors": 16,
+  "license": "Apache-2.0",
+  "created": "2025-01-13",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-01-13",
+  "last": "2026-06-05",
+  "span_months": 16.7
+ },
+ "intensity": {
+  "commits_per_week": 20.1,
+  "per_day": 2.87,
+  "weekend_pct": 7.4,
+  "punchcard": [
+   [
+    1,
+    2,
+    0,
+    0,
+    1,
+    0,
+    4,
+    2,
+    3,
+    7,
+    13,
+    17,
+    14,
+    13,
+    26,
+    25,
+    24,
+    16,
+    5,
+    4,
+    12,
+    23,
+    19,
+    17
+   ],
+   [
+    11,
+    10,
+    4,
+    0,
+    0,
+    0,
+    5,
+    4,
+    7,
+    7,
+    9,
+    22,
+    27,
+    24,
+    37,
+    35,
+    30,
+    34,
+    11,
+    19,
+    24,
+    15,
+    22,
+    17
+   ],
+   [
+    13,
+    6,
+    1,
+    1,
+    0,
+    1,
+    3,
+    5,
+    2,
+    5,
+    13,
+    15,
+    13,
+    20,
+    17,
+    17,
+    21,
+    11,
+    16,
+    11,
+    18,
+    16,
+    17,
+    20
+   ],
+   [
+    9,
+    6,
+    0,
+    0,
+    0,
+    1,
+    1,
+    5,
+    3,
+    6,
+    10,
+    16,
+    11,
+    12,
+    10,
+    18,
+    18,
+    22,
+    9,
+    13,
+    11,
+    10,
+    10,
+    17
+   ],
+   [
+    14,
+    6,
+    7,
+    3,
+    0,
+    3,
+    2,
+    4,
+    2,
+    7,
+    14,
+    15,
+    14,
+    20,
+    13,
+    19,
+    17,
+    22,
+    10,
+    17,
+    7,
+    9,
+    9,
+    9
+   ],
+   [
+    7,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    8,
+    9,
+    2,
+    11,
+    4,
+    5,
+    1,
+    2,
+    1,
+    4,
+    2,
+    2,
+    1,
+    3,
+    3
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    1,
+    0,
+    2,
+    4,
+    4,
+    1,
+    2,
+    3,
+    4,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0,
+    3
+   ]
+  ],
+  "dow": [
+   248,
+   374,
+   262,
+   218,
+   243,
+   73,
+   35
+  ],
+  "ai_coauthor_total": 64
+ },
+ "workflow": {
+  "conventional_pct": 11,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 62
+   },
+   {
+    "k": "fix",
+    "v": 40
+   },
+   {
+    "k": "refactor",
+    "v": 12
+   },
+   {
+    "k": "copilot",
+    "v": 8
+   },
+   {
+    "k": "style",
+    "v": 5
+   },
+   {
+    "k": "chore",
+    "v": 4
+   },
+   {
+    "k": "docs",
+    "v": 4
+   }
+  ],
+  "merge_pct": 14.4,
+  "median_msg_len": 32
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 96,
+  "commits_90d": 261,
+  "commits_365d": 1008,
+  "active_contributors_90d": 7,
+  "years_since_first_commit": 1.4,
+  "liveness": 99,
+  "still_active": true,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-01",
+   "c": 105
+  },
+  {
+   "m": "2025-02",
+   "c": 98
+  },
+  {
+   "m": "2025-03",
+   "c": 65
+  },
+  {
+   "m": "2025-04",
+   "c": 103
+  },
+  {
+   "m": "2025-05",
+   "c": 69
+  },
+  {
+   "m": "2025-06",
+   "c": 20
+  },
+  {
+   "m": "2025-07",
+   "c": 91
+  },
+  {
+   "m": "2025-08",
+   "c": 151
+  },
+  {
+   "m": "2025-09",
+   "c": 81
+  },
+  {
+   "m": "2025-10",
+   "c": 6
+  },
+  {
+   "m": "2025-11",
+   "c": 93
+  },
+  {
+   "m": "2025-12",
+   "c": 26
+  },
+  {
+   "m": "2026-01",
+   "c": 143
+  },
+  {
+   "m": "2026-02",
+   "c": 132
+  },
+  {
+   "m": "2026-03",
+   "c": 68
+  },
+  {
+   "m": "2026-04",
+   "c": 86
+  },
+  {
+   "m": "2026-05",
+   "c": 108
+  },
+  {
+   "m": "2026-06",
+   "c": 8
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Ramnique Singh",
+   "count": 534,
+   "pct": 36.8
+  },
+  {
+   "name": "akhisud3195",
+   "count": 276,
+   "pct": 19.0
+  },
+  {
+   "name": "Arjun",
+   "count": 244,
+   "pct": 16.8
+  },
+  {
+   "name": "tusharmagar",
+   "count": 166,
+   "pct": 11.4
+  },
+  {
+   "name": "arkml",
+   "count": 150,
+   "pct": 10.3
+  },
+  {
+   "name": "Gagancreates",
+   "count": 31,
+   "pct": 2.1
+  },
+  {
+   "name": "Tushar",
+   "count": 22,
+   "pct": 1.5
+  },
+  {
+   "name": "Akhilesh Sudhakar",
+   "count": 19,
+   "pct": 1.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 6202119,
+   "CSS": 126768,
+   "JavaScript": 40593,
+   "Python": 32343,
+   "MDX": 8133,
+   "Dockerfile": 6913,
+   "HTML": 4993,
+   "Shell": 1083
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "docker",
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

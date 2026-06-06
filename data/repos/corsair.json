@@ -1,0 +1,379 @@
+{
+ "slug": "corsair",
+ "github": "corsairdev/corsair",
+ "yc": {
+  "batch": "W25",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Integration Layer for AI Agents",
+  "website": "https://www.corsair.dev",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 1137,
+  "forks": 98,
+  "watchers": 2,
+  "open_issues": 27,
+  "commits": 893,
+  "contributors": 29,
+  "license": "NOASSERTION",
+  "created": "2025-10-14",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-10-14",
+  "last": "2026-06-04",
+  "span_months": 7.7
+ },
+ "intensity": {
+  "commits_per_week": 26.8,
+  "per_day": 3.83,
+  "weekend_pct": 10.2,
+  "punchcard": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    6,
+    10,
+    4,
+    13,
+    9,
+    5,
+    5,
+    3,
+    4,
+    10,
+    7,
+    10,
+    11,
+    4,
+    2
+   ],
+   [
+    3,
+    2,
+    0,
+    0,
+    2,
+    1,
+    0,
+    7,
+    3,
+    12,
+    13,
+    12,
+    11,
+    7,
+    15,
+    15,
+    8,
+    12,
+    15,
+    6,
+    22,
+    38,
+    21,
+    7
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    6,
+    1,
+    2,
+    13,
+    10,
+    11,
+    11,
+    8,
+    22,
+    8,
+    4,
+    10,
+    8,
+    21,
+    10,
+    12,
+    11,
+    5
+   ],
+   [
+    5,
+    4,
+    2,
+    0,
+    2,
+    0,
+    0,
+    8,
+    9,
+    13,
+    9,
+    5,
+    8,
+    6,
+    6,
+    5,
+    6,
+    8,
+    8,
+    7,
+    13,
+    8,
+    11,
+    12
+   ],
+   [
+    1,
+    0,
+    3,
+    0,
+    0,
+    2,
+    3,
+    2,
+    12,
+    9,
+    12,
+    5,
+    5,
+    13,
+    6,
+    6,
+    9,
+    10,
+    2,
+    9,
+    6,
+    10,
+    1,
+    6
+   ],
+   [
+    6,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    1,
+    8,
+    5,
+    5,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    5
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    4,
+    3,
+    3,
+    3,
+    0,
+    5,
+    1,
+    2,
+    2,
+    13,
+    3
+   ]
+  ],
+  "dow": [
+   107,
+   232,
+   176,
+   155,
+   132,
+   47,
+   44
+  ],
+  "ai_coauthor_total": 1
+ },
+ "workflow": {
+  "conventional_pct": 31,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 136
+   },
+   {
+    "k": "refactor",
+    "v": 97
+   },
+   {
+    "k": "fix",
+    "v": 30
+   },
+   {
+    "k": "docs",
+    "v": 6
+   },
+   {
+    "k": "chore",
+    "v": 5
+   },
+   {
+    "k": "ref",
+    "v": 3
+   },
+   {
+    "k": "test",
+    "v": 1
+   }
+  ],
+  "merge_pct": 10.7,
+  "median_msg_len": 36
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 69,
+  "commits_90d": 277,
+  "commits_365d": 893,
+  "active_contributors_90d": 26,
+  "years_since_first_commit": 0.6,
+  "liveness": 99,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-10",
+   "c": 21
+  },
+  {
+   "m": "2025-11",
+   "c": 181
+  },
+  {
+   "m": "2025-12",
+   "c": 188
+  },
+  {
+   "m": "2026-01",
+   "c": 102
+  },
+  {
+   "m": "2026-02",
+   "c": 105
+  },
+  {
+   "m": "2026-03",
+   "c": 85
+  },
+  {
+   "m": "2026-04",
+   "c": 138
+  },
+  {
+   "m": "2026-05",
+   "c": 59
+  },
+  {
+   "m": "2026-06",
+   "c": 14
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Dev Jain",
+   "count": 513,
+   "pct": 57.4
+  },
+  {
+   "name": "Mukul yadav",
+   "count": 264,
+   "pct": 29.6
+  },
+  {
+   "name": "Mukul",
+   "count": 69,
+   "pct": 7.7
+  },
+  {
+   "name": "Devansh Nigam",
+   "count": 6,
+   "pct": 0.7
+  },
+  {
+   "name": "yuvrxj-afk",
+   "count": 5,
+   "pct": 0.6
+  },
+  {
+   "name": "Shaswat Raj",
+   "count": 4,
+   "pct": 0.4
+  },
+  {
+   "name": "devjain32",
+   "count": 4,
+   "pct": 0.4
+  },
+  {
+   "name": "Rudra Pratap Singh",
+   "count": 3,
+   "pct": 0.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 7073951,
+   "JavaScript": 71726,
+   "CSS": 10032,
+   "Shell": 3070,
+   "Dockerfile": 707,
+   "HTML": 457
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "biome",
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

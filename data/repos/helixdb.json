@@ -1,0 +1,418 @@
+{
+ "slug": "helixdb",
+ "github": "HelixDB/helix-db",
+ "yc": {
+  "batch": "X25",
+  "team_size": 6,
+  "status": "Active",
+  "one_liner": "The fastest & most scalable graph-vector database on the market",
+  "website": "https://helix-db.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 4674,
+  "forks": 254,
+  "watchers": 30,
+  "open_issues": 8,
+  "commits": 2176,
+  "contributors": 32,
+  "license": "Apache-2.0",
+  "created": "2024-11-23",
+  "primary_lang": "Rust"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-11-23",
+  "last": "2026-06-05",
+  "span_months": 18.4
+ },
+ "intensity": {
+  "commits_per_week": 27.2,
+  "per_day": 3.89,
+  "weekend_pct": 24.7,
+  "punchcard": [
+   [
+    13,
+    14,
+    6,
+    2,
+    2,
+    0,
+    0,
+    2,
+    8,
+    14,
+    10,
+    31,
+    13,
+    17,
+    16,
+    27,
+    18,
+    16,
+    13,
+    15,
+    13,
+    15,
+    13,
+    13
+   ],
+   [
+    4,
+    3,
+    1,
+    2,
+    0,
+    0,
+    1,
+    1,
+    10,
+    9,
+    20,
+    41,
+    15,
+    23,
+    33,
+    18,
+    26,
+    30,
+    9,
+    17,
+    39,
+    37,
+    10,
+    17
+   ],
+   [
+    8,
+    6,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    13,
+    34,
+    43,
+    30,
+    28,
+    39,
+    27,
+    26,
+    34,
+    19,
+    24,
+    11,
+    11,
+    15,
+    16
+   ],
+   [
+    14,
+    6,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    8,
+    15,
+    29,
+    50,
+    21,
+    22,
+    23,
+    24,
+    29,
+    14,
+    23,
+    12,
+    8,
+    3,
+    10,
+    11
+   ],
+   [
+    10,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    11,
+    24,
+    22,
+    26,
+    20,
+    13,
+    24,
+    7,
+    16,
+    14,
+    23,
+    8,
+    8,
+    16,
+    21
+   ],
+   [
+    7,
+    5,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    16,
+    14,
+    12,
+    31,
+    27,
+    13,
+    15,
+    17,
+    18,
+    14,
+    10,
+    11,
+    15,
+    17,
+    21
+   ],
+   [
+    10,
+    8,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    14,
+    18,
+    18,
+    20,
+    18,
+    18,
+    15,
+    28,
+    17,
+    14,
+    11,
+    13,
+    18,
+    23
+   ]
+  ],
+  "dow": [
+   291,
+   366,
+   385,
+   326,
+   271,
+   266,
+   271
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 3,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 22
+   },
+   {
+    "k": "feat",
+    "v": 20
+   },
+   {
+    "k": "perf",
+    "v": 15
+   },
+   {
+    "k": "refactor",
+    "v": 9
+   },
+   {
+    "k": "chore",
+    "v": 4
+   },
+   {
+    "k": "parser",
+    "v": 2
+   },
+   {
+    "k": "docs",
+    "v": 2
+   }
+  ],
+  "merge_pct": 20.2,
+  "median_msg_len": 26
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 58,
+  "commits_90d": 79,
+  "commits_365d": 1566,
+  "active_contributors_90d": 2,
+  "years_since_first_commit": 1.5,
+  "liveness": 89,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2024-11",
+   "c": 12
+  },
+  {
+   "m": "2024-12",
+   "c": 46
+  },
+  {
+   "m": "2025-01",
+   "c": 33
+  },
+  {
+   "m": "2025-02",
+   "c": 62
+  },
+  {
+   "m": "2025-03",
+   "c": 97
+  },
+  {
+   "m": "2025-04",
+   "c": 111
+  },
+  {
+   "m": "2025-05",
+   "c": 233
+  },
+  {
+   "m": "2025-06",
+   "c": 108
+  },
+  {
+   "m": "2025-07",
+   "c": 382
+  },
+  {
+   "m": "2025-08",
+   "c": 193
+  },
+  {
+   "m": "2025-09",
+   "c": 241
+  },
+  {
+   "m": "2025-10",
+   "c": 152
+  },
+  {
+   "m": "2025-11",
+   "c": 149
+  },
+  {
+   "m": "2025-12",
+   "c": 103
+  },
+  {
+   "m": "2026-01",
+   "c": 124
+  },
+  {
+   "m": "2026-02",
+   "c": 43
+  },
+  {
+   "m": "2026-03",
+   "c": 27
+  },
+  {
+   "m": "2026-04",
+   "c": 2
+  },
+  {
+   "m": "2026-05",
+   "c": 36
+  },
+  {
+   "m": "2026-06",
+   "c": 22
+  }
+ ],
+ "contributors": [
+  {
+   "name": "xav-db",
+   "count": 1375,
+   "pct": 63.2
+  },
+  {
+   "name": "Lukas Nitzsche",
+   "count": 265,
+   "pct": 12.2
+  },
+  {
+   "name": "xavcochran",
+   "count": 176,
+   "pct": 8.1
+  },
+  {
+   "name": "Matthew Sanetra",
+   "count": 102,
+   "pct": 4.7
+  },
+  {
+   "name": "Raphael Darley",
+   "count": 73,
+   "pct": 3.4
+  },
+  {
+   "name": "ishaksebsib",
+   "count": 25,
+   "pct": 1.1
+  },
+  {
+   "name": "Gand4lf",
+   "count": 24,
+   "pct": 1.1
+  },
+  {
+   "name": "0xFaded",
+   "count": 19,
+   "pct": 0.9
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Rust": 815126,
+   "TypeScript": 150173,
+   "Go": 90577,
+   "Shell": 14653,
+   "JavaScript": 324
+  },
+  "manifests": [
+   "Cargo.toml"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

@@ -1,0 +1,368 @@
+{
+ "slug": "tusk",
+ "github": "Use-Tusk/tusk-cli",
+ "yc": {
+  "batch": "W24",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "AI agent that generates unit and integration tests",
+  "website": "https://usetusk.ai",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 141,
+  "forks": 5,
+  "watchers": 1,
+  "open_issues": 7,
+  "commits": 217,
+  "contributors": 7,
+  "license": "Apache-2.0",
+  "created": "2025-09-29",
+  "primary_lang": "Go"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-09-29",
+  "last": "2026-05-26",
+  "span_months": 7.9
+ },
+ "intensity": {
+  "commits_per_week": 6.4,
+  "per_day": 0.91,
+  "weekend_pct": 8.3,
+  "punchcard": [
+   [
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    5,
+    1,
+    6,
+    3,
+    4,
+    3,
+    13,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3,
+    6,
+    5,
+    0,
+    7,
+    3,
+    6,
+    1,
+    2,
+    1,
+    0,
+    2,
+    3,
+    0
+   ],
+   [
+    3,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    5,
+    7,
+    4,
+    2,
+    5,
+    6,
+    2,
+    1,
+    0,
+    2,
+    1,
+    2,
+    1
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    6,
+    1,
+    2,
+    1,
+    5,
+    0,
+    2,
+    3,
+    2,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    1,
+    5,
+    7,
+    0,
+    5,
+    3,
+    2,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    1
+   ]
+  ],
+  "dow": [
+   47,
+   43,
+   48,
+   33,
+   28,
+   7,
+   11
+  ],
+  "ai_coauthor_total": 2
+ },
+ "workflow": {
+  "conventional_pct": 94,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 81
+   },
+   {
+    "k": "fix",
+    "v": 63
+   },
+   {
+    "k": "chore",
+    "v": 31
+   },
+   {
+    "k": "docs",
+    "v": 8
+   },
+   {
+    "k": "refactor",
+    "v": 7
+   },
+   {
+    "k": "ci",
+    "v": 5
+   },
+   {
+    "k": "test",
+    "v": 4
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 57
+ },
+ "activity": {
+  "last_commit_days": 10,
+  "commits_30d": 2,
+  "commits_90d": 45,
+  "commits_365d": 217,
+  "active_contributors_90d": 6,
+  "years_since_first_commit": 0.7,
+  "liveness": 84,
+  "still_active": true,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-09",
+   "c": 8
+  },
+  {
+   "m": "2025-10",
+   "c": 41
+  },
+  {
+   "m": "2025-11",
+   "c": 15
+  },
+  {
+   "m": "2025-12",
+   "c": 29
+  },
+  {
+   "m": "2026-01",
+   "c": 47
+  },
+  {
+   "m": "2026-02",
+   "c": 24
+  },
+  {
+   "m": "2026-03",
+   "c": 36
+  },
+  {
+   "m": "2026-04",
+   "c": 15
+  },
+  {
+   "m": "2026-05",
+   "c": 2
+  }
+ ],
+ "contributors": [
+  {
+   "name": "JY Tan",
+   "count": 124,
+   "pct": 57.1
+  },
+  {
+   "name": "Sohan Kshirsagar",
+   "count": 48,
+   "pct": 22.1
+  },
+  {
+   "name": "Sohil Kshirsagar",
+   "count": 26,
+   "pct": 12.0
+  },
+  {
+   "name": "Jia Xiaodong",
+   "count": 10,
+   "pct": 4.6
+  },
+  {
+   "name": "Marcel Tan",
+   "count": 5,
+   "pct": 2.3
+  },
+  {
+   "name": "devin-ai-integration[bot]",
+   "count": 3,
+   "pct": 1.4
+  },
+  {
+   "name": "tusk-dev[bot]",
+   "count": 1,
+   "pct": 0.5
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Go": 1720214,
+   "Shell": 10907,
+   "Makefile": 3019,
+   "Nix": 763
+  },
+  "manifests": [
+   "go.mod"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

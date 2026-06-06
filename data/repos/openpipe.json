@@ -1,0 +1,363 @@
+{
+ "slug": "openpipe",
+ "github": "OpenPipe/OpenPipe",
+ "yc": {
+  "batch": "S23",
+  "team_size": 2,
+  "status": "Acquired",
+  "one_liner": "Turn expensive prompts into cheap fine-tuned models",
+  "website": "https://openpipe.ai/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 2810,
+  "forks": 174,
+  "watchers": 19,
+  "open_issues": 8,
+  "commits": 1092,
+  "contributors": 17,
+  "license": "Apache-2.0",
+  "created": "2023-06-20",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2023-06-19",
+  "last": "2024-05-24",
+  "span_months": 11.2
+ },
+ "intensity": {
+  "commits_per_week": 22.5,
+  "per_day": 3.21,
+  "weekend_pct": 10.9,
+  "punchcard": [
+   [
+    2,
+    3,
+    0,
+    1,
+    0,
+    1,
+    2,
+    1,
+    1,
+    6,
+    7,
+    13,
+    17,
+    9,
+    16,
+    14,
+    13,
+    21,
+    20,
+    11,
+    9,
+    7,
+    13,
+    12
+   ],
+   [
+    13,
+    6,
+    6,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    5,
+    6,
+    18,
+    17,
+    17,
+    15,
+    11,
+    10,
+    13,
+    17,
+    5,
+    5,
+    7,
+    8,
+    12
+   ],
+   [
+    7,
+    7,
+    0,
+    2,
+    0,
+    0,
+    5,
+    3,
+    0,
+    8,
+    8,
+    5,
+    9,
+    11,
+    15,
+    20,
+    17,
+    18,
+    16,
+    3,
+    10,
+    6,
+    10,
+    7
+   ],
+   [
+    4,
+    5,
+    3,
+    3,
+    0,
+    0,
+    2,
+    3,
+    2,
+    7,
+    5,
+    12,
+    11,
+    11,
+    11,
+    19,
+    15,
+    14,
+    22,
+    5,
+    10,
+    9,
+    11,
+    10
+   ],
+   [
+    9,
+    5,
+    5,
+    0,
+    0,
+    0,
+    5,
+    2,
+    3,
+    3,
+    8,
+    11,
+    18,
+    15,
+    9,
+    10,
+    15,
+    24,
+    13,
+    7,
+    10,
+    10,
+    7,
+    11
+   ],
+   [
+    1,
+    2,
+    6,
+    2,
+    3,
+    0,
+    0,
+    5,
+    2,
+    4,
+    6,
+    1,
+    2,
+    7,
+    5,
+    4,
+    5,
+    5,
+    2,
+    4,
+    4,
+    3,
+    7,
+    6
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    3,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    2,
+    4,
+    0,
+    2,
+    3,
+    4
+   ]
+  ],
+  "dow": [
+   199,
+   193,
+   187,
+   194,
+   200,
+   86,
+   33
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 0,
+  "conv": [
+   {
+    "k": "wip",
+    "v": 1
+   },
+   {
+    "k": "bugfix",
+    "v": 1
+   }
+  ],
+  "merge_pct": 21.4,
+  "median_msg_len": 30
+ },
+ "activity": {
+  "last_commit_days": 742,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 3.0,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2023,
+  "batch_age_years": 3.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2023-06",
+   "c": 61
+  },
+  {
+   "m": "2023-07",
+   "c": 158
+  },
+  {
+   "m": "2023-08",
+   "c": 246
+  },
+  {
+   "m": "2023-09",
+   "c": 57
+  },
+  {
+   "m": "2023-10",
+   "c": 81
+  },
+  {
+   "m": "2023-11",
+   "c": 69
+  },
+  {
+   "m": "2023-12",
+   "c": 84
+  },
+  {
+   "m": "2024-01",
+   "c": 121
+  },
+  {
+   "m": "2024-02",
+   "c": 170
+  },
+  {
+   "m": "2024-03",
+   "c": 44
+  },
+  {
+   "m": "2024-05",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "arcticfly",
+   "count": 354,
+   "pct": 32.4
+  },
+  {
+   "name": "Kyle Corbitt",
+   "count": 351,
+   "pct": 32.1
+  },
+  {
+   "name": "David Corbitt",
+   "count": 214,
+   "pct": 19.6
+  },
+  {
+   "name": "mac",
+   "count": 137,
+   "pct": 12.5
+  },
+  {
+   "name": "Bohdan Kovalevskyi",
+   "count": 15,
+   "pct": 1.4
+  },
+  {
+   "name": "Jamesb | Experimental Learning",
+   "count": 5,
+   "pct": 0.5
+  },
+  {
+   "name": "Bohdan Kovalevskyi",
+   "count": 3,
+   "pct": 0.3
+  },
+  {
+   "name": "Dmitry B",
+   "count": 3,
+   "pct": 0.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 1349220,
+   "Python": 247591,
+   "JavaScript": 14278,
+   "PLpgSQL": 8446,
+   "Shell": 6801,
+   "Dockerfile": 2175
+  },
+  "manifests": [],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

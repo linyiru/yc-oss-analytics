@@ -1,0 +1,331 @@
+{
+ "slug": "standard-cyborg",
+ "github": "StandardCyborg/StandardCyborgSDK",
+ "yc": {
+  "batch": "W15",
+  "team_size": 9,
+  "status": "Inactive",
+  "one_liner": "Buid, test and deploy perception applications",
+  "website": "http://standardcyborg.com",
+  "industry": "Healthcare"
+ },
+ "metrics": {
+  "stars": 66,
+  "forks": 25,
+  "watchers": 8,
+  "open_issues": 2,
+  "commits": 42,
+  "contributors": 4,
+  "license": "MIT",
+  "created": "2022-08-13",
+  "primary_lang": "C++"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2022-08-15",
+  "last": "2024-10-26",
+  "span_months": 26.4
+ },
+ "intensity": {
+  "commits_per_week": 0.4,
+  "per_day": 0.05,
+  "weekend_pct": 52.4,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    6,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ]
+  ],
+  "dow": [
+   3,
+   4,
+   4,
+   4,
+   5,
+   18,
+   4
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 0,
+  "conv": [],
+  "merge_pct": 8.7,
+  "median_msg_len": 35
+ },
+ "activity": {
+  "last_commit_days": 587,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 3.8,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2015,
+  "batch_age_years": 11.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2022-08",
+   "c": 1
+  },
+  {
+   "m": "2022-12",
+   "c": 2
+  },
+  {
+   "m": "2023-06",
+   "c": 10
+  },
+  {
+   "m": "2023-07",
+   "c": 10
+  },
+  {
+   "m": "2023-09",
+   "c": 1
+  },
+  {
+   "m": "2024-04",
+   "c": 1
+  },
+  {
+   "m": "2024-05",
+   "c": 7
+  },
+  {
+   "m": "2024-06",
+   "c": 2
+  },
+  {
+   "m": "2024-08",
+   "c": 1
+  },
+  {
+   "m": "2024-10",
+   "c": 7
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Aaron Thompson",
+   "count": 21,
+   "pct": 50.0
+  },
+  {
+   "name": "Aaron Thompson",
+   "count": 16,
+   "pct": 38.1
+  },
+  {
+   "name": "Demetri Miller",
+   "count": 4,
+   "pct": 9.5
+  },
+  {
+   "name": "Eric Arnebäck",
+   "count": 1,
+   "pct": 2.4
+  }
+ ],
+ "stack": {
+  "languages": {
+   "C++": 1138001,
+   "Objective-C++": 407493,
+   "Objective-C": 132939,
+   "Swift": 84623,
+   "Metal": 33292,
+   "Ruby": 11504,
+   "Shell": 7421,
+   "CMake": 7264,
+   "C": 1392
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

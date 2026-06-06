@@ -1,0 +1,342 @@
+{
+ "slug": "openfoundry",
+ "github": "openfoundry-ai/model_manager",
+ "yc": {
+  "batch": "W24",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "The fastest developer experience for building on open source AI.",
+  "website": "https://www.openfoundry.ai/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 342,
+  "forks": 26,
+  "watchers": 8,
+  "open_issues": 5,
+  "commits": 59,
+  "contributors": 6,
+  "license": "MIT",
+  "created": "2024-03-20",
+  "primary_lang": "Python"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-03-20",
+  "last": "2024-05-14",
+  "span_months": 1.8
+ },
+ "intensity": {
+  "commits_per_week": 7.5,
+  "per_day": 1.07,
+  "weekend_pct": 5.1,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    4,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    2,
+    1,
+    1,
+    7,
+    2,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  "dow": [
+   8,
+   6,
+   21,
+   11,
+   10,
+   2,
+   1
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 24,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 7
+   },
+   {
+    "k": "fix",
+    "v": 4
+   },
+   {
+    "k": "chore",
+    "v": 3
+   }
+  ],
+  "merge_pct": 24.4,
+  "median_msg_len": 16
+ },
+ "activity": {
+  "last_commit_days": 752,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 2.2,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2024-03",
+   "c": 45
+  },
+  {
+   "m": "2024-04",
+   "c": 5
+  },
+  {
+   "m": "2024-05",
+   "c": 9
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Arthur Chi",
+   "count": 33,
+   "pct": 55.9
+  },
+  {
+   "name": "tylerlehmansurfs",
+   "count": 14,
+   "pct": 23.7
+  },
+  {
+   "name": "arthurchi93",
+   "count": 4,
+   "pct": 6.8
+  },
+  {
+   "name": "openfoundryai",
+   "count": 4,
+   "pct": 6.8
+  },
+  {
+   "name": "Chahak Goswami",
+   "count": 2,
+   "pct": 3.4
+  },
+  {
+   "name": "openfoundryai",
+   "count": 2,
+   "pct": 3.4
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Python": 55490,
+   "TypeScript": 13642,
+   "Shell": 1872,
+   "CSS": 701,
+   "JavaScript": 657,
+   "Dockerfile": 576,
+   "Makefile": 189
+  },
+  "manifests": [
+   "package.json",
+   "pyproject.toml",
+   "requirements.txt"
+  ],
+  "pkg_manager": null,
+  "deps_top": [
+   "@supabase/ssr",
+   "@supabase/supabase-js",
+   "autoprefixer",
+   "geist",
+   "next",
+   "postcss",
+   "react",
+   "react-dom",
+   "tailwindcss",
+   "typescript"
+  ],
+  "infra": [
+   "docker",
+   "nextjs"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

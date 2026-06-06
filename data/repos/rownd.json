@@ -1,0 +1,392 @@
+{
+ "slug": "rownd",
+ "github": "llama-farm/llamafarm",
+ "yc": {
+  "batch": "W22",
+  "team_size": 7,
+  "status": "Active",
+  "one_liner": "Build powerful AI solutions. Deploy anywhere.",
+  "website": "https://rownd.ai",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 829,
+  "forks": 56,
+  "watchers": 4,
+  "open_issues": 54,
+  "commits": 825,
+  "contributors": 21,
+  "license": "Apache-2.0",
+  "created": "2025-07-09",
+  "primary_lang": "Python"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-07-29",
+  "last": "2026-06-02",
+  "span_months": 10.1
+ },
+ "intensity": {
+  "commits_per_week": 18.9,
+  "per_day": 2.7,
+  "weekend_pct": 1.9,
+  "punchcard": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    6,
+    9,
+    10,
+    19,
+    20,
+    22,
+    25,
+    22,
+    6,
+    1,
+    0,
+    3,
+    2,
+    2,
+    4
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    4,
+    13,
+    6,
+    14,
+    20,
+    25,
+    29,
+    27,
+    13,
+    3,
+    8,
+    7,
+    10,
+    4,
+    7
+   ],
+   [
+    7,
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    3,
+    3,
+    6,
+    12,
+    13,
+    11,
+    14,
+    13,
+    10,
+    8,
+    3,
+    1,
+    1,
+    9,
+    5
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    6,
+    16,
+    22,
+    21,
+    21,
+    27,
+    28,
+    21,
+    6,
+    4,
+    2,
+    1,
+    6,
+    2,
+    4
+   ],
+   [
+    9,
+    6,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    6,
+    6,
+    7,
+    3,
+    16,
+    17,
+    21,
+    15,
+    7,
+    6,
+    2,
+    2,
+    4,
+    3,
+    5,
+    3
+   ],
+   [
+    3,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  ],
+  "dow": [
+   156,
+   195,
+   125,
+   192,
+   141,
+   9,
+   7
+  ],
+  "ai_coauthor_total": 51
+ },
+ "workflow": {
+  "conventional_pct": 93,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 314
+   },
+   {
+    "k": "feat",
+    "v": 244
+   },
+   {
+    "k": "chore",
+    "v": 173
+   },
+   {
+    "k": "docs",
+    "v": 22
+   },
+   {
+    "k": "ci",
+    "v": 7
+   },
+   {
+    "k": "refactor",
+    "v": 5
+   },
+   {
+    "k": "style",
+    "v": 1
+   }
+  ],
+  "merge_pct": 8.3,
+  "median_msg_len": 50
+ },
+ "activity": {
+  "last_commit_days": 5,
+  "commits_30d": 14,
+  "commits_90d": 65,
+  "commits_365d": 825,
+  "active_contributors_90d": 7,
+  "years_since_first_commit": 0.9,
+  "liveness": 87,
+  "still_active": true,
+  "batch_year": 2022,
+  "batch_age_years": 4.5,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2025-07",
+   "c": 45
+  },
+  {
+   "m": "2025-08",
+   "c": 89
+  },
+  {
+   "m": "2025-09",
+   "c": 157
+  },
+  {
+   "m": "2025-10",
+   "c": 174
+  },
+  {
+   "m": "2025-11",
+   "c": 103
+  },
+  {
+   "m": "2025-12",
+   "c": 84
+  },
+  {
+   "m": "2026-01",
+   "c": 68
+  },
+  {
+   "m": "2026-02",
+   "c": 31
+  },
+  {
+   "m": "2026-03",
+   "c": 11
+  },
+  {
+   "m": "2026-04",
+   "c": 40
+  },
+  {
+   "m": "2026-05",
+   "c": 22
+  },
+  {
+   "m": "2026-06",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Matt Hamann",
+   "count": 202,
+   "pct": 24.5
+  },
+  {
+   "name": "Rach Radulovich",
+   "count": 171,
+   "pct": 20.7
+  },
+  {
+   "name": "Rob Thelen",
+   "count": 105,
+   "pct": 12.7
+  },
+  {
+   "name": "Bobby Radford",
+   "count": 96,
+   "pct": 11.6
+  },
+  {
+   "name": "Rachel Orrino",
+   "count": 66,
+   "pct": 8.0
+  },
+  {
+   "name": "Racheal Ochalek",
+   "count": 56,
+   "pct": 6.8
+  },
+  {
+   "name": "Rachel Radulovich",
+   "count": 38,
+   "pct": 4.6
+  },
+  {
+   "name": "Rach Radulovich",
+   "count": 25,
+   "pct": 3.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Python": 6655933,
+   "TypeScript": 3255865,
+   "Go": 1030020,
+   "Shell": 257790,
+   "JavaScript": 22818,
+   "Dockerfile": 13470,
+   "HTML": 7860,
+   "CSS": 5088,
+   "Makefile": 1795,
+   "Batchfile": 446
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "nx"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

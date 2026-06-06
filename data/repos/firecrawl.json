@@ -1,0 +1,460 @@
+{
+ "slug": "firecrawl",
+ "github": "firecrawl/firecrawl",
+ "yc": {
+  "batch": "S22",
+  "team_size": 25,
+  "status": "Active",
+  "one_liner": "The API to search, scrape, and interact with the web at scale. 🔥",
+  "website": "https://www.firecrawl.dev",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 129497,
+  "forks": 7698,
+  "watchers": 369,
+  "open_issues": 365,
+  "commits": 4747,
+  "contributors": 161,
+  "license": "AGPL-3.0",
+  "created": "2024-04-15",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-04-15",
+  "last": "2026-06-06",
+  "span_months": 25.7
+ },
+ "intensity": {
+  "commits_per_week": 42.5,
+  "per_day": 6.08,
+  "weekend_pct": 11.8,
+  "punchcard": [
+   [
+    20,
+    6,
+    10,
+    0,
+    0,
+    4,
+    5,
+    1,
+    10,
+    22,
+    25,
+    38,
+    33,
+    31,
+    47,
+    36,
+    71,
+    61,
+    61,
+    42,
+    32,
+    56,
+    25,
+    25
+   ],
+   [
+    16,
+    12,
+    6,
+    2,
+    0,
+    5,
+    7,
+    5,
+    9,
+    30,
+    42,
+    52,
+    66,
+    52,
+    50,
+    70,
+    77,
+    65,
+    66,
+    50,
+    43,
+    56,
+    35,
+    25
+   ],
+   [
+    11,
+    10,
+    4,
+    5,
+    1,
+    2,
+    3,
+    9,
+    28,
+    33,
+    39,
+    45,
+    65,
+    49,
+    56,
+    84,
+    79,
+    87,
+    59,
+    78,
+    52,
+    43,
+    43,
+    34
+   ],
+   [
+    15,
+    13,
+    11,
+    7,
+    2,
+    0,
+    2,
+    14,
+    29,
+    25,
+    42,
+    46,
+    44,
+    53,
+    74,
+    60,
+    90,
+    113,
+    62,
+    63,
+    66,
+    45,
+    48,
+    33
+   ],
+   [
+    35,
+    28,
+    9,
+    4,
+    0,
+    0,
+    0,
+    6,
+    6,
+    23,
+    32,
+    45,
+    50,
+    55,
+    47,
+    78,
+    76,
+    70,
+    45,
+    50,
+    46,
+    39,
+    38,
+    28
+   ],
+   [
+    18,
+    13,
+    14,
+    6,
+    1,
+    0,
+    2,
+    3,
+    8,
+    4,
+    3,
+    18,
+    19,
+    15,
+    17,
+    7,
+    28,
+    23,
+    10,
+    18,
+    10,
+    14,
+    10,
+    6
+   ],
+   [
+    7,
+    9,
+    14,
+    5,
+    5,
+    4,
+    0,
+    0,
+    3,
+    5,
+    9,
+    24,
+    15,
+    20,
+    18,
+    20,
+    14,
+    16,
+    19,
+    20,
+    19,
+    7,
+    21,
+    18
+   ]
+  ],
+  "dow": [
+   661,
+   841,
+   919,
+   957,
+   810,
+   267,
+   292
+  ],
+  "ai_coauthor_total": 35
+ },
+ "workflow": {
+  "conventional_pct": 55,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 1075
+   },
+   {
+    "k": "feat",
+    "v": 679
+   },
+   {
+    "k": "nick",
+    "v": 544
+   },
+   {
+    "k": "chore",
+    "v": 136
+   },
+   {
+    "k": "refactor",
+    "v": 27
+   },
+   {
+    "k": "debug",
+    "v": 21
+   },
+   {
+    "k": "caleb",
+    "v": 21
+   }
+  ],
+  "merge_pct": 15.2,
+  "median_msg_len": 33
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 158,
+  "commits_90d": 472,
+  "commits_365d": 1928,
+  "active_contributors_90d": 30,
+  "years_since_first_commit": 2.1,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2022,
+  "batch_age_years": 4.5,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2024-04",
+   "c": 201
+  },
+  {
+   "m": "2024-05",
+   "c": 232
+  },
+  {
+   "m": "2024-06",
+   "c": 219
+  },
+  {
+   "m": "2024-07",
+   "c": 199
+  },
+  {
+   "m": "2024-08",
+   "c": 361
+  },
+  {
+   "m": "2024-09",
+   "c": 228
+  },
+  {
+   "m": "2024-10",
+   "c": 194
+  },
+  {
+   "m": "2024-11",
+   "c": 169
+  },
+  {
+   "m": "2024-12",
+   "c": 166
+  },
+  {
+   "m": "2025-01",
+   "c": 259
+  },
+  {
+   "m": "2025-02",
+   "c": 138
+  },
+  {
+   "m": "2025-03",
+   "c": 115
+  },
+  {
+   "m": "2025-04",
+   "c": 207
+  },
+  {
+   "m": "2025-05",
+   "c": 89
+  },
+  {
+   "m": "2025-06",
+   "c": 115
+  },
+  {
+   "m": "2025-07",
+   "c": 239
+  },
+  {
+   "m": "2025-08",
+   "c": 266
+  },
+  {
+   "m": "2025-09",
+   "c": 169
+  },
+  {
+   "m": "2025-10",
+   "c": 201
+  },
+  {
+   "m": "2025-11",
+   "c": 66
+  },
+  {
+   "m": "2025-12",
+   "c": 157
+  },
+  {
+   "m": "2026-01",
+   "c": 100
+  },
+  {
+   "m": "2026-02",
+   "c": 128
+  },
+  {
+   "m": "2026-03",
+   "c": 177
+  },
+  {
+   "m": "2026-04",
+   "c": 164
+  },
+  {
+   "m": "2026-05",
+   "c": 158
+  },
+  {
+   "m": "2026-06",
+   "c": 30
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Gergő Móricz",
+   "count": 1428,
+   "pct": 30.1
+  },
+  {
+   "name": "Nicolas",
+   "count": 1285,
+   "pct": 27.1
+  },
+  {
+   "name": "rafaelsideguide",
+   "count": 473,
+   "pct": 10.0
+  },
+  {
+   "name": "Abimael Martell",
+   "count": 212,
+   "pct": 4.5
+  },
+  {
+   "name": "firecrawl-spring[bot]",
+   "count": 167,
+   "pct": 3.5
+  },
+  {
+   "name": "devin-ai-integration[bot]",
+   "count": 134,
+   "pct": 2.8
+  },
+  {
+   "name": "Eric Ciarla",
+   "count": 99,
+   "pct": 2.1
+  },
+  {
+   "name": "tom",
+   "count": 89,
+   "pct": 1.9
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 4941709,
+   "Python": 1225787,
+   "Rust": 365074,
+   "Java": 230319,
+   "PHP": 121712,
+   "Elixir": 116821,
+   "C#": 100579,
+   "Go": 94948,
+   "Ruby": 77881,
+   "Astro": 32336,
+   "JavaScript": 12725,
+   "Jupyter Notebook": 10546,
+   "Shell": 9808,
+   "Rich Text Format": 5348,
+   "CSS": 5141,
+   "Dockerfile": 4032,
+   "Makefile": 2111,
+   "HTML": 354,
+   "Procfile": 132
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "claude-code"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

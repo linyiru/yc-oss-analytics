@@ -1,0 +1,405 @@
+{
+ "slug": "cactus",
+ "github": "cactus-compute/cactus",
+ "yc": {
+  "batch": "S25",
+  "team_size": 8,
+  "status": "Active",
+  "one_liner": "Low-latency AI engine for mobile devices & wearables",
+  "website": "https://www.cactuscompute.com/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 5311,
+  "forks": 422,
+  "watchers": 42,
+  "open_issues": 60,
+  "commits": 764,
+  "contributors": 50,
+  "license": "NOASSERTION",
+  "created": "2025-04-23",
+  "primary_lang": "C++"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-04-23",
+  "last": "2026-06-04",
+  "span_months": 13.4
+ },
+ "intensity": {
+  "commits_per_week": 13.1,
+  "per_day": 1.88,
+  "weekend_pct": 18.7,
+  "punchcard": [
+   [
+    9,
+    3,
+    5,
+    4,
+    2,
+    0,
+    3,
+    0,
+    3,
+    7,
+    4,
+    8,
+    10,
+    8,
+    6,
+    9,
+    13,
+    11,
+    7,
+    4,
+    2,
+    4,
+    5,
+    5
+   ],
+   [
+    3,
+    13,
+    8,
+    2,
+    1,
+    0,
+    3,
+    2,
+    0,
+    11,
+    9,
+    4,
+    3,
+    12,
+    6,
+    7,
+    5,
+    12,
+    9,
+    5,
+    4,
+    7,
+    2,
+    6
+   ],
+   [
+    4,
+    4,
+    2,
+    5,
+    2,
+    8,
+    2,
+    0,
+    1,
+    4,
+    4,
+    9,
+    10,
+    11,
+    2,
+    2,
+    3,
+    9,
+    5,
+    3,
+    6,
+    3,
+    11,
+    6
+   ],
+   [
+    7,
+    12,
+    9,
+    6,
+    1,
+    6,
+    0,
+    5,
+    0,
+    8,
+    5,
+    5,
+    12,
+    5,
+    11,
+    11,
+    4,
+    3,
+    6,
+    1,
+    1,
+    5,
+    5,
+    5
+   ],
+   [
+    8,
+    4,
+    3,
+    0,
+    2,
+    0,
+    0,
+    3,
+    4,
+    8,
+    5,
+    11,
+    4,
+    0,
+    3,
+    7,
+    8,
+    5,
+    5,
+    8,
+    4,
+    3,
+    7,
+    4
+   ],
+   [
+    9,
+    6,
+    2,
+    2,
+    1,
+    0,
+    0,
+    2,
+    8,
+    4,
+    2,
+    7,
+    3,
+    2,
+    1,
+    1,
+    4,
+    2,
+    9,
+    6,
+    2,
+    2,
+    2,
+    12
+   ],
+   [
+    3,
+    3,
+    1,
+    5,
+    2,
+    0,
+    1,
+    0,
+    0,
+    4,
+    0,
+    0,
+    2,
+    3,
+    1,
+    1,
+    4,
+    3,
+    4,
+    6,
+    3,
+    2,
+    4,
+    2
+   ]
+  ],
+  "dow": [
+   132,
+   134,
+   116,
+   133,
+   106,
+   89,
+   54
+  ],
+  "ai_coauthor_total": 8
+ },
+ "workflow": {
+  "conventional_pct": 5,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 13
+   },
+   {
+    "k": "docs",
+    "v": 9
+   },
+   {
+    "k": "feat",
+    "v": 5
+   },
+   {
+    "k": "chore",
+    "v": 3
+   },
+   {
+    "k": "test",
+    "v": 1
+   },
+   {
+    "k": "macos",
+    "v": 1
+   },
+   {
+    "k": "kotlin",
+    "v": 1
+   }
+  ],
+  "merge_pct": 2.9,
+  "median_msg_len": 31
+ },
+ "activity": {
+  "last_commit_days": 2,
+  "commits_30d": 46,
+  "commits_90d": 148,
+  "commits_365d": 656,
+  "active_contributors_90d": 21,
+  "years_since_first_commit": 1.1,
+  "liveness": 94,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-04",
+   "c": 23
+  },
+  {
+   "m": "2025-05",
+   "c": 83
+  },
+  {
+   "m": "2025-06",
+   "c": 28
+  },
+  {
+   "m": "2025-07",
+   "c": 48
+  },
+  {
+   "m": "2025-08",
+   "c": 7
+  },
+  {
+   "m": "2025-09",
+   "c": 40
+  },
+  {
+   "m": "2025-10",
+   "c": 59
+  },
+  {
+   "m": "2025-11",
+   "c": 71
+  },
+  {
+   "m": "2025-12",
+   "c": 44
+  },
+  {
+   "m": "2026-01",
+   "c": 51
+  },
+  {
+   "m": "2026-02",
+   "c": 136
+  },
+  {
+   "m": "2026-03",
+   "c": 63
+  },
+  {
+   "m": "2026-04",
+   "c": 53
+  },
+  {
+   "m": "2026-05",
+   "c": 50
+  },
+  {
+   "m": "2026-06",
+   "c": 8
+  }
+ ],
+ "contributors": [
+  {
+   "name": "HenryNdubuaku",
+   "count": 458,
+   "pct": 59.9
+  },
+  {
+   "name": "Jakub Mroz",
+   "count": 56,
+   "pct": 7.3
+  },
+  {
+   "name": "Noah Cylich",
+   "count": 31,
+   "pct": 4.1
+  },
+  {
+   "name": "rshemet",
+   "count": 31,
+   "pct": 4.1
+  },
+  {
+   "name": "Justin Lee",
+   "count": 26,
+   "pct": 3.4
+  },
+  {
+   "name": "Parkirat Sandhu",
+   "count": 25,
+   "pct": 3.3
+  },
+  {
+   "name": "Karen Mosoyan",
+   "count": 24,
+   "pct": 3.1
+  },
+  {
+   "name": "Abhi Jain",
+   "count": 18,
+   "pct": 2.4
+  }
+ ],
+ "stack": {
+  "languages": {
+   "C++": 4824210,
+   "C": 3623042,
+   "Python": 2264977,
+   "Makefile": 89800,
+   "Objective-C++": 89023,
+   "Shell": 81881,
+   "Kotlin": 81711,
+   "Dart": 55943,
+   "Swift": 50920,
+   "CMake": 31868,
+   "Ruby": 23324,
+   "Rust": 9772,
+   "Objective-C": 5652,
+   "TypeScript": 2722
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

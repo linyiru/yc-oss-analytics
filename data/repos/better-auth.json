@@ -1,0 +1,434 @@
+{
+ "slug": "better-auth",
+ "github": "better-auth/better-auth",
+ "yc": {
+  "batch": "X25",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "The authentication framework for TypeScript",
+  "website": "https://better-auth.com/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 28613,
+  "forks": 2593,
+  "watchers": 40,
+  "open_issues": 656,
+  "commits": 6814,
+  "contributors": 870,
+  "license": "MIT",
+  "created": "2024-05-19",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-08-10",
+  "last": "2026-06-06",
+  "span_months": 21.8
+ },
+ "intensity": {
+  "commits_per_week": 71.8,
+  "per_day": 10.26,
+  "weekend_pct": 26.5,
+  "punchcard": [
+   [
+    20,
+    28,
+    21,
+    20,
+    8,
+    8,
+    19,
+    12,
+    45,
+    34,
+    61,
+    65,
+    62,
+    71,
+    53,
+    88,
+    56,
+    37,
+    45,
+    48,
+    63,
+    70,
+    55,
+    43
+   ],
+   [
+    46,
+    39,
+    28,
+    27,
+    13,
+    18,
+    14,
+    24,
+    41,
+    66,
+    53,
+    54,
+    66,
+    48,
+    48,
+    43,
+    54,
+    56,
+    51,
+    55,
+    56,
+    50,
+    35,
+    38
+   ],
+   [
+    42,
+    38,
+    25,
+    21,
+    23,
+    21,
+    10,
+    28,
+    25,
+    32,
+    34,
+    40,
+    45,
+    60,
+    49,
+    41,
+    45,
+    43,
+    37,
+    47,
+    41,
+    48,
+    44,
+    50
+   ],
+   [
+    51,
+    26,
+    25,
+    23,
+    11,
+    14,
+    30,
+    35,
+    40,
+    31,
+    48,
+    60,
+    40,
+    52,
+    49,
+    75,
+    46,
+    42,
+    48,
+    60,
+    47,
+    49,
+    50,
+    44
+   ],
+   [
+    47,
+    32,
+    32,
+    15,
+    31,
+    24,
+    9,
+    25,
+    43,
+    47,
+    61,
+    64,
+    57,
+    54,
+    52,
+    53,
+    60,
+    40,
+    50,
+    35,
+    65,
+    78,
+    34,
+    59
+   ],
+   [
+    56,
+    68,
+    53,
+    31,
+    16,
+    25,
+    19,
+    22,
+    34,
+    35,
+    32,
+    57,
+    46,
+    48,
+    24,
+    53,
+    44,
+    43,
+    35,
+    45,
+    33,
+    56,
+    52,
+    57
+   ],
+   [
+    48,
+    58,
+    28,
+    15,
+    12,
+    12,
+    17,
+    22,
+    33,
+    51,
+    35,
+    37,
+    43,
+    39,
+    42,
+    47,
+    45,
+    34,
+    44,
+    32,
+    26,
+    33,
+    28,
+    42
+   ]
+  ],
+  "dow": [
+   1032,
+   1023,
+   889,
+   996,
+   1067,
+   984,
+   823
+  ],
+  "ai_coauthor_total": 30
+ },
+ "workflow": {
+  "conventional_pct": 98,
+  "conv": [
+   {
+    "k": "chore",
+    "v": 2197
+   },
+   {
+    "k": "fix",
+    "v": 1900
+   },
+   {
+    "k": "docs",
+    "v": 1538
+   },
+   {
+    "k": "feat",
+    "v": 680
+   },
+   {
+    "k": "test",
+    "v": 114
+   },
+   {
+    "k": "refactor",
+    "v": 110
+   },
+   {
+    "k": "ci",
+    "v": 52
+   }
+  ],
+  "merge_pct": 1.5,
+  "median_msg_len": 44
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 148,
+  "commits_90d": 558,
+  "commits_365d": 3389,
+  "active_contributors_90d": 107,
+  "years_since_first_commit": 1.8,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2024-08",
+   "c": 41
+  },
+  {
+   "m": "2024-09",
+   "c": 515
+  },
+  {
+   "m": "2024-10",
+   "c": 686
+  },
+  {
+   "m": "2024-11",
+   "c": 520
+  },
+  {
+   "m": "2024-12",
+   "c": 354
+  },
+  {
+   "m": "2025-01",
+   "c": 187
+  },
+  {
+   "m": "2025-02",
+   "c": 299
+  },
+  {
+   "m": "2025-03",
+   "c": 385
+  },
+  {
+   "m": "2025-04",
+   "c": 259
+  },
+  {
+   "m": "2025-05",
+   "c": 156
+  },
+  {
+   "m": "2025-06",
+   "c": 130
+  },
+  {
+   "m": "2025-07",
+   "c": 252
+  },
+  {
+   "m": "2025-08",
+   "c": 385
+  },
+  {
+   "m": "2025-09",
+   "c": 357
+  },
+  {
+   "m": "2025-10",
+   "c": 316
+  },
+  {
+   "m": "2025-11",
+   "c": 365
+  },
+  {
+   "m": "2025-12",
+   "c": 315
+  },
+  {
+   "m": "2026-01",
+   "c": 322
+  },
+  {
+   "m": "2026-02",
+   "c": 272
+  },
+  {
+   "m": "2026-03",
+   "c": 303
+  },
+  {
+   "m": "2026-04",
+   "c": 217
+  },
+  {
+   "m": "2026-05",
+   "c": 161
+  },
+  {
+   "m": "2026-06",
+   "c": 17
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Bereket Engida",
+   "count": 2587,
+   "pct": 38.0
+  },
+  {
+   "name": "Alex Yang",
+   "count": 706,
+   "pct": 10.4
+  },
+  {
+   "name": "Bereket Engida",
+   "count": 458,
+   "pct": 6.7
+  },
+  {
+   "name": "Taesu",
+   "count": 456,
+   "pct": 6.7
+  },
+  {
+   "name": "Maxwell",
+   "count": 338,
+   "pct": 5.0
+  },
+  {
+   "name": "KinfeMichael Tariku",
+   "count": 247,
+   "pct": 3.6
+  },
+  {
+   "name": "Gustavo Valverde",
+   "count": 106,
+   "pct": 1.6
+  },
+  {
+   "name": "Joél Solano",
+   "count": 90,
+   "pct": 1.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 7156890,
+   "JavaScript": 1442,
+   "HTML": 295
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "biome",
+   "claude-code",
+   "docker-compose",
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

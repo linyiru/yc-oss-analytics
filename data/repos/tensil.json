@@ -1,0 +1,325 @@
+{
+ "slug": "tensil",
+ "github": "tensil-ai/tensil",
+ "yc": {
+  "batch": "S19",
+  "team_size": 2,
+  "status": "Inactive",
+  "one_liner": "We turn machine learning models into custom hardware.",
+  "website": "https://www.tensil.ai",
+  "industry": "Industrials"
+ },
+ "metrics": {
+  "stars": 398,
+  "forks": 33,
+  "watchers": 1,
+  "open_issues": 19,
+  "commits": 372,
+  "contributors": 5,
+  "license": "NOASSERTION",
+  "created": "2022-02-26",
+  "primary_lang": "Scala"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2022-02-25",
+  "last": "2022-08-17",
+  "span_months": 5.7
+ },
+ "intensity": {
+  "commits_per_week": 15.1,
+  "per_day": 2.16,
+  "weekend_pct": 6.7,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    10,
+    3,
+    5,
+    2,
+    3,
+    6,
+    7,
+    2,
+    4,
+    9,
+    3,
+    3,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    6,
+    12,
+    4,
+    3,
+    3,
+    10,
+    1,
+    11,
+    8,
+    3,
+    5,
+    3,
+    4,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    3,
+    8,
+    5,
+    3,
+    5,
+    5,
+    9,
+    4,
+    4,
+    2,
+    2,
+    1,
+    4
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    9,
+    6,
+    1,
+    2,
+    4,
+    3,
+    8,
+    4,
+    10,
+    2,
+    3,
+    4,
+    3,
+    7
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    8,
+    12,
+    7,
+    16,
+    6,
+    9,
+    6,
+    3,
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    2,
+    1,
+    0,
+    4,
+    3,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   63,
+   75,
+   59,
+   71,
+   79,
+   21,
+   4
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 0,
+  "conv": [],
+  "merge_pct": 20.2,
+  "median_msg_len": 27
+ },
+ "activity": {
+  "last_commit_days": 1389,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 4.3,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2019,
+  "batch_age_years": 7.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2022-02",
+   "c": 3
+  },
+  {
+   "m": "2022-03",
+   "c": 108
+  },
+  {
+   "m": "2022-04",
+   "c": 48
+  },
+  {
+   "m": "2022-05",
+   "c": 72
+  },
+  {
+   "m": "2022-06",
+   "c": 60
+  },
+  {
+   "m": "2022-07",
+   "c": 66
+  },
+  {
+   "m": "2022-08",
+   "c": 15
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Peter Hizalev",
+   "count": 308,
+   "pct": 82.8
+  },
+  {
+   "name": "Tom Alcorn",
+   "count": 43,
+   "pct": 11.6
+  },
+  {
+   "name": "Tom Alcorn",
+   "count": 17,
+   "pct": 4.6
+  },
+  {
+   "name": "HaoYan Qi",
+   "count": 3,
+   "pct": 0.8
+  },
+  {
+   "name": "Sahand Kashani-Akhavan",
+   "count": 1,
+   "pct": 0.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Scala": 1360608,
+   "Jupyter Notebook": 676551,
+   "C": 240603,
+   "Python": 86682,
+   "Shell": 23141,
+   "Tcl": 9909,
+   "Dockerfile": 1654,
+   "Awk": 145
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "docker"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

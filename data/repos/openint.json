@@ -1,0 +1,446 @@
+{
+ "slug": "openint",
+ "github": "openint-bak/openint",
+ "yc": {
+  "batch": "W23",
+  "team_size": 4,
+  "status": "Acquired",
+  "one_liner": "Open Source Embedded Product Integrations",
+  "website": "https://openint.dev",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 10,
+  "forks": 4,
+  "watchers": 2,
+  "open_issues": 0,
+  "commits": 1986,
+  "contributors": 13,
+  "license": "NOASSERTION",
+  "created": "2024-04-07",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2022-08-10",
+  "last": "2024-10-31",
+  "span_months": 26.7
+ },
+ "intensity": {
+  "commits_per_week": 17.1,
+  "per_day": 2.44,
+  "weekend_pct": 30.8,
+  "punchcard": [
+   [
+    10,
+    9,
+    7,
+    4,
+    0,
+    2,
+    6,
+    5,
+    8,
+    3,
+    7,
+    12,
+    16,
+    15,
+    14,
+    9,
+    15,
+    19,
+    11,
+    9,
+    4,
+    4,
+    6,
+    18
+   ],
+   [
+    20,
+    22,
+    12,
+    0,
+    0,
+    0,
+    1,
+    4,
+    2,
+    6,
+    7,
+    6,
+    15,
+    10,
+    15,
+    14,
+    10,
+    9,
+    10,
+    17,
+    17,
+    20,
+    14,
+    18
+   ],
+   [
+    8,
+    8,
+    10,
+    1,
+    5,
+    2,
+    3,
+    10,
+    8,
+    4,
+    7,
+    11,
+    13,
+    14,
+    18,
+    22,
+    16,
+    17,
+    15,
+    17,
+    11,
+    24,
+    18,
+    19
+   ],
+   [
+    22,
+    19,
+    9,
+    3,
+    1,
+    0,
+    4,
+    5,
+    6,
+    9,
+    20,
+    14,
+    25,
+    18,
+    17,
+    11,
+    11,
+    20,
+    33,
+    18,
+    14,
+    10,
+    15,
+    16
+   ],
+   [
+    16,
+    15,
+    6,
+    2,
+    2,
+    0,
+    1,
+    6,
+    6,
+    9,
+    15,
+    22,
+    20,
+    20,
+    13,
+    21,
+    14,
+    19,
+    14,
+    34,
+    12,
+    18,
+    13,
+    13
+   ],
+   [
+    10,
+    14,
+    7,
+    2,
+    1,
+    1,
+    0,
+    2,
+    3,
+    12,
+    12,
+    9,
+    23,
+    14,
+    16,
+    22,
+    19,
+    11,
+    21,
+    21,
+    17,
+    26,
+    23,
+    11
+   ],
+   [
+    17,
+    22,
+    22,
+    6,
+    4,
+    3,
+    0,
+    3,
+    2,
+    11,
+    11,
+    16,
+    13,
+    13,
+    30,
+    32,
+    15,
+    12,
+    10,
+    14,
+    8,
+    16,
+    23,
+    12
+   ]
+  ],
+  "dow": [
+   213,
+   249,
+   281,
+   320,
+   311,
+   297,
+   315
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 25,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 190
+   },
+   {
+    "k": "chore",
+    "v": 160
+   },
+   {
+    "k": "fix",
+    "v": 122
+   },
+   {
+    "k": "docs",
+    "v": 8
+   },
+   {
+    "k": "feature",
+    "v": 6
+   },
+   {
+    "k": "wip",
+    "v": 5
+   },
+   {
+    "k": "ci",
+    "v": 2
+   }
+  ],
+  "merge_pct": 1.4,
+  "median_msg_len": 39
+ },
+ "activity": {
+  "last_commit_days": 583,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 3.8,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2023,
+  "batch_age_years": 3.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2022-08",
+   "c": 146
+  },
+  {
+   "m": "2022-09",
+   "c": 313
+  },
+  {
+   "m": "2022-10",
+   "c": 36
+  },
+  {
+   "m": "2022-11",
+   "c": 16
+  },
+  {
+   "m": "2022-12",
+   "c": 4
+  },
+  {
+   "m": "2023-01",
+   "c": 174
+  },
+  {
+   "m": "2023-02",
+   "c": 187
+  },
+  {
+   "m": "2023-03",
+   "c": 62
+  },
+  {
+   "m": "2023-04",
+   "c": 204
+  },
+  {
+   "m": "2023-05",
+   "c": 186
+  },
+  {
+   "m": "2023-06",
+   "c": 25
+  },
+  {
+   "m": "2023-09",
+   "c": 2
+  },
+  {
+   "m": "2023-10",
+   "c": 60
+  },
+  {
+   "m": "2023-11",
+   "c": 165
+  },
+  {
+   "m": "2023-12",
+   "c": 39
+  },
+  {
+   "m": "2024-01",
+   "c": 10
+  },
+  {
+   "m": "2024-02",
+   "c": 10
+  },
+  {
+   "m": "2024-03",
+   "c": 15
+  },
+  {
+   "m": "2024-04",
+   "c": 105
+  },
+  {
+   "m": "2024-05",
+   "c": 38
+  },
+  {
+   "m": "2024-06",
+   "c": 12
+  },
+  {
+   "m": "2024-07",
+   "c": 13
+  },
+  {
+   "m": "2024-08",
+   "c": 10
+  },
+  {
+   "m": "2024-09",
+   "c": 73
+  },
+  {
+   "m": "2024-10",
+   "c": 81
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Tony Xiao",
+   "count": 1682,
+   "pct": 84.7
+  },
+  {
+   "name": "Rob Phillips",
+   "count": 91,
+   "pct": 4.6
+  },
+  {
+   "name": "yenbekbay",
+   "count": 90,
+   "pct": 4.5
+  },
+  {
+   "name": "Thanik Bhongbhibhat",
+   "count": 37,
+   "pct": 1.9
+  },
+  {
+   "name": "Amadeo Pellicce",
+   "count": 27,
+   "pct": 1.4
+  },
+  {
+   "name": "Rodrigo Arze Leon",
+   "count": 16,
+   "pct": 0.8
+  },
+  {
+   "name": "Jatin Sandilya",
+   "count": 11,
+   "pct": 0.6
+  },
+  {
+   "name": "Amadeo Pellicce",
+   "count": 9,
+   "pct": 0.5
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 1684951,
+   "PLpgSQL": 54133,
+   "JavaScript": 18493,
+   "Shell": 16990,
+   "MDX": 9363,
+   "CSS": 6527,
+   "Dockerfile": 4188
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [
+   "@openint/cli"
+  ],
+  "infra": [
+   "docker-compose",
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

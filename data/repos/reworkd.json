@@ -1,0 +1,397 @@
+{
+ "slug": "reworkd",
+ "github": "reworkd/AgentGPT",
+ "yc": {
+  "batch": "S23",
+  "team_size": 1,
+  "status": "Active",
+  "one_liner": "The simplest way to extract web data at scale",
+  "website": "https://reworkd.ai",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 36156,
+  "forks": 9331,
+  "watchers": 331,
+  "open_issues": 219,
+  "commits": 1339,
+  "contributors": 79,
+  "license": "GPL-3.0",
+  "created": "2023-04-07",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2023-04-06",
+  "last": "2025-04-28",
+  "span_months": 24.7
+ },
+ "intensity": {
+  "commits_per_week": 12.5,
+  "per_day": 1.78,
+  "weekend_pct": 25.5,
+  "punchcard": [
+   [
+    10,
+    3,
+    0,
+    0,
+    1,
+    0,
+    1,
+    9,
+    7,
+    4,
+    15,
+    12,
+    17,
+    15,
+    6,
+    17,
+    18,
+    19,
+    15,
+    12,
+    18,
+    9,
+    12,
+    10
+   ],
+   [
+    10,
+    10,
+    3,
+    0,
+    2,
+    0,
+    2,
+    6,
+    2,
+    9,
+    10,
+    14,
+    4,
+    13,
+    6,
+    13,
+    7,
+    10,
+    12,
+    6,
+    7,
+    13,
+    17,
+    10
+   ],
+   [
+    13,
+    1,
+    1,
+    0,
+    0,
+    1,
+    4,
+    2,
+    6,
+    11,
+    17,
+    9,
+    9,
+    29,
+    19,
+    13,
+    21,
+    19,
+    10,
+    9,
+    11,
+    12,
+    14,
+    17
+   ],
+   [
+    5,
+    2,
+    3,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1,
+    11,
+    21,
+    14,
+    13,
+    7,
+    6,
+    11,
+    3,
+    13,
+    14,
+    4,
+    12,
+    7,
+    5,
+    10
+   ],
+   [
+    14,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    6,
+    7,
+    4,
+    12,
+    14,
+    9,
+    12,
+    8,
+    9,
+    8,
+    8,
+    13,
+    5,
+    8,
+    5,
+    11,
+    12
+   ],
+   [
+    5,
+    10,
+    2,
+    1,
+    0,
+    1,
+    2,
+    5,
+    4,
+    2,
+    6,
+    12,
+    10,
+    4,
+    5,
+    10,
+    16,
+    12,
+    9,
+    7,
+    9,
+    10,
+    6,
+    6
+   ],
+   [
+    7,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    6,
+    9,
+    16,
+    7,
+    19,
+    5,
+    9,
+    16,
+    12,
+    12,
+    5,
+    9,
+    15,
+    20,
+    13
+   ]
+  ],
+  "dow": [
+   230,
+   186,
+   248,
+   167,
+   167,
+   154,
+   187
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 8,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 57
+   },
+   {
+    "k": "build",
+    "v": 21
+   },
+   {
+    "k": "bug",
+    "v": 10
+   },
+   {
+    "k": "fix",
+    "v": 9
+   },
+   {
+    "k": "chore",
+    "v": 4
+   },
+   {
+    "k": "feature",
+    "v": 4
+   },
+   {
+    "k": "refactor",
+    "v": 2
+   }
+  ],
+  "merge_pct": 10.7,
+  "median_msg_len": 26
+ },
+ "activity": {
+  "last_commit_days": 403,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 3.2,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2023,
+  "batch_age_years": 3.5,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2023-04",
+   "c": 360
+  },
+  {
+   "m": "2023-05",
+   "c": 263
+  },
+  {
+   "m": "2023-06",
+   "c": 225
+  },
+  {
+   "m": "2023-07",
+   "c": 310
+  },
+  {
+   "m": "2023-08",
+   "c": 99
+  },
+  {
+   "m": "2023-09",
+   "c": 19
+  },
+  {
+   "m": "2023-10",
+   "c": 23
+  },
+  {
+   "m": "2023-11",
+   "c": 29
+  },
+  {
+   "m": "2023-12",
+   "c": 1
+  },
+  {
+   "m": "2024-01",
+   "c": 1
+  },
+  {
+   "m": "2024-02",
+   "c": 1
+  },
+  {
+   "m": "2024-07",
+   "c": 2
+  },
+  {
+   "m": "2025-03",
+   "c": 5
+  },
+  {
+   "m": "2025-04",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "asim-shrestha",
+   "count": 440,
+   "pct": 32.9
+  },
+  {
+   "name": "awtkns",
+   "count": 223,
+   "pct": 16.7
+  },
+  {
+   "name": "awtkns",
+   "count": 191,
+   "pct": 14.3
+  },
+  {
+   "name": "Asim Shrestha",
+   "count": 136,
+   "pct": 10.2
+  },
+  {
+   "name": "dependabot[bot]",
+   "count": 64,
+   "pct": 4.8
+  },
+  {
+   "name": "Rishabh Shah",
+   "count": 46,
+   "pct": 3.4
+  },
+  {
+   "name": "Joe Shen",
+   "count": 42,
+   "pct": 3.1
+  },
+  {
+   "name": "Jasan Gill",
+   "count": 33,
+   "pct": 2.5
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 267757,
+   "Python": 151498,
+   "JavaScript": 24765,
+   "MDX": 22221,
+   "CSS": 4130,
+   "Shell": 1910,
+   "Dockerfile": 1619,
+   "Batchfile": 131
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

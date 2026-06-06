@@ -1,0 +1,427 @@
+{
+ "slug": "char",
+ "github": "fastrepl/anarlog",
+ "yc": {
+  "batch": "S25",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "The AI notepad that knows and works for you",
+  "website": "https://char.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 8592,
+  "forks": 629,
+  "watchers": 28,
+  "open_issues": 11,
+  "commits": 7448,
+  "contributors": 39,
+  "license": "MIT",
+  "created": "2024-12-09",
+  "primary_lang": "Rust"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2024-12-09",
+  "last": "2026-06-07",
+  "span_months": 17.9
+ },
+ "intensity": {
+  "commits_per_week": 95.8,
+  "per_day": 13.69,
+  "weekend_pct": 23.8,
+  "punchcard": [
+   [
+    27,
+    39,
+    16,
+    11,
+    9,
+    0,
+    1,
+    3,
+    22,
+    59,
+    81,
+    76,
+    89,
+    110,
+    83,
+    97,
+    89,
+    58,
+    57,
+    73,
+    78,
+    63,
+    33,
+    37
+   ],
+   [
+    18,
+    17,
+    5,
+    1,
+    2,
+    7,
+    3,
+    27,
+    25,
+    45,
+    79,
+    88,
+    61,
+    79,
+    96,
+    70,
+    61,
+    49,
+    54,
+    76,
+    69,
+    57,
+    54,
+    36
+   ],
+   [
+    18,
+    21,
+    10,
+    6,
+    1,
+    2,
+    8,
+    17,
+    33,
+    70,
+    72,
+    61,
+    66,
+    73,
+    95,
+    97,
+    84,
+    68,
+    79,
+    79,
+    87,
+    87,
+    31,
+    41
+   ],
+   [
+    25,
+    17,
+    24,
+    6,
+    2,
+    0,
+    3,
+    16,
+    20,
+    47,
+    83,
+    85,
+    73,
+    94,
+    75,
+    77,
+    71,
+    42,
+    72,
+    73,
+    83,
+    71,
+    52,
+    25
+   ],
+   [
+    26,
+    17,
+    10,
+    1,
+    2,
+    2,
+    2,
+    5,
+    26,
+    49,
+    82,
+    80,
+    57,
+    74,
+    73,
+    82,
+    70,
+    49,
+    64,
+    53,
+    77,
+    71,
+    35,
+    34
+   ],
+   [
+    18,
+    15,
+    15,
+    1,
+    2,
+    2,
+    1,
+    3,
+    20,
+    27,
+    51,
+    60,
+    66,
+    48,
+    75,
+    71,
+    65,
+    47,
+    35,
+    59,
+    51,
+    46,
+    44,
+    32
+   ],
+   [
+    25,
+    9,
+    11,
+    10,
+    1,
+    1,
+    1,
+    4,
+    11,
+    38,
+    57,
+    51,
+    45,
+    75,
+    75,
+    78,
+    55,
+    44,
+    62,
+    65,
+    73,
+    60,
+    38,
+    32
+   ]
+  ],
+  "dow": [
+   1211,
+   1079,
+   1206,
+   1136,
+   1041,
+   854,
+   921
+  ],
+  "ai_coauthor_total": 17
+ },
+ "workflow": {
+  "conventional_pct": 25,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 704
+   },
+   {
+    "k": "feat",
+    "v": 608
+   },
+   {
+    "k": "refactor",
+    "v": 175
+   },
+   {
+    "k": "chore",
+    "v": 105
+   },
+   {
+    "k": "docs",
+    "v": 101
+   },
+   {
+    "k": "admin",
+    "v": 46
+   },
+   {
+    "k": "publish",
+    "v": 29
+   }
+  ],
+  "merge_pct": 0.1,
+  "median_msg_len": 33
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 291,
+  "commits_90d": 1199,
+  "commits_365d": 5658,
+  "active_contributors_90d": 9,
+  "years_since_first_commit": 1.5,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2024-12",
+   "c": 169
+  },
+  {
+   "m": "2025-01",
+   "c": 303
+  },
+  {
+   "m": "2025-02",
+   "c": 370
+  },
+  {
+   "m": "2025-03",
+   "c": 354
+  },
+  {
+   "m": "2025-04",
+   "c": 360
+  },
+  {
+   "m": "2025-05",
+   "c": 220
+  },
+  {
+   "m": "2025-06",
+   "c": 104
+  },
+  {
+   "m": "2025-07",
+   "c": 278
+  },
+  {
+   "m": "2025-08",
+   "c": 316
+  },
+  {
+   "m": "2025-09",
+   "c": 177
+  },
+  {
+   "m": "2025-10",
+   "c": 307
+  },
+  {
+   "m": "2025-11",
+   "c": 512
+  },
+  {
+   "m": "2025-12",
+   "c": 868
+  },
+  {
+   "m": "2026-01",
+   "c": 925
+  },
+  {
+   "m": "2026-02",
+   "c": 823
+  },
+  {
+   "m": "2026-03",
+   "c": 652
+  },
+  {
+   "m": "2026-04",
+   "c": 419
+  },
+  {
+   "m": "2026-05",
+   "c": 196
+  },
+  {
+   "m": "2026-06",
+   "c": 95
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Yujong Lee",
+   "count": 4655,
+   "pct": 62.5
+  },
+  {
+   "name": "John Jeong",
+   "count": 1315,
+   "pct": 17.7
+  },
+  {
+   "name": "devin-ai-integration[bot]",
+   "count": 927,
+   "pct": 12.4
+  },
+  {
+   "name": "Deokhaeng Lee (Duck)",
+   "count": 161,
+   "pct": 2.2
+  },
+  {
+   "name": "John Jeong",
+   "count": 131,
+   "pct": 1.8
+  },
+  {
+   "name": "harshikaalagh-netizen",
+   "count": 54,
+   "pct": 0.7
+  },
+  {
+   "name": "yujonglee",
+   "count": 54,
+   "pct": 0.7
+  },
+  {
+   "name": "Sungbin Jo",
+   "count": 53,
+   "pct": 0.7
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Rust": 6412479,
+   "TypeScript": 4600048,
+   "MDX": 795005,
+   "Swift": 167249,
+   "CSS": 41459,
+   "Jinja": 40428,
+   "Shell": 27195,
+   "PLpgSQL": 21067,
+   "JavaScript": 15528,
+   "HTML": 10898,
+   "Python": 8503,
+   "Dockerfile": 3236
+  },
+  "manifests": [
+   "package.json",
+   "go.mod",
+   "Cargo.toml"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

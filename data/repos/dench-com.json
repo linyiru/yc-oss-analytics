@@ -1,0 +1,380 @@
+{
+ "slug": "dench-com",
+ "github": "DenchHQ/DenchClaw",
+ "yc": {
+  "batch": "S24",
+  "team_size": 6,
+  "status": "Active",
+  "one_liner": "Open Source AI CRM built on top of OpenClaw",
+  "website": "https://dench.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 1607,
+  "forks": 115,
+  "watchers": 11,
+  "open_issues": 93,
+  "commits": 13798,
+  "contributors": 811,
+  "license": "MIT",
+  "created": "2026-02-01",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-11-24",
+  "last": "2026-06-04",
+  "span_months": 6.3
+ },
+ "intensity": {
+  "commits_per_week": 503.1,
+  "per_day": 71.86,
+  "weekend_pct": 35.8,
+  "punchcard": [
+   [
+    124,
+    102,
+    83,
+    49,
+    48,
+    53,
+    82,
+    77,
+    100,
+    93,
+    68,
+    62,
+    65,
+    74,
+    81,
+    80,
+    118,
+    95,
+    147,
+    63,
+    112,
+    106,
+    174,
+    101
+   ],
+   [
+    117,
+    95,
+    76,
+    90,
+    73,
+    60,
+    44,
+    42,
+    50,
+    71,
+    76,
+    75,
+    87,
+    87,
+    96,
+    90,
+    75,
+    68,
+    67,
+    85,
+    50,
+    68,
+    61,
+    80
+   ],
+   [
+    91,
+    87,
+    58,
+    58,
+    55,
+    46,
+    11,
+    16,
+    29,
+    41,
+    33,
+    99,
+    52,
+    60,
+    37,
+    47,
+    67,
+    111,
+    85,
+    79,
+    68,
+    56,
+    111,
+    96
+   ],
+   [
+    74,
+    76,
+    72,
+    57,
+    50,
+    72,
+    53,
+    85,
+    115,
+    82,
+    79,
+    56,
+    42,
+    54,
+    91,
+    89,
+    67,
+    68,
+    63,
+    47,
+    46,
+    92,
+    76,
+    110
+   ],
+   [
+    85,
+    69,
+    54,
+    52,
+    39,
+    45,
+    37,
+    45,
+    47,
+    68,
+    47,
+    55,
+    39,
+    65,
+    72,
+    95,
+    105,
+    88,
+    105,
+    96,
+    80,
+    81,
+    123,
+    116
+   ],
+   [
+    129,
+    147,
+    101,
+    115,
+    80,
+    61,
+    54,
+    41,
+    37,
+    49,
+    29,
+    94,
+    126,
+    129,
+    115,
+    121,
+    130,
+    148,
+    202,
+    261,
+    188,
+    160,
+    146,
+    210
+   ],
+   [
+    177,
+    146,
+    107,
+    132,
+    160,
+    135,
+    66,
+    35,
+    32,
+    15,
+    58,
+    47,
+    46,
+    80,
+    95,
+    105,
+    117,
+    58,
+    75,
+    76,
+    63,
+    73,
+    72,
+    98
+   ]
+  ],
+  "dow": [
+   2157,
+   1783,
+   1493,
+   1716,
+   1708,
+   2873,
+   2068
+  ],
+  "ai_coauthor_total": 199
+ },
+ "workflow": {
+  "conventional_pct": 93,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 4217
+   },
+   {
+    "k": "docs",
+    "v": 1531
+   },
+   {
+    "k": "refactor",
+    "v": 1422
+   },
+   {
+    "k": "feat",
+    "v": 1360
+   },
+   {
+    "k": "test",
+    "v": 1213
+   },
+   {
+    "k": "chore",
+    "v": 1022
+   },
+   {
+    "k": "perf",
+    "v": 352
+   }
+  ],
+  "merge_pct": 4.0,
+  "median_msg_len": 46
+ },
+ "activity": {
+  "last_commit_days": 2,
+  "commits_30d": 15,
+  "commits_90d": 512,
+  "commits_365d": 13798,
+  "active_contributors_90d": 6,
+  "years_since_first_commit": 0.5,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2024,
+  "batch_age_years": 2.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-11",
+   "c": 288
+  },
+  {
+   "m": "2025-12",
+   "c": 2128
+  },
+  {
+   "m": "2026-01",
+   "c": 5752
+  },
+  {
+   "m": "2026-02",
+   "c": 4952
+  },
+  {
+   "m": "2026-03",
+   "c": 352
+  },
+  {
+   "m": "2026-04",
+   "c": 269
+  },
+  {
+   "m": "2026-05",
+   "c": 43
+  },
+  {
+   "m": "2026-06",
+   "c": 14
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Peter Steinberger",
+   "count": 9148,
+   "pct": 66.3
+  },
+  {
+   "name": "kumarabhirup",
+   "count": 500,
+   "pct": 3.6
+  },
+  {
+   "name": "Vignesh Natarajan",
+   "count": 335,
+   "pct": 2.4
+  },
+  {
+   "name": "Vedant",
+   "count": 244,
+   "pct": 1.8
+  },
+  {
+   "name": "Shadow",
+   "count": 170,
+   "pct": 1.2
+  },
+  {
+   "name": "cpojer",
+   "count": 156,
+   "pct": 1.1
+  },
+  {
+   "name": "Sebastian",
+   "count": 151,
+   "pct": 1.1
+  },
+  {
+   "name": "Gustavo Madeira Santana",
+   "count": 117,
+   "pct": 0.8
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 6252471,
+   "JavaScript": 133180,
+   "CSS": 55559,
+   "Shell": 18307
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [
+   "@clack/prompts",
+   "axios",
+   "chalk",
+   "commander",
+   "gradient-string",
+   "json5",
+   "posthog-node",
+   "tslog"
+  ],
+  "infra": [
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}
