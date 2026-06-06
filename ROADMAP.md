@@ -6,8 +6,13 @@ deltas; *archive* = needs GH Archive / OSS Insight (event stream with actor iden
 
 ## Analysis features
 
-### Dev-tool & AI-agent detection — *now*
-Detect which IDEs / CLIs / coding agents a team uses.
+### Dev-tool & AI-agent detection — *config-file half implemented*
+Detect which IDEs / CLIs / coding agents a team uses. `pipeline/dev_tools.py` scans the repo
+tree (API, no clone) for tool fingerprints. **Labelling accuracy matters:** `AGENTS.md` is a
+vendor-neutral convention (Codex, Cursor, Jules, Amp, Zed, …), so it's reported as the generic
+`AGENTS.md` agent-instructions signal, *not* attributed to Codex. `MCP` (`.mcp.json`) is
+excluded — it's a protocol, not a coding tool, and its presence is ambiguous. The git-log half
+(co-author trailers, agent bot authors) still needs the clone (compute it in run.py).
 - **Direct evidence:** `Co-Authored-By:` trailers (Claude / Cursor / Copilot / Devin), agent
   bot authors (`*[bot]`, `devin-ai-integration[bot]`, `google-labs-jules[bot]`), message
   signatures ("Generated with Claude Code"), and config files in the tree

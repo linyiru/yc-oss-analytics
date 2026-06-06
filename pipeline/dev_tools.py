@@ -21,13 +21,16 @@ FINGERPRINTS = [
     (r"^CLAUDE\.md$|^\.claude/", "Claude Code", "ai"),
     (r"^\.cursor/|^\.cursorrules$", "Cursor", "ai"),
     (r"^\.github/copilot-instructions\.md$", "GitHub Copilot", "ai"),
-    (r"^AGENTS?\.md$", "Codex / AGENTS.md", "ai"),
+    # AGENTS.md is a vendor-neutral convention (Codex, Cursor, Jules, Amp, Zed, Aider, ...),
+    # NOT a Codex-specific fingerprint — label it as the generic agent-instructions signal.
+    (r"^AGENTS?\.md$", "AGENTS.md", "ai"),
     (r"^\.windsurfrules$|^\.windsurf/", "Windsurf", "ai"),
     (r"^\.aider\b|^\.aider\.conf", "Aider", "ai"),
     (r"^\.continue/", "Continue", "ai"),
     (r"^GEMINI\.md$|^\.gemini/", "Gemini CLI", "ai"),
     (r"^\.devin/", "Devin", "ai"),
-    (r"^\.?mcp\.json$|^\.mcp/", "MCP", "ai"),
+    # NOTE: MCP (.mcp.json) deliberately excluded — it's a protocol, not a coding tool/IDE,
+    # and its presence is ambiguous (dev-workflow config vs the project building an MCP product).
     (r"^\.vscode/", "VS Code", "editor"),
     (r"^\.idea/", "JetBrains", "editor"),
     (r"^\.zed/", "Zed", "editor"),

@@ -18,8 +18,7 @@
   "ai_tools": [
    "Claude Code",
    "Cursor",
-   "GitHub Copilot",
-   "MCP"
+   "GitHub Copilot"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -27,8 +26,8 @@
  "browser-use": {
   "github": "browser-use/browser-use",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -36,8 +35,8 @@
  "bun": {
   "github": "oven-sh/bun",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [
@@ -68,8 +67,8 @@
  "mem0": {
   "github": "mem0ai/mem0",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -89,8 +88,8 @@
  "litellm": {
   "github": "BerriAI/litellm",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Gemini CLI"
   ],
   "editors": [],
@@ -100,8 +99,7 @@
   "github": "twentyhq/twenty",
   "ai_tools": [
    "Claude Code",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "VS Code"
@@ -111,10 +109,9 @@
  "payload": {
   "github": "payloadcms/payload",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "JetBrains",
@@ -131,8 +128,8 @@
  "tiptap": {
   "github": "ueberdosis/tiptap",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -142,7 +139,7 @@
  "mattermost": {
   "github": "mattermost/mattermost",
   "ai_tools": [
-   "Codex / AGENTS.md",
+   "AGENTS.md",
    "Cursor"
   ],
   "editors": [],
@@ -165,10 +162,9 @@
  "posthog": {
   "github": "PostHog/posthog",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "JetBrains",
@@ -196,10 +192,9 @@
  "onyx": {
   "github": "onyx-dot-app/onyx",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "VS Code"
@@ -209,8 +204,8 @@
  "chatwoot": {
   "github": "chatwoot/chatwoot",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Windsurf"
   ],
   "editors": [
@@ -221,8 +216,8 @@
  "better-auth": {
   "github": "better-auth/better-auth",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -232,8 +227,8 @@
  "langfuse": {
   "github": "langfuse/langfuse",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -243,8 +238,8 @@
  "reflex": {
   "github": "reflex-dev/reflex",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -276,8 +271,8 @@
  "vibe-kanban": {
   "github": "BloopAI/vibe-kanban",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -285,8 +280,8 @@
  "sst": {
   "github": "anomalyco/sst",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -304,8 +299,8 @@
  "mastra": {
   "github": "mastra-ai/mastra",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [],
@@ -314,8 +309,8 @@
  "gitlab": {
   "github": "gitlabhq/gitlabhq",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -331,8 +326,8 @@
  "activepieces": {
   "github": "activepieces/activepieces",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [
@@ -343,8 +338,8 @@
  "skyvern": {
   "github": "Skyvern-AI/skyvern",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -360,8 +355,8 @@
  "manaflow": {
   "github": "manaflow-ai/cmux",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [],
@@ -416,7 +411,7 @@
  "protocol-labs": {
   "github": "ipfs/kubo",
   "ai_tools": [
-   "Codex / AGENTS.md"
+   "AGENTS.md"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -434,9 +429,8 @@
  "windmill": {
   "github": "windmill-labs/windmill",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md",
-   "MCP"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -452,8 +446,8 @@
  "trigger-dev": {
   "github": "triggerdotdev/trigger.dev",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor",
    "GitHub Copilot"
   ],
@@ -489,8 +483,8 @@
  "daily": {
   "github": "pipecat-ai/pipecat",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -530,8 +524,8 @@
  "pyroscope": {
   "github": "grafana/pyroscope",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [
@@ -558,8 +552,8 @@
  "lancedb": {
   "github": "lancedb/lancedb",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -567,8 +561,7 @@
  "manufact": {
   "github": "mcp-use/mcp-use",
   "ai_tools": [
-   "Claude Code",
-   "MCP"
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -576,8 +569,8 @@
  "nango": {
   "github": "NangoHQ/nango",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [],
@@ -592,10 +585,9 @@
  "hyperdx": {
   "github": "hyperdxio/hyperdx",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "VS Code"
@@ -605,8 +597,8 @@
  "replicate": {
   "github": "replicate/cog",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -654,8 +646,8 @@
  "char": {
   "github": "fastrepl/anarlog",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code",
@@ -666,10 +658,9 @@
  "webiny": {
   "github": "webiny/webiny-js",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "GitHub Copilot",
-   "MCP"
+   "GitHub Copilot"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -731,8 +722,8 @@
  "stagewise": {
   "github": "stagewise-io/stagewise",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -755,8 +746,7 @@
   "github": "lightdash/lightdash",
   "ai_tools": [
    "Claude Code",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [
    "VS Code",
@@ -767,8 +757,8 @@
  "helicone": {
   "github": "Helicone/helicone",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [
@@ -779,8 +769,8 @@
  "rivet": {
   "github": "rivet-dev/rivet",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -806,8 +796,8 @@
  "jitsu": {
   "github": "jitsucom/jitsu",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -821,8 +811,8 @@
  "epicenter": {
   "github": "EpicenterHQ/epicenter",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -862,8 +852,8 @@
  "tracecat": {
   "github": "TracecatHQ/tracecat",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -890,8 +880,8 @@
  "sourcebot": {
   "github": "sourcebot-dev/sourcebot",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [
@@ -938,8 +928,8 @@
  "dittofeed": {
   "github": "dittofeed/dittofeed",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
    "Cursor"
   ],
   "editors": [],
@@ -1017,8 +1007,8 @@
  "mentra": {
   "github": "Mentra-Community/MentraOS",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -1094,8 +1084,8 @@
  "nao-labs": {
   "github": "getnao/nao",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [
    "VS Code"
@@ -1125,10 +1115,9 @@
  "rownd": {
   "github": "llama-farm/llamafarm",
   "ai_tools": [
+   "AGENTS.md",
    "Claude Code",
-   "Codex / AGENTS.md",
-   "Cursor",
-   "MCP"
+   "Cursor"
   ],
   "editors": [],
   "evidence": "config-file"
@@ -1194,8 +1183,8 @@
  "embrace": {
   "github": "embrace-io/embrace-android-sdk",
   "ai_tools": [
-   "Claude Code",
-   "Codex / AGENTS.md"
+   "AGENTS.md",
+   "Claude Code"
   ],
   "editors": [],
   "evidence": "config-file"
