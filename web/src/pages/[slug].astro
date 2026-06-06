@@ -1,13 +1,26 @@
 ---
-import Base from '../layouts/Base.astro';
-import RepoBody from '../components/RepoBody.astro';
+import '../styles/ds.css';
+import '../styles/app.css';
+import RepoPage from '../components/RepoPage.jsx';
 import { repos } from '../lib/data';
-import { t } from '../i18n/ui';
+import { toRepoView } from '../lib/repoView';
 export function getStaticPaths() {
-  return repos.map((r) => ({ params: { slug: r.slug }, props: { repo: r } }));
+  return repos.map((r) => ({ params: { slug: r.slug }, props: { view: toRepoView(r.slug) } }));
 }
-const { repo } = Astro.props;
+const { view } = Astro.props;
 ---
-<Base locale="en" title={`${repo.slug} · ${t('en', 'site.title')}`} path={repo.slug}>
-  <RepoBody repo={repo} locale="en" />
-</Base>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{view.c.name} · oss/signal</title>
+    <meta name="description" content={view.c.oneLiner} />
+    <script is:inline>
+      try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <RepoPage client:only="react" view={view} />
+  </body>
+</html>

@@ -1,15 +1,27 @@
 ---
-import Base from '../../layouts/Base.astro';
-import RepoBody from '../../components/RepoBody.astro';
+import '../../styles/ds.css';
+import '../../styles/app.css';
+import RepoPage from '../../components/RepoPage.jsx';
 import { repos } from '../../lib/data';
-import { locales, t, defaultLocale } from '../../i18n/ui';
+import { toRepoView } from '../../lib/repoView';
+import { locales, defaultLocale } from '../../i18n/ui';
 export function getStaticPaths() {
   const langs = locales.filter((l) => l !== defaultLocale);
-  return langs.flatMap((lang) => repos.map((r) => ({ params: { lang, slug: r.slug }, props: { repo: r } })));
+  return langs.flatMap((lang) => repos.map((r) => ({ params: { lang, slug: r.slug }, props: { view: toRepoView(r.slug), lang } })));
 }
-const { lang } = Astro.params as any;
-const { repo } = Astro.props;
+const { view, lang } = Astro.props as any;
 ---
-<Base locale={lang} title={`${repo.slug} · ${t(lang, 'site.title')}`} path={repo.slug}>
-  <RepoBody repo={repo} locale={lang} />
-</Base>
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{view.c.name} · oss/signal</title>
+    <script is:inline>
+      try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <RepoPage client:only="react" view={view} initialLocale={lang} />
+  </body>
+</html>
