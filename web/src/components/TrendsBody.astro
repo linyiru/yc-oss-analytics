@@ -1,7 +1,7 @@
 ---
-import { languageTrends, devToolAdoption } from '../lib/trends';
+import { languageTrends, devToolAdoption, movers } from '../lib/trends';
 import { repos } from '../lib/data';
-import { t, type Locale } from '../i18n/ui';
+import { t, fmtNum, defaultLocale, type Locale } from '../i18n/ui';
 import LangTrends from './charts/LangTrends.tsx';
 import MonthlyBar from './charts/MonthlyBar.tsx';
 const { locale = 'en' } = Astro.props as { locale: Locale };
@@ -9,9 +9,36 @@ const { years, languages } = languageTrends();
 const aiSeries = years.map((y) => ({ m: String(y.year), c: y.aiAdoptionPct }));
 const tools = devToolAdoption();
 const toolMax = tools.tools[0]?.count || 1;
+const mv = movers();
+const link = (slug: string) => (locale === defaultLocale ? `/${slug}` : `/${locale}/${slug}`);
 ---
 <h1 style="font-size:26px;margin:18px 0 6px">{t(locale, 'trends.heading')}</h1>
 <p style="color:var(--mut);margin:0 0 24px">{t(locale, 'trends.intro', { count: repos.length })}</p>
+
+<div class="card">
+  <h2>{t(locale, 'trends.movers.title')}</h2>
+  <p class="desc">{t(locale, 'trends.movers.note')}</p>
+  <div class="grid2">
+    <div>
+      <div class="mh">{t(locale, 'trends.movers.active')}</div>
+      {mv.mostActive.map((m, i) => (
+        <a class="mrow" href={link(m.slug)}>
+          <span class="mi">{i + 1}</span><span class="ms">{m.slug}</span>
+          <span class="mv">{fmtNum(locale, m.c90)}</span>
+        </a>
+      ))}
+    </div>
+    <div>
+      <div class="mh">{t(locale, 'trends.movers.accel')}</div>
+      {mv.accelerating.map((m, i) => (
+        <a class="mrow" href={link(m.slug)}>
+          <span class="mi">{i + 1}</span><span class="ms">{m.slug}</span>
+          <span class="mv">{m.accel}×</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
 
 <div class="card">
   <h2>{t(locale, 'trends.lang.title')}</h2>
@@ -66,4 +93,10 @@ const toolMax = tools.tools[0]?.count || 1;
   .bt { flex: 1; background: #1b2230; border-radius: 5px; height: 14px; overflow: hidden; }
   .bf { height: 100%; background: linear-gradient(90deg, #7c5cff, #a78bfa); border-radius: 5px; }
   .bv { width: 90px; flex: none; text-align: right; color: var(--mut); font-variant-numeric: tabular-nums; }
+  .mh { font-size: 12px; color: var(--mut); margin: 4px 0 8px; font-weight: 600; }
+  .mrow { display: flex; align-items: center; gap: 10px; padding: 5px 0; text-decoration: none; font-size: 13px; border-bottom: 1px solid var(--bd); }
+  .mrow:hover .ms { color: #a78bfa; }
+  .mi { width: 18px; color: var(--mut); flex: none; text-align: right; }
+  .ms { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mv { color: #a78bfa; font-variant-numeric: tabular-nums; flex: none; }
 </style>

@@ -1,6 +1,23 @@
 // Cross-repo aggregations. Batch year is the time axis — no historical snapshots needed.
 import { repos, devTools, type RepoData } from './data';
 
+export interface Mover { slug: string; oneLiner: string; c90: number; c30: number; accel: number; stars: number }
+// Commit momentum from existing data: c90 = commits in last 90d; accel = last-30d rate vs the
+// quarter's monthly average (>1 = speeding up). Star momentum is added once curves are backfilled.
+export function movers(): { mostActive: Mover[]; accelerating: Mover[] } {
+  const scored: Mover[] = repos
+    .filter((r) => r.activity?.commits_90d != null)
+    .map((r) => {
+      const c90 = r.activity.commits_90d, c30 = r.activity.commits_30d;
+      const expected = c90 / 3;
+      return { slug: r.slug, oneLiner: r.yc.one_liner, c90, c30, accel: expected > 0 ? +(c30 / expected).toFixed(2) : 0, stars: r.metrics.stars };
+    });
+  return {
+    mostActive: [...scored].sort((a, b) => b.c90 - a.c90).slice(0, 10),
+    accelerating: scored.filter((s) => s.c90 >= 30).sort((a, b) => b.accel - a.accel).slice(0, 10),
+  };
+}
+
 export function devToolAdoption(): { scanned: number; withAI: number; tools: { name: string; count: number; pct: number }[]; editors: { name: string; count: number }[] } {
   const entries = Object.values(devTools);
   const scanned = entries.length;
