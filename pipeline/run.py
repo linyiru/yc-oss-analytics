@@ -283,6 +283,13 @@ def main():
     )
     os.makedirs(f"{ROOT}/data/repos", exist_ok=True)
     json.dump(out, open(f"{ROOT}/data/repos/{slug}.json", "w"), indent=1, ensure_ascii=False)
+
+    # disk-safe bulk mode: drop the clone after analysis so 100s of repos don't pile up.
+    # only removes clones we created under .clones (never a symlink / external path).
+    if "--cleanup" in sys.argv and not os.path.islink(repo_path) \
+            and os.path.realpath(repo_path).startswith(os.path.realpath(CLONES)):
+        import shutil
+        shutil.rmtree(repo_path, ignore_errors=True)
     ch = f"churn✓" if churn else "churn–"
     a = out["activity"]
     print(f"  ✓ {slug:18s} {out['metrics']['stars']:>7,}★ {commits['commits']:>5}c "
