@@ -2,7 +2,8 @@
    YC OSS Analytics — Design System tokens & primitives
    Dark-first, monochrome chrome, color reserved for data/state.
    ============================================================ */
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
+/* Fonts: uses the system stack below (no render-blocking external request).
+   To match the Geist mockup exactly in production, self-host via @fontsource/geist. */
 
 /* ---------- THEME: DARK (default) ---------- */
 :root,
