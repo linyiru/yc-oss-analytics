@@ -1,0 +1,1308 @@
+{
+ "ollama": {
+  "github": "ollama/ollama",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "firecrawl": {
+  "github": "firecrawl/firecrawl",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "supabase": {
+  "github": "supabase/supabase",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor",
+   "GitHub Copilot",
+   "MCP"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "browser-use": {
+  "github": "browser-use/browser-use",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "bun": {
+  "github": "oven-sh/bun",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "font-awesome": {
+  "github": "FortAwesome/Font-Awesome",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "unsloth-ai": {
+  "github": "unslothai/unsloth",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "anythingllm": {
+  "github": "Mintplex-Labs/anything-llm",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "mem0": {
+  "github": "mem0ai/mem0",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "flowiseai": {
+  "github": "FlowiseAI/Flowise",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "coreos": {
+  "github": "etcd-io/etcd",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "litellm": {
+  "github": "BerriAI/litellm",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Gemini CLI"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "twenty": {
+  "github": "twentyhq/twenty",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "payload": {
+  "github": "payloadcms/payload",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "JetBrains",
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "mindsdb": {
+  "github": "mindsdb/minds-platform",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "tiptap": {
+  "github": "ueberdosis/tiptap",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "mattermost": {
+  "github": "mattermost/mattermost",
+  "ai_tools": [
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "reworkd": {
+  "github": "reworkd/AgentGPT",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "khoj": {
+  "github": "khoj-ai/khoj",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "posthog": {
+  "github": "PostHog/posthog",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "JetBrains",
+   "VS Code",
+   "Zed"
+  ],
+  "evidence": "config-file"
+ },
+ "refine": {
+  "github": "refinedev/refine",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "influxdata": {
+  "github": "influxdata/influxdb",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "onyx": {
+  "github": "onyx-dot-app/onyx",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "chatwoot": {
+  "github": "chatwoot/chatwoot",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Windsurf"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "better-auth": {
+  "github": "better-auth/better-auth",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "langfuse": {
+  "github": "langfuse/langfuse",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "reflex": {
+  "github": "reflex-dev/reflex",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "infisical": {
+  "github": "Infisical/infisical",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "signoz": {
+  "github": "SigNoz/signoz",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "rethinkdb": {
+  "github": "rethinkdb/rethinkdb",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "vibe-kanban": {
+  "github": "BloopAI/vibe-kanban",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "sst": {
+  "github": "anomalyco/sst",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "fig": {
+  "github": "withfig/autocomplete",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "mastra": {
+  "github": "mastra-ai/mastra",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "gitlab": {
+  "github": "gitlabhq/gitlabhq",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "sails-co": {
+  "github": "balderdashy/sails",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "activepieces": {
+  "github": "activepieces/activepieces",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "skyvern": {
+  "github": "Skyvern-AI/skyvern",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "airbyte": {
+  "github": "airbytehq/airbyte",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "manaflow": {
+  "github": "manaflow-ai/cmux",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "pangolin": {
+  "github": "fosrl/pangolin",
+  "ai_tools": [
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "wasmer": {
+  "github": "wasmerio/wasmer",
+  "ai_tools": [
+   "GitHub Copilot"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "apollo": {
+  "github": "apollographql/apollo-client",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "wasp": {
+  "github": "wasp-lang/wasp",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "cua": {
+  "github": "trycua/cua",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "protocol-labs": {
+  "github": "ipfs/kubo",
+  "ai_tools": [
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "questdb": {
+  "github": "questdb/questdb",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [
+   "JetBrains"
+  ],
+  "evidence": "config-file"
+ },
+ "windmill": {
+  "github": "windmill-labs/windmill",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "MCP"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "confident-ai": {
+  "github": "confident-ai/deepeval",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "trigger-dev": {
+  "github": "triggerdotdev/trigger.dev",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "GitHub Copilot"
+  ],
+  "editors": [
+   "VS Code",
+   "Zed"
+  ],
+  "evidence": "config-file"
+ },
+ "supertokens": {
+  "github": "supertokens/supertokens-core",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "rowboat-labs": {
+  "github": "rowboatlabs/rowboat",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "vibrant-labs": {
+  "github": "vibrantlabsai/ragas",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "daily": {
+  "github": "pipecat-ai/pipecat",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "citus-data": {
+  "github": "citusdata/citus",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "keydb": {
+  "github": "Snapchat/KeyDB",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "asayer": {
+  "github": "openreplay/openreplay",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "keep": {
+  "github": "keephq/keep",
+  "ai_tools": [
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "netmaker": {
+  "github": "gravitl/netmaker",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "pyroscope": {
+  "github": "grafana/pyroscope",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [
+   "JetBrains",
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "insforge": {
+  "github": "InsForge/InsForge",
+  "ai_tools": [
+   "Claude Code",
+   "GitHub Copilot"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "alokai": {
+  "github": "vuestorefront/vue-storefront",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "lancedb": {
+  "github": "lancedb/lancedb",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "manufact": {
+  "github": "mcp-use/mcp-use",
+  "ai_tools": [
+   "Claude Code",
+   "MCP"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "nango": {
+  "github": "NangoHQ/nango",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "lago": {
+  "github": "getlago/lago",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "hyperdx": {
+  "github": "hyperdxio/hyperdx",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "replicate": {
+  "github": "replicate/cog",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "highlight-io": {
+  "github": "highlight/highlight",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "activeloop": {
+  "github": "activeloopai/deeplake",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "artillery": {
+  "github": "artilleryio/artillery",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "paradedb": {
+  "github": "paradedb/paradedb",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "firezone": {
+  "github": "firezone/firezone",
+  "ai_tools": [
+   "Claude Code",
+   "GitHub Copilot"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "char": {
+  "github": "fastrepl/anarlog",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code",
+   "Zed"
+  ],
+  "evidence": "config-file"
+ },
+ "webiny": {
+  "github": "webiny/webiny-js",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "GitHub Copilot",
+   "MCP"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "growthbook": {
+  "github": "growthbook/growthbook",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "evidently-ai": {
+  "github": "evidentlyai/evidently",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "hatchet-run": {
+  "github": "hatchet-dev/hatchet",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "traceloop": {
+  "github": "traceloop/openllmetry",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "shuttle": {
+  "github": "shuttle-hq/shuttle",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "authzed": {
+  "github": "authzed/spicedb",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "requestly": {
+  "github": "requestly/requestly",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "stagewise": {
+  "github": "stagewise-io/stagewise",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "superagent": {
+  "github": "superagent-ai/superagent",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "docker": {
+  "github": "docker/cli",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "hubble": {
+  "github": "lightdash/lightdash",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [
+   "VS Code",
+   "Zed"
+  ],
+  "evidence": "config-file"
+ },
+ "helicone": {
+  "github": "Helicone/helicone",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "rivet": {
+  "github": "rivet-dev/rivet",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "cactus": {
+  "github": "cactus-compute/cactus",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "arroyo": {
+  "github": "ArroyoSystems/arroyo",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "lunatic": {
+  "github": "lunatic-solutions/lunatic",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "jitsu": {
+  "github": "jitsucom/jitsu",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "helixdb": {
+  "github": "HelixDB/helix-db",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "epicenter": {
+  "github": "EpicenterHQ/epicenter",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "moonrepo": {
+  "github": "moonrepo/moon",
+  "ai_tools": [
+   "Claude Code",
+   "GitHub Copilot"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "vocode": {
+  "github": "vocodedev/vocode-core",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "fern": {
+  "github": "fern-api/fern",
+  "ai_tools": [
+   "Claude Code",
+   "Devin"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "tracecat": {
+  "github": "TracecatHQ/tracecat",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "morphik": {
+  "github": "morphik-org/morphik-core",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "okteto": {
+  "github": "okteto/okteto",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "sourcebot": {
+  "github": "sourcebot-dev/sourcebot",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "svix": {
+  "github": "svix/svix-webhooks",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "peerdb": {
+  "github": "PeerDB-io/peerdb",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "hydra": {
+  "github": "duckdb/pg_duckdb",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "openpipe": {
+  "github": "OpenPipe/OpenPipe",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "convoy-2": {
+  "github": "frain-dev/convoy",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "dittofeed": {
+  "github": "dittofeed/dittofeed",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "trieve": {
+  "github": "devflowinc/trieve",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "pipelinedb": {
+  "github": "pipelinedb/pipelinedb",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "mito": {
+  "github": "mito-ds/mito",
+  "ai_tools": [
+   "Cursor"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "laudspeaker": {
+  "github": "laudspeaker/laudspeaker",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "dagworks-inc": {
+  "github": "apache/hamilton",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "medplum": {
+  "github": "medplum/medplum",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "elementary": {
+  "github": "elementary-data/elementary",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "pretzel-ai": {
+  "github": "pretzelai/pretzelai",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "superglue": {
+  "github": "superglue-ai/superglue",
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "mentra": {
+  "github": "Mentra-Community/MentraOS",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "lotus": {
+  "github": "uselotus/lotus",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "matano": {
+  "github": "matanolabs/matano",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "beam": {
+  "github": "beam-cloud/beta9",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "dench-com": {
+  "github": "DenchHQ/DenchClaw",
+  "ai_tools": [
+   "Cursor"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "optic": {
+  "github": "opticdev/optic",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "lunasec": {
+  "github": "lunasec-io/lunasec",
+  "ai_tools": [],
+  "editors": [
+   "JetBrains"
+  ],
+  "evidence": "config-file"
+ },
+ "warrant": {
+  "github": "warrant-dev/warrant",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "recipeui": {
+  "github": "RecipeUI/RecipeUI",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "formance": {
+  "github": "formancehq/ledger",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "nao-labs": {
+  "github": "getnao/nao",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "tesseral": {
+  "github": "tesseral-labs/tesseral",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "corsair": {
+  "github": "corsairdev/corsair",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "lantern-2": {
+  "github": "lanterndata/lantern",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "rownd": {
+  "github": "llama-farm/llamafarm",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md",
+   "Cursor",
+   "MCP"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "chaos-genius": {
+  "github": "chaos-genius/chaos_genius",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "freestyle": {
+  "github": "freestyle-sh/Adorable",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "expected-parrot": {
+  "github": "expectedparrot/edsl",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "tensil": {
+  "github": "tensil-ai/tensil",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "openfoundry": {
+  "github": "openfoundry-ai/model_manager",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "monosi": {
+  "github": "monosidev/monosi",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "grai": {
+  "github": "grai-io/grai-core",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "lamin": {
+  "github": "laminlabs/lamindb",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "stackup": {
+  "github": "stackup-wallet/stackup-bundler",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "embrace": {
+  "github": "embrace-io/embrace-android-sdk",
+  "ai_tools": [
+   "Claude Code",
+   "Codex / AGENTS.md"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "botcity": {
+  "github": "botcity-dev/botcity-framework-core-python",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "tusk": {
+  "github": "Use-Tusk/tusk-cli",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "ukama": {
+  "github": "ukama/ukama",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "opslane": {
+  "github": "opslane/opslane",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "editors": [],
+  "evidence": "config-file"
+ },
+ "standard-cyborg": {
+  "github": "StandardCyborg/StandardCyborgSDK",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "codestream": {
+  "github": "TeamCodeStream/codestream-server",
+  "ai_tools": [],
+  "editors": [
+   "JetBrains",
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "infracost": {
+  "github": "infracost/infracost-azure-devops",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "sublingual": {
+  "github": "sublingual-ai/sublingual-monitoring",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "common-paper": {
+  "github": "CommonPaper/Mutual-NDA",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "pipekit": {
+  "github": "pipekit/talk-demos",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "enso": {
+  "github": "enso-org/hiring",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "openint": {
+  "github": "openint-bak/openint",
+  "ai_tools": [],
+  "editors": [
+   "VS Code"
+  ],
+  "evidence": "config-file"
+ },
+ "ncompass-technologies": {
+  "github": "nCompass-tech/ncompass",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "data-mechanics": {
+  "github": "datamechanics/datamechanics_airflow_plugin",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "tipe": {
+  "github": "markAPIado/tipe",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ },
+ "kv-cash": {
+  "github": "kv-cash/spaim",
+  "ai_tools": [],
+  "editors": [],
+  "evidence": "none"
+ }
+}
