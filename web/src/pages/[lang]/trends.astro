@@ -1,12 +1,26 @@
 ---
-import Base from '../../layouts/Base.astro';
-import TrendsBody from '../../components/TrendsBody.astro';
-import { locales, t, defaultLocale } from '../../i18n/ui';
+import '../../styles/ds.css';
+import '../../styles/app.css';
+import Trends from '../../components/Trends.jsx';
+import { trendsView } from '../../lib/trendsView';
+import { locales, defaultLocale } from '../../i18n/ui';
 export function getStaticPaths() {
   return locales.filter((l) => l !== defaultLocale).map((lang) => ({ params: { lang } }));
 }
 const { lang } = Astro.params as any;
+const tr = trendsView();
 ---
-<Base locale={lang} title={`Trends · ${t(lang, 'site.title')}`} path="trends">
-  <TrendsBody locale={lang} />
-</Base>
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trends · oss/signal</title>
+    <script is:inline>
+      try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <Trends client:only="react" tr={tr} initialLocale={lang} />
+  </body>
+</html>

@@ -1,8 +1,22 @@
 ---
-import Base from '../layouts/Base.astro';
-import TrendsBody from '../components/TrendsBody.astro';
-import { t } from '../i18n/ui';
+import '../styles/ds.css';
+import '../styles/app.css';
+import Trends from '../components/Trends.jsx';
+import { trendsView } from '../lib/trendsView';
+const tr = trendsView();
 ---
-<Base locale="en" title={`Trends · ${t('en', 'site.title')}`} path="trends">
-  <TrendsBody locale="en" />
-</Base>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trends · oss/signal</title>
+    <meta name="description" content="Cross-cohort trends across YC open-source companies: language shift and AI-tool adoption." />
+    <script is:inline>
+      try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <Trends client:only="react" tr={tr} />
+  </body>
+</html>

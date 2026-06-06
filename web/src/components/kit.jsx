@@ -354,6 +354,36 @@ export function RankedBars({ items, color = 'var(--accent)', locale, fmt }) {
   );
 }
 
+/* ---------- StackedShare (100% language share by year) ---------- */
+export function StackedShare({ byYear, colorOf, height = 320 }) {
+  const [ref, w] = useMeasure();
+  const [hi, setHi] = useState(null);
+  const m = { t: 12, r: 12, b: 28, l: 34 };
+  const W = Math.max(320, w), H = height, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const bw = iw / byYear.length;
+  return (
+    <div ref={ref} style={{ width: '100%' }}>
+      <svg width={W} height={H} style={{ display: 'block' }} onMouseLeave={() => { setHi(null); Tip.hide(); }}>
+        {[0, 25, 50, 75, 100].map((t) => (<g key={t}><line x1={m.l} x2={m.l + iw} y1={m.t + ih - (t / 100) * ih} y2={m.t + ih - (t / 100) * ih} style={{ stroke: 'var(--grid)' }} /><text x={m.l - 6} y={m.t + ih - (t / 100) * ih + 3} textAnchor="end" className="mono" style={{ fill: 'var(--text-faint)', fontSize: 9 }}>{t}</text></g>))}
+        {byYear.map((yr, i) => {
+          let acc = 0; const x = m.l + i * bw + bw * 0.16, bWidth = bw * 0.68;
+          return (
+            <g key={yr.year}>
+              {yr.shares.filter((s) => s.pct > 0).map((s) => {
+                const h = (s.pct / 100) * ih; const y = m.t + ih - acc - h; acc += h; const on = hi === s.lang;
+                return <rect key={s.lang} x={x} y={y} width={bWidth} height={Math.max(0, h - 0.6)} style={{ fill: colorOf(s.lang), fillOpacity: hi && !on ? 0.28 : 0.92, transition: 'fill-opacity .12s' }}
+                  onMouseEnter={(e) => { setHi(s.lang); Tip.show(`<div class="t-title">${swatch(colorOf(s.lang))}${s.lang} · '${String(yr.year).slice(2)}</div><div class="t-row"><span>share</span><b>${s.pct.toFixed(0)}%</b></div>`, e.clientX, e.clientY); }}
+                  onMouseMove={(e) => Tip.show(Tip.html(), e.clientX, e.clientY)} />;
+              })}
+              <text x={x + bWidth / 2} y={m.t + ih + 16} textAnchor="middle" className="mono" style={{ fill: 'var(--text-3)', fontSize: 10 }}>'{String(yr.year).slice(2)}</text>
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+  );
+}
+
 /* ---------- LangBar ---------- */
 export function LangBar({ langs }) {
   return (
