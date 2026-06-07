@@ -105,6 +105,34 @@ export default function RepoPage({ view, initialLocale }) {
           ) : <Section title="At YC application" sub="Not available"><p className="faint" style={{ fontSize: 'var(--fs-sm)' }}>Batch date couldn't be resolved for this repo.</p></Section>}
         </div>
 
+        {c.traction && (() => {
+          const t = c.traction;
+          const dur = (d) => d == null ? null : d < 14 ? `${d}d` : d < 60 ? `~${Math.round(d / 7)} wk` : `~${Math.round(d / 30.4)} mo`;
+          const items = [
+            ['First public launch', dur(t.toLaunch), t.firstLaunchSource ? `${t.firstLaunchSource} · from first commit` : 'from first commit'],
+            ['To 100 stars', dur(t.to100), 'from first commit'],
+            ['To 1,000 stars', dur(t.to1000), 'from first commit'],
+            ['To 10,000 stars', dur(t.to10000), 'from first commit'],
+          ].filter(([, v]) => v != null);
+          if (!items.length) return null;
+          return (
+            <Section title="Time to traction" sub="How long the long game ran before it broke out — elapsed from the first commit" style={{ marginBottom: 16 }}>
+              <div className="row" style={{ flexWrap: 'wrap', gap: '18px 32px' }}>
+                {items.map(([label, val, note]) => (
+                  <div key={label} className="col" style={{ gap: 2 }}>
+                    <span className="eyebrow">{label}</span>
+                    <span className="mono" style={{ fontSize: 'var(--fs-xl)', fontWeight: 600, color: 'var(--accent-text)' }}>{val}</span>
+                    <span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>{note}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="faint" style={{ fontSize: 'var(--fs-2xs)', lineHeight: 1.5, marginTop: 12 }}>
+                Overnight success is rare: the median repo here took months — often years — from first commit to its star milestones. Measured only where full early star history is available.
+              </p>
+            </Section>
+          );
+        })()}
+
         <div className="viz-2col" style={{ marginBottom: 16 }}>
           <Section title="Star growth" sub="Cumulative GitHub stars · viral window + event days marked">
             <StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} spikes={d.starCurve.spikes} locale={intl} height={216} />

@@ -93,6 +93,26 @@ export function toRepoView(slug: string) {
     launchEvents.push({ source: 'HN', date: e.date, title: e.title, meta: `${e.points} pts · ${e.comments}c`, url: e.hn || e.url, author: e.author });
   launchEvents.sort((a, b) => (a.date < b.date ? -1 : 1));
 
+  // --- time to traction: how long the long game ran before it broke out ---
+  // Days from first commit to each star milestone and to the first public launch.
+  // Only trustworthy when the curve starts near zero (full early history).
+  const dayDiff = (from: string, to: string) => Math.round((Date.parse(to) - Date.parse(from)) / 86400000);
+  let traction: any = null;
+  const tStart = r.timeline?.first;
+  const curveUsable = rawCurve.length && !(r as any).curve_partial && (rawCurve[0]?.n ?? 0) <= 50;
+  if (tStart && curveUsable) {
+    const reach = (thr: number) => { const p = rawCurve.find((x) => x.n >= thr); return p ? dayDiff(tStart, p.t) : null; };
+    const firstLaunch = launchEvents.length ? launchEvents[0].date : null;
+    const launchDays = firstLaunch ? dayDiff(tStart, firstLaunch) : null;
+    traction = {
+      to100: reach(100), to1000: reach(1000), to10000: reach(10000),
+      // null out launches dated before the first commit (renamed/forked history artifacts)
+      toLaunch: launchDays != null && launchDays >= 0 ? launchDays : null,
+      firstLaunchSource: launchDays != null && launchDays >= 0 ? launchEvents[0].source : null,
+      start: tStart,
+    };
+  }
+
   const dt = devToolsFor(slug);
   const aiTools = [
     ...((dt?.ai_tools ?? []).map((n) => ({ id: n.toLowerCase().replace(/[^a-z0-9]+/g, '-'), name: n, kind: 'config' }))),
@@ -112,7 +132,7 @@ export function toRepoView(slug: string) {
       license: r.metrics?.license ?? '—', pkgManager: r.stack?.pkg_manager ?? '—', infra: r.stack?.infra ?? [],
       firstCommit: r.timeline?.first ?? null,
       formerNames: (((r as any).repo_names) ?? []).filter((n: string) => n.toLowerCase() !== (r.github || '').toLowerCase()),
-      apply, peers, concentration,
+      apply, peers, concentration, traction,
     },
     d: {
       starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes,

@@ -41,11 +41,12 @@ export default function Playbook({ data, initialLocale }) {
         {/* Hero */}
         <header className="pb-hero">
           <span className="eyebrow">The Playbook</span>
-          <h1 className="pb-h1">What the data says<br />actually <span className="pb-mark">works</span>.</h1>
+          <h1 className="pb-h1">What we learned from<br />{n} <span className="pb-mark">open-source</span> startups.</h1>
           <p className="muted pb-lede">
-            Seven patterns shared by the {n} YC open-source companies that grew — each backed by a number computed
-            straight from the dataset, recomputed as the data updates. These are <b style={{ color: 'var(--text)' }}>correlations,
-            not commandments</b>: they describe what winners did, not a guarantee, and they can't see the teams that did the same and failed.
+            Seven patterns we noticed across the {n} YC open-source companies in this dataset — each tied to a number computed
+            straight from public history, recomputed as the data updates. We're not claiming to know the formula. These are
+            <b style={{ color: 'var(--text)' }}> observations, not instructions</b>: correlations among teams that grew, not proof of cause,
+            and blind to everyone who did the same things and didn't make it.
           </p>
         </header>
 

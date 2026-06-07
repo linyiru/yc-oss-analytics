@@ -34,6 +34,28 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const multiPct = Math.round((100 * multiHN.length) / Math.max(1, withHN.length));
   const medHnPosts = med(withHN.map((r) => bigHn(r).length));
 
+  // Time to traction: months from first commit to a star milestone / to first public launch.
+  // Counted only where the curve has full early history (starts near zero).
+  const dayDiff = (from: string, to: string) => Math.round((Date.parse(to) - Date.parse(from)) / 86400000);
+  const firstLaunchDate = (r: any) => {
+    const ds: string[] = [];
+    for (const e of r.hn_events ?? []) if (e.date) ds.push(e.date);
+    if (r.ph_event?.date) ds.push(r.ph_event.date);
+    if (r.yc_launch?.date) ds.push(r.yc_launch.date);
+    return ds.length ? ds.sort()[0] : null;
+  };
+  const traction = (thr: number | 'launch') => med(R.flatMap((r: any) => {
+    const c = r.stars_curve ?? [];
+    const start = r.timeline?.first;
+    if (!start || r.curve_partial || (c[0]?.n ?? 0) > 50) return [];
+    const to = thr === 'launch' ? firstLaunchDate(r) : (c.find((p: any) => p.n >= thr)?.t ?? null);
+    if (!to) return [];
+    const d = dayDiff(start, to);
+    return d >= 0 ? [d] : []; // drop launches dated before the first commit (renamed/forked history artifacts)
+  }));
+  const mo = (days: number) => Math.round((days / 30.4) * 10) / 10;
+  const to1k = mo(traction(1000)), to10k = mo(traction(10000)), preLaunch = mo(traction('launch'));
+
   const k = (n: number) => (n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'K' : '' + n);
   const mx = (a: number, b: number) => (a / Math.max(1, b)).toFixed(1) + '×';
   const cmp = (a: number, b: number, aLabel: string, bLabel: string): Cmp => ({ a, b, aLabel, bLabel, mult: mx(a, b) });
@@ -73,10 +95,11 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       examples: top(ever, 4),
     },
     {
-      key: 'evergreen', title: 'Play the long game', statLabel: 'evergreen repos (old cohort, still very active)',
-      stat: `${ever.length} / ${R.length}`,
-      lesson: `${ever.length} of ${R.length} repos are "evergreen" — a median ${med(ever.map((r: any) => r.activity?.batch_age_years ?? 0))} years old and still shipping ~${med(ever.map((r: any) => r.intensity?.commits_per_week ?? 0))} commits/week. Durability comes from sustained cadence, not a fast start.`,
-      caveat: 'Survivorship — companies that died and delisted are not in this dataset.',
+      key: 'evergreen', title: 'Play the long game', statLabel: 'median time from first commit to 1,000 stars',
+      stat: `${to1k} mo`,
+      lesson: `Overnight success is a myth. The median repo took ${to1k} months from its first commit to reach 1,000 stars — and ${to10k} months to reach 10,000. Most also built quietly for a median ${preLaunch} months before their first public launch. ${ever.length} of ${R.length} repos are "evergreen": a median ${med(ever.map((r: any) => r.activity?.batch_age_years ?? 0))} years old, still shipping ~${med(ever.map((r: any) => r.intensity?.commits_per_week ?? 0))} commits/week. Durability comes from sustained cadence, not a fast start.`,
+      kicker: `~${preLaunch} mo building before the first public launch`,
+      caveat: 'Survivorship — companies that died and delisted are not in this dataset. Timing measured only where full early star history is available; repos built on much older codebases (forks) skew longer.',
       examples: top(ever, 4),
     },
     {
