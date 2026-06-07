@@ -1,0 +1,136 @@
+{
+  "ui": {
+    "eyebrow": "The Playbook",
+    "h1": "O que aprendemos com {n} startups «open source».",
+    "lede": "Padrões que notamos nas {n} empresas open source da YC neste dataset — cada um amarrado a um número computado direto do histórico público, recalculado conforme os dados se atualizam. O que nos surpreendeu foi o quanto eles ecoam o cânone das startups: os dados não param de cair no mesmo conselho que Paul Graham e a [biblioteca da YC](https://www.ycombinator.com/library) vêm dando há anos — então emparelhamos cada achado com o ensaio que ele confirma. Ainda assim, isto são **observações, não instruções**: correlações entre times que cresceram, não prova de causa, e cegas a todo mundo que fez as mesmas coisas e não deu certo.",
+    "inPractice": "Na prática",
+    "echoesCanon": "Ecoa o cânone",
+    "footAttention": "**Uma ressalva honesta acima de todas as outras:** cada número aqui mede **atenção** — stars, lançamentos, comentários — não receita, retenção, ou se existe um negócio por baixo. Stars são um indicador antecedente de que as pessoas repararam, nada mais. Um time poderia fazer tudo isso, chegar a 10.000 stars, e ainda assim não ter usuário nenhum que pague ou fique. Leia isto como um mapa de como a atenção foi conquistada, nunca como um placar de sucesso.",
+    "footMethod": "Cada número se recalcula a partir do dataset ao vivo — stars, eventos de lançamento, atividade de issues/PRs e a rede de cross-star, tudo derivado do histórico público do GitHub mais os registros do HN, Product Hunt e YC Launch e o GH Archive. Onde um achado poderia ser confundido pelo tamanho do repo, reportamos a associação depois de controlar por idade e linguagem. Veja a [Metodologia](/methodology) para os limites — acima de tudo o viés de sobrevivência, que esconde todo time que fez essas mesmas coisas e ainda assim não conseguiu."
+  },
+  "lessons": {
+    "hn": {
+      "title": "Vá pro Hacker News — e depois vá de novo, e de novo",
+      "statLabel": "Mediana de stars: posts que estouraram na home do HN vs que não",
+      "kicker": "{multiPct}% postam mais de uma vez · mediana {medHnPosts} posts",
+      "body": [
+        "De todos os sinais neste dataset, a home do Hacker News é o mais gritante. Repos com um post que passou de 100 pontos têm mediana de {hnHi} stars; os sem, só {hnLo} — cerca de {hnMx}. Quase todo penhasco mais íngreme numa curva de stars é algum dia de HN.",
+        "E é quase padrão: {showHnPct}% dos repos neste dataset tiveram pelo menos um post de HN passando de 100 pontos. O «Show HN» não é exceção neste mundo — é o primeiro passo padrão.",
+        "Mas «ir pro Hacker News» subestima feio o que os vencedores de fato fazem. {multiPct}% deles postam mais de uma vez, com uma média de {medHnPosts} posts dignos de nota por empresa. O formato é cadência, não instante: um Launch HN quando a empresa decola, um Show HN para cada feature importante, um Tell HN ou um deep-dive técnico quando há algo genuinamente interessante no ar. Cada post é um novo lançamento de dado contra a home, e uma leva totalmente nova de usuários de primeira viagem.",
+        "O ponto de verdade é «permissão», não «pressão»: você tem permissão para voltar. Um lançamento que rendeu menos que o esperado não é uma sentença sobre a empresa — é só um post numa terça-feira qualquer. Os times que cresceram seguiram achando motivos honestos para reaparecer, por anos a fio. A disciplina está em: cada relaunch precisa ser notícia por si só; um post sem nada de concreto só queima a boa vontade que o anterior acumulou."
+      ],
+      "echoes": [
+        "Você pode lançar mais de uma vez. Relançar a cada marco de verdade é esperado — cada vez um público novo enxerga, e a home se reseta todo dia.",
+        "Uma startup existe para crescer rápido; levar o produto até os usuários repetidamente é a obrigação, não um evento único."
+      ],
+      "caveat": "Correlação não é causa — um produto forte já é mais propenso a estourar na home do HN. Mesmo controlando idade e linguagem do repo, essa associação se mantém (cerca de {ctrlHN}) e é estatisticamente significativa, mas não dá para descartar viés de seleção sobre qualidade não observada. Guardamos só os primeiros 6 posts de HN por repo, então a «taxa de relançamento» é um piso.",
+      "compare": { "aLabel": "Posts que estouraram no HN", "bLabel": "Sem" }
+    },
+    "ph": {
+      "title": "Faça todos os canais, não aposte só num",
+      "statLabel": "Mediana de stars: com vs sem lançamento no Product Hunt",
+      "body": [
+        "O Product Hunt alcança uma turma diferente do Hacker News — makers, product managers, designers, fundadores garimpando ferramentas. Os {phCount} repos que fizeram lançamento no Product Hunt têm mediana de {phHi} stars; os sem, só {phLo}.",
+        "Nos maiores projetos, o padrão não é HN «ou» PH — é os dois, mais um blog post de lançamento, o subreddit relevante, uma palestra de conferência, e aparecer nas threads de comentário dos outros. Cada canal é um poço diferente de early adopters, e dragar cada poço é trabalho braçal, que não escala. É exatamente por isso que compõe juros: a maioria dos times silenciosamente não topa fazer."
+      ],
+      "echoes": [
+        "Uma startup é uma empresa construída para crescer rápido; crescimento é a única métrica que a define, e você vai atrás dos usuários em cada lugar onde eles se juntam."
+      ],
+      "caveat": "Só {phCount} repos fizeram lançamento no Product Hunt, então leia esse múltiplo com folga. Mesmo controlando idade e linguagem do repo, a associação segue grande (cerca de {ctrlPH}) — mas quem vai lançar no PH já é, de saída, um time launch-ready e polido o bastante, e o que talvez esteja funcionando seja essa autosseleção, não o lançamento em si.",
+      "compare": { "aLabel": "Fez lançamento no PH", "bLabel": "Sem" }
+    },
+    "responsive": {
+      "title": "Responda suas issues — converse com seus usuários",
+      "statLabel": "Mediana de stars, por nível de resposta às issues",
+      "body": [
+        "O open source torna um hábito de fundador absurdamente mensurável: você responde as pessoas ou não? Repos com média de mais de 2 comentários por issue têm mediana de {respHiV} stars; os parados, só {respLoV}.",
+        "Responder uma issue é a versão open source de «converse com os usuários» — um gesto um a um, que não escala, e que nem deveria escalar. Faz o desconhecido saber que tem gente de verdade do outro lado, transforma um bug report numa relação, e te ensina o próximo passo com as palavras do próprio usuário. Os juros aqui são comunitários: contribuidores que se sentem ouvidos ficam, e quem fica vira o mantenedor que segura o projeto quando você não dá conta."
+      ],
+      "echoes": [
+        "Converse com seus usuários de forma direta e contínua; é o feedback deles, não o seu instinto, que é o roadmap. Responder uma issue é a versão pública dessa conversa."
+      ],
+      "caveat": "Repos populares já atraem mais comentários — interação e escala se reforçam mutuamente, então leia isto como um loop, não uma alavanca de mão única. Controlando idade e linguagem, a associação de fato se mantém (cerca de {ctrlResp}), mas a responsividade é em parte um efeito a jusante do tráfego.",
+      "compare": { "aLabel": "2+ comentários/issue", "bLabel": "Mais parado" }
+    },
+    "compound": {
+      "title": "Crescimento é juros compostos — não uma explosão única",
+      "statLabel": "Maior dia único como % do total de stars (mediana)",
+      "body": [
+        "É fácil imaginar que essas empresas foram feitas por alguma tarde viral. Os dados dizem o oposto exato: o maior dia único representa, na mediana, só {compoundPct}% do total de stars de um repo. Os mais de noventa por cento restantes da curva são empilhados por cada dia comum no meio.",
+        "O lançamento é a faísca; os outros 97% são «entregar continuamente» — commit aterrissando, issue fechando, release saindo, post sendo escrito, mês após mês. O crescimento que parece súbito de fora quase sempre já vinha compondo juros, só invisível até cruzar algum limiar. A disciplina de verdade não é projetar uma explosão, é se recusar a parar antes da curva virar."
+      ],
+      "echoes": [
+        "A definição de startup é crescimento composto — alguns por cento por semana — e não qualquer pico isolado; cuide da taxa de crescimento e os números absolutos crescem sozinhos.",
+        "Os retornos compõem de forma superlinear: uma vantagem pequena mas constante rola até virar um resultado muito maior do que o investido no começo."
+      ],
+      "caveat": "Calculado em repos com >500 stars; repos pequenos demais têm mais ruído, e um único pico pode dominar o todo."
+    },
+    "evergreen": {
+      "title": "Jogue o jogo longo",
+      "statLabel": "Tempo mediano do primeiro commit até 1.000 stars",
+      "kicker": "~{preLaunch} meses desenvolvendo no silêncio antes de lançar em público",
+      "body": [
+        "Sucesso da noite pro dia é a ilusão preferida do viés de sobrevivência. O repo mediano aqui levou {to1k} meses do primeiro commit até 1.000 stars, e {to10k} meses até 10.000. A maioria ainda passou uma mediana de {preLaunch} meses desenvolvendo no silêncio antes do primeiro lançamento público — uma pista longa e sem brilho antes de qualquer um reparar.",
+        "A durabilidade é a outra metade da história. De {total} repos, {everCount} são «evergreen»: mediana de {everAge} anos de idade, e ainda saindo ~{everCpw} commits por semana. O que os torna diferentes é menos talento e mais resiliência — a disposição de continuar aparecendo muito depois da empolgação do dia do lançamento ter baixado."
+      ],
+      "echoes": [
+        "Os melhores fundadores são teimosos quanto ao «destino» e flexíveis quanto à «rota» — quem ganha é a persistência com discernimento, não a rigidez cega.",
+        "Descubra se você está default alive ou default dead; a durabilidade se conquista «vivendo o bastante para os juros compostos importarem»."
+      ],
+      "caveat": "Viés de sobrevivência — empresas que morreram ou saíram do ar não estão neste dataset. O tempo só é calculado quando há histórico inicial de stars completo; repos construídos sobre uma base de código mais antiga (fork) saem contados longos demais."
+    },
+    "team": {
+      "title": "Monte um time, não jogue sozinho",
+      "statLabel": "% do maior contribuidor: os maiores vs os menores repos",
+      "body": [
+        "Nos 40 maiores repos, o maior contribuidor escreveu, na mediana, {teamBig}% dos commits; nos 40 menores, esse número é {teamSmall}%. Quando se chega à escala, «um par de mãos» e «um projeto grande» quase nunca coexistem.",
+        "Isso não é desmerecer quem começou sozinho — quase tudo começa altamente concentrado. No dataset inteiro, o maior contribuidor ainda escreveu, na mediana, {medTop1}% dos commits, e um autor-núcleo (muitas vezes o próprio mantenedor original do projeto open source, hoje fundador) é exatamente de onde vêm a credibilidade e o ponto de partida da maioria dos repos. O que esta lição diz é «do que o crescimento precisa»: em algum ponto, o trabalho tem que se espalhar — para cofundadores, para os primeiros funcionários, para uma comunidade de contribuidores externos. Os projetos que de fato escalam são os times cujos fundadores «se tornam substituíveis no código rápido o bastante» para o projeto crescer maior que eles."
+      ],
+      "echoes": [
+        "Tenha mais de um fundador. Fundador solo é uma das causas mais comuns de fracasso de startup — a carga de trabalho, a moral e as decisões são pesadas demais para uma pessoa só."
+      ],
+      "caveat": "A direção causal é incerta: escala te permite contratar, contratar empurra a escala, e as duas se puxam mutuamente.",
+      "compare": { "aLabel": "Os 40 maiores repos", "bLabel": "Os 40 menores" }
+    },
+    "network": {
+      "title": "O ecossistema da YC semeia suas primeiras stars",
+      "statLabel": "% mediana das «primeiras 100 stars» de um repo vindas da rede open source da YC",
+      "kicker": "Primeiras 100 stars {early100}% · primeiras 1.000 {early1000}%",
+      "body": [
+        "De onde vêm, afinal, aquelas primeiras stars? De forma esmagadora, de gente da própria casa. Dos 100 primeiros que deram star num repo, a mediana de {early100}% também deu star em pelo menos dois «outros» repos open source da YC — nos primeiros 1.000, são {early1000}%. Diluído por toda a vida do repo, para em {netLifetime}%, então essa rede não é só uma semente, é uma fatia de público sustentada no longo prazo.",
+        "Esta é, em todo o dataset, a confirmação mais literal daquele «conselho mais citado do mundo das startups»: vá pessoalmente, no seu círculo ao alcance da mão, achar seus primeiros usuários um a um. Para uma empresa da YC, esse círculo é um grafo denso e sobreposto, tecido por fundadores, funcionários e ex-alunos, que aparecem de forma consistente nos lançamentos uns dos outros. A leitura honesta tem dois lados — proporção alta significa que o ecossistema te deu um empurrão de largada; proporção baixa significa que você chegou mais cedo a desconhecidos de verdade. Nenhum dos dois é a meta em si; a meta é a trajetória que vai do primeiro ao segundo."
+      ],
+      "echoes": [
+        "Vá pessoalmente, um a um, achar seus primeiros usuários, e deixe-os felizes com medidas extraordinárias — não escala, e esse é justamente o ponto."
+      ],
+      "caveat": "Definição estrita: um star-er só conta como «rede» se também deu star em «≥2 outros» repos da YC (o próprio repo sob exame é excluído), então o número não é inflado por contagem própria. Cross-star é promoção conjunta mais público sobreposto — em parte a estrutura esperada de um grupo que se promove em conjunto, não um canal que qualquer fundador isolado controla por completo. Derivação puramente estrutural; não aponta para nenhum indivíduo."
+    },
+    "license": {
+      "title": "A License que você escolhe é uma estratégia de monetização",
+      "statLabel": "% que adota licença permissiva (MIT / Apache / BSD)",
+      "kicker": "{copyleftPct}% usam copyleft para proteger o serviço gerenciado",
+      "body": [
+        "Uma License parece nota de rodapé jurídica, mas na real é uma decisão de go-to-market. {permissivePct}% dessas empresas adotam licença permissiva — MIT, Apache, BSD — otimizando ao extremo a «adoção com o mínimo de atrito»: qualquer um pode embutir, fazer fork, enfiar dentro de um produto fechado, sem te perguntar. Dessas, {mitPct}% escolheram especificamente a MIT. É o que você escolhe quando o projeto open source é o topo do funil e você vende outra camada (nuvem gerenciada, suporte, features enterprise).",
+        "Os outros {copyleftPct}% vão na direção oposta e escolhem copyleft — GPL, ou, cada vez mais, AGPL. A AGPL força qualquer um que «rode uma versão modificada como serviço de rede» a abrir suas mudanças, o que dificulta muito para um hyperscaler forkar seu projeto num SaaS concorrente e fechado. Quando a versão hospedada é o seu negócio, isso é fosso: você pode ser genuinamente open source e ao mesmo tempo segurar o ponto comercial estratégico. A License acompanha o modelo — permissiva para maximizar alcance, protetiva para defender um serviço.",
+        "Não enxergamos receita, então isto não diz qual License fatura mais — diz que a License codifica a estratégia, e que a maioria dos times escolhe de propósito. Relicenciar de protetiva para permissiva é muito mais fácil que o contrário, então o seu «padrão na hora de entregar» pode silenciosamente dar de bandeja o seu único fosso."
+      ],
+      "echoes": [],
+      "caveat": "A License é lida da licença SPDX declarada por cada repo. Se uma escolha de fato ajudou na monetização é algo não observável aqui — isto fala de «estratégia codificada», não de «resultado medido»."
+    },
+    "house": {
+      "title": "O «mesmo template» é real — mas não é o motor",
+      "statLabel": "% de empresas cujo nome de marca é uma única palavra",
+      "kicker": "{nonComPct}% usam domínio não-.com · {ossPct}% escrevem «open source» · {tsPct}% usam TypeScript",
+      "body": [
+        "Olhe empresas dessas o suficiente e uma «estética de template» emerge, óbvia e convergente. {singleTokenPct}% usam uma única palavra como marca — curta, abstrata, minúscula, mediana de oito caracteres: bun, fig, modal, turso, beam, daily. {nonComPct}% já abandonaram o .com de vez, pousando em .dev, .io, .ai ou .sh. O jogo de naming tem sua própria gramática, e quase todo mundo fala essa gramática.",
+        "O posicionamento também converge. {ossPct}% colocam «open source» direto no pitch de uma frase, e {infraPct}% se posicionam como managed infrastructure — uma platform, um database, uma API, uma cloud. É o template do «cunha open source + camada gerenciada», escancarado ali: pegue uma infra que os devs já amam usar mas têm preguiça de operar por conta própria, e venda a versão hospedada. Por baixo do capô, a convergência continua — {tsPct}% têm TypeScript como base, agrupando-se com pnpm, Turborepo e docs em MDX dentro do repo num mesmo perfil de monorepo altíssimamente reconhecível (a turma de Python e IA é a outra metade da sala).",
+        "Agora vem a parte honesta. Nada disso causa crescimento. Um nome de uma palavra em .dev mais um site de docs estilo Stripe são uniforme, não motor — sinalizam para usuários, pares e investidores que «estou jogando o mesmo jogo», e essa «legibilidade» tem valor de verdade, mas todo concorrente veste o mesmo uniforme. A própria convergência é justamente o motivo de ela não te diferenciar. A diferenciação vem de onde o template não toca: a cunha que você escolhe, o timing, e se você de fato fez ou não algo que as pessoas querem."
+      ],
+      "echoes": [
+        "No fim das contas só uma coisa importa: fazer algo que as pessoas querem. O polimento de superfície e o posicionamento são meios, nunca a essência.",
+        "Viva no futuro e construa o que está faltando; a ideia e a cunha importam muito mais do que «como a empresa se veste»."
+      ],
+      "caveat": "Naming, domínios e tech stack são observados de sites públicos e dos repos; a «estética de template» é convergência, não alavanca de crescimento. Background dos fundadores, preço e design visual não estão neste dataset, e aqui não se tira nenhuma conclusão sobre eles."
+    }
+  }
+}

@@ -4,6 +4,9 @@
 // (the baked source of truth); this file supplies the non-English overrides + UI chrome for all
 // locales. Echo author/source/url are NOT translated (essay titles & names stay as-is).
 import { type Locale } from './ui';
+import jaRaw from './playbook.ja.json';
+import koRaw from './playbook.ko.json';
+import ptRaw from './playbook.pt.json';
 
 // Replace {token} with vars[token]; leave unknown tokens visible for debugging.
 export const fill = (s: string, v: Record<string, string | number>): string =>
@@ -46,7 +49,7 @@ export const PB_UI: Record<Locale, PBChrome> = {
     footAttention: '**所有提醒里最该记住的一条:** 这里每个数字衡量的都是 **注意力**——星标、发布、评论——而不是营收、留存,或底下到底有没有一门生意。星标只是「有人注意到了」的领先指标,仅此而已。一个团队可以把这些全做齐、冲到一万颗星,却仍然没有任何会付费或留下来的用户。请把这里当成「注意力如何被赢得」的地图,而不是成功的记分牌。',
     footMethod: '每个数字都从实时数据集重算——星标、发布事件、issue/PR 活跃度与跨 star 网络,全部来自公开的 GitHub 历史,加上 HN、Product Hunt、YC Launch 记录与 GH Archive。当某个发现可能被 repo 规模干扰时,我们会报告「控制了年龄与语言后」的关联。完整限制见 [Methodology](/methodology)——尤其是幸存者偏差,它让所有「做了同样的事却没能成功」的团队隐形。',
   },
-  ja: {} as PBChrome, ko: {} as PBChrome, pt: {} as PBChrome,
+  ja: jaRaw.ui as PBChrome, ko: koRaw.ui as PBChrome, pt: ptRaw.ui as PBChrome,
 };
 
 // Essay/source attributions reused across locales (not translated).
@@ -63,7 +66,24 @@ const SRC = {
   mswpw: { author: 'Y Combinator', source: 'Make Something People Want', url: 'https://www.ycombinator.com/library' },
 };
 
+// Echo attributions per lesson, in order — reattached to agent-translated principle strings
+// (the JSON files carry only the translated quotes, to keep them compact and verifiable).
+const ECHO_SRC: Record<string, { author: string; source: string; url: string }[]> = {
+  hn: [SRC.school, SRC.growth], ph: [SRC.growth], responsive: [SRC.talk],
+  compound: [SRC.growth, SRC.superlinear], evergreen: [SRC.stubborn, SRC.aord],
+  team: [SRC.founders], network: [SRC.ds], license: [], house: [SRC.mswpw, SRC.ideas],
+};
+function adapt(raw: any): Record<string, LessonT> {
+  const out: Record<string, LessonT> = {};
+  for (const key of Object.keys(raw.lessons)) {
+    const L = raw.lessons[key];
+    out[key] = { ...L, echoes: (L.echoes || []).map((p: string, i: number) => ({ principle: p, ...(ECHO_SRC[key]?.[i] || {}) })) };
+  }
+  return out;
+}
+
 export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
+  ja: adapt(jaRaw), ko: adapt(koRaw), pt: adapt(ptRaw),
   'zh-Hant': {
     hn: {
       title: '上 Hacker News——然後一次又一次地上',
