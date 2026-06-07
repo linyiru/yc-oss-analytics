@@ -4548,7 +4548,14 @@
  "curve_baseline": 0,
  "curve_partial": false,
  "yc_launch": null,
- "ph_event": null,
+ "ph_event": {
+  "date": "2014-07-10",
+  "name": "Keep",
+  "tagline": "Skip silly purchases. Save for your passions.",
+  "votes": 71,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/keep-2/launches/keep"
+ },
  "hn_events": [
   {
    "date": "2010-03-16",
@@ -4608,9 +4615,9 @@
  "engagement": {
   "issues": 3970,
   "prs": 5997,
-  "comments": 11915,
+  "comments": 9664,
   "forks_gha": 1230,
-  "comments_per_issue": 3.0,
+  "comments_per_issue": 2.4,
   "network_star_pct": 86,
   "early_network": {
    "first100": 100,

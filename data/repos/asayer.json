@@ -7274,7 +7274,14 @@
  "curve_baseline": 0,
  "curve_partial": false,
  "yc_launch": null,
- "ph_event": null,
+ "ph_event": {
+  "date": "2018-02-26",
+  "name": "QAPerfect",
+  "tagline": "AI-powered test automation platform for web apps",
+  "votes": 4,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/qaperfect/launches/qaperfect"
+ },
  "hn_events": [
   {
    "date": "2021-12-28",
@@ -7334,9 +7341,9 @@
  "engagement": {
   "issues": 954,
   "prs": 5660,
-  "comments": 6391,
+  "comments": 4816,
   "forks_gha": 695,
-  "comments_per_issue": 6.7,
+  "comments_per_issue": 5.0,
   "network_star_pct": 81,
   "early_network": {
    "first100": 100,

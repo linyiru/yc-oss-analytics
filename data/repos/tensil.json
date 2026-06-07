@@ -1300,9 +1300,9 @@
  "engagement": {
   "issues": 37,
   "prs": 120,
-  "comments": 223,
+  "comments": 111,
   "forks_gha": 41,
-  "comments_per_issue": 6.0,
+  "comments_per_issue": 3.0,
   "network_star_pct": 47,
   "early_network": {
    "first100": 100,

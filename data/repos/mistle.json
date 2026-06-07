@@ -1,0 +1,432 @@
+{
+ "slug": "mistle",
+ "github": "mistlehq/mistle",
+ "yc": {
+  "batch": "S22",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Open source background agents",
+  "website": "https://mistle.dev",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 37,
+  "forks": 2,
+  "watchers": 0,
+  "open_issues": 0,
+  "commits": 2612,
+  "contributors": 5,
+  "license": "MIT",
+  "created": "2026-02-26",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-02-24",
+  "last": "2026-06-07",
+  "span_months": 3.4
+ },
+ "intensity": {
+  "commits_per_week": 179.3,
+  "per_day": 25.61,
+  "weekend_pct": 14.6,
+  "punchcard": [
+   [
+    11,
+    7,
+    3,
+    1,
+    0,
+    0,
+    0,
+    2,
+    11,
+    12,
+    21,
+    40,
+    25,
+    22,
+    42,
+    49,
+    28,
+    42,
+    13,
+    6,
+    10,
+    20,
+    16,
+    18
+   ],
+   [
+    19,
+    15,
+    5,
+    3,
+    4,
+    2,
+    0,
+    0,
+    16,
+    8,
+    21,
+    29,
+    20,
+    15,
+    40,
+    48,
+    42,
+    43,
+    31,
+    16,
+    19,
+    21,
+    23,
+    33
+   ],
+   [
+    27,
+    17,
+    3,
+    1,
+    0,
+    0,
+    0,
+    4,
+    15,
+    10,
+    20,
+    38,
+    23,
+    31,
+    43,
+    59,
+    42,
+    45,
+    24,
+    16,
+    12,
+    15,
+    26,
+    28
+   ],
+   [
+    18,
+    18,
+    12,
+    3,
+    0,
+    7,
+    0,
+    5,
+    12,
+    11,
+    23,
+    31,
+    25,
+    23,
+    39,
+    41,
+    43,
+    34,
+    26,
+    21,
+    19,
+    13,
+    15,
+    22
+   ],
+   [
+    24,
+    13,
+    7,
+    3,
+    5,
+    0,
+    0,
+    0,
+    0,
+    11,
+    25,
+    39,
+    18,
+    26,
+    31,
+    41,
+    47,
+    20,
+    23,
+    7,
+    3,
+    12,
+    22,
+    21
+   ],
+   [
+    21,
+    22,
+    7,
+    3,
+    2,
+    1,
+    5,
+    8,
+    8,
+    4,
+    5,
+    6,
+    6,
+    8,
+    12,
+    22,
+    18,
+    16,
+    11,
+    0,
+    7,
+    9,
+    13,
+    18
+   ],
+   [
+    28,
+    17,
+    7,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    7,
+    8,
+    4,
+    3,
+    7,
+    3,
+    7,
+    9,
+    7,
+    7,
+    2,
+    4,
+    2,
+    11,
+    14
+   ]
+  ],
+  "dow": [
+   399,
+   473,
+   499,
+   461,
+   398,
+   232,
+   150
+  ],
+  "ai_coauthor_total": 1
+ },
+ "workflow": {
+  "conventional_pct": 100,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 763
+   },
+   {
+    "k": "fix",
+    "v": 712
+   },
+   {
+    "k": "chore",
+    "v": 491
+   },
+   {
+    "k": "refactor",
+    "v": 374
+   },
+   {
+    "k": "test",
+    "v": 148
+   },
+   {
+    "k": "docs",
+    "v": 75
+   },
+   {
+    "k": "ci",
+    "v": 38
+   },
+   {
+    "k": "build",
+    "v": 3
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 53
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 886,
+  "commits_90d": 2235,
+  "commits_365d": 2612,
+  "active_contributors_90d": 5,
+  "years_since_first_commit": 0.3,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2022,
+  "batch_age_years": 4.5,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2026-02",
+   "c": 226
+  },
+  {
+   "m": "2026-03",
+   "c": 704
+  },
+  {
+   "m": "2026-04",
+   "c": 689
+  },
+  {
+   "m": "2026-05",
+   "c": 847
+  },
+  {
+   "m": "2026-06",
+   "c": 146
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Thomas Jiang",
+   "count": 1675,
+   "pct": 64.1
+  },
+  {
+   "name": "Jonathan Low",
+   "count": 640,
+   "pct": 24.5
+  },
+  {
+   "name": "dependabot[bot]",
+   "count": 283,
+   "pct": 10.8
+  },
+  {
+   "name": "mistle-agent[bot]",
+   "count": 12,
+   "pct": 0.5
+  },
+  {
+   "name": "blacksmith-sh[bot]",
+   "count": 2,
+   "pct": 0.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 21060428,
+   "Rust": 3205695,
+   "MDX": 148695,
+   "JavaScript": 48229,
+   "Shell": 28526,
+   "CSS": 21752,
+   "Dockerfile": 8702,
+   "Nix": 5143,
+   "Go": 3725,
+   "HTML": 789
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [
+  {
+   "t": "2026-05-09",
+   "n": 9
+  },
+  {
+   "t": "2026-05-22",
+   "n": 37
+  }
+ ],
+ "viral": {
+  "from": "2026-05-09",
+  "to": "2026-05-22",
+  "gain": 28,
+  "days": 13
+ },
+ "repo_id": 1167164255,
+ "repo_names": [
+  "mistlehq/mistle"
+ ],
+ "yc_launch": null,
+ "hn_events": [
+  {
+   "date": "2026-05-13",
+   "title": "Show HN: Mistle – Open-source infrastructure for running sandboxed coding agents",
+   "url": "https://github.com/mistlehq/mistle",
+   "author": "jonathanlowhy",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48122542"
+  },
+  {
+   "date": "2026-05-21",
+   "title": "Open source platform for automating sandboxed coding agents",
+   "url": "https://github.com/mistlehq/mistle",
+   "author": "mickuehl",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48227871"
+  },
+  {
+   "date": "2016-12-24",
+   "title": "Show HN: Animated Mistletoe and Kisses for iMessage Stickers",
+   "url": "https://itunes.apple.com/us/app/animated-mistletoe-kisses/id1184653618?ls=1&mt=8",
+   "author": "Michie",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=13250821"
+  }
+ ],
+ "ph_event": null,
+ "star_spikes": [
+  {
+   "t": "2026-05-22",
+   "gain": 3
+  },
+  {
+   "t": "2026-05-09",
+   "gain": 1
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "bigquery",
+ "curve_baseline": 0,
+ "curve_partial": false,
+ "engagement": {
+  "issues": 0,
+  "prs": 331,
+  "comments": 61,
+  "forks_gha": 0,
+  "comments_per_issue": 0,
+  "early_network": {
+   "first100": 4,
+   "first100_net_pct": 100,
+   "first1000": 4,
+   "first1000_net_pct": 100,
+   "lifetime_net_pct": 100
+  }
+ }
+}

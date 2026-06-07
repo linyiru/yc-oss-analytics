@@ -7349,16 +7349,16 @@
  "engagement": {
   "issues": 2408,
   "prs": 7781,
-  "comments": 21045,
+  "comments": 17975,
   "forks_gha": 3099,
-  "comments_per_issue": 8.7,
+  "comments_per_issue": 7.5,
   "network_star_pct": 71,
   "early_network": {
    "first100": 100,
    "first100_net_pct": 60,
    "first1000": 1000,
    "first1000_net_pct": 68,
-   "lifetime_net_pct": 58
+   "lifetime_net_pct": 59
   }
  }
 }

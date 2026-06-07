@@ -10990,9 +10990,9 @@
  "engagement": {
   "issues": 4176,
   "prs": 6248,
-  "comments": 14271,
+  "comments": 9663,
   "forks_gha": 2121,
-  "comments_per_issue": 3.4,
+  "comments_per_issue": 2.3,
   "network_star_pct": 57,
   "early_network": {
    "first100": 100,

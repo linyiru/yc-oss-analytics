@@ -14010,9 +14010,9 @@
  "engagement": {
   "issues": 6482,
   "prs": 8776,
-  "comments": 31820,
+  "comments": 26293,
   "forks_gha": 2299,
-  "comments_per_issue": 4.9,
+  "comments_per_issue": 4.1,
   "network_star_pct": 66,
   "early_network": {
    "first100": 100,

@@ -7568,7 +7568,7 @@
   "date": "2015-08-18",
   "name": "Fig",
   "tagline": "A curated platform for funding and developing games",
-  "votes": 86,
+  "votes": 100,
   "comments": 8,
   "url": "https://www.producthunt.com/products/fig-4/launches/fig"
  },
@@ -7631,9 +7631,9 @@
  "engagement": {
   "issues": 878,
   "prs": 3664,
-  "comments": 10264,
+  "comments": 6871,
   "forks_gha": 7198,
-  "comments_per_issue": 11.7,
+  "comments_per_issue": 7.8,
   "network_star_pct": 69,
   "early_network": {
    "first100": 100,

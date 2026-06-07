@@ -3183,9 +3183,9 @@
  "engagement": {
   "issues": 2387,
   "prs": 4766,
-  "comments": 1910,
+  "comments": 1335,
   "forks_gha": 250,
-  "comments_per_issue": 0.8,
+  "comments_per_issue": 0.6,
   "network_star_pct": 89,
   "early_network": {
    "first100": 100,

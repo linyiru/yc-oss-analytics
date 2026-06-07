@@ -2920,7 +2920,7 @@
  "engagement": {
   "issues": 720,
   "prs": 1003,
-  "comments": 1326,
+  "comments": 1304,
   "forks_gha": 168,
   "comments_per_issue": 1.8,
   "network_star_pct": 76,
@@ -2928,7 +2928,7 @@
    "first100": 100,
    "first100_net_pct": 62,
    "first1000": 1000,
-   "first1000_net_pct": 60,
+   "first1000_net_pct": 61,
    "lifetime_net_pct": 64
   }
  }

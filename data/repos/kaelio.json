@@ -1,0 +1,483 @@
+{
+ "slug": "kaelio",
+ "github": "Kaelio/ktx",
+ "yc": {
+  "batch": "X25",
+  "team_size": 8,
+  "status": "Active",
+  "one_liner": "The open-source context layer for data agents",
+  "website": "https://kaelio.com/",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 928,
+  "forks": 48,
+  "watchers": 2,
+  "open_issues": 18,
+  "commits": 406,
+  "contributors": 7,
+  "license": "Apache-2.0",
+  "created": "2026-05-10",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-05-10",
+  "last": "2026-06-06",
+  "span_months": 0.9
+ },
+ "intensity": {
+  "commits_per_week": 105.3,
+  "per_day": 15.04,
+  "weekend_pct": 10.6,
+  "punchcard": [
+   [
+    10,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    2,
+    1,
+    1,
+    2,
+    2,
+    7,
+    21,
+    10,
+    13,
+    23,
+    23,
+    2,
+    5,
+    7
+   ],
+   [
+    1,
+    4,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    6,
+    8,
+    6,
+    5,
+    7,
+    8,
+    14,
+    8,
+    10,
+    2,
+    1,
+    4,
+    0,
+    4
+   ],
+   [
+    12,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    8,
+    7,
+    6,
+    1,
+    9,
+    3,
+    5,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    2,
+    6,
+    4,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    5,
+    2,
+    7,
+    10,
+    5,
+    2,
+    4,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    1,
+    2,
+    5,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    5,
+    1,
+    1,
+    0,
+    1,
+    2,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    1,
+    1,
+    3,
+    1,
+    0,
+    1,
+    4
+   ]
+  ],
+  "dow": [
+   134,
+   91,
+   63,
+   52,
+   23,
+   20,
+   23
+  ],
+  "ai_coauthor_total": 57
+ },
+ "workflow": {
+  "conventional_pct": 88,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 114
+   },
+   {
+    "k": "fix",
+    "v": 90
+   },
+   {
+    "k": "docs",
+    "v": 78
+   },
+   {
+    "k": "chore",
+    "v": 30
+   },
+   {
+    "k": "refactor",
+    "v": 16
+   },
+   {
+    "k": "test",
+    "v": 14
+   },
+   {
+    "k": "ci",
+    "v": 11
+   }
+  ],
+  "merge_pct": 10.6,
+  "median_msg_len": 48
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 406,
+  "commits_90d": 406,
+  "commits_365d": 406,
+  "active_contributors_90d": 7,
+  "years_since_first_commit": 0.1,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-05",
+   "c": 373
+  },
+  {
+   "m": "2026-06",
+   "c": 33
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Andrey Avtomonov",
+   "count": 209,
+   "pct": 51.5
+  },
+  {
+   "name": "Andrey Avtomonov",
+   "count": 76,
+   "pct": 18.7
+  },
+  {
+   "name": "Luca Martial",
+   "count": 68,
+   "pct": 16.7
+  },
+  {
+   "name": "Luca Martial",
+   "count": 36,
+   "pct": 8.9
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 9,
+   "pct": 2.2
+  },
+  {
+   "name": "semantic-release-bot",
+   "count": 7,
+   "pct": 1.7
+  },
+  {
+   "name": "ARYAN",
+   "count": 1,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 7733048,
+   "Python": 899087,
+   "JavaScript": 442200,
+   "MDX": 245328,
+   "CSS": 30584,
+   "Shell": 9586,
+   "LookML": 7703
+  },
+  "manifests": [
+   "package.json",
+   "pyproject.toml"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "biome",
+   "claude-code",
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [
+  {
+   "t": "2026-05-19",
+   "n": 47
+  },
+  {
+   "t": "2026-05-23",
+   "n": 79
+  },
+  {
+   "t": "2026-05-24",
+   "n": 110
+  },
+  {
+   "t": "2026-05-25",
+   "n": 126
+  },
+  {
+   "t": "2026-05-28",
+   "n": 330
+  },
+  {
+   "t": "2026-05-29",
+   "n": 551
+  },
+  {
+   "t": "2026-05-30",
+   "n": 692
+  },
+  {
+   "t": "2026-05-31",
+   "n": 739
+  },
+  {
+   "t": "2026-06-01",
+   "n": 818
+  },
+  {
+   "t": "2026-06-02",
+   "n": 849
+  },
+  {
+   "t": "2026-06-04",
+   "n": 865
+  },
+  {
+   "t": "2026-06-05",
+   "n": 881
+  },
+  {
+   "t": "2026-06-06",
+   "n": 928
+  }
+ ],
+ "viral": {
+  "from": "2026-05-19",
+  "to": "2026-06-06",
+  "gain": 881,
+  "days": 18
+ },
+ "repo_id": 1234904564,
+ "repo_names": [
+  "Kaelio/ktx",
+  "Kaelio/ktx-ai-data-agents-context",
+  "Kaelio/ktx-ai-data-agents-mcp-context-skills"
+ ],
+ "yc_launch": {
+  "title": "Kaelio: Open-source context layer for data agents",
+  "date": "2026-05-28",
+  "votes": 6,
+  "url": "https://www.ycombinator.com/launches/QYZ-kaelio-open-source-context-layer-for-data-agents"
+ },
+ "hn_events": [
+  {
+   "date": "2026-05-28",
+   "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+   "url": "https://github.com/Kaelio/ktx",
+   "author": "lucamrtl",
+   "points": 93,
+   "comments": 35,
+   "hn": "https://news.ycombinator.com/item?id=48309986"
+  },
+  {
+   "date": "2026-06-04",
+   "title": "Beyond the Semantic Layer: Building a Context Layer for the Agentic Era",
+   "url": "https://www.kaelio.com/blog/building-a-context-layer-for-the-agentic-era",
+   "author": "zazuke",
+   "points": 6,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=48397859"
+  }
+ ],
+ "ph_event": null,
+ "star_spikes": [
+  {
+   "t": "2026-05-29",
+   "gain": 14
+  },
+  {
+   "t": "2026-05-28",
+   "gain": 13
+  },
+  {
+   "t": "2026-05-30",
+   "gain": 9
+  },
+  {
+   "t": "2026-06-01",
+   "gain": 5
+  },
+  {
+   "t": "2026-05-19",
+   "gain": 3
+  },
+  {
+   "t": "2026-05-31",
+   "gain": 3
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "bigquery",
+ "curve_baseline": 0,
+ "curve_partial": false,
+ "engagement": {
+  "issues": 9,
+  "prs": 11,
+  "comments": 13,
+  "forks_gha": 3,
+  "comments_per_issue": 1.4,
+  "early_network": {
+   "first100": 59,
+   "first100_net_pct": 61,
+   "first1000": 59,
+   "first1000_net_pct": 61,
+   "lifetime_net_pct": 61
+  }
+ }
+}

@@ -7400,7 +7400,14 @@
  "curve_baseline": 0,
  "curve_partial": false,
  "yc_launch": null,
- "ph_event": null,
+ "ph_event": {
+  "date": "2021-06-10",
+  "name": "Netmaker",
+  "tagline": "A mesh VPN platform to connect machines securely, anywhere.",
+  "votes": 8,
+  "comments": 2,
+  "url": "https://www.producthunt.com/products/netmaker/launches/netmaker"
+ },
  "hn_events": [
   {
    "date": "2023-08-16",
@@ -7460,9 +7467,9 @@
  "engagement": {
   "issues": 1436,
   "prs": 4675,
-  "comments": 4455,
+  "comments": 3611,
   "forks_gha": 690,
-  "comments_per_issue": 3.1,
+  "comments_per_issue": 2.5,
   "network_star_pct": 75,
   "early_network": {
    "first100": 100,

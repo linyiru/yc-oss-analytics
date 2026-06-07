@@ -6350,9 +6350,9 @@
  "engagement": {
   "issues": 937,
   "prs": 3754,
-  "comments": 7336,
+  "comments": 2533,
   "forks_gha": 358,
-  "comments_per_issue": 7.8,
+  "comments_per_issue": 2.7,
   "network_star_pct": 82,
   "early_network": {
    "first100": 100,

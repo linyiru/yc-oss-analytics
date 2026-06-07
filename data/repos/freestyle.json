@@ -1196,16 +1196,16 @@
  "engagement": {
   "issues": 5,
   "prs": 20,
-  "comments": 22,
+  "comments": 15,
   "forks_gha": 163,
-  "comments_per_issue": 4.4,
+  "comments_per_issue": 3.0,
   "network_star_pct": 78,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 65,
+   "first100_net_pct": 66,
    "first1000": 385,
-   "first1000_net_pct": 63,
-   "lifetime_net_pct": 63
+   "first1000_net_pct": 64,
+   "lifetime_net_pct": 64
   }
  }
 }

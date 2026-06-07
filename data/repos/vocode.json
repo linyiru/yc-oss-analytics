@@ -3819,13 +3819,13 @@
  "engagement": {
   "issues": 347,
   "prs": 1078,
-  "comments": 1332,
+  "comments": 882,
   "forks_gha": 686,
-  "comments_per_issue": 3.8,
+  "comments_per_issue": 2.5,
   "network_star_pct": 80,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 86,
+   "first100_net_pct": 87,
    "first1000": 1000,
    "first1000_net_pct": 72,
    "lifetime_net_pct": 68

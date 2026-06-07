@@ -7610,9 +7610,9 @@
  "engagement": {
   "issues": 2181,
   "prs": 3127,
-  "comments": 16366,
+  "comments": 5080,
   "forks_gha": 1705,
-  "comments_per_issue": 7.5,
+  "comments_per_issue": 2.3,
   "network_star_pct": 58,
   "early_network": {
    "first100": 100,

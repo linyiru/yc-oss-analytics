@@ -4820,9 +4820,9 @@
  "engagement": {
   "issues": 4999,
   "prs": 7007,
-  "comments": 12349,
+  "comments": 8440,
   "forks_gha": 520,
-  "comments_per_issue": 2.5,
+  "comments_per_issue": 1.7,
   "network_star_pct": 89,
   "early_network": {
    "first100": 100,

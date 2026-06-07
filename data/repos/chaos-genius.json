@@ -1990,9 +1990,9 @@
  "engagement": {
   "issues": 133,
   "prs": 807,
-  "comments": 1146,
+  "comments": 825,
   "forks_gha": 93,
-  "comments_per_issue": 8.6,
+  "comments_per_issue": 6.2,
   "network_star_pct": 56,
   "early_network": {
    "first100": 100,

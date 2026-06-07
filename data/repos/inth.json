@@ -1,0 +1,406 @@
+{
+ "slug": "inth",
+ "github": "inthhq/inrepo",
+ "yc": {
+  "batch": "X26",
+  "team_size": 3,
+  "status": "Active",
+  "one_liner": "Privacy compliance, enforced in code",
+  "website": "https://inth.com",
+  "industry": "B2B"
+ },
+ "metrics": {
+  "stars": 39,
+  "forks": 1,
+  "watchers": 0,
+  "open_issues": 19,
+  "commits": 60,
+  "contributors": 4,
+  "license": "MIT",
+  "created": "2026-04-21",
+  "primary_lang": "TypeScript"
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-04-21",
+  "last": "2026-06-05",
+  "span_months": 1.4
+ },
+ "intensity": {
+  "commits_per_week": 9.5,
+  "per_day": 1.36,
+  "weekend_pct": 0.0,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    14,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    2,
+    4,
+    3,
+    0,
+    0,
+    1,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   19,
+   3,
+   22,
+   9,
+   7,
+   0,
+   0
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 65,
+  "conv": [
+   {
+    "k": "refactor",
+    "v": 12
+   },
+   {
+    "k": "feat",
+    "v": 12
+   },
+   {
+    "k": "chore",
+    "v": 8
+   },
+   {
+    "k": "fix",
+    "v": 4
+   },
+   {
+    "k": "add",
+    "v": 1
+   },
+   {
+    "k": "test",
+    "v": 1
+   },
+   {
+    "k": "docs",
+    "v": 1
+   }
+  ],
+  "merge_pct": 23.1,
+  "median_msg_len": 56
+ },
+ "activity": {
+  "last_commit_days": 1,
+  "commits_30d": 21,
+  "commits_90d": 60,
+  "commits_365d": 60,
+  "active_contributors_90d": 4,
+  "years_since_first_commit": 0.1,
+  "liveness": 87,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.5,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-04",
+   "c": 39
+  },
+  {
+   "m": "2026-05",
+   "c": 20
+  },
+  {
+   "m": "2026-06",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Christopher Burns",
+   "count": 50,
+   "pct": 83.3
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 5,
+   "pct": 8.3
+  },
+  {
+   "name": "Kaylee",
+   "count": 3,
+   "pct": 5.0
+  },
+  {
+   "name": "Christopher Burns",
+   "count": 2,
+   "pct": 3.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 177906,
+   "JavaScript": 32313,
+   "MDX": 6170
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "bun",
+  "deps_top": [
+   "@clack/prompts",
+   "safe-regex"
+  ],
+  "infra": [
+   "bun"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [
+  {
+   "t": "2026-05-11",
+   "n": 13
+  },
+  {
+   "t": "2026-05-12",
+   "n": 39
+  }
+ ],
+ "viral": {
+  "from": "2026-05-11",
+  "to": "2026-05-12",
+  "gain": 26,
+  "days": 1
+ },
+ "repo_id": 1217107102,
+ "repo_names": [
+  "inthhq/inrepo"
+ ],
+ "yc_launch": {
+  "title": "Inth: Dev-first cookie banners that don't slow your site",
+  "date": "2026-05-12",
+  "votes": 13,
+  "url": "https://www.ycombinator.com/launches/QKz-inth-dev-first-cookie-banners-that-don-t-slow-your-site"
+ },
+ "hn_events": [
+  {
+   "date": "2016-03-05",
+   "title": "Show HN: I built inthing.io, realtime streams with a Python / REST API",
+   "url": "https://www.willmcgugan.com/blog/tech/post/announcing-inthingio/",
+   "author": "billowycoat",
+   "points": 8,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=11229790"
+  },
+  {
+   "date": "2026-05-11",
+   "title": "Show HN: Inrepo – Pull upstream repos into your app without forks or submodules",
+   "url": "https://github.com/inthhq/inrepo",
+   "author": "burnedchris",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48102083"
+  }
+ ],
+ "ph_event": null,
+ "star_spikes": [
+  {
+   "t": "2026-05-12",
+   "gain": 2
+  },
+  {
+   "t": "2026-05-11",
+   "gain": 1
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "bigquery",
+ "curve_baseline": 0,
+ "curve_partial": false,
+ "engagement": {
+  "issues": 0,
+  "prs": 6,
+  "comments": 4,
+  "forks_gha": 0,
+  "comments_per_issue": 0,
+  "early_network": {
+   "first100": 3,
+   "first100_net_pct": 67,
+   "first1000": 3,
+   "first1000_net_pct": 67,
+   "lifetime_net_pct": 67
+  }
+ }
+}

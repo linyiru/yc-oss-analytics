@@ -1,7 +1,7 @@
 {
   "eyebrow": "Methodology",
   "h1": "Como cada número é calculado — e onde ele falha.",
-  "intro": "Análise independente de dados públicos de ~158 empresas open-source do Y Combinator. **Sem qualquer vínculo com o Y Combinator e sem endosso dele.** Cada número é uma aproximação com ressalvas conhecidas — preferimos pecar pela cautela.",
+  "intro": "Análise independente de dados públicos de ~164 empresas open-source do Y Combinator. **Sem qualquer vínculo com o Y Combinator e sem endosso dele.** Cada número é uma aproximação com ressalvas conhecidas — preferimos pecar pela cautela.",
   "defsTitle": "Como cada métrica é calculada",
   "defsSub": "Definições e as premissas embutidas",
   "limitsTitle": "Limitações",
@@ -16,7 +16,7 @@
     ["Liveness (0–100)", "Uma heurística, não um índice validado: 0.55·recência + 0.45·volume de commits dos últimos 90 dias em escala logarítmica. Trate como ordinal — bom para ordenar, não uma nota precisa."],
     ["Tipo (Evergreen / Rising / Steady / Dormant)", "Cruza liveness com a idade do batch da YC. Evergreen = turma antiga ainda muito ativa; Dormant = liveness < 30. Times que usam squash-merge podem parecer mais quietos do que são."],
     ["Commit punch card", "Contagens por dia da semana × hora, no próprio fuso horário registrado no commit. CI, rebases, viagens e relógios mal configurados distorcem isso — leia padrões de madrugada/fim de semana como sugestivos, nunca como prova forense."],
-    ["Curva de crescimento de stars", "Stars acumuladas por dia, reconstruídas a partir dos WatchEvents do GH Archive (via BigQuery) e indexadas pelo id numérico estável de cada repo — então uma renomeação nunca quebra o histórico. Completa para 156 de 158 repos; um punhado com origens anteriores a 2015 mostra uma baseline ancorada e é marcado como \"partial\"."],
+    ["Curva de crescimento de stars", "Stars acumuladas por dia, reconstruídas a partir dos WatchEvents do GH Archive (via BigQuery) e indexadas pelo id numérico estável de cada repo — então uma renomeação nunca quebra o histórico. Completa para 162 de 164 repos; um punhado com origens anteriores a 2015 mostra uma baseline ancorada e é marcado como \"partial\"."],
     ["Launch moments", "Posts de HN, Product Hunt e YC-Launch fixados na curva de stars pela data. HN a partir da API da Algolia (points e comments), Product Hunt a partir da sua API (votos), YC a partir do feed público de launches. Eles marcam o que plausivelmente provocou um pico — não é uma lista exaustiva, e proximidade não é prova."],
     ["Time to traction", "Dias desde o primeiro commit até 100 / 1.000 / 10.000 stars, e até o primeiro launch público. Calculado apenas onde a curva começa perto de zero (histórico inicial completo); datas de launch que caem antes do primeiro commit — um artefato de histórico de fork ou renomeado — são descartadas."],
     ["YC-network backing", "Fração dos stargazers mais antigos de um repo (os primeiros 100, os primeiros 1.000 e de todo o período) que também dão star em ≥2 OUTROS repos open-source da YC. O repo que está sendo visto fica de fora dessa contagem, então o número não é inflado por contar a si mesmo. Derivado estruturalmente do cross-starring do GH Archive — desidentificado, nenhum login é armazenado ou publicado."],

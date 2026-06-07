@@ -9767,9 +9767,9 @@
  "engagement": {
   "issues": 11825,
   "prs": 30433,
-  "comments": 70957,
+  "comments": 54297,
   "forks_gha": 12423,
-  "comments_per_issue": 6.0,
+  "comments_per_issue": 4.6,
   "network_star_pct": 67,
   "early_network": {
    "first100": 100,

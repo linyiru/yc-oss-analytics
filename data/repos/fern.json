@@ -4341,15 +4341,15 @@
  "engagement": {
   "issues": 2268,
   "prs": 17295,
-  "comments": 12424,
+  "comments": 6807,
   "forks_gha": 268,
-  "comments_per_issue": 5.5,
+  "comments_per_issue": 3.0,
   "network_star_pct": 83,
   "early_network": {
    "first100": 100,
    "first100_net_pct": 79,
    "first1000": 1000,
-   "first1000_net_pct": 70,
+   "first1000_net_pct": 71,
    "lifetime_net_pct": 73
   }
  }

@@ -2932,9 +2932,9 @@
  "engagement": {
   "issues": 5163,
   "prs": 6196,
-  "comments": 19626,
+  "comments": 15020,
   "forks_gha": 1687,
-  "comments_per_issue": 3.8,
+  "comments_per_issue": 2.9,
   "network_star_pct": 73,
   "early_network": {
    "first100": 100,

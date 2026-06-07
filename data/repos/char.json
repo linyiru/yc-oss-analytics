@@ -2008,9 +2008,9 @@
  "engagement": {
   "issues": 1296,
   "prs": 3002,
-  "comments": 5663,
+  "comments": 4130,
   "forks_gha": 307,
-  "comments_per_issue": 4.4,
+  "comments_per_issue": 3.2,
   "network_star_pct": 78,
   "early_network": {
    "first100": 100,

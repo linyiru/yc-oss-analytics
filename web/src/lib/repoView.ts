@@ -129,6 +129,7 @@ export function toRepoView(slug: string) {
   ];
 
   return {
+    total: repos.length,
     c: {
       id: r.slug, name: r.slug, org: r.github?.split('/')[0] ?? '', github: r.github,
       oneLiner: r.yc?.one_liner ?? '', batch: r.yc?.batch ?? '?', lang: r.metrics?.primary_lang ?? '—',

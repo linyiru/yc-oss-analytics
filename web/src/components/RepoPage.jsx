@@ -10,7 +10,7 @@ export default function RepoPage({ view, initialLocale }) {
   const { intl, T } = useStore();
   useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
   if (!view) return <div className="wrap" style={{ padding: 60 }}>Repository not found.</div>;
-  const { c, d } = view;
+  const { c, d, total } = view;
   const fc = (n) => fmtCompact(n, intl);
   const fi = (n) => fmtInt(n, intl);
   const viralMonth = d.starCurve.pts[d.starCurve.viralIndex]?.month;
@@ -35,7 +35,7 @@ export default function RepoPage({ view, initialLocale }) {
 
   return (
     <>
-      <TopNav active="directory" />
+      <TopNav active="directory" count={total} />
       <main className="wrap" style={{ padding: '20px 20px 0' }}>
         <a href="/" className="row gap-2 faint" style={{ fontSize: 'var(--fs-sm)', marginBottom: 16, width: 'fit-content' }}>
           <IconChevron size={13} style={{ transform: 'rotate(90deg)' }} /> {T('directory')}

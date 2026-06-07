@@ -3822,9 +3822,9 @@
  "engagement": {
   "issues": 631,
   "prs": 1909,
-  "comments": 3586,
+  "comments": 1782,
   "forks_gha": 168,
-  "comments_per_issue": 5.7,
+  "comments_per_issue": 2.8,
   "network_star_pct": 76,
   "early_network": {
    "first100": 100,

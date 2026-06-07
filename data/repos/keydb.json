@@ -9766,7 +9766,14 @@
  "curve_baseline": 0,
  "curve_partial": false,
  "yc_launch": null,
- "ph_event": null,
+ "ph_event": {
+  "date": "2019-03-12",
+  "name": "KeyDB",
+  "tagline": "Multithreaded Redis Compatible Database",
+  "votes": 4,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/keydb/launches/keydb"
+ },
  "hn_events": [
   {
    "date": "2019-10-07",
@@ -9826,9 +9833,9 @@
  "engagement": {
   "issues": 1059,
   "prs": 382,
-  "comments": 2439,
+  "comments": 2301,
   "forks_gha": 722,
-  "comments_per_issue": 2.3,
+  "comments_per_issue": 2.2,
   "network_star_pct": 80,
   "early_network": {
    "first100": 100,

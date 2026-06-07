@@ -6422,9 +6422,9 @@
  "engagement": {
   "issues": 25055,
   "prs": 17062,
-  "comments": 77897,
+  "comments": 58320,
   "forks_gha": 4340,
-  "comments_per_issue": 3.1,
+  "comments_per_issue": 2.3,
   "network_star_pct": 62,
   "early_network": {
    "first100": 100,

@@ -680,9 +680,9 @@
  "engagement": {
   "issues": 51,
   "prs": 66,
-  "comments": 53,
+  "comments": 10,
   "forks_gha": 27,
-  "comments_per_issue": 1.0,
+  "comments_per_issue": 0.2,
   "network_star_pct": 68,
   "early_network": {
    "first100": 100,

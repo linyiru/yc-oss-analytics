@@ -1,7 +1,22 @@
 {
-  "_doc": "Manual fixes for the upstream yc-oss dataset. 'additions' recover open-source YC companies that are missing the official 'Open Source' tag on the YC site (false negatives): a company whose tags are empty will not appear in the tag-derived dataset even when it ships a public repo. Each addition needs a slug present in companies/all.json (for batch/website/etc.) and the owner/repo of its primary repository. 'corrections' remap a wrong repo; 'exclusions' drop a slug. Keep this list evidence-based and neutral — it exists to improve coverage, not to single anyone out.",
+  "_doc": "Manual fixes for the upstream yc-oss dataset. 'additions' recover open-source YC companies that are missing the official 'Open Source' tag on the YC site (false negatives), or that the tag lists without a usable repo in repositories.json. Each addition needs a slug present in companies/all.json (for batch/website/etc.) and the owner/repo of its primary repository. 'corrections' remap a wrong repo; 'exclusions' drop a slug. Keep this list evidence-based and neutral — it exists to improve coverage, not to single anyone out.",
   "_example": { "slug": "<yc-company-slug>", "github": "<owner>/<repo>", "reason": "<why the tag missed it>" },
-  "additions": [],
+  "additions": [
+    { "slug": "magnitude", "github": "magnitudedev/browser-agent", "reason": "Tagged open-source (S25) but absent from repositories.json; resolved via magnitude.dev -> magnitudedev org (verified, ~4k stars, active)." },
+    { "slug": "kaelio", "github": "Kaelio/ktx", "reason": "Tagged open-source (X25) but absent from repositories.json; resolved via kaelio.com -> Kaelio org (verified, active)." },
+    { "slug": "clawvisor", "github": "clawvisor/clawvisor", "reason": "Tagged open-source (X26) but absent from repositories.json; resolved via clawvisor.com -> clawvisor org (verified, active)." },
+    { "slug": "inth", "github": "inthhq/inrepo", "reason": "Tagged open-source (X26) but absent from repositories.json; resolved via inth.com -> inthhq org (verified, active)." },
+    { "slug": "mistle", "github": "mistlehq/mistle", "reason": "Tagged open-source (S22) but absent from repositories.json; resolved via mistle.dev -> mistlehq org (verified, active)." },
+    { "slug": "autumn", "github": "useautumn/autumn", "reason": "False negative: YC profile has EMPTY tags (no Open Source tag), so absent from the tag-derived dataset, but useautumn/autumn is a real OSS pricing/billing platform (~2.5k stars, S25). Recovered via discover.py-style website->org link evidence." }
+  ],
   "corrections": {},
-  "exclusions": []
+  "exclusions": [],
+  "_reviewed_no_repo": {
+    "_doc": "Tagged open-source but no resolvable public repo as of this sweep — intentionally NOT added (we would rather under-claim). Re-check later.",
+    "random-labs": "Only namesake match is random-labs/stellar-anchor-toolbox-webapp (1 star, last pushed 2018, Stellar/crypto) — not the S24 AI company's product.",
+    "openbase": "Defunct/pivoted (S20 package-discovery site); the GitHub 'openbase' org is an unrelated namesake.",
+    "openbuilder": "Fall 2025; no public repo found under common org-name variants.",
+    "superlog": "Spring 2026; no public repo found under common org-name variants.",
+    "zenbu-2": "Spring 2026; no public repo found under common org-name variants."
+  }
 }

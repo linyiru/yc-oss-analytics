@@ -2369,6 +2369,7 @@
  "repo_id": 655949187,
  "repo_names": [
   "OpenPipe/OpenPipe",
+  "OpenPipe/openpipe",
   "corbt/openpipe",
   "corbt/querykey"
  ],
@@ -2463,9 +2464,9 @@
  "engagement": {
   "issues": 109,
   "prs": 1222,
-  "comments": 948,
+  "comments": 240,
   "forks_gha": 155,
-  "comments_per_issue": 8.7,
+  "comments_per_issue": 2.2,
   "network_star_pct": 83,
   "early_network": {
    "first100": 100,

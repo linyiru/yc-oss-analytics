@@ -1825,15 +1825,15 @@
  "engagement": {
   "issues": 126,
   "prs": 271,
-  "comments": 449,
+  "comments": 182,
   "forks_gha": 210,
-  "comments_per_issue": 3.6,
+  "comments_per_issue": 1.4,
   "network_star_pct": 72,
   "early_network": {
    "first100": 100,
    "first100_net_pct": 9,
    "first1000": 1000,
-   "first1000_net_pct": 57,
+   "first1000_net_pct": 58,
    "lifetime_net_pct": 61
   }
  }

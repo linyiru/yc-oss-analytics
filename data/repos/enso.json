@@ -572,9 +572,9 @@
  "engagement": {
   "issues": 1,
   "prs": 44,
-  "comments": 31,
+  "comments": 2,
   "forks_gha": 4,
-  "comments_per_issue": 31.0,
+  "comments_per_issue": 2.0,
   "network_star_pct": 71,
   "early_network": {
    "first100": 35,

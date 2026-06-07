@@ -2437,9 +2437,9 @@
  "engagement": {
   "issues": 245,
   "prs": 727,
-  "comments": 1122,
+  "comments": 899,
   "forks_gha": 524,
-  "comments_per_issue": 4.6,
+  "comments_per_issue": 3.7,
   "network_star_pct": 81,
   "early_network": {
    "first100": 100,

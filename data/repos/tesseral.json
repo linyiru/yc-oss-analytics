@@ -887,9 +887,9 @@
  "engagement": {
   "issues": 10,
   "prs": 301,
-  "comments": 106,
+  "comments": 25,
   "forks_gha": 26,
-  "comments_per_issue": 10.6,
+  "comments_per_issue": 2.5,
   "network_star_pct": 89,
   "early_network": {
    "first100": 100,

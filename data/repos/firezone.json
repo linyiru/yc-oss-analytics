@@ -6667,9 +6667,9 @@
  "engagement": {
   "issues": 5786,
   "prs": 15661,
-  "comments": 38034,
+  "comments": 25777,
   "forks_gha": 412,
-  "comments_per_issue": 6.6,
+  "comments_per_issue": 4.5,
   "network_star_pct": 76,
   "early_network": {
    "first100": 100,

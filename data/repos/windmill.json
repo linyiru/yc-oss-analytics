@@ -6260,9 +6260,9 @@
  "engagement": {
   "issues": 2841,
   "prs": 9925,
-  "comments": 12932,
+  "comments": 9792,
   "forks_gha": 890,
-  "comments_per_issue": 4.6,
+  "comments_per_issue": 3.4,
   "network_star_pct": 86,
   "early_network": {
    "first100": 100,

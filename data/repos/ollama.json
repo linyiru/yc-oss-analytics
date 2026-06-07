@@ -4832,9 +4832,9 @@
  "engagement": {
   "issues": 14976,
   "prs": 7316,
-  "comments": 52369,
+  "comments": 46661,
   "forks_gha": 13566,
-  "comments_per_issue": 3.5,
+  "comments_per_issue": 3.1,
   "network_star_pct": 57,
   "early_network": {
    "first100": 100,
