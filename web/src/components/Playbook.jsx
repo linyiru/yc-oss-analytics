@@ -1,7 +1,25 @@
 /* Playbook — data-backed success factors, presented like a deck.
-   Numbers are computed live in lib/playbook.ts; narrative is human-written. */
+   Numbers are computed live in lib/playbook.ts; prose is translated in i18n/playbook-content.ts. */
 import React, { useEffect } from 'react';
-import { Store, TopNav, Footer } from './kit.jsx';
+import { Store, useStore, TopNav, Footer } from './kit.jsx';
+import { PB_UI, PB_LESSONS, fill } from '../i18n/playbook-content.ts';
+
+/* Minimal inline markup → React nodes: **bold**, [text](url), «highlighted». */
+function rich(s) {
+  if (!s) return null;
+  const re = /\*\*(.+?)\*\*|\[(.+?)\]\((.+?)\)|«(.+?)»/g;
+  const out = []; let last = 0, m, k = 0;
+  while ((m = re.exec(s))) {
+    if (m.index > last) out.push(s.slice(last, m.index));
+    if (m[1] != null) out.push(<b key={k++} style={{ color: 'var(--text)' }}>{m[1]}</b>);
+    else if (m[2] != null) out.push(<a key={k++} href={m[3]} target={m[3].startsWith('/') ? undefined : '_blank'} rel="noreferrer" style={{ color: 'var(--accent-text)' }}>{m[2]}</a>);
+    else if (m[4] != null) out.push(<span key={k++} className="pb-mark">{m[4]}</span>);
+    last = m.index + m[0].length;
+  }
+  if (last < s.length) out.push(s.slice(last));
+  return out;
+}
+const DIFF = { en: 'the difference', 'zh-Hant': '的差距', 'zh-Hans': '的差距' };
 
 /* Two-bar "with vs without" comparison. Bars scale to the larger value. */
 function CompareBars({ c }) {
@@ -10,7 +28,7 @@ function CompareBars({ c }) {
   const fmt = (n) => (unit ? n + unit : n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'K' : '' + n);
   const Row = ({ v, label, lead }) => (
     <div className="col" style={{ gap: 5 }}>
-      <div className="row" style={{ justifyContent: 'space-between', alignItems: 'baseline' }}>
+      <div className="row" style={{ justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
         <span style={{ fontSize: 'var(--fs-2xs)', color: lead ? 'var(--accent-text)' : 'var(--text-3)', fontWeight: lead ? 600 : 400 }}>{label}</span>
         <span className="mono tabular" style={{ fontSize: 'var(--fs-sm)', fontWeight: 700, color: lead ? 'var(--accent-text)' : 'var(--text-2)' }}>{fmt(v)}</span>
       </div>
@@ -33,88 +51,84 @@ function CompareBars({ c }) {
 
 export default function Playbook({ data, initialLocale }) {
   useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
-  const { lessons, n } = data;
+  const { locale } = useStore();
+  const { lessons, n, vars = {} } = data;
+  const V = { ...vars, n };
+  const UI = PB_UI[locale] && PB_UI[locale].h1 ? PB_UI[locale] : PB_UI.en;
+  const TR = PB_LESSONS[locale];
+  const diff = DIFF[locale] || DIFF.en;
   return (
     <>
       <TopNav active="playbook" count={n} />
       <main className="wrap pb-deck" style={{ padding: '30px 20px 0', maxWidth: 1000 }}>
         {/* Hero */}
         <header className="pb-hero">
-          <span className="eyebrow">The Playbook</span>
-          <h1 className="pb-h1">What we learned from<br />{n} <span className="pb-mark">open-source</span> startups.</h1>
-          <p className="muted pb-lede">
-            Seven patterns we noticed across the {n} YC open-source companies in this dataset — each tied to a number computed
-            straight from public history, recomputed as the data updates. What struck us is how closely they echo the startup
-            canon: the data keeps landing on the same advice Paul Graham and the <a href="https://www.ycombinator.com/library" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-text)' }}>YC&nbsp;library</a> have
-            given for years — so we've paired each finding with the essay it confirms. Still, these are
-            <b style={{ color: 'var(--text)' }}> observations, not instructions</b>: correlations among teams that grew, not proof of cause,
-            and blind to everyone who did the same things and didn't make it.
-          </p>
+          <span className="eyebrow">{UI.eyebrow}</span>
+          <h1 className="pb-h1">{rich(fill(UI.h1, V))}</h1>
+          <p className="muted pb-lede">{rich(fill(UI.lede, V))}</p>
         </header>
 
         {/* Slides */}
         <div className="pb-slides">
-          {lessons.map((l, i) => (
-            <section key={l.key} className="pb-slide card">
-              <span className="pb-idx mono" aria-hidden>{String(i + 1).padStart(2, '0')}</span>
-
-              <div className="pb-slide-grid">
-                {/* Evidence column */}
-                <div className="pb-evi">
-                  <div className="pb-stat mono">{l.stat}</div>
-                  <div className="pb-stat-label faint">{l.statLabel}</div>
-                  {l.compare && (
-                    <div className="pb-cmp">
-                      {l.compare.mult && <div className="pb-mult mono"><span>{l.compare.mult}</span><em className="faint">the difference</em></div>}
-                      <CompareBars c={l.compare} />
-                    </div>
-                  )}
-                </div>
-
-                {/* Narrative column */}
-                <div className="pb-narr">
-                  <h2 className="pb-title">{l.title}</h2>
-                  {l.kicker && <div className="pb-kicker mono">{l.kicker}</div>}
-                  {(l.body ?? [l.lesson]).map((para, j) => <p key={j} className="pb-lesson">{para}</p>)}
-
-                  {l.echoes?.length > 0 && (
-                    <div className="pb-echo">
-                      <span className="pb-echo-label eyebrow">Echoes the canon</span>
-                      {l.echoes.map((e, j) => (
-                        <blockquote key={j} className="pb-echo-item">
-                          <p>{e.principle}</p>
-                          <cite>— {e.author}, <a href={e.url} target="_blank" rel="noreferrer">{e.source}</a></cite>
-                        </blockquote>
-                      ))}
-                    </div>
-                  )}
-
-                  <div className="pb-eg">
-                    <span className="eyebrow">In practice</span>
-                    <div className="row gap-2" style={{ flexWrap: 'wrap' }}>
-                      {l.examples.map((s) => <a key={s} href={`/${s}`} className="badge badge--batch mono pb-chip">{s}</a>)}
-                    </div>
+          {lessons.map((l, i) => {
+            const t = TR && TR[l.key];
+            const title = t ? t.title : l.title;
+            const statLabel = t ? fill(t.statLabel, V) : l.statLabel;
+            const kicker = t ? (t.kicker ? fill(t.kicker, V) : null) : l.kicker;
+            const body = t ? t.body.map((p) => fill(p, V)) : (l.body ?? [l.lesson]);
+            const echoes = t ? t.echoes : l.echoes;
+            const caveat = t ? fill(t.caveat, V) : l.caveat;
+            const compare = l.compare ? { ...l.compare, ...(t && t.compare ? t.compare : {}) } : null;
+            return (
+              <section key={l.key} className="pb-slide card">
+                <span className="pb-idx mono" aria-hidden>{String(i + 1).padStart(2, '0')}</span>
+                <div className="pb-slide-grid">
+                  {/* Evidence column */}
+                  <div className="pb-evi">
+                    <div className="pb-stat mono">{l.stat}</div>
+                    <div className="pb-stat-label faint">{statLabel}</div>
+                    {compare && (
+                      <div className="pb-cmp">
+                        {compare.mult && <div className="pb-mult mono"><span>{compare.mult}</span><em className="faint">{diff}</em></div>}
+                        <CompareBars c={compare} />
+                      </div>
+                    )}
                   </div>
-                  <p className="pb-caveat faint">⚠ {l.caveat}</p>
+
+                  {/* Narrative column */}
+                  <div className="pb-narr">
+                    <h2 className="pb-title">{title}</h2>
+                    {kicker && <div className="pb-kicker mono">{kicker}</div>}
+                    {body.map((para, j) => <p key={j} className="pb-lesson">{para}</p>)}
+
+                    {echoes?.length > 0 && (
+                      <div className="pb-echo">
+                        <span className="pb-echo-label eyebrow">{UI.echoesCanon}</span>
+                        {echoes.map((e, j) => (
+                          <blockquote key={j} className="pb-echo-item">
+                            <p>{e.principle}</p>
+                            <cite>— {e.author}, <a href={e.url} target="_blank" rel="noreferrer">{e.source}</a></cite>
+                          </blockquote>
+                        ))}
+                      </div>
+                    )}
+
+                    <div className="pb-eg">
+                      <span className="eyebrow">{UI.inPractice}</span>
+                      <div className="row gap-2" style={{ flexWrap: 'wrap' }}>
+                        {l.examples.map((s) => <a key={s} href={`/${s}`} className="badge badge--batch mono pb-chip">{s}</a>)}
+                      </div>
+                    </div>
+                    <p className="pb-caveat faint">⚠ {caveat}</p>
+                  </div>
                 </div>
-              </div>
-            </section>
-          ))}
+              </section>
+            );
+          })}
         </div>
 
-        <p className="faint pb-foot">
-          <b style={{ color: 'var(--text-2)' }}>One honest caveat above all the others:</b> every number here measures <i>attention</i> — stars, launches,
-          comments — not revenue, retention, or whether a business exists underneath. Stars are a leading indicator that
-          people noticed, nothing more. A team could do all eight of these things, reach 10,000 stars, and still have no
-          users who pay or stay. Read this as a map of how attention was won, never as a scoreboard for success.
-        </p>
-        <p className="faint pb-foot" style={{ marginTop: 10 }}>
-          Every figure recomputes from the live dataset — stars, launch events, issue/PR activity and the cross-star
-          network, all derived from public GitHub history plus the HN, Product Hunt and YC-Launch records and GH Archive.
-          Where a finding could be confounded by repo size, we report the association after controlling for age and language.
-          See <a href="/methodology" style={{ color: 'var(--accent-text)' }}>Methodology</a> for limits — above all survivorship
-          bias, which hides every team that did these same things and still didn't make it.
-        </p>
+        <p className="faint pb-foot">{rich(fill(UI.footAttention, V))}</p>
+        <p className="faint pb-foot" style={{ marginTop: 10 }}>{rich(fill(UI.footMethod, V))}</p>
       </main>
       <Footer />
     </>

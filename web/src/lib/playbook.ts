@@ -264,5 +264,18 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       examples: houseExamples,
     },
   ];
-  return { lessons, n: R.length };
+
+  // Figures exposed for locale templates (UI text is translated; these numbers are not).
+  const vars: Record<string, string | number> = {
+    hnHi, hnLo, hnMx, showHnPct, multiPct, medHnPosts, ctrlHN,
+    phCount, phHi, phLo, ctrlPH,
+    respHiV, respLoV, ctrlResp,
+    compoundPct,
+    to1k, to10k, preLaunch, everCount: ever.length, total: R.length, everAge, everCpw,
+    teamBig, teamSmall, medTop1: Math.round(medTop1),
+    early100, early1000, netLifetime,
+    permissivePct, mitPct, copyleftPct,
+    singleTokenPct, nonComPct, ossPct, infraPct, tsPct,
+  };
+  return { lessons, n: R.length, vars };
 }
