@@ -482,6 +482,33 @@
   "deps_top": [],
   "infra": [
    "claude-code"
+  ],
+  "deps": [
+   "appdirs",
+   "datasets",
+   "diskcache",
+   "instructor",
+   "langchain",
+   "langchain-community",
+   "langchain-core",
+   "langchain-text-splitters",
+   "langchain_openai",
+   "mlflow",
+   "nest-asyncio",
+   "networkx",
+   "numpy",
+   "openai",
+   "pandas",
+   "pillow",
+   "pydantic",
+   "python-dotenv",
+   "ragas",
+   "rank-bm25",
+   "rich",
+   "scikit-network",
+   "tiktoken",
+   "tqdm",
+   "typer"
   ]
  },
  "churn": null,

@@ -335,6 +335,18 @@
   ],
   "infra": [
    "bun"
+  ],
+  "deps": [
+   "@changesets/cli",
+   "@clack/prompts",
+   "@types/bun",
+   "@types/node",
+   "@types/safe-regex",
+   "jiti",
+   "leadtype",
+   "rolldown",
+   "safe-regex",
+   "typescript"
   ]
  },
  "churn": null,

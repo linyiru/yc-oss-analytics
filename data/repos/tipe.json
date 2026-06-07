@@ -285,7 +285,13 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "@babel/core",
+   "@babel/preset-react",
+   "@babel/preset-typescript",
+   "babel-loader"
+  ]
  },
  "churn": null,
  "stars_curve": [],

@@ -326,7 +326,8 @@
   "deps_top": [],
   "infra": [
    "docker"
-  ]
+  ],
+  "deps": []
  },
  "churn": null,
  "stars_curve": [

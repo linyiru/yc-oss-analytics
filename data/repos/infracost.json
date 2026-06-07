@@ -446,7 +446,21 @@
   "deps_top": [
    "js-yaml"
   ],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "@types/mocha",
+   "@types/node",
+   "@types/node-fetch",
+   "@types/q",
+   "azure-pipelines-task-lib",
+   "azure-pipelines-tool-lib",
+   "js-yaml",
+   "mocha",
+   "node-fetch",
+   "semver",
+   "sync-request",
+   "typescript"
+  ]
  },
  "churn": null,
  "stars_curve": [

@@ -578,6 +578,25 @@
   ],
   "infra": [
    "pnpm"
+  ],
+  "deps": [
+   "@fig/autocomplete-generators",
+   "@fig/autocomplete-helpers",
+   "@fig/eslint-config-autocomplete",
+   "@typescript-eslint/eslint-plugin",
+   "@typescript-eslint/parser",
+   "@withfig/autocomplete-tools",
+   "@withfig/autocomplete-types",
+   "danger",
+   "eslint",
+   "eslint-plugin-compat",
+   "husky",
+   "lint-staged",
+   "prettier",
+   "semver",
+   "strip-json-comments",
+   "typescript",
+   "yaml"
   ]
  },
  "churn": null,

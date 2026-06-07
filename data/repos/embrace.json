@@ -480,7 +480,8 @@
   "deps_top": [],
   "infra": [
    "claude-code"
-  ]
+  ],
+  "deps": []
  },
  "churn": null,
  "stars_curve": [

@@ -843,7 +843,18 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "black",
+   "click",
+   "isort",
+   "mypy-extensions",
+   "packaging",
+   "pathspec",
+   "platformdirs",
+   "tomli",
+   "typing_extensions"
+  ]
  },
  "churn": null,
  "stars_curve": [

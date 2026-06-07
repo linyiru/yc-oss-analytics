@@ -468,6 +468,29 @@
   "deps_top": [],
   "infra": [
    "claude-code"
+  ],
+  "deps": [
+   "@pipecat-ai/client-js",
+   "@pipecat-ai/small-webrtc-transport",
+   "aiofiles",
+   "aiohttp",
+   "audioop-lts",
+   "docstring_parser",
+   "loguru",
+   "markdown",
+   "nltk",
+   "numba",
+   "numpy",
+   "onnxruntime",
+   "openai",
+   "pillow",
+   "protobuf",
+   "pydantic",
+   "pyloudnorm",
+   "resampy",
+   "soxr",
+   "vite",
+   "wait_for2"
   ]
  },
  "churn": null,

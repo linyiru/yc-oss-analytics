@@ -274,7 +274,10 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "transformers"
+  ]
  },
  "churn": null,
  "stars_curve": [],

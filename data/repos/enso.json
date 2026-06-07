@@ -390,7 +390,8 @@
   "manifests": [],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": []
  },
  "churn": null,
  "stars_curve": [

@@ -301,7 +301,15 @@
   "manifests": [],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "black",
+   "bump2version",
+   "pip",
+   "twine",
+   "watchdog",
+   "wheel"
+  ]
  },
  "churn": null,
  "stars_curve": [

@@ -649,7 +649,30 @@
   "manifests": [],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "@testing-library/jest-dom",
+   "@testing-library/react",
+   "@testing-library/user-event",
+   "@types/node",
+   "@types/uuid",
+   "axios",
+   "deepcopy",
+   "github-workflow-helpers",
+   "knex",
+   "libphonenumber-js",
+   "mysql2",
+   "pg",
+   "prettier",
+   "react",
+   "react-dom",
+   "react-scripts",
+   "supertokens-node",
+   "ts-node",
+   "typescript",
+   "uuid",
+   "web-vitals"
+  ]
  },
  "churn": null,
  "stars_curve": [

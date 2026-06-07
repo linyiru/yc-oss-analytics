@@ -551,7 +551,8 @@
   "deps_top": [],
   "infra": [
    "docker-compose"
-  ]
+  ],
+  "deps": []
  },
  "churn": null,
  "stars_curve": [

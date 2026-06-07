@@ -443,6 +443,15 @@
   "infra": [
    "docker",
    "docker-compose"
+  ],
+  "deps": [
+   "duckdb",
+   "filelock",
+   "psycopg",
+   "pytest",
+   "pytest-asyncio",
+   "pytest-timeout",
+   "pytest-xdist"
   ]
  },
  "churn": null,

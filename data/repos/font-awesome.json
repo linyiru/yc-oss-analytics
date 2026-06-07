@@ -321,7 +321,10 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "@fortawesome/fontawesome-common-types"
+  ]
  },
  "churn": null,
  "stars_curve": [

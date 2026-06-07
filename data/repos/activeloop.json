@@ -649,7 +649,17 @@
   "manifests": [],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "asyncpg",
+   "deeplake",
+   "numpy",
+   "pytest",
+   "pytest-asyncio",
+   "pytest-clarity",
+   "pytest-cov",
+   "pytest-xdist"
+  ]
  },
  "churn": null,
  "stars_curve": [

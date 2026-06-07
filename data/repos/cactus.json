@@ -411,7 +411,24 @@
   "manifests": [],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "bindgen",
+   "cmake",
+   "fastapi",
+   "httpx",
+   "huggingface-hub",
+   "huggingface_hub",
+   "numpy",
+   "pillow",
+   "python-multipart",
+   "scipy",
+   "sentencepiece",
+   "torch",
+   "torchvision",
+   "transformers",
+   "uvicorn"
+  ]
  },
  "churn": null,
  "stars_curve": [

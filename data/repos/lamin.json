@@ -515,7 +515,13 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "lamin_cli",
+   "lamin_utils",
+   "lamindb_setup",
+   "psycopg2-binary"
+  ]
  },
  "churn": null,
  "stars_curve": [

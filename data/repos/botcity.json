@@ -472,7 +472,22 @@
   ],
   "pkg_manager": null,
   "deps_top": [],
-  "infra": []
+  "infra": [],
+  "deps": [
+   "botcity-framework-base",
+   "numpy",
+   "opencv-python",
+   "openpyxl",
+   "pandas",
+   "pillow",
+   "psutil",
+   "pynput",
+   "pyperclip",
+   "python-xlib",
+   "pywinauto",
+   "requests",
+   "xlrd"
+  ]
  },
  "churn": null,
  "stars_curve": [

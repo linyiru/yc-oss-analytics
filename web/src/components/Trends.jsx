@@ -46,6 +46,80 @@ export default function Trends({ tr, initialLocale }) {
           <RankedBars items={tr.licenses.map((l) => ({ label: l.name, value: l.count, color: l.name.startsWith('AGPL') || l.name.startsWith('GPL') ? '#f7853a' : l.name.startsWith('Apache') ? '#4f9df7' : l.name.startsWith('MIT') ? '#43c46a' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
         </Section>
 
+        {tr.stack?.withDeps >= 10 && (
+          <>
+            <div style={{ maxWidth: 640, margin: '28px 0 14px' }}>
+              <span className="eyebrow">The stack</span>
+              <h2 style={{ fontSize: 'var(--fs-2xl)', fontWeight: 600, letterSpacing: '-.02em', lineHeight: 1.1, margin: '6px 0 8px' }}>What they build with</h2>
+              <p className="muted" style={{ fontSize: 'var(--fs-md)', lineHeight: 1.55 }}>Parsed from {tr.stack.withDeps} repos' manifests — the package or service behind each function, and whether teams self-host it or buy it.</p>
+            </div>
+
+            <Section title="The typical TypeScript stack" sub={`Most common pick per function across ${tr.stack.houseStack.n} TS repos`} style={{ marginBottom: 16 }}>
+              <div className="row" style={{ flexWrap: 'wrap', gap: 8 }}>
+                {tr.stack.houseStack.items.map((it) => (
+                  <span key={it.cat} className="badge" style={{ fontSize: 'var(--fs-xs)' }}><span className="faint">{it.label}</span>&nbsp;<b style={{ color: 'var(--text)' }}>{it.pick}</b></span>
+                ))}
+              </div>
+            </Section>
+
+            <Section title="Top pick per function" sub="Leading packages by repo count · ◆ = a YC company · outlined = managed service" style={{ marginBottom: 16 }}>
+              <div className="col" style={{ gap: 9 }}>
+                {tr.stack.leaders.map((c) => (
+                  <div key={c.cat} className="row" style={{ gap: 10, alignItems: 'baseline', flexWrap: 'wrap' }}>
+                    <span className="eyebrow" style={{ minWidth: 116 }}>{c.label}</span>
+                    <span className="row gap-2" style={{ flexWrap: 'wrap' }}>
+                      {c.top.map((t) => (
+                        <span key={t.label} className="badge mono" style={{ fontSize: 'var(--fs-2xs)', color: t.yc ? 'var(--accent-text)' : 'var(--text-2)', borderColor: t.host === 'managed' ? 'color-mix(in oklab, var(--steady) 55%, transparent)' : 'var(--border)' }} title={t.host === 'managed' ? 'managed service' : 'self-hosted'}>
+                          {t.yc ? '◆ ' : ''}{t.label} <span className="faint">{t.count}</span>
+                        </span>
+                      ))}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </Section>
+
+            <Section title="Build vs buy" sub="Repos using a self-hosted library vs a managed service, per function" style={{ marginBottom: 16 }}>
+              <div className="col" style={{ gap: 10 }}>
+                {tr.stack.buildBuy.map((c) => { const tot = c.self + c.managed; return (
+                  <div key={c.cat}>
+                    <div className="row spread" style={{ fontSize: 'var(--fs-2xs)', marginBottom: 3 }}>
+                      <span className="eyebrow">{c.label}</span>
+                      <span className="faint mono">{c.selfTop} {c.self} · {c.managedTop} {c.managed}</span>
+                    </div>
+                    <div className="row" style={{ height: 10, borderRadius: 6, overflow: 'hidden', background: 'var(--surface-2)' }}>
+                      <i style={{ width: `${(100 * c.self) / tot}%`, background: 'var(--text-3)' }}></i>
+                      <i style={{ width: `${(100 * c.managed) / tot}%`, background: 'var(--steady)' }}></i>
+                    </div>
+                  </div>
+                ); })}
+              </div>
+              <p className="faint" style={{ fontSize: 'var(--fs-2xs)', marginTop: 12 }}><span style={{ color: 'var(--text-3)' }}>▮</span> self-hosted library&nbsp;&nbsp;<span style={{ color: 'var(--steady)' }}>▮</span> managed service</p>
+            </Section>
+
+            {tr.stack.dogfood.top.length > 0 && (
+              <Section title="Building on YC" sub={`${Math.round((100 * tr.stack.dogfood.reposUsing) / tr.stack.dogfood.withDeps)}% of these repos depend on another YC company's product — the ecosystem builds on itself`} style={{ marginBottom: 16 }}>
+                <RankedBars items={tr.stack.dogfood.top.map((d) => ({ label: d.label, value: d.count, color: 'var(--accent)' }))} fmt={(v) => v + ''} />
+              </Section>
+            )}
+
+            <div className="trends-grid" style={{ marginBottom: 16 }}>
+              {['TypeScript', 'Python'].map((lang) => (
+                <Section key={lang} title={`${lang} reaches for…`} sub={`Top picks per function · ${lang === 'TypeScript' ? tr.stack.tsN : tr.stack.pyN} repos`}>
+                  <div className="col" style={{ gap: 7 }}>
+                    {tr.stack.byLang[lang].map((c) => (
+                      <div key={c.cat} className="row" style={{ gap: 8, alignItems: 'baseline' }}>
+                        <span className="eyebrow" style={{ minWidth: 88, flex: '0 0 auto' }}>{c.label}</span>
+                        <span className="faint mono" style={{ fontSize: 'var(--fs-2xs)' }}>{c.top.map((t) => `${t.label} (${t.count})`).join(' · ')}</span>
+                      </div>
+                    ))}
+                  </div>
+                </Section>
+              ))}
+            </div>
+          </>
+        )}
+
         <div className="trends-grid" style={{ marginBottom: 16 }}>
           <Section title="AI-assisted commits, rising by cohort" sub="Mean AI-assisted % across each batch year">
             <div className="row" style={{ alignItems: 'flex-end', gap: 10, height: 200, padding: '8px 4px 0' }}>

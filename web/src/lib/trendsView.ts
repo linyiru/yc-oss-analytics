@@ -1,6 +1,7 @@
 // Build the cross-cohort trends view (server-side) for the Trends island.
 import { languageTrends, devToolAdoption } from './trends';
 import { repos } from './data';
+import { depsView } from './depsView';
 
 export function trendsView() {
   const { years, languages } = languageTrends();
@@ -23,6 +24,7 @@ export function trendsView() {
   const notActive = withStatus - (oc['Active'] ?? 0);
 
   return {
+    stack: depsView(),
     licenses,
     outcomes, withStatus, notActive,
     count: repos.length,
