@@ -121,7 +121,7 @@ function ThemeToggle() {
 }
 export function TopNav({ active = 'directory', count = 158 }) {
   const { T } = useStore();
-  const links = [['/', T('directory'), 'directory'], ['/trends', T('trends'), 'trends'], ['/methodology', T('methodology'), 'methodology']];
+  const links = [['/', T('directory'), 'directory'], ['/trends', T('trends'), 'trends'], ['/playbook', 'Playbook', 'playbook'], ['/methodology', T('methodology'), 'methodology']];
   return (
     <header style={{ position: 'sticky', top: 0, zIndex: 30, background: 'color-mix(in oklab, var(--bg) 86%, transparent)', backdropFilter: 'blur(12px)', borderBottom: '1px solid var(--border)' }}>
       <div className="wrap row spread" style={{ height: 'var(--nav-h)', gap: 'var(--sp-5)' }}>

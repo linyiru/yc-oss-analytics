@@ -1,0 +1,18 @@
+---
+import '../styles/ds.css';
+import '../styles/app.css';
+import Playbook from '../components/Playbook.jsx';
+import { playbook } from '../lib/playbook';
+const data = playbook();
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playbook · oss/signal</title>
+    <meta name="description" content="Data-backed success factors for YC open-source startups." />
+    <script is:inline>try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}</script>
+  </head>
+  <body><Playbook client:only="react" data={data} /></body>
+</html>

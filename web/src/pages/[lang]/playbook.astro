@@ -1,0 +1,22 @@
+---
+import '../../styles/ds.css';
+import '../../styles/app.css';
+import Playbook from '../../components/Playbook.jsx';
+import { playbook } from '../../lib/playbook';
+import { locales, defaultLocale } from '../../i18n/ui';
+export function getStaticPaths() {
+  return locales.filter((l) => l !== defaultLocale).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as any;
+const data = playbook();
+---
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playbook · oss/signal</title>
+    <script is:inline>try { document.documentElement.setAttribute('data-theme', localStorage.getItem('ycoss-theme') || 'dark'); } catch (e) {}</script>
+  </head>
+  <body><Playbook client:only="react" data={data} initialLocale={lang} /></body>
+</html>
