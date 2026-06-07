@@ -161,8 +161,6 @@ export default function RepoPage({ view, initialLocale }) {
           );
         })()}
 
-        <Section title="Monthly commit volume" sub="Commits authored per calendar month — the build cadence under the star curve" style={{ marginBottom: 16 }}><ColumnBars data={d.monthlyCommits} locale={intl} height={200} /></Section>
-
         {d.launchEvents?.length > 0 && (
           <Section title="Launch moments" sub="Every dot on the curve above, in detail — the HN / Product Hunt / YC Launch posts, in order" style={{ marginBottom: 16 }}>
             <div className="col" style={{ gap: 0 }}>
@@ -182,6 +180,8 @@ export default function RepoPage({ view, initialLocale }) {
             </div>
           </Section>
         )}
+
+        <Section title="Monthly commit volume" sub="Commits authored per calendar month — the build cadence under the star curve" style={{ marginBottom: 16 }}><ColumnBars data={d.monthlyCommits} locale={intl} height={200} /></Section>
 
         <Section title="Commit rhythm" sub={`Weekday × hour · author-local time · ${c.weekendPct}% on weekends (suggestive, not forensic)`} style={{ marginBottom: 16 }}
           right={<span className="row gap-2 faint" style={{ fontSize: 'var(--fs-xs)' }}>less <span className="meter" style={{ width: 60, background: 'linear-gradient(90deg, var(--heat-0), var(--accent))', height: 8 }}></span> more</span>}>
