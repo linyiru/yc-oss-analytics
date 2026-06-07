@@ -1,6 +1,9 @@
 // Localized Methodology content. Pure prose (no data tokens). English is the source of truth;
 // other locales override. Markup understood by the renderer: **bold**, [text](url), `mono`.
 import { type Locale } from './ui';
+import jaRaw from './methodology.ja.json';
+import koRaw from './methodology.ko.json';
+import ptRaw from './methodology.pt.json';
 
 export interface MDContent {
   eyebrow: string; h1: string; intro: string;
@@ -114,4 +117,7 @@ const zhHans: MDContent = {
   ],
 };
 
-export const MD: Record<Locale, MDContent> = { en, 'zh-Hant': zhHant, 'zh-Hans': zhHans, ja: en, ko: en, pt: en };
+export const MD: Record<Locale, MDContent> = {
+  en, 'zh-Hant': zhHant, 'zh-Hans': zhHans,
+  ja: jaRaw as MDContent, ko: koRaw as MDContent, pt: ptRaw as MDContent,
+};

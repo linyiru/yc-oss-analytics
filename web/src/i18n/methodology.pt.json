@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Methodology",
+  "h1": "Como cada número é calculado — e onde ele falha.",
+  "intro": "Análise independente de dados públicos de ~158 empresas open-source do Y Combinator. **Sem qualquer vínculo com o Y Combinator e sem endosso dele.** Cada número é uma aproximação com ressalvas conhecidas — preferimos pecar pela cautela.",
+  "defsTitle": "Como cada métrica é calculada",
+  "defsSub": "Definições e as premissas embutidas",
+  "limitsTitle": "Limitações",
+  "limitsSub": "Leia isto antes de tirar conclusões",
+  "starTitle": "Lendo a história do crescimento de stars",
+  "starSub": "O formato e as fontes do crescimento — descritivo, não um veredito",
+  "starBody": "A gente se interessa por **como** as stars de um projeto se acumularam, não se elas são \"reais\". O formato de uma curva costuma apontar para um de poucos caminhos, todos legítimos: **crescimento orgânico constante**, um **pico movido por evento** (um YC Launch, Show HN, Product Hunt, uma capa do HN, um tweet no momento certo), ou **amplificação por alumni / rede** (stars iniciais vindas da órbita YC). Razões de engajamento (stars-per-fork, stars-per-contributor) são mostradas com contexto de pares, como lentes descritivas sobre essa história — nunca como acusações. Não publicamos dados pessoais nem rotulamos nenhum projeto como falso.",
+  "sourcesTitle": "Fontes e atualizações",
+  "sourcesSub": "Procedência",
+  "sourcesBody": "Lista de empresas e batches a partir do diretório público da YC, via `yc-oss`. Metadata e linguagens dos repos vindas da GitHub API (autenticada, respeitando o rate limit). Histórico de stars e a rede de cross-star a partir do `GH Archive` (BigQuery), indexados pelo id numérico estável de cada repo. Contexto de launch das APIs do Hacker News (Algolia), Product Hunt e YC-Launch. Cadência de commits, punch cards e churn a partir do histórico git de cada repo (clonado, analisado, descartado). Apenas agregados desidentificados são publicados — contas de stargazers nunca são commitadas. Um job agendado acompanha empresas que aparecem e desaparecem upstream. Se você quiser corrigir ou excluir seu projeto, abra uma issue.",
+  "defs": [
+    ["Liveness (0–100)", "Uma heurística, não um índice validado: 0.55·recência + 0.45·volume de commits dos últimos 90 dias em escala logarítmica. Trate como ordinal — bom para ordenar, não uma nota precisa."],
+    ["Tipo (Evergreen / Rising / Steady / Dormant)", "Cruza liveness com a idade do batch da YC. Evergreen = turma antiga ainda muito ativa; Dormant = liveness < 30. Times que usam squash-merge podem parecer mais quietos do que são."],
+    ["Commit punch card", "Contagens por dia da semana × hora, no próprio fuso horário registrado no commit. CI, rebases, viagens e relógios mal configurados distorcem isso — leia padrões de madrugada/fim de semana como sugestivos, nunca como prova forense."],
+    ["Curva de crescimento de stars", "Stars acumuladas por dia, reconstruídas a partir dos WatchEvents do GH Archive (via BigQuery) e indexadas pelo id numérico estável de cada repo — então uma renomeação nunca quebra o histórico. Completa para 156 de 158 repos; um punhado com origens anteriores a 2015 mostra uma baseline ancorada e é marcado como \"partial\"."],
+    ["Launch moments", "Posts de HN, Product Hunt e YC-Launch fixados na curva de stars pela data. HN a partir da API da Algolia (points e comments), Product Hunt a partir da sua API (votos), YC a partir do feed público de launches. Eles marcam o que plausivelmente provocou um pico — não é uma lista exaustiva, e proximidade não é prova."],
+    ["Time to traction", "Dias desde o primeiro commit até 100 / 1.000 / 10.000 stars, e até o primeiro launch público. Calculado apenas onde a curva começa perto de zero (histórico inicial completo); datas de launch que caem antes do primeiro commit — um artefato de histórico de fork ou renomeado — são descartadas."],
+    ["YC-network backing", "Fração dos stargazers mais antigos de um repo (os primeiros 100, os primeiros 1.000 e de todo o período) que também dão star em ≥2 OUTROS repos open-source da YC. O repo que está sendo visto fica de fora dessa contagem, então o número não é inflado por contar a si mesmo. Derivado estruturalmente do cross-starring do GH Archive — desidentificado, nenhum login é armazenado ou publicado."],
+    ["Controlled association", "Para afirmações de \"com vs sem\" sensíveis ao tamanho (HN, Product Hunt, responsividade a issues), uma regressão de mínimos quadrados ordinários de log(stars) sobre o sinal, mais log(idade do repo) e linguagem. Reportamos o multiplicador líquido de idade e linguagem; os três permanecem estatisticamente significativos. Ainda assim é observacional — não controla qualidade não observada e não é uma estimativa causal."],
+    ["AI-assisted %", "Fração de commits que carregam um trailer Co-Authored-By: Claude. Um limite inferior — só pega ferramentas que escrevem o trailer, e apenas quando os autores o mantêm."],
+    ["Detecção de ferramentas de IA", "A partir de arquivos de config na árvore (CLAUDE.md, .cursor/, AGENTS.md, …). AGENTS.md é uma convenção neutra em relação a fornecedores (não é específica do Codex); o MCP é excluído por ser um protocolo, não uma ferramenta."],
+    ["Churn", "Linhas adicionadas/removidas por mês via git numstat — calculado apenas para repos clonados por completo; arquivos de lock e gerados ainda não são excluídos."],
+    ["Identidade do contribuidor", "Baseada em email. Uma pessoa com vários emails conta como vários contribuidores; emails compartilhados/de bot fundem pessoas. As contagens são aproximadas."]
+  ],
+  "limits": [
+    "Viés de sobrevivência: só aparecem empresas atualmente listadas e sobreviventes — as delistadas/mortas ficam invisíveis, inflando toda impressão de \"está viva\". Todo padrão do Playbook é cego aos times que fizeram as mesmas coisas e ainda assim fracassaram.",
+    "Stars medem atenção, não um negócio. Stars ≠ adoção ≠ receita ≠ retenção; um repo público também pode ser apenas marketing de um produto closed-source.",
+    "Comparações de \"com vs sem\" são entre grupos que diferem em tudo, não só naquele único sinal. Onde o tamanho do repo poderia confundir, reportamos a associação controlada por idade e linguagem — mas a seleção sobre qualidade não observada nunca é totalmente descartada.",
+    "n pequeno por batch (e n pequeno para alguns sinais, p.ex. apenas ~40 launches no Product Hunt) — leia os múltiplos com folga e não ranqueie turmas por médias.",
+    "Scores compostos (liveness) são heurísticas ponderadas, não medições; uma vez visível, qualquer métrica pode ser gamificada (Goodhart).",
+    "Tudo aqui é transversal e correlacional. Gera hipóteses para investigar, não prova causal."
+  ]
+}
