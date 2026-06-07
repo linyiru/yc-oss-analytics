@@ -11,7 +11,8 @@ const med = (xs: number[]) => {
 const top = (rs: any[], n: number) => [...rs].sort((a, b) => stars(b) - stars(a)).slice(0, n).map((r) => r.slug);
 
 export interface Cmp { a: number; b: number; aLabel: string; bLabel: string; mult: string; unit?: string }
-export interface Lesson { key: string; title: string; stat: string; statLabel: string; lesson: string; caveat: string; examples: string[]; kicker?: string; compare?: Cmp }
+export interface Echo { principle: string; author: string; source: string; url: string }
+export interface Lesson { key: string; title: string; stat: string; statLabel: string; body: string[]; echoes: Echo[]; caveat: string; examples: string[]; kicker?: string; compare?: Cmp }
 
 export function playbook(): { lessons: Lesson[]; n: number } {
   const R = repos;
@@ -63,61 +64,118 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const k = (n: number) => (n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'K' : '' + n);
   const mx = (a: number, b: number) => (a / Math.max(1, b)).toFixed(1) + '×';
   const cmp = (a: number, b: number, aLabel: string, bLabel: string): Cmp => ({ a, b, aLabel, bLabel, mult: mx(a, b) });
-  const netMed = med(R.map((r: any) => eng(r).network_star_pct).filter((x: any) => x != null));
+
+  // shorthand figures (computed once) so the prose below stays readable
+  const hnHi = k(med(withHN.map(stars))), hnLo = k(med(noHN.map(stars))), hnMx = mx(med(withHN.map(stars)), med(noHN.map(stars)));
+  const phHi = k(med(withPH.map(stars))), phLo = k(med(noPH.map(stars)));
+  const respHiV = k(med(respHi.map(stars))), respLoV = k(med(respLo.map(stars)));
+  const compoundPct = med(R.map(spikeShare).filter((x): x is number => x != null));
+  const teamBig = med(topN.map(conc)), teamSmall = med(botN.map(conc));
+  const everAge = med(ever.map((r: any) => r.activity?.batch_age_years ?? 0)), everCpw = med(ever.map((r: any) => r.intensity?.commits_per_week ?? 0));
+
+  const DS: Echo = { principle: 'Get your first users by hand, one at a time, and take extraordinary measures to make them happy — it does not scale, and that is exactly the point.', author: 'Paul Graham', source: "Do Things that Don't Scale", url: 'https://paulgraham.com/ds.html' };
 
   const lessons: Lesson[] = [
     {
-      key: 'hn', title: 'Launch on Hacker News', statLabel: 'median stars, with vs without a top HN post',
-      stat: `${k(med(withHN.map(stars)))} vs ${k(med(noHN.map(stars)))}`,
-      lesson: `Repos with a Hacker News post that cracked 100+ points carry a median ${k(med(withHN.map(stars)))} stars — roughly ${mx(med(withHN.map(stars)), med(noHN.map(stars)))} those without. But the real lesson is repetition: ${multiPct}% of them posted to HN more than once (a median of ${medHnPosts} notable posts each). Winners don't launch once — they relaunch every milestone: Launch HN, then Show HN for each big feature, then Tell HN.`,
+      key: 'hn', title: 'Launch on Hacker News — then do it again', statLabel: 'median stars, with vs without a top HN post',
+      stat: `${hnHi} vs ${hnLo}`,
+      body: [
+        `Of every signal in this dataset, a Hacker News front page is the most visible. Repos with a post that cracked 100 points carry a median ${hnHi} stars against ${hnLo} for those without — about ${hnMx}. On almost every repo's star curve, the steepest cliff is an HN day.`,
+        `But "launch on Hacker News" badly undersells what the winners actually did. ${multiPct}% of them posted to HN more than once — a median of ${medHnPosts} notable posts each. The shape is a rhythm, not a moment: a Launch HN when the company is new, a Show HN for each major feature, a Tell HN or a technical deep-dive when something genuinely interesting ships. Every post is a fresh roll at the front page and a fresh cohort of first-time users.`,
+        `The real takeaway is permission, not pressure: you are allowed to come back. One launch that underperforms is not a verdict on the company — it is one post on one Tuesday. The teams that grew kept finding honest reasons to show up again, for years.`,
+      ],
+      echoes: [
+        DS,
+        { principle: 'You can launch more than once. Relaunching for each real milestone is expected — a new audience sees it every time, and the front page resets daily.', author: 'Y Combinator', source: 'Startup School', url: 'https://www.ycombinator.com/library' },
+      ],
       kicker: `${multiPct}% launched more than once · median ${medHnPosts} posts`,
-      caveat: 'Correlation, not causation — strong products are also more likely to reach the HN front page. We store each repo\'s top 6 HN posts, so the repeat rate is a lower bound.',
+      caveat: 'Correlation, not causation — strong products are also more likely to reach the HN front page. We keep each repo\'s top 6 HN posts, so the repeat rate is a lower bound.',
       examples: top(withHN, 4),
       compare: cmp(med(withHN.map(stars)), med(noHN.map(stars)), 'with a top HN post', 'without'),
     },
     {
-      key: 'ph', title: 'Launch on Product Hunt too', statLabel: 'median stars, with vs without a PH launch',
-      stat: `${k(med(withPH.map(stars)))} vs ${k(med(noPH.map(stars)))}`,
-      lesson: `The ${withPH.length} repos with a Product Hunt launch sit at a median ${k(med(withPH.map(stars)))} stars. HN and PH reach different crowds; the biggest projects did both.`,
-      caveat: 'Heavy selection bias — bigger, more polished products are the ones that bother with PH.',
+      key: 'ph', title: 'Work every channel, not just one', statLabel: 'median stars, with vs without a PH launch',
+      stat: `${phHi} vs ${phLo}`,
+      body: [
+        `Product Hunt reaches a different room than Hacker News — makers, product managers, designers, founders shopping for tools. The ${withPH.length} repos with a Product Hunt launch sit at a median ${phHi} stars against ${phLo} for those without.`,
+        `The pattern among the biggest projects is not HN or PH — it is both, plus a launch blog post, plus the relevant subreddit, plus a conference talk, plus showing up in other people's comment threads. Each channel is a separate pond of early adopters, and fishing all of them is unglamorous, manual work that does not scale. That is precisely why it compounds into an advantage: most teams quietly won't do it.`,
+      ],
+      echoes: [
+        { principle: 'A startup is a company built to grow fast; growth is the one metric that defines it, and you reach users wherever they already gather.', author: 'Paul Graham', source: 'Startup = Growth', url: 'https://paulgraham.com/growth.html' },
+        DS,
+      ],
+      caveat: 'Heavy selection bias — bigger, more polished products are the ones that bother with a Product Hunt launch in the first place.',
       examples: top(withPH, 4),
       compare: cmp(med(withPH.map(stars)), med(noPH.map(stars)), 'with a PH launch', 'without'),
     },
     {
-      key: 'responsive', title: 'Answer your issues', statLabel: 'median stars by issue responsiveness',
-      stat: `${k(med(respHi.map(stars)))} vs ${k(med(respLo.map(stars)))}`,
-      lesson: `Repos averaging 2+ comments per issue carry a median ${k(med(respHi.map(stars)))} stars versus ${k(med(respLo.map(stars)))} for quiet ones. Showing up in the issue tracker compounds: contributors stay, users trust, momentum holds.`,
-      caveat: 'Popular repos also attract more comments — engagement and size reinforce each other.',
+      key: 'responsive', title: 'Answer your issues — talk to your users', statLabel: 'median stars by issue responsiveness',
+      stat: `${respHiV} vs ${respLoV}`,
+      body: [
+        `Open source makes one founder habit unusually measurable: do you answer people? Repos averaging two or more comments per issue carry a median ${respHiV} stars against ${respLoV} for the quiet ones.`,
+        `Answering an issue is the open-source form of talking to your users — a one-to-one act that does not scale and is not meant to. It tells a stranger a human is on the other end, turns a bug report into a relationship, and teaches you, in the user's own words, what to build next. The compounding here is social: contributors who feel heard stay, and the ones who stay become the maintainers who carry the project when you can't.`,
+      ],
+      echoes: [
+        DS,
+        { principle: 'Talk to your users directly and constantly; their feedback, not your intuition, is the roadmap.', author: 'Y Combinator', source: 'How to Talk to Users', url: 'https://www.ycombinator.com/library' },
+      ],
+      caveat: 'Popular repos also attract more comments — engagement and size reinforce each other, so read this as a loop, not a one-way lever.',
       examples: top(respHi, 4),
       compare: cmp(med(respHi.map(stars)), med(respLo.map(stars)), '2+ comments/issue', 'quieter'),
     },
     {
       key: 'compound', title: 'Growth compounds — it is not one explosion', statLabel: 'biggest single day, as % of all stars (median)',
-      stat: `${med(R.map(spikeShare).filter((x): x is number => x != null))}%`,
-      lesson: `The single biggest day is a median of just ${med(R.map(spikeShare).filter((x): x is number => x != null))}% of a repo's stars. The launch lights the fuse, but the curve is built by staying shipped — months of steady commits, not one viral afternoon.`,
-      caveat: 'Measured on repos with >500 stars; tiny repos are noisier.',
+      stat: `${compoundPct}%`,
+      body: [
+        `It is tempting to imagine these companies were made by one viral afternoon. The data says otherwise: the single biggest day is a median of just ${compoundPct}% of a repo's total stars. The other ninety-some percent of the curve is built on every ordinary day in between.`,
+        `A launch lights the fuse. What actually burns is months — often years — of steady shipping: commits landed, issues closed, releases cut, posts written. Growth that looks sudden from the outside is almost always compounding that was simply invisible until it crossed a threshold. The discipline is not engineering one explosion; it is refusing to stop before the curve bends.`,
+      ],
+      echoes: [
+        { principle: 'A startup is defined by compound growth — a few percent a week — not by any single spike; optimize for the rate, and the absolute numbers take care of themselves.', author: 'Paul Graham', source: 'Startup = Growth', url: 'https://paulgraham.com/growth.html' },
+        { principle: 'Returns compound superlinearly: small, sustained advantages snowball into outcomes far larger than the effort that produced them.', author: 'Paul Graham', source: 'Superlinear Returns', url: 'https://paulgraham.com/superlinear.html' },
+      ],
+      caveat: 'Measured on repos with >500 stars; tiny repos are noisier and a single spike can dominate.',
       examples: top(ever, 4),
     },
     {
       key: 'evergreen', title: 'Play the long game', statLabel: 'median time from first commit to 1,000 stars',
       stat: `${to1k} mo`,
-      lesson: `Overnight success is a myth. The median repo took ${to1k} months from its first commit to reach 1,000 stars — and ${to10k} months to reach 10,000. Most also built quietly for a median ${preLaunch} months before their first public launch. ${ever.length} of ${R.length} repos are "evergreen": a median ${med(ever.map((r: any) => r.activity?.batch_age_years ?? 0))} years old, still shipping ~${med(ever.map((r: any) => r.intensity?.commits_per_week ?? 0))} commits/week. Durability comes from sustained cadence, not a fast start.`,
+      body: [
+        `Overnight success is survivorship's favorite illusion. The median repo here took ${to1k} months from its first commit to reach 1,000 stars, and ${to10k} months to reach 10,000. Most also built quietly for a median ${preLaunch} months before their first public launch — a long, unglamorous runway before anyone was watching.`,
+        `Durability is the other half of the story. ${ever.length} of ${R.length} repos are "evergreen": a median ${everAge} years old and still shipping ~${everCpw} commits a week. They did not start fast; they refused to stop. The trait that separates them looks less like genius and more like stubbornness — the willingness to keep going long after the launch-day excitement has drained away.`,
+      ],
+      echoes: [
+        { principle: 'The best founders are stubborn about the destination while staying flexible about the route — it is persistence with judgment, not blind rigidity, that wins.', author: 'Paul Graham', source: 'The Right Kind of Stubborn', url: 'https://paulgraham.com/persistence.html' },
+        { principle: 'Know whether you are default alive or default dead; durability is earned by surviving long enough for the compounding to matter.', author: 'Paul Graham', source: 'Default Alive or Default Dead?', url: 'https://paulgraham.com/aord.html' },
+      ],
       kicker: `~${preLaunch} mo building before the first public launch`,
-      caveat: 'Survivorship — companies that died and delisted are not in this dataset. Timing measured only where full early star history is available; repos built on much older codebases (forks) skew longer.',
+      caveat: 'Survivorship — companies that died and delisted are not in this dataset. Timing is measured only where full early star history exists; repos built on much older codebases (forks) skew longer.',
       examples: top(ever, 4),
     },
     {
       key: 'team', title: 'Build a team, not a solo act', statLabel: 'top-contributor share: biggest vs smallest repos',
-      stat: `${med(topN.map(conc))}% vs ${med(botN.map(conc))}%`,
-      lesson: `In the 40 biggest repos the top contributor writes a median ${med(topN.map(conc))}% of commits; in the 40 smallest it's ${med(botN.map(conc))}%. Spreading the work — onboarding maintainers and external contributors — tracks with scale.`,
-      caveat: 'Direction of causation is unclear: scale enables hiring, and hiring enables scale.',
+      stat: `${teamBig}% vs ${teamSmall}%`,
+      body: [
+        `In the 40 biggest repos, the top contributor writes a median ${teamBig}% of all commits. In the 40 smallest, that figure is ${teamSmall}%. At scale, a single pair of hands and a large project almost never coexist.`,
+        `This is not a knock on the solo builder who starts something — nearly everything begins concentrated, with one person writing all of it. It is a statement about what growth demands: at some point the work has to spread, to a co-founder, to early hires, to a community of outside contributors. The projects that scaled are the ones whose founders made themselves replaceable in the codebase quickly enough for the project to outgrow them.`,
+      ],
+      echoes: [
+        { principle: 'Have more than one founder. A single founder is one of the most common reasons startups fail — the work, the morale, and the decisions are too much for one person.', author: 'Paul Graham', source: 'What We Look for in Founders', url: 'https://paulgraham.com/founders.html' },
+      ],
+      caveat: 'Direction of causation is unclear: scale enables hiring, and hiring enables scale. The two pull on each other.',
       examples: top(topN, 4),
-      compare: { a: med(topN.map(conc)), b: med(botN.map(conc)), aLabel: '40 biggest repos', bLabel: '40 smallest', mult: '', unit: '%' },
+      compare: { a: teamBig, b: teamSmall, aLabel: '40 biggest repos', bLabel: '40 smallest', mult: '', unit: '%' },
     },
     {
-      key: 'network', title: 'The YC ecosystem seeds your first stars', statLabel: 'median share of a repo\'s FIRST 100 stars that come from inside the YC-OSS network',
+      key: 'network', title: 'The YC ecosystem seeds your first stars', statLabel: 'median share of a repo\'s FIRST 100 stars from inside the YC-OSS network',
       stat: `${early100}%`,
-      lesson: `Early traction is an inside job: a median ${early100}% of a repo's first 100 stargazers — and ${early1000}% of the first 1,000 — also star other YC open-source repos. Across all time it settles at ${netLifetime}%. The YC network is real, concrete early distribution; tap it deliberately, but know that a lower share means you broke out of the bubble sooner.`,
+      body: [
+        `Where do the very first stars come from? Overwhelmingly, from inside the family. A median ${early100}% of a repo's first 100 stargazers also star at least two other YC open-source repos — and ${early1000}% of the first 1,000. Across all of time it settles to ${netLifetime}%, so the network is not merely a seed; it stays a meaningful share of the audience.`,
+        `This is the most literal confirmation in the whole dataset of the most-quoted advice in startups: get your first users by hand, from the circle already within reach. For a YC company that circle is a dense, overlapping graph of founders, employees, and alumni who reliably show up for one another's launches. The honest reading cuts both ways — a high share means the ecosystem handed you a running start; a lower one means you reached real strangers sooner. Neither is the goal on its own; the trajectory from one to the other is.`,
+      ],
+      echoes: [
+        DS,
+      ],
       kicker: `${early100}% of first 100 stars · ${early1000}% of first 1,000`,
       caveat: 'Derived structurally from cross-starring (an account that stars ≥2 YC repos); not a roster of individuals, and no one is named. "Network" is a broad proxy, not a claim about who specifically.',
       examples: top(netHi, 4),

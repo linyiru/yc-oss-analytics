@@ -110,3 +110,13 @@
   .pb-evi { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: 18px; }
   .pb-idx { font-size: 3.4rem; }
 }
+
+/* ── Playbook: "Echoes the canon" callout ──────────────────────── */
+.pb-echo { margin: 6px 0 2px; padding: 14px 16px; border-radius: var(--r-md); background: var(--surface-2); border: 1px solid var(--border); display: flex; flex-direction: column; gap: 11px; }
+.pb-echo-label { color: var(--accent-text); }
+.pb-echo-item { margin: 0; padding-left: 13px; border-left: 2px solid var(--accent-line); }
+.pb-echo-item p { font-size: var(--fs-sm); line-height: 1.58; color: var(--text-2); font-style: italic; margin: 0 0 4px; }
+.pb-echo-item cite { font-style: normal; font-size: var(--fs-2xs); color: var(--text-3); }
+.pb-echo-item cite a { color: var(--text-2); text-decoration: none; border-bottom: 1px solid var(--border-2); }
+.pb-echo-item cite a:hover { color: var(--accent-text); border-color: var(--accent); }
+.pb-lesson + .pb-lesson { margin-top: 9px; }

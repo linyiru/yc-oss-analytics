@@ -44,7 +44,9 @@ export default function Playbook({ data, initialLocale }) {
           <h1 className="pb-h1">What we learned from<br />{n} <span className="pb-mark">open-source</span> startups.</h1>
           <p className="muted pb-lede">
             Seven patterns we noticed across the {n} YC open-source companies in this dataset — each tied to a number computed
-            straight from public history, recomputed as the data updates. We're not claiming to know the formula. These are
+            straight from public history, recomputed as the data updates. What struck us is how closely they echo the startup
+            canon: the data keeps landing on the same advice Paul Graham and the <a href="https://www.ycombinator.com/library" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-text)' }}>YC&nbsp;library</a> have
+            given for years — so we've paired each finding with the essay it confirms. Still, these are
             <b style={{ color: 'var(--text)' }}> observations, not instructions</b>: correlations among teams that grew, not proof of cause,
             and blind to everyone who did the same things and didn't make it.
           </p>
@@ -73,7 +75,20 @@ export default function Playbook({ data, initialLocale }) {
                 <div className="pb-narr">
                   <h2 className="pb-title">{l.title}</h2>
                   {l.kicker && <div className="pb-kicker mono">{l.kicker}</div>}
-                  <p className="pb-lesson">{l.lesson}</p>
+                  {(l.body ?? [l.lesson]).map((para, j) => <p key={j} className="pb-lesson">{para}</p>)}
+
+                  {l.echoes?.length > 0 && (
+                    <div className="pb-echo">
+                      <span className="pb-echo-label eyebrow">Echoes the canon</span>
+                      {l.echoes.map((e, j) => (
+                        <blockquote key={j} className="pb-echo-item">
+                          <p>{e.principle}</p>
+                          <cite>— {e.author}, <a href={e.url} target="_blank" rel="noreferrer">{e.source}</a></cite>
+                        </blockquote>
+                      ))}
+                    </div>
+                  )}
+
                   <div className="pb-eg">
                     <span className="eyebrow">In practice</span>
                     <div className="row gap-2" style={{ flexWrap: 'wrap' }}>
