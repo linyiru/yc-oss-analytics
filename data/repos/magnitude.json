@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The best coding agent for open models",
   "website": "https://magnitude.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Tom Greenwald",
+    "title": "Founder"
+   },
+   {
+    "name": "Anders Lie",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4075,
@@ -1461,5 +1474,15 @@
    "first1000_net_pct": 77,
    "lifetime_net_pct": 75
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OD3-sidekick-automation-for-the-rest-of-us",
+   "title": "Sidekick - Automation for the rest of us",
+   "tagline": "Just describe what you want and watch the automation build itself",
+   "date": "2025-08-17",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/OD3-sidekick-automation-for-the-rest-of-us"
+  }
+ ]
 }

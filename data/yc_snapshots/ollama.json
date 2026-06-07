@@ -1,0 +1,33 @@
+{
+ "slug": "ollama",
+ "name": "Ollama",
+ "batch": "W21",
+ "website": "https://ollama.com",
+ "github_url": "https://github.com/ollama/ollama",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": null,
+ "location": "Palo Alto",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Jeffrey Morgan",
+   "title": "Founder"
+  },
+  {
+   "name": "Michael Chiang",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "ollama/ollama"
+ ],
+ "fetched_at": "2026-06-07T15:58:41+00:00"
+}

@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The single platform to analyze, test, observe, and deploy new features",
   "website": "https://www.posthog.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "James Hawkins",
+    "title": "Founder"
+   },
+   {
+    "name": "Tim Glaser",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 34893,

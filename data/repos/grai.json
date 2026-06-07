@@ -7,7 +7,15 @@
   "status": "Inactive",
   "one_liner": "Open source version control for metadata",
   "website": "https://www.grai.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Ian Eaves",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 314,
@@ -1166,5 +1174,15 @@
    "first1000_net_pct": 84,
    "lifetime_net_pct": 84
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "H8h-grai-open-source-version-control-for-metadata",
+   "title": "✨ Grai - Open-source version control for metadata",
+   "tagline": "Grai knows how a database migration will impact deployed ML models, APIs, and more because it understands how data relates across systems.",
+   "date": "2022-09-07",
+   "votes": 51,
+   "url": "https://www.ycombinator.com/launches/H8h-grai-open-source-version-control-for-metadata"
+  }
+ ]
 }

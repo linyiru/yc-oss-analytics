@@ -1,0 +1,26 @@
+{
+ "slug": "wasmer",
+ "name": "Wasmer",
+ "batch": "S19",
+ "website": "https://wasmer.io",
+ "github_url": "https://github.com/wasmerio",
+ "tags": [
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2019,
+ "team_size": 11,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Syrus Akbary",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:57+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "matano",
+ "name": "Matano",
+ "batch": "W23",
+ "website": "https://www.matano.dev",
+ "github_url": "https://github.com/matanolabs",
+ "tags": [
+  "DevSecOps",
+  "Analytics",
+  "Open Source",
+  "Cybersecurity"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "Seattle, WA",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Samrose Ahmed",
+   "title": "Founder"
+  },
+  {
+   "name": "Shaeq Ahmed",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Hl0-matano-open-source-siem-alternative-for-aws",
+   "title": "Matano - Open source SIEM alternative for AWS",
+   "tagline": "Matano is a high scale, low cost alternative to traditional SIEM (e.g. Splunk, Elastic) built around a vendor agnostic Security Data Lake in your AWS account.",
+   "date": "2023-01-09",
+   "votes": 48,
+   "url": "https://www.ycombinator.com/launches/Hl0-matano-open-source-siem-alternative-for-aws"
+  }
+ ],
+ "page_repos": [
+  "elastic/ecs",
+  "matanolabs/matano"
+ ],
+ "fetched_at": "2026-06-07T15:58:36+00:00"
+}

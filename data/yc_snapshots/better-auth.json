@@ -1,0 +1,42 @@
+{
+ "slug": "better-auth",
+ "name": "Better Auth",
+ "batch": "P25",
+ "website": "https://better-auth.com/",
+ "github_url": "https://github.com/better-auth",
+ "tags": [
+  "Developer Tools",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Bereket Engida",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NUm-better-auth-the-authentication-framework-for-typescript",
+   "title": "Better Auth - The Authentication Framework for TypeScript",
+   "tagline": "The fastest growing Auth framework for TypeScript: 13K stars + 100K weekly downloads!",
+   "date": "2025-05-13",
+   "votes": 2190,
+   "url": "https://www.ycombinator.com/launches/NUm-better-auth-the-authentication-framework-for-typescript"
+  }
+ ],
+ "page_repos": [
+  "Dokploy/dokploy",
+  "Mail-0/Zero",
+  "RSSNext/Folo",
+  "better-auth/better-auth",
+  "onejs/one"
+ ],
+ "fetched_at": "2026-06-07T15:58:13+00:00"
+}

@@ -7,7 +7,19 @@
   "status": "Inactive",
   "one_liner": "Open-Core Pricing and Billing Engine",
   "website": "http://uselotus.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "New York",
+  "founders": [
+   {
+    "name": "Mikael Nida",
+    "title": "Founder"
+   },
+   {
+    "name": "Diego Escobedo",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1827,

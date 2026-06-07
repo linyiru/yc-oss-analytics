@@ -1,0 +1,43 @@
+{
+ "slug": "confident-ai",
+ "name": "Confident AI",
+ "batch": "W25",
+ "website": "https://confident-ai.com",
+ "github_url": "https://github.com/confident-ai/deepeval",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Generative AI",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 7,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Tom Blomfield",
+ "founders": [
+  {
+   "name": "Jeffrey Ip",
+   "title": "CEO & Cofounder"
+  },
+  {
+   "name": "Kritin Vongthongsri",
+   "title": "Co-Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Mnp-confident-ai-the-evals-platform-for-ai-quality-observability",
+   "title": "Confident AI: The Evals Platform for AI Quality & Observability",
+   "tagline": "An evaluation platform for engineers, QAs, and PMs to pinpoint which iteration of their AI to put in production.",
+   "date": "2025-02-13",
+   "votes": 374,
+   "url": "https://www.ycombinator.com/launches/Mnp-confident-ai-the-evals-platform-for-ai-quality-observability"
+  }
+ ],
+ "page_repos": [
+  "confident-ai/deepeval"
+ ],
+ "fetched_at": "2026-06-07T15:58:17+00:00"
+}

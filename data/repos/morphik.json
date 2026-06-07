@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open-source multimodal search for AI apps",
   "website": "https://morphik.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Adityavardhan Agrawal",
+    "title": "Founder"
+   },
+   {
+    "name": "Arnav Agrawal",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3605,
@@ -1832,5 +1845,15 @@
    "first1000_net_pct": 78,
    "lifetime_net_pct": 75
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NT2-morphik-open-source-multimodal-rag-that-works-on-technical-docs",
+   "title": "Morphik: Open‑source multimodal RAG that works on technical docs",
+   "tagline": "Turn your complex private data into grounded answers",
+   "date": "2025-05-09",
+   "votes": 71,
+   "url": "https://www.ycombinator.com/launches/NT2-morphik-open-source-multimodal-rag-that-works-on-technical-docs"
+  }
+ ]
 }

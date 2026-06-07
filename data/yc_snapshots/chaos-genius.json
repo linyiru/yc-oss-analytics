@@ -1,0 +1,29 @@
+{
+ "slug": "chaos-genius",
+ "name": "Chaos Genius",
+ "batch": "W20",
+ "website": "http://www.chaosgenius.io",
+ "github_url": "https://github.com/chaos-genius",
+ "tags": [
+  "Cloud Workload Protection",
+  "Machine Learning",
+  "Analytics",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Acquired",
+ "year_founded": 2021,
+ "team_size": 10,
+ "location": "Bengaluru, India",
+ "country": "IN",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Preeti Shrimal",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:15+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "lantern-2",
+ "name": "Lantern",
+ "batch": "W24",
+ "website": "http://lantern.dev",
+ "github_url": "http://github.com/lanterndata",
+ "tags": [
+  "Artificial Intelligence",
+  "B2B",
+  "Open Source",
+  "Enterprise",
+  "Databases"
+ ],
+ "status": "Inactive",
+ "year_founded": 2023,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Di Qi",
+   "title": "Founder"
+  },
+  {
+   "name": "Narek Galstyan",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KZX-lantern-postgres-vector-database",
+   "title": "Lantern - Postgres vector database 🏮",
+   "tagline": "Lantern is a Postgres vector database that is scalable, cost-effective, and easy to use",
+   "date": "2024-03-05",
+   "votes": 49,
+   "url": "https://www.ycombinator.com/launches/KZX-lantern-postgres-vector-database"
+  }
+ ],
+ "page_repos": [
+  "lanterndata/lantern"
+ ],
+ "fetched_at": "2026-06-07T15:58:33+00:00"
+}

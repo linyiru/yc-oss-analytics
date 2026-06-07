@@ -1,0 +1,32 @@
+{
+ "slug": "pyroscope",
+ "name": "Pyroscope",
+ "batch": "W21",
+ "website": "https://pyroscope.io/",
+ "github_url": "https://github.com/pyroscope-io",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "Kubernetes"
+ ],
+ "status": "Acquired",
+ "year_founded": 2021,
+ "team_size": 5,
+ "location": "Oakland, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Ryan Perry",
+   "title": "Founder"
+  },
+  {
+   "name": "Dmitry Filimonov",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:45+00:00"
+}

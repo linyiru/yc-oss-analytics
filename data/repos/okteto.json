@@ -7,7 +7,23 @@
   "status": "Active",
   "one_liner": "Cloud Development Environments with one click",
   "website": "https://okteto.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2018,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Ramiro Berrelleza",
+    "title": "Founder"
+   },
+   {
+    "name": "Pablo Chico de Guzman",
+    "title": "Founder/CTO"
+   },
+   {
+    "name": "Ramon Lamana",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3510,

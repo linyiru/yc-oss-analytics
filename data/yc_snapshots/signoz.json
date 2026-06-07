@@ -1,0 +1,43 @@
+{
+ "slug": "signoz",
+ "name": "SigNoz",
+ "batch": "W21",
+ "website": "https://signoz.io",
+ "github_url": "https://github.com/SigNoz",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 38,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Pranay Prateek",
+   "title": "Founder"
+  },
+  {
+   "name": "Ankit Nayan",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Hqn-signoz-open-source-alternative-to-datadog-new-relic",
+   "title": "SigNoz - Open source alternative to DataDog, New Relic",
+   "tagline": "Open Source Metrics, Traces and Logs in a single pane of glass",
+   "date": "2023-01-23",
+   "votes": 47,
+   "url": "https://www.ycombinator.com/launches/Hqn-signoz-open-source-alternative-to-datadog-new-relic"
+  }
+ ],
+ "page_repos": [
+  "signoz/signoz"
+ ],
+ "fetched_at": "2026-06-07T15:58:49+00:00"
+}

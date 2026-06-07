@@ -1,0 +1,31 @@
+{
+ "slug": "posthog",
+ "name": "PostHog",
+ "batch": "W20",
+ "website": "https://www.posthog.com",
+ "github_url": "https://github.com/PostHog",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 150,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "James Hawkins",
+   "title": "Founder"
+  },
+  {
+   "name": "Tim Glaser",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:44+00:00"
+}

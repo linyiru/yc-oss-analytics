@@ -7,7 +7,16 @@
   "status": "Acquired",
   "one_liner": "Cloud-native stream processing",
   "website": "https://www.arroyo.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Berkeley, CA",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Micah Wylde",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4933,
@@ -4075,5 +4084,15 @@
    "first1000_net_pct": 78,
    "lifetime_net_pct": 74
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Hzj-arroyo-serverless-stream-processing",
+   "title": "Arroyo - Serverless stream processing",
+   "tagline": "Build real-time data pipelines in SQL without a real-time platform team",
+   "date": "2023-02-09",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/Hzj-arroyo-serverless-stream-processing"
+  }
+ ]
 }

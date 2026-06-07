@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Configuration language for building enterprise web apps 10x faster",
   "website": "https://wasp-lang.dev/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "Zagreb, Croatia",
+  "founders": [
+   {
+    "name": "Matija Šošić",
+    "title": "Founder"
+   },
+   {
+    "name": "Martin Sosic",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 18379,
@@ -7621,5 +7633,15 @@
    "first1000_net_pct": 62,
    "lifetime_net_pct": 47
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "HbQ-wasp-beta-develop-full-stack-web-apps-in-react-node-js-without-boilerplate",
+   "title": "🐝 Wasp Beta - Develop full-stack web apps in React & Node.js without boilerplate",
+   "tagline": "Get auth, CRUD, async workers and other common features via Wasp config language and write the rest of your logic in React, Node.js and Prisma",
+   "date": "2022-12-02",
+   "votes": 20,
+   "url": "https://www.ycombinator.com/launches/HbQ-wasp-beta-develop-full-stack-web-apps-in-react-node-js-without-boilerplate"
+  }
+ ]
 }

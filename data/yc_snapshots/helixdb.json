@@ -1,0 +1,45 @@
+{
+ "slug": "helixdb",
+ "name": "HelixDB",
+ "batch": "P25",
+ "website": "https://helix-db.com",
+ "github_url": "https://github.com/HelixDB/helix-db",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 6,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": null,
+ "founders": [
+  {
+   "name": "George Curtis",
+   "title": "Founder"
+  },
+  {
+   "name": "Xavier Cochran",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Naz-helixdb-the-database-for-rag-ai",
+   "title": "HelixDB - The database for RAG & AI",
+   "tagline": "HelixDB is a graph-vector database that brings structure to your un-structured data for RAG and AI applications. ",
+   "date": "2025-05-24",
+   "votes": 153,
+   "url": "https://www.ycombinator.com/launches/Naz-helixdb-the-database-for-rag-ai"
+  }
+ ],
+ "page_repos": [
+  "HelixDB/helix-db",
+  "helixdb/helix-db"
+ ],
+ "fetched_at": "2026-06-07T15:58:26+00:00"
+}

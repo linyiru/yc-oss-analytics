@@ -1,0 +1,31 @@
+{
+ "slug": "webiny",
+ "name": "Webiny",
+ "batch": "W21",
+ "website": "https://www.webiny.com",
+ "github_url": "https://github.com/webiny",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": 6,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Sven Al Hamad",
+   "title": "Founder"
+  },
+  {
+   "name": "Pavel Denisjuk",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:57+00:00"
+}

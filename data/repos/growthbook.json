@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open source feature flagging and A/B testing",
   "website": "https://www.growthbook.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "Palo Alto",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Graham McNicoll",
+    "title": "Founder"
+   },
+   {
+    "name": "Jeremy Dorn",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 7858,

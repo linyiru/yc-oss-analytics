@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Connect, Unify, Respond to any data, anywhere with human-level…",
   "website": "https://www.mindsdb.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2017,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Adam Carrigan",
+    "title": "Founder"
+   },
+   {
+    "name": "Jorge Torres",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 39254,

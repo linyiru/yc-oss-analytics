@@ -7,7 +7,20 @@
   "status": "Inactive",
   "one_liner": "Postgres vector database extension to build AI applications",
   "website": "http://lantern.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Di Qi",
+    "title": "Founder"
+   },
+   {
+    "name": "Narek Galstyan",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 884,
@@ -1861,5 +1874,15 @@
    "first1000_net_pct": 81,
    "lifetime_net_pct": 81
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KZX-lantern-postgres-vector-database",
+   "title": "Lantern - Postgres vector database 🏮",
+   "tagline": "Lantern is a Postgres vector database that is scalable, cost-effective, and easy to use",
+   "date": "2024-03-05",
+   "votes": 49,
+   "url": "https://www.ycombinator.com/launches/KZX-lantern-postgres-vector-database"
+  }
+ ]
 }

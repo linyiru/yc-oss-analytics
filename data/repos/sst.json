@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "For whatever you build.",
   "website": "https://sst.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2010,
+  "location": "Toronto, Canada",
+  "partner": "Harj Taggar",
+  "founders": [
+   {
+    "name": "Jay V",
+    "title": "Founder"
+   },
+   {
+    "name": "Frank Wang",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 26061,
@@ -8411,5 +8424,15 @@
    "first1000_net_pct": 51,
    "lifetime_net_pct": 46
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "ITp-opennext-deploy-next-js-apps-to-aws",
+   "title": "OpenNext — Deploy Next.js apps to AWS",
+   "tagline": "OpenNext lets you deploy a Next.js app to your AWS account with just 3 commands.",
+   "date": "2023-04-18",
+   "votes": 19,
+   "url": "https://www.ycombinator.com/launches/ITp-opennext-deploy-next-js-apps-to-aws"
+  }
+ ]
 }

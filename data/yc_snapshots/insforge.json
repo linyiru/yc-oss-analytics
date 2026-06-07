@@ -1,0 +1,42 @@
+{
+ "slug": "insforge",
+ "name": "InsForge",
+ "batch": "P26",
+ "website": "https://insforge.dev/",
+ "github_url": "https://github.com/InsForge/InsForge",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 6,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Hang Huang",
+   "title": "Co-founder & CEO"
+  },
+  {
+   "name": "Tony Chang",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "QP6-insforge-the-backend-platform-for-ai-native-developers",
+   "title": "InsForge: The backend platform for AI-native developers",
+   "tagline": "Let your coding agent deploy, operate, and debug your backend end-to-end",
+   "date": "2026-05-18",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/QP6-insforge-the-backend-platform-for-ai-native-developers"
+  }
+ ],
+ "page_repos": [
+  "InsForge/InsForge"
+ ],
+ "fetched_at": "2026-06-07T15:58:29+00:00"
+}

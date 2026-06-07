@@ -1,0 +1,36 @@
+{
+ "slug": "cua",
+ "name": "Cua",
+ "batch": "P25",
+ "website": "https://cua.ai",
+ "github_url": "https://github.com/trycua/cua",
+ "tags": [
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Francesco Bonacci",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NJc-c-ua-docker-container-for-computer-use-agents",
+   "title": "c/ua - Docker Container for Computer-Use Agents",
+   "tagline": "c/ua runs lightweight containers for Computer-Use AI Agents with your own language models.",
+   "date": "2025-04-17",
+   "votes": 68,
+   "url": "https://www.ycombinator.com/launches/NJc-c-ua-docker-container-for-computer-use-agents"
+  }
+ ],
+ "page_repos": [
+  "trycua/cua"
+ ],
+ "fetched_at": "2026-06-07T15:58:18+00:00"
+}

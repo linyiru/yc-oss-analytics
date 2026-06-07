@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "The open source Postman alternative.",
   "website": "https://recipeui.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Samuel San",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1336,
@@ -1265,5 +1273,15 @@
    "first1000_net_pct": 75,
    "lifetime_net_pct": 72
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "JJy-recipeui-open-source-postman-alternative",
+   "title": "RecipeUI - Open source Postman alternative",
+   "tagline": "The API tool for teams",
+   "date": "2023-08-21",
+   "votes": 36,
+   "url": "https://www.ycombinator.com/launches/JJy-recipeui-open-source-postman-alternative"
+  }
+ ]
 }

@@ -7,7 +7,15 @@
   "status": "Acquired",
   "one_liner": "DataOps Observability Platform for Snowflake",
   "website": "http://www.chaosgenius.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Bengaluru, India",
+  "founders": [
+   {
+    "name": "Preeti Shrimal",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 776,

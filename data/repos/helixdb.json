@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "The fastest & most scalable graph-vector database on the market",
   "website": "https://helix-db.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "London, United Kingdom",
+  "founders": [
+   {
+    "name": "George Curtis",
+    "title": "Founder"
+   },
+   {
+    "name": "Xavier Cochran",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4674,
@@ -1951,5 +1963,15 @@
    "first1000_net_pct": 76,
    "lifetime_net_pct": 71
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Naz-helixdb-the-database-for-rag-ai",
+   "title": "HelixDB - The database for RAG & AI",
+   "tagline": "HelixDB is a graph-vector database that brings structure to your un-structured data for RAG and AI applications. ",
+   "date": "2025-05-24",
+   "votes": 153,
+   "url": "https://www.ycombinator.com/launches/Naz-helixdb-the-database-for-rag-ai"
+  }
+ ]
 }

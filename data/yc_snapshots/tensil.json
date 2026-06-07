@@ -1,0 +1,28 @@
+{
+ "slug": "tensil",
+ "name": "Tensil",
+ "batch": "S19",
+ "website": "https://www.tensil.ai",
+ "github_url": "https://github.com/tensil-ai",
+ "tags": [
+  "Edge Computing Semiconductors",
+  "Hardware",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Inactive",
+ "year_founded": 2019,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Tom Alcorn",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:52+00:00"
+}

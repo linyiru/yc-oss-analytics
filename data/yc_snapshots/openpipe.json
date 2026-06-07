@@ -1,0 +1,43 @@
+{
+ "slug": "openpipe",
+ "name": "OpenPipe",
+ "batch": "S23",
+ "website": "https://openpipe.ai/",
+ "github_url": "https://github.com/openpipe/openpipe",
+ "tags": [
+  "AIOps",
+  "Artificial Intelligence",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": "Seattle, WA",
+ "country": "US",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Kyle Corbitt",
+   "title": "Founder"
+  },
+  {
+   "name": "David Corbitt",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "JMa-openpipe-convert-expensive-llm-prompts-into-fast-cheap-fine-tuned-models",
+   "title": "OpenPipe: Convert expensive LLM prompts into fast, cheap fine-tuned models",
+   "tagline": "OpenPipe automatically captures your existing prompts and completions, then uses them to fine-tune a drop-in replacement. The replacement is faster, cheaper and often more accurate than your original prompt.",
+   "date": "2023-08-28",
+   "votes": 99,
+   "url": "https://www.ycombinator.com/launches/JMa-openpipe-convert-expensive-llm-prompts-into-fast-cheap-fine-tuned-models"
+  }
+ ],
+ "page_repos": [
+  "OpenPipe/OpenPipe",
+  "openpipe/openpipe"
+ ],
+ "fetched_at": "2026-06-07T15:58:42+00:00"
+}

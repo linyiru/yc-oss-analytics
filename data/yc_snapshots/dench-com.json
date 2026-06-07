@@ -1,0 +1,52 @@
+{
+ "slug": "dench-com",
+ "name": "Dench.com",
+ "batch": "S24",
+ "website": "https://dench.com",
+ "github_url": "https://github.com/orgs/DenchHQ",
+ "tags": [
+  "Artificial Intelligence",
+  "Workflow Automation",
+  "Open Source",
+  "CRM",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 6,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Mark Rachapoom",
+   "title": "Founder"
+  },
+  {
+   "name": "Kumar Abhirup",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Mr3-dench-com-ai-intake-for-law-firms",
+   "title": "Dench.com — AI Intake for Law Firms",
+   "tagline": "AI Secretary to pre-qualify leads for Law Firms",
+   "date": "2025-02-20",
+   "votes": 49,
+   "url": "https://www.ycombinator.com/launches/Mr3-dench-com-ai-intake-for-law-firms"
+  },
+  {
+   "slug": "LKz-merse-the-netflix-for-audio-visual-comics",
+   "title": "Merse: The Netflix for audio-visual comics",
+   "tagline": "Comic reader and AI creator with audio effects",
+   "date": "2024-07-10",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/LKz-merse-the-netflix-for-audio-visual-comics"
+  }
+ ],
+ "page_repos": [
+  "orgs/DenchHQ"
+ ],
+ "fetched_at": "2026-06-07T15:58:19+00:00"
+}

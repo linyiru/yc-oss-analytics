@@ -7,7 +7,14 @@
   "status": "Active",
   "one_liner": "KV Cash, a blockchain where contracts can finally think",
   "website": "https://kv.cash",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "David Fiala",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 0,

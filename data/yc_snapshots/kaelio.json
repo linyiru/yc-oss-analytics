@@ -1,0 +1,41 @@
+{
+ "slug": "kaelio",
+ "name": "Kaelio",
+ "batch": "P25",
+ "website": "https://kaelio.com/",
+ "github_url": "",
+ "tags": [
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 8,
+ "location": null,
+ "country": null,
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Luca Martial",
+   "title": "Co-founder & CEO"
+  },
+  {
+   "name": "Andrey Avtomonov",
+   "title": "Co-founder & CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "QYZ-kaelio-open-source-context-layer-for-data-agents",
+   "title": "Kaelio: Open-source context layer for data agents",
+   "tagline": "We give data agents the context they need to be reliable on your data stack.",
+   "date": "2026-05-28",
+   "votes": 6,
+   "url": "https://www.ycombinator.com/launches/QYZ-kaelio-open-source-context-layer-for-data-agents"
+  }
+ ],
+ "page_repos": [
+  "Kaelio/ktx"
+ ],
+ "fetched_at": "2026-06-07T15:58:30+00:00"
+}

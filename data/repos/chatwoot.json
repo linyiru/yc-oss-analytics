@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The modern, open source, self-hosted AI customer support platform",
   "website": "https://www.chatwoot.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Pranav Raj",
+    "title": "Founder"
+   },
+   {
+    "name": "Sojan Jose",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 29989,

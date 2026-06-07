@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "The AI notepad that knows and works for you",
   "website": "https://char.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "John Jeong",
+    "title": "Co-founder, Co-CEO"
+   },
+   {
+    "name": "Deokhaeng Lee",
+    "title": "Founder"
+   },
+   {
+    "name": "Yujong Lee",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 8592,
@@ -1974,5 +1991,15 @@
    "first1000_net_pct": 74,
    "lifetime_net_pct": 67
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OEu-hyprnote-open-source-ai-notetaker-for-enterprises",
+   "title": "Hyprnote⚡️ Open-source AI notetaker for enterprises",
+   "tagline": "We help teams craft personalized meeting notes while keeping full control of their data",
+   "date": "2025-08-20",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/OEu-hyprnote-open-source-ai-notetaker-for-enterprises"
+  }
+ ]
 }

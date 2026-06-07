@@ -1,0 +1,32 @@
+{
+ "slug": "growthbook",
+ "name": "GrowthBook",
+ "batch": "W22",
+ "website": "https://www.growthbook.io",
+ "github_url": "https://github.com/growthbook",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Analytics",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 40,
+ "location": "Palo Alto",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Graham McNicoll",
+   "title": "Founder"
+  },
+  {
+   "name": "Jeremy Dorn",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:25+00:00"
+}

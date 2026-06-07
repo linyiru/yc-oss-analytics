@@ -1,0 +1,26 @@
+{
+ "slug": "protocol-labs",
+ "name": "Protocol Labs",
+ "batch": "S14",
+ "website": "https://protocol.ai/",
+ "github_url": "https://github.com/protocol",
+ "tags": [
+  "Crypto / Web3",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2014,
+ "team_size": 130,
+ "location": "Palo Alto",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Juan Benet",
+   "title": "Founder/CEO, Engineer"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:45+00:00"
+}

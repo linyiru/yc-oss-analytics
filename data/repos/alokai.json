@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "Frontend Platform for eCommerce",
   "website": "https://www.alokai.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "Warsaw, Poland",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Patrick Friday",
+    "title": "Founder"
+   },
+   {
+    "name": "Filip Rakowski",
+    "title": "Founder"
+   },
+   {
+    "name": "Bart Roszkowski",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 10929,

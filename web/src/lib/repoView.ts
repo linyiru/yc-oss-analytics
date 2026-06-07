@@ -85,8 +85,9 @@ export function toRepoView(slug: string) {
 
   // unified launch moments (YC Launch + Product Hunt + Hacker News) — the "what they did" archaeology
   const launchEvents: any[] = [];
-  const yl = (r as any).yc_launch;
-  if (yl) launchEvents.push({ source: 'YC', date: yl.date, title: yl.title, meta: `${yl.votes} votes`, url: yl.url });
+  const ycLaunches = (r as any).yc_launches ?? ((r as any).yc_launch ? [(r as any).yc_launch] : []);
+  for (const yl of ycLaunches)
+    launchEvents.push({ source: 'YC', date: yl.date, title: yl.title || yl.tagline, meta: `${yl.votes} votes`, url: yl.url });
   const pe = (r as any).ph_event;
   if (pe) launchEvents.push({ source: 'PH', date: pe.date, title: pe.name, meta: `${pe.votes} votes · ${pe.comments}c`, url: pe.url });
   for (const e of ((r as any).hn_events ?? []))
@@ -143,6 +144,10 @@ export function toRepoView(slug: string) {
       firstCommit: r.timeline?.first ?? null,
       formerNames: (((r as any).repo_names) ?? []).filter((n: string) => n.toLowerCase() !== (r.github || '').toLowerCase()),
       apply, peers, concentration, traction,
+      status: (r.yc as any)?.status ?? null,
+      teamSize: (r.yc as any)?.team_size ?? null, yearFounded: (r.yc as any)?.year_founded ?? null,
+      partner: (r.yc as any)?.partner ?? null, founders: (r.yc as any)?.founders ?? [],
+      ycLocation: (r.yc as any)?.location ?? null,
       earlyNet: (r.engagement as any)?.early_network ?? null,
       networkStarPct: (r.engagement as any)?.early_network?.lifetime_net_pct ?? (r.engagement as any)?.network_star_pct ?? null,
     },

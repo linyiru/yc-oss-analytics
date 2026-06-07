@@ -7,7 +7,20 @@
   "status": "Inactive",
   "one_liner": "The open source platform for managing identity in business software",
   "website": "https://tesseral.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "David Lieb",
+  "founders": [
+   {
+    "name": "Ned O'Leary",
+    "title": "Founder"
+   },
+   {
+    "name": "Ulysse Carion",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1133,
@@ -898,5 +911,23 @@
    "first1000_net_pct": 81,
    "lifetime_net_pct": 81
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NRt-tesseral-the-open-source-auth-infrastructure-for-b2b-saas",
+   "title": "Tesseral: the open source auth infrastructure for B2B SaaS",
+   "tagline": "Everything you need to manage users in business software, from a login page to session management to SSO and RBAC!",
+   "date": "2025-05-06",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/NRt-tesseral-the-open-source-auth-infrastructure-for-b2b-saas"
+  },
+  {
+   "slug": "M3K-ssoready-open-source-developer-tools-for-enterprise-single-sign-on",
+   "title": "SSOReady: Open source developer tools for enterprise single sign-on",
+   "tagline": "SSOReady makes it safe and easy for developers to offer SAML SSO and SCIM directory sync in their software.",
+   "date": "2024-10-15",
+   "votes": 14,
+   "url": "https://www.ycombinator.com/launches/M3K-ssoready-open-source-developer-tools-for-enterprise-single-sign-on"
+  }
+ ]
 }

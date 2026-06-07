@@ -1,0 +1,52 @@
+{
+ "slug": "reflex",
+ "name": "Reflex",
+ "batch": "W23",
+ "website": "https://reflex.dev",
+ "github_url": "https://github.com/reflex-dev",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Web Development",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Nikhil Rao",
+   "title": "Founder"
+  },
+  {
+   "name": "Alek Petuskey",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OfZ-reflex-ai-app-builder-for-creating-production-grade-web-apps-entirely-in-python",
+   "title": "Reflex: AI app builder for creating production-grade web apps entirely in Python",
+   "tagline": "Just connect your data and enter a prompt. Reflex generates production-ready apps that integrate any data source, API, or Python package.",
+   "date": "2025-10-22",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/OfZ-reflex-ai-app-builder-for-creating-production-grade-web-apps-entirely-in-python"
+  },
+  {
+   "slug": "Hpk-pynecone-web-apps-in-pure-python",
+   "title": "Pynecone: Web apps in pure Python 🐍",
+   "tagline": "Build web apps in minutes. Deploy with a single command.",
+   "date": "2023-01-19",
+   "votes": 75,
+   "url": "https://www.ycombinator.com/launches/Hpk-pynecone-web-apps-in-pure-python"
+  }
+ ],
+ "page_repos": [
+  "pynecone-io/pynecone"
+ ],
+ "fetched_at": "2026-06-07T15:58:46+00:00"
+}

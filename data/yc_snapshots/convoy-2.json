@@ -1,0 +1,39 @@
+{
+ "slug": "convoy-2",
+ "name": "Convoy",
+ "batch": "W22",
+ "website": "https://getconvoy.io",
+ "github_url": null,
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 8,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": null,
+ "founders": [],
+ "launches": [
+  {
+   "slug": "Isv-nohooks-webhooks-for-platforms-without-webhooks",
+   "title": "Nohooks: Webhooks for platforms without webhooks",
+   "tagline": "Receive real-time notifications of events from supported apps like Notion, Render and Digital Ocean. Powered by Convoy.",
+   "date": "2023-06-28",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/Isv-nohooks-webhooks-for-platforms-without-webhooks"
+  },
+  {
+   "slug": "H77-convoy-open-source-webhooks-proxy",
+   "title": "Convoy: Open Source Webhooks Proxy",
+   "tagline": "Convoy is an open-source webhooks proxy that enables you to receive and publish webhook events reliably.",
+   "date": "2022-09-01",
+   "votes": 36,
+   "url": "https://www.ycombinator.com/launches/H77-convoy-open-source-webhooks-proxy"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:17+00:00"
+}

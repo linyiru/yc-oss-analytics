@@ -1,0 +1,50 @@
+{
+ "slug": "epicenter",
+ "name": "Epicenter",
+ "batch": "S25",
+ "website": "https://epicenter.so",
+ "github_url": "https://github.com/EpicenterHQ/",
+ "tags": [
+  "SaaS",
+  "Productivity",
+  "Open Source",
+  "Note-taking",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Braden Wong",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips",
+   "title": "Whispering: Local-First, Open-Source Speech to Text at Your Fingertips",
+   "tagline": "Own your data. Use any model you want. Free and open source.❤️",
+   "date": "2025-08-12",
+   "votes": 24,
+   "url": "https://www.ycombinator.com/launches/OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips"
+  },
+  {
+   "slug": "O80-epicenter-a-database-for-your-mind-built-on-plain-text",
+   "title": "Epicenter: A Database for Your Mind, Built on Plain Text",
+   "tagline": "A shared workspace for everything you think, write, and build.",
+   "date": "2025-08-05",
+   "votes": 33,
+   "url": "https://www.ycombinator.com/launches/O80-epicenter-a-database-for-your-mind-built-on-plain-text"
+  }
+ ],
+ "page_repos": [
+  "epicenter-md/epicenter",
+  "epicenter-so/epicenter",
+  "sst/opencode"
+ ],
+ "fetched_at": "2026-06-07T15:58:21+00:00"
+}

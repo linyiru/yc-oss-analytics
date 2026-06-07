@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "All-in-one API for search, RAG, & recommendations",
   "website": "https://trieve.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Pete Koomen",
+  "founders": [
+   {
+    "name": "Nick Khami",
+    "title": "Founder"
+   },
+   {
+    "name": "Denzell Ford",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2673,
@@ -3194,5 +3207,15 @@
    "first1000_net_pct": 82,
    "lifetime_net_pct": 83
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KXN-trieve-infrastructure-for-search-teams",
+   "title": "Trieve 🔎 Infrastructure for search teams",
+   "tagline": "We want to power every search bar on the internet.",
+   "date": "2024-03-01",
+   "votes": 137,
+   "url": "https://www.ycombinator.com/launches/KXN-trieve-infrastructure-for-search-teams"
+  }
+ ]
 }

@@ -1,0 +1,26 @@
+{
+ "slug": "enso",
+ "name": "Enso",
+ "batch": "S21",
+ "website": "https://ensoanalytics.com",
+ "github_url": "https://github.com/enso-org",
+ "tags": [
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2018,
+ "team_size": 20,
+ "location": "Kraków, Poland",
+ "country": "PL",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Sylwia Brodacka",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:21+00:00"
+}

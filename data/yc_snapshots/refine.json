@@ -1,0 +1,46 @@
+{
+ "slug": "refine",
+ "name": "refine",
+ "batch": "S23",
+ "website": "https://refine.dev",
+ "github_url": "https://github.com/refinedev/",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Web Development"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Civan Ozseyhan",
+   "title": "Founder"
+  },
+  {
+   "name": "Omer Aplak",
+   "title": "Founder"
+  },
+  {
+   "name": "Eren Erkalkan",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IsM-refine-open-source-platform-for-rapidly-building-enterprise-web-applications",
+   "title": "Refine - Open-source platform for rapidly building enterprise web applications",
+   "tagline": "Dev-friendly alternative to low-code/no-code. Familiar stack, 100% control over project!",
+   "date": "2023-06-27",
+   "votes": 100,
+   "url": "https://www.ycombinator.com/launches/IsM-refine-open-source-platform-for-rapidly-building-enterprise-web-applications"
+  }
+ ],
+ "page_repos": [
+  "refinedev/refine"
+ ],
+ "fetched_at": "2026-06-07T15:58:46+00:00"
+}

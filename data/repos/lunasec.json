@@ -7,7 +7,19 @@
   "status": "Inactive",
   "one_liner": "An Open Source dependency security tool that is smarter than the rest",
   "website": "https://www.lunasec.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "Seattle, WA",
+  "founders": [
+   {
+    "name": "Free Wortley",
+    "title": "Founder & CEO"
+   },
+   {
+    "name": "Matthew Bryant",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1469,

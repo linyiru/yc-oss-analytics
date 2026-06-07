@@ -1,0 +1,46 @@
+{
+ "slug": "payload",
+ "name": "Payload",
+ "batch": "S22",
+ "website": "https://payloadcms.com",
+ "github_url": "https://github.com/payloadcms",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "API"
+ ],
+ "status": "Acquired",
+ "year_founded": 2018,
+ "team_size": 3,
+ "location": "Grand Rapids, MI",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "James Mikrut",
+   "title": "Founder"
+  },
+  {
+   "name": "Elliot DeNolf",
+   "title": "Founder"
+  },
+  {
+   "name": "Dan Ribbens",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "GgE-payload-a-developer-first-content-management-system",
+   "title": "Payload — A Developer-First Content Management System",
+   "tagline": "We're obsessed with giving engineers the best developer experience possible as they build APIs and admin UI.",
+   "date": "2022-06-28",
+   "votes": 87,
+   "url": "https://www.ycombinator.com/launches/GgE-payload-a-developer-first-content-management-system"
+  }
+ ],
+ "page_repos": [
+  "payloadcms/payload"
+ ],
+ "fetched_at": "2026-06-07T15:58:43+00:00"
+}

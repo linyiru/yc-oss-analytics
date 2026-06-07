@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Open-source, dev-friendly observability.",
   "website": "https://hyperdx.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Mateo, CA",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Michael Shi",
+    "title": "Founder"
+   },
+   {
+    "name": "Warren Lee",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 9580,

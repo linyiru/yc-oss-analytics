@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "Build powerful AI solutions. Deploy anywhere.",
   "website": "https://rownd.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Raleigh, NC",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Robert Thelen",
+    "title": "Founder"
+   },
+   {
+    "name": "Matt Hamann",
+    "title": "Founder"
+   },
+   {
+    "name": "Rachel Orrino",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 829,

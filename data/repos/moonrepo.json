@@ -7,7 +7,20 @@
   "status": "Inactive",
   "one_liner": "Open source build tool for monorepos and large codebases",
   "website": "https://moonrepo.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Portland, OR",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Miles Johnson",
+    "title": "Founder"
+   },
+   {
+    "name": "James Pozdena",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3898,
@@ -4727,5 +4740,15 @@
    "first1000_net_pct": 87,
    "lifetime_net_pct": 82
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "I4q-moonrepo-simplifying-codebase-management-and-organization",
+   "title": "🌑 moonrepo - Simplifying codebase management and organization",
+   "tagline": "From build to deploy, moonrepo is a better way to manage codebases, save developer time, and boost your business.",
+   "date": "2023-02-21",
+   "votes": 21,
+   "url": "https://www.ycombinator.com/launches/I4q-moonrepo-simplifying-codebase-management-and-organization"
+  }
+ ]
 }

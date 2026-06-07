@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Protocol Labs makes internet protocols: IPFS, Filecoin, and more.",
   "website": "https://protocol.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2014,
+  "location": "Palo Alto",
+  "founders": [
+   {
+    "name": "Juan Benet",
+    "title": "Founder/CEO, Engineer"
+   }
+  ]
  },
  "metrics": {
   "stars": 17043,

@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open-source data observability for data teams",
   "website": "http://elementary-data.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Tel Aviv-Yafo, Israel",
+  "partner": "Tom Blomfield",
+  "founders": [
+   {
+    "name": "Maayan Salom",
+    "title": "Founder"
+   },
+   {
+    "name": "Or Avidov",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2357,

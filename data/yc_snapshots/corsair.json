@@ -1,0 +1,31 @@
+{
+ "slug": "corsair",
+ "name": "Corsair",
+ "batch": "W25",
+ "website": "https://www.corsair.dev",
+ "github_url": "https://github.com/corsairdev/corsair/",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Workflow Automation",
+  "Open Source",
+  "Personalization"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "New York",
+ "country": "US",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Dev Jain",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "corsairdev/corsair"
+ ],
+ "fetched_at": "2026-06-07T15:58:18+00:00"
+}

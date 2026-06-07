@@ -7,7 +7,19 @@
   "status": "Inactive",
   "one_liner": "Open Source Data Observability",
   "website": "https://monosi.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Kevin Unkrich",
+    "title": "Founder"
+   },
+   {
+    "name": "Ivan Porollo",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 330,

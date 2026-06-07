@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "The authentication framework for TypeScript",
   "website": "https://better-auth.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Pete Koomen",
+  "founders": [
+   {
+    "name": "Bereket Engida",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 28613,
@@ -2943,5 +2952,15 @@
    "first1000_net_pct": 70,
    "lifetime_net_pct": 59
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NUm-better-auth-the-authentication-framework-for-typescript",
+   "title": "Better Auth - The Authentication Framework for TypeScript",
+   "tagline": "The fastest growing Auth framework for TypeScript: 13K stars + 100K weekly downloads!",
+   "date": "2025-05-13",
+   "votes": 2190,
+   "url": "https://www.ycombinator.com/launches/NUm-better-auth-the-authentication-framework-for-typescript"
+  }
+ ]
 }

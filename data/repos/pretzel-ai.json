@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "AI tooling",
   "website": "https://withpretzel.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "Berlin, Germany",
+  "founders": [
+   {
+    "name": "Prasoon Shukla",
+    "title": "Founder"
+   },
+   {
+    "name": "Ramon Garate",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2188,

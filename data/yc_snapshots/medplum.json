@@ -1,0 +1,46 @@
+{
+ "slug": "medplum",
+ "name": "Medplum",
+ "batch": "S22",
+ "website": "https://www.medplum.com",
+ "github_url": "https://github.com/medplum",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Healthcare"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 12,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Reshma Khilnani",
+   "title": "Founder"
+  },
+  {
+   "name": "Rahul Agarwal",
+   "title": "Founder"
+  },
+  {
+   "name": "Cody Ebberson",
+   "title": "Co-Founder and CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "GwH-medplum-api-first-electronic-health-record-that-s-open-source",
+   "title": "Medplum: API-first Electronic Health Record - that’s open source",
+   "tagline": "Medplum makes it fast and easy to build white-label medical apps that look good AND are compliant and integration-ready day one.",
+   "date": "2022-08-03",
+   "votes": 54,
+   "url": "https://www.ycombinator.com/launches/GwH-medplum-api-first-electronic-health-record-that-s-open-source"
+  }
+ ],
+ "page_repos": [
+  "medplum/foomedical"
+ ],
+ "fetched_at": "2026-06-07T15:58:36+00:00"
+}

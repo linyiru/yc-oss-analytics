@@ -7,7 +7,19 @@
   "status": "Inactive",
   "one_liner": "Daily productivity tracker",
   "website": "https://sublingual.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "partner": "Harj Taggar",
+  "founders": [
+   {
+    "name": "Matthew Tang",
+    "title": "Co-Founder and CEO"
+   },
+   {
+    "name": "Dylan Bowman",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 52,
@@ -436,5 +448,15 @@
    "first1000_net_pct": 59,
    "lifetime_net_pct": 59
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Muu-sublingual-llm-evals-for-lazy-devs",
+   "title": "Sublingual: LLM evals for lazy devs",
+   "tagline": "Sublingual is an open-source LLM observability and evals platform that requires zero code changes to integrate. Instantly plug into a full suite of analysis tools with just one pip install—nothing else.",
+   "date": "2025-02-27",
+   "votes": 44,
+   "url": "https://www.ycombinator.com/launches/Muu-sublingual-llm-evals-for-lazy-devs"
+  }
+ ]
 }

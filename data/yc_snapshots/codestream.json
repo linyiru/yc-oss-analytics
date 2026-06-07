@@ -1,0 +1,32 @@
+{
+ "slug": "codestream",
+ "name": "CodeStream",
+ "batch": "W18",
+ "website": "http://codestream.com",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Collaboration",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2017,
+ "team_size": 10,
+ "location": "New York",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Peter Pezaris",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Claudio Pinkus",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:16+00:00"
+}

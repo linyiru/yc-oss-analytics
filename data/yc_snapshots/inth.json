@@ -1,0 +1,37 @@
+{
+ "slug": "inth",
+ "name": "Inth",
+ "batch": "P26",
+ "website": "https://inth.com",
+ "github_url": "http://github.com/inthhq",
+ "tags": [
+  "Developer Tools",
+  "Compliance",
+  "Open Source",
+  "Web Development"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 3,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Christopher Burns",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "QKz-inth-dev-first-cookie-banners-that-don-t-slow-your-site",
+   "title": "Inth: Dev-first cookie banners that don't slow your site",
+   "tagline": "Built for performance and full developer control.",
+   "date": "2026-05-12",
+   "votes": 13,
+   "url": "https://www.ycombinator.com/launches/QKz-inth-dev-first-cookie-banners-that-don-t-slow-your-site"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:29+00:00"
+}

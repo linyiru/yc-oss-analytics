@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Open-source framework for building serverless applications",
   "website": "https://www.webiny.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "London, United Kingdom",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Sven Al Hamad",
+    "title": "Founder"
+   },
+   {
+    "name": "Pavel Denisjuk",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 7990,

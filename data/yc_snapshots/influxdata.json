@@ -1,0 +1,28 @@
+{
+ "slug": "influxdata",
+ "name": "InfluxData",
+ "batch": "W13",
+ "website": "https://influxdata.com",
+ "github_url": "https://github.com/influxdata",
+ "tags": [
+  "Analytics",
+  "Open Source",
+  "Time Series",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2012,
+ "team_size": 210,
+ "location": "New York City, NY",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Paul Dix",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:28+00:00"
+}

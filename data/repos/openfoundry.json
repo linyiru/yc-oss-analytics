@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "The fastest developer experience for building on open source AI.",
   "website": "https://www.openfoundry.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "David Lieb",
+  "founders": [
+   {
+    "name": "Tyler Lehman",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 342,
@@ -784,5 +793,15 @@
    "first1000_net_pct": 69,
    "lifetime_net_pct": 69
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KhY-openfoundry-developer-infrastructure-for-open-source-ai",
+   "title": "OpenFoundry: Developer infrastructure for open source AI 🛠️🤖",
+   "tagline": "The fastest developer experience for building on open source AI.",
+   "date": "2024-03-21",
+   "votes": 59,
+   "url": "https://www.ycombinator.com/launches/KhY-openfoundry-developer-infrastructure-for-open-source-ai"
+  }
+ ]
 }

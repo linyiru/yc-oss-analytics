@@ -1,0 +1,50 @@
+{
+ "slug": "manaflow",
+ "name": "Manaflow",
+ "batch": "S24",
+ "website": "https://www.cmux.com",
+ "github_url": "https://github.com/manaflow-ai",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Austin Wang",
+   "title": "Founder"
+  },
+  {
+   "name": "Lawrence Chen",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "PbB-cmux-the-open-source-terminal-built-for-coding-agents",
+   "title": "cmux: the open source terminal built for coding agents",
+   "tagline": "Native macOS Ghostty-based terminal with vertical tabs, notifications, and built-in browser",
+   "date": "2026-03-03",
+   "votes": 733,
+   "url": "https://www.ycombinator.com/launches/PbB-cmux-the-open-source-terminal-built-for-coding-agents"
+  },
+  {
+   "slug": "LPF-manaflow-build-and-manage-your-dream-ai-operations-team",
+   "title": "Manaflow - Build and manage your dream AI operations team",
+   "tagline": "Automate workflows involving data analysis, API calls, and business actions. ",
+   "date": "2024-07-19",
+   "votes": 916,
+   "url": "https://www.ycombinator.com/launches/LPF-manaflow-build-and-manage-your-dream-ai-operations-team"
+  }
+ ],
+ "page_repos": [
+  "manaflow-ai/cmux"
+ ],
+ "fetched_at": "2026-06-07T16:00:05+00:00"
+}

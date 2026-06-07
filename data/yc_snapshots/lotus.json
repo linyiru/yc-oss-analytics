@@ -1,0 +1,32 @@
+{
+ "slug": "lotus",
+ "name": "Lotus",
+ "batch": "S22",
+ "website": "http://uselotus.io",
+ "github_url": "https://github.com/uselotus/",
+ "tags": [
+  "Fintech",
+  "SaaS",
+  "Open Source",
+  "Enterprise"
+ ],
+ "status": "Inactive",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "New York",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Mikael Nida",
+   "title": "Founder"
+  },
+  {
+   "name": "Diego Escobedo",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:34+00:00"
+}

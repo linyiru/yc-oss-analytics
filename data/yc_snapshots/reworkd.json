@@ -1,0 +1,55 @@
+{
+ "slug": "reworkd",
+ "name": "Reworkd",
+ "batch": "S23",
+ "website": "https://reworkd.ai",
+ "github_url": "https://github.com/reworkd/AgentGPT",
+ "tags": [
+  "Artificial Intelligence",
+  "Generative AI",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Srijan Subedi",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "N0m-reworkd-your-new-scraping-co-pilot",
+   "title": "🌍 Reworkd - Your new scraping co-pilot",
+   "tagline": "Effortlessly extract web data at scale.",
+   "date": "2025-03-11",
+   "votes": 15,
+   "url": "https://www.ycombinator.com/launches/N0m-reworkd-your-new-scraping-co-pilot"
+  },
+  {
+   "slug": "LKa-reworkd-your-new-end-to-end-web-scraping-platform",
+   "title": "🌍 Reworkd -  Your new end-to-end web scraping platform",
+   "tagline": "Effortlessly extract web data at scale. No code. No maintenance. No worries.",
+   "date": "2024-07-09",
+   "votes": 45,
+   "url": "https://www.ycombinator.com/launches/LKa-reworkd-your-new-end-to-end-web-scraping-platform"
+  },
+  {
+   "slug": "J1r-reworkd-ai-the-open-source-zapier-of-ai-agents",
+   "title": "🤖 Reworkd AI - The open-source Zapier of AI agents",
+   "tagline": "We help automate core business workflows with the help of AI Agents",
+   "date": "2023-07-18",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/J1r-reworkd-ai-the-open-source-zapier-of-ai-agents"
+  }
+ ],
+ "page_repos": [
+  "reworkd/AgentGPT"
+ ],
+ "fetched_at": "2026-06-07T15:58:47+00:00"
+}

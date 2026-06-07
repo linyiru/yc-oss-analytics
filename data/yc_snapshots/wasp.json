@@ -1,0 +1,39 @@
+{
+ "slug": "wasp",
+ "name": "Wasp",
+ "batch": "W21",
+ "website": "https://wasp-lang.dev/",
+ "github_url": "https://github.com/wasp-lang",
+ "tags": [
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 2,
+ "location": "Zagreb, Croatia",
+ "country": "HR",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Matija Šošić",
+   "title": "Founder"
+  },
+  {
+   "name": "Martin Sosic",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "HbQ-wasp-beta-develop-full-stack-web-apps-in-react-node-js-without-boilerplate",
+   "title": "🐝 Wasp Beta - Develop full-stack web apps in React & Node.js without boilerplate",
+   "tagline": "Get auth, CRUD, async workers and other common features via Wasp config language and write the rest of your logic in React, Node.js and Prisma",
+   "date": "2022-12-02",
+   "votes": 20,
+   "url": "https://www.ycombinator.com/launches/HbQ-wasp-beta-develop-full-stack-web-apps-in-react-node-js-without-boilerplate"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:57+00:00"
+}

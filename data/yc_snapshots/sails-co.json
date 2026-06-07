@@ -1,0 +1,35 @@
+{
+ "slug": "sails-co",
+ "name": "Sails Co.",
+ "batch": "W15",
+ "website": "https://sailsjs.com/about",
+ "github_url": "",
+ "tags": [
+  "Open Source",
+  "Web Development",
+  "Cloud Computing"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": 4,
+ "location": "Austin, TX",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Mike McNeil",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Scott Gress",
+   "title": "Founder"
+  },
+  {
+   "name": "Cody Stoltman",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:48+00:00"
+}

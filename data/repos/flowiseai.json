@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Open source GenAI development platform",
   "website": "https://flowiseai.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "partner": "Harj Taggar",
+  "founders": [
+   {
+    "name": "Henry Heng",
+    "title": "Founder"
+   },
+   {
+    "name": "Chung Yau Ong",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 53384,
@@ -5190,5 +5202,23 @@
    "first1000_net_pct": 73,
    "lifetime_net_pct": 59
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NVQ-flowise-3-0-build-ai-agents-visually",
+   "title": "Flowise 3.0 - Build AI Agents, Visually",
+   "tagline": "Build any agentic system from just an idea",
+   "date": "2025-05-13",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/NVQ-flowise-3-0-build-ai-agents-visually"
+  },
+  {
+   "slug": "Ivo-flowise-low-code-llm-apps-builder",
+   "title": "Flowise - Low-code LLM apps builder",
+   "tagline": "An open source drag & drop tool to build your customized LLM flow",
+   "date": "2023-07-05",
+   "votes": 70,
+   "url": "https://www.ycombinator.com/launches/Ivo-flowise-low-code-llm-apps-builder"
+  }
+ ]
 }

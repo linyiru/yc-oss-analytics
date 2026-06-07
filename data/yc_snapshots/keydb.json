@@ -1,0 +1,30 @@
+{
+ "slug": "keydb",
+ "name": "KeyDB",
+ "batch": "S20",
+ "website": "https://keydb.dev",
+ "github_url": "",
+ "tags": [
+  "Open Source",
+  "Databases"
+ ],
+ "status": "Acquired",
+ "year_founded": 2019,
+ "team_size": 2,
+ "location": "Toronto, Canada",
+ "country": "CA",
+ "partner": null,
+ "founders": [
+  {
+   "name": "John Sully",
+   "title": "Founder"
+  },
+  {
+   "name": "Ben Schermel",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:31+00:00"
+}

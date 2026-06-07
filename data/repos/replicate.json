@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Run machine learning models in the cloud",
   "website": "https://replicate.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Ben Firshman",
+    "title": "Founder"
+   },
+   {
+    "name": "Andreas Jansson",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 9420,

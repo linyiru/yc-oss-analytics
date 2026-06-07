@@ -1,0 +1,33 @@
+{
+ "slug": "lamin",
+ "name": "Lamin",
+ "batch": "S22",
+ "website": "https://lamin.ai",
+ "github_url": "https://github.com/laminlabs",
+ "tags": [
+  "Developer Tools",
+  "Machine Learning",
+  "Biotech",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 10,
+ "location": null,
+ "country": null,
+ "partner": null,
+ "founders": [
+  {
+   "name": "Alex Wolf",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "Sunny Sun",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:32+00:00"
+}

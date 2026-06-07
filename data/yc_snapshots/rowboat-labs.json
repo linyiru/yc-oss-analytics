@@ -1,0 +1,42 @@
+{
+ "slug": "rowboat-labs",
+ "name": "Rowboat Labs",
+ "batch": "S24",
+ "website": "https://www.rowboatlabs.com",
+ "github_url": "https://github.com/rowboatlabs/rowboat",
+ "tags": [
+  "Productivity",
+  "Open Source",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 3,
+ "location": "Bengaluru, India",
+ "country": "IN",
+ "partner": "Tyler Bosmeny",
+ "founders": [
+  {
+   "name": "Arjun Maheswaran",
+   "title": "Founder"
+  },
+  {
+   "name": "Ramnique Singh",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LbS-rowboat-labs-llm-agents-for-human-like-customer-support",
+   "title": "RowBoat Labs - LLM agents for human-like customer support",
+   "tagline": "Faster resolutions and improved customer satisfaction with AI.",
+   "date": "2024-08-14",
+   "votes": 26,
+   "url": "https://www.ycombinator.com/launches/LbS-rowboat-labs-llm-agents-for-human-like-customer-support"
+  }
+ ],
+ "page_repos": [
+  "rowboatlabs/rowboat"
+ ],
+ "fetched_at": "2026-06-07T15:58:48+00:00"
+}

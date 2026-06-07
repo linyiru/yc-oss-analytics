@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Conversational Voice and Multimodal AI built with Open Source ",
   "website": "https://daily.co",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2016,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Kwindla Hultman Kramer",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 12679,

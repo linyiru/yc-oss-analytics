@@ -1,0 +1,44 @@
+{
+ "slug": "superglue",
+ "name": "superglue",
+ "batch": "W25",
+ "website": "https://superglue.ai/",
+ "github_url": "https://github.com/superglue-ai/superglue",
+ "tags": [
+  "Open Source",
+  "API",
+  "Enterprise",
+  "Enterprise Software",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Tom Blomfield",
+ "founders": [
+  {
+   "name": "Adina Goerres",
+   "title": "Founder"
+  },
+  {
+   "name": "Stefan Faistenauer",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "MkE-superglue-open-source-data-translation",
+   "title": "superglue 🍯 - Open Source Data Translation",
+   "tagline": "Get data from any system in exactly the format you need.",
+   "date": "2025-02-05",
+   "votes": 35,
+   "url": "https://www.ycombinator.com/launches/MkE-superglue-open-source-data-translation"
+  }
+ ],
+ "page_repos": [
+  "superglue-ai/superglue"
+ ],
+ "fetched_at": "2026-06-07T15:58:51+00:00"
+}

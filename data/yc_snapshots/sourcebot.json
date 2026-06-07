@@ -1,0 +1,44 @@
+{
+ "slug": "sourcebot",
+ "name": "Sourcebot",
+ "batch": "F25",
+ "website": "https://www.sourcebot.dev/",
+ "github_url": "https://github.com/sourcebot-dev/sourcebot",
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "B2B",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Michael Sukkarieh",
+   "title": "Founder"
+  },
+  {
+   "name": "Brendan Kellam",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OdD-sourcebot-the-code-understanding-platform",
+   "title": "Sourcebot: The Code Understanding Platform",
+   "tagline": "Helping developers and AI agents understand massive codebases.",
+   "date": "2025-10-16",
+   "votes": 54,
+   "url": "https://www.ycombinator.com/launches/OdD-sourcebot-the-code-understanding-platform"
+  }
+ ],
+ "page_repos": [
+  "sourcebot-dev/sourcebot"
+ ],
+ "fetched_at": "2026-06-07T15:58:49+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "slug": "monosi",
+ "name": "Monosi",
+ "batch": "S20",
+ "website": "https://monosi.dev",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Inactive",
+ "year_founded": 2020,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Kevin Unkrich",
+   "title": "Founder"
+  },
+  {
+   "name": "Ivan Porollo",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:38+00:00"
+}

@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open source background agents",
   "website": "https://mistle.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Singapore, Singapore",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Jonathan Low",
+    "title": "Founder"
+   },
+   {
+    "name": "Thomas Jiang",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 37,
@@ -419,5 +432,15 @@
    "first1000_net_pct": 100,
    "lifetime_net_pct": 100
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "H1F-ajourney-gusto-for-south-east-asia-sea",
+   "title": "🌊 Ajourney - Gusto for South East Asia (SEA)",
+   "tagline": "Run payroll with one-click",
+   "date": "2022-08-17",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/H1F-ajourney-gusto-for-south-east-asia-sea"
+  }
+ ]
 }

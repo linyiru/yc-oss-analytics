@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Open-source, serverless vectordb for production-scale generative AI",
   "website": "https://lancedb.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Chang She",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 10522,
@@ -5087,5 +5096,15 @@
    "first1000_net_pct": 80,
    "lifetime_net_pct": 78
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IZK-lancedb-serverless-low-latency-vector-database-for-ai-applications",
+   "title": "LanceDB 🍢 - serverless, low-latency vector database for AI applications",
+   "tagline": "Meet LanceDB, the easy-to-use and developer-friendly alternative to Pinecone",
+   "date": "2023-05-05",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/IZK-lancedb-serverless-low-latency-vector-database-for-ai-applications"
+  }
+ ]
 }

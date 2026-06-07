@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Build Backends. Fast.",
   "website": "https://www.shuttle.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "London, United Kingdom",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Nodar Daneliya",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 6923,

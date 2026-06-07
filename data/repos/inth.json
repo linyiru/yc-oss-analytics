@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Privacy compliance, enforced in code",
   "website": "https://inth.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "London, United Kingdom",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Christopher Burns",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 39,
@@ -393,5 +402,15 @@
    "first1000_net_pct": 67,
    "lifetime_net_pct": 67
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "QKz-inth-dev-first-cookie-banners-that-don-t-slow-your-site",
+   "title": "Inth: Dev-first cookie banners that don't slow your site",
+   "tagline": "Built for performance and full developer control.",
+   "date": "2026-05-12",
+   "votes": 13,
+   "url": "https://www.ycombinator.com/launches/QKz-inth-dev-first-cookie-banners-that-don-t-slow-your-site"
+  }
+ ]
 }

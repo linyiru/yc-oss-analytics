@@ -1,0 +1,39 @@
+{
+ "slug": "twenty",
+ "name": "Twenty",
+ "batch": "S23",
+ "website": "https://twenty.com",
+ "github_url": "https://github.com/twentyhq/twenty",
+ "tags": [
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Sales",
+  "CRM"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 11,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Félix Malfait",
+   "title": "Founder"
+  },
+  {
+   "name": "Charles Bochet",
+   "title": "Founder"
+  },
+  {
+   "name": "Thomas des Francs",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "twentyhq/twenty"
+ ],
+ "fetched_at": "2026-06-07T15:58:55+00:00"
+}

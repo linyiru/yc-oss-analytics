@@ -1,0 +1,45 @@
+{
+ "slug": "onyx",
+ "name": "Onyx",
+ "batch": "W24",
+ "website": "https://www.onyx.app/",
+ "github_url": "https://github.com/onyx-dot-app/onyx",
+ "tags": [
+  "Open Source",
+  "NLP",
+  "Enterprise",
+  "Search",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 20,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Yuhong Sun",
+   "title": "Founder"
+  },
+  {
+   "name": "Chris Weaver",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KGf-onyx-open-source-unified-search",
+   "title": "Onyx - Open Source Unified Search",
+   "tagline": "Connect to all your team’s tools (like Confluence, Google Drive, Slack, Notion, etc.) for a single place to Search and Chat with your team’s documents",
+   "date": "2024-01-29",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/KGf-onyx-open-source-unified-search"
+  }
+ ],
+ "page_repos": [
+  "danswer-ai/danswer",
+  "onyx-dot-app/onyx"
+ ],
+ "fetched_at": "2026-06-07T15:58:41+00:00"
+}

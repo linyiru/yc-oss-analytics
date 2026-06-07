@@ -1,0 +1,48 @@
+{
+ "slug": "vibrant-labs",
+ "name": "Vibrant Labs",
+ "batch": "W24",
+ "website": "https://vibrantlabs.com/",
+ "github_url": "https://github.com/vibrantlabsai",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "Reinforcement Learning",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Jithin James",
+   "title": "Founder"
+  },
+  {
+   "name": "Shahul ES",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KZO-ragas-open-source-evaluation-and-testing-infrastructure-for-llm-applications",
+   "title": "Ragas: Open-source evaluation and testing Infrastructure for LLM applications",
+   "tagline": "Deploy your LLM application with confidence. ",
+   "date": "2024-03-05",
+   "votes": 94,
+   "url": "https://www.ycombinator.com/launches/KZO-ragas-open-source-evaluation-and-testing-infrastructure-for-llm-applications"
+  }
+ ],
+ "page_repos": [
+  "bentoml/BentoML",
+  "bentoml/Yatai",
+  "bentoml/bentoctl",
+  "explodinggradients/ragas",
+  "laion-ai/open-assistant"
+ ],
+ "fetched_at": "2026-06-07T15:58:56+00:00"
+}

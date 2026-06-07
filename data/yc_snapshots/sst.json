@@ -1,0 +1,41 @@
+{
+ "slug": "sst",
+ "name": "SST",
+ "batch": "W21",
+ "website": "https://sst.dev",
+ "github_url": "https://github.com/sst",
+ "tags": [
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2010,
+ "team_size": 8,
+ "location": "Toronto, Canada",
+ "country": "CA",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Jay V",
+   "title": "Founder"
+  },
+  {
+   "name": "Frank Wang",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "ITp-opennext-deploy-next-js-apps-to-aws",
+   "title": "OpenNext — Deploy Next.js apps to AWS",
+   "tagline": "OpenNext lets you deploy a Next.js app to your AWS account with just 3 commands.",
+   "date": "2023-04-18",
+   "votes": 19,
+   "url": "https://www.ycombinator.com/launches/ITp-opennext-deploy-next-js-apps-to-aws"
+  }
+ ],
+ "page_repos": [
+  "serverless-stack/open-next"
+ ],
+ "fetched_at": "2026-06-07T15:58:49+00:00"
+}

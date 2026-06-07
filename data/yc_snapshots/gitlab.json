@@ -1,0 +1,31 @@
+{
+ "slug": "gitlab",
+ "name": "GitLab",
+ "batch": "W15",
+ "website": "http://gitlab.com/",
+ "github_url": null,
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "Open Source"
+ ],
+ "status": "Public",
+ "year_founded": 2012,
+ "team_size": 2000,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Sid Sijbrandij",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Dmytro Zaporozhets",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:24+00:00"
+}

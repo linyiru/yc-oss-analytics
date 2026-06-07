@@ -1,0 +1,33 @@
+{
+ "slug": "infracost",
+ "name": "Infracost",
+ "batch": "W21",
+ "website": "https://infracost.io",
+ "github_url": "https://github.com/infracost",
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "FinOps",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 20,
+ "location": null,
+ "country": null,
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Ali Khajeh-Hosseini",
+   "title": "Founder"
+  },
+  {
+   "name": "Alistair Scott",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:29+00:00"
+}

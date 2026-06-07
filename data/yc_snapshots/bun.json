@@ -1,0 +1,26 @@
+{
+ "slug": "bun",
+ "name": "Bun",
+ "batch": "S19",
+ "website": "https://bun.sh",
+ "github_url": "https://github.com/oven-sh",
+ "tags": [
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2019,
+ "team_size": 13,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Jarred Sumner",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:14+00:00"
+}

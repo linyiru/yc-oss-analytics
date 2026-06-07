@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "Open Source CRM",
   "website": "https://twenty.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Pete Koomen",
+  "founders": [
+   {
+    "name": "Félix Malfait",
+    "title": "Founder"
+   },
+   {
+    "name": "Charles Bochet",
+    "title": "Founder"
+   },
+   {
+    "name": "Thomas des Francs",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 49197,

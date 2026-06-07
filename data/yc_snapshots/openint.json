@@ -1,0 +1,47 @@
+{
+ "slug": "openint",
+ "name": "OpenInt",
+ "batch": "W23",
+ "website": "https://openint.dev",
+ "github_url": "https://github.com/evefancom/evefan",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 4,
+ "location": null,
+ "country": null,
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Amadeo Pellicce",
+   "title": "CEO & Founder"
+  },
+  {
+   "name": "Philip London",
+   "title": "Founder"
+  },
+  {
+   "name": "Mark Pfluger",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LdX-evefan-self-hosted-segment-alternative-99-savings-w-cloudflare-workers-oss",
+   "title": "⭐️ Evefan — Self-hosted Segment alternative — 99% savings w/ Cloudflare Workers (OSS)",
+   "tagline": "Self-host your own internet scale events infrastructure.",
+   "date": "2024-08-19",
+   "votes": 21,
+   "url": "https://www.ycombinator.com/launches/LdX-evefan-self-hosted-segment-alternative-99-savings-w-cloudflare-workers-oss"
+  }
+ ],
+ "page_repos": [
+  "evefancom/evefan"
+ ],
+ "fetched_at": "2026-06-07T15:58:42+00:00"
+}

@@ -7,7 +7,22 @@
   "status": "Inactive",
   "one_liner": "Open-source, customizable, headless CMS",
   "website": "https://tipe.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Scott Moss",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Michael Moss",
+    "title": "Founder/CPO"
+   },
+   {
+    "name": "Patrick Stapleton",
+    "title": "Founder/CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 0,

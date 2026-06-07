@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open-Source alternative to Durable Objects",
   "website": "https://rivet.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Nicholas Kissel",
+    "title": "Founder"
+   },
+   {
+    "name": "Nathaniel Flurry",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 5564,
@@ -3734,5 +3747,15 @@
    "first1000_net_pct": 79,
    "lifetime_net_pct": 78
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IGu-rivet-heroku-for-multiplayer-games",
+   "title": "👾 Rivet - Heroku for multiplayer games",
+   "tagline": "Run multiplayer games with managed game servers, matchmaking, and DDoS mitigation.",
+   "date": "2023-03-13",
+   "votes": 57,
+   "url": "https://www.ycombinator.com/launches/IGu-rivet-heroku-for-multiplayer-games"
+  }
+ ]
 }

@@ -1,0 +1,44 @@
+{
+ "slug": "mem0",
+ "name": "Mem0",
+ "batch": "S24",
+ "website": "https://mem0.ai",
+ "github_url": "https://github.com/mem0ai/",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Taranjeet Singh",
+   "title": "Founder"
+  },
+  {
+   "name": "Deshraj Yadav",
+   "title": "Co-Founder and CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LpA-mem0-open-source-memory-layer-for-ai-apps",
+   "title": "Mem0 - Open Source Memory Layer for AI Apps",
+   "tagline": "Mem0 adds memory to AI applications, solving the problem of repetitive, stateless interactions and enabling personalized, cost-efficient AI experiences.",
+   "date": "2024-09-10",
+   "votes": 634,
+   "url": "https://www.ycombinator.com/launches/LpA-mem0-open-source-memory-layer-for-ai-apps"
+  }
+ ],
+ "page_repos": [
+  "mem0ai/mem0"
+ ],
+ "fetched_at": "2026-06-07T15:58:37+00:00"
+}

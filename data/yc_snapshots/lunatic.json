@@ -1,0 +1,31 @@
+{
+ "slug": "lunatic",
+ "name": "Lunatic",
+ "batch": "W21",
+ "website": "https://lunatic.solutions/",
+ "github_url": "https://github.com/lunatic-solutions",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Inactive",
+ "year_founded": 2020,
+ "team_size": 2,
+ "location": "Vienna, Austria",
+ "country": "AT",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Bernard Kolobara",
+   "title": "Founder"
+  },
+  {
+   "name": "Hrvoje Bandov",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:34+00:00"
+}

@@ -1,0 +1,39 @@
+{
+ "slug": "hydra",
+ "name": "Hydra",
+ "batch": "W22",
+ "website": "https://hydra.so",
+ "github_url": "https://github.com/HydrasDB",
+ "tags": [
+  "Developer Tools",
+  "Analytics",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Acquired",
+ "year_founded": 2021,
+ "team_size": 6,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Tom Blomfield",
+ "founders": [
+  {
+   "name": "Joseph Sciarrino",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "N0V-hydra-serverless-realtime-analytics-on-postgres",
+   "title": "Hydra: Serverless Realtime Analytics on Postgres",
+   "tagline": "Unlock realtime analytics on live data in seconds",
+   "date": "2025-03-11",
+   "votes": 8,
+   "url": "https://www.ycombinator.com/launches/N0V-hydra-serverless-realtime-analytics-on-postgres"
+  }
+ ],
+ "page_repos": [
+  "duckdb/pg_duckdb"
+ ],
+ "fetched_at": "2026-06-07T15:58:28+00:00"
+}

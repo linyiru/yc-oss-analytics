@@ -1,0 +1,29 @@
+{
+ "slug": "rethinkdb",
+ "name": "RethinkDB",
+ "batch": "S09",
+ "website": "http://rethinkdb.com",
+ "github_url": null,
+ "tags": [
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": null,
+ "team_size": 11,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Michael Glukhovsky",
+   "title": "Founder"
+  },
+  {
+   "name": "Slava Akhmechet",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:47+00:00"
+}

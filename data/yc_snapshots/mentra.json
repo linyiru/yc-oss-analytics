@@ -1,0 +1,33 @@
+{
+ "slug": "mentra",
+ "name": "Mentra",
+ "batch": "W25",
+ "website": "https://mentra.glass",
+ "github_url": "https://github.com/mentralabs",
+ "tags": [
+  "Artificial Intelligence",
+  "Hardware",
+  "Consumer",
+  "Open Source",
+  "AR"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 12,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Cayden Pierce",
+   "title": "Founder"
+  },
+  {
+   "name": "Alexander Israelov",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:37+00:00"
+}

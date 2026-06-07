@@ -1,0 +1,42 @@
+{
+ "slug": "moonrepo",
+ "name": "moonrepo",
+ "batch": "W23",
+ "website": "https://moonrepo.dev",
+ "github_url": "https://github.com/moonrepo",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Productivity",
+  "Open Source",
+  "Enterprise"
+ ],
+ "status": "Inactive",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "Portland, OR",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Miles Johnson",
+   "title": "Founder"
+  },
+  {
+   "name": "James Pozdena",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "I4q-moonrepo-simplifying-codebase-management-and-organization",
+   "title": "🌑 moonrepo - Simplifying codebase management and organization",
+   "tagline": "From build to deploy, moonrepo is a better way to manage codebases, save developer time, and boost your business.",
+   "date": "2023-02-21",
+   "votes": 21,
+   "url": "https://www.ycombinator.com/launches/I4q-moonrepo-simplifying-codebase-management-and-organization"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:38+00:00"
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "firecrawl",
+ "name": "Firecrawl",
+ "batch": "S22",
+ "website": "https://www.firecrawl.dev",
+ "github_url": "https://github.com/firecrawl",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 25,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Caleb Peffer",
+   "title": "Co-founder and CEO"
+  },
+  {
+   "name": "Eric Ciarla",
+   "title": "Founder"
+  },
+  {
+   "name": "Nicolas Silberstein Camara",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Mcn-extract-by-firecrawl-get-structured-website-data-with-just-a-prompt",
+   "title": "/extract by Firecrawl - Get structured website data with just a prompt",
+   "tagline": " Turn entire websites into structured data with AI",
+   "date": "2025-01-20",
+   "votes": 14,
+   "url": "https://www.ycombinator.com/launches/Mcn-extract-by-firecrawl-get-structured-website-data-with-just-a-prompt"
+  },
+  {
+   "slug": "LTf-firecrawl-open-source-crawling-and-scraping-for-ai-ready-web-data",
+   "title": "Firecrawl 🔥: Open source crawling and scraping for AI-ready web data",
+   "tagline": "The easiest way to connect web data to your AI apps",
+   "date": "2024-07-30",
+   "votes": 59,
+   "url": "https://www.ycombinator.com/launches/LTf-firecrawl-open-source-crawling-and-scraping-for-ai-ready-web-data"
+  },
+  {
+   "slug": "I8g-mendable-embeddable-chat-powered-search-for-your-developer-products",
+   "title": "🔍 Mendable - Embeddable chat powered search for your developer products",
+   "tagline": "An easily embeddable search component that allows developers to search and chat, trained on your docs and resources. ",
+   "date": "2023-02-27",
+   "votes": 43,
+   "url": "https://www.ycombinator.com/launches/I8g-mendable-embeddable-chat-powered-search-for-your-developer-products"
+  },
+  {
+   "slug": "H4g-sideguide-let-developers-test-drive-your-api-with-an-online-editor",
+   "title": "🚀 SideGuide - Let developers test-drive your API with an online editor",
+   "tagline": "Embeddable code editors designed to show developers why your product rocks",
+   "date": "2022-08-26",
+   "votes": 217,
+   "url": "https://www.ycombinator.com/launches/H4g-sideguide-let-developers-test-drive-your-api-with-an-online-editor"
+  }
+ ],
+ "page_repos": [
+  "mendableai/firecrawl"
+ ],
+ "fetched_at": "2026-06-07T15:58:23+00:00"
+}

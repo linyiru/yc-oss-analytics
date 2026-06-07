@@ -1,0 +1,33 @@
+{
+ "slug": "supabase",
+ "name": "Supabase",
+ "batch": "S20",
+ "website": "https://supabase.com",
+ "github_url": "https://github.com/supabase",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Big Data",
+  "Data Engineering",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 120,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Paul Copplestone",
+   "title": "Founder"
+  },
+  {
+   "name": "Ant Wilson",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:51+00:00"
+}

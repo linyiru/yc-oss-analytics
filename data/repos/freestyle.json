@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "We run and deploy code your AI wrote",
   "website": "https://www.freestyle.sh",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Bۙۚۨ۫ۙۚۨ۫ۙۚۨ۫ۙۚۨ۫enjamin Swerdlow",
+    "title": "Founder"
+   },
+   {
+    "name": "Jacob Zwang",
+    "title": "Founder/CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 751,
@@ -1189,5 +1202,23 @@
    "first1000_net_pct": 64,
    "lifetime_net_pct": 64
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Lkp-freestyle-a-new-way-to-build-fullstack-typescript-apps",
+   "title": "Freestyle: A new way to build fullstack TypeScript apps",
+   "tagline": "Empowering TypeScript developers to build with TypeScript",
+   "date": "2024-08-30",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/Lkp-freestyle-a-new-way-to-build-fullstack-typescript-apps"
+  },
+  {
+   "slug": "LGW-freestyle-typescript-for-everything",
+   "title": "Freestyle: TypeScript for EVERYTHING",
+   "tagline": "A fundamental shift in how we approach web development",
+   "date": "2024-06-25",
+   "votes": 87,
+   "url": "https://www.ycombinator.com/launches/LGW-freestyle-typescript-for-everything"
+  }
+ ]
 }

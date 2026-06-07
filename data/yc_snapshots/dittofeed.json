@@ -1,0 +1,50 @@
+{
+ "slug": "dittofeed",
+ "name": "Dittofeed",
+ "batch": "S22",
+ "website": "http://dittofeed.com",
+ "github_url": "https://github.com/dittofeed",
+ "tags": [
+  "B2B",
+  "Messaging",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Chandler Craig",
+   "title": "Founder"
+  },
+  {
+   "name": "Maxwell Gurewitz",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Nup-dittofeed-embedded-messaging-features-for-your-saas",
+   "title": "Dittofeed 📬 Embedded Messaging Features for Your SaaS",
+   "tagline": "Dittofeed's Embedded Components instantly add template editors, workflow builders, user segmentation, and other messaging features to your app",
+   "date": "2025-07-07",
+   "votes": 13,
+   "url": "https://www.ycombinator.com/launches/Nup-dittofeed-embedded-messaging-features-for-your-saas"
+  },
+  {
+   "slug": "IIt-dittofeed-the-first-open-source-customer-engagement-platform-with-developer-tools",
+   "title": "Dittofeed - The first open-source customer engagement platform with developer tools",
+   "tagline": "We’re building the world's first open-source customer engagement platform with a fantastic developer experience.",
+   "date": "2023-03-16",
+   "votes": 56,
+   "url": "https://www.ycombinator.com/launches/IIt-dittofeed-the-first-open-source-customer-engagement-platform-with-developer-tools"
+  }
+ ],
+ "page_repos": [
+  "dittofeed/dittofeed"
+ ],
+ "fetched_at": "2026-06-07T15:58:20+00:00"
+}

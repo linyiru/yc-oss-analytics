@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The AI Native Billing Platform",
   "website": "https://www.getlago.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Anh-Tho CHUONG",
+    "title": "Founder"
+   },
+   {
+    "name": "Raffi SARKISSIAN",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 9772,

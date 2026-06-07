@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "RL environments for long horizon AI Agents",
   "website": "https://vibrantlabs.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Jithin James",
+    "title": "Founder"
+   },
+   {
+    "name": "Shahul ES",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 14261,
@@ -4767,5 +4780,15 @@
    "first1000_net_pct": 69,
    "lifetime_net_pct": 63
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KZO-ragas-open-source-evaluation-and-testing-infrastructure-for-llm-applications",
+   "title": "Ragas: Open-source evaluation and testing Infrastructure for LLM applications",
+   "tagline": "Deploy your LLM application with confidence. ",
+   "date": "2024-03-05",
+   "votes": 94,
+   "url": "https://www.ycombinator.com/launches/KZO-ragas-open-source-evaluation-and-testing-infrastructure-for-llm-applications"
+  }
+ ]
 }

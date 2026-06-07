@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Identity-aware VPN and proxy for remote access to anything, anywhere.",
   "website": "https://pangolin.net",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Milo Schwartz",
+    "title": "Founder"
+   },
+   {
+    "name": "Owen Schwartz",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 21027,
@@ -2552,5 +2565,15 @@
    "first1000_net_pct": 59,
    "lifetime_net_pct": 49
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "O0B-pangolin-open-source-secure-gateway-to-private-networks",
+   "title": "Pangolin – Open-source secure gateway to private networks",
+   "tagline": "Pangolin tunnels your services to the internet so you can access anything from anywhere.",
+   "date": "2025-07-18",
+   "votes": 85,
+   "url": "https://www.ycombinator.com/launches/O0B-pangolin-open-source-secure-gateway-to-private-networks"
+  }
+ ]
 }

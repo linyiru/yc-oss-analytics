@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Cloud Native SIEM (alternative to Splunk/Elastic)",
   "website": "https://www.matano.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Seattle, WA",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Samrose Ahmed",
+    "title": "Founder"
+   },
+   {
+    "name": "Shaeq Ahmed",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1675,
@@ -2990,5 +3003,15 @@
    "first1000_net_pct": 70,
    "lifetime_net_pct": 66
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Hl0-matano-open-source-siem-alternative-for-aws",
+   "title": "Matano - Open source SIEM alternative for AWS",
+   "tagline": "Matano is a high scale, low cost alternative to traditional SIEM (e.g. Splunk, Elastic) built around a vendor agnostic Security Data Lake in your AWS account.",
+   "date": "2023-01-09",
+   "votes": 48,
+   "url": "https://www.ycombinator.com/launches/Hl0-matano-open-source-siem-alternative-for-aws"
+  }
+ ]
 }

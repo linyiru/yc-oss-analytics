@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Secure Collaboration for Technical Teams",
   "website": "http://mattermost.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2016,
+  "location": "Palo Alto",
+  "founders": [
+   {
+    "name": "Ian Tien",
+    "title": "Founder/CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 37022,

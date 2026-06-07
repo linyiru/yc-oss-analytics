@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Shift FinOps Left: Proactively Find & Fix Cloud Cost Issues",
   "website": "https://infracost.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Ali Khajeh-Hosseini",
+    "title": "Founder"
+   },
+   {
+    "name": "Alistair Scott",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 62,

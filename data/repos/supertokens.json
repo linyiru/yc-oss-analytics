@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Open source alternative to Auth0 / AWS Cognito / Firebase Auth",
   "website": "https://supertokens.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Advait Ruia",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 15080,

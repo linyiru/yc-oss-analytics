@@ -1,0 +1,38 @@
+{
+ "slug": "recipeui",
+ "name": "RecipeUI",
+ "batch": "S23",
+ "website": "https://recipeui.com",
+ "github_url": "https://github.com/RecipeUI/RecipeUI",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "API"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Samuel San",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "JJy-recipeui-open-source-postman-alternative",
+   "title": "RecipeUI - Open source Postman alternative",
+   "tagline": "The API tool for teams",
+   "date": "2023-08-21",
+   "votes": 36,
+   "url": "https://www.ycombinator.com/launches/JJy-recipeui-open-source-postman-alternative"
+  }
+ ],
+ "page_repos": [
+  "RecipeUI/RecipeUI"
+ ],
+ "fetched_at": "2026-06-07T15:58:45+00:00"
+}

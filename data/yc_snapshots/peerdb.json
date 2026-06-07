@@ -1,0 +1,44 @@
+{
+ "slug": "peerdb",
+ "name": "PeerDB",
+ "batch": "S23",
+ "website": "https://peerdb.io/",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Data Engineering",
+  "Enterprise Software",
+  "Databases"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": null,
+ "country": null,
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Sai Srirampur",
+   "title": "Founder"
+  },
+  {
+   "name": "Kaushik Iska",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IyP-peerdb-modern-etl-in-minutes-with-sql",
+   "title": "PeerDB - Modern ETL in minutes, with SQL",
+   "tagline": "Data store-first ETL/ELT, enabling 10x faster syncs and transforms",
+   "date": "2023-07-11",
+   "votes": 60,
+   "url": "https://www.ycombinator.com/launches/IyP-peerdb-modern-etl-in-minutes-with-sql"
+  }
+ ],
+ "page_repos": [
+  "PeerDB-io/peerdb"
+ ],
+ "fetched_at": "2026-06-07T15:58:43+00:00"
+}

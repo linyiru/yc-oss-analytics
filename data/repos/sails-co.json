@@ -7,7 +7,22 @@
   "status": "Active",
   "one_liner": "Full-service web, mobile, & cloud studio providing professional…",
   "website": "https://sailsjs.com/about",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "Austin, TX",
+  "founders": [
+   {
+    "name": "Mike McNeil",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Scott Gress",
+    "title": "Founder"
+   },
+   {
+    "name": "Cody Stoltman",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 22809,

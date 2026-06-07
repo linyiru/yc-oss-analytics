@@ -1,0 +1,38 @@
+{
+ "slug": "clawvisor",
+ "name": "Clawvisor",
+ "batch": "P26",
+ "website": "https://clawvisor.com",
+ "github_url": "https://github.com/clawvisor",
+ "tags": [
+  "Artificial Intelligence",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Garry Tan",
+ "founders": [
+  {
+   "name": "Eric Levine",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "QFP-clawvisor-the-authorization-layer-for-ai-agents",
+   "title": "Clawvisor — The Authorization Layer for AI Agents",
+   "tagline": "Give agents access without giving them the keys.",
+   "date": "2026-05-07",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/QFP-clawvisor-the-authorization-layer-for-ai-agents"
+  }
+ ],
+ "page_repos": [
+  "clawvisor/clawvisor"
+ ],
+ "fetched_at": "2026-06-07T15:58:16+00:00"
+}

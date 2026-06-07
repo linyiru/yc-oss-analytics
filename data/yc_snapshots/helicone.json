@@ -1,0 +1,47 @@
+{
+ "slug": "helicone",
+ "name": "Helicone",
+ "batch": "W23",
+ "website": "https://www.helicone.ai/",
+ "github_url": "https://github.com/Helicone/helicone",
+ "tags": [
+  "AIOps",
+  "Developer Tools",
+  "Analytics",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Justin Torre",
+   "title": "CEO / Founder"
+  },
+  {
+   "name": "Barak Oshri",
+   "title": "Founder"
+  },
+  {
+   "name": "Scott Nguyen",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "I73-helicone-open-source-observability-platform-for-generative-ai",
+   "title": "Helicone - Open-source observability platform for generative AI",
+   "tagline": "Log requests made to OpenAI and track costs, result quality, and latency with one line of code",
+   "date": "2023-02-23",
+   "votes": 52,
+   "url": "https://www.ycombinator.com/launches/I73-helicone-open-source-observability-platform-for-generative-ai"
+  }
+ ],
+ "page_repos": [
+  "Helicone/helicone"
+ ],
+ "fetched_at": "2026-06-07T15:58:25+00:00"
+}

@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Get up and running with large language models.",
   "website": "https://ollama.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "Palo Alto",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Jeffrey Morgan",
+    "title": "Founder"
+   },
+   {
+    "name": "Michael Chiang",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 173383,

@@ -7,7 +7,19 @@
   "status": "Inactive",
   "one_liner": "Operating System for server-side apps",
   "website": "https://lunatic.solutions/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "Vienna, Austria",
+  "founders": [
+   {
+    "name": "Bernard Kolobara",
+    "title": "Founder"
+   },
+   {
+    "name": "Hrvoje Bandov",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4869,

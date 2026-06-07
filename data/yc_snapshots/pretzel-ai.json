@@ -1,0 +1,30 @@
+{
+ "slug": "pretzel-ai",
+ "name": "Pretzel AI",
+ "batch": "W24",
+ "website": "https://withpretzel.com",
+ "github_url": "https://github.com/pretzelai",
+ "tags": [
+  "Artificial Intelligence",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "Berlin, Germany",
+ "country": "DE",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Prasoon Shukla",
+   "title": "Founder"
+  },
+  {
+   "name": "Ramon Garate",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:44+00:00"
+}

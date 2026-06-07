@@ -1,0 +1,26 @@
+{
+ "slug": "optic",
+ "name": "Optic",
+ "batch": "S18",
+ "website": "http://useoptic.com/",
+ "github_url": "https://github.com/opticdev",
+ "tags": [
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2018,
+ "team_size": 5,
+ "location": "New York",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Aidan Cunniffe",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:42+00:00"
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "stackup",
+ "name": "Stackup",
+ "batch": "S22",
+ "website": "https://www.stackup.fi",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Crypto / Web3",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 4,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "John Rising",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:50+00:00"
+}

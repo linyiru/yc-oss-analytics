@@ -7,7 +7,23 @@
   "status": "Active",
   "one_liner": "Open-source Retool for enterprise",
   "website": "https://refine.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Civan Ozseyhan",
+    "title": "Founder"
+   },
+   {
+    "name": "Omer Aplak",
+    "title": "Founder"
+   },
+   {
+    "name": "Eren Erkalkan",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 34842,
@@ -7360,5 +7376,15 @@
    "first1000_net_pct": 68,
    "lifetime_net_pct": 59
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IsM-refine-open-source-platform-for-rapidly-building-enterprise-web-applications",
+   "title": "Refine - Open-source platform for rapidly building enterprise web applications",
+   "tagline": "Dev-friendly alternative to low-code/no-code. Familiar stack, 100% control over project!",
+   "date": "2023-06-27",
+   "votes": 100,
+   "url": "https://www.ycombinator.com/launches/IsM-refine-open-source-platform-for-rapidly-building-enterprise-web-applications"
+  }
+ ]
 }

@@ -1,0 +1,33 @@
+{
+ "slug": "mindsdb",
+ "name": "MindsDB",
+ "batch": "W20",
+ "website": "https://www.mindsdb.com/",
+ "github_url": "https://github.com/mindsdb",
+ "tags": [
+  "Developer Tools",
+  "Machine Learning",
+  "Open Source",
+  "Enterprise Software",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2017,
+ "team_size": 41,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Adam Carrigan",
+   "title": "Founder"
+  },
+  {
+   "name": "Jorge Torres",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:37+00:00"
+}

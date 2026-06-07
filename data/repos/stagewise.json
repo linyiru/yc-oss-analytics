@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The Open Source Agentic IDE",
   "website": "https://stagewise.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Glenn Töws",
+    "title": "Founder"
+   },
+   {
+    "name": "Julian Goetze",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 6688,
@@ -1537,5 +1550,15 @@
    "first1000_net_pct": 70,
    "lifetime_net_pct": 64
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "O3M-stagewise-the-frontend-coding-agent-for-production-codebases",
+   "title": "stagewise: The frontend coding agent for production codebases",
+   "tagline": "Visually build your apps frontend right inside your browser on localhost.",
+   "date": "2025-07-25",
+   "votes": 88,
+   "url": "https://www.ycombinator.com/launches/O3M-stagewise-the-frontend-coding-agent-for-production-codebases"
+  }
+ ]
 }

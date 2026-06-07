@@ -1,0 +1,32 @@
+{
+ "slug": "embrace",
+ "name": "Embrace",
+ "batch": "S19",
+ "website": "https://embrace.io",
+ "github_url": "https://github.com/embrace-io",
+ "tags": [
+  "Artificial Intelligence",
+  "SaaS",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2016,
+ "team_size": 62,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Eric Futoran",
+   "title": "Founder and CEO"
+  },
+  {
+   "name": "Fredric Newberg",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:21+00:00"
+}

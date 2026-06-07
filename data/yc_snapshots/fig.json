@@ -1,0 +1,31 @@
+{
+ "slug": "fig",
+ "name": "Fig",
+ "batch": "S20",
+ "website": "http://fig.io",
+ "github_url": "https://github.com/withfig",
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2020,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Brendan Falk",
+   "title": "Founder"
+  },
+  {
+   "name": "Matt Schrage",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:22+00:00"
+}

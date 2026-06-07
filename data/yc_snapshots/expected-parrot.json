@@ -1,0 +1,42 @@
+{
+ "slug": "expected-parrot",
+ "name": "Expected Parrot",
+ "batch": "F25",
+ "website": "https://www.expectedparrot.com",
+ "github_url": "https://github.com/expectedparrot/edsl",
+ "tags": [
+  "Generative AI",
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 5,
+ "location": "Boston",
+ "country": "US",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Robin Horton",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "John Horton",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Ol2-expected-parrot-simulate-your-customers-with-ai-agents",
+   "title": "Expected Parrot: Simulate your customers with AI agents",
+   "tagline": "Meet Expected Parrot, the open-source framework for simulating your customers with AI agents.",
+   "date": "2025-11-04",
+   "votes": 92,
+   "url": "https://www.ycombinator.com/launches/Ol2-expected-parrot-simulate-your-customers-with-ai-agents"
+  }
+ ],
+ "page_repos": [
+  "expectedparrot/edsl"
+ ],
+ "fetched_at": "2026-06-07T15:58:22+00:00"
+}

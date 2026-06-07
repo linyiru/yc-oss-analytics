@@ -1,0 +1,26 @@
+{
+ "slug": "pipelinedb",
+ "name": "PipelineDB",
+ "batch": "W14",
+ "website": "http://www.pipelinedb.com",
+ "github_url": null,
+ "tags": [
+  "Open Source",
+  "Time Series"
+ ],
+ "status": "Acquired",
+ "year_founded": null,
+ "team_size": 2,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Derek Nelson",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:44+00:00"
+}

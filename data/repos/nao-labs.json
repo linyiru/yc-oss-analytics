@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open Source Analytics Agent",
   "website": "https://getnao.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Claire Gouze",
+    "title": "Founder"
+   },
+   {
+    "name": "Christophe Blefari",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1247,
@@ -711,5 +724,15 @@
    "first1000_net_pct": 41,
    "lifetime_net_pct": 41
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NW1-nao-labs-cursor-for-data",
+   "title": "nao Labs - Cursor for data",
+   "tagline": "AI code editor to write code on your data — and trust the output.",
+   "date": "2025-05-14",
+   "votes": 61,
+   "url": "https://www.ycombinator.com/launches/NW1-nao-labs-cursor-for-data"
+  }
+ ]
 }

@@ -1,0 +1,40 @@
+{
+ "slug": "opslane",
+ "name": "Opslane",
+ "batch": "S24",
+ "website": "https://opslane.com",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Enterprise",
+  "DevOps",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Abhishek Ray",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LRt-opslane-making-on-call-suck-less",
+   "title": "Opslane – Making on-call suck less",
+   "tagline": "We reduce alert fatigue for on-call teams.",
+   "date": "2024-07-26",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/LRt-opslane-making-on-call-suck-less"
+  }
+ ],
+ "page_repos": [
+  "opslane/opslane"
+ ],
+ "fetched_at": "2026-06-07T15:58:42+00:00"
+}

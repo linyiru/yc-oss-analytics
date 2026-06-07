@@ -1,0 +1,45 @@
+{
+ "slug": "dagworks-inc",
+ "name": "DAGWorks Inc.",
+ "batch": "W23",
+ "website": "https://www.dagworks.io/",
+ "github_url": "https://github.com/dagworks-inc/",
+ "tags": [
+  "AIOps",
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Generative AI",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Stefan Krawczyk",
+   "title": "Founder"
+  },
+  {
+   "name": "Elijah ben Izzy",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IB2-dagworks-avoid-machine-learning-pipeline-horror-stories",
+   "title": "DAGWorks: Avoid Machine Learning Pipeline horror stories 😱",
+   "tagline": "From creation to maintenance, DAGWorks is building a more human capital efficient way for Data Science teams to build and own Machine Learning Pipelines.",
+   "date": "2023-03-02",
+   "votes": 91,
+   "url": "https://www.ycombinator.com/launches/IB2-dagworks-avoid-machine-learning-pipeline-horror-stories"
+  }
+ ],
+ "page_repos": [
+  "dagworks-inc/burr",
+  "dagworks-inc/hamilton"
+ ],
+ "fetched_at": "2026-06-07T15:58:18+00:00"
+}

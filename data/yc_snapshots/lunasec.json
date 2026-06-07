@@ -1,0 +1,35 @@
+{
+ "slug": "lunasec",
+ "name": "LunaSec",
+ "batch": "S19",
+ "website": "https://www.lunasec.io",
+ "github_url": "https://github.com/lunasec-io",
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "Security Orchestration, Automation and Response (SOAR)",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Inactive",
+ "year_founded": 2019,
+ "team_size": 4,
+ "location": "Seattle, WA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Free Wortley",
+   "title": "Founder & CEO"
+  },
+  {
+   "name": "Matthew Bryant",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "lunasec-io/lunasec"
+ ],
+ "fetched_at": "2026-06-07T15:58:34+00:00"
+}

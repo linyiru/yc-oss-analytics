@@ -1,0 +1,34 @@
+{
+ "slug": "elementary",
+ "name": "Elementary",
+ "batch": "W22",
+ "website": "http://elementary-data.com/",
+ "github_url": "https://github.com/elementary-data/elementary",
+ "tags": [
+  "Developer Tools",
+  "Analytics",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 12,
+ "location": "Tel Aviv-Yafo, Israel",
+ "country": "IL",
+ "partner": "Tom Blomfield",
+ "founders": [
+  {
+   "name": "Maayan Salom",
+   "title": "Founder"
+  },
+  {
+   "name": "Or Avidov",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "elementary-data/elementary"
+ ],
+ "fetched_at": "2026-06-07T15:58:20+00:00"
+}

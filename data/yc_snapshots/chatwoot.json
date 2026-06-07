@@ -1,0 +1,33 @@
+{
+ "slug": "chatwoot",
+ "name": "Chatwoot",
+ "batch": "W21",
+ "website": "https://www.chatwoot.com",
+ "github_url": "https://github.com/chatwoot",
+ "tags": [
+  "B2B",
+  "Customer Success",
+  "Open Source",
+  "Customer Service",
+  "Customer Support"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 12,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Pranav Raj",
+   "title": "Founder"
+  },
+  {
+   "name": "Sojan Jose",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:15+00:00"
+}

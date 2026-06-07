@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Open source tools & services for reliable AI Agents & AI Applications",
   "website": "https://www.dagworks.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Stefan Krawczyk",
+    "title": "Founder"
+   },
+   {
+    "name": "Elijah ben Izzy",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2512,
@@ -3833,5 +3846,15 @@
    "first1000_net_pct": 64,
    "lifetime_net_pct": 65
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IB2-dagworks-avoid-machine-learning-pipeline-horror-stories",
+   "title": "DAGWorks: Avoid Machine Learning Pipeline horror stories 😱",
+   "tagline": "From creation to maintenance, DAGWorks is building a more human capital efficient way for Data Science teams to build and own Machine Learning Pipelines.",
+   "date": "2023-03-02",
+   "votes": 91,
+   "url": "https://www.ycombinator.com/launches/IB2-dagworks-avoid-machine-learning-pipeline-horror-stories"
+  }
+ ]
 }

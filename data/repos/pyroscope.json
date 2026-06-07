@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Open source continuous profiling software to debug performance issues",
   "website": "https://pyroscope.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Oakland, CA",
+  "founders": [
+   {
+    "name": "Ryan Perry",
+    "title": "Founder"
+   },
+   {
+    "name": "Dmitry Filimonov",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 11479,

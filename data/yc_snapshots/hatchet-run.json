@@ -1,0 +1,42 @@
+{
+ "slug": "hatchet-run",
+ "name": "Hatchet",
+ "batch": "W24",
+ "website": "https://hatchet.run",
+ "github_url": "https://github.com/hatchet-dev",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 7,
+ "location": "New York",
+ "country": "US",
+ "partner": "David Lieb",
+ "founders": [
+  {
+   "name": "Alexander Belanger",
+   "title": "Founder"
+  },
+  {
+   "name": "Gabe Ruttner",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KcM-hatchet-background-task-orchestration-and-visibility-platform",
+   "title": "Hatchet - Background task orchestration and visibility platform",
+   "tagline": "We help engineers run fast and reliable background tasks",
+   "date": "2024-03-11",
+   "votes": 57,
+   "url": "https://www.ycombinator.com/launches/KcM-hatchet-background-task-orchestration-and-visibility-platform"
+  }
+ ],
+ "page_repos": [
+  "hatchet-dev/hatchet"
+ ],
+ "fetched_at": "2026-06-07T15:58:25+00:00"
+}

@@ -7,7 +7,18 @@
   "status": "Active",
   "one_liner": "Open data lakehouse for biology",
   "website": "https://lamin.ai",
-  "industry": "Healthcare"
+  "industry": "Healthcare",
+  "year_founded": 2022,
+  "founders": [
+   {
+    "name": "Alex Wolf",
+    "title": "Co-Founder & CEO"
+   },
+   {
+    "name": "Sunny Sun",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 267,

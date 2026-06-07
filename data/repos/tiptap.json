@@ -7,7 +7,36 @@
   "status": "Active",
   "one_liner": "The open-source document editor for humans and AI agents.",
   "website": "https://tiptap.dev/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Berlin, Germany",
+  "partner": "Tom Blomfield",
+  "founders": [
+   {
+    "name": "Philip Isik",
+    "title": "Founder"
+   },
+   {
+    "name": "Sven Adlung",
+    "title": "Founder"
+   },
+   {
+    "name": "Patrick Baber",
+    "title": "Founder"
+   },
+   {
+    "name": "Nick Hirche",
+    "title": "Founder"
+   },
+   {
+    "name": "Timo Isik",
+    "title": "Founder"
+   },
+   {
+    "name": "Sebastian Schrama",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 37133,
@@ -12019,5 +12048,63 @@
    "first1000_net_pct": 51,
    "lifetime_net_pct": 58
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OcJ-bidirectional-markdown-support-for-tiptap",
+   "title": "Bidirectional Markdown Support for Tiptap",
+   "tagline": "The text editor that speaks the language of LLMs: Markdown!",
+   "date": "2025-10-14",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/OcJ-bidirectional-markdown-support-for-tiptap"
+  },
+  {
+   "slug": "OVl-tiptap-pages-word-style-layouts-in-your-editor",
+   "title": "Tiptap Pages: Word-style layouts in your editor",
+   "tagline": "Headers, footers, and pagination without rebuilding Word.",
+   "date": "2025-09-30",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/OVl-tiptap-pages-word-style-layouts-in-your-editor"
+  },
+  {
+   "slug": "NlA-tiptap-better-docx-import-export",
+   "title": "Tiptap – Better DOCX Import & Export",
+   "tagline": "The missing DOCX layer for your text editor infrastructure.",
+   "date": "2025-06-16",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/NlA-tiptap-better-docx-import-export"
+  },
+  {
+   "slug": "Nfu-tiptap-ai-infrastructure-for-text-editors",
+   "title": "Tiptap – AI infrastructure for text editors",
+   "tagline": "Add an AI Assistant to your rich text editor in minutes, not weeks.",
+   "date": "2025-06-04",
+   "votes": 23,
+   "url": "https://www.ycombinator.com/launches/Nfu-tiptap-ai-infrastructure-for-text-editors"
+  },
+  {
+   "slug": "NR5-tiptap-3-0-beta-the-next-gen-open-source-editor",
+   "title": "Tiptap 3.0 Beta: The Next-Gen Open Source Editor",
+   "tagline": "Text editing infrastructure, solved.",
+   "date": "2025-05-05",
+   "votes": 31,
+   "url": "https://www.ycombinator.com/launches/NR5-tiptap-3-0-beta-the-next-gen-open-source-editor"
+  },
+  {
+   "slug": "NI1-tiptap-editor-ui-components-and-templates",
+   "title": "Tiptap – Editor UI Components and Templates",
+   "tagline": "Build rich text editor UIs faster with free React components, templates, and a CLI",
+   "date": "2025-04-15",
+   "votes": 42,
+   "url": "https://www.ycombinator.com/launches/NI1-tiptap-editor-ui-components-and-templates"
+  },
+  {
+   "slug": "IyZ-tiptap-the-developer-toolkit-for-building-collaborative-apps",
+   "title": "⚫️ Tiptap – The developer toolkit for building collaborative apps",
+   "tagline": "Build apps like Notion or Google Docs with Tiptap's open-source content editing and real-time collaboration suite.",
+   "date": "2023-07-11",
+   "votes": 369,
+   "url": "https://www.ycombinator.com/launches/IyZ-tiptap-the-developer-toolkit-for-building-collaborative-apps"
+  }
+ ]
 }

@@ -1,0 +1,39 @@
+{
+ "slug": "anythingllm",
+ "name": "AnythingLLM",
+ "batch": "S22",
+ "website": "https://anythingllm.com",
+ "github_url": "https://github.com/Mintplex-Labs",
+ "tags": [
+  "Artificial Intelligence",
+  "Open Source",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 4,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Timothy Carambat",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LnQ-anythingllm-the-all-in-one-desktop-ai-assistant",
+   "title": "AnythingLLM - The all-in-one desktop AI assistant",
+   "tagline": "An all-in-one desktop assistant for RAG, AI agents, and more with privacy by default built for everyday people.",
+   "date": "2024-09-05",
+   "votes": 5,
+   "url": "https://www.ycombinator.com/launches/LnQ-anythingllm-the-all-in-one-desktop-ai-assistant"
+  }
+ ],
+ "page_repos": [
+  "Mintplex-Labs/anything-llm",
+  "anything-llm/anythingllm"
+ ],
+ "fetched_at": "2026-06-07T15:58:10+00:00"
+}

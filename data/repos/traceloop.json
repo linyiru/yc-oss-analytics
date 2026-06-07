@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Know what your LLM is doing — and why it’s failing",
   "website": "https://www.traceloop.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "Tel Aviv-Yafo, Israel",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Nir Gazit",
+    "title": "Co-Founder & CEO"
+   },
+   {
+    "name": "Gal Kleinman",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 7179,
@@ -3887,5 +3900,15 @@
    "first1000_net_pct": 76,
    "lifetime_net_pct": 48
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Nco-traceloop-llm-reliability-platform-powered-by-opentelemetry",
+   "title": "Traceloop: LLM Reliability Platform, powered by OpenTelemetry",
+   "tagline": "Know what your AI Agent is doing — and why it’s failing",
+   "date": "2025-05-28",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/Nco-traceloop-llm-reliability-platform-powered-by-opentelemetry"
+  }
+ ]
 }

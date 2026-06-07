@@ -7,7 +7,14 @@
   "status": "Acquired",
   "one_liner": "Open-source time-series data analytics extension for PostgreSQL",
   "website": "http://www.pipelinedb.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "Los Angeles, CA",
+  "founders": [
+   {
+    "name": "Derek Nelson",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2663,

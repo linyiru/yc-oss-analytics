@@ -7,7 +7,24 @@
   "status": "Acquired",
   "one_liner": "LLM Observability for Developers",
   "website": "https://www.helicone.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Justin Torre",
+    "title": "CEO / Founder"
+   },
+   {
+    "name": "Barak Oshri",
+    "title": "Founder"
+   },
+   {
+    "name": "Scott Nguyen",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 5782,
@@ -4690,5 +4707,15 @@
    "first1000_net_pct": 85,
    "lifetime_net_pct": 81
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "I73-helicone-open-source-observability-platform-for-generative-ai",
+   "title": "Helicone - Open-source observability platform for generative AI",
+   "tagline": "Log requests made to OpenAI and track costs, result quality, and latency with one line of code",
+   "date": "2023-02-23",
+   "votes": 52,
+   "url": "https://www.ycombinator.com/launches/I73-helicone-open-source-observability-platform-for-generative-ai"
+  }
+ ]
 }

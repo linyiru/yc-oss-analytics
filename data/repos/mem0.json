@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The Memory layer for AI Agents",
   "website": "https://mem0.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Taranjeet Singh",
+    "title": "Founder"
+   },
+   {
+    "name": "Deshraj Yadav",
+    "title": "Co-Founder and CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 57891,
@@ -4915,5 +4928,15 @@
    "first1000_net_pct": 65,
    "lifetime_net_pct": 60
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "LpA-mem0-open-source-memory-layer-for-ai-apps",
+   "title": "Mem0 - Open Source Memory Layer for AI Apps",
+   "tagline": "Mem0 adds memory to AI applications, solving the problem of repetitive, stateless interactions and enabling personalized, cost-efficient AI experiences.",
+   "date": "2024-09-10",
+   "votes": 634,
+   "url": "https://www.ycombinator.com/launches/LpA-mem0-open-source-memory-layer-for-ai-apps"
+  }
+ ]
 }

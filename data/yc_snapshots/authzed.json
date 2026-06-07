@@ -1,0 +1,37 @@
+{
+ "slug": "authzed",
+ "name": "authzed",
+ "batch": "W21",
+ "website": "https://authzed.com",
+ "github_url": "https://github.com/authzed",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Security",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 31,
+ "location": "New York",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Jake Moshenko",
+   "title": "Founder"
+  },
+  {
+   "name": "Jimmy Zelinskie",
+   "title": "Founder"
+  },
+  {
+   "name": "Joseph Schorr",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:12+00:00"
+}

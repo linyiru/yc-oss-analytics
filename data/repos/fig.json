@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal.",
   "website": "http://fig.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Brendan Falk",
+    "title": "Founder"
+   },
+   {
+    "name": "Matt Schrage",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 25190,

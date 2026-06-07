@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Empowering anyone to build  cellular network",
   "website": "http://www.ukama.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "Pleasanton, CA",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Kashif Ali",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 129,

@@ -13,8 +13,18 @@ export function trendsView() {
   const licenses = Object.entries(lic)
     .map(([name, count]) => ({ name: name === 'NOASSERTION' ? 'Custom / Other' : name, count }))
     .sort((a, b) => b.count - a.count);
+
+  // Company outcomes (survivorship made visible) — from YC's own ycdc_status.
+  const order = ['Active', 'Acquired', 'Public', 'Inactive'];
+  const oc: Record<string, number> = {};
+  for (const r of repos) { const s = (r as any).yc?.status; if (s) oc[s] = (oc[s] ?? 0) + 1; }
+  const withStatus = Object.values(oc).reduce((a, b) => a + b, 0);
+  const outcomes = order.filter((s) => oc[s]).map((name) => ({ name, count: oc[name] }));
+  const notActive = withStatus - (oc['Active'] ?? 0);
+
   return {
     licenses,
+    outcomes, withStatus, notActive,
     count: repos.length,
     langSet: languages,
     byYear: years.map((y) => ({

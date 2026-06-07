@@ -1,0 +1,32 @@
+{
+ "slug": "evidently-ai",
+ "name": "Evidently AI",
+ "batch": "S21",
+ "website": "https://evidentlyai.com",
+ "github_url": "https://github.com/evidentlyai",
+ "tags": [
+  "Developer Tools",
+  "Machine Learning",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 2,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Elena Samuylova",
+   "title": "Founder"
+  },
+  {
+   "name": "Emeli Dral",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:21+00:00"
+}

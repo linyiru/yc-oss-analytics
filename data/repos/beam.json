@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "AI-Native Cloud Platform",
   "website": "https://beam.cloud",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "New York",
+  "founders": [
+   {
+    "name": "Eli Mernit",
+    "title": "Founder"
+   },
+   {
+    "name": "Luke Lombardi",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1663,
@@ -2175,5 +2187,15 @@
    "first1000_net_pct": 72,
    "lifetime_net_pct": 72
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OuS-beam-open-source-modal-alternative",
+   "title": "Beam - Open Source Modal Alternative",
+   "tagline": "Run GPU inference, background jobs, and sandboxes with ultrafast boot times and no vendor lock-in.",
+   "date": "2025-11-25",
+   "votes": 46,
+   "url": "https://www.ycombinator.com/launches/OuS-beam-open-source-modal-alternative"
+  }
+ ]
 }

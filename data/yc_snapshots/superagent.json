@@ -1,0 +1,77 @@
+{
+ "slug": "superagent",
+ "name": "Superagent",
+ "batch": "W24",
+ "website": "https://superagent.sh/",
+ "github_url": "https://github.com/superagent-ai/",
+ "tags": [
+  "Artificial Intelligence",
+  "Security",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Alan Zabihi",
+   "title": "Founder"
+  },
+  {
+   "name": "Ismail Pelaseyed",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OVA-superagent-defender-of-ai-agents",
+   "title": "Superagent — Defender of AI agents 🥷",
+   "tagline": "Superagent protects AI agents from attacks and data leaks",
+   "date": "2025-09-29",
+   "votes": 14,
+   "url": "https://www.ycombinator.com/launches/OVA-superagent-defender-of-ai-agents"
+  },
+  {
+   "slug": "OKj-superagent-the-ai-firewall",
+   "title": "Superagent — the AI Firewall 🥷🔥",
+   "tagline": "Stops prompt injections, backdoors, and data leaks.",
+   "date": "2025-09-03",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/OKj-superagent-the-ai-firewall"
+  },
+  {
+   "slug": "OAr-vibekit-the-safety-layer-for-your-coding-agent",
+   "title": "VibeKit 🖖 The Safety Layer for Your Coding Agent",
+   "tagline": "Open-source sandboxing and observability for Claude Code, Gemini CLI, et al.",
+   "date": "2025-08-12",
+   "votes": 11,
+   "url": "https://www.ycombinator.com/launches/OAr-vibekit-the-safety-layer-for-your-coding-agent"
+  },
+  {
+   "slug": "Nhx-vibekit-run-coding-agents-in-a-secure-sandbox",
+   "title": "VibeKit 🖖 Run coding agents in a secure sandbox",
+   "tagline": "Embed OpenAI Codex or Claude Code directly into your app.",
+   "date": "2025-06-09",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/Nhx-vibekit-run-coding-agents-in-a-secure-sandbox"
+  },
+  {
+   "slug": "Kds-superagent-run-any-workflow-using-ai",
+   "title": "🥷 Superagent - Run any workflow using AI",
+   "tagline": "Open-source platform that allows anyone to build AI-agent workflows",
+   "date": "2024-03-13",
+   "votes": 89,
+   "url": "https://www.ycombinator.com/launches/Kds-superagent-run-any-workflow-using-ai"
+  }
+ ],
+ "page_repos": [
+  "homanp/superagent",
+  "superagent-ai/superagent",
+  "superagent-ai/vibekit"
+ ],
+ "fetched_at": "2026-06-07T15:58:51+00:00"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "coreos",
+ "name": "CoreOS",
+ "batch": "S13",
+ "website": "http://coreos.com",
+ "github_url": null,
+ "tags": [
+  "Open Source",
+  "DevOps"
+ ],
+ "status": "Acquired",
+ "year_founded": null,
+ "team_size": 150,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Alex Polvi",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:18+00:00"
+}

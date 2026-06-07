@@ -7,7 +7,14 @@
   "status": "Acquired",
   "one_liner": "Open source tools of modern distributed systems.",
   "website": "http://coreos.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Alex Polvi",
+    "title": "Founder/CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 51779,

@@ -1,0 +1,44 @@
+{
+ "slug": "cactus",
+ "name": "Cactus",
+ "batch": "S25",
+ "website": "https://www.cactuscompute.com/",
+ "github_url": "https://github.com/cactus-compute/cactus",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Hard Tech",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 8,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Roman Shemet",
+   "title": "Founder"
+  },
+  {
+   "name": "Henry Ndubuaku",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Nwp-cactus-deploy-ai-models-locally-on-smartphones",
+   "title": "Cactus 🌵: Deploy AI models locally on smartphones",
+   "tagline": "Cross-platform open-source framework for deploying LLMs, VLMs, Embedding, and other models locally in your apps.",
+   "date": "2025-07-11",
+   "votes": 40,
+   "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones"
+  }
+ ],
+ "page_repos": [
+  "cactus-compute/cactus"
+ ],
+ "fetched_at": "2026-06-07T15:58:14+00:00"
+}

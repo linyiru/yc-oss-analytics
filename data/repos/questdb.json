@@ -7,7 +7,23 @@
   "status": "Active",
   "one_liner": "The fastest open source time series database",
   "website": "https://questdb.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "London, United Kingdom",
+  "founders": [
+   {
+    "name": "Nicolas Hourcard",
+    "title": "Founder"
+   },
+   {
+    "name": "Tancrede Collard",
+    "title": "Founder"
+   },
+   {
+    "name": "Vlad Ilyushchenko",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 17030,
@@ -9975,5 +9991,15 @@
    "first1000_net_pct": 65,
    "lifetime_net_pct": 57
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IvM-questdb-purpose-built-database-for-financial-market-data",
+   "title": "QuestDB - Purpose built database for financial market data",
+   "tagline": "High speed ingestion, millisecond queries, and open formats.",
+   "date": "2023-07-04",
+   "votes": 31,
+   "url": "https://www.ycombinator.com/launches/IvM-questdb-purpose-built-database-for-financial-market-data"
+  }
+ ]
 }

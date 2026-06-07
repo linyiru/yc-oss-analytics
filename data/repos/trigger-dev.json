@@ -7,7 +7,28 @@
   "status": "Active",
   "one_liner": "Build and deploy fully‑managed AI agents and workflows",
   "website": "https://trigger.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "London, United Kingdom",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Matt Aitken",
+    "title": "Founder"
+   },
+   {
+    "name": "Eric Allam",
+    "title": "Founder"
+   },
+   {
+    "name": "Dan Patel",
+    "title": "Founder"
+   },
+   {
+    "name": "James Ritchie",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 15237,
@@ -5439,5 +5460,23 @@
    "first1000_net_pct": 84,
    "lifetime_net_pct": 78
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "I6a-trigger-dev-the-developer-first-open-source-zapier-alternative",
+   "title": "✨ Trigger.dev: The developer-first open source Zapier alternative",
+   "tagline": "We make it easy for developers to create powerful workflows directly in code.",
+   "date": "2023-02-23",
+   "votes": 51,
+   "url": "https://www.ycombinator.com/launches/I6a-trigger-dev-the-developer-first-open-source-zapier-alternative"
+  },
+  {
+   "slug": "HYB-api-hero-make-every-api-you-use-faster-and-more-reliable-with-one-line-of-code",
+   "title": "🦸 API Hero: make every API you use faster and more reliable with one line of code",
+   "tagline": "An open source API proxy that makes debugging and caching APIs trivial",
+   "date": "2022-11-22",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/HYB-api-hero-make-every-api-you-use-faster-and-more-reliable-with-one-line-of-code"
+  }
+ ]
 }

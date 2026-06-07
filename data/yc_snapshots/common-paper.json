@@ -1,0 +1,58 @@
+{
+ "slug": "common-paper",
+ "name": "Common Paper",
+ "batch": "W23",
+ "website": "https://commonpaper.com/",
+ "github_url": "",
+ "tags": [
+  "SaaS",
+  "Open Source",
+  "Sales",
+  "Legal",
+  "LegalTech"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 8,
+ "location": "Philadelphia, PA",
+ "country": "US",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Benjamin Garvey",
+   "title": "Founder"
+  },
+  {
+   "name": "Jake Stein",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Pt8-gerri-2-0-the-ai-agent-for-contracts-from-common-paper",
+   "title": "Gerri 2.0 - The AI Agent for Contracts from Common Paper",
+   "tagline": "Put your redlines on autopilot",
+   "date": "2026-04-07",
+   "votes": 11,
+   "url": "https://www.ycombinator.com/launches/Pt8-gerri-2-0-the-ai-agent-for-contracts-from-common-paper"
+  },
+  {
+   "slug": "OeZ-gerri-the-ai-agent-for-contract-redlines",
+   "title": "Gerri - The AI Agent for Contract Redlines",
+   "tagline": "Get your contracts reviewed before you even realize they’re in your inbox",
+   "date": "2025-10-20",
+   "votes": 19,
+   "url": "https://www.ycombinator.com/launches/OeZ-gerri-the-ai-agent-for-contract-redlines"
+  },
+  {
+   "slug": "Hk7-common-paper-faster-sales-with-standard-contracts-structured-data",
+   "title": "📃 Common Paper - Faster sales with standard contracts & structured data 📃",
+   "tagline": "Common Paper helps startups close deals with their customers faster and with less risk. ",
+   "date": "2023-01-05",
+   "votes": 63,
+   "url": "https://www.ycombinator.com/launches/Hk7-common-paper-faster-sales-with-standard-contracts-structured-data"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:17+00:00"
+}

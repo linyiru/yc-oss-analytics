@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Icons and social logos for your website.",
   "website": "http://fontawesome.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2014,
+  "location": "Bentonville, AR",
+  "founders": [
+   {
+    "name": "Dave Gandy",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Travis Chase",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 76632,

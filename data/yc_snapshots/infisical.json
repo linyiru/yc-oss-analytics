@@ -1,0 +1,48 @@
+{
+ "slug": "infisical",
+ "name": "Infisical",
+ "batch": "W23",
+ "website": "https://infisical.com",
+ "github_url": "https://github.com/Infisical/infisical",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 50,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Vlad Matsiiako",
+   "title": "Founder"
+  },
+  {
+   "name": "Tony Dang",
+   "title": "Founder"
+  },
+  {
+   "name": "Maidul Islam",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "I6Z-infisical-the-open-source-secrets-manager-for-developers",
+   "title": "💚 Infisical - The open source secrets manager for developers",
+   "tagline": "Open source, end-to-end encrypted tool that lets you securely sync secrets and configs across your team, devices, and infrastructure",
+   "date": "2023-02-23",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/I6Z-infisical-the-open-source-secrets-manager-for-developers"
+  }
+ ],
+ "page_repos": [
+  "Infisical/infisical"
+ ],
+ "fetched_at": "2026-06-07T15:58:28+00:00"
+}

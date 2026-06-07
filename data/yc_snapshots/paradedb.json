@@ -1,0 +1,33 @@
+{
+ "slug": "paradedb",
+ "name": "ParadeDB",
+ "batch": "S23",
+ "website": "https://paradedb.com",
+ "github_url": "https://github.com/paradedb",
+ "tags": [
+  "Developer Tools",
+  "Analytics",
+  "Open Source",
+  "Infrastructure",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Philippe Noël",
+   "title": "Founder"
+  },
+  {
+   "name": "Ming Ying",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:43+00:00"
+}

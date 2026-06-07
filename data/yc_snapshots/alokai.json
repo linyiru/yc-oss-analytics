@@ -1,0 +1,35 @@
+{
+ "slug": "alokai",
+ "name": "Alokai",
+ "batch": "W21",
+ "website": "https://www.alokai.com",
+ "github_url": "https://github.com/vuestorefront",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "E-commerce"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 100,
+ "location": "Warsaw, Poland",
+ "country": "PL",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Patrick Friday",
+   "title": "Founder"
+  },
+  {
+   "name": "Filip Rakowski",
+   "title": "Founder"
+  },
+  {
+   "name": "Bart Roszkowski",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:10+00:00"
+}

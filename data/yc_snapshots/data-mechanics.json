@@ -1,0 +1,32 @@
+{
+ "slug": "data-mechanics",
+ "name": "Data Mechanics",
+ "batch": "S19",
+ "website": "https://www.datamechanics.co",
+ "github_url": "",
+ "tags": [
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Acquired",
+ "year_founded": 2019,
+ "team_size": 25,
+ "location": "Paris, France",
+ "country": "FR",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Jean Yves Stephan",
+   "title": "Founder"
+  },
+  {
+   "name": "Julien Dumazert",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:19+00:00"
+}

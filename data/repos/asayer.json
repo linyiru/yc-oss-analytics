@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Open-source, self-hosted, session replay tool for developers.",
   "website": "https://www.openreplay.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2018,
+  "location": "New York City, NY",
+  "founders": [
+   {
+    "name": "Mehdi Osman",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 12090,

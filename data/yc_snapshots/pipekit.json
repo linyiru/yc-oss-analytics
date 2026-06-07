@@ -1,0 +1,32 @@
+{
+ "slug": "pipekit",
+ "name": "Pipekit",
+ "batch": "S21",
+ "website": "https://pipekit.io",
+ "github_url": "https://github.com/pipekit",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Data Engineering",
+  "DevOps"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 9,
+ "location": null,
+ "country": null,
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Caelan Urquhart",
+   "title": "Founder"
+  },
+  {
+   "name": "J.P. Zivalich",
+   "title": "Founder & CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:44+00:00"
+}

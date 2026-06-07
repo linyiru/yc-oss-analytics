@@ -1,0 +1,28 @@
+{
+ "slug": "netmaker",
+ "name": "Netmaker",
+ "batch": "W22",
+ "website": "https://netmaker.io",
+ "github_url": "https://github.com/gravitl",
+ "tags": [
+  "DevSecOps",
+  "Next-gen Network Security",
+  "Open Source",
+  "Kubernetes"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 7,
+ "location": "Asheville, NC",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Alex Feiszli",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:40+00:00"
+}

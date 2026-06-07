@@ -1,0 +1,42 @@
+{
+ "slug": "nao-labs",
+ "name": "nao Labs",
+ "batch": "P25",
+ "website": "https://getnao.io/",
+ "github_url": "https://github.com/getnao/nao",
+ "tags": [
+  "Analytics",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Claire Gouze",
+   "title": "Founder"
+  },
+  {
+   "name": "Christophe Blefari",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NW1-nao-labs-cursor-for-data",
+   "title": "nao Labs - Cursor for data",
+   "tagline": "AI code editor to write code on your data — and trust the output.",
+   "date": "2025-05-14",
+   "votes": 61,
+   "url": "https://www.ycombinator.com/launches/NW1-nao-labs-cursor-for-data"
+  }
+ ],
+ "page_repos": [
+  "getnao/nao"
+ ],
+ "fetched_at": "2026-06-07T15:58:39+00:00"
+}

@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Plan and review AI generated code",
   "website": "https://vibekanban.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "London, United Kingdom",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Louis Knight-Webb",
+    "title": "Founder"
+   },
+   {
+    "name": "Gabriel Gordon-Hall",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 26825,
@@ -1772,5 +1785,15 @@
    "first1000_net_pct": 77,
    "lifetime_net_pct": 55
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Nwy-vibe-kanban-10x-your-claude-code-usage",
+   "title": "Vibe Kanban - 10X your Claude Code usage",
+   "tagline": "Run coding agents in parallel, streamline review and planning",
+   "date": "2025-07-11",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/Nwy-vibe-kanban-10x-your-claude-code-usage"
+  }
+ ]
 }

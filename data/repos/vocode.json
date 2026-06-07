@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open source Voice AI",
   "website": "https://vocode.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Kian Hooshmand",
+    "title": "Founder"
+   },
+   {
+    "name": "Ajay Raj",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3756,
@@ -3802,5 +3815,15 @@
    "first1000_net_pct": 72,
    "lifetime_net_pct": 68
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IA1-vocode-open-source-voice-ai-on-top-of-llms",
+   "title": "🤖 Vocode: Open source voice AI on top of LLMs",
+   "tagline": "Build conversational agents in less than 10 lines of code",
+   "date": "2023-03-01",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/IA1-vocode-open-source-voice-ai-on-top-of-llms"
+  }
+ ]
 }

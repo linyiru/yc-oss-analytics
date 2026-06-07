@@ -1,0 +1,33 @@
+{
+ "slug": "hyperdx",
+ "name": "HyperDX",
+ "batch": "S22",
+ "website": "https://hyperdx.io/",
+ "github_url": "https://github.com/hyperdxio",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 4,
+ "location": "San Mateo, CA",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Michael Shi",
+   "title": "Founder"
+  },
+  {
+   "name": "Warren Lee",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:28+00:00"
+}

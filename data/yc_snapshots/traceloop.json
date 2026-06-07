@@ -1,0 +1,44 @@
+{
+ "slug": "traceloop",
+ "name": "Traceloop",
+ "batch": "W23",
+ "website": "https://www.traceloop.com",
+ "github_url": "https://github.com/traceloop",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 9,
+ "location": "Tel Aviv-Yafo, Israel",
+ "country": "IL",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Nir Gazit",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "Gal Kleinman",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Nco-traceloop-llm-reliability-platform-powered-by-opentelemetry",
+   "title": "Traceloop: LLM Reliability Platform, powered by OpenTelemetry",
+   "tagline": "Know what your AI Agent is doing — and why it’s failing",
+   "date": "2025-05-28",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/Nco-traceloop-llm-reliability-platform-powered-by-opentelemetry"
+  }
+ ],
+ "page_repos": [
+  "traceloop/hub",
+  "traceloop/openllmetry"
+ ],
+ "fetched_at": "2026-06-07T15:58:53+00:00"
+}

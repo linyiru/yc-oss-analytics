@@ -1,0 +1,29 @@
+{
+ "slug": "shuttle",
+ "name": "Shuttle",
+ "batch": "S20",
+ "website": "https://www.shuttle.dev",
+ "github_url": "https://github.com/shuttle-hq",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "DevOps"
+ ],
+ "status": "Active",
+ "year_founded": 2019,
+ "team_size": 12,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Nodar Daneliya",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:48+00:00"
+}

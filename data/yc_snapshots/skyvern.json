@@ -1,0 +1,103 @@
+{
+ "slug": "skyvern",
+ "name": "Skyvern",
+ "batch": "S23",
+ "website": "https://www.skyvern.com/",
+ "github_url": "",
+ "tags": [
+  "Artificial Intelligence",
+  "Robotic Process Automation",
+  "Workflow Automation",
+  "Open Source",
+  "API"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 6,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Suchintan Singh",
+   "title": "Founder"
+  },
+  {
+   "name": "Shuchang Zheng",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Odo-skyvern-asking-ai-to-build-scrapers-should-be-easy-right",
+   "title": "Skyvern: Asking AI to build scrapers should be easy right?",
+   "tagline": "Let AI maintain those pesky scrapers",
+   "date": "2025-10-17",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/Odo-skyvern-asking-ai-to-build-scrapers-should-be-easy-right"
+  },
+  {
+   "slug": "NdK-web-bench-a-new-way-to-compare-ai-browser-agents",
+   "title": "📊 Web Bench - A new way to compare AI Browser Agents",
+   "tagline": "Expanding on the foundations of WebVoyager",
+   "date": "2025-05-29",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/NdK-web-bench-a-new-way-to-compare-ai-browser-agents"
+  },
+  {
+   "slug": "NDG-skyvern-mcp-server-let-agents-control-your-browser",
+   "title": "🐉 Skyvern MCP Server: let agents control your browser",
+   "tagline": "Meet Skyvern, an open source AI agent that can control your browser and complete complex tasks",
+   "date": "2025-04-03",
+   "votes": 8,
+   "url": "https://www.ycombinator.com/launches/NDG-skyvern-mcp-server-let-agents-control-your-browser"
+  },
+  {
+   "slug": "MbX-skyvern-2-0-state-of-the-art-web-navigation-with-85-8-on-webvoyager-eval",
+   "title": "Skyvern 2.0 - State-of-the-art web navigation with 85.8% on WebVoyager Eval",
+   "tagline": "Open source AI Web Agent",
+   "date": "2025-01-16",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/MbX-skyvern-2-0-state-of-the-art-web-navigation-with-85-8-on-webvoyager-eval"
+  },
+  {
+   "slug": "MQI-skyvern-s-contact-form-agent-automate-contact-form-submissions-with-ai",
+   "title": "🐉 Skyvern's Contact Form Agent: Automate contact form submissions with AI",
+   "tagline": "Cold outbound is the worst. Try this new form of outbound instead!",
+   "date": "2024-12-10",
+   "votes": 8,
+   "url": "https://www.ycombinator.com/launches/MQI-skyvern-s-contact-form-agent-automate-contact-form-submissions-with-ai"
+  },
+  {
+   "slug": "LEg-skyvern-cloud-open-source-ai-agent-to-automate-browser-based-workflows",
+   "title": "🐉 Skyvern Cloud - Open source AI Agent to automate browser based workflows",
+   "tagline": "The easiest way to automate similar tasks on a lot of different websites",
+   "date": "2024-06-20",
+   "votes": 35,
+   "url": "https://www.ycombinator.com/launches/LEg-skyvern-cloud-open-source-ai-agent-to-automate-browser-based-workflows"
+  },
+  {
+   "slug": "KCf-skyvern-automate-browser-based-workflows-with-ai",
+   "title": "🐉 Skyvern - Automate Browser-based workflows with AI",
+   "tagline": "Automate manual workflows within your company with an AI Agent",
+   "date": "2024-01-19",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/KCf-skyvern-automate-browser-based-workflows-with-ai"
+  },
+  {
+   "slug": "IvI-wyvern-ai-increase-revenue-in-marketplaces-with-better-product-ranking",
+   "title": "🐉 Wyvern AI - Increase revenue in marketplaces with better product ranking",
+   "tagline": "With Wyvern, not only do marketplaces get better product ranking, they get the ability to fine-tune the ranking with unique insights about their business",
+   "date": "2023-07-05",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/IvI-wyvern-ai-increase-revenue-in-marketplaces-with-better-product-ranking"
+  }
+ ],
+ "page_repos": [
+  "Halluminate/WebBench",
+  "Skyvern-AI/Skyvern",
+  "Skyvern-AI/skyvern",
+  "bytedance/UI-TARS"
+ ],
+ "fetched_at": "2026-06-07T15:58:49+00:00"
+}

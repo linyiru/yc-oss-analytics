@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Build in a weekend. Scale to millions.",
   "website": "https://supabase.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Paul Copplestone",
+    "title": "Founder"
+   },
+   {
+    "name": "Ant Wilson",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 103692,

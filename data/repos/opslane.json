@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Deploy to Kubernetes in minutes",
   "website": "https://opslane.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Abhishek Ray",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 113,
@@ -413,5 +421,15 @@
    "first1000_net_pct": 61,
    "lifetime_net_pct": 61
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "LRt-opslane-making-on-call-suck-less",
+   "title": "Opslane – Making on-call suck less",
+   "tagline": "We reduce alert fatigue for on-call teams.",
+   "date": "2024-07-26",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/LRt-opslane-making-on-call-suck-less"
+  }
+ ]
 }

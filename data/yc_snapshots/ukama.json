@@ -1,0 +1,28 @@
+{
+ "slug": "ukama",
+ "name": "Ukama",
+ "batch": "S20",
+ "website": "http://www.ukama.com",
+ "github_url": "https://github.com/ukama/",
+ "tags": [
+  "Hard Tech",
+  "Hardware",
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 7,
+ "location": "Pleasanton, CA",
+ "country": "US",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Kashif Ali",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:55+00:00"
+}

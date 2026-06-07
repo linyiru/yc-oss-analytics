@@ -7,7 +7,18 @@
   "status": "Acquired",
   "one_liner": "The open source database for the realtime web.",
   "website": "http://rethinkdb.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Michael Glukhovsky",
+    "title": "Founder"
+   },
+   {
+    "name": "Slava Akhmechet",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 26999,

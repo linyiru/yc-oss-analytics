@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Open-source platform to turn scripts into internal apps & workflows",
   "website": "https://windmill.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Paris, France",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Ruben Fiszel",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 16664,
@@ -6271,5 +6280,15 @@
    "first1000_net_pct": 79,
    "lifetime_net_pct": 77
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Gye-windmill-turn-scripts-into-internal-apps-and-workflows",
+   "title": "Windmill: Turn scripts into internal apps and workflows",
+   "tagline": "Fully open-source developer platform to turn any python, typescript, SQL into internal apps, integrations and workflows",
+   "date": "2022-08-10",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/Gye-windmill-turn-scripts-into-internal-apps-and-workflows"
+  }
+ ]
 }

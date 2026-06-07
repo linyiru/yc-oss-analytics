@@ -1,0 +1,42 @@
+{
+ "slug": "magnitude",
+ "name": "Magnitude",
+ "batch": "S25",
+ "website": "https://magnitude.dev",
+ "github_url": "https://github.com/magnitudedev",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Tom Greenwald",
+   "title": "Founder"
+  },
+  {
+   "name": "Anders Lie",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OD3-sidekick-automation-for-the-rest-of-us",
+   "title": "Sidekick - Automation for the rest of us",
+   "tagline": "Just describe what you want and watch the automation build itself",
+   "date": "2025-08-17",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/OD3-sidekick-automation-for-the-rest-of-us"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:35+00:00"
+}

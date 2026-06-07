@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
   "website": "https://mastra.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Sam Bhagwat",
+    "title": "Founder"
+   },
+   {
+    "name": "Abhi Aiyer",
+    "title": "Founder"
+   },
+   {
+    "name": "Shane Thomas",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 24824,
@@ -2819,5 +2836,15 @@
    "first1000_net_pct": 57,
    "lifetime_net_pct": 63
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Muk-mastra-the-open-source-javascript-framework-for-building-agents",
+   "title": "Mastra: the open-source JavaScript framework for building agents",
+   "tagline": "If you hate Langchain, you'll love Mastra :) ",
+   "date": "2025-02-27",
+   "votes": 172,
+   "url": "https://www.ycombinator.com/launches/Muk-mastra-the-open-source-javascript-framework-for-building-agents"
+  }
+ ]
 }

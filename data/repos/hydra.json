@@ -7,7 +7,16 @@
   "status": "Acquired",
   "one_liner": "Serverless Analytics on Postgres",
   "website": "https://hydra.so",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "partner": "Tom Blomfield",
+  "founders": [
+   {
+    "name": "Joseph Sciarrino",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3124,
@@ -2413,5 +2422,15 @@
    "first1000_net_pct": 78,
    "lifetime_net_pct": 75
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "N0V-hydra-serverless-realtime-analytics-on-postgres",
+   "title": "Hydra: Serverless Realtime Analytics on Postgres",
+   "tagline": "Unlock realtime analytics on live data in seconds",
+   "date": "2025-03-11",
+   "votes": 8,
+   "url": "https://www.ycombinator.com/launches/N0V-hydra-serverless-realtime-analytics-on-postgres"
+  }
+ ]
 }

@@ -38,12 +38,23 @@ def fetch_company(slug):
     except Exception:
         return None
     page_repos = sorted(set(re.findall(r"github\.com/([A-Za-z0-9_-]+/[A-Za-z0-9_.-]+)", out)))
+    gp = c.get("primary_group_partner")
+    partner = gp.get("full_name") if isinstance(gp, dict) else gp
+    launches = []
+    for l in (d["props"].get("launches") or []):
+        launches.append({
+            "slug": l.get("slug"), "title": l.get("title"), "tagline": l.get("tagline"),
+            "date": (l.get("created_at") or "")[:10], "votes": l.get("total_vote_count") or 0,
+            "url": l.get("url"),
+        })
     return {
         "slug": c.get("slug"), "name": c.get("name"), "batch": c.get("batch"),
         "website": c.get("website"), "github_url": c.get("github_url"),
-        "tags": c.get("tags"), "status": c.get("ycdc_status"), "year_founded": c.get("year_founded"),
-        "founders": [f.get("full_name") for f in (c.get("founders") or [])],
-        "launches": [l.get("slug") for l in (d["props"].get("launches") or []) if l.get("slug")],
+        "tags": c.get("tags"), "status": c.get("ycdc_status"),
+        "year_founded": c.get("year_founded"), "team_size": c.get("team_size"),
+        "location": c.get("location"), "country": c.get("country"), "partner": partner,
+        "founders": [{"name": f.get("full_name"), "title": f.get("title")} for f in (c.get("founders") or [])],
+        "launches": launches,
         "page_repos": page_repos,
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }

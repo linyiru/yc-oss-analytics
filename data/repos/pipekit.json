@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Pipekit scales data & CI pipelines for enterprises",
   "website": "https://pipekit.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Caelan Urquhart",
+    "title": "Founder"
+   },
+   {
+    "name": "J.P. Zivalich",
+    "title": "Founder & CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 27,

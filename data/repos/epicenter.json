@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "ChatGPT's memory feature in an open, portable format",
   "website": "https://epicenter.so",
-  "industry": "Consumer"
+  "industry": "Consumer",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Braden Wong",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4605,
@@ -2941,5 +2950,23 @@
    "first1000_net_pct": 61,
    "lifetime_net_pct": 64
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips",
+   "title": "Whispering: Local-First, Open-Source Speech to Text at Your Fingertips",
+   "tagline": "Own your data. Use any model you want. Free and open source.❤️",
+   "date": "2025-08-12",
+   "votes": 24,
+   "url": "https://www.ycombinator.com/launches/OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips"
+  },
+  {
+   "slug": "O80-epicenter-a-database-for-your-mind-built-on-plain-text",
+   "title": "Epicenter: A Database for Your Mind, Built on Plain Text",
+   "tagline": "A shared workspace for everything you think, write, and build.",
+   "date": "2025-08-05",
+   "votes": 33,
+   "url": "https://www.ycombinator.com/launches/O80-epicenter-a-database-for-your-mind-built-on-plain-text"
+  }
+ ]
 }

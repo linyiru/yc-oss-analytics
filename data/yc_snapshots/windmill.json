@@ -1,0 +1,40 @@
+{
+ "slug": "windmill",
+ "name": "Windmill",
+ "batch": "S22",
+ "website": "https://windmill.dev",
+ "github_url": "https://github.com/windmill-labs/windmill",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Workflow Automation",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 7,
+ "location": "Paris, France",
+ "country": "FR",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Ruben Fiszel",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Gye-windmill-turn-scripts-into-internal-apps-and-workflows",
+   "title": "Windmill: Turn scripts into internal apps and workflows",
+   "tagline": "Fully open-source developer platform to turn any python, typescript, SQL into internal apps, integrations and workflows",
+   "date": "2022-08-10",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/Gye-windmill-turn-scripts-into-internal-apps-and-workflows"
+  }
+ ],
+ "page_repos": [
+  "windmill-labs/windmill"
+ ],
+ "fetched_at": "2026-06-07T15:58:57+00:00"
+}

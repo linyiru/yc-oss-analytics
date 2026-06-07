@@ -1,0 +1,56 @@
+{
+ "slug": "langfuse",
+ "name": "Langfuse",
+ "batch": "W23",
+ "website": "https://langfuse.com",
+ "github_url": "https://github.com/langfuse/langfuse",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "Analytics",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 19,
+ "location": "Berlin, Germany",
+ "country": "DE",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Marc Klingen",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "Maximilian Deichmann",
+   "title": "Founder"
+  },
+  {
+   "name": "Clemens Rawert",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "MgN-langfuse-the-open-source-llm-engineering-platform",
+   "title": "🪢 Langfuse - The Open-Source LLM Engineering Platform",
+   "tagline": "Langfuse helps teams collaboratively monitor, evaluate and debug their LLM applications.",
+   "date": "2025-01-27",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/MgN-langfuse-the-open-source-llm-engineering-platform"
+  },
+  {
+   "slug": "J2s-langfuse-open-source-product-analytics-for-llm-apps",
+   "title": "🪢 Langfuse - Open-source product analytics for LLM apps",
+   "tagline": "Track quality, cost and latency of your LLM apps",
+   "date": "2023-07-19",
+   "votes": 28,
+   "url": "https://www.ycombinator.com/launches/J2s-langfuse-open-source-product-analytics-for-llm-apps"
+  }
+ ],
+ "page_repos": [
+  "langfuse/langfuse"
+ ],
+ "fetched_at": "2026-06-07T15:58:32+00:00"
+}

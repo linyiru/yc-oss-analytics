@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Easiest way to set up Zero Trust Access for your team",
   "website": "https://www.firezone.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Jamil Bou Kheir",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 8637,

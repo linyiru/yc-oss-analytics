@@ -1,0 +1,41 @@
+{
+ "slug": "formance",
+ "name": "Formance",
+ "batch": "S21",
+ "website": "https://formance.com",
+ "github_url": "https://github.com/formancehq",
+ "tags": [
+  "Developer Tools",
+  "Fintech",
+  "Payments",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 30,
+ "location": "Paris, France",
+ "country": "FR",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Clément Salaün",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Glc-formance-open-modular-foundation-for-unique-payment-flows",
+   "title": "💸 Formance: Open, modular foundation for unique payment flows",
+   "tagline": "Build, operate and track money movements of any size and shape on a solid and open-source system-of-record (ledger)",
+   "date": "2022-07-08",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/Glc-formance-open-modular-foundation-for-unique-payment-flows"
+  }
+ ],
+ "page_repos": [
+  "formancehq/stack",
+  "numary/ledger"
+ ],
+ "fetched_at": "2026-06-07T15:58:24+00:00"
+}

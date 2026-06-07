@@ -1,0 +1,28 @@
+{
+ "slug": "supertokens",
+ "name": "SuperTokens",
+ "batch": "S20",
+ "website": "https://supertokens.com",
+ "github_url": "https://github.com/supertokens",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2019,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Advait Ruia",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:52+00:00"
+}

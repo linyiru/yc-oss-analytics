@@ -180,7 +180,7 @@ export function Footer() {
       <div className="wrap row spread" style={{ flexWrap: 'wrap', gap: '24px 40px', alignItems: 'flex-start' }}>
         <div className="col gap-2" style={{ maxWidth: 380 }}>
           <Logo />
-          <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.6 }}>Independent analytics derived from public git history & GitHub metadata of ~164 Y Combinator open-source companies. Not affiliated with Y Combinator.</p>
+          <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.6 }}>Independent analytics derived from public git history & GitHub metadata of ~163 Y Combinator open-source companies. Not affiliated with Y Combinator.</p>
         </div>
         <div className="col gap-3" style={{ alignItems: 'flex-start' }}>
           <span className="eyebrow">Built &amp; maintained by</span>

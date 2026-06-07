@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "The open-source context layer for data agents",
   "website": "https://kaelio.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Luca Martial",
+    "title": "Co-founder & CEO"
+   },
+   {
+    "name": "Andrey Avtomonov",
+    "title": "Co-founder & CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 928,
@@ -479,5 +491,15 @@
    "first1000_net_pct": 61,
    "lifetime_net_pct": 61
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "QYZ-kaelio-open-source-context-layer-for-data-agents",
+   "title": "Kaelio: Open-source context layer for data agents",
+   "tagline": "We give data agents the context they need to be reliable on your data stack.",
+   "date": "2026-05-28",
+   "votes": 6,
+   "url": "https://www.ycombinator.com/launches/QYZ-kaelio-open-source-context-layer-for-data-agents"
+  }
+ ]
 }

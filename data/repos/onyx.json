@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open Source AI Chat",
   "website": "https://www.onyx.app/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Yuhong Sun",
+    "title": "Founder"
+   },
+   {
+    "name": "Chris Weaver",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 30050,
@@ -4942,5 +4955,15 @@
    "first1000_net_pct": 73,
    "lifetime_net_pct": 62
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KGf-onyx-open-source-unified-search",
+   "title": "Onyx - Open Source Unified Search",
+   "tagline": "Connect to all your team’s tools (like Confluence, Google Drive, Slack, Notion, etc.) for a single place to Search and Chat with your team’s documents",
+   "date": "2024-01-29",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/KGf-onyx-open-source-unified-search"
+  }
+ ]
 }

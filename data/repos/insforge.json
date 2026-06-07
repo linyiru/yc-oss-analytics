@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The agent-native cloud infrastructure platform",
   "website": "https://insforge.dev/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Hang Huang",
+    "title": "Co-founder & CEO"
+   },
+   {
+    "name": "Tony Chang",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 11407,
@@ -1422,5 +1435,15 @@
    "first1000_net_pct": 38,
    "lifetime_net_pct": 35
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "QP6-insforge-the-backend-platform-for-ai-native-developers",
+   "title": "InsForge: The backend platform for AI-native developers",
+   "tagline": "Let your coding agent deploy, operate, and debug your backend end-to-end",
+   "date": "2026-05-18",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/QP6-insforge-the-backend-platform-for-ai-native-developers"
+  }
+ ]
 }

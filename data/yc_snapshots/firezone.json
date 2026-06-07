@@ -1,0 +1,29 @@
+{
+ "slug": "firezone",
+ "name": "Firezone",
+ "batch": "W22",
+ "website": "https://www.firezone.dev",
+ "github_url": "https://github.com/firezone",
+ "tags": [
+  "DevSecOps",
+  "Next-gen Network Security",
+  "B2B",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Jamil Bou Kheir",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:23+00:00"
+}

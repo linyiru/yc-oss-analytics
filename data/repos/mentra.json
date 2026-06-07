@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Building the open source smart glasses operating system.",
   "website": "https://mentra.glass",
-  "industry": "Consumer"
+  "industry": "Consumer",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Cayden Pierce",
+    "title": "Founder"
+   },
+   {
+    "name": "Alexander Israelov",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2014,

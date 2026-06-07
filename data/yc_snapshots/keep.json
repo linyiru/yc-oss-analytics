@@ -1,0 +1,43 @@
+{
+ "slug": "keep",
+ "name": "Keep",
+ "batch": "W23",
+ "website": "https://www.keephq.dev",
+ "github_url": "",
+ "tags": [
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Monitoring"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 5,
+ "location": "Tel Aviv-Yafo, Israel",
+ "country": "IL",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Tal Borenstein",
+   "title": "Founder"
+  },
+  {
+   "name": "Shahar Glazner",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IEY-keep-open-source-alerting-cli",
+   "title": "Keep - Open source alerting CLI",
+   "tagline": "Open source alerting CLI for all observability tools, with a simple and intuitive (GitHub actions-like) syntax.",
+   "date": "2023-03-09",
+   "votes": 44,
+   "url": "https://www.ycombinator.com/launches/IEY-keep-open-source-alerting-cli"
+  }
+ ],
+ "page_repos": [
+  "keephq/keep"
+ ],
+ "fetched_at": "2026-06-07T15:58:30+00:00"
+}

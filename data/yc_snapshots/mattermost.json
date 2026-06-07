@@ -1,0 +1,28 @@
+{
+ "slug": "mattermost",
+ "name": "Mattermost",
+ "batch": "S12",
+ "website": "http://mattermost.com",
+ "github_url": "https://github.com/mattermost",
+ "tags": [
+  "DevSecOps",
+  "Collaboration",
+  "Security",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2016,
+ "team_size": 120,
+ "location": "Palo Alto",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Ian Tien",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:36+00:00"
+}

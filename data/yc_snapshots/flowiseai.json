@@ -1,0 +1,51 @@
+{
+ "slug": "flowiseai",
+ "name": "FlowiseAI",
+ "batch": "S23",
+ "website": "https://flowiseai.com",
+ "github_url": "https://github.com/FlowiseAI",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Generative AI",
+  "Open Source"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 5,
+ "location": null,
+ "country": null,
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Henry Heng",
+   "title": "Founder"
+  },
+  {
+   "name": "Chung Yau Ong",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NVQ-flowise-3-0-build-ai-agents-visually",
+   "title": "Flowise 3.0 - Build AI Agents, Visually",
+   "tagline": "Build any agentic system from just an idea",
+   "date": "2025-05-13",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/NVQ-flowise-3-0-build-ai-agents-visually"
+  },
+  {
+   "slug": "Ivo-flowise-low-code-llm-apps-builder",
+   "title": "Flowise - Low-code LLM apps builder",
+   "tagline": "An open source drag & drop tool to build your customized LLM flow",
+   "date": "2023-07-05",
+   "votes": 70,
+   "url": "https://www.ycombinator.com/launches/Ivo-flowise-low-code-llm-apps-builder"
+  }
+ ],
+ "page_repos": [
+  "FlowiseAI/Flowise"
+ ],
+ "fetched_at": "2026-06-07T15:58:23+00:00"
+}

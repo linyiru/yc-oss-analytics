@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The orchestration platform for teams who ship.",
   "website": "https://hatchet.run",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "New York",
+  "partner": "David Lieb",
+  "founders": [
+   {
+    "name": "Alexander Belanger",
+    "title": "Founder"
+   },
+   {
+    "name": "Gabe Ruttner",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 7301,
@@ -3540,5 +3553,15 @@
    "first1000_net_pct": 82,
    "lifetime_net_pct": 80
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "KcM-hatchet-background-task-orchestration-and-visibility-platform",
+   "title": "Hatchet - Background task orchestration and visibility platform",
+   "tagline": "We help engineers run fast and reliable background tasks",
+   "date": "2024-03-11",
+   "votes": 57,
+   "url": "https://www.ycombinator.com/launches/KcM-hatchet-background-task-orchestration-and-visibility-platform"
+  }
+ ]
 }

@@ -1,0 +1,37 @@
+{
+ "slug": "arroyo",
+ "name": "Arroyo",
+ "batch": "W23",
+ "website": "https://www.arroyo.dev",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "Cloud Computing"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "Berkeley, CA",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Micah Wylde",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Hzj-arroyo-serverless-stream-processing",
+   "title": "Arroyo - Serverless stream processing",
+   "tagline": "Build real-time data pipelines in SQL without a real-time platform team",
+   "date": "2023-02-09",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/Hzj-arroyo-serverless-stream-processing"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:11+00:00"
+}

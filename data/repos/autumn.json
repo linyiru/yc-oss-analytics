@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Billing infrastructure for AI",
   "website": "https://useautumn.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "London, United Kingdom",
+  "partner": "Pete Koomen",
+  "founders": [
+   {
+    "name": "Ayush Rodrigues",
+    "title": "Founder"
+   },
+   {
+    "name": "John Yeo",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2577,
@@ -1680,5 +1693,15 @@
    "first1000_net_pct": 79,
    "lifetime_net_pct": 78
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "O7l-autumn-stripe-for-ai-startups",
+   "title": "Autumn: Stripe for AI Startups",
+   "tagline": "Autumn makes Stripe 10x easier to integrate and manages your billing infra as you grow",
+   "date": "2025-08-05",
+   "votes": 59,
+   "url": "https://www.ycombinator.com/launches/O7l-autumn-stripe-for-ai-startups"
+  }
+ ]
 }

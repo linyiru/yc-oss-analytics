@@ -1,0 +1,41 @@
+{
+ "slug": "stagewise",
+ "name": "stagewise",
+ "batch": "S25",
+ "website": "https://stagewise.io",
+ "github_url": "https://github.com/stagewise-io",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Web Development"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Glenn Töws",
+   "title": "Founder"
+  },
+  {
+   "name": "Julian Goetze",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "O3M-stagewise-the-frontend-coding-agent-for-production-codebases",
+   "title": "stagewise: The frontend coding agent for production codebases",
+   "tagline": "Visually build your apps frontend right inside your browser on localhost.",
+   "date": "2025-07-25",
+   "votes": 88,
+   "url": "https://www.ycombinator.com/launches/O3M-stagewise-the-frontend-coding-agent-for-production-codebases"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:50+00:00"
+}

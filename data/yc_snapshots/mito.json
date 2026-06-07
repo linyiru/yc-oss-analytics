@@ -1,0 +1,33 @@
+{
+ "slug": "mito",
+ "name": "Mito",
+ "batch": "S20",
+ "website": "http://trymito.io",
+ "github_url": "https://github.com/mito-ds",
+ "tags": [
+  "Developer Tools",
+  "Analytics",
+  "Open Source",
+  "Data Science",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 3,
+ "location": "New York",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Aaron Diamond-Reivich",
+   "title": "Founder"
+  },
+  {
+   "name": "Jake Diamond-Reivich",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:38+00:00"
+}

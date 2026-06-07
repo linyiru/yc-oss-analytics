@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "The only database you'll ever need",
   "website": "https://keydb.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "Toronto, Canada",
+  "founders": [
+   {
+    "name": "John Sully",
+    "title": "Founder"
+   },
+   {
+    "name": "Ben Schermel",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 12485,

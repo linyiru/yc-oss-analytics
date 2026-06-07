@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Low-latency AI engine for mobile devices & wearables",
   "website": "https://www.cactuscompute.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Roman Shemet",
+    "title": "Founder"
+   },
+   {
+    "name": "Henry Ndubuaku",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 5311,
@@ -1827,5 +1840,15 @@
    "first1000_net_pct": 58,
    "lifetime_net_pct": 61
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Nwp-cactus-deploy-ai-models-locally-on-smartphones",
+   "title": "Cactus 🌵: Deploy AI models locally on smartphones",
+   "tagline": "Cross-platform open-source framework for deploying LLMs, VLMs, Embedding, and other models locally in your apps.",
+   "date": "2025-07-11",
+   "votes": 40,
+   "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones"
+  }
+ ]
 }

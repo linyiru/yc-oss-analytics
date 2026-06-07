@@ -7,7 +7,15 @@
   "status": "Inactive",
   "one_liner": "Buid, test and deploy perception applications",
   "website": "http://standardcyborg.com",
-  "industry": "Healthcare"
+  "industry": "Healthcare",
+  "year_founded": 2015,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Jeff Huber",
+    "title": "Founder/CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 66,

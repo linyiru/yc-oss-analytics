@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "CodeStream is a Developer Collaboration Platform designed to…",
   "website": "http://codestream.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2017,
+  "location": "New York",
+  "founders": [
+   {
+    "name": "Peter Pezaris",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Claudio Pinkus",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 65,

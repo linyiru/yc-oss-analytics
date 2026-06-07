@@ -1,0 +1,40 @@
+{
+ "slug": "openfoundry",
+ "name": "OpenFoundry",
+ "batch": "W24",
+ "website": "https://www.openfoundry.ai/",
+ "github_url": "https://github.com/openfoundry-ai",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "David Lieb",
+ "founders": [
+  {
+   "name": "Tyler Lehman",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KhY-openfoundry-developer-infrastructure-for-open-source-ai",
+   "title": "OpenFoundry: Developer infrastructure for open source AI 🛠️🤖",
+   "tagline": "The fastest developer experience for building on open source AI.",
+   "date": "2024-03-21",
+   "votes": 59,
+   "url": "https://www.ycombinator.com/launches/KhY-openfoundry-developer-infrastructure-for-open-source-ai"
+  }
+ ],
+ "page_repos": [
+  "openfoundry-ai/model_manager"
+ ],
+ "fetched_at": "2026-06-07T15:58:41+00:00"
+}

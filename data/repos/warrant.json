@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Authorization and access control as a service.",
   "website": "https://warrant.dev/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Los Angeles, CA",
+  "founders": [
+   {
+    "name": "Aditya Kajla",
+    "title": "Founder"
+   },
+   {
+    "name": "Karan Kajla",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1337,
@@ -2263,5 +2275,15 @@
    "first1000_net_pct": 79,
    "lifetime_net_pct": 80
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IKF-warrant-open-source-application-authorization-and-access-control",
+   "title": "Warrant - Open source application authorization and access control",
+   "tagline": "Build compliant, auditable, production-ready permissions, role based access control, and more in minutes instead of months.",
+   "date": "2023-03-21",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/IKF-warrant-open-source-application-authorization-and-access-control"
+  }
+ ]
 }

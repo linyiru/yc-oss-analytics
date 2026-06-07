@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "The Operating System for Edge Computing",
   "website": "https://wasmer.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Syrus Akbary",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 20791,

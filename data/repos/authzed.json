@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "Cloud Infrastructure for Authorization",
   "website": "https://authzed.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "New York",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Jake Moshenko",
+    "title": "Founder"
+   },
+   {
+    "name": "Jimmy Zelinskie",
+    "title": "Founder"
+   },
+   {
+    "name": "Joseph Schorr",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 6761,

@@ -1,0 +1,27 @@
+{
+ "slug": "asayer",
+ "name": "OpenReplay",
+ "batch": "S19",
+ "website": "https://www.openreplay.com/",
+ "github_url": "https://github.com/openreplay",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2018,
+ "team_size": 11,
+ "location": "New York City, NY",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Mehdi Osman",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:12+00:00"
+}

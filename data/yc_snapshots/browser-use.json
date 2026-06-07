@@ -1,0 +1,43 @@
+{
+ "slug": "browser-use",
+ "name": "Browser Use",
+ "batch": "W25",
+ "website": "https://browser-use.com",
+ "github_url": "https://github.com/gregpr07/browser-use",
+ "tags": [
+  "Artificial Intelligence",
+  "Open Source",
+  "API",
+  "Automation"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 7,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Magnus Müller",
+   "title": "Founder"
+  },
+  {
+   "name": "Gregor Zunic",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Mh9-browser-use-open-source-alternative-to-openai-operator",
+   "title": "Browser Use: Open Source alternative to OpenAI Operator",
+   "tagline": "We enable AI to control your browser.",
+   "date": "2025-01-28",
+   "votes": 47,
+   "url": "https://www.ycombinator.com/launches/Mh9-browser-use-open-source-alternative-to-openai-operator"
+  }
+ ],
+ "page_repos": [
+  "gregpr07/browser-use"
+ ],
+ "fetched_at": "2026-06-07T15:58:14+00:00"
+}

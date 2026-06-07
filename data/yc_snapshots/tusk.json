@@ -1,0 +1,48 @@
+{
+ "slug": "tusk",
+ "name": "Tusk",
+ "batch": "W24",
+ "website": "https://usetusk.ai",
+ "github_url": "https://github.com/Use-Tusk",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Marcel Tan",
+   "title": "Founder"
+  },
+  {
+   "name": "Sohil Kshirsagar",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "MdO-tusk-ai-agent-for-generating-unit-integration-tests",
+   "title": "Tusk 🐘 - AI Agent for Generating Unit/Integration Tests",
+   "tagline": "Anticipate and prevent bugs with AI-powered unit/integration tests in your CI",
+   "date": "2025-01-21",
+   "votes": 39,
+   "url": "https://www.ycombinator.com/launches/MdO-tusk-ai-agent-for-generating-unit-integration-tests"
+  },
+  {
+   "slug": "KUe-tusk-ai-coding-agent-that-completes-your-chores",
+   "title": "🐘 Tusk - AI coding agent that completes your chores",
+   "tagline": "We complete annoying tasks from ticket to PR, helping engineers avoid context-switching.",
+   "date": "2024-02-27",
+   "votes": 71,
+   "url": "https://www.ycombinator.com/launches/KUe-tusk-ai-coding-agent-that-completes-your-chores"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:54+00:00"
+}

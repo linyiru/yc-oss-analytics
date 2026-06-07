@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Simple, Elastic-quality search for Postgres",
   "website": "https://paradedb.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Harj Taggar",
+  "founders": [
+   {
+    "name": "Philippe Noël",
+    "title": "Founder"
+   },
+   {
+    "name": "Ming Ying",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 8910,

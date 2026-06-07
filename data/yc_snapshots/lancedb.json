@@ -1,0 +1,40 @@
+{
+ "slug": "lancedb",
+ "name": "LanceDB",
+ "batch": "W22",
+ "website": "https://lancedb.com",
+ "github_url": "github.com/lancedb",
+ "tags": [
+  "AIOps",
+  "Machine Learning",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 35,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Chang She",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IZK-lancedb-serverless-low-latency-vector-database-for-ai-applications",
+   "title": "LanceDB 🍢 - serverless, low-latency vector database for AI applications",
+   "tagline": "Meet LanceDB, the easy-to-use and developer-friendly alternative to Pinecone",
+   "date": "2023-05-05",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/IZK-lancedb-serverless-low-latency-vector-database-for-ai-applications"
+  }
+ ],
+ "page_repos": [
+  "eto-ai/lance",
+  "lancedb/lancedb"
+ ],
+ "fetched_at": "2026-06-07T15:58:32+00:00"
+}

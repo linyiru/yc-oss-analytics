@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Context layer for production-grade AI agents",
   "website": "https://airbyte.com/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Michel Tricot",
+    "title": "Co-Founder & CEO"
+   },
+   {
+    "name": "Jean Lafleur",
+    "title": "Co-Founder & COO"
+   }
+  ]
  },
  "metrics": {
   "stars": 21396,

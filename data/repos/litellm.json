@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Call every LLM API like it's OpenAI [100+ LLMs]",
   "website": "https://www.litellm.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Krrish Dholakia",
+    "title": "Founder"
+   },
+   {
+    "name": "Ishaan Jaffer",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 49496,
@@ -4780,5 +4793,15 @@
    "first1000_net_pct": 83,
    "lifetime_net_pct": 67
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "JKe-litellm-call-all-llm-apis-using-the-openai-format-llama2-anthropic-huggingface-etc",
+   "title": "🚅 LiteLLM - Call all LLM APIs using the OpenAI format [Llama2, Anthropic, Huggingface, etc.]",
+   "tagline": "Add 100+ new LLMs to your application, with a drop-in replacement for the openai chat completion call.",
+   "date": "2023-08-22",
+   "votes": 26,
+   "url": "https://www.ycombinator.com/launches/JKe-litellm-call-all-llm-apis-using-the-openai-format-llama2-anthropic-huggingface-etc"
+  }
+ ]
 }

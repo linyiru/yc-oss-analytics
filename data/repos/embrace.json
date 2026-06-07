@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Modern user-focused observability built on OpenTelemetry",
   "website": "https://embrace.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2016,
+  "location": "Los Angeles, CA",
+  "founders": [
+   {
+    "name": "Eric Futoran",
+    "title": "Founder and CEO"
+   },
+   {
+    "name": "Fredric Newberg",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 187,

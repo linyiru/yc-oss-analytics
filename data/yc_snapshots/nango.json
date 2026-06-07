@@ -1,0 +1,51 @@
+{
+ "slug": "nango",
+ "name": "Nango",
+ "batch": "W23",
+ "website": "https://nango.dev",
+ "github_url": "https://github.com/NangoHQ",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "API"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 6,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Robin Guldener",
+   "title": "Founder"
+  },
+  {
+   "name": "Bastien Beurier",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "N04-nango-embed-600-integrations-from-400-apis-in-your-saas",
+   "title": "Nango: Embed 600+ integrations from 400+ APIs in your SaaS",
+   "tagline": " The most comprehensive product integrations platform.",
+   "date": "2025-03-11",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/N04-nango-embed-600-integrations-from-400-apis-in-your-saas"
+  },
+  {
+   "slug": "IHK-nango-get-oauth-tokens-for-apis-fast-secure",
+   "title": "🔌 Nango: Get OAuth tokens for APIs. Fast & secure.",
+   "tagline": "Pre-built OAuth flows & secure token management for 55+ APIs (and counting)",
+   "date": "2023-03-14",
+   "votes": 56,
+   "url": "https://www.ycombinator.com/launches/IHK-nango-get-oauth-tokens-for-apis-fast-secure"
+  }
+ ],
+ "page_repos": [
+  "NangoHQ/nango"
+ ],
+ "fetched_at": "2026-06-07T15:58:39+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "morphik",
+ "name": "Morphik",
+ "batch": "P25",
+ "website": "https://morphik.ai",
+ "github_url": "https://github.com/morphik-org/morphik-core",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Search",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Adityavardhan Agrawal",
+   "title": "Founder"
+  },
+  {
+   "name": "Arnav Agrawal",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NT2-morphik-open-source-multimodal-rag-that-works-on-technical-docs",
+   "title": "Morphik: Open‑source multimodal RAG that works on technical docs",
+   "tagline": "Turn your complex private data into grounded answers",
+   "date": "2025-05-09",
+   "votes": 71,
+   "url": "https://www.ycombinator.com/launches/NT2-morphik-open-source-multimodal-rag-that-works-on-technical-docs"
+  }
+ ],
+ "page_repos": [
+  "morphik-org/morphik-core"
+ ],
+ "fetched_at": "2026-06-07T15:58:38+00:00"
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "grai",
+ "name": "Grai",
+ "batch": "S22",
+ "website": "https://www.grai.io",
+ "github_url": "https://github.com/grai-io",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Analytics",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Inactive",
+ "year_founded": 2021,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Ian Eaves",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "H8h-grai-open-source-version-control-for-metadata",
+   "title": "✨ Grai - Open-source version control for metadata",
+   "tagline": "Grai knows how a database migration will impact deployed ML models, APIs, and more because it understands how data relates across systems.",
+   "date": "2022-09-07",
+   "votes": 51,
+   "url": "https://www.ycombinator.com/launches/H8h-grai-open-source-version-control-for-metadata"
+  }
+ ],
+ "page_repos": [
+  "grai-io/grai-core"
+ ],
+ "fetched_at": "2026-06-07T15:58:25+00:00"
+}

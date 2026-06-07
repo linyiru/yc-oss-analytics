@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The operating system for building mission-critical enterprise apps.",
   "website": "https://reflex.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Nikhil Rao",
+    "title": "Founder"
+   },
+   {
+    "name": "Alek Petuskey",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 28463,
@@ -5537,5 +5550,23 @@
    "first1000_net_pct": 52,
    "lifetime_net_pct": 49
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OfZ-reflex-ai-app-builder-for-creating-production-grade-web-apps-entirely-in-python",
+   "title": "Reflex: AI app builder for creating production-grade web apps entirely in Python",
+   "tagline": "Just connect your data and enter a prompt. Reflex generates production-ready apps that integrate any data source, API, or Python package.",
+   "date": "2025-10-22",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/OfZ-reflex-ai-app-builder-for-creating-production-grade-web-apps-entirely-in-python"
+  },
+  {
+   "slug": "Hpk-pynecone-web-apps-in-pure-python",
+   "title": "Pynecone: Web apps in pure Python 🐍",
+   "tagline": "Build web apps in minutes. Deploy with a single command.",
+   "date": "2023-01-19",
+   "votes": 75,
+   "url": "https://www.ycombinator.com/launches/Hpk-pynecone-web-apps-in-pure-python"
+  }
+ ]
 }

@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Spark-on-Kubernetes Data Engineering Platform",
   "website": "https://www.datamechanics.co",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "Paris, France",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Jean Yves Stephan",
+    "title": "Founder"
+   },
+   {
+    "name": "Julien Dumazert",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3,

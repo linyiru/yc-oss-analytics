@@ -1,0 +1,32 @@
+{
+ "slug": "botcity",
+ "name": "BotCity",
+ "batch": "W22",
+ "website": "https://botcity.dev",
+ "github_url": "https://github.com/botcity-dev",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 35,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Lorhan Caproni",
+   "title": "Founder"
+  },
+  {
+   "name": "Gabriel Archanjo",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:13+00:00"
+}

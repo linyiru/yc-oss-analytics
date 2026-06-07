@@ -1,0 +1,38 @@
+{
+ "slug": "rownd",
+ "name": "Rownd",
+ "batch": "W22",
+ "website": "https://rownd.ai",
+ "github_url": "https://github.com/llama-farm",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "AI",
+  "ML"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 7,
+ "location": "Raleigh, NC",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Robert Thelen",
+   "title": "Founder"
+  },
+  {
+   "name": "Matt Hamann",
+   "title": "Founder"
+  },
+  {
+   "name": "Rachel Orrino",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "in/mhamann"
+ ],
+ "fetched_at": "2026-06-07T15:58:48+00:00"
+}

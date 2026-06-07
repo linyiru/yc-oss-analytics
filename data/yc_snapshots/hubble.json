@@ -1,0 +1,33 @@
+{
+ "slug": "hubble",
+ "name": "Lightdash",
+ "batch": "S20",
+ "website": "http://lightdash.com/",
+ "github_url": "https://github.com/lightdash",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Analytics",
+  "Open Source",
+  "Data Visualization"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 23,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Harj Taggar",
+ "founders": [
+  {
+   "name": "Hamzah Chaudhary",
+   "title": "Founder"
+  },
+  {
+   "name": "Oliver Laslett",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:27+00:00"
+}

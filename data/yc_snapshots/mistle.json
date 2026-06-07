@@ -1,0 +1,40 @@
+{
+ "slug": "mistle",
+ "name": "Mistle",
+ "batch": "S22",
+ "website": "https://mistle.dev",
+ "github_url": "https://github.com/mistlehq",
+ "tags": [
+  "B2B",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 2,
+ "location": "Singapore, Singapore",
+ "country": "SG",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Jonathan Low",
+   "title": "Founder"
+  },
+  {
+   "name": "Thomas Jiang",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "H1F-ajourney-gusto-for-south-east-asia-sea",
+   "title": "🌊 Ajourney - Gusto for South East Asia (SEA)",
+   "tagline": "Run payroll with one-click",
+   "date": "2022-08-17",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/H1F-ajourney-gusto-for-south-east-asia-sea"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:37+00:00"
+}

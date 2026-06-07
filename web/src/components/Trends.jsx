@@ -33,6 +33,15 @@ export default function Trends({ tr, initialLocale }) {
           </Section>
         </div>
 
+        {tr.outcomes?.length > 0 && (
+          <Section title="Company outcomes" sub={`Survivorship made visible — YC's own status for ${tr.withStatus} companies. ${tr.notActive} are no longer independently active.`} style={{ marginBottom: 16 }}>
+            <RankedBars items={tr.outcomes.map((o) => ({ label: o.name, value: o.count, color: o.name === 'Active' ? 'var(--evergreen)' : o.name === 'Acquired' ? 'var(--steady)' : o.name === 'Public' ? 'var(--accent)' : 'var(--dormant)' }))} fmt={(v) => v + ''} />
+            <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 14 }}>
+              Our analysis still over-represents the living — dead-and-delisted companies fall out of YC's directory entirely — but this is the part of survivorship we <i>can</i> see: {Math.round((100 * tr.notActive) / tr.withStatus)}% of the tracked companies have already been acquired, gone public, or marked inactive.
+            </p>
+          </Section>
+        )}
+
         <Section title="License choice" sub="Reflects commercialization strategy — MIT for adoption, Apache for enterprise/patents, AGPL to protect a SaaS" style={{ marginBottom: 16 }}>
           <RankedBars items={tr.licenses.map((l) => ({ label: l.name, value: l.count, color: l.name.startsWith('AGPL') || l.name.startsWith('GPL') ? '#f7853a' : l.name.startsWith('Apache') ? '#4f9df7' : l.name.startsWith('MIT') ? '#43c46a' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
         </Section>

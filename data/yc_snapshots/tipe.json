@@ -1,0 +1,33 @@
+{
+ "slug": "tipe",
+ "name": "Tipe",
+ "batch": "W18",
+ "website": "https://tipe.io",
+ "github_url": null,
+ "tags": [
+  "Open Source"
+ ],
+ "status": "Inactive",
+ "year_founded": null,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Scott Moss",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Michael Moss",
+   "title": "Founder/CPO"
+  },
+  {
+   "name": "Patrick Stapleton",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:53+00:00"
+}

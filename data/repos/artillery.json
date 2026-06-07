@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "The complete production quality platform. AI-powered E2E testing,…",
   "website": "https://www.artillery.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Limerick, Ireland",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Hassy Veldstra",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 8994,

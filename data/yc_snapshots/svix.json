@@ -1,0 +1,27 @@
+{
+ "slug": "svix",
+ "name": "Svix",
+ "batch": "W21",
+ "website": "https://www.svix.com",
+ "github_url": "https://github.com/svix",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "API"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 12,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Tom Hacohen",
+   "title": "Founder & CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:52+00:00"
+}

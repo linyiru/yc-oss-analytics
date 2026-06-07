@@ -1,0 +1,35 @@
+{
+ "slug": "unsloth-ai",
+ "name": "Unsloth AI",
+ "batch": "S24",
+ "website": "https://unsloth.ai/",
+ "github_url": "https://github.com/unslothai/unsloth",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 8,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Daniel Han",
+   "title": "Founder"
+  },
+  {
+   "name": "Michael Han",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "unslothai/unsloth"
+ ],
+ "fetched_at": "2026-06-07T15:58:55+00:00"
+}

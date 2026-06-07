@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Leading open-source web agent project with 50k stars in 3 months",
   "website": "https://browser-use.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Magnus Müller",
+    "title": "Founder"
+   },
+   {
+    "name": "Gregor Zunic",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 97482,
@@ -2837,5 +2850,15 @@
    "first1000_net_pct": 77,
    "lifetime_net_pct": 49
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Mh9-browser-use-open-source-alternative-to-openai-operator",
+   "title": "Browser Use: Open Source alternative to OpenAI Operator",
+   "tagline": "We enable AI to control your browser.",
+   "date": "2025-01-28",
+   "votes": 47,
+   "url": "https://www.ycombinator.com/launches/Mh9-browser-use-open-source-alternative-to-openai-operator"
+  }
+ ]
 }

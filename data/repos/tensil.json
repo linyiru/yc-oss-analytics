@@ -7,7 +7,15 @@
   "status": "Inactive",
   "one_liner": "We turn machine learning models into custom hardware.",
   "website": "https://www.tensil.ai",
-  "industry": "Industrials"
+  "industry": "Industrials",
+  "year_founded": 2019,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Tom Alcorn",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 398,

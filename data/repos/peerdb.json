@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Fast, native ETL for Postgres 🐘 🚀",
   "website": "https://peerdb.io/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Sai Srirampur",
+    "title": "Founder"
+   },
+   {
+    "name": "Kaushik Iska",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3134,
@@ -3456,5 +3468,15 @@
    "first1000_net_pct": 76,
    "lifetime_net_pct": 81
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "IyP-peerdb-modern-etl-in-minutes-with-sql",
+   "title": "PeerDB - Modern ETL in minutes, with SQL",
+   "tagline": "Data store-first ETL/ELT, enabling 10x faster syncs and transforms",
+   "date": "2023-07-11",
+   "votes": 60,
+   "url": "https://www.ycombinator.com/launches/IyP-peerdb-modern-etl-in-minutes-with-sql"
+  }
+ ]
 }

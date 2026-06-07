@@ -1,0 +1,52 @@
+{
+ "slug": "fern",
+ "name": "Fern",
+ "batch": "W23",
+ "website": "https://www.buildwithfern.com",
+ "github_url": "https://github.com/fern-api/fern",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "API"
+ ],
+ "status": "Acquired",
+ "year_founded": 2022,
+ "team_size": 30,
+ "location": "New York",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Danny Sheridan",
+   "title": "Founder"
+  },
+  {
+   "name": "Deep Singhvi",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "LoR-fern-docs-developer-friendly-api-docs",
+   "title": "Fern Docs: Developer-friendly API Docs",
+   "tagline": "Build a \"Stripe-level\" docs website powered by OpenAPI",
+   "date": "2024-09-08",
+   "votes": 1266,
+   "url": "https://www.ycombinator.com/launches/LoR-fern-docs-developer-friendly-api-docs"
+  },
+  {
+   "slug": "I03-fern-sdks-for-your-api",
+   "title": "Fern - SDKs for your API ⚡",
+   "tagline": "Auto-generate your client libraries, API reference, and server code",
+   "date": "2023-02-10",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/I03-fern-sdks-for-your-api"
+  }
+ ],
+ "page_repos": [
+  "fern-api/fern"
+ ],
+ "fetched_at": "2026-06-07T15:58:22+00:00"
+}

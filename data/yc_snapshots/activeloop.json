@@ -1,0 +1,56 @@
+{
+ "slug": "activeloop",
+ "name": "Activeloop",
+ "batch": "S18",
+ "website": "https://activeloop.ai/",
+ "github_url": "https://github.com/activeloopai",
+ "tags": [
+  "Computational Storage",
+  "Deep Learning",
+  "Generative AI",
+  "Computer Vision",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2018,
+ "team_size": 15,
+ "location": "Mountain View",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Davit Buniatyan",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Ox5-activeloop-scientific-discover-the-ai-analyst-for-scientific-research",
+   "title": "Activeloop Scientific Discover: The AI Analyst for Scientific Research",
+   "tagline": "Search, reason, and discover across 450M+ pages and 175TB of scientific research papers. Not just text, but charts, molecules, formulas, and tables.",
+   "date": "2025-12-02",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/Ox5-activeloop-scientific-discover-the-ai-analyst-for-scientific-research"
+  },
+  {
+   "slug": "OeW-activeloop-unlock-ai-data-analysis-for-gtm",
+   "title": "Activeloop - Unlock AI Data Analysis for GTM",
+   "tagline": "Less Time in CRM, More Sales. Get instant insights across your entire stack from CRMs/ERPs to sales decks and product analytics. ",
+   "date": "2025-10-20",
+   "votes": 107,
+   "url": "https://www.ycombinator.com/launches/OeW-activeloop-unlock-ai-data-analysis-for-gtm"
+  },
+  {
+   "slug": "NUM-activeloop-l0-state-of-the-art-rag-accuracy-on-your-data",
+   "title": "Activeloop L0: State-of-the-Art RAG Accuracy on Your Data",
+   "tagline": "Turn PDFs, images & tables into instant, cited answers. Agentic RAG that just works.",
+   "date": "2025-05-12",
+   "votes": 34,
+   "url": "https://www.ycombinator.com/launches/NUM-activeloop-l0-state-of-the-art-rag-accuracy-on-your-data"
+  }
+ ],
+ "page_repos": [
+  "activeloopai/deeplake"
+ ],
+ "fetched_at": "2026-06-07T15:58:09+00:00"
+}

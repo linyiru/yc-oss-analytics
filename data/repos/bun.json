@@ -7,7 +7,16 @@
   "status": "Acquired",
   "one_liner": "Bun is an incredibly fast all-in-one JavaScript toolkit",
   "website": "https://bun.sh",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2019,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Jarred Sumner",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 92878,

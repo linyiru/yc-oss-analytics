@@ -1,0 +1,43 @@
+{
+ "slug": "warrant",
+ "name": "Warrant",
+ "batch": "S21",
+ "website": "https://warrant.dev/",
+ "github_url": "https://github.com/warrant-dev",
+ "tags": [
+  "Developer Tools",
+  "B2B",
+  "Open Source",
+  "API"
+ ],
+ "status": "Acquired",
+ "year_founded": 2021,
+ "team_size": 3,
+ "location": "Los Angeles, CA",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Aditya Kajla",
+   "title": "Founder"
+  },
+  {
+   "name": "Karan Kajla",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IKF-warrant-open-source-application-authorization-and-access-control",
+   "title": "Warrant - Open source application authorization and access control",
+   "tagline": "Build compliant, auditable, production-ready permissions, role based access control, and more in minutes instead of months.",
+   "date": "2023-03-21",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/IKF-warrant-open-source-application-authorization-and-access-control"
+  }
+ ],
+ "page_repos": [
+  "warrant-dev/warrant"
+ ],
+ "fetched_at": "2026-06-07T15:58:56+00:00"
+}

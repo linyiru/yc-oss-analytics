@@ -1,0 +1,42 @@
+{
+ "slug": "pangolin",
+ "name": "Pangolin",
+ "batch": "S25",
+ "website": "https://pangolin.net",
+ "github_url": "https://github.com/fosrl/pangolin",
+ "tags": [
+  "Open Source",
+  "Enterprise Software",
+  "Networks"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Milo Schwartz",
+   "title": "Founder"
+  },
+  {
+   "name": "Owen Schwartz",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "O0B-pangolin-open-source-secure-gateway-to-private-networks",
+   "title": "Pangolin – Open-source secure gateway to private networks",
+   "tagline": "Pangolin tunnels your services to the internet so you can access anything from anywhere.",
+   "date": "2025-07-18",
+   "votes": 85,
+   "url": "https://www.ycombinator.com/launches/O0B-pangolin-open-source-secure-gateway-to-private-networks"
+  }
+ ],
+ "page_repos": [
+  "fosrl/pangolin"
+ ],
+ "fetched_at": "2026-06-07T15:58:43+00:00"
+}

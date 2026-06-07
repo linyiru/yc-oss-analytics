@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "A single API for all your integrations",
   "website": "https://nango.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Robin Guldener",
+    "title": "Founder"
+   },
+   {
+    "name": "Bastien Beurier",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 10014,
@@ -6596,5 +6609,23 @@
    "first1000_net_pct": 68,
    "lifetime_net_pct": 73
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "N04-nango-embed-600-integrations-from-400-apis-in-your-saas",
+   "title": "Nango: Embed 600+ integrations from 400+ APIs in your SaaS",
+   "tagline": " The most comprehensive product integrations platform.",
+   "date": "2025-03-11",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/N04-nango-embed-600-integrations-from-400-apis-in-your-saas"
+  },
+  {
+   "slug": "IHK-nango-get-oauth-tokens-for-apis-fast-secure",
+   "title": "🔌 Nango: Get OAuth tokens for APIs. Fast & secure.",
+   "tagline": "Pre-built OAuth flows & secure token management for 55+ APIs (and counting)",
+   "date": "2023-03-14",
+   "votes": 56,
+   "url": "https://www.ycombinator.com/launches/IHK-nango-get-oauth-tokens-for-apis-fast-secure"
+  }
+ ]
 }

@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open-Source Reinforcement Learning (RL) & Fine-tuning for LLMs.",
   "website": "https://unsloth.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Daniel Han",
+    "title": "Founder"
+   },
+   {
+    "name": "Michael Han",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 65922,

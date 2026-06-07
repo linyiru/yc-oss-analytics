@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Integration Layer for AI Agents",
   "website": "https://www.corsair.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "New York",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Dev Jain",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 1137,

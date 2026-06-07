@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Instantly offer SDKs and API Docs",
   "website": "https://www.buildwithfern.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "New York",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Danny Sheridan",
+    "title": "Founder"
+   },
+   {
+    "name": "Deep Singhvi",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3651,
@@ -4352,5 +4365,23 @@
    "first1000_net_pct": 71,
    "lifetime_net_pct": 73
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "LoR-fern-docs-developer-friendly-api-docs",
+   "title": "Fern Docs: Developer-friendly API Docs",
+   "tagline": "Build a \"Stripe-level\" docs website powered by OpenAPI",
+   "date": "2024-09-08",
+   "votes": 1266,
+   "url": "https://www.ycombinator.com/launches/LoR-fern-docs-developer-friendly-api-docs"
+  },
+  {
+   "slug": "I03-fern-sdks-for-your-api",
+   "title": "Fern - SDKs for your API ⚡",
+   "tagline": "Auto-generate your client libraries, API reference, and server code",
+   "date": "2023-02-10",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/I03-fern-sdks-for-your-api"
+  }
+ ]
 }

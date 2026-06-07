@@ -1,0 +1,41 @@
+{
+ "slug": "requestly",
+ "name": "Requestly",
+ "batch": "W22",
+ "website": "https://requestly.com",
+ "github_url": "https://github.com/requestly",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "API"
+ ],
+ "status": "Acquired",
+ "year_founded": 2021,
+ "team_size": 19,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Sachin Jain",
+   "title": "Founder"
+  },
+  {
+   "name": "Sagar Soni",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "MKD-requestly-open-source-api-mocking-testing-tool-for-developers",
+   "title": "Requestly - Open-Source API Mocking & Testing Tool for Developers 🚀",
+   "tagline": "A better alternative to Postman & Charles Proxy",
+   "date": "2024-11-25",
+   "votes": 28,
+   "url": "https://www.ycombinator.com/launches/MKD-requestly-open-source-api-mocking-testing-tool-for-developers"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:47+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "slug": "questdb",
+ "name": "QuestDB",
+ "batch": "S20",
+ "website": "https://questdb.io/",
+ "github_url": "https://github.com/questdb",
+ "tags": [
+  "Developer Tools",
+  "Analytics",
+  "Open Source",
+  "Time Series"
+ ],
+ "status": "Active",
+ "year_founded": 2019,
+ "team_size": 30,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Nicolas Hourcard",
+   "title": "Founder"
+  },
+  {
+   "name": "Tancrede Collard",
+   "title": "Founder"
+  },
+  {
+   "name": "Vlad Ilyushchenko",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IvM-questdb-purpose-built-database-for-financial-market-data",
+   "title": "QuestDB - Purpose built database for financial market data",
+   "tagline": "High speed ingestion, millisecond queries, and open formats.",
+   "date": "2023-07-04",
+   "votes": 31,
+   "url": "https://www.ycombinator.com/launches/IvM-questdb-purpose-built-database-for-financial-market-data"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:45+00:00"
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "jitsu",
+ "name": "Jitsu",
+ "batch": "S20",
+ "website": "https://jitsu.com",
+ "github_url": "https://github.com/jitsucom",
+ "tags": [
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Data Engineering"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 4,
+ "location": "New York City, NY",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Vladimir Klimontovich",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:30+00:00"
+}

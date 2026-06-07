@@ -1,0 +1,43 @@
+{
+ "slug": "beam",
+ "name": "Beam",
+ "batch": "W22",
+ "website": "https://beam.cloud",
+ "github_url": "https://github.com/beam-cloud/beta9",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Cloud Computing"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 5,
+ "location": "New York",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Eli Mernit",
+   "title": "Founder"
+  },
+  {
+   "name": "Luke Lombardi",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OuS-beam-open-source-modal-alternative",
+   "title": "Beam - Open Source Modal Alternative",
+   "tagline": "Run GPU inference, background jobs, and sandboxes with ultrafast boot times and no vendor lock-in.",
+   "date": "2025-11-25",
+   "votes": 46,
+   "url": "https://www.ycombinator.com/launches/OuS-beam-open-source-modal-alternative"
+  }
+ ],
+ "page_repos": [
+  "beam-cloud/beta9"
+ ],
+ "fetched_at": "2026-06-07T15:58:13+00:00"
+}

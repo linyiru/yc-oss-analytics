@@ -1,0 +1,33 @@
+{
+ "slug": "replicate",
+ "name": "Replicate",
+ "batch": "W20",
+ "website": "https://replicate.com",
+ "github_url": "https://github.com/replicate",
+ "tags": [
+  "Developer Tools",
+  "Machine Learning",
+  "Community",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Acquired",
+ "year_founded": 2019,
+ "team_size": 36,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Ben Firshman",
+   "title": "Founder"
+  },
+  {
+   "name": "Andreas Jansson",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:46+00:00"
+}

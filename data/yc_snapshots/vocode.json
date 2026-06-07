@@ -1,0 +1,43 @@
+{
+ "slug": "vocode",
+ "name": "Vocode",
+ "batch": "W23",
+ "website": "https://vocode.dev",
+ "github_url": "https://github.com/vocodedev/vocode-python",
+ "tags": [
+  "Developer Tools",
+  "Generative AI",
+  "Open Source",
+  "Conversational AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Kian Hooshmand",
+   "title": "Founder"
+  },
+  {
+   "name": "Ajay Raj",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IA1-vocode-open-source-voice-ai-on-top-of-llms",
+   "title": "🤖 Vocode: Open source voice AI on top of LLMs",
+   "tagline": "Build conversational agents in less than 10 lines of code",
+   "date": "2023-03-01",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/IA1-vocode-open-source-voice-ai-on-top-of-llms"
+  }
+ ],
+ "page_repos": [
+  "vocodedev/vocode-python"
+ ],
+ "fetched_at": "2026-06-07T15:58:56+00:00"
+}

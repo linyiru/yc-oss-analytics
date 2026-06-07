@@ -7,7 +7,19 @@
   "status": "Active",
   "one_liner": "Cursor for data analysis",
   "website": "http://trymito.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "New York",
+  "founders": [
+   {
+    "name": "Aaron Diamond-Reivich",
+    "title": "Founder"
+   },
+   {
+    "name": "Jake Diamond-Reivich",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2637,

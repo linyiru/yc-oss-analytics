@@ -1,0 +1,37 @@
+{
+ "slug": "okteto",
+ "name": "Okteto",
+ "batch": "W19",
+ "website": "https://okteto.com",
+ "github_url": "https://github.com/okteto",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Kubernetes"
+ ],
+ "status": "Active",
+ "year_founded": 2018,
+ "team_size": 30,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Ramiro Berrelleza",
+   "title": "Founder"
+  },
+  {
+   "name": "Pablo Chico de Guzman",
+   "title": "Founder/CTO"
+  },
+  {
+   "name": "Ramon Lamana",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:40+00:00"
+}

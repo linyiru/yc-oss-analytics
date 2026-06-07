@@ -7,7 +7,24 @@
   "status": "Active",
   "one_liner": "API first electronic health record (EHR) that is open source",
   "website": "https://www.medplum.com",
-  "industry": "Healthcare"
+  "industry": "Healthcare",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Reshma Khilnani",
+    "title": "Founder"
+   },
+   {
+    "name": "Rahul Agarwal",
+    "title": "Founder"
+   },
+   {
+    "name": "Cody Ebberson",
+    "title": "Co-Founder and CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 2384,
@@ -4151,5 +4168,15 @@
    "first1000_net_pct": 62,
    "lifetime_net_pct": 61
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "GwH-medplum-api-first-electronic-health-record-that-s-open-source",
+   "title": "Medplum: API-first Electronic Health Record - that’s open source",
+   "tagline": "Medplum makes it fast and easy to build white-label medical apps that look good AND are compliant and integration-ready day one.",
+   "date": "2022-08-03",
+   "votes": 54,
+   "url": "https://www.ycombinator.com/launches/GwH-medplum-api-first-electronic-health-record-that-s-open-source"
+  }
+ ]
 }

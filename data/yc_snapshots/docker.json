@@ -1,0 +1,27 @@
+{
+ "slug": "docker",
+ "name": "Docker",
+ "batch": "S10",
+ "website": "http://docker.com",
+ "github_url": "https://github.com/docker",
+ "tags": [
+  "Open Source",
+  "DevOps",
+  "Enterprise Software"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": 201,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Solomon Hykes",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:20+00:00"
+}

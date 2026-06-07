@@ -1,0 +1,44 @@
+{
+ "slug": "trieve",
+ "name": "Trieve",
+ "batch": "W24",
+ "website": "https://trieve.ai",
+ "github_url": "https://github.com/devflowinc/trieve",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "API",
+  "Search",
+  "AI"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 7,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Nick Khami",
+   "title": "Founder"
+  },
+  {
+   "name": "Denzell Ford",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "KXN-trieve-infrastructure-for-search-teams",
+   "title": "Trieve 🔎 Infrastructure for search teams",
+   "tagline": "We want to power every search bar on the internet.",
+   "date": "2024-03-01",
+   "votes": 137,
+   "url": "https://www.ycombinator.com/launches/KXN-trieve-infrastructure-for-search-teams"
+  }
+ ],
+ "page_repos": [
+  "devflowinc/trieve"
+ ],
+ "fetched_at": "2026-06-07T15:58:54+00:00"
+}

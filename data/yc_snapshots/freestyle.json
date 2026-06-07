@@ -1,0 +1,51 @@
+{
+ "slug": "freestyle",
+ "name": "Freestyle",
+ "batch": "S24",
+ "website": "https://www.freestyle.sh",
+ "github_url": "https://github.com/freestyle-sh",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Web Development",
+  "Cloud Computing"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Bۙۚۨ۫ۙۚۨ۫ۙۚۨ۫ۙۚۨ۫enjamin Swerdlow",
+   "title": "Founder"
+  },
+  {
+   "name": "Jacob Zwang",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Lkp-freestyle-a-new-way-to-build-fullstack-typescript-apps",
+   "title": "Freestyle: A new way to build fullstack TypeScript apps",
+   "tagline": "Empowering TypeScript developers to build with TypeScript",
+   "date": "2024-08-30",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/Lkp-freestyle-a-new-way-to-build-fullstack-typescript-apps"
+  },
+  {
+   "slug": "LGW-freestyle-typescript-for-everything",
+   "title": "Freestyle: TypeScript for EVERYTHING",
+   "tagline": "A fundamental shift in how we approach web development",
+   "date": "2024-06-25",
+   "votes": 87,
+   "url": "https://www.ycombinator.com/launches/LGW-freestyle-typescript-for-everything"
+  }
+ ],
+ "page_repos": [
+  "freestyle-sh/cloudstate"
+ ],
+ "fetched_at": "2026-06-07T15:58:24+00:00"
+}

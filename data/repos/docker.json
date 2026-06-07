@@ -7,7 +7,14 @@
   "status": "Active",
   "one_liner": "Software development platform.",
   "website": "http://docker.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Solomon Hykes",
+    "title": "Founder/CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 5896,

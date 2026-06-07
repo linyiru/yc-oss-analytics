@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Open-source AI coworker with memory ",
   "website": "https://www.rowboatlabs.com",
-  "industry": "Consumer"
+  "industry": "Consumer",
+  "year_founded": 2024,
+  "location": "Bengaluru, India",
+  "partner": "Tyler Bosmeny",
+  "founders": [
+   {
+    "name": "Arjun Maheswaran",
+    "title": "Founder"
+   },
+   {
+    "name": "Ramnique Singh",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 14923,
@@ -1836,5 +1849,15 @@
    "first1000_net_pct": 72,
    "lifetime_net_pct": 62
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "LbS-rowboat-labs-llm-agents-for-human-like-customer-support",
+   "title": "RowBoat Labs - LLM agents for human-like customer support",
+   "tagline": "Faster resolutions and improved customer satisfaction with AI.",
+   "date": "2024-08-14",
+   "votes": 26,
+   "url": "https://www.ycombinator.com/launches/LbS-rowboat-labs-llm-agents-for-human-like-customer-support"
+  }
+ ]
 }

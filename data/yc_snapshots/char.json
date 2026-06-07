@@ -1,0 +1,48 @@
+{
+ "slug": "char",
+ "name": "Char",
+ "batch": "S25",
+ "website": "https://char.com",
+ "github_url": "https://github.com/fastrepl",
+ "tags": [
+  "SaaS",
+  "Productivity",
+  "Open Source",
+  "AI",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "John Jeong",
+   "title": "Co-founder, Co-CEO"
+  },
+  {
+   "name": "Deokhaeng Lee",
+   "title": "Founder"
+  },
+  {
+   "name": "Yujong Lee",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OEu-hyprnote-open-source-ai-notetaker-for-enterprises",
+   "title": "Hyprnote⚡️ Open-source AI notetaker for enterprises",
+   "tagline": "We help teams craft personalized meeting notes while keeping full control of their data",
+   "date": "2025-08-20",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/OEu-hyprnote-open-source-ai-notetaker-for-enterprises"
+  }
+ ],
+ "page_repos": [
+  "fastrepl/hyprnote"
+ ],
+ "fetched_at": "2026-06-07T15:58:15+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "highlight-io",
+ "name": "highlight.io",
+ "batch": "W23",
+ "website": "https://www.highlight.io/",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "B2B",
+  "Open Source",
+  "Monitoring"
+ ],
+ "status": "Acquired",
+ "year_founded": 2023,
+ "team_size": 8,
+ "location": "Seattle, WA",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Jay Khatri",
+   "title": "Cofounder, CEO (acquired by LaunchDarkly)"
+  },
+  {
+   "name": "Vadim Korolik",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "HwV-highlight-io-open-source-session-replay-error-monitoring",
+   "title": "highlight.io - Open-source session replay & error monitoring",
+   "tagline": "highlight.io is the open source, fullstack monitoring platform. We help engineers reproduce hard-to-crack issues, and understand how their product is used.",
+   "date": "2023-02-02",
+   "votes": 60,
+   "url": "https://www.ycombinator.com/launches/HwV-highlight-io-open-source-session-replay-error-monitoring"
+  }
+ ],
+ "page_repos": [
+  "highlight/highlight"
+ ],
+ "fetched_at": "2026-06-07T15:58:26+00:00"
+}

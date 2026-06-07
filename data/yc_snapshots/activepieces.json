@@ -1,0 +1,44 @@
+{
+ "slug": "activepieces",
+ "name": "Activepieces",
+ "batch": "S22",
+ "website": "https://www.activepieces.com",
+ "github_url": "https://github.com/activepieces/activepieces",
+ "tags": [
+  "Workflow Automation",
+  "Open Source",
+  "No-code",
+  "Enterprise Software",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 10,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Ashraf Samhouri",
+   "title": "Co-founder and CEO"
+  },
+  {
+   "name": "Mohammad AbuAboud",
+   "title": "Co-Founder & CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "HrV-activepieces-open-source-alternative-to-zapier",
+   "title": "Activepieces – Open source alternative to Zapier",
+   "tagline": "No-code business automation that is open-source and can be self-hosted.",
+   "date": "2023-01-24",
+   "votes": 44,
+   "url": "https://www.ycombinator.com/launches/HrV-activepieces-open-source-alternative-to-zapier"
+  }
+ ],
+ "page_repos": [
+  "activepieces/activepieces"
+ ],
+ "fetched_at": "2026-06-07T15:58:09+00:00"
+}

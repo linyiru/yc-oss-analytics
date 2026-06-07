@@ -1,0 +1,35 @@
+{
+ "slug": "apollo",
+ "name": "Apollo",
+ "batch": "S11",
+ "website": "http://apollographql.com/",
+ "github_url": "https://github.com/apollographql",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "GraphQL"
+ ],
+ "status": "Active",
+ "year_founded": 2012,
+ "team_size": 200,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Geoff Schmidt",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "matt debergalis",
+   "title": "Founder/CTO"
+  },
+  {
+   "name": "Nick Martin",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:11+00:00"
+}

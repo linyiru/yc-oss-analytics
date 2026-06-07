@@ -1,0 +1,29 @@
+{
+ "slug": "citus-data",
+ "name": "Citus Data",
+ "batch": "S11",
+ "website": "http://citusdata.com",
+ "github_url": "",
+ "tags": [
+  "Open Source",
+  "Big Data",
+  "Databases"
+ ],
+ "status": "Acquired",
+ "year_founded": null,
+ "team_size": 45,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Sumedh Pathak",
+   "title": "Founder/Engineer"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "citusdata/citus"
+ ],
+ "fetched_at": "2026-06-07T15:58:15+00:00"
+}

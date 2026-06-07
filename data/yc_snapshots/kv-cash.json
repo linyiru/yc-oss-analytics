@@ -1,0 +1,28 @@
+{
+ "slug": "kv-cash",
+ "name": "KV Cash",
+ "batch": "W23",
+ "website": "https://kv.cash",
+ "github_url": "",
+ "tags": [
+  "Crypto / Web3",
+  "Open Source",
+  "AI",
+  "Cryptocurrency"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": null,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "David Fiala",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:31+00:00"
+}

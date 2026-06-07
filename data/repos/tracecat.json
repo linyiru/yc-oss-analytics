@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The open source AI-native security automation platform",
   "website": "https://tracecat.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "New York City, NY",
+  "partner": "Garry Tan",
+  "founders": [
+   {
+    "name": "Chris Lo",
+    "title": "Founder"
+   },
+   {
+    "name": "Daryl Lim",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3631,

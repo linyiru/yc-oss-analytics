@@ -1,0 +1,33 @@
+{
+ "slug": "airbyte",
+ "name": "Airbyte",
+ "batch": "W20",
+ "website": "https://airbyte.com/",
+ "github_url": "https://github.com/airbytehq",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Data Engineering",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2020,
+ "team_size": 90,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Michel Tricot",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "Jean Lafleur",
+   "title": "Co-Founder & COO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:10+00:00"
+}

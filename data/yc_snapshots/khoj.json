@@ -1,0 +1,42 @@
+{
+ "slug": "khoj",
+ "name": "Khoj",
+ "batch": "S23",
+ "website": "https://khoj.dev/",
+ "github_url": "https://github.com/khoj-ai/",
+ "tags": [
+  "Generative AI",
+  "Consumer",
+  "Productivity",
+  "Open Source",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Debanjum Singh Solanky",
+   "title": "Founder"
+  },
+  {
+   "name": "Saba Imran",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "JG4-khoj-your-superhuman-companion",
+   "title": "Khoj - Your superhuman companion",
+   "tagline": "Get more done with your open-source, trustworthy personal AI",
+   "date": "2023-08-11",
+   "votes": 41,
+   "url": "https://www.ycombinator.com/launches/JG4-khoj-your-superhuman-companion"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:31+00:00"
+}

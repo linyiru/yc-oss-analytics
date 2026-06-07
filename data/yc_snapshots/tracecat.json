@@ -1,0 +1,35 @@
+{
+ "slug": "tracecat",
+ "name": "Tracecat",
+ "batch": "W24",
+ "website": "https://tracecat.com",
+ "github_url": "https://github.com/TracecatHQ/tracecat",
+ "tags": [
+  "Artificial Intelligence",
+  "Security",
+  "Open Source",
+  "Enterprise",
+  "Automation"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": null,
+ "location": "New York City, NY",
+ "country": "US",
+ "partner": "Garry Tan",
+ "founders": [
+  {
+   "name": "Chris Lo",
+   "title": "Founder"
+  },
+  {
+   "name": "Daryl Lim",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "TracecatHQ/tracecat"
+ ],
+ "fetched_at": "2026-06-07T15:58:53+00:00"
+}

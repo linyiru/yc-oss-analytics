@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Give every agent a cloud desktop",
   "website": "https://cua.ai",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Francesco Bonacci",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 17708,
@@ -2448,5 +2457,15 @@
    "first1000_net_pct": 70,
    "lifetime_net_pct": 69
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "NJc-c-ua-docker-container-for-computer-use-agents",
+   "title": "c/ua - Docker Container for Computer-Use Agents",
+   "tagline": "c/ua runs lightweight containers for Computer-Use AI Agents with your own language models.",
+   "date": "2025-04-17",
+   "votes": 68,
+   "url": "https://www.ycombinator.com/launches/NJc-c-ua-docker-container-for-computer-use-agents"
+  }
+ ]
 }

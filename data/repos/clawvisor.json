@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "The Authorization Layer for AI Agents",
   "website": "https://clawvisor.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Garry Tan",
+  "founders": [
+   {
+    "name": "Eric Levine",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 221,
@@ -493,5 +502,15 @@
    "first1000_net_pct": 45,
    "lifetime_net_pct": 45
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "QFP-clawvisor-the-authorization-layer-for-ai-agents",
+   "title": "Clawvisor — The Authorization Layer for AI Agents",
+   "tagline": "Give agents access without giving them the keys.",
+   "date": "2026-05-07",
+   "votes": 10,
+   "url": "https://www.ycombinator.com/launches/QFP-clawvisor-the-authorization-layer-for-ai-agents"
+  }
+ ]
 }

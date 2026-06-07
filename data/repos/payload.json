@@ -7,7 +7,23 @@
   "status": "Acquired",
   "one_liner": "Developer-First Headless CMS and Application Framework",
   "website": "https://payloadcms.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2018,
+  "location": "Grand Rapids, MI",
+  "founders": [
+   {
+    "name": "James Mikrut",
+    "title": "Founder"
+   },
+   {
+    "name": "Elliot DeNolf",
+    "title": "Founder"
+   },
+   {
+    "name": "Dan Ribbens",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 42835,
@@ -7937,5 +7953,15 @@
    "first1000_net_pct": 66,
    "lifetime_net_pct": 53
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "GgE-payload-a-developer-first-content-management-system",
+   "title": "Payload — A Developer-First Content Management System",
+   "tagline": "We're obsessed with giving engineers the best developer experience possible as they build APIs and admin UI.",
+   "date": "2022-06-28",
+   "votes": 87,
+   "url": "https://www.ycombinator.com/launches/GgE-payload-a-developer-first-content-management-system"
+  }
+ ]
 }

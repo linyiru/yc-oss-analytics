@@ -1,0 +1,38 @@
+{
+ "slug": "autumn",
+ "name": "Autumn",
+ "batch": "S25",
+ "website": "https://useautumn.com",
+ "github_url": "https://github.com/johnyeocx/autumn",
+ "tags": [],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 2,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Ayush Rodrigues",
+   "title": "Founder"
+  },
+  {
+   "name": "John Yeo",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "O7l-autumn-stripe-for-ai-startups",
+   "title": "Autumn: Stripe for AI Startups",
+   "tagline": "Autumn makes Stripe 10x easier to integrate and manages your billing infra as you grow",
+   "date": "2025-08-05",
+   "votes": 59,
+   "url": "https://www.ycombinator.com/launches/O7l-autumn-stripe-for-ai-startups"
+  }
+ ],
+ "page_repos": [
+  "johnyeocx/autumn"
+ ],
+ "fetched_at": "2026-06-07T15:58:12+00:00"
+}

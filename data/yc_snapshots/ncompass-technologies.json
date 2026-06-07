@@ -1,0 +1,68 @@
+{
+ "slug": "ncompass-technologies",
+ "name": "nCompass Technologies",
+ "batch": "W24",
+ "website": "https://www.ncompass.tech",
+ "github_url": "https://github.com/nCompass-tech/ncompass",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Hardware",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 3,
+ "location": "New York",
+ "country": "US",
+ "partner": "David Lieb",
+ "founders": [
+  {
+   "name": "Aditya Rajagopal",
+   "title": "Co-Founder"
+  },
+  {
+   "name": "Diederik Vink",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Pa6-ncompass-optimize-performance-on-gpus-10x-faster",
+   "title": "nCompass - Optimize performance on GPUs, 10x faster",
+   "tagline": "Automate performance optimization at all levels of the AI infrastructure stack",
+   "date": "2026-03-02",
+   "votes": 19,
+   "url": "https://www.ycombinator.com/launches/Pa6-ncompass-optimize-performance-on-gpus-10x-faster"
+  },
+  {
+   "slug": "M0a-ncompass-technologies-reliable-llm-api-with-no-rate-limits",
+   "title": "nCompass Technologies: Reliable LLM API with no rate-limits",
+   "tagline": "The most cost-effective way to setup and scale up your AI infrastructure.",
+   "date": "2024-10-09",
+   "votes": 37,
+   "url": "https://www.ycombinator.com/launches/M0a-ncompass-technologies-reliable-llm-api-with-no-rate-limits"
+  },
+  {
+   "slug": "LBE-ncompass-technologies-realtime-audio-denoising",
+   "title": "nCompass Technologies: Realtime audio denoising",
+   "tagline": "nCompass's newest model is a realtime audio denoiser that can remove voices from the background of audio streams.",
+   "date": "2024-06-11",
+   "votes": 24,
+   "url": "https://www.ycombinator.com/launches/LBE-ncompass-technologies-realtime-audio-denoising"
+  },
+  {
+   "slug": "KaC-ncompass-technologies-low-latency-deployment-of-ai-models-made-easy",
+   "title": "nCompass Technologies - Low-latency deployment of AI models made easy",
+   "tagline": "nCompass is an API that requires only one-line-of-code to integrate low latency versions of open-source/custom models into your AI pipeline.",
+   "date": "2024-03-06",
+   "votes": 97,
+   "url": "https://www.ycombinator.com/launches/KaC-ncompass-technologies-low-latency-deployment-of-ai-models-made-easy"
+  }
+ ],
+ "page_repos": [
+  "nCompass-tech/nCompass",
+  "nCompass-tech/ncompass"
+ ],
+ "fetched_at": "2026-06-07T15:58:40+00:00"
+}

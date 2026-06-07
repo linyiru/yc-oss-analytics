@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "Helping humans and AI agents understand massive codebases",
   "website": "https://www.sourcebot.dev/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Michael Sukkarieh",
+    "title": "Founder"
+   },
+   {
+    "name": "Brendan Kellam",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 3467,
@@ -2280,5 +2293,15 @@
    "first1000_net_pct": 81,
    "lifetime_net_pct": 77
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "OdD-sourcebot-the-code-understanding-platform",
+   "title": "Sourcebot: The Code Understanding Platform",
+   "tagline": "Helping developers and AI agents understand massive codebases.",
+   "date": "2025-10-16",
+   "votes": 54,
+   "url": "https://www.ycombinator.com/launches/OdD-sourcebot-the-code-understanding-platform"
+  }
+ ]
 }

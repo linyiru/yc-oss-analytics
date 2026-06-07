@@ -7,7 +7,23 @@
   "status": "Acquired",
   "one_liner": "Open Source Embedded Product Integrations",
   "website": "https://openint.dev",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Amadeo Pellicce",
+    "title": "CEO & Founder"
+   },
+   {
+    "name": "Philip London",
+    "title": "Founder"
+   },
+   {
+    "name": "Mark Pfluger",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 10,
@@ -543,5 +559,15 @@
    "first1000_net_pct": 80,
    "lifetime_net_pct": 80
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "LdX-evefan-self-hosted-segment-alternative-99-savings-w-cloudflare-workers-oss",
+   "title": "⭐️ Evefan — Self-hosted Segment alternative — 99% savings w/ Cloudflare Workers (OSS)",
+   "tagline": "Self-host your own internet scale events infrastructure.",
+   "date": "2024-08-19",
+   "votes": 21,
+   "url": "https://www.ycombinator.com/launches/LdX-evefan-self-hosted-segment-alternative-99-savings-w-cloudflare-workers-oss"
+  }
+ ]
 }

@@ -1,0 +1,28 @@
+{
+ "slug": "daily",
+ "name": "Daily",
+ "batch": "W16",
+ "website": "https://daily.co",
+ "github_url": "https://github.com/daily-co",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "AI",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2016,
+ "team_size": 126,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Kwindla Hultman Kramer",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:19+00:00"
+}

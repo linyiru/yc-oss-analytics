@@ -7,7 +7,20 @@
   "status": "Acquired",
   "one_liner": "Turn expensive prompts into cheap fine-tuned models",
   "website": "https://openpipe.ai/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2023,
+  "location": "Seattle, WA",
+  "partner": "Harj Taggar",
+  "founders": [
+   {
+    "name": "Kyle Corbitt",
+    "title": "Founder"
+   },
+   {
+    "name": "David Corbitt",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2810,
@@ -2475,5 +2488,15 @@
    "first1000_net_pct": 64,
    "lifetime_net_pct": 74
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "JMa-openpipe-convert-expensive-llm-prompts-into-fast-cheap-fine-tuned-models",
+   "title": "OpenPipe: Convert expensive LLM prompts into fast, cheap fine-tuned models",
+   "tagline": "OpenPipe automatically captures your existing prompts and completions, then uses them to fine-tune a drop-in replacement. The replacement is faster, cheaper and often more accurate than your original prompt.",
+   "date": "2023-08-28",
+   "votes": 99,
+   "url": "https://www.ycombinator.com/launches/JMa-openpipe-convert-expensive-llm-prompts-into-fast-cheap-fine-tuned-models"
+  }
+ ]
 }

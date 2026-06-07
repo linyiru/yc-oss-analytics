@@ -1,0 +1,40 @@
+{
+ "slug": "vibe-kanban",
+ "name": "Vibe Kanban",
+ "batch": "S21",
+ "website": "https://vibekanban.com",
+ "github_url": "https://github.com/bloopai",
+ "tags": [
+  "Artificial Intelligence",
+  "Machine Learning",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 10,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Louis Knight-Webb",
+   "title": "Founder"
+  },
+  {
+   "name": "Gabriel Gordon-Hall",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Nwy-vibe-kanban-10x-your-claude-code-usage",
+   "title": "Vibe Kanban - 10X your Claude Code usage",
+   "tagline": "Run coding agents in parallel, streamline review and planning",
+   "date": "2025-07-11",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/Nwy-vibe-kanban-10x-your-claude-code-usage"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:56+00:00"
+}

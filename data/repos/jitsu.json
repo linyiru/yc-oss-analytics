@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Capture Event Data into Your Stack",
   "website": "https://jitsu.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2020,
+  "location": "New York City, NY",
+  "founders": [
+   {
+    "name": "Vladimir Klimontovich",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 4781,

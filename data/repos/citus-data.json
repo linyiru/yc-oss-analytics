@@ -7,7 +7,14 @@
   "status": "Acquired",
   "one_liner": "Real-time. Big data. PostgreSQL",
   "website": "http://citusdata.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Sumedh Pathak",
+    "title": "Founder/Engineer"
+   }
+  ]
  },
  "metrics": {
   "stars": 12540,

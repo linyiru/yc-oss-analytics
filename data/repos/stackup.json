@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Stackup helps businesses manage their crypto assets.",
   "website": "https://www.stackup.fi",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Los Angeles, CA",
+  "founders": [
+   {
+    "name": "John Rising",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 244,

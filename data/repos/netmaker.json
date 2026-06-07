@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Automated WireGuard networks for distributed systems and Kubernetes",
   "website": "https://netmaker.io",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "Asheville, NC",
+  "founders": [
+   {
+    "name": "Alex Feiszli",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 11603,

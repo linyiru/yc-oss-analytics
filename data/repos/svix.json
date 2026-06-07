@@ -7,7 +7,16 @@
   "status": "Active",
   "one_liner": "Enterprise ready webhooks service, open-source and in the cloud",
   "website": "https://www.svix.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Tom Hacohen",
+    "title": "Founder & CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 3238,

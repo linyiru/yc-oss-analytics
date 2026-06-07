@@ -7,7 +7,20 @@
   "status": "Active",
   "one_liner": "The LLM Eval and Observability Platform for AI Quality",
   "website": "https://confident-ai.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "partner": "Tom Blomfield",
+  "founders": [
+   {
+    "name": "Jeffrey Ip",
+    "title": "CEO & Cofounder"
+   },
+   {
+    "name": "Kritin Vongthongsri",
+    "title": "Co-Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 15953,
@@ -4563,5 +4576,15 @@
    "first1000_net_pct": 75,
    "lifetime_net_pct": 62
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "Mnp-confident-ai-the-evals-platform-for-ai-quality-observability",
+   "title": "Confident AI: The Evals Platform for AI Quality & Observability",
+   "tagline": "An evaluation platform for engineers, QAs, and PMs to pinpoint which iteration of their AI to put in production.",
+   "date": "2025-02-13",
+   "votes": 374,
+   "url": "https://www.ycombinator.com/launches/Mnp-confident-ai-the-evals-platform-for-ai-quality-observability"
+  }
+ ]
 }

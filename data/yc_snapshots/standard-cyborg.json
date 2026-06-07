@@ -1,0 +1,27 @@
+{
+ "slug": "standard-cyborg",
+ "name": "Standard Cyborg",
+ "batch": "W15",
+ "website": "http://standardcyborg.com",
+ "github_url": "",
+ "tags": [
+  "Machine Learning",
+  "Computer Vision",
+  "Open Source"
+ ],
+ "status": "Inactive",
+ "year_founded": 2015,
+ "team_size": 9,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Jeff Huber",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:50+00:00"
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "artillery",
+ "name": "Artillery",
+ "batch": "S21",
+ "website": "https://www.artillery.io",
+ "github_url": "https://github.com/artilleryio",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "DevOps"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 5,
+ "location": "Limerick, Ireland",
+ "country": "IE",
+ "partner": "Aaron Epstein",
+ "founders": [
+  {
+   "name": "Hassy Veldstra",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:11+00:00"
+}

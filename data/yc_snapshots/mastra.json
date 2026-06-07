@@ -1,0 +1,45 @@
+{
+ "slug": "mastra",
+ "name": "Mastra",
+ "batch": "W25",
+ "website": "https://mastra.ai",
+ "github_url": "https://github.com/mastra-ai",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 8,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Gustaf Alstromer",
+ "founders": [
+  {
+   "name": "Sam Bhagwat",
+   "title": "Founder"
+  },
+  {
+   "name": "Abhi Aiyer",
+   "title": "Founder"
+  },
+  {
+   "name": "Shane Thomas",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Muk-mastra-the-open-source-javascript-framework-for-building-agents",
+   "title": "Mastra: the open-source JavaScript framework for building agents",
+   "tagline": "If you hate Langchain, you'll love Mastra :) ",
+   "date": "2025-02-27",
+   "votes": 172,
+   "url": "https://www.ycombinator.com/launches/Muk-mastra-the-open-source-javascript-framework-for-building-agents"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:35+00:00"
+}

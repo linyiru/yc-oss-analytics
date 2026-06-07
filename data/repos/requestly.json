@@ -7,7 +7,19 @@
   "status": "Acquired",
   "one_liner": "Open-Source Postman alternative",
   "website": "https://requestly.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2021,
+  "location": "San Francisco",
+  "founders": [
+   {
+    "name": "Sachin Jain",
+    "title": "Founder"
+   },
+   {
+    "name": "Sagar Soni",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 6725,
@@ -5532,5 +5544,15 @@
    "first1000_net_pct": 47,
    "lifetime_net_pct": 58
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "MKD-requestly-open-source-api-mocking-testing-tool-for-developers",
+   "title": "Requestly - Open-Source API Mocking & Testing Tool for Developers 🚀",
+   "tagline": "A better alternative to Postman & Charles Proxy",
+   "date": "2024-11-25",
+   "votes": 28,
+   "url": "https://www.ycombinator.com/launches/MKD-requestly-open-source-api-mocking-testing-tool-for-developers"
+  }
+ ]
 }

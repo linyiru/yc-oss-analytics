@@ -1,0 +1,32 @@
+{
+ "slug": "font-awesome",
+ "name": "Font Awesome",
+ "batch": "S15",
+ "website": "http://fontawesome.com",
+ "github_url": "https://github.com/FortAwesome",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Design Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2014,
+ "team_size": 17,
+ "location": "Bentonville, AR",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Dave Gandy",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Travis Chase",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:23+00:00"
+}

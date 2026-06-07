@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "Self-Service Data Prep and Blend Built for Data Teams.",
   "website": "https://ensoanalytics.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2018,
+  "location": "Kraków, Poland",
+  "founders": [
+   {
+    "name": "Sylwia Brodacka",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 27,

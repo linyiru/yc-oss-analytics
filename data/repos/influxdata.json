@@ -7,7 +7,15 @@
   "status": "Active",
   "one_liner": "The platform for building and operating time series applications.",
   "website": "https://influxdata.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2012,
+  "location": "New York City, NY",
+  "founders": [
+   {
+    "name": "Paul Dix",
+    "title": "Founder/CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 31531,

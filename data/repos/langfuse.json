@@ -7,7 +7,24 @@
   "status": "Acquired",
   "one_liner": "Open source LLM engineering platform",
   "website": "https://langfuse.com",
-  "industry": "B2B"
+  "industry": "B2B",
+  "year_founded": 2022,
+  "location": "Berlin, Germany",
+  "partner": "Gustaf Alstromer",
+  "founders": [
+   {
+    "name": "Marc Klingen",
+    "title": "Co-Founder & CEO"
+   },
+   {
+    "name": "Maximilian Deichmann",
+    "title": "Founder"
+   },
+   {
+    "name": "Clemens Rawert",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 28590,
@@ -4917,5 +4934,23 @@
    "first1000_net_pct": 84,
    "lifetime_net_pct": 66
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "MgN-langfuse-the-open-source-llm-engineering-platform",
+   "title": "🪢 Langfuse - The Open-Source LLM Engineering Platform",
+   "tagline": "Langfuse helps teams collaboratively monitor, evaluate and debug their LLM applications.",
+   "date": "2025-01-27",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/MgN-langfuse-the-open-source-llm-engineering-platform"
+  },
+  {
+   "slug": "J2s-langfuse-open-source-product-analytics-for-llm-apps",
+   "title": "🪢 Langfuse - Open-source product analytics for LLM apps",
+   "tagline": "Track quality, cost and latency of your LLM apps",
+   "date": "2023-07-19",
+   "votes": 28,
+   "url": "https://www.ycombinator.com/launches/J2s-langfuse-open-source-product-analytics-for-llm-apps"
+  }
+ ]
 }

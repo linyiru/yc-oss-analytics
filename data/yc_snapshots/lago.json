@@ -1,0 +1,33 @@
+{
+ "slug": "lago",
+ "name": "Lago",
+ "batch": "S21",
+ "website": "https://www.getlago.com/",
+ "github_url": "https://github.com/getlago",
+ "tags": [
+  "FinOps",
+  "Fintech",
+  "SaaS",
+  "Open Source",
+  "Billing"
+ ],
+ "status": "Active",
+ "year_founded": 2021,
+ "team_size": 45,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Anh-Tho CHUONG",
+   "title": "Founder"
+  },
+  {
+   "name": "Raffi SARKISSIAN",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:32+00:00"
+}

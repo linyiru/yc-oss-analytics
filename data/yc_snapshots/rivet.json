@@ -1,0 +1,40 @@
+{
+ "slug": "rivet",
+ "name": "Rivet",
+ "batch": "W23",
+ "website": "https://rivet.dev",
+ "github_url": "https://github.com/rivet-dev",
+ "tags": [
+  "B2B",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Nicholas Kissel",
+   "title": "Founder"
+  },
+  {
+   "name": "Nathaniel Flurry",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "IGu-rivet-heroku-for-multiplayer-games",
+   "title": "👾 Rivet - Heroku for multiplayer games",
+   "tagline": "Run multiplayer games with managed game servers, matchmaking, and DDoS mitigation.",
+   "date": "2023-03-13",
+   "votes": 57,
+   "url": "https://www.ycombinator.com/launches/IGu-rivet-heroku-for-multiplayer-games"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-06-07T15:58:47+00:00"
+}
