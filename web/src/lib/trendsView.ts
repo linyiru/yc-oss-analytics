@@ -5,7 +5,16 @@ import { repos } from './data';
 export function trendsView() {
   const { years, languages } = languageTrends();
   const tools = devToolAdoption();
+  const lic: Record<string, number> = {};
+  for (const r of repos) {
+    const l = r.metrics?.license || 'NOASSERTION';
+    lic[l] = (lic[l] ?? 0) + 1;
+  }
+  const licenses = Object.entries(lic)
+    .map(([name, count]) => ({ name: name === 'NOASSERTION' ? 'Custom / Other' : name, count }))
+    .sort((a, b) => b.count - a.count);
   return {
+    licenses,
     count: repos.length,
     langSet: languages,
     byYear: years.map((y) => ({

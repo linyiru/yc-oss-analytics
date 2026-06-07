@@ -33,6 +33,10 @@ export default function Trends({ tr, initialLocale }) {
           </Section>
         </div>
 
+        <Section title="License choice" sub="Reflects commercialization strategy — MIT for adoption, Apache for enterprise/patents, AGPL to protect a SaaS" style={{ marginBottom: 16 }}>
+          <RankedBars items={tr.licenses.map((l) => ({ label: l.name, value: l.count, color: l.name.startsWith('AGPL') || l.name.startsWith('GPL') ? '#f7853a' : l.name.startsWith('Apache') ? '#4f9df7' : l.name.startsWith('MIT') ? '#43c46a' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
+        </Section>
+
         <div className="trends-grid" style={{ marginBottom: 16 }}>
           <Section title="AI-assisted commits, rising by cohort" sub="Mean AI-assisted % across each batch year">
             <div className="row" style={{ alignItems: 'flex-end', gap: 10, height: 200, padding: '8px 4px 0' }}>
