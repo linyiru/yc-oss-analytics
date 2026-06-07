@@ -4739,15 +4739,6 @@
    "hn": "https://news.ycombinator.com/item?id=36887711"
   },
   {
-   "date": "2025-11-18",
-   "title": "Show HN: Optimizing LiteLLM with Rust – When Expectations Meet Reality",
-   "url": "https://github.com/neul-labs/fast-litellm",
-   "author": "ticktockten",
-   "points": 27,
-   "comments": 9,
-   "hn": "https://news.ycombinator.com/item?id=45968461"
-  },
-  {
    "date": "2023-08-08",
    "title": "Show HN: LiteLLM -Open-Source Library for Anthropic,Azure,OpenAI, etc. API Calls",
    "url": "https://litellm.ai/",
@@ -4755,6 +4746,15 @@
    "points": 5,
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=37048149"
+  },
+  {
+   "date": "2025-07-24",
+   "title": "LiteLLM Python SDK Proxy Server LLM Gateway Call 100 LLM APIs in OpenAI Format",
+   "url": "https://github.com/BerriAI/litellm",
+   "author": "Bluestein",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44674162"
   }
  ],
  "yc_launch": null,

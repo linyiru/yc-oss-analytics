@@ -1577,15 +1577,6 @@
  },
  "hn_events": [
   {
-   "date": "2020-07-29",
-   "title": "Show HN: WebGL simulation of rainy autumn day/evening",
-   "url": "https://pluvoir.netlify.app/index.html",
-   "author": "maxraz",
-   "points": 393,
-   "comments": 60,
-   "hn": "https://news.ycombinator.com/item?id=23985825"
-  },
-  {
    "date": "2025-06-24",
    "title": "Show HN: Autumn – Open-source infra over Stripe",
    "url": "https://github.com/useautumn/autumn",
@@ -1593,15 +1584,6 @@
    "points": 141,
    "comments": 47,
    "hn": "https://news.ycombinator.com/item?id=44365620"
-  },
-  {
-   "date": "2018-12-31",
-   "title": "Show HN: Autumn – A macOS window manager for (Type|Java)Script hackers",
-   "url": "https://sephware.com",
-   "author": "sephoric",
-   "points": 75,
-   "comments": 38,
-   "hn": "https://news.ycombinator.com/item?id=18794928"
   },
   {
    "date": "2025-05-15",
@@ -1613,15 +1595,6 @@
    "hn": "https://news.ycombinator.com/item?id=43995122"
   },
   {
-   "date": "2019-03-25",
-   "title": "Show HN: Autumn (macOS window manager) is going open source",
-   "url": "https://sephware.com/blog/2019-03-25-autumn-macos-window-manager-now-open-source.html",
-   "author": "sephoric",
-   "points": 13,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=19483138"
-  },
-  {
    "date": "2026-03-30",
    "title": "Consumer psychology is important in AI pricing",
    "url": "https://useautumn.com/blog/working-with-t3-chat-on-a-new-way-of-pricing",
@@ -1629,6 +1602,33 @@
    "points": 7,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=47576945"
+  },
+  {
+   "date": "2025-07-24",
+   "title": "How we are trying to disrupt Stripe with open-source",
+   "url": "https://useautumn.com/blog/what-if-stripe-builds-this",
+   "author": "khoaduong",
+   "points": 4,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=44674153"
+  },
+  {
+   "date": "2025-01-25",
+   "title": "Show HN: One line solution to Stripe's painful DX",
+   "url": "https://useautumn.com/",
+   "author": "netswift",
+   "points": 3,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=42822932"
+  },
+  {
+   "date": "2025-01-26",
+   "title": "Easiest way I've seen to integrate Stripe",
+   "url": "https://useautumn.com/blog/the-easiest-way-to-integrate-stripe",
+   "author": "netswift",
+   "points": 3,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=42833303"
   }
  ],
  "repo_id": 919987810,

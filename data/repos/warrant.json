@@ -2204,33 +2204,6 @@
    "hn": "https://news.ycombinator.com/item?id=36470943"
   },
   {
-   "date": "2021-10-23",
-   "title": "Implementing Role Based Access Control in a Web Application",
-   "url": "https://blog.warrant.dev/implementing-role-based-access-control",
-   "author": "kkajla",
-   "points": 25,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=28970513"
-  },
-  {
-   "date": "2014-06-04",
-   "title": "Show HN: Warranty Genius ",
-   "url": "https://news.ycombinator.com/item?id=7845638",
-   "author": "codelitt",
-   "points": 25,
-   "comments": 15,
-   "hn": "https://news.ycombinator.com/item?id=7845638"
-  },
-  {
-   "date": "2022-03-02",
-   "title": "Self Service Permission Management for Your Customers with Warrant",
-   "url": "https://warrant.dev/features/self-service-dashboard",
-   "author": "kkajla",
-   "points": 8,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=30528601"
-  },
-  {
    "date": "2023-06-29",
    "title": "Show HN: Open-Source, Google Zanzibar Inspired Authorization Service",
    "url": "https://github.com/warrant-dev/warrant",
@@ -2240,13 +2213,40 @@
    "hn": "https://news.ycombinator.com/item?id=36521787"
   },
   {
-   "date": "2021-11-11",
-   "title": "Authorization in Multi-Tenant SaaS Apps",
-   "url": "https://docs.warrant.dev/guides/multi-tenant-saas",
-   "author": "kkajla",
-   "points": 5,
+   "date": "2023-11-27",
+   "title": "What Is Google Zanzibar?",
+   "url": "https://warrant.dev/learn/google-zanzibar",
+   "author": "akajla",
+   "points": 3,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=29192516"
+   "hn": "https://news.ycombinator.com/item?id=38434479"
+  },
+  {
+   "date": "2023-11-03",
+   "title": "Warrant Launch Week – Authorization Model Templates",
+   "url": "https://blog.warrant.dev/launch-week-winter-2023-day-5/",
+   "author": "akajla",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38130840"
+  },
+  {
+   "date": "2023-11-01",
+   "title": "Warrant Launch Week – Day 3 (Consistency, Performance and Multi-Region)",
+   "url": "https://blog.warrant.dev/launch-week-winter-2023-day-3/",
+   "author": "akajla",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38100531"
+  },
+  {
+   "date": "2023-10-31",
+   "title": "Warrant Query Language – A query language for permissions",
+   "url": "https://blog.warrant.dev/launch-week-winter-2023-day-2/",
+   "author": "kkajla",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38086383"
   }
  ],
  "engagement": {

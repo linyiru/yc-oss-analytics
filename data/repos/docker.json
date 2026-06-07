@@ -11355,15 +11355,6 @@
    "hn": "https://news.ycombinator.com/item?id=16698932"
   },
   {
-   "date": "2025-06-18",
-   "title": "Show HN: Unregistry – “docker push” directly to servers without a registry",
-   "url": "https://github.com/psviderski/unregistry",
-   "author": "psviderski",
-   "points": 726,
-   "comments": 164,
-   "hn": "https://news.ycombinator.com/item?id=44314085"
-  },
-  {
    "date": "2014-06-09",
    "title": "Docker 1.0",
    "url": "http://blog.docker.com/2014/06/its-here-docker-1-0/",
@@ -11371,6 +11362,15 @@
    "points": 709,
    "comments": 130,
    "hn": "https://news.ycombinator.com/item?id=7868791"
+  },
+  {
+   "date": "2016-07-29",
+   "title": "Docker for Mac and Windows Is Now Generally Available and Ready for Production",
+   "url": "https://blog.docker.com/2016/07/docker-for-mac-and-windows-production-ready/",
+   "author": "samber",
+   "points": 599,
+   "comments": 163,
+   "hn": "https://news.ycombinator.com/item?id=12184522"
   }
  ],
  "engagement": {

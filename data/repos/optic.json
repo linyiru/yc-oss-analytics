@@ -3857,58 +3857,58 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2025-03-21",
-   "title": "Show HN: Torch Lens Maker – Differentiable Geometric Optics in PyTorch",
-   "url": "https://victorpoughon.github.io/torchlensmaker/",
-   "author": "fouronnes3",
-   "points": 179,
-   "comments": 45,
-   "hn": "https://news.ycombinator.com/item?id=43435438"
-  },
-  {
-   "date": "2024-02-23",
-   "title": "Show HN: Refractify – Optical software against myopia",
-   "url": "https://refractify.io/",
-   "author": "macilacilove",
-   "points": 174,
-   "comments": 55,
-   "hn": "https://news.ycombinator.com/item?id=39484590"
-  },
-  {
-   "date": "2018-06-23",
-   "title": "Show HN: Optical stripe reading and floppy disk imaging attempt",
-   "url": "https://www.anfractuosity.com/projects/optical-magnetic-stripe-reading/#start",
-   "author": "anfractuosity",
-   "points": 71,
+   "date": "2023-10-17",
+   "title": "Show HN: Generate OpenAPI from Your Tests",
+   "url": "https://github.com/opticdev/optic/blob/main/docs/generate-openapi.md",
+   "author": "addcn",
+   "points": 16,
    "comments": 3,
-   "hn": "https://news.ycombinator.com/item?id=17382508"
+   "hn": "https://news.ycombinator.com/item?id=37913998"
   },
   {
-   "date": "2023-02-25",
-   "title": "Show HN: Open Optical Designer, free and open source lens design software",
-   "url": "https://alexbock.github.io/open-optical-designer/",
-   "author": "alexbock",
-   "points": 59,
-   "comments": 5,
-   "hn": "https://news.ycombinator.com/item?id=34939954"
+   "date": "2023-05-11",
+   "title": "Your API Needs a Lockfile",
+   "url": "https://www.useoptic.com/blog/your-api-needs-a-lockfile",
+   "author": "addcn",
+   "points": 6,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=35901434"
   },
   {
-   "date": "2025-01-16",
-   "title": "Show HN: Real-time nonlinear optics simulation (JS/GLSL)",
-   "url": "https://github.com/westoncb/nonlinear-optics-sandbox",
-   "author": "westoncb",
-   "points": 46,
-   "comments": 12,
-   "hn": "https://news.ycombinator.com/item?id=42731417"
+   "date": "2023-09-12",
+   "title": "Comparing Optic and Spectral",
+   "url": "https://www.useoptic.com/comparisons/spectral",
+   "author": "DerekBickerton",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37482072"
   },
   {
-   "date": "2015-03-15",
-   "title": "Show HN: Neural network optical character recognition",
-   "url": "https://github.com/mateogianolio/mlp-character-recognition",
-   "author": "megalodon",
-   "points": 23,
-   "comments": 9,
-   "hn": "https://news.ycombinator.com/item?id=9206451"
+   "date": "2023-10-25",
+   "title": "Show HN: LintGPT – Write API Style Guides in Natural Language",
+   "url": "https://www.useoptic.com/lintgpt",
+   "author": "addcn",
+   "points": 1,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=38012603"
+  },
+  {
+   "date": "2023-10-13",
+   "title": "Governing APIs that have already shipped",
+   "url": "https://www.useoptic.com/blog/governing-apis-after-they-ship",
+   "author": "addcn",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37870605"
+  },
+  {
+   "date": "2023-10-12",
+   "title": "Testing for Problematic API Changes",
+   "url": "https://www.useoptic.com/blog/developer-friendly-api-governance",
+   "author": "addcn",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37858038"
   }
  ],
  "engagement": {

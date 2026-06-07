@@ -2354,58 +2354,49 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2023-08-03",
-   "title": "Show HN: Hydra 1.0 – open-source column-oriented Postgres",
-   "url": "https://hydra-so.notion.site/Hydra-1-0-beta-318504444825401e8ce21796dcadd589",
-   "author": "coatue",
-   "points": 269,
-   "comments": 77,
-   "hn": "https://news.ycombinator.com/item?id=36987920"
-  },
-  {
-   "date": "2019-07-01",
-   "title": "Show HN: Hydra – Open-Source OAuth2 Server",
-   "url": "https://gethydra.sh/hydra-1.0-stable-release",
-   "author": "vwpolo3",
-   "points": 190,
-   "comments": 51,
-   "hn": "https://news.ycombinator.com/item?id=20326931"
-  },
-  {
-   "date": "2023-09-19",
-   "title": "Show HN: Hydra - Open-Source Columnar Postgres",
-   "url": "https://www.hydra.so/blog-posts/hydra-1-generally-available",
-   "author": "coatue",
-   "points": 122,
-   "comments": 33,
-   "hn": "https://news.ycombinator.com/item?id=37571974"
-  },
-  {
-   "date": "2023-08-24",
-   "title": "Hydra: Column-Oriented Postgres",
+   "date": "2025-05-09",
+   "title": "Show HN: Hydra (YC W22) – Serverless Analytics on Postgres",
    "url": "https://www.hydra.so/",
-   "author": "hankchinaski",
-   "points": 116,
-   "comments": 73,
-   "hn": "https://news.ycombinator.com/item?id=37247945"
-  },
-  {
-   "date": "2022-11-03",
-   "title": "Show HN: Open-source OAuth2 & OpenID server Ory Hydra v2",
-   "url": "https://github.com/ory/hydra/releases/tag/v2.0.0",
-   "author": "baconfly",
-   "points": 108,
-   "comments": 14,
-   "hn": "https://news.ycombinator.com/item?id=33451181"
-  },
-  {
-   "date": "2023-03-03",
-   "title": "Updates and Deletes on Columnar Postgres",
-   "url": "https://blog.hydra.so/blog/2023-03-02-columnar-updates-and-deletes",
    "author": "coatue",
-   "points": 84,
-   "comments": 4,
-   "hn": "https://news.ycombinator.com/item?id=35012830"
+   "points": 60,
+   "comments": 33,
+   "hn": "https://news.ycombinator.com/item?id=43937852"
+  },
+  {
+   "date": "2024-08-16",
+   "title": "Pg_DuckDB: Run DuckDB in Postgres",
+   "url": "https://github.com/duckdb/pg_duckdb",
+   "author": "mritchie712",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41265953"
+  },
+  {
+   "date": "2026-05-13",
+   "title": "pg_DuckDB: DuckDB-powered Postgres for high performance apps and analytics",
+   "url": "https://github.com/duckdb/pg_duckdb",
+   "author": "tosh",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48118329"
+  },
+  {
+   "date": "2024-08-16",
+   "title": "Pg_DuckDB – DuckDB-Powered Postgres",
+   "url": "https://github.com/duckdb/pg_duckdb",
+   "author": "davidgomes",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41263006"
+  },
+  {
+   "date": "2025-03-12",
+   "title": "Show HN: Hydra – serverless realtime analytics on Postgres",
+   "url": "https://www.hydra.so/",
+   "author": "coatue",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43343870"
   }
  ],
  "engagement": {

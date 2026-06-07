@@ -3612,15 +3612,6 @@
  "curve_partial": false,
  "hn_events": [
   {
-   "date": "2024-11-05",
-   "title": "Show HN: Firecrawl-Simple – Stable fork of Firecrawl optimized for self-hosting",
-   "url": "https://github.com/devflowinc/firecrawl-simple",
-   "author": "skeptrune",
-   "points": 35,
-   "comments": 7,
-   "hn": "https://news.ycombinator.com/item?id=42056056"
-  },
-  {
    "date": "2024-11-21",
    "title": "Show HN: Llms.txt Generator – Turn websites into a text file to feed to any LLM",
    "url": "https://llmstxt.firecrawl.dev/",
@@ -3664,6 +3655,15 @@
    "points": 8,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=41535513"
+  },
+  {
+   "date": "2026-03-11",
+   "title": "Show HN: A CLI to scrape, search, and interact with the web for AI agents",
+   "url": "https://docs.firecrawl.dev/sdks/cli",
+   "author": "ericciarla",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47339378"
   }
  ],
  "ph_event": {

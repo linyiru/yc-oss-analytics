@@ -3907,24 +3907,6 @@
    "hn": "https://news.ycombinator.com/item?id=31446236"
   },
   {
-   "date": "2021-03-07",
-   "title": "Show HN: Mito – Write Python/Pandas faster by editing a spreadsheet, in Jupyter",
-   "url": "https://trymito.io/launch",
-   "author": "aarondia",
-   "points": 101,
-   "comments": 29,
-   "hn": "https://news.ycombinator.com/item?id=26377559"
-  },
-  {
-   "date": "2020-08-28",
-   "title": "Meet Mito: Edit a spreadsheet. Generate Python. All in Jupyter.",
-   "url": "https://trymito.io",
-   "author": "narush",
-   "points": 47,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=24305615"
-  },
-  {
    "date": "2023-04-10",
    "title": "Lessons learned from adding ChatGPT to our mature product",
    "url": "https://blog.trymito.io/5-lessons-learned-from-adding-chatgpt-to-a-mature-product/",
@@ -3934,22 +3916,40 @@
    "hn": "https://news.ycombinator.com/item?id=35512297"
   },
   {
-   "date": "2022-12-11",
-   "title": "Show HN: MitosisPictures.com",
-   "url": "http://public.mitosispictures.com/",
-   "author": "breck",
-   "points": 6,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=33945320"
+   "date": "2023-06-09",
+   "title": "Building Your Life Away: Reflections on Building a Spreadsheet",
+   "url": "https://blog.trymito.io/building-your-life-away-reflections-on-building-a-spreadsheet/",
+   "author": "narush",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36262724"
   },
   {
-   "date": "2021-05-25",
-   "title": "Spreadsheet enabled notebooks: the ultimate REPL tool",
-   "url": "https://trymito.io/blog/repl",
+   "date": "2023-02-09",
+   "title": "Automating Spreadsheet Process with Python 101",
+   "url": "https://blog.trymito.io/automating-spreadsheets-with-python-101/",
+   "author": "narush",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=34732528"
+  },
+  {
+   "date": "2023-08-10",
+   "title": "Choosing Between SQL and Python",
+   "url": "https://blog.trymito.io/choosing-between-sql-and-python-best-practices-for-data-analytics-workflows/",
    "author": "aarondia",
-   "points": 3,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=27277030"
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37080735"
+  },
+  {
+   "date": "2023-06-09",
+   "title": "Lessons Learned adding ChatGPT to our Product. Round 2",
+   "url": "https://blog.trymito.io/lessons-learned-from-2-months-of-chatgpt-in-a-mature-product/",
+   "author": "aarondia",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36259882"
   }
  ],
  "engagement": {

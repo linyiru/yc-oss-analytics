@@ -7292,42 +7292,6 @@
  },
  "hn_events": [
   {
-   "date": "2025-07-14",
-   "title": "Show HN: Refine – A Local Alternative to Grammarly",
-   "url": "https://refine.sh",
-   "author": "runjuu",
-   "points": 408,
-   "comments": 210,
-   "hn": "https://news.ycombinator.com/item?id=44556684"
-  },
-  {
-   "date": "2023-02-28",
-   "title": "Show HN: Scribble Diffusion – Turn your sketch into a refined image using AI",
-   "url": "https://scribblediffusion.com",
-   "author": "zsikelianos",
-   "points": 373,
-   "comments": 89,
-   "hn": "https://news.ycombinator.com/item?id=34971579"
-  },
-  {
-   "date": "2019-06-13",
-   "title": "Show HN: Browser Extension to Refine the HN Experience",
-   "url": "https://github.com/plibither8/refined-hacker-news",
-   "author": "plibither8",
-   "points": 259,
-   "comments": 122,
-   "hn": "https://news.ycombinator.com/item?id=20173974"
-  },
-  {
-   "date": "2026-03-11",
-   "title": "Show HN: I built a refinery simulator game to explain job to my kids",
-   "url": "https://fuelingcuriosity.com/game.html",
-   "author": "fuelingcurious",
-   "points": 127,
-   "comments": 55,
-   "hn": "https://news.ycombinator.com/item?id=47338091"
-  },
-  {
    "date": "2023-01-25",
    "title": "Show HN: Refine v3.97 – Open-source React framework for building CRUD apps",
    "url": "https://github.com/refinedev/refine/blob/next/CHANGELOG.md",
@@ -7337,13 +7301,49 @@
    "hn": "https://news.ycombinator.com/item?id=34515128"
   },
   {
-   "date": "2023-01-25",
-   "title": "Show HN: UpTrain – Open-source ML observability and refinement tool",
-   "url": "https://github.com/uptrain-ai/uptrain",
-   "author": "sourabh0394agr",
-   "points": 88,
-   "comments": 14,
-   "hn": "https://news.ycombinator.com/item?id=34519052"
+   "date": "2022-11-01",
+   "title": "Show HN: An open-source React framework(4.2K stars) for building CRUD apps",
+   "url": "https://github.com/refinedev/refine",
+   "author": "freddgn",
+   "points": 39,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=33421294"
+  },
+  {
+   "date": "2024-01-05",
+   "title": "Introduction to htmx",
+   "url": "https://refine.dev/blog/what-is-htmx/",
+   "author": "quan",
+   "points": 22,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=38882539"
+  },
+  {
+   "date": "2023-03-14",
+   "title": "Show HN: Refine 4.0 – Open-source enterprise-grade React CRUD framework",
+   "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev%2Fcore%404.1.0",
+   "author": "omeraplak",
+   "points": 14,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=35151366"
+  },
+  {
+   "date": "2022-09-01",
+   "title": "Animations in React with Framer Motion",
+   "url": "https://refine.dev/blog/framer-motion-react-animations/",
+   "author": "omeraplak",
+   "points": 13,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=32676294"
+  },
+  {
+   "date": "2022-12-07",
+   "title": "Show HN: Windows 95 style modern CRUD app",
+   "url": "https://github.com/refinedev/refine/tree/next/examples/blog/win95",
+   "author": "firatcan",
+   "points": 11,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=33893337"
   }
  ],
  "engagement": {

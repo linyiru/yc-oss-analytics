@@ -642,15 +642,6 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2022-01-26",
-   "title": "Show HN: Infracost (YC W21) – Open-source cloud cost policies",
-   "url": "https://github.com/infracost/infracost",
-   "author": "hkh",
-   "points": 121,
-   "comments": 28,
-   "hn": "https://news.ycombinator.com/item?id=30086789"
-  },
-  {
    "date": "2023-08-09",
    "title": "Show HN: Infracost (YC W21): Be proactive with your cloud costs",
    "url": "https://news.ycombinator.com/item?id=37062007",
@@ -678,15 +669,6 @@
    "hn": "https://news.ycombinator.com/item?id=46706668"
   },
   {
-   "date": "2021-03-19",
-   "title": "Show HN: Infracost diff – “Git diff” but for cloud costs",
-   "url": "https://github.com/infracost/infracost#show-diff-of-monthly-costs-between-current-and-planned-state",
-   "author": "akh",
-   "points": 16,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=26514409"
-  },
-  {
    "date": "2026-05-19",
    "title": "We cut Claude's token usage 79% by redesigning our CLI for agents",
    "url": "https://www.infracost.io/resources/blog/we-cut-claude-s-token-usage-79-by-redesigning-our-cli-for-agents",
@@ -694,6 +676,24 @@
    "points": 12,
    "comments": 5,
    "hn": "https://news.ycombinator.com/item?id=48193230"
+  },
+  {
+   "date": "2022-05-24",
+   "title": "Estimate cloud costs by parsing Terraform HCL code",
+   "url": "https://www.infracost.io/docs/guides/v0.10_migration/",
+   "author": "akh",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=31497007"
+  },
+  {
+   "date": "2021-03-11",
+   "title": "Infracost: FOSS Cloud cost estimates for Terraform in pull requests",
+   "url": "https://www.infracost.io/",
+   "author": "Arubis",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=26427412"
   }
  ],
  "engagement": {

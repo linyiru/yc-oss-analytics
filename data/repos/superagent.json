@@ -3987,15 +3987,6 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2025-09-09",
-   "title": "Show HN: Superagents – connect spreadsheets to any database, API or MCP server",
-   "url": "https://sourcetable.com/superagents",
-   "author": "mceoin",
-   "points": 35,
-   "comments": 13,
-   "hn": "https://news.ycombinator.com/item?id=45186904"
-  },
-  {
    "date": "2025-11-18",
    "title": "Are AI models getting safer over time, or is it just bullshit?",
    "url": "https://www.superagent.sh/blog/gpt-vs-claude-ai-safety-benchmark",
@@ -4003,15 +3994,6 @@
    "points": 3,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=45967078"
-  },
-  {
-   "date": "2023-10-30",
-   "title": "Superagent: The AI-assistant framework for LLMs",
-   "url": "https://www.superagent.sh/",
-   "author": "omarfarooq",
-   "points": 3,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=38076193"
   },
   {
    "date": "2025-12-10",
@@ -4023,22 +4005,13 @@
    "hn": "https://news.ycombinator.com/item?id=46224987"
   },
   {
-   "date": "2025-02-03",
-   "title": "ReAG: Reasoning-Augmented Generation",
-   "url": "https://www.superagent.sh/blog/reag-reasoning-augmented-generation",
-   "author": "atestu",
-   "points": 2,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=42922697"
-  },
-  {
-   "date": "2024-12-04",
-   "title": "Autonomous AI Agent Playing No Limit Texas Holdem'",
-   "url": "https://poker.superagent.sh",
+   "date": "2025-12-10",
+   "title": "What we learned from Red Teaming some of the fastest growing AI Startups",
+   "url": "https://www.superagent.sh/blog/red-teaming-ai-agents-learnings",
    "author": "homanp",
-   "points": 2,
+   "points": 1,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=42317131"
+   "hn": "https://news.ycombinator.com/item?id=46215401"
   }
  ],
  "engagement": {

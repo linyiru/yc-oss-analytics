@@ -4935,15 +4935,6 @@
  "curve_partial": true,
  "hn_events": [
   {
-   "date": "2015-05-14",
-   "title": "Show HN: Twenty",
-   "url": "http://twenty.frenchguys.net",
-   "author": "sossles",
-   "points": 666,
-   "comments": 167,
-   "hn": "https://news.ycombinator.com/item?id=9543005"
-  },
-  {
    "date": "2024-06-11",
    "title": "Twenty, a modern CRM alternative to Salesforce",
    "url": "https://twenty.com",
@@ -4962,31 +4953,31 @@
    "hn": "https://news.ycombinator.com/item?id=37805520"
   },
   {
-   "date": "2015-09-16",
-   "title": "Show HN: It's almost four twenty somewhere in the world",
-   "url": "http://its.fourtwenty.in/",
-   "author": "ccvannorman",
-   "points": 8,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=10230640"
+   "date": "2026-04-22",
+   "title": "Twenty: The open alternative to Salesforce, designed for AI",
+   "url": "https://github.com/twentyhq/twenty",
+   "author": "thunderbong",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=47868000"
   },
   {
-   "date": "2016-09-07",
-   "title": "Show HN: Nweets – Keep up with technology news in twenty tweets",
-   "url": "https://nweets.co",
-   "author": "_zeo8",
-   "points": 6,
-   "comments": 3,
-   "hn": "https://news.ycombinator.com/item?id=12441817"
+   "date": "2025-06-26",
+   "title": "Twenty (Open Source CRM) is out of beta",
+   "url": "https://twenty.com/releases",
+   "author": "pavl",
+   "points": 3,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44384756"
   },
   {
-   "date": "2016-08-24",
-   "title": "Show HN: Nweets – Keep up with tech news in twenty tweets",
-   "url": "https://news.ycombinator.com/item?id=12351526",
-   "author": "_zeo8",
-   "points": 5,
+   "date": "2026-02-07",
+   "title": "Twenty: A Modern Alternative to Salesforce",
+   "url": "https://github.com/twentyhq/twenty",
+   "author": "tosh",
+   "points": 1,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=12351526"
+   "hn": "https://news.ycombinator.com/item?id=46922213"
   }
  ],
  "yc_launch": null,

@@ -14058,15 +14058,6 @@
    "hn": "https://news.ycombinator.com/item?id=10755557"
   },
   {
-   "date": "2013-03-07",
-   "title": "Hack With Sails, MVC For Node.JS Done Right ",
-   "url": "http://email.sailsjs.com:1337/SxSW_Sailsjs_Hackathon.html",
-   "author": "skadamat",
-   "points": 6,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=5339881"
-  },
-  {
    "date": "2015-12-22",
    "title": "Status of Sails.js",
    "url": "https://github.com/balderdashy/sails/issues/3429",
@@ -14076,13 +14067,13 @@
    "hn": "https://news.ycombinator.com/item?id=10777087"
   },
   {
-   "date": "2013-03-07",
-   "title": "Sails.JS Hackathon",
-   "url": "http://email.sailsjs.com:1337/SxSW_Sailsjs_Hackathon_web.html",
-   "author": "dcbartlett",
+   "date": "2013-02-28",
+   "title": "Sails- a Realtime MVC Framework for Node.js",
+   "url": "https://github.com/balderdashy/sails",
+   "author": "SirSkidmore",
    "points": 1,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=5339156"
+   "hn": "https://news.ycombinator.com/item?id=5298929"
   }
  ],
  "engagement": {

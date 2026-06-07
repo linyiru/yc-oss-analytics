@@ -502,24 +502,6 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2026-04-04",
-   "title": "Show HN: Tusk for macOS and Gnome",
-   "url": "https://shapemachine.xyz/tusk/",
-   "author": "factorialboy",
-   "points": 120,
-   "comments": 50,
-   "hn": "https://news.ycombinator.com/item?id=47637828"
-  },
-  {
-   "date": "2025-11-11",
-   "title": "Show HN: Tusk Drift – Open-source tool for automating API tests",
-   "url": "https://github.com/Use-Tusk/drift-node-sdk",
-   "author": "Marceltan",
-   "points": 56,
-   "comments": 17,
-   "hn": "https://news.ycombinator.com/item?id=45887536"
-  },
-  {
    "date": "2026-01-15",
    "title": "Show HN: Tusk Drift – Turn production traffic into API tests",
    "url": "https://github.com/Use-Tusk/tusk-drift-cli",
@@ -529,24 +511,6 @@
    "hn": "https://news.ycombinator.com/item?id=46637322"
   },
   {
-   "date": "2025-05-08",
-   "title": "Remember AI Engineers, Your Evals Are Your Product",
-   "url": "https://blog.usetusk.ai/blog/your-evals-are-your-product",
-   "author": "Marceltan",
-   "points": 4,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=43929556"
-  },
-  {
-   "date": "2025-04-09",
-   "title": "Comparing AI Unit Test Generators: Tusk vs. Cursor vs. Claude Code",
-   "url": "https://blog.usetusk.ai/blog/comparing-ai-agents-for-unit-test-generation-typescript",
-   "author": "Marceltan",
-   "points": 4,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=43637847"
-  },
-  {
    "date": "2025-07-18",
    "title": "Test Code Like Zelda: When to Implement Automated Testing",
    "url": "https://www.usetusk.ai/resources/when-to-implement-automated-testing",
@@ -554,6 +518,15 @@
    "points": 3,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=44610271"
+  },
+  {
+   "date": "2025-08-04",
+   "title": "Predictive CI: Why Smart Teams Are Making the Switch",
+   "url": "https://www.usetusk.ai/resources/predictive-ci-is-the-future",
+   "author": "Marceltan",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44790110"
   }
  ],
  "engagement": {

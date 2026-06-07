@@ -2916,7 +2916,17 @@
   "url": "https://www.ycombinator.com/launches/OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips"
  },
  "ph_event": null,
- "hn_events": [],
+ "hn_events": [
+  {
+   "date": "2025-08-18",
+   "title": "Show HN: Whispering – Open-source, local-first dictation you can trust",
+   "url": "https://github.com/epicenter-so/epicenter/tree/main/apps/whispering",
+   "author": "braden-w",
+   "points": 591,
+   "comments": 152,
+   "hn": "https://news.ycombinator.com/item?id=44942731"
+  }
+ ],
  "engagement": {
   "issues": 720,
   "prs": 1003,

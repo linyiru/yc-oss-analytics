@@ -11987,15 +11987,6 @@
    "hn": "https://news.ycombinator.com/item?id=43905319"
   },
   {
-   "date": "2025-06-16",
-   "title": "Show HN: Better Docx Import and Export Support for Tiptap Editor",
-   "url": "https://news.ycombinator.com/item?id=44287639",
-   "author": "philipisik",
-   "points": 10,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=44287639"
-  },
-  {
    "date": "2025-07-15",
    "title": "Tiptap 3.0 is stable: open-source text editor built on ProseMirror",
    "url": "https://tiptap.dev/docs/resources/whats-new",
@@ -12003,6 +11994,15 @@
    "points": 9,
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=44571088"
+  },
+  {
+   "date": "2025-11-24",
+   "title": "Show HN: Tiptap AI Toolkit – Now exploring server-side agentic document editing",
+   "url": "https://news.ycombinator.com/item?id=46035481",
+   "author": "philipisik",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46035481"
   }
  ],
  "engagement": {

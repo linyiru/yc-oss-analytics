@@ -1399,24 +1399,6 @@
    "hn": "https://news.ycombinator.com/item?id=44390005"
   },
   {
-   "date": "2025-04-09",
-   "title": "Show HN: Fermi – A Wordle-style game for order-of-magnitude thinking",
-   "url": "https://fermi-game.andrewnoble.me/",
-   "author": "andrewrn",
-   "points": 52,
-   "comments": 36,
-   "hn": "https://news.ycombinator.com/item?id=43632278"
-  },
-  {
-   "date": "2018-08-17",
-   "title": "Show HN: A CAD tool for custom magnitude comparators",
-   "url": "https://www.researchgate.net/publication/282649335_A_CAD_tool_for_custom_magnitude_comparators",
-   "author": "gpetr",
-   "points": 3,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=17781334"
-  },
-  {
    "date": "2025-09-26",
    "title": "Show HN: Magnitude MCP – vision-first browser interaction for Claude Code",
    "url": "https://github.com/sagekit/magnitude/tree/main/packages/magnitude-mcp",
@@ -1426,13 +1408,13 @@
    "hn": "https://news.ycombinator.com/item?id=45389441"
   },
   {
-   "date": "2018-02-26",
-   "title": "Show HN: Magnitude: A fast, efficient universal vector embedding utility package",
-   "url": "https://github.com/plasticityai/magnitude",
-   "author": "patelajay285",
-   "points": 2,
+   "date": "2025-03-06",
+   "title": "Show HN: Magnitude – Natural language E2E testing with multimodal LLM agents",
+   "url": "https://github.com/magnitudedev/magnitude-ts",
+   "author": "thrgreenwald",
+   "points": 1,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=16466519"
+   "hn": "https://news.ycombinator.com/item?id=43283165"
   }
  ],
  "ph_event": null,

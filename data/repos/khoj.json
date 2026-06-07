@@ -5457,15 +5457,6 @@
    "hn": "https://news.ycombinator.com/item?id=36641542"
   },
   {
-   "date": "2014-04-07",
-   "title": "Show HN: Khojo – Inspiring innovation in the form of shareable visual stories",
-   "url": "http://khojo.org",
-   "author": "nav",
-   "points": 8,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=7544919"
-  },
-  {
    "date": "2025-04-23",
    "title": "Show HN: Annotated Paper – Easily read, annotate, and understand research papers",
    "url": "https://annotatedpaper.khoj.dev/",
@@ -5491,6 +5482,15 @@
    "points": 2,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=44951608"
+  },
+  {
+   "date": "2024-11-17",
+   "title": "Khoj",
+   "url": "https://khoj.dev/",
+   "author": "handfuloflight",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42168277"
   }
  ],
  "engagement": {

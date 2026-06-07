@@ -520,15 +520,6 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2024-12-06",
-   "title": "Show HN: OpenInt (YC W23) Open-Source iPaaS to Ship Product Integrations Quickly",
-   "url": "https://github.com/openintegrations/openint",
-   "author": "amadeo_warden",
-   "points": 14,
-   "comments": 3,
-   "hn": "https://news.ycombinator.com/item?id=42340956"
-  },
-  {
    "date": "2025-04-26",
    "title": "Abusing AI pull request bots for fun and profit",
    "url": "https://blog.openint.dev/how-we-scale-prs/",

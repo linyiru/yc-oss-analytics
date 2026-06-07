@@ -6546,15 +6546,6 @@
    "hn": "https://news.ycombinator.com/item?id=34693233"
   },
   {
-   "date": "2023-11-09",
-   "title": "Show HN: Nango – Open unified API for product integrations",
-   "url": "https://www.nango.dev?source=hn-nov-2023",
-   "author": "rguldener",
-   "points": 106,
-   "comments": 43,
-   "hn": "https://news.ycombinator.com/item?id=38206973"
-  },
-  {
    "date": "2026-03-30",
    "title": "What we learned building 100 API integrations with OpenCode",
    "url": "https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
@@ -6580,6 +6571,15 @@
    "points": 24,
    "comments": 2,
    "hn": "https://news.ycombinator.com/item?id=45464145"
+  },
+  {
+   "date": "2023-02-23",
+   "title": "Why is OAuth still hard in 2023?",
+   "url": "https://www.nango.dev/blog/why-is-oauth-still-hard",
+   "author": "rguldener",
+   "points": 13,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=34910795"
   }
  ],
  "engagement": {

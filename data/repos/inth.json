@@ -356,15 +356,6 @@
  },
  "hn_events": [
   {
-   "date": "2016-03-05",
-   "title": "Show HN: I built inthing.io, realtime streams with a Python / REST API",
-   "url": "https://www.willmcgugan.com/blog/tech/post/announcing-inthingio/",
-   "author": "billowycoat",
-   "points": 8,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=11229790"
-  },
-  {
    "date": "2026-05-11",
    "title": "Show HN: Inrepo – Pull upstream repos into your app without forks or submodules",
    "url": "https://github.com/inthhq/inrepo",

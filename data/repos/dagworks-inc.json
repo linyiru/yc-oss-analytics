@@ -3774,6 +3774,15 @@
    "hn": "https://news.ycombinator.com/item?id=38701043"
   },
   {
+   "date": "2024-05-02",
+   "title": "Show HN: Hamilton's UI – observability, lineage, and catalog for data pipelines",
+   "url": "https://github.com/DAGWorks-Inc/hamilton/tree/main/ui",
+   "author": "elijahbenizzy",
+   "points": 40,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=40235944"
+  },
+  {
    "date": "2024-11-19",
    "title": "Show HN: Updates on Burr (OS) – a full-stack AI agent framework",
    "url": "https://burr.dagworks.io/",
@@ -3808,15 +3817,6 @@
    "points": 4,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=37177986"
-  },
-  {
-   "date": "2025-08-03",
-   "title": "Apache Hamilton (incubating): a Python library for DAGs of data transformations",
-   "url": "https://github.com/apache/hamilton",
-   "author": "saikatsg",
-   "points": 4,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=44775418"
   }
  ],
  "engagement": {

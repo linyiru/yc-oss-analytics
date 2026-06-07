@@ -16619,58 +16619,58 @@
  "curve_partial": false,
  "hn_events": [
   {
-   "date": "2014-05-27",
-   "title": "Show HN: Font Awesome to PNG",
-   "url": "http://fa2png.io/",
-   "author": "commanderj",
-   "points": 128,
-   "comments": 48,
-   "hn": "https://news.ycombinator.com/item?id=7805594"
+   "date": "2025-07-22",
+   "title": "FontAwesome 7 Released",
+   "url": "http://docs.fontawesome.com/upgrade/whats-changed",
+   "author": "xd1936",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44648739"
   },
   {
-   "date": "2013-11-05",
-   "title": "Show HN: GlyphSearch – Search for icons from Font Awesome, Glyphicons, Ionicons",
-   "url": "http://glyphsearch.com/",
-   "author": "parkov",
-   "points": 43,
-   "comments": 10,
-   "hn": "https://news.ycombinator.com/item?id=6674895"
+   "date": "2025-07-28",
+   "title": "Show HN: Font Awesome 7 launches with new icon packs",
+   "url": "https://fontawesome.com",
+   "author": "claviska",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44712603"
   },
   {
-   "date": "2020-03-06",
-   "title": "Show HN: A Better Alternative to Font Awesome – Unicons",
-   "url": "https://iconscout.com/unicons/explore/line",
-   "author": "tarunmangukiya",
-   "points": 40,
-   "comments": 17,
-   "hn": "https://news.ycombinator.com/item?id=22503642"
+   "date": "2014-11-25",
+   "title": "Font-Awesome Icon Request: icon-ball-sack",
+   "url": "https://github.com/FortAwesome/Font-Awesome/issues/5014",
+   "author": "zacharias",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=8659814"
   },
   {
-   "date": "2017-12-07",
-   "title": "Font Awesome 5 Released – new icons, styles, SVG, ligatures, and more",
-   "url": "https://fontawesome.com/?utm_source=hn&utm_medium=display&utm_campaign=fa5_released",
-   "author": "fortawesome",
-   "points": 36,
-   "comments": 6,
-   "hn": "https://news.ycombinator.com/item?id=15872218"
+   "date": "2022-03-18",
+   "title": "FontAwesome 6 removes search terms from its metadata",
+   "url": "https://github.com/FortAwesome/Font-Awesome/issues/18662",
+   "author": "guiambros",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=30721119"
   },
   {
-   "date": "2018-02-01",
-   "title": "(New) Font Awesome Website",
-   "url": "https://fontawesome.com/icons?d=gallery",
-   "author": "chrisacky",
-   "points": 25,
-   "comments": 15,
-   "hn": "https://news.ycombinator.com/item?id=16285399"
+   "date": "2020-10-02",
+   "title": "Adobe has requested Font Awesome to remove their Adobe icons",
+   "url": "https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md#5140-to-5150",
+   "author": "judge2020",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=24662514"
   },
   {
-   "date": "2017-02-21",
-   "title": "Show HN: Font Awesome to PNG Icon Generator in 100% JavaScript/HTML5",
-   "url": "https://www.easele.com/favicon-generator",
-   "author": "harrisreynolds",
-   "points": 14,
-   "comments": 6,
-   "hn": "https://news.ycombinator.com/item?id=13695317"
+   "date": "2018-02-06",
+   "title": "Font Awesome 5 Free is now published in its GitHub repository",
+   "url": "https://github.com/FortAwesome/Font-Awesome",
+   "author": "dikiaap",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=16318902"
   }
  ],
  "ph_event": {

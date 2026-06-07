@@ -7583,49 +7583,49 @@
    "hn": "https://news.ycombinator.com/item?id=31222277"
   },
   {
-   "date": "2021-05-25",
-   "title": "Launch HN: Fig (YC S20) – Autocomplete for the Terminal",
-   "url": "https://fig.io?ref=hn",
+   "date": "2023-08-28",
+   "title": "Amazon acquires Fig",
+   "url": "https://fig.io/blog/post/fig-joins-aws",
+   "author": "fatfox",
+   "points": 380,
+   "comments": 184,
+   "hn": "https://news.ycombinator.com/item?id=37296401"
+  },
+  {
+   "date": "2024-03-12",
+   "title": "Fig is sunsetting",
+   "url": "https://fig.io/blog/post/fig-is-sunsetting",
+   "author": "patrikcsak",
+   "points": 148,
+   "comments": 66,
+   "hn": "https://news.ycombinator.com/item?id=39683889"
+  },
+  {
+   "date": "2022-04-21",
+   "title": "Fig now supports JetBrains IDEs",
+   "url": "https://fig.io/blog/post/jetbrains-support",
+   "author": "michael_fine",
+   "points": 76,
+   "comments": 65,
+   "hn": "https://news.ycombinator.com/item?id=31113396"
+  },
+  {
+   "date": "2021-11-19",
+   "title": "Launching Fig",
+   "url": "https://fig.io/blog/post/launching-fig",
+   "author": "subbz",
+   "points": 54,
+   "comments": 15,
+   "hn": "https://news.ycombinator.com/item?id=29275207"
+  },
+  {
+   "date": "2022-06-28",
+   "title": "Manage Your Dotfiles with Fig",
+   "url": "https://fig.io/blog/post/dotfiles-launch",
    "author": "mschrage",
-   "points": 559,
-   "comments": 377,
-   "hn": "https://news.ycombinator.com/item?id=27277819"
-  },
-  {
-   "date": "2019-06-22",
-   "title": "Show HN: A job board for companies fighting ageism in tech",
-   "url": "https://noageismintech.com/",
-   "author": "leonagano",
-   "points": 523,
-   "comments": 291,
-   "hn": "https://news.ycombinator.com/item?id=20252097"
-  },
-  {
-   "date": "2020-03-25",
-   "title": "Show HN: To fight quarantine boredom I build a site to watch movies with friends",
-   "url": "https://bingetogether.com/",
-   "author": "l1am0",
-   "points": 515,
-   "comments": 203,
-   "hn": "https://news.ycombinator.com/item?id=22687086"
-  },
-  {
-   "date": "2019-09-28",
-   "title": "Show HN: Bot Land, a game where you fight others via code",
-   "url": "https://bot.land/",
-   "author": "Adam13531",
-   "points": 444,
-   "comments": 87,
-   "hn": "https://news.ycombinator.com/item?id=21101918"
-  },
-  {
-   "date": "2022-08-07",
-   "title": "Show HN: Figure is a daily logic puzzle game",
-   "url": "https://figure.game",
-   "author": "sumul",
-   "points": 417,
-   "comments": 113,
-   "hn": "https://news.ycombinator.com/item?id=32376154"
+   "points": 13,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=31912157"
   }
  ],
  "engagement": {

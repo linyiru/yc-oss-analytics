@@ -3864,13 +3864,13 @@
    "hn": "https://news.ycombinator.com/item?id=47223218"
   },
   {
-   "date": "2023-02-23",
-   "title": "Show HN: Traceloop – open-source for generating tests from production traffic",
-   "url": "https://github.com/traceloop/jest-opentelemetry",
+   "date": "2023-10-16",
+   "title": "Evaluating LLM quality with the ROUGE metric",
+   "url": "https://www.traceloop.com/blog/evaluating-model-performance-with-the-rouge-metric-a-comprehensive-guide",
    "author": "nirga",
-   "points": 3,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=34907938"
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37899435"
   }
  ],
  "engagement": {

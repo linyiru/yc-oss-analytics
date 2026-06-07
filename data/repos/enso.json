@@ -549,26 +549,7 @@
  "curve_partial": false,
  "yc_launch": null,
  "ph_event": null,
- "hn_events": [
-  {
-   "date": "2015-12-21",
-   "title": "Show HN: Enso.fm – Discover new music / Tinder for music",
-   "url": "http://enso.fm",
-   "author": "ivosabev",
-   "points": 6,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=10771811"
-  },
-  {
-   "date": "2025-02-26",
-   "title": "Show HN: Enso – Daily Gratitude Journal",
-   "url": "https://enso.now/",
-   "author": "cr_huber",
-   "points": 1,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=43181983"
-  }
- ],
+ "hn_events": [],
  "engagement": {
   "issues": 1,
   "prs": 44,

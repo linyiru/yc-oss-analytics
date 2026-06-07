@@ -3787,35 +3787,7 @@
  "curve_partial": false,
  "yc_launch": null,
  "ph_event": null,
- "hn_events": [
-  {
-   "date": "2023-03-28",
-   "title": "Show HN: Call Gen Z GPT 1-650-729-9536 Built with Vocode (YC W23) and Rime TTS",
-   "url": "https://replit.com/@vocode/Gen-Z-Phone#main.py",
-   "author": "KianHooshmand",
-   "points": 5,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=35347643"
-  },
-  {
-   "date": "2015-12-20",
-   "title": "Show HN: HOWL, an open source formant vocoder for iOS",
-   "url": "http://protonome.com/apps/howl/",
-   "author": "melloclello",
-   "points": 3,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=10766467"
-  },
-  {
-   "date": "2022-08-11",
-   "title": "Show HN: Vocoder – source code dictation and voice control",
-   "url": "https://github.com/ricky0123/vocoder",
-   "author": "ricky0123",
-   "points": 2,
-   "comments": 4,
-   "hn": "https://news.ycombinator.com/item?id=32431337"
-  }
- ],
+ "hn_events": [],
  "engagement": {
   "issues": 347,
   "prs": 1078,

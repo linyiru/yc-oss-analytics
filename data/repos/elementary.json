@@ -4522,58 +4522,13 @@
  "ph_event": null,
  "hn_events": [
   {
-   "date": "2017-01-01",
-   "title": "Show HN: BiB – Library Management Application for Elementary Schools",
-   "url": "https://github.com/brakmic/BiB",
-   "author": "brakmic",
-   "points": 12,
+   "date": "2023-08-16",
+   "title": "Writing Fewer Data Tests",
+   "url": "https://www.elementary-data.com/post/dbt-tests",
+   "author": "Arimbr",
+   "points": 2,
    "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=13297263"
-  },
-  {
-   "date": "2026-04-14",
-   "title": "Show HN: Uninum – All elementary functions from a single operator, in Python",
-   "url": "https://github.com/Brumbelow/uninum",
-   "author": "brumbelow",
-   "points": 6,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=47771918"
-  },
-  {
-   "date": "2026-01-07",
-   "title": "Show HN: ElementaryUI – A Swift front end framework for the browser",
-   "url": "https://elementary.codes",
-   "author": "simonleeb",
-   "points": 5,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=46526052"
-  },
-  {
-   "date": "2024-05-14",
-   "title": "Show HN: It's Elementary: Meet Quantum Computing [pdf]",
-   "url": "https://learnqc.com/intro.pdf",
-   "author": "logicalguess",
-   "points": 4,
-   "comments": 4,
-   "hn": "https://news.ycombinator.com/item?id=40354365"
-  },
-  {
-   "date": "2016-07-02",
-   "title": "Show HN: Elementary cellular automata in the browser",
-   "url": "https://github.com/mfav/cellview",
-   "author": "mfav",
-   "points": 4,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=12023184"
-  },
-  {
-   "date": "2021-03-25",
-   "title": "Show HN: Iridium – The IRC client designed for elementary OS",
-   "url": "https://github.com/avojak/iridium",
-   "author": "avojak",
-   "points": 3,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=26580223"
+   "hn": "https://news.ycombinator.com/item?id=37146809"
   }
  ],
  "engagement": {

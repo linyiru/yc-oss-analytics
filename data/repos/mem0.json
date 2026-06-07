@@ -4872,24 +4872,6 @@
    "hn": "https://news.ycombinator.com/item?id=43974991"
   },
   {
-   "date": "2025-08-02",
-   "title": "Show HN: Agentic AI Frameworks on AWS (LangGraph,Strands,CrewAI,Arize,Mem0)",
-   "url": "https://github.com/aws-samples/sample-agentic-frameworks-on-aws",
-   "author": "thinkagenticai",
-   "points": 7,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=44763850"
-  },
-  {
-   "date": "2026-04-30",
-   "title": "Show HN: Mem0 thinks our 2023 conversation happened in 2026",
-   "url": "https://www.aurra.us/blog/mem0-vs-aurra",
-   "author": "akshayt2012",
-   "points": 5,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=47961750"
-  },
-  {
    "date": "2026-01-31",
    "title": "Memory-First AI Reminder Agents with Mem0 and Claude Agent SDK",
    "url": "https://mem0.ai/blog/building-a-reminder-agent-that-actually-remembers",
@@ -4897,6 +4879,24 @@
    "points": 3,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=46840181"
+  },
+  {
+   "date": "2024-08-01",
+   "title": "Mem0: The Memory Layer for Personalized AI",
+   "url": "https://github.com/mem0ai/mem0",
+   "author": "mnoorfawi",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41134775"
+  },
+  {
+   "date": "2026-02-06",
+   "title": "Persistent Memory for OpenClaw/Moltbot/Clawdbot",
+   "url": "https://mem0.ai/blog/mem0-memory-for-openclaw",
+   "author": "ninadwrites",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46918998"
   }
  ],
  "yc_launch": null,

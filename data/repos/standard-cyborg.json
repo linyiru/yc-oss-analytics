@@ -602,17 +602,7 @@
  "curve_partial": false,
  "yc_launch": null,
  "ph_event": null,
- "hn_events": [
-  {
-   "date": "2021-04-16",
-   "title": "Standard Cyborg",
-   "url": "https://standardcyborg.com/",
-   "author": "yellowyacht",
-   "points": 3,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=26838411"
-  }
- ],
+ "hn_events": [],
  "engagement": {
   "issues": 29,
   "prs": 15,

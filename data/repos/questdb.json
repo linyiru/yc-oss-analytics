@@ -9925,15 +9925,6 @@
    "hn": "https://news.ycombinator.com/item?id=39467885"
   },
   {
-   "date": "2020-06-23",
-   "title": "Show HN: Query 1.6B rows in milliseconds, live",
-   "url": "http://try.questdb.io:9000/index.html",
-   "author": "bluestreak",
-   "points": 271,
-   "comments": 93,
-   "hn": "https://news.ycombinator.com/item?id=23616878"
-  },
-  {
    "date": "2024-03-09",
    "title": "1BRC merykitty's magic SWAR: 8 lines of code explained in 3k words",
    "url": "https://questdb.io/blog/1brc-merykittys-magic-swar/",
@@ -9959,6 +9950,15 @@
    "points": 175,
    "comments": 27,
    "hn": "https://news.ycombinator.com/item?id=35602983"
+  },
+  {
+   "date": "2020-04-07",
+   "title": "Using SIMD to aggregate billions of values per second",
+   "url": "https://www.questdb.io/blog/2020/04/02/using-simd-to-aggregate-billions-of-rows-per-second",
+   "author": "bluestreak",
+   "points": 171,
+   "comments": 70,
+   "hn": "https://news.ycombinator.com/item?id=22803504"
   }
  ],
  "engagement": {

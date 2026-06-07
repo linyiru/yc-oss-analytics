@@ -7869,15 +7869,6 @@
    "hn": "https://news.ycombinator.com/item?id=41839994"
   },
   {
-   "date": "2022-07-14",
-   "title": "Show HN: Payload – Cross-platform desktop app for LAN file transfers",
-   "url": "https://payload.app/",
-   "author": "klabb3",
-   "points": 65,
-   "comments": 31,
-   "hn": "https://news.ycombinator.com/item?id=32100352"
-  },
-  {
    "date": "2023-10-09",
    "title": "Payload 2.0: Postgres, Live Preview, Lexical RTE, and More",
    "url": "https://payloadcms.com/blog/payload-2-0",
@@ -7887,24 +7878,6 @@
    "hn": "https://news.ycombinator.com/item?id=37820724"
   },
   {
-   "date": "2024-11-20",
-   "title": "Show HN: Payload, P2P file transfer app, goes online",
-   "url": "https://payload.app/blog/payload-goes-online",
-   "author": "klabb3",
-   "points": 11,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=42194971"
-  },
-  {
-   "date": "2020-02-03",
-   "title": "Show HN: DrHTTP – Stop guessing the HTTP payloads that went through your APIs",
-   "url": "https://news.ycombinator.com/item?id=22224581",
-   "author": "pmarec",
-   "points": 10,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=22224581"
-  },
-  {
    "date": "2023-04-03",
    "title": "Payload Cloud Goes Live",
    "url": "https://payloadcms.com/blog/launch-week-day-1-payload-cloud-is-here",
@@ -7912,6 +7885,33 @@
    "points": 8,
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=35426997"
+  },
+  {
+   "date": "2022-05-24",
+   "title": "Dev-first headless CMS Payload is now completely free and open-source",
+   "url": "https://payloadcms.com/blog/open-source",
+   "author": "sneek_",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=31492141"
+  },
+  {
+   "date": "2022-05-27",
+   "title": "Payload –  Free and Open-source Headless CMS and Application Framework",
+   "url": "https://github.com/payloadcms/payload",
+   "author": "phpisatrash",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=31536168"
+  },
+  {
+   "date": "2021-03-02",
+   "title": "Show HN: Payload CMS–a new, self-hosted TypeScript CMS",
+   "url": "https://payloadcms.com/blog/introducing-payload-2021s-node-react-headless-cms-for-javascript-developers",
+   "author": "sneek_",
+   "points": 7,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=26315122"
   }
  ],
  "yc_launch": null,

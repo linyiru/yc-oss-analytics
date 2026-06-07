@@ -4883,24 +4883,6 @@
    "hn": "https://news.ycombinator.com/item?id=43242551"
   },
   {
-   "date": "2022-05-17",
-   "title": "Show HN: eInk “Laptop” Based on Onyx BOOX Note Air",
-   "url": "https://medium.com/garage-adventures/eink-laptop-based-on-onyx-boox-note-air-69d9d90af45c",
-   "author": "johnobrien1010",
-   "points": 18,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=31412228"
-  },
-  {
-   "date": "2026-01-05",
-   "title": "Show HN: Onyx DR – Data rooms that surface investor and document signals",
-   "url": "https://onyxdataroom.com",
-   "author": "ykaps",
-   "points": 5,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=46500472"
-  },
-  {
    "date": "2026-02-26",
    "title": "Self-Hosted LLMs Tier List",
    "url": "https://www.onyx.app/self-hosted-llm-leaderboard",
@@ -4910,22 +4892,40 @@
    "hn": "https://news.ycombinator.com/item?id=47169209"
   },
   {
-   "date": "2024-08-23",
-   "title": "Show HN: Onyxium – All AI tools with a single subscription",
-   "url": "https://onyxium.org",
-   "author": "mahfuz_0001",
-   "points": 3,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=41328250"
+   "date": "2026-02-17",
+   "title": "Lessons from building the best Deep Research and how you can build better agents",
+   "url": "https://www.onyx.app/blog/building-the-best-deep-research",
+   "author": "yuhongsun",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=47053950"
   },
   {
-   "date": "2025-12-08",
-   "title": "Show HN: Onyx – Trading Terminal for Polymarket",
-   "url": "https://onyxterminal.xyz/",
-   "author": "tjwells",
-   "points": 3,
-   "comments": 1,
-   "hn": "https://news.ycombinator.com/item?id=46197660"
+   "date": "2026-04-08",
+   "title": "Are file systems all you need?",
+   "url": "https://onyx.app/blog/file-search-vs-hybrid-search",
+   "author": "Weves",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47692840"
+  },
+  {
+   "date": "2026-02-25",
+   "title": "The Enterprise Evaluation Framework for OpenClaw",
+   "url": "https://www.onyx.app/insights/openclaw-enterprise-evaluation-framework",
+   "author": "ixnew",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47152879"
+  },
+  {
+   "date": "2026-02-24",
+   "title": "Frontier LLM Leaderboard",
+   "url": "https://www.onyx.app/llm-leaderboard",
+   "author": "RohoSwagger",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47140049"
   }
  ],
  "engagement": {
