@@ -6,16 +6,21 @@ const DEFS = [
   ['Liveness (0–100)', 'A heuristic, not a validated index: 0.55·recency + 0.45·log-scaled 90-day commit volume. Treat it as ordinal — good for sorting, not a precise grade.'],
   ['Type (Evergreen / Rising / Steady / Dormant)', 'Crosses liveness with YC batch age. Evergreen = old cohort still very active; Dormant = liveness < 30. Squash-merge teams can look quieter than they are.'],
   ['Commit punch card', "Counts by weekday × hour in the commit's own recorded timezone. CI, rebases, travel and misconfigured clocks distort this — read night/weekend patterns as suggestive, never forensic."],
-  ['Star-growth curve', 'Reconstructed from stargazer timestamps. Exact for repos under ~40k stars; larger repos are sampled (the API caps at ~400 pages), so their recent curve is approximate.'],
+  ['Star-growth curve', 'Daily cumulative stars, reconstructed from GH Archive WatchEvents (via BigQuery) keyed by each repo\'s stable numeric id — so a rename never breaks the history. Complete for 156 of 158 repos; a handful with pre-2015 origins show an anchored baseline and are flagged "partial".'],
+  ['Launch moments', 'HN, Product Hunt and YC-Launch posts pinned to the star curve by date. HN from the Algolia API (points & comments), Product Hunt from its API (votes), YC from the public launches feed. They mark what plausibly drove a spike — not an exhaustive list, and proximity is not proof.'],
+  ['Time to traction', 'Days from the first commit to 100 / 1,000 / 10,000 stars, and to the first public launch. Computed only where the curve starts near zero (full early history); launch dates that fall before the first commit — an artifact of forked or renamed history — are dropped.'],
+  ['YC-network backing', 'Share of a repo\'s earliest stargazers (first 100, first 1,000, and all-time) who also star ≥2 OTHER YC open-source repos. The repo being viewed is excluded from that count, so the figure is not inflated by self-counting. Derived structurally from GH Archive cross-starring — de-identified, no logins are stored or published.'],
+  ['Controlled association', 'For size-sensitive "with vs without" claims (HN, Product Hunt, issue responsiveness), an ordinary-least-squares regression of log(stars) on the signal plus log(repo age) and language. We report the multiplier net of age and language; all three remain statistically significant. It is still observational — it does not control for unobserved quality and is not a causal estimate.'],
   ['AI-assisted %', 'Share of commits carrying a Co-Authored-By: Claude trailer. A lower bound — it only catches tools that write the trailer, and only when authors keep it.'],
   ['AI tool detection', 'From config files in the tree (CLAUDE.md, .cursor/, AGENTS.md, …). AGENTS.md is a vendor-neutral convention (not Codex-specific); MCP is excluded as it is a protocol, not a tool.'],
   ['Churn', 'Lines added/deleted per month via git numstat — computed only for fully-cloned repos; lock and generated files are not yet excluded.'],
   ['Contributor identity', 'Email-based. One person with multiple emails counts as several contributors; shared/bot emails merge people. Counts are approximate.'],
 ];
 const LIMITS = [
-  'Survivorship bias: only currently-listed, surviving companies appear — delisted/dead ones are invisible, inflating every "alive" impression.',
-  'Stars ≠ adoption ≠ revenue. A public repo may also be marketing for a closed-source product.',
-  'Small n per batch — do not rank cohorts on means.',
+  'Survivorship bias: only currently-listed, surviving companies appear — delisted/dead ones are invisible, inflating every "alive" impression. Every Playbook pattern is blind to the teams that did the same things and still failed.',
+  'Stars measure attention, not a business. Stars ≠ adoption ≠ revenue ≠ retention; a public repo may also just be marketing for a closed-source product.',
+  '"With vs without" comparisons are between groups that differ on everything, not only the one signal. Where repo size could confound, we report the age- and language-controlled association — but selection on unobserved quality is never fully ruled out.',
+  'Small n per batch (and small n for some signals, e.g. only ~40 Product Hunt launches) — read multiples loosely and do not rank cohorts on means.',
   'Composite scores (liveness) are weighted heuristics, not measurements; once visible, any metric can be gamed (Goodhart).',
   'Everything here is cross-sectional and correlational. It generates hypotheses to investigate, not causal proof.',
 ];
@@ -56,7 +61,7 @@ export default function MethodologyPage({ initialLocale }) {
 
         <Section title="Sources & updates" sub="Provenance" style={{ marginBottom: 16 }}>
           <p className="muted" style={{ fontSize: 'var(--fs-sm)', lineHeight: 1.6 }}>
-            Company list & batches from the public YC directory via <span className="mono">yc-oss</span>. Repo metadata, languages and stargazer timestamps from the GitHub API (authenticated, rate-limit-respecting). Commit cadence, punch cards and churn from each repo's git history (cloned, analyzed, discarded). A scheduled job tracks companies appearing and disappearing upstream. If you'd like your project corrected or excluded, open an issue.
+            Company list & batches from the public YC directory via <span className="mono">yc-oss</span>. Repo metadata and languages from the GitHub API (authenticated, rate-limit-respecting). Star history and the cross-star network from <span className="mono">GH Archive</span> (BigQuery), keyed by each repo's stable numeric id. Launch context from the Hacker News (Algolia), Product Hunt and YC-Launch APIs. Commit cadence, punch cards and churn from each repo's git history (cloned, analyzed, discarded). Only de-identified aggregates are published — raw stargazer accounts are never committed. A scheduled job tracks companies appearing and disappearing upstream. If you'd like your project corrected or excluded, open an issue.
           </p>
         </Section>
       </main>
