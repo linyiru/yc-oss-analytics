@@ -64,13 +64,28 @@ def org_of(gh):
     return (gh or "").rstrip("/").split("github.com/")[-1].split("/")[0].lower()
 
 
+def save_if_changed(path, rec):
+    """Write the snapshot only when substantive content changed (ignore fetched_at), so the
+    daily job doesn't churn 160+ files with a timestamp-only diff. fetched_at then records
+    when the data last actually changed."""
+    if os.path.exists(path):
+        try:
+            old = json.load(open(path))
+            if {k: v for k, v in old.items() if k != "fetched_at"} == {k: v for k, v in rec.items() if k != "fetched_at"}:
+                return False
+        except Exception:
+            pass
+    json.dump(rec, open(path, "w"), ensure_ascii=False, indent=1)
+    return True
+
+
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "verify"
     if mode not in ("verify", "snapshot"):
         print(json.dumps(fetch_company(mode), ensure_ascii=False, indent=1))
         return
     os.makedirs(SNAP, exist_ok=True)
-    n = miss = mism = 0
+    n = miss = mism = changed = 0
     for f in sorted(glob.glob(f"{REPOS}/*.json")):
         d = json.load(open(f))
         slug, gh = d["slug"], d.get("github", "")
@@ -80,14 +95,15 @@ def main():
             print(f"  {slug:20s} (no YC page — slug may differ from the company)")
             continue
         n += 1
-        json.dump(rec, open(f"{SNAP}/{slug}.json", "w"), ensure_ascii=False, indent=1)
+        if save_if_changed(f"{SNAP}/{slug}.json", rec):
+            changed += 1
         our_org = org_of(gh)
         yc_org = org_of(rec.get("github_url") or "")
         page_orgs = {r.split("/")[0].lower() for r in rec["page_repos"]}
         if not ((yc_org and yc_org == our_org) or our_org in page_orgs):
             mism += 1
             print(f"  ! {slug:18s} ours={gh:30s} YC_org={yc_org or '-':16s} page={sorted(page_orgs)[:2]}")
-    print(f"\n{n} verified · {mism} github mismatches · {miss} with no YC page; snapshots -> data/yc_snapshots/")
+    print(f"\n{n} verified · {changed} snapshots changed · {mism} github mismatches · {miss} with no YC page")
 
 
 if __name__ == "__main__":

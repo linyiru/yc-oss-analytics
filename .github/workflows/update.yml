@@ -55,6 +55,11 @@ jobs:
             python3 pipeline/run.py "$slug" "$gh" || echo "::warning::failed $slug"
           done
 
+      - name: Refresh YC company data (status, launches, metadata, rebrands)
+        run: |
+          python3 pipeline/yc_company.py verify || echo "::warning::yc snapshot refresh had issues"
+          python3 pipeline/load_yc_snapshots.py
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
