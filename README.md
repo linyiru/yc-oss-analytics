@@ -1,7 +1,16 @@
-# YC Open Source Analytics
+# oss/signal — YC Open Source Analytics
+
+[![Live](https://img.shields.io/badge/live-yc--oss--analytics.pages.dev-f0c043?style=flat-square)](https://yc-oss-analytics.pages.dev)
+[![License: MIT](https://img.shields.io/badge/license-MIT-4f9df7?style=flat-square)](LICENSE)
+[![Built with Astro](https://img.shields.io/badge/built%20with-Astro-7c5cff?style=flat-square)](https://astro.build)
+[![Data updated daily](https://img.shields.io/badge/data-updated%20daily-43c46a?style=flat-square)](.github/workflows/update.yml)
 
 How Y Combinator open-source teams *actually* build — work intensity, tech stack, and
 workflow, reconstructed from their public git history and GitHub metadata.
+
+**▸ Live: [yc-oss-analytics.pages.dev](https://yc-oss-analytics.pages.dev)**
+
+[![oss/signal — the landscape of 158 YC open-source companies](docs/preview.png)](https://yc-oss-analytics.pages.dev)
 
 > **Not affiliated with Y Combinator.** This is an independent, best-effort analysis of
 > *public* data. Every number here is an approximation with known caveats — see
@@ -109,21 +118,26 @@ We'd rather under-claim. Known issues, roughly by impact:
    merge-commit workflows even at identical activity.
 9. **Bots are included** unless explicitly filtered; some repos have significant bot commits.
 
-### On star-authenticity signals (when enabled)
+### Reading the star-growth story
 
-This project surfaces **signals**, never verdicts. "Fork-to-star ratio", "burst shape",
-"low-quality stargazer sample", and "YC-network early-star ratio" are **descriptive
-indicators**, computed transparently, that may or may not indicate inorganic traction. We
-explicitly distinguish two non-organic patterns that are easy to conflate:
+We're curious about *how* a project's stars accumulated — the shape and sources of its growth —
+not about policing whether they're "real". Every signal here is a **descriptive lens on the
+growth story**, never a verdict. A star curve's shape usually points to one of a few very
+different, all-legitimate paths:
 
-- **YC-network amplification** — early stars from real, active developers in the YC orbit
-  (high-quality accounts that also star other YC repos). Legitimate, just not "organic public".
-- **Purchased / farmed stars** — low-quality accounts (near-zero followers, no real activity,
-  freshly created). The combination of the network-graph signal *and* account-quality is what
-  separates them.
+- **Steady organic growth** — a long, compounding climb as more people discover and use the
+  project.
+- **Event-driven spikes** — a sharp jump tied to a moment: a YC Launch, a Show HN, a Product
+  Hunt launch, an HN front page, a well-timed tweet, or a large project adopting it as a
+  dependency.
+- **Alumni / network amplification** — early stars from the YC orbit (developers who also star
+  other YC repos). A real and valuable boost — a network effect rather than cold-start
+  discovery.
 
-We do **not** maintain a roster of individuals; the network signal is derived structurally from
-cross-starring within the YC repo set. We do not publish personal data or accuse any project.
+Surfacing *which path* a project took is the interesting part — for a founder studying launch
+tactics, that's far more useful than any single number. The network signal is derived
+structurally from cross-starring within the YC repo set; we do **not** maintain a roster of
+individuals, publish personal data, or label any project as fake or fraudulent.
 
 ---
 
@@ -205,7 +219,7 @@ If you want your project corrected or excluded, open an issue.
   cap and gives per-star actor identity).
 - Verification-based **discovery** (scrape company sites for `github.com` links, cross-check org
   domain) to fix the tag false-negative gap at scale.
-- **Star-authenticity** module (ratios, burst shape, sampled account quality, YC-network graph).
+- **Star-growth-story** module (growth shape, event attribution, alumni/network amplification).
 
 ## License & attribution
 
