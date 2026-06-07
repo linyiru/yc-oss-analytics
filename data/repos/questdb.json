@@ -23,7 +23,8 @@
     "name": "Vlad Ilyushchenko",
     "title": "Founder"
    }
-  ]
+  ],
+  "name": "QuestDB"
  },
  "metrics": {
   "stars": 17030,

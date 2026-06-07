@@ -20,7 +20,8 @@
     "name": "John Horton",
     "title": "Founder"
    }
-  ]
+  ],
+  "name": "Expected Parrot"
  },
  "metrics": {
   "stars": 464,

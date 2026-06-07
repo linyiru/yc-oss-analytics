@@ -132,7 +132,8 @@ export function toRepoView(slug: string) {
   return {
     total: repos.length,
     c: {
-      id: r.slug, name: r.slug, org: r.github?.split('/')[0] ?? '', github: r.github,
+      id: r.slug, name: r.github?.split('/')[1] ?? r.slug, org: r.github?.split('/')[0] ?? '', github: r.github,
+      ycName: (r.yc as any)?.name ?? null,
       oneLiner: r.yc?.one_liner ?? '', batch: r.yc?.batch ?? '?', lang: r.metrics?.primary_lang ?? '—',
       stars: r.metrics?.stars ?? 0, forks: r.metrics?.forks ?? 0, commits, commitsPerWeek: r.intensity?.commits_per_week ?? 0,
       starsPerFork: r.metrics?.forks ? Math.round((r.metrics.stars / r.metrics.forks) * 10) / 10 : null,

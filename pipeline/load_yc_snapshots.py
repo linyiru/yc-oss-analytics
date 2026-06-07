@@ -28,6 +28,8 @@ def main():
         yc = d.setdefault("yc", {})
         if s.get("status"):
             yc["status"] = s["status"]
+        if s.get("name"):
+            yc["name"] = s["name"]          # YC's company name (may differ from the repo after a rebrand)
         for k in ("year_founded", "team_size", "location", "partner"):
             if s.get(k) is not None:
                 yc[k] = s[k]

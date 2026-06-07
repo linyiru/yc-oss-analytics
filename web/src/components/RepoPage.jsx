@@ -51,7 +51,10 @@ export default function RepoPage({ view, initialLocale }) {
                 {c.status && (() => { const col = { Active: 'var(--evergreen)', Acquired: 'var(--steady)', Public: 'var(--accent)', Inactive: 'var(--dormant)' }[c.status] || 'var(--text-3)'; return <span className="badge" style={{ color: col, borderColor: 'color-mix(in oklab, ' + col + ' 45%, transparent)' }}><i className="dot" style={{ background: col }}></i>{c.status}</span>; })()}
               </div>
             </div>
-            <p className="muted" style={{ fontSize: 'var(--fs-md)', marginBottom: c.formerNames?.length ? 6 : 14 }}>{c.oneLiner}</p>
+            <p className="muted" style={{ fontSize: 'var(--fs-md)', marginBottom: 6 }}>{c.oneLiner}</p>
+            {c.ycName && c.ycName.replace(/[^a-z0-9]/gi, '').toLowerCase() !== c.name.replace(/[^a-z0-9]/gi, '').toLowerCase() && (
+              <p className="faint" style={{ fontSize: 'var(--fs-xs)', marginBottom: 8 }}>↳ YC company listed as <b style={{ color: 'var(--text-2)', fontWeight: 500 }}>{c.ycName}</b> (rebranded)</p>
+            )}
             {(c.yearFounded || c.teamSize || c.partner || c.founders?.length) && (
               <p className="faint" style={{ fontSize: 'var(--fs-xs)', marginBottom: 14, lineHeight: 1.6 }}>
                 {c.yearFounded && <>Founded {c.yearFounded} · </>}{c.teamSize != null && <>team {c.teamSize} · </>}

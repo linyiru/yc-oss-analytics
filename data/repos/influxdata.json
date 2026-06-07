@@ -15,7 +15,8 @@
     "name": "Paul Dix",
     "title": "Founder/CTO"
    }
-  ]
+  ],
+  "name": "InfluxData"
  },
  "metrics": {
   "stars": 31531,
