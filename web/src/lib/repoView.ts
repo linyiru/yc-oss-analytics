@@ -101,6 +101,7 @@ export function toRepoView(slug: string) {
       monthsActive: r.timeline?.span_months ?? 0, type: cap(r.activity?.class ?? 'steady'),
       license: r.metrics?.license ?? '—', pkgManager: r.stack?.pkg_manager ?? '—', infra: r.stack?.infra ?? [],
       firstCommit: r.timeline?.first ?? null,
+      formerNames: (((r as any).repo_names) ?? []).filter((n: string) => n.toLowerCase() !== (r.github || '').toLowerCase()),
       apply, peers, concentration,
     },
     d: {

@@ -49,7 +49,10 @@ export default function RepoPage({ view, initialLocale }) {
               </h1>
               <div className="row gap-2" style={{ flexWrap: 'wrap' }}><TypeBadge type={c.type} /><BatchBadge batch={c.batch} /><LangBadge lang={c.lang} /></div>
             </div>
-            <p className="muted" style={{ fontSize: 'var(--fs-md)', marginBottom: 14 }}>{c.oneLiner}</p>
+            <p className="muted" style={{ fontSize: 'var(--fs-md)', marginBottom: c.formerNames?.length ? 6 : 14 }}>{c.oneLiner}</p>
+            {c.formerNames?.length > 0 && (
+              <p className="faint mono" style={{ fontSize: 'var(--fs-xs)', marginBottom: 14 }}>↳ formerly {c.formerNames.join(', ')}</p>
+            )}
             {d.starCurve.viralGain ? (
               <div className="viral-callout">
                 <IconStar size={15} fill="currentColor" /><span className="big">+{fc(d.starCurve.viralGain)}</span>
