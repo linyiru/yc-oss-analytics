@@ -18,3 +18,6 @@ data/discovered.json
 .DS_Store
 *.log
 data/bigquery_stars.csv
+data/bq_engagement.csv
+data/bq_netshare.csv
+data/bq_network.csv
