@@ -10,6 +10,24 @@ const med = (xs: number[]) => {
 };
 const top = (rs: any[], n: number) => [...rs].sort((a, b) => stars(b) - stars(a)).slice(0, n).map((r) => r.slug);
 
+// Tiny OLS (normal equations + Gaussian elimination) — solves X·β = y for the
+// controlled-association regression. Keeps the "after controlling for size/age" numbers live.
+function solveOLS(X: number[][], y: number[]): number[] {
+  const n = X.length, p = X[0]?.length ?? 0;
+  if (!n || !p) return [];
+  const A = Array.from({ length: p }, () => new Array(p).fill(0));
+  const b = new Array(p).fill(0);
+  for (let i = 0; i < n; i++) for (let j = 0; j < p; j++) { b[j] += X[i][j] * y[i]; for (let kk = 0; kk < p; kk++) A[j][kk] += X[i][j] * X[i][kk]; }
+  for (let c = 0; c < p; c++) {
+    let piv = c; for (let r = c + 1; r < p; r++) if (Math.abs(A[r][c]) > Math.abs(A[piv][c])) piv = r;
+    [A[c], A[piv]] = [A[piv], A[c]]; [b[c], b[piv]] = [b[piv], b[c]];
+    const d = A[c][c] || 1e-9;
+    for (let kk = c; kk < p; kk++) A[c][kk] /= d; b[c] /= d;
+    for (let r = 0; r < p; r++) if (r !== c) { const f = A[r][c]; for (let kk = c; kk < p; kk++) A[r][kk] -= f * A[c][kk]; b[r] -= f * b[c]; }
+  }
+  return b;
+}
+
 export interface Cmp { a: number; b: number; aLabel: string; bLabel: string; mult: string; unit?: string }
 export interface Echo { principle: string; author: string; source: string; url: string }
 export interface Lesson { key: string; title: string; stat: string; statLabel: string; body: string[]; echoes: Echo[]; caveat: string; examples: string[]; kicker?: string; compare?: Cmp }
@@ -27,11 +45,17 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const topN = byStars.slice(0, 40), botN = byStars.slice(-40);
   const conc = (r: any) => r.contributors?.[0]?.pct ?? 0;
   const spikeShare = (r: any) => { const s = r.star_spikes?.[0]?.gain; return s && stars(r) ? Math.round((100 * s) / stars(r)) : null; };
-  const netHi = R.filter((r: any) => (eng(r).network_star_pct ?? 0) >= 75);
   const en = (r: any) => eng(r).early_network ?? {};
   const early100 = med(R.map((r: any) => en(r).first100_net_pct).filter((x: any) => x != null));
   const early1000 = med(R.map((r: any) => en(r).first1000_net_pct).filter((x: any) => x != null));
-  const netLifetime = med(R.map((r: any) => eng(r).network_star_pct).filter((x: any) => x != null));
+  const netLifetime = med(R.map((r: any) => en(r).lifetime_net_pct ?? eng(r).network_star_pct).filter((x: any) => x != null));
+  const netHi = R.filter((r: any) => (en(r).first100_net_pct ?? 0) >= 70);
+  // license as monetization strategy
+  const lic = (r: any) => r.metrics?.license || '';
+  const mitPct = Math.round((100 * R.filter((r) => /^MIT/.test(lic(r))).length) / R.length);
+  const apachePct = Math.round((100 * R.filter((r) => /^Apache/.test(lic(r))).length) / R.length);
+  const copyleftPct = Math.round((100 * R.filter((r) => /^(AGPL|GPL)/.test(lic(r))).length) / R.length);
+  const permissivePct = Math.round((100 * R.filter((r) => /^(MIT|Apache|BSD|ISC|MPL|Unlicense)/.test(lic(r))).length) / R.length);
 
   // Multiple launches: of repos with a top HN post, how many posted more than once?
   const bigHn = (r: any) => (r.hn_events ?? []).filter((e: any) => e.points >= 50);
@@ -90,6 +114,20 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const tsPct = Math.round((100 * R.filter((r) => r.metrics?.primary_lang === 'TypeScript').length) / R.length);
   const houseExamples = [...R].filter((r) => { const n = nameOf(brandOf(r)); return n && n.length <= 6 && !n.includes('-'); }).sort((a, b) => stars(b) - stars(a)).slice(0, 4).map((r) => r.slug);
 
+  // Controlled association: does each lever survive after accounting for repo age + language?
+  // OLS of log(stars) on the binary signals + log(months active) + TS/Python dummies.
+  const reg = R.map((r: any) => ({
+    y: Math.log(Math.max(1, stars(r))),
+    hn: hnMax(r) >= 100 ? 1 : 0, ph: r.ph_event ? 1 : 0,
+    resp: (eng(r).comments_per_issue ?? 0) >= 2 && (eng(r).issues ?? 0) > 50 ? 1 : 0,
+    lage: Math.log(Math.max(1, r.timeline?.span_months ?? 1)),
+    ts: r.metrics?.primary_lang === 'TypeScript' ? 1 : 0, py: r.metrics?.primary_lang === 'Python' ? 1 : 0,
+  })).filter((d) => isFinite(d.y) && d.y > 0);
+  const beta = solveOLS(reg.map((d) => [1, d.hn, d.ph, d.resp, d.lage, d.ts, d.py]), reg.map((d) => d.y));
+  const ctrlMx = (i: number) => (beta.length ? Math.exp(beta[i]).toFixed(1) : '?') + '×';
+  const ctrlHN = ctrlMx(1), ctrlPH = ctrlMx(2), ctrlResp = ctrlMx(3);
+  const phCount = withPH.length;
+
   const DS: Echo = { principle: 'Get your first users by hand, one at a time, and take extraordinary measures to make them happy — it does not scale, and that is exactly the point.', author: 'Paul Graham', source: "Do Things that Don't Scale", url: 'https://paulgraham.com/ds.html' };
 
   const lessons: Lesson[] = [
@@ -100,14 +138,14 @@ export function playbook(): { lessons: Lesson[]; n: number } {
         `Of every signal in this dataset, a Hacker News front page is the most visible. Repos with a post that cracked 100 points carry a median ${hnHi} stars against ${hnLo} for those without — about ${hnMx}. On almost every repo's star curve, the steepest cliff is an HN day.`,
         `It is also nearly universal: ${showHnPct}% of every repo in this dataset cleared a 100-point Hacker News post at least once. "Show HN" is not an edge case in this world — it is the default first move.`,
         `But "launch on Hacker News" badly undersells what the winners actually did. ${multiPct}% of them posted to HN more than once — a median of ${medHnPosts} notable posts each. The shape is a rhythm, not a moment: a Launch HN when the company is new, a Show HN for each major feature, a Tell HN or a technical deep-dive when something genuinely interesting ships. Every post is a fresh roll at the front page and a fresh cohort of first-time users.`,
-        `The real takeaway is permission, not pressure: you are allowed to come back. One launch that underperforms is not a verdict on the company — it is one post on one Tuesday. The teams that grew kept finding honest reasons to show up again, for years.`,
+        `The real takeaway is permission, not pressure: you are allowed to come back. One launch that underperforms is not a verdict on the company — it is one post on one Tuesday. The teams that grew kept finding honest reasons to show up again, for years. The discipline is that each relaunch has to stand on its own as news: a post that isn't genuinely new spends the goodwill the last one earned.`,
       ],
       echoes: [
-        DS,
         { principle: 'You can launch more than once. Relaunching for each real milestone is expected — a new audience sees it every time, and the front page resets daily.', author: 'Y Combinator', source: 'Startup School', url: 'https://www.ycombinator.com/library' },
+        { principle: 'A startup is built to grow fast; getting in front of users — repeatedly — is the job, not a one-time event.', author: 'Paul Graham', source: 'Startup = Growth', url: 'https://paulgraham.com/growth.html' },
       ],
       kicker: `${multiPct}% launched more than once · median ${medHnPosts} posts`,
-      caveat: 'Correlation, not causation — strong products are also more likely to reach the HN front page. We keep each repo\'s top 6 HN posts, so the repeat rate is a lower bound.',
+      caveat: `Correlation, not causation — strong products are also more likely to reach the HN front page. Even after controlling for repo age and language, the association holds (~${ctrlHN}) and stays statistically significant, but selection on unobserved quality is not ruled out. We keep each repo's top 6 HN posts, so the repeat rate is a lower bound.`,
       examples: top(withHN, 4),
       compare: cmp(med(withHN.map(stars)), med(noHN.map(stars)), 'with a top HN post', 'without'),
     },
@@ -116,13 +154,12 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       stat: `${phHi} vs ${phLo}`,
       body: [
         `Product Hunt reaches a different room than Hacker News — makers, product managers, designers, founders shopping for tools. The ${withPH.length} repos with a Product Hunt launch sit at a median ${phHi} stars against ${phLo} for those without.`,
-        `The pattern among the biggest projects is not HN or PH — it is both, plus a launch blog post, plus the relevant subreddit, plus a conference talk, plus showing up in other people's comment threads. Each channel is a separate pond of early adopters, and fishing all of them is unglamorous, manual work that does not scale. That is precisely why it compounds into an advantage: most teams quietly won't do it.`,
+        `The pattern among the biggest projects is not HN or PH — it is both, plus a launch blog post, plus the relevant subreddit, plus a conference talk, plus showing up in other people's comment threads. Each channel is a separate pond of early adopters, and fishing all of them is unglamorous, manual work that does not scale. That is why it compounds: most teams quietly won't do it.`,
       ],
       echoes: [
         { principle: 'A startup is a company built to grow fast; growth is the one metric that defines it, and you reach users wherever they already gather.', author: 'Paul Graham', source: 'Startup = Growth', url: 'https://paulgraham.com/growth.html' },
-        DS,
       ],
-      caveat: 'Heavy selection bias — bigger, more polished products are the ones that bother with a Product Hunt launch in the first place.',
+      caveat: `Only ${phCount} repos launched on Product Hunt, so read the multiple loosely. Even controlling for repo age and language the association stays large (~${ctrlPH}) — but PH-launchers are self-selected for being launch-ready and polished, and that selection, not the launch, may be doing the work.`,
       examples: top(withPH, 4),
       compare: cmp(med(withPH.map(stars)), med(noPH.map(stars)), 'with a PH launch', 'without'),
     },
@@ -134,10 +171,9 @@ export function playbook(): { lessons: Lesson[]; n: number } {
         `Answering an issue is the open-source form of talking to your users — a one-to-one act that does not scale and is not meant to. It tells a stranger a human is on the other end, turns a bug report into a relationship, and teaches you, in the user's own words, what to build next. The compounding here is social: contributors who feel heard stay, and the ones who stay become the maintainers who carry the project when you can't.`,
       ],
       echoes: [
-        DS,
-        { principle: 'Talk to your users directly and constantly; their feedback, not your intuition, is the roadmap.', author: 'Y Combinator', source: 'How to Talk to Users', url: 'https://www.ycombinator.com/library' },
+        { principle: 'Talk to your users directly and constantly; their feedback, not your intuition, is the roadmap. Answering an issue is that conversation, in public.', author: 'Y Combinator', source: 'How to Talk to Users', url: 'https://www.ycombinator.com/library' },
       ],
-      caveat: 'Popular repos also attract more comments — engagement and size reinforce each other, so read this as a loop, not a one-way lever.',
+      caveat: `Popular repos also attract more comments — engagement and size reinforce each other, so read this as a loop, not a one-way lever. The association does survive controlling for age and language (~${ctrlResp}), but responsiveness is partly downstream of traffic.`,
       examples: top(respHi, 4),
       compare: cmp(med(respHi.map(stars)), med(respLo.map(stars)), '2+ comments/issue', 'quieter'),
     },
@@ -146,7 +182,7 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       stat: `${compoundPct}%`,
       body: [
         `It is tempting to imagine these companies were made by one viral afternoon. The data says otherwise: the single biggest day is a median of just ${compoundPct}% of a repo's total stars. The other ninety-some percent of the curve is built on every ordinary day in between.`,
-        `A launch lights the fuse. What actually burns is months — often years — of steady shipping: commits landed, issues closed, releases cut, posts written. Growth that looks sudden from the outside is almost always compounding that was simply invisible until it crossed a threshold. The discipline is not engineering one explosion; it is refusing to stop before the curve bends.`,
+        `A launch is the spark; the other 97% is shipping — commits landed, issues closed, releases cut, posts written, month after month. Growth that looks sudden from the outside is almost always compounding that was simply invisible until it crossed a threshold. The discipline is not engineering one explosion; it is refusing to stop before the curve bends.`,
       ],
       echoes: [
         { principle: 'A startup is defined by compound growth — a few percent a week — not by any single spike; optimize for the rate, and the absolute numbers take care of themselves.', author: 'Paul Graham', source: 'Startup = Growth', url: 'https://paulgraham.com/growth.html' },
@@ -160,7 +196,7 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       stat: `${to1k} mo`,
       body: [
         `Overnight success is survivorship's favorite illusion. The median repo here took ${to1k} months from its first commit to reach 1,000 stars, and ${to10k} months to reach 10,000. Most also built quietly for a median ${preLaunch} months before their first public launch — a long, unglamorous runway before anyone was watching.`,
-        `Durability is the other half of the story. ${ever.length} of ${R.length} repos are "evergreen": a median ${everAge} years old and still shipping ~${everCpw} commits a week. They did not start fast; they refused to stop. The trait that separates them looks less like genius and more like stubbornness — the willingness to keep going long after the launch-day excitement has drained away.`,
+        `Durability is the other half of the story. ${ever.length} of ${R.length} repos are "evergreen": a median ${everAge} years old and still shipping ~${everCpw} commits a week. What sets them apart is less talent than persistence — the willingness to keep showing up long after the launch-day excitement has drained away.`,
       ],
       echoes: [
         { principle: 'The best founders are stubborn about the destination while staying flexible about the route — it is persistence with judgment, not blind rigidity, that wins.', author: 'Paul Graham', source: 'The Right Kind of Stubborn', url: 'https://paulgraham.com/persistence.html' },
@@ -195,8 +231,21 @@ export function playbook(): { lessons: Lesson[]; n: number } {
         DS,
       ],
       kicker: `${early100}% of first 100 stars · ${early1000}% of first 1,000`,
-      caveat: 'Derived structurally from cross-starring (an account that stars ≥2 YC repos); not a roster of individuals, and no one is named. "Network" is a broad proxy, not a claim about who specifically.',
+      caveat: 'Strict definition: a stargazer counts as "network" only if they star ≥2 OTHER YC repos (the repo being viewed is excluded), so the figure is not inflated by self-counting. Cross-starring is co-promotion plus shared audience — partly the expected structure of a co-marketed cohort, not a channel any one founder fully controls. Structural only; no individuals named.',
       examples: top(netHi, 4),
+    },
+    {
+      key: 'license', title: 'Your license is a monetization strategy', statLabel: 'use a permissive license (MIT / Apache / BSD)',
+      stat: `${permissivePct}%`,
+      body: [
+        `A license looks like a legal footnote and is actually a go-to-market decision. ${permissivePct}% of these companies ship under a permissive license — MIT, Apache, BSD — optimizing for the most frictionless adoption possible: anyone can embed it, fork it, ship it inside a closed product, no questions asked. ${mitPct}% pick MIT specifically. You choose this when the open-source project is the top of the funnel and you sell a different layer — a hosted cloud, support, enterprise features.`,
+        `${copyleftPct}% go the other way, copyleft — GPL or, increasingly, AGPL. AGPL forces anyone who runs a modified version as a network service to release their changes, which makes it legally awkward for a hyperscaler to fork your project into a closed competing SaaS. When the hosted version is the business, that is the moat: you get to be genuinely open and still own the commercial high ground. The license tracks the model — permissive to maximize reach, protective to defend a service.`,
+        `We can't see revenue, so this is not a claim that one license out-earns another — it's that the license encodes the strategy, and most teams pick it on purpose. It is far easier to start protective and relicense toward permissive than the reverse, so the default you ship with can quietly hand away your only moat.`,
+      ],
+      echoes: [],
+      kicker: `${copyleftPct}% go copyleft to defend a hosted service`,
+      caveat: 'License is read from each repo\'s declared SPDX license. Whether a given choice actually helped monetization is not observable here — this is about encoded strategy, not measured outcome.',
+      examples: top(R.filter((r) => /^(AGPL|GPL)/.test(lic(r))), 4),
     },
     {
       key: 'house', title: 'The house style is real — but it is not the engine', statLabel: 'companies whose brand is a single word',

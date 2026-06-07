@@ -526,7 +526,8 @@
    "first100": 38,
    "first100_net_pct": 66,
    "first1000": 38,
-   "first1000_net_pct": 66
+   "first1000_net_pct": 66,
+   "lifetime_net_pct": 66
   }
  }
 }

@@ -182,20 +182,20 @@ export default function RepoPage({ view, initialLocale }) {
         )}
 
         {c.earlyNet && (c.earlyNet.first100_net_pct != null || c.earlyNet.first1000_net_pct != null) && (
-          <Section title="Who seeded the early stars" sub="Share of the earliest stargazers who also back other YC open-source repos — a de-identified read on YC-network distribution" style={{ marginBottom: 16 }}>
+          <Section title="Who seeded the early stars" sub="Share of the earliest stargazers who also back ≥2 other YC open-source repos — a de-identified read on YC-network distribution" style={{ marginBottom: 16 }}>
             <div className="row" style={{ flexWrap: 'wrap', gap: '18px 40px', alignItems: 'flex-start' }}>
               {c.earlyNet.first100_net_pct != null && (
-                <div className="col" style={{ gap: 2 }}><span className="eyebrow">First 100 stars</span><span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--accent-text)' }}>{c.earlyNet.first100_net_pct}%</span><span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>also star ≥2 YC repos</span></div>
+                <div className="col" style={{ gap: 2 }}><span className="eyebrow">First 100 stars</span><span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--accent-text)' }}>{c.earlyNet.first100_net_pct}%</span><span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>also back ≥2 other YC repos</span></div>
               )}
               {c.earlyNet.first1000_net_pct != null && (
-                <div className="col" style={{ gap: 2 }}><span className="eyebrow">First 1,000 stars</span><span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--accent-text)' }}>{c.earlyNet.first1000_net_pct}%</span><span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>also star ≥2 YC repos</span></div>
+                <div className="col" style={{ gap: 2 }}><span className="eyebrow">First 1,000 stars</span><span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--accent-text)' }}>{c.earlyNet.first1000_net_pct}%</span><span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>also back ≥2 other YC repos</span></div>
               )}
               {c.networkStarPct != null && (
                 <div className="col" style={{ gap: 2 }}><span className="eyebrow">All-time</span><span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--text-2)' }}>{c.networkStarPct}%</span><span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>of all stargazers</span></div>
               )}
             </div>
             <p className="faint" style={{ fontSize: 'var(--fs-2xs)', lineHeight: 1.5, marginTop: 12 }}>
-              Across the dataset, a median <b style={{ color: 'var(--text-2)' }}>74%</b> of a repo's first 100 stars come from inside the YC open-source network. High here means the YC ecosystem seeded early traction; lower means it reached beyond the bubble sooner. Structural cross-star overlap only — no individuals identified.
+              Across the dataset, a median <b style={{ color: 'var(--text-2)' }}>63%</b> of a repo's first 100 stargazers also back at least two <i>other</i> YC open-source repos. High here means the YC ecosystem seeded early traction; lower means it reached beyond the bubble sooner. Structural cross-star overlap only — no individuals identified.
             </p>
           </Section>
         )}

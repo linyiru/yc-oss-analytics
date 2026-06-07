@@ -1204,9 +1204,10 @@
   "network_star_pct": 66,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 69,
+   "first100_net_pct": 52,
    "first1000": 234,
-   "first1000_net_pct": 66
+   "first1000_net_pct": 49,
+   "lifetime_net_pct": 49
   }
  }
 }

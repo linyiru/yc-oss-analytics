@@ -143,7 +143,7 @@ export function toRepoView(slug: string) {
       formerNames: (((r as any).repo_names) ?? []).filter((n: string) => n.toLowerCase() !== (r.github || '').toLowerCase()),
       apply, peers, concentration, traction,
       earlyNet: (r.engagement as any)?.early_network ?? null,
-      networkStarPct: (r.engagement as any)?.network_star_pct ?? null,
+      networkStarPct: (r.engagement as any)?.early_network?.lifetime_net_pct ?? (r.engagement as any)?.network_star_pct ?? null,
     },
     d: {
       starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes, launches: launchMarks,

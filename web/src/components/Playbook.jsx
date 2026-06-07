@@ -103,8 +103,15 @@ export default function Playbook({ data, initialLocale }) {
         </div>
 
         <p className="faint pb-foot">
+          <b style={{ color: 'var(--text-2)' }}>One honest caveat above all the others:</b> every number here measures <i>attention</i> — stars, launches,
+          comments — not revenue, retention, or whether a business exists underneath. Stars are a leading indicator that
+          people noticed, nothing more. A team could do all eight of these things, reach 10,000 stars, and still have no
+          users who pay or stay. Read this as a map of how attention was won, never as a scoreboard for success.
+        </p>
+        <p className="faint pb-foot" style={{ marginTop: 10 }}>
           Every figure recomputes from the live dataset — stars, launch events, issue/PR activity and the cross-star
           network, all derived from public GitHub history plus the HN, Product Hunt and YC-Launch records and GH Archive.
+          Where a finding could be confounded by repo size, we report the association after controlling for age and language.
           See <a href="/methodology" style={{ color: 'var(--accent-text)' }}>Methodology</a> for limits — above all survivorship
           bias, which hides every team that did these same things and still didn't make it.
         </p>

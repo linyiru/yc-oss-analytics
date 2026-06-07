@@ -15162,9 +15162,10 @@
   "network_star_pct": 67,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 68,
+   "first100_net_pct": 55,
    "first1000": 1000,
-   "first1000_net_pct": 66
+   "first1000_net_pct": 49,
+   "lifetime_net_pct": 51
   }
  }
 }

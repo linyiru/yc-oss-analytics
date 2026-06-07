@@ -4920,9 +4920,10 @@
   "network_star_pct": 70,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 78,
+   "first100_net_pct": 68,
    "first1000": 1000,
-   "first1000_net_pct": 82
+   "first1000_net_pct": 71,
+   "lifetime_net_pct": 54
   }
  }
 }

@@ -376,7 +376,8 @@
    "first100": 3,
    "first100_net_pct": 33,
    "first1000": 3,
-   "first1000_net_pct": 33
+   "first1000_net_pct": 33,
+   "lifetime_net_pct": 33
   }
  }
 }

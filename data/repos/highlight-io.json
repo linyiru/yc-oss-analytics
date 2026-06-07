@@ -4826,9 +4826,10 @@
   "network_star_pct": 89,
   "early_network": {
    "first100": 100,
-   "first100_net_pct": 88,
+   "first100_net_pct": 81,
    "first1000": 1000,
-   "first1000_net_pct": 92
+   "first1000_net_pct": 86,
+   "lifetime_net_pct": 80
   }
  }
 }
