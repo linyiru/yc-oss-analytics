@@ -6418,5 +6418,13 @@
   "comments": 9,
   "url": "https://www.producthunt.com/products/bun-4/launches/bun"
  },
- "yc_launch": null
+ "yc_launch": null,
+ "engagement": {
+  "issues": 25055,
+  "prs": 17062,
+  "comments": 77897,
+  "forks_gha": 4340,
+  "comments_per_issue": 3.1,
+  "network_star_pct": 62
+ }
 }

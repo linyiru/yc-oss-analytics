@@ -384,5 +384,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=23628265"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 0,
+  "prs": 6,
+  "comments": 9,
+  "forks_gha": 4,
+  "comments_per_issue": 0,
+  "network_star_pct": 67
+ }
 }

@@ -971,5 +971,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=21396955"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 18,
+  "prs": 816,
+  "comments": 366,
+  "forks_gha": 53,
+  "comments_per_issue": 20.3,
+  "network_star_pct": 71
+ }
 }

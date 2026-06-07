@@ -3617,5 +3617,13 @@
    "comments": 113,
    "hn": "https://news.ycombinator.com/item?id=32376154"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1281,
+  "prs": 3755,
+  "comments": 8628,
+  "forks_gha": 1331,
+  "comments_per_issue": 6.7,
+  "network_star_pct": 80
+ }
 }

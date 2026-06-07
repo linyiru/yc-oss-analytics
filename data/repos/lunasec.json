@@ -2250,5 +2250,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=29505477"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 472,
+  "prs": 1267,
+  "comments": 1096,
+  "forks_gha": 191,
+  "comments_per_issue": 2.3,
+  "network_star_pct": 66
+ }
 }

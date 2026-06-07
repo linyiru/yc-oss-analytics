@@ -4997,5 +4997,13 @@
   "votes": 2,
   "comments": 1,
   "url": "https://www.producthunt.com/products/twenty-2/launches/twenty"
+ },
+ "engagement": {
+  "issues": 10767,
+  "prs": 16856,
+  "comments": 62169,
+  "forks_gha": 4866,
+  "comments_per_issue": 5.8,
+  "network_star_pct": 73
  }
 }

@@ -4811,5 +4811,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=38460147"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 453,
+  "prs": 3154,
+  "comments": 3323,
+  "forks_gha": 234,
+  "comments_per_issue": 7.3,
+  "network_star_pct": 88
+ }
 }

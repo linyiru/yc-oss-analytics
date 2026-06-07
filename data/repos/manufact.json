@@ -2029,5 +2029,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=24289934"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 469,
+  "prs": 745,
+  "comments": 1281,
+  "forks_gha": 678,
+  "comments_per_issue": 2.7,
+  "network_star_pct": 76
+ }
 }

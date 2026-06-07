@@ -5522,5 +5522,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=44007436"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 3891,
+  "prs": 5737,
+  "comments": 10801,
+  "forks_gha": 1491,
+  "comments_per_issue": 2.8,
+  "network_star_pct": 63
+ }
 }

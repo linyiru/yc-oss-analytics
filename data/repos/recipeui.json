@@ -1250,5 +1250,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=37233368"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 40,
+  "prs": 40,
+  "comments": 76,
+  "forks_gha": 48,
+  "comments_per_issue": 1.9,
+  "network_star_pct": 82
+ }
 }

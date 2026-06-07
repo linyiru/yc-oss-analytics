@@ -6581,5 +6581,13 @@
    "comments": 2,
    "hn": "https://news.ycombinator.com/item?id=45464145"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1526,
+  "prs": 6989,
+  "comments": 12773,
+  "forks_gha": 657,
+  "comments_per_issue": 8.4,
+  "network_star_pct": 82
+ }
 }

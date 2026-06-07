@@ -883,5 +883,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=45031374"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 10,
+  "prs": 301,
+  "comments": 106,
+  "forks_gha": 26,
+  "comments_per_issue": 10.6,
+  "network_star_pct": 89
+ }
 }

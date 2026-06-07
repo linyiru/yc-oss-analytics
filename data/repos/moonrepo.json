@@ -4712,5 +4712,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=47042115"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1185,
+  "prs": 2674,
+  "comments": 6103,
+  "forks_gha": 203,
+  "comments_per_issue": 5.2,
+  "network_star_pct": 90
+ }
 }

@@ -2928,5 +2928,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=48120658"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 5163,
+  "prs": 6196,
+  "comments": 19626,
+  "forks_gha": 1687,
+  "comments_per_issue": 3.8,
+  "network_star_pct": 73
+ }
 }

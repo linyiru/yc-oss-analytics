@@ -2433,5 +2433,13 @@
    "comments": 3,
    "hn": "https://news.ycombinator.com/item?id=45387214"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 245,
+  "prs": 727,
+  "comments": 1122,
+  "forks_gha": 524,
+  "comments_per_issue": 4.6,
+  "network_star_pct": 81
+ }
 }

@@ -8441,5 +8441,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=41664111"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 5671,
+  "prs": 4374,
+  "comments": 9791,
+  "forks_gha": 2175,
+  "comments_per_issue": 1.7,
+  "network_star_pct": 56
+ }
 }

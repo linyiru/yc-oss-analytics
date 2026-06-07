@@ -4927,5 +4927,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=46197660"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1640,
+  "prs": 11184,
+  "comments": 23181,
+  "forks_gha": 2410,
+  "comments_per_issue": 14.1,
+  "network_star_pct": 74
+ }
 }

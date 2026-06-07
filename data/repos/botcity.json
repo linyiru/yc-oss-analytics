@@ -1004,5 +1004,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=39444038"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 30,
+  "prs": 79,
+  "comments": 70,
+  "forks_gha": 26,
+  "comments_per_issue": 2.3,
+  "network_star_pct": 43
+ }
 }

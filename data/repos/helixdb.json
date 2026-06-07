@@ -1954,5 +1954,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=44262494"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 421,
+  "prs": 447,
+  "comments": 706,
+  "forks_gha": 128,
+  "comments_per_issue": 1.7,
+  "network_star_pct": 81
+ }
 }

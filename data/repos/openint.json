@@ -537,5 +537,13 @@
    "comments": 3,
    "hn": "https://news.ycombinator.com/item?id=43804776"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 0,
+  "prs": 135,
+  "comments": 130,
+  "forks_gha": 6,
+  "comments_per_issue": 0,
+  "network_star_pct": 80
+ }
 }

@@ -7345,5 +7345,13 @@
    "comments": 14,
    "hn": "https://news.ycombinator.com/item?id=34519052"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 2408,
+  "prs": 7781,
+  "comments": 21045,
+  "forks_gha": 3099,
+  "comments_per_issue": 8.7,
+  "network_star_pct": 71
+ }
 }

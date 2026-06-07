@@ -8700,5 +8700,13 @@
    "comments": 15,
    "hn": "https://news.ycombinator.com/item?id=38178297"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 31237,
+  "prs": 94961,
+  "comments": 230387,
+  "forks_gha": 5627,
+  "comments_per_issue": 7.4,
+  "network_star_pct": 74
+ }
 }

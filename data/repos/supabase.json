@@ -9763,5 +9763,13 @@
   "comments": 38,
   "url": "https://www.producthunt.com/products/supabase/launches/supabase-alpha"
  },
- "yc_launch": null
+ "yc_launch": null,
+ "engagement": {
+  "issues": 11825,
+  "prs": 30433,
+  "comments": 70957,
+  "forks_gha": 12423,
+  "comments_per_issue": 6.0,
+  "network_star_pct": 67
+ }
 }

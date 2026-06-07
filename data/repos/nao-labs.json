@@ -705,5 +705,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=47194534"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 135,
+  "prs": 129,
+  "comments": 406,
+  "forks_gha": 35,
+  "comments_per_issue": 3.0,
+  "network_star_pct": 51
+ }
 }

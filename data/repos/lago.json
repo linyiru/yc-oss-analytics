@@ -5887,5 +5887,13 @@
    "comments": 186,
    "hn": "https://news.ycombinator.com/item?id=33191307"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 366,
+  "prs": 655,
+  "comments": 717,
+  "forks_gha": 492,
+  "comments_per_issue": 2.0,
+  "network_star_pct": 87
+ }
 }

@@ -2623,5 +2623,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=9284387"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 170,
+  "prs": 1255,
+  "comments": 627,
+  "forks_gha": 137,
+  "comments_per_issue": 3.7,
+  "network_star_pct": 86
+ }
 }

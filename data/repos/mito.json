@@ -3951,5 +3951,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=27277030"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 704,
+  "prs": 2594,
+  "comments": 7177,
+  "forks_gha": 196,
+  "comments_per_issue": 10.2,
+  "network_star_pct": 71
+ }
 }

@@ -695,5 +695,13 @@
    "comments": 5,
    "hn": "https://news.ycombinator.com/item?id=48193230"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 10,
+  "prs": 154,
+  "comments": 192,
+  "forks_gha": 16,
+  "comments_per_issue": 19.2,
+  "network_star_pct": 45
+ }
 }

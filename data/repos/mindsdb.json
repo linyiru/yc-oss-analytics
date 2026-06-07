@@ -10765,5 +10765,13 @@
   "votes": 235,
   "comments": 65,
   "url": "https://www.producthunt.com/products/mindsdb/launches/mindsdb"
+ },
+ "engagement": {
+  "issues": 8154,
+  "prs": 11729,
+  "comments": 23093,
+  "forks_gha": 6427,
+  "comments_per_issue": 2.8,
+  "network_star_pct": 63
  }
 }

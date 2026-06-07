@@ -2004,5 +2004,13 @@
    "comments": 41,
    "hn": "https://news.ycombinator.com/item?id=20734956"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1296,
+  "prs": 3002,
+  "comments": 5663,
+  "forks_gha": 307,
+  "comments_per_issue": 4.4,
+  "network_star_pct": 78
+ }
 }

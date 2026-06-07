@@ -4218,5 +4218,13 @@
   }
  ],
  "yc_launch": null,
- "ph_event": null
+ "ph_event": null,
+ "engagement": {
+  "issues": 4477,
+  "prs": 1527,
+  "comments": 13767,
+  "forks_gha": 3833,
+  "comments_per_issue": 3.1,
+  "network_star_pct": 68
+ }
 }

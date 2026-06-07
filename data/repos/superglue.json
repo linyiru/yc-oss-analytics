@@ -1271,5 +1271,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=46146091"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 34,
+  "prs": 471,
+  "comments": 471,
+  "forks_gha": 94,
+  "comments_per_issue": 13.9,
+  "network_star_pct": 85
+ }
 }

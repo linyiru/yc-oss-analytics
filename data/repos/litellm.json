@@ -4765,5 +4765,13 @@
   "votes": 124,
   "comments": 12,
   "url": "https://www.producthunt.com/products/litellm/launches/litellm"
+ },
+ "engagement": {
+  "issues": 15714,
+  "prs": 16451,
+  "comments": 50918,
+  "forks_gha": 4719,
+  "comments_per_issue": 3.2,
+  "network_star_pct": 80
  }
 }

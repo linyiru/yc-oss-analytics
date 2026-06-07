@@ -8393,5 +8393,13 @@
    "comments": 87,
    "hn": "https://news.ycombinator.com/item?id=45196991"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 6582,
+  "prs": 10155,
+  "comments": 31024,
+  "forks_gha": 1929,
+  "comments_per_issue": 4.7,
+  "network_star_pct": 80
+ }
 }

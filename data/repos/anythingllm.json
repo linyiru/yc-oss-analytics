@@ -4910,5 +4910,13 @@
   "votes": 236,
   "comments": 16,
   "url": "https://www.producthunt.com/products/anythingllm/launches/anythingllm"
+ },
+ "engagement": {
+  "issues": 5668,
+  "prs": 2885,
+  "comments": 7736,
+  "forks_gha": 5381,
+  "comments_per_issue": 1.4,
+  "network_star_pct": 70
  }
 }

@@ -2822,5 +2822,13 @@
   "comments": 22,
   "url": "https://www.producthunt.com/products/browser-use/launches/browser-use"
  },
- "yc_launch": null
+ "yc_launch": null,
+ "engagement": {
+  "issues": 2109,
+  "prs": 3100,
+  "comments": 9887,
+  "forks_gha": 8065,
+  "comments_per_issue": 4.7,
+  "network_star_pct": 65
+ }
 }

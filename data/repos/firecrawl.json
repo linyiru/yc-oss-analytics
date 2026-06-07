@@ -3674,5 +3674,13 @@
   "comments": 1,
   "url": "https://www.producthunt.com/products/firecrawl/launches/firecrawl"
  },
- "yc_launch": null
+ "yc_launch": null,
+ "engagement": {
+  "issues": 1280,
+  "prs": 2654,
+  "comments": 4197,
+  "forks_gha": 4861,
+  "comments_per_issue": 3.3,
+  "network_star_pct": 58
+ }
 }

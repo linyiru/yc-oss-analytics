@@ -364,5 +364,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=46873426"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 0,
+  "prs": 24,
+  "comments": 50,
+  "forks_gha": 0,
+  "comments_per_issue": 0,
+  "network_star_pct": 33
+ }
 }

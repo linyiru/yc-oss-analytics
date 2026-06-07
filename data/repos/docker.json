@@ -11372,5 +11372,13 @@
    "comments": 130,
    "hn": "https://news.ycombinator.com/item?id=7868791"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 2350,
+  "prs": 6304,
+  "comments": 16678,
+  "forks_gha": 1973,
+  "comments_per_issue": 7.1,
+  "network_star_pct": 67
+ }
 }

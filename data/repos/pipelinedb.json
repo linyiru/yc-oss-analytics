@@ -6094,5 +6094,13 @@
    "comments": 23,
    "hn": "https://news.ycombinator.com/item?id=9976889"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 80,
+  "prs": 14,
+  "comments": 132,
+  "forks_gha": 113,
+  "comments_per_issue": 1.6,
+  "network_star_pct": 83
+ }
 }

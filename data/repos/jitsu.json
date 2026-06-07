@@ -6157,5 +6157,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=24282727"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1115,
+  "prs": 1170,
+  "comments": 1277,
+  "forks_gha": 355,
+  "comments_per_issue": 1.1,
+  "network_star_pct": 88
+ }
 }

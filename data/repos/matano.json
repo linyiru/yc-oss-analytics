@@ -2975,5 +2975,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=43576617"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 150,
+  "prs": 138,
+  "comments": 207,
+  "forks_gha": 122,
+  "comments_per_issue": 1.4,
+  "network_star_pct": 78
+ }
 }

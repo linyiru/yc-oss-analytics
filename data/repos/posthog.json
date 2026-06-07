@@ -9831,5 +9831,13 @@
    "comments": 110,
    "hn": "https://news.ycombinator.com/item?id=43267095"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 13523,
+  "prs": 58978,
+  "comments": 140311,
+  "forks_gha": 2505,
+  "comments_per_issue": 10.4,
+  "network_star_pct": 78
+ }
 }

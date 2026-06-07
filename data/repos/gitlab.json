@@ -15154,5 +15154,13 @@
    "comments": 683,
    "hn": "https://news.ycombinator.com/item?id=48100500"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 0,
+  "prs": 44,
+  "comments": 39,
+  "forks_gha": 1328,
+  "comments_per_issue": 0,
+  "network_star_pct": 58
+ }
 }

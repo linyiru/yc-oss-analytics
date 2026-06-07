@@ -14006,5 +14006,13 @@
    "comments": 67,
    "hn": "https://news.ycombinator.com/item?id=29115263"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 6482,
+  "prs": 8776,
+  "comments": 31820,
+  "forks_gha": 2299,
+  "comments_per_issue": 4.9,
+  "network_star_pct": 66
+ }
 }

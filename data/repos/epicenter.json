@@ -2916,5 +2916,13 @@
   "url": "https://www.ycombinator.com/launches/OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips"
  },
  "ph_event": null,
- "hn_events": []
+ "hn_events": [],
+ "engagement": {
+  "issues": 720,
+  "prs": 1003,
+  "comments": 1326,
+  "forks_gha": 168,
+  "comments_per_issue": 1.8,
+  "network_star_pct": 76
+ }
 }

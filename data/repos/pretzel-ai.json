@@ -1627,5 +1627,13 @@
    "comments": 74,
    "hn": "https://news.ycombinator.com/item?id=39717268"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 69,
+  "prs": 203,
+  "comments": 206,
+  "forks_gha": 148,
+  "comments_per_issue": 3.0,
+  "network_star_pct": 86
+ }
 }

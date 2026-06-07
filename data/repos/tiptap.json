@@ -12004,5 +12004,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=44571088"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 5591,
+  "prs": 3213,
+  "comments": 15661,
+  "forks_gha": 3206,
+  "comments_per_issue": 2.8,
+  "network_star_pct": 72
+ }
 }

@@ -17467,5 +17467,13 @@
   "votes": 2,
   "comments": 1,
   "url": "https://www.producthunt.com/products/coreos/launches/coreos"
+ },
+ "engagement": {
+  "issues": 6115,
+  "prs": 13892,
+  "comments": 59723,
+  "forks_gha": 7910,
+  "comments_per_issue": 9.8,
+  "network_star_pct": 58
  }
 }

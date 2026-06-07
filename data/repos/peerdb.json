@@ -3441,5 +3441,13 @@
    "comments": 17,
    "hn": "https://news.ycombinator.com/item?id=39593384"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 826,
+  "prs": 5220,
+  "comments": 4851,
+  "forks_gha": 141,
+  "comments_per_issue": 5.9,
+  "network_star_pct": 88
+ }
 }

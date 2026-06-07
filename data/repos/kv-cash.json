@@ -282,5 +282,13 @@
  "curve_partial": 0,
  "yc_launch": null,
  "ph_event": null,
- "hn_events": []
+ "hn_events": [],
+ "engagement": {
+  "issues": 0,
+  "prs": 0,
+  "comments": 0,
+  "forks_gha": 0,
+  "comments_per_issue": 0,
+  "network_star_pct": null
+ }
 }

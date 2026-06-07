@@ -8345,5 +8345,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=41633109"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 960,
+  "prs": 1146,
+  "comments": 3846,
+  "forks_gha": 687,
+  "comments_per_issue": 4.0,
+  "network_star_pct": 76
+ }
 }

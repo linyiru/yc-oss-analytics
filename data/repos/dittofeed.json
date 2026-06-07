@@ -3492,5 +3492,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=38073060"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 148,
+  "prs": 2948,
+  "comments": 682,
+  "forks_gha": 299,
+  "comments_per_issue": 4.6,
+  "network_star_pct": 90
+ }
 }

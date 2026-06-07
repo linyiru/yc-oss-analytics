@@ -4604,5 +4604,13 @@
    "comments": 45,
    "hn": "https://news.ycombinator.com/item?id=22780124"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 3970,
+  "prs": 5997,
+  "comments": 11915,
+  "forks_gha": 1230,
+  "comments_per_issue": 3.0,
+  "network_star_pct": 86
+ }
 }

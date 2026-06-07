@@ -411,5 +411,13 @@
  "curve_partial": false,
  "yc_launch": null,
  "ph_event": null,
- "hn_events": []
+ "hn_events": [],
+ "engagement": {
+  "issues": 3,
+  "prs": 36,
+  "comments": 1,
+  "forks_gha": 4,
+  "comments_per_issue": 0.3,
+  "network_star_pct": 74
+ }
 }

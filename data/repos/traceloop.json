@@ -3872,5 +3872,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=34907938"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 474,
+  "prs": 5627,
+  "comments": 6433,
+  "forks_gha": 940,
+  "comments_per_issue": 13.6,
+  "network_star_pct": 90
+ }
 }

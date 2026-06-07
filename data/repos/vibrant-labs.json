@@ -4752,5 +4752,13 @@
    "comments": 1,
    "hn": "https://news.ycombinator.com/item?id=47077116"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 2039,
+  "prs": 2132,
+  "comments": 5568,
+  "forks_gha": 1110,
+  "comments_per_issue": 2.7,
+  "network_star_pct": 77
+ }
 }

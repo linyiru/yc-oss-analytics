@@ -5557,5 +5557,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=36166580"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 700,
+  "prs": 2866,
+  "comments": 5457,
+  "forks_gha": 357,
+  "comments_per_issue": 7.8,
+  "network_star_pct": 76
+ }
 }

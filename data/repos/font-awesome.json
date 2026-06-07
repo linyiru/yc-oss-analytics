@@ -16681,5 +16681,13 @@
   "comments": 10,
   "url": "https://www.producthunt.com/products/font-awesome-2/launches/font-awesome"
  },
- "yc_launch": null
+ "yc_launch": null,
+ "engagement": {
+  "issues": 15433,
+  "prs": 311,
+  "comments": 23734,
+  "forks_gha": 5477,
+  "comments_per_issue": 1.5,
+  "network_star_pct": 39
+ }
 }

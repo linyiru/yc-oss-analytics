@@ -7922,5 +7922,13 @@
   "votes": 0,
   "comments": 0,
   "url": "https://www.producthunt.com/products/offbeat/launches/payload"
+ },
+ "engagement": {
+  "issues": 8237,
+  "prs": 13333,
+  "comments": 22661,
+  "forks_gha": 3422,
+  "comments_per_issue": 2.8,
+  "network_star_pct": 66
  }
 }

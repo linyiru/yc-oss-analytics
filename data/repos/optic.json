@@ -3910,5 +3910,13 @@
    "comments": 9,
    "hn": "https://news.ycombinator.com/item?id=9206451"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 353,
+  "prs": 4855,
+  "comments": 3385,
+  "forks_gha": 93,
+  "comments_per_issue": 9.6,
+  "network_star_pct": 79
+ }
 }

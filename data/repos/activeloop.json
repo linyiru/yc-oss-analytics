@@ -7631,5 +7631,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=30338103"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 849,
+  "prs": 4677,
+  "comments": 11208,
+  "forks_gha": 802,
+  "comments_per_issue": 13.2,
+  "network_star_pct": 67
+ }
 }

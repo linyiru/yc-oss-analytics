@@ -17277,5 +17277,13 @@
    "comments": 29,
    "hn": "https://news.ycombinator.com/item?id=33344573"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 15069,
+  "prs": 14782,
+  "comments": 31397,
+  "forks_gha": 2170,
+  "comments_per_issue": 2.1,
+  "network_star_pct": 70
+ }
 }

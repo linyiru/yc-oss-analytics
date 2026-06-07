@@ -5424,5 +5424,13 @@
    "comments": 22,
    "hn": "https://news.ycombinator.com/item?id=40909554"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 998,
+  "prs": 3398,
+  "comments": 7869,
+  "forks_gha": 953,
+  "comments_per_issue": 7.9,
+  "network_star_pct": 88
+ }
 }

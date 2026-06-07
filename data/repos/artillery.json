@@ -13561,5 +13561,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=13376649"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1511,
+  "prs": 1701,
+  "comments": 3161,
+  "forks_gha": 392,
+  "comments_per_issue": 2.1,
+  "network_star_pct": 72
+ }
 }

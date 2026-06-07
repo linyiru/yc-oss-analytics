@@ -8929,5 +8929,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=22347650"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 2061,
+  "prs": 5553,
+  "comments": 7167,
+  "forks_gha": 821,
+  "comments_per_issue": 3.5,
+  "network_star_pct": 73
+ }
 }

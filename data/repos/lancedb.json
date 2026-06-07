@@ -5072,5 +5072,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=37124712"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1712,
+  "prs": 2972,
+  "comments": 5255,
+  "forks_gha": 645,
+  "comments_per_issue": 3.1,
+  "network_star_pct": 87
+ }
 }

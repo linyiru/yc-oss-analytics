@@ -1157,5 +1157,13 @@
    "comments": 0,
    "hn": "https://news.ycombinator.com/item?id=44274915"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1023,
+  "prs": 4122,
+  "comments": 6663,
+  "forks_gha": 18,
+  "comments_per_issue": 6.5,
+  "network_star_pct": 42
+ }
 }

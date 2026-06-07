@@ -5887,5 +5887,13 @@
    "comments": 41,
    "hn": "https://news.ycombinator.com/item?id=40149608"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 1668,
+  "prs": 6088,
+  "comments": 15658,
+  "forks_gha": 1606,
+  "comments_per_issue": 9.4,
+  "network_star_pct": 80
+ }
 }

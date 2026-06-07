@@ -16779,5 +16779,13 @@
    "comments": 57,
    "hn": "https://news.ycombinator.com/item?id=19094523"
   }
- ]
+ ],
+ "engagement": {
+  "issues": 13179,
+  "prs": 31605,
+  "comments": 150465,
+  "forks_gha": 7689,
+  "comments_per_issue": 11.4,
+  "network_star_pct": 68
+ }
 }
