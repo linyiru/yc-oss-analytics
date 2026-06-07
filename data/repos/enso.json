@@ -27,7 +27,14 @@
   "contributors": 10,
   "license": null,
   "created": "2019-04-15",
-  "primary_lang": null
+  "primary_lang": null,
+  "license_detail": {
+   "spdx": null,
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

@@ -32,7 +32,14 @@
   "contributors": 375,
   "license": "NOASSERTION",
   "created": "2019-08-14",
-  "primary_lang": "Ruby"
+  "primary_lang": "Ruby",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

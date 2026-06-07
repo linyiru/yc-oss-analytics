@@ -27,7 +27,14 @@
   "contributors": 501,
   "license": "NOASSERTION",
   "created": "2014-06-26",
-  "primary_lang": "Go"
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

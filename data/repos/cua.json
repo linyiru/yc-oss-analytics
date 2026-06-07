@@ -28,7 +28,14 @@
   "contributors": 73,
   "license": "MIT",
   "created": "2025-01-31",
-  "primary_lang": "HTML"
+  "primary_lang": "HTML",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

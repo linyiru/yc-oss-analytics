@@ -42,9 +42,17 @@ export default function Trends({ tr, initialLocale }) {
           </Section>
         )}
 
-        <Section title="License choice" sub="Reflects commercialization strategy — MIT for adoption, Apache for enterprise/patents, AGPL to protect a SaaS" style={{ marginBottom: 16 }}>
-          <RankedBars items={tr.licenses.map((l) => ({ label: l.name, value: l.count, color: l.name.startsWith('AGPL') || l.name.startsWith('GPL') ? '#f7853a' : l.name.startsWith('Apache') ? '#4f9df7' : l.name.startsWith('MIT') ? '#43c46a' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
-        </Section>
+        <div className="trends-grid" style={{ marginBottom: 16 }}>
+          <Section title="Licensing model" sub={`What they actually ship under · ${tr.saCount} source-available · ${tr.eeCount} open-core (with an enterprise edition)`}>
+            <RankedBars items={(tr.licenseModels || []).map((m) => ({ label: m.name, value: m.count, color: m.name === 'Permissive' ? '#43c46a' : m.name === 'Copyleft' ? '#f7853a' : m.name === 'Open-core' ? 'var(--accent)' : m.name === 'Source-available' ? '#4f9df7' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
+            <p className="faint" style={{ fontSize: 'var(--fs-2xs)', lineHeight: 1.5, marginTop: 14 }}>
+              GitHub flattens many of these to "NOASSERTION"; this reads each repo's actual LICENSE file. <b style={{ color: 'var(--text-2)' }}>Open-core</b> = a permissive/copyleft core plus a proprietary <span className="mono">ee/</span> enterprise edition; <b style={{ color: 'var(--text-2)' }}>source-available</b> = Elastic / BUSL / SSPL / FSL (visible source, not OSI-open).
+            </p>
+          </Section>
+          <Section title="Actual license" sub="The real license behind each repo — open-core shown as base + EE">
+            <RankedBars items={(tr.licensesDetailed || []).slice(0, 12).map((l) => ({ label: l.name, value: l.count, color: /EE|Elastic|BUSL|SSPL|FSL|Source|Custom|Proprietary|Sustainable|Confluent/.test(l.name) ? 'var(--accent)' : l.name.startsWith('AGPL') || l.name.startsWith('GPL') ? '#f7853a' : l.name.startsWith('Apache') ? '#4f9df7' : l.name.startsWith('MIT') || l.name.startsWith('BSD') ? '#43c46a' : 'var(--text-3)' }))} fmt={(v) => v + ''} />
+          </Section>
+        </div>
 
         {tr.stack?.withDeps >= 10 && (
           <>

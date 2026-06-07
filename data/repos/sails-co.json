@@ -34,7 +34,14 @@
   "contributors": 298,
   "license": "MIT",
   "created": "2012-03-18",
-  "primary_lang": "JavaScript"
+  "primary_lang": "JavaScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

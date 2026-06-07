@@ -28,7 +28,14 @@
   "contributors": 41,
   "license": "NOASSERTION",
   "created": "2020-01-05",
-  "primary_lang": "Java"
+  "primary_lang": "Java",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

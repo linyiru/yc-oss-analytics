@@ -31,7 +31,14 @@
   "contributors": 81,
   "license": "NOASSERTION",
   "created": "2016-12-01",
-  "primary_lang": null
+  "primary_lang": null,
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "AGPL-3.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

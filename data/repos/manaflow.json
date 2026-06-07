@@ -31,7 +31,14 @@
   "contributors": 108,
   "license": "NOASSERTION",
   "created": "2026-01-28",
-  "primary_lang": "Swift"
+  "primary_lang": "Swift",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "AGPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

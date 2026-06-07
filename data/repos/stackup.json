@@ -27,7 +27,14 @@
   "contributors": 5,
   "license": "GPL-3.0",
   "created": "2022-10-08",
-  "primary_lang": "Go"
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "GPL-3.0",
+   "detected": "GPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

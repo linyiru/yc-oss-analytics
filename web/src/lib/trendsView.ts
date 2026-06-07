@@ -6,14 +6,22 @@ import { depsView } from './depsView';
 export function trendsView() {
   const { years, languages } = languageTrends();
   const tools = devToolAdoption();
-  const lic: Record<string, number> = {};
+  // Precise licensing — from the LICENSE-file audit (model + real license), not GitHub's
+  // single SPDX field (which flattens open-core / source-available to "NOASSERTION").
+  const byModel: Record<string, number> = {}, byDetected: Record<string, number> = {};
   for (const r of repos) {
-    const l = r.metrics?.license || 'NOASSERTION';
-    lic[l] = (lic[l] ?? 0) + 1;
+    const d = (r.metrics as any)?.license_detail;
+    const model = d?.model || (r.metrics?.license && r.metrics.license !== 'NOASSERTION' ? 'Permissive' : 'Custom');
+    byModel[model] = (byModel[model] ?? 0) + 1;
+    const det = d?.detected || (r.metrics?.license && r.metrics.license !== 'NOASSERTION' ? r.metrics.license : 'Custom / Proprietary');
+    byDetected[det] = (byDetected[det] ?? 0) + 1;
   }
-  const licenses = Object.entries(lic)
-    .map(([name, count]) => ({ name: name === 'NOASSERTION' ? 'Custom / Other' : name, count }))
-    .sort((a, b) => b.count - a.count);
+  const MODEL_ORDER = ['Permissive', 'Copyleft', 'Open-core', 'Source-available', 'Custom', 'Other'];
+  const licenseModels = MODEL_ORDER.filter((m) => byModel[m]).map((name) => ({ name, count: byModel[name] }));
+  const licensesDetailed = Object.entries(byDetected).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count);
+  const eeCount = repos.filter((r) => (r.metrics as any)?.license_detail?.ee).length;
+  const saCount = repos.filter((r) => (r.metrics as any)?.license_detail?.source_available).length;
+  const licenses = licensesDetailed; // back-compat for the existing chart
 
   // Company outcomes (survivorship made visible) — from YC's own ycdc_status.
   const order = ['Active', 'Acquired', 'Public', 'Inactive'];
@@ -25,7 +33,7 @@ export function trendsView() {
 
   return {
     stack: depsView(),
-    licenses,
+    licenses, licenseModels, licensesDetailed, eeCount, saCount,
     outcomes, withStatus, notActive,
     count: repos.length,
     langSet: languages,

@@ -32,7 +32,14 @@
   "contributors": 187,
   "license": "NOASSERTION",
   "created": "2023-02-04",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

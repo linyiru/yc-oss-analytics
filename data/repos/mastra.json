@@ -36,7 +36,14 @@
   "contributors": 491,
   "license": "NOASSERTION",
   "created": "2024-08-06",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

@@ -27,7 +27,14 @@
   "contributors": 1,
   "license": "MIT",
   "created": "2026-03-09",
-  "primary_lang": "Shell"
+  "primary_lang": "Shell",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

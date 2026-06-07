@@ -36,7 +36,14 @@
   "contributors": 21,
   "license": "Apache-2.0",
   "created": "2025-07-09",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

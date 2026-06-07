@@ -31,7 +31,14 @@
   "contributors": 88,
   "license": "NOASSERTION",
   "created": "2018-01-09",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

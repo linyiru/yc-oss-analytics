@@ -28,7 +28,14 @@
   "contributors": 177,
   "license": "NOASSERTION",
   "created": "2022-05-05",
-  "primary_lang": "HTML"
+  "primary_lang": "HTML",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

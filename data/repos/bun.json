@@ -28,7 +28,14 @@
   "contributors": 943,
   "license": "NOASSERTION",
   "created": "2021-04-14",
-  "primary_lang": "Rust"
+  "primary_lang": "Rust",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

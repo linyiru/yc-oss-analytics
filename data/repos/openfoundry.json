@@ -28,7 +28,14 @@
   "contributors": 6,
   "license": "MIT",
   "created": "2024-03-20",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

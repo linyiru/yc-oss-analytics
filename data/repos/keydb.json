@@ -31,7 +31,14 @@
   "contributors": 640,
   "license": "BSD-3-Clause",
   "created": "2019-02-01",
-  "primary_lang": "C++"
+  "primary_lang": "C++",
+  "license_detail": {
+   "spdx": "BSD-3-Clause",
+   "detected": "BSD-3-Clause",
+   "model": "Other",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

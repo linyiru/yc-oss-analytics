@@ -32,7 +32,14 @@
   "contributors": 7,
   "license": "MIT",
   "created": "2024-10-27",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

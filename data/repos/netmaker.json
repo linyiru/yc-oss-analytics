@@ -27,7 +27,14 @@
   "contributors": 113,
   "license": "NOASSERTION",
   "created": "2021-03-25",
-  "primary_lang": "Go"
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

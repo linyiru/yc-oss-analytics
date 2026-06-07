@@ -27,7 +27,14 @@
   "contributors": 4,
   "license": "MIT",
   "created": "2022-08-13",
-  "primary_lang": "C++"
+  "primary_lang": "C++",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

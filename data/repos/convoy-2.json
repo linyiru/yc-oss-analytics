@@ -21,7 +21,14 @@
   "contributors": 39,
   "license": "NOASSERTION",
   "created": "2021-04-17",
-  "primary_lang": "Go"
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Elastic-2.0",
+   "model": "Source-available",
+   "source_available": true,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

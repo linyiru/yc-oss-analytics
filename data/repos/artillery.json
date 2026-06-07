@@ -28,7 +28,14 @@
   "contributors": 170,
   "license": "MPL-2.0",
   "created": "2015-05-28",
-  "primary_lang": "JavaScript"
+  "primary_lang": "JavaScript",
+  "license_detail": {
+   "spdx": "MPL-2.0",
+   "detected": "MPL-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

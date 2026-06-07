@@ -31,7 +31,14 @@
   "contributors": 51,
   "license": "NOASSERTION",
   "created": "2020-06-12",
-  "primary_lang": "JavaScript"
+  "primary_lang": "JavaScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

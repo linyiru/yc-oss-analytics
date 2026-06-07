@@ -27,7 +27,14 @@
   "contributors": 276,
   "license": "MIT",
   "created": "2018-10-11",
-  "primary_lang": "Rust"
+  "primary_lang": "Rust",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

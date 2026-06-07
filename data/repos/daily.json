@@ -28,7 +28,14 @@
   "contributors": 307,
   "license": "BSD-2-Clause",
   "created": "2023-12-27",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "BSD-2-Clause",
+   "detected": "BSD-2-Clause",
+   "model": "Other",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

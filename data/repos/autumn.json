@@ -32,7 +32,14 @@
   "contributors": 54,
   "license": "Apache-2.0",
   "created": "2025-01-21",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

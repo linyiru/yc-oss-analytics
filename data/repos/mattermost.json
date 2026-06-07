@@ -27,7 +27,14 @@
   "contributors": 1220,
   "license": "NOASSERTION",
   "created": "2015-06-15",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "AGPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

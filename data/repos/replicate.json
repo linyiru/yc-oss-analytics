@@ -32,7 +32,14 @@
   "contributors": 99,
   "license": "Apache-2.0",
   "created": "2021-02-26",
-  "primary_lang": "Go"
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

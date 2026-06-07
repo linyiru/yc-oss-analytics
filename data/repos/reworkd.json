@@ -27,7 +27,14 @@
   "contributors": 79,
   "license": "GPL-3.0",
   "created": "2023-04-07",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "GPL-3.0",
+   "detected": "GPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

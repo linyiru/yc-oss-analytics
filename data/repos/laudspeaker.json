@@ -31,7 +31,14 @@
   "contributors": 18,
   "license": "NOASSERTION",
   "created": "2022-10-06",
-  "primary_lang": "TypeScript"
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "AGPL-3.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
  },
  "tier": "cheap",
  "timeline": {

@@ -31,7 +31,14 @@
   "contributors": 5,
   "license": "NOASSERTION",
   "created": "2012-02-17",
-  "primary_lang": "JavaScript"
+  "primary_lang": "JavaScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

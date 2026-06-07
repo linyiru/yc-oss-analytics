@@ -26,7 +26,14 @@
   "contributors": 1,
   "license": "NOASSERTION",
   "created": "2025-08-25",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

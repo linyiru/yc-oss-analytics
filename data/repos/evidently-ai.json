@@ -32,7 +32,14 @@
   "contributors": 102,
   "license": "Apache-2.0",
   "created": "2020-11-25",
-  "primary_lang": "Jupyter Notebook"
+  "primary_lang": "Jupyter Notebook",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

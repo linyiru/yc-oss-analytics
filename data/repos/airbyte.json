@@ -32,7 +32,14 @@
   "contributors": 1263,
   "license": "NOASSERTION",
   "created": "2020-07-27",
-  "primary_lang": "Python"
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Elastic-2.0",
+   "model": "Source-available",
+   "source_available": true,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {

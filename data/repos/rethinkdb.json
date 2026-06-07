@@ -30,7 +30,14 @@
   "contributors": 244,
   "license": "NOASSERTION",
   "created": "2012-10-30",
-  "primary_lang": "C++"
+  "primary_lang": "C++",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
  },
  "tier": "cheap",
  "timeline": {
