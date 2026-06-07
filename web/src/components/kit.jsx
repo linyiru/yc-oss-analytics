@@ -244,7 +244,8 @@ export function Scatter({ data, height = 440, onPick, quadrants }) {
 }
 
 /* ---------- StarCurve ---------- */
-export function StarCurve({ series, viralIndex, viralGain, spikes = [], height = 216, locale }) {
+const SRC_COLOR = { HN: '#ff6600', PH: '#da552f', YC: 'var(--accent)' };
+export function StarCurve({ series, viralIndex, viralGain, spikes = [], launches = [], height = 216, locale }) {
   const [ref, w] = useMeasure();
   const m = { t: 14, r: 16, b: 24, l: 46 };
   const W = Math.max(280, w), H = height, iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -266,14 +267,24 @@ export function StarCurve({ series, viralIndex, viralGain, spikes = [], height =
         {viralGain ? <><line x1={vx} x2={vx} y1={m.t} y2={m.t + ih} style={{ stroke: 'var(--accent-line)', strokeDasharray: '3 3' }} />
           <circle cx={vx} cy={vy} r={4} style={{ fill: 'var(--accent)', stroke: 'var(--surface)', strokeWidth: 2 }} />
           <g transform={`translate(${Math.min(vx + 8, m.l + iw - 96)} ${m.t + 4})`}><text className="mono" style={{ fill: 'var(--accent-text)', fontSize: 10.5, fontWeight: 600 }}>↑ viral moment</text><text y={13} className="mono" style={{ fill: 'var(--text-3)', fontSize: 9.5 }}>+{fmtCompact(viralGain, locale)}</text></g></> : null}
-        {/* event-day spikes — candidate Product Hunt / Show HN / launch days */}
-        {spikes.filter((s) => s.i !== vi).map((s, k) => {
+        {/* inferred event-day spikes — star jumps with no known launch post (organic / other) */}
+        {spikes.filter((s) => s.i !== vi && !launches.some((L) => Math.abs(L.i - s.i) <= 4)).map((s, k) => {
           const x = sx(s.i), y = sy(s.v);
           return (
-            <g key={'sp' + k}>
-              <circle cx={x} cy={y} r={3.2} style={{ fill: 'var(--rising)', stroke: 'var(--surface)', strokeWidth: 1.5, cursor: 'pointer' }}
-                onMouseEnter={(e) => Tip.show(`<div class="t-title">${fmtMonth(s.t, locale)} · event day</div><div class="t-row"><span>${s.t}</span><b>+${fmtInt(s.gain, locale)}</b></div>`, e.clientX, e.clientY)}
-                onMouseMove={(e) => Tip.show(Tip.html(), e.clientX, e.clientY)} onMouseLeave={() => Tip.hide()} />
+            <circle key={'sp' + k} cx={x} cy={y} r={3} style={{ fill: 'var(--rising)', stroke: 'var(--surface)', strokeWidth: 1.5, cursor: 'pointer' }}
+              onMouseEnter={(e) => Tip.show(`<div class="t-title">${s.t} · spike (no known launch)</div><div class="t-row"><span>stars that day</span><b>+${fmtInt(s.gain, locale)}</b></div>`, e.clientX, e.clientY)}
+              onMouseMove={(e) => Tip.show(Tip.html(), e.clientX, e.clientY)} onMouseLeave={() => Tip.hide()} />
+          );
+        })}
+        {/* actual launch posts — HN / Product Hunt / YC Launch, pinned to the curve */}
+        {launches.map((L, k) => {
+          const x = sx(L.i), y = sy(L.v), col = SRC_COLOR[L.source] || 'var(--accent)';
+          const show = (e) => Tip.show(`<div class="t-title">${L.source} · ${L.date}</div><div class="t-row"><span>${L.title}</span></div><div class="t-row"><span>${L.meta || ''}</span></div>`, e.clientX, e.clientY);
+          return (
+            <g key={'L' + k}>
+              <line x1={x} x2={x} y1={y} y2={m.t + ih} style={{ stroke: col, strokeOpacity: 0.3, strokeWidth: 1 }} />
+              <circle cx={x} cy={y} r={4.2} style={{ fill: col, stroke: 'var(--surface)', strokeWidth: 1.6, cursor: 'pointer' }}
+                onMouseEnter={show} onMouseMove={show} onMouseLeave={() => Tip.hide()} />
             </g>
           );
         })}

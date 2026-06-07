@@ -93,6 +93,15 @@ export function toRepoView(slug: string) {
     launchEvents.push({ source: 'HN', date: e.date, title: e.title, meta: `${e.points} pts · ${e.comments}c`, url: e.hn || e.url, author: e.author });
   launchEvents.sort((a, b) => (a.date < b.date ? -1 : 1));
 
+  // Pin each launch post onto the star curve (nearest day on/after its date) so it can be marked inline.
+  const launchMarks = launchEvents
+    .map((e) => {
+      let kk = rawCurve.findIndex((p) => p.t >= e.date);
+      if (kk < 0) kk = rawCurve.length - 1;
+      return kk >= 0 ? { i: kk, v: rawCurve[kk]?.n ?? 0, source: e.source, date: e.date, title: e.title, meta: e.meta } : null;
+    })
+    .filter(Boolean);
+
   // --- time to traction: how long the long game ran before it broke out ---
   // Days from first commit to each star milestone and to the first public launch.
   // Only trustworthy when the curve starts near zero (full early history).
@@ -135,7 +144,7 @@ export function toRepoView(slug: string) {
       apply, peers, concentration, traction,
     },
     d: {
-      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes,
+      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes, launches: launchMarks,
         partial: !!(r as any).curve_partial, baseline: (r as any).curve_baseline ?? 0, firstDate: rawCurve[0]?.t ?? null },
       monthlyCommits: (r.monthly ?? []).map((x) => ({ month: x.m, v: x.c })),
       punchcard: { grid, max: pcMax },

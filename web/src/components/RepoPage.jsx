@@ -133,31 +133,38 @@ export default function RepoPage({ view, initialLocale }) {
           );
         })()}
 
-        <div className="viz-2col" style={{ marginBottom: 16 }}>
-          <Section title="Star growth" sub="Cumulative GitHub stars · viral window + event days marked">
-            <StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} spikes={d.starCurve.spikes} locale={intl} height={216} />
-            {d.starCurve.spikes?.length > 0 && (
-              <div className="row gap-4" style={{ flexWrap: 'wrap', marginTop: 12, alignItems: 'center' }}>
-                <span className="eyebrow">Top event days</span>
-                {d.starCurve.spikes.slice(0, 5).map((s) => (
-                  <span key={s.t} className="row gap-2" style={{ fontSize: 'var(--fs-xs)', color: 'var(--text-2)' }}>
-                    <i style={{ width: 7, height: 7, borderRadius: 7, background: 'var(--rising)' }}></i>
-                    <span className="mono">{s.t}</span><b className="mono tabular" style={{ color: 'var(--text)' }}>+{fc(s.gain)}</b>
+        {(() => {
+          const L = d.starCurve.launches ?? [];
+          const srcMeta = { HN: ['#ff6600', 'Hacker News'], PH: ['#da552f', 'Product Hunt'], YC: ['var(--accent)', 'YC Launch'] };
+          const present = ['HN', 'PH', 'YC'].filter((s) => L.some((x) => x.source === s));
+          const orphanSpikes = (d.starCurve.spikes ?? []).filter((s) => !L.some((x) => Math.abs(x.i - s.i) <= 4) && s.i !== d.starCurve.viralIndex);
+          return (
+            <Section title="Star growth, annotated" sub="Cumulative stars with the actual launch posts pinned to the curve — so you can see which spike came from what" style={{ marginBottom: 16 }}>
+              <StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} spikes={d.starCurve.spikes} launches={L} locale={intl} height={300} />
+              <div className="row gap-4" style={{ flexWrap: 'wrap', marginTop: 12, alignItems: 'center', rowGap: 6 }}>
+                <span className="eyebrow">Key</span>
+                {present.map((s) => (
+                  <span key={s} className="row gap-2" style={{ fontSize: 'var(--fs-xs)', color: 'var(--text-2)' }}>
+                    <i style={{ width: 9, height: 9, borderRadius: 9, background: srcMeta[s][0], border: '1.5px solid var(--surface)', boxShadow: '0 0 0 1px ' + (srcMeta[s][0] === 'var(--accent)' ? 'var(--accent)' : srcMeta[s][0]) }}></i>{srcMeta[s][1]}
                   </span>
                 ))}
+                {orphanSpikes.length > 0 && <span className="row gap-2" style={{ fontSize: 'var(--fs-xs)', color: 'var(--text-2)' }}><i style={{ width: 8, height: 8, borderRadius: 8, background: 'var(--rising)' }}></i>Spike, no known launch</span>}
+                <span className="row gap-2" style={{ fontSize: 'var(--fs-xs)', color: 'var(--text-2)' }}><span style={{ width: 12, height: 0, borderTop: '2px dashed var(--accent-line)' }}></span>Viral window</span>
               </div>
-            )}
-            {d.starCurve.partial && (
-              <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 12, borderTop: '1px solid var(--border)', paddingTop: 10 }}>
-                <span style={{ color: 'var(--warn)' }}>⚠ Partial early history.</span> Our daily data starts {fmtMonth(d.starCurve.firstDate, intl)}; an earlier <b className="mono">{fc(d.starCurve.baseline)}</b> stars (under a previous repo name, or before it was public) are shown as a baseline. The full early shape is recovered by the rename-proof by-repo-id query.
-              </p>
-            )}
-          </Section>
-          <Section title="Monthly commit volume" sub="Commits authored per calendar month"><ColumnBars data={d.monthlyCommits} locale={intl} height={216} /></Section>
-        </div>
+              {L.length === 0 && <p className="faint" style={{ fontSize: 'var(--fs-xs)', marginTop: 8 }}>No HN / Product Hunt / YC launch posts on record for this repo — the marked dots are inferred spike days.</p>}
+              {d.starCurve.partial && (
+                <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 12, borderTop: '1px solid var(--border)', paddingTop: 10 }}>
+                  <span style={{ color: 'var(--warn)' }}>⚠ Partial early history.</span> Our daily data starts {fmtMonth(d.starCurve.firstDate, intl)}; an earlier <b className="mono">{fc(d.starCurve.baseline)}</b> stars (under a previous repo name, or before it was public) are shown as a baseline. The full early shape is recovered by the rename-proof by-repo-id query.
+                </p>
+              )}
+            </Section>
+          );
+        })()}
+
+        <Section title="Monthly commit volume" sub="Commits authored per calendar month — the build cadence under the star curve" style={{ marginBottom: 16 }}><ColumnBars data={d.monthlyCommits} locale={intl} height={200} /></Section>
 
         {d.launchEvents?.length > 0 && (
-          <Section title="Launch moments" sub="The HN / Product Hunt / YC Launch posts behind the spikes — what actually drove the stars" style={{ marginBottom: 16 }}>
+          <Section title="Launch moments" sub="Every dot on the curve above, in detail — the HN / Product Hunt / YC Launch posts, in order" style={{ marginBottom: 16 }}>
             <div className="col" style={{ gap: 0 }}>
               {d.launchEvents.map((e, i) => {
                 const col = e.source === 'HN' ? '#ff6600' : e.source === 'PH' ? '#da552f' : 'var(--accent)';
