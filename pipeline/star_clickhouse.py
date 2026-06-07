@@ -53,10 +53,21 @@ def build(series, total):
         cum += c
         pts.append({"t": day, "n": cum})
         per_day[day] = c
-    baseline = max(0, total - cum) if total else 0
-    if baseline:
-        for p in pts:
-            p["n"] += baseline
+    # Reconcile the event-cumulative with GitHub's current star count.
+    # Small gap (<15%) = GH Archive under-logging -> SCALE proportionally so the curve runs
+    # from ~0 to the true total. Large gap (renames / pre-archive era) = a missing time span ->
+    # keep it as a starting BASELINE and flag partial (only T3/by-id recovers the real shape).
+    baseline = 0
+    gap = (total - cum) if total else 0
+    if total and cum and gap > 0:
+        if gap <= 0.15 * total:
+            scale = total / cum
+            for p in pts:
+                p["n"] = round(p["n"] * scale)
+        else:
+            baseline = gap
+            for p in pts:
+                p["n"] += baseline
     spikes = [{"t": d, "gain": g} for d, g in Counter(per_day).most_common(6)]
     viral = None
     for i in range(len(pts)):

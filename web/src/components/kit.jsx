@@ -244,7 +244,7 @@ export function Scatter({ data, height = 440, onPick, quadrants }) {
 }
 
 /* ---------- StarCurve ---------- */
-export function StarCurve({ series, viralIndex, viralGain, height = 216, locale }) {
+export function StarCurve({ series, viralIndex, viralGain, spikes = [], height = 216, locale }) {
   const [ref, w] = useMeasure();
   const m = { t: 14, r: 16, b: 24, l: 46 };
   const W = Math.max(280, w), H = height, iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -266,6 +266,17 @@ export function StarCurve({ series, viralIndex, viralGain, height = 216, locale 
         {viralGain ? <><line x1={vx} x2={vx} y1={m.t} y2={m.t + ih} style={{ stroke: 'var(--accent-line)', strokeDasharray: '3 3' }} />
           <circle cx={vx} cy={vy} r={4} style={{ fill: 'var(--accent)', stroke: 'var(--surface)', strokeWidth: 2 }} />
           <g transform={`translate(${Math.min(vx + 8, m.l + iw - 96)} ${m.t + 4})`}><text className="mono" style={{ fill: 'var(--accent-text)', fontSize: 10.5, fontWeight: 600 }}>↑ viral moment</text><text y={13} className="mono" style={{ fill: 'var(--text-3)', fontSize: 9.5 }}>+{fmtCompact(viralGain, locale)}</text></g></> : null}
+        {/* event-day spikes — candidate Product Hunt / Show HN / launch days */}
+        {spikes.filter((s) => s.i !== vi).map((s, k) => {
+          const x = sx(s.i), y = sy(s.v);
+          return (
+            <g key={'sp' + k}>
+              <circle cx={x} cy={y} r={3.2} style={{ fill: 'var(--rising)', stroke: 'var(--surface)', strokeWidth: 1.5, cursor: 'pointer' }}
+                onMouseEnter={(e) => Tip.show(`<div class="t-title">${fmtMonth(s.t, locale)} · event day</div><div class="t-row"><span>${s.t}</span><b>+${fmtInt(s.gain, locale)}</b></div>`, e.clientX, e.clientY)}
+                onMouseMove={(e) => Tip.show(Tip.html(), e.clientX, e.clientY)} onMouseLeave={() => Tip.hide()} />
+            </g>
+          );
+        })}
         {[pts[0], pts[pts.length - 1]].map((p, k) => <text key={k} x={sx(p.i)} y={m.t + ih + 16} textAnchor={k ? 'end' : 'start'} className="mono" style={{ fill: 'var(--text-faint)', fontSize: 10 }}>{fmtMonth(p.month, locale)}</text>)}
       </svg>
     </div>

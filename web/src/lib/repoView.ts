@@ -35,9 +35,16 @@ export function toRepoView(slug: string) {
   const aiPct = commits ? Math.round((100 * (r.intensity?.ai_coauthor_total ?? 0)) / commits) : 0;
 
   // star curve -> indexed points; viral index = first point on/after viral.from
-  const curve = (r.stars_curve ?? []).map((p, i) => ({ i, v: p.n, month: p.t.slice(0, 7) }));
+  const rawCurve = r.stars_curve ?? [];
+  const curve = rawCurve.map((p, i) => ({ i, v: p.n, month: p.t.slice(0, 7), t: p.t }));
   let viralIndex = 0;
-  if (r.viral) { const k = (r.stars_curve ?? []).findIndex((p) => p.t >= r.viral!.from); viralIndex = k >= 0 ? k : 0; }
+  if (r.viral) { const k = rawCurve.findIndex((p) => p.t >= r.viral!.from); viralIndex = k >= 0 ? k : 0; }
+  // event-day spikes -> their position on the curve (for markers)
+  const spikes = ((r as any).star_spikes ?? [])
+    .map((s: any) => { const k = rawCurve.findIndex((p) => p.t === s.t); return k >= 0 ? { i: k, v: rawCurve[k].n, t: s.t, gain: s.gain } : null; })
+    .filter(Boolean)
+    .sort((a: any, b: any) => b.gain - a.gain)
+    .slice(0, 5);
 
   // punch card: our weekday order is Mon..Sun (0=Mon); design wants Sun..Sat
   const pc = r.intensity?.punchcard ?? [];
@@ -97,7 +104,7 @@ export function toRepoView(slug: string) {
       apply, peers, concentration,
     },
     d: {
-      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30 },
+      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes },
       monthlyCommits: (r.monthly ?? []).map((x) => ({ month: x.m, v: x.c })),
       punchcard: { grid, max: pcMax },
       codeGrowth: r.churn ? r.churn.by_month.map((x) => ({ month: x.m, added: x.add, deleted: x.del, net: x.add - x.del })) : [],

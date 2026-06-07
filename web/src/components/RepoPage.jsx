@@ -103,7 +103,20 @@ export default function RepoPage({ view, initialLocale }) {
         </div>
 
         <div className="viz-2col" style={{ marginBottom: 16 }}>
-          <Section title="Star growth" sub="Cumulative GitHub stars · viral moment marked"><StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} locale={intl} height={216} /></Section>
+          <Section title="Star growth" sub="Cumulative GitHub stars · viral window + event days marked">
+            <StarCurve series={d.starCurve.pts} viralIndex={d.starCurve.viralIndex} viralGain={d.starCurve.viralGain} spikes={d.starCurve.spikes} locale={intl} height={216} />
+            {d.starCurve.spikes?.length > 0 && (
+              <div className="row gap-4" style={{ flexWrap: 'wrap', marginTop: 12, alignItems: 'center' }}>
+                <span className="eyebrow">Top event days</span>
+                {d.starCurve.spikes.slice(0, 5).map((s) => (
+                  <span key={s.t} className="row gap-2" style={{ fontSize: 'var(--fs-xs)', color: 'var(--text-2)' }}>
+                    <i style={{ width: 7, height: 7, borderRadius: 7, background: 'var(--rising)' }}></i>
+                    <span className="mono">{s.t}</span><b className="mono tabular" style={{ color: 'var(--text)' }}>+{fc(s.gain)}</b>
+                  </span>
+                ))}
+              </div>
+            )}
+          </Section>
           <Section title="Monthly commit volume" sub="Commits authored per calendar month"><ColumnBars data={d.monthlyCommits} locale={intl} height={216} /></Section>
         </div>
 
