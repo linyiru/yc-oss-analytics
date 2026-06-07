@@ -17,3 +17,4 @@ data/discovered.json
 # OS / editor
 .DS_Store
 *.log
+data/bigquery_stars.csv
