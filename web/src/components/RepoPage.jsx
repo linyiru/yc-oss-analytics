@@ -116,6 +116,11 @@ export default function RepoPage({ view, initialLocale }) {
                 ))}
               </div>
             )}
+            {d.starCurve.partial && (
+              <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 12, borderTop: '1px solid var(--border)', paddingTop: 10 }}>
+                <span style={{ color: 'var(--warn)' }}>⚠ Partial early history.</span> Our daily data starts {fmtMonth(d.starCurve.firstDate, intl)}; an earlier <b className="mono">{fc(d.starCurve.baseline)}</b> stars (under a previous repo name, or before it was public) are shown as a baseline. The full early shape is recovered by the rename-proof by-repo-id query.
+              </p>
+            )}
           </Section>
           <Section title="Monthly commit volume" sub="Commits authored per calendar month"><ColumnBars data={d.monthlyCommits} locale={intl} height={216} /></Section>
         </div>

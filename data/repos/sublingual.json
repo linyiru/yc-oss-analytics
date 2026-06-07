@@ -309,6 +309,6 @@
  ],
  "stars_daily": true,
  "curve_source": "gharchive",
- "curve_baseline": 51,
- "curve_partial": true
+ "curve_baseline": 0,
+ "curve_partial": false
 }

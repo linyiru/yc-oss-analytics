@@ -40,11 +40,13 @@ def daily_for(repo_names):
             res[parts[0]].append((parts[1], int(parts[2])))
     return res
 
-def build(series, total):
+def build(series, total, created=None):
     """series=[(day,count)] sorted -> (pts, viral, spikes, baseline).
-    Anchors the cumulative so the curve ends at `total` (GitHub's current star count):
-    any stars before our event coverage (old repo names / pre-archive) become a starting
-    baseline. Daily shape, spikes and viral window are unaffected by the offset."""
+    Anchors the event-cumulative to GitHub's current star count, distinguishing two cases:
+      - first event ~ repo creation  -> GH Archive UNDER-logging -> scale to total (curve from ~0)
+      - first event >> creation       -> a missing span (rename / pre-archive) -> keep as a
+                                         starting BASELINE and flag partial (only T3 by repo-id
+                                         recovers the true early shape under the old name)."""
     if not series:
         return [], None, [], 0
     pts, cum = [], 0
@@ -60,11 +62,19 @@ def build(series, total):
     baseline = 0
     gap = (total - cum) if total else 0
     if total and cum and gap > 0:
-        if gap <= 0.15 * total:
+        # how late does our event coverage start vs. when the repo was created?
+        late_days = 99999
+        if created:
+            try:
+                late_days = (datetime.fromisoformat(series[0][0]) - datetime.fromisoformat(created[:10])).days
+            except Exception:
+                pass
+        # small gap, or coverage starts near creation -> under-logging -> scale from ~0
+        if gap <= 0.15 * total or late_days <= 120:
             scale = total / cum
             for p in pts:
                 p["n"] = round(p["n"] * scale)
-        else:
+        else:  # coverage starts long after creation -> rename / pre-archive span -> baseline
             baseline = gap
             for p in pts:
                 p["n"] += baseline
@@ -97,8 +107,9 @@ def main():
         for gh in chunk:
             f, d = files[gh]
             total = d.get("metrics", {}).get("stars") or 0
+            created = d.get("metrics", {}).get("created")
             series = sorted(data.get(gh, []))
-            pts, viral, spikes, baseline = build(series, total)
+            pts, viral, spikes, baseline = build(series, total, created)
             d["stars_curve"] = pts
             d["viral"] = viral
             d["star_spikes"] = spikes

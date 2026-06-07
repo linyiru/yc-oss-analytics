@@ -104,7 +104,8 @@ export function toRepoView(slug: string) {
       apply, peers, concentration,
     },
     d: {
-      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes },
+      starCurve: { pts: curve, viralIndex, viralGain: r.viral?.gain ?? 0, viralDays: r.viral?.days ?? 30, spikes,
+        partial: !!(r as any).curve_partial, baseline: (r as any).curve_baseline ?? 0, firstDate: rawCurve[0]?.t ?? null },
       monthlyCommits: (r.monthly ?? []).map((x) => ({ month: x.m, v: x.c })),
       punchcard: { grid, max: pcMax },
       codeGrowth: r.churn ? r.churn.by_month.map((x) => ({ month: x.m, added: x.add, deleted: x.del, net: x.add - x.del })) : [],
