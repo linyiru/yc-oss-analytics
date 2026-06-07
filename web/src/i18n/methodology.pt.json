@@ -24,10 +24,11 @@
     ["AI-assisted %", "Fração de commits que carregam um trailer Co-Authored-By: Claude. Um limite inferior — só pega ferramentas que escrevem o trailer, e apenas quando os autores o mantêm."],
     ["Detecção de ferramentas de IA", "A partir de arquivos de config na árvore (CLAUDE.md, .cursor/, AGENTS.md, …). AGENTS.md é uma convenção neutra em relação a fornecedores (não é específica do Codex); o MCP é excluído por ser um protocolo, não uma ferramenta."],
     ["Churn", "Linhas adicionadas/removidas por mês via git numstat — calculado apenas para repos clonados por completo; arquivos de lock e gerados ainda não são excluídos."],
-    ["Identidade do contribuidor", "Baseada em email. Uma pessoa com vários emails conta como vários contribuidores; emails compartilhados/de bot fundem pessoas. As contagens são aproximadas."]
+    ["Identidade do contribuidor", "Baseada em email. Uma pessoa com vários emails conta como vários contribuidores; emails compartilhados/de bot fundem pessoas. As contagens são aproximadas."],
+    ["Company status / outcome", "O ycdc_status da própria YC para cada empresa (Ativa / Adquirida / Aberta / Inativa), lido da sua página pública e salvo num snapshot com timestamp. Permite mostrar a parte da sobrevivência que dá para ver — a página de Tendências traça a distribuição."]
   ],
   "limits": [
-    "Viés de sobrevivência: só aparecem empresas atualmente listadas e sobreviventes — as delistadas/mortas ficam invisíveis, inflando toda impressão de \"está viva\". Todo padrão do Playbook é cego aos times que fizeram as mesmas coisas e ainda assim fracassaram.",
+    "Viés de sobrevivência (agora parcialmente medido): lemos o status YC de cada empresa, então a página de Tendências mostra quantas empresas rastreadas foram adquiridas, abriram capital ou ficaram inativas. Mas empresas de fato mortas e removidas somem por completo do diretório da YC e seguem invisíveis — então toda impressão de \"viva\" ainda é inflada, e todo padrão do Playbook é cego aos times que fizeram as mesmas coisas e fracassaram.",
     "Stars medem atenção, não um negócio. Stars ≠ adoção ≠ receita ≠ retenção; um repo público também pode ser apenas marketing de um produto closed-source.",
     "Comparações de \"com vs sem\" são entre grupos que diferem em tudo, não só naquele único sinal. Onde o tamanho do repo poderia confundir, reportamos a associação controlada por idade e linguagem — mas a seleção sobre qualidade não observada nunca é totalmente descartada.",
     "n pequeno por batch (e n pequeno para alguns sinais, p.ex. apenas ~40 launches no Product Hunt) — leia os múltiplos com folga e não ranqueie turmas por médias.",
