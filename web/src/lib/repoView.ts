@@ -83,6 +83,16 @@ export function toRepoView(slug: string) {
   const contribs = r.contributors ?? [];
   const concentration = { top1: contribs[0]?.pct ?? 0, top3: Math.round(contribs.slice(0, 3).reduce((a, c) => a + c.pct, 0)) };
 
+  // unified launch moments (YC Launch + Product Hunt + Hacker News) — the "what they did" archaeology
+  const launchEvents: any[] = [];
+  const yl = (r as any).yc_launch;
+  if (yl) launchEvents.push({ source: 'YC', date: yl.date, title: yl.title, meta: `${yl.votes} votes`, url: yl.url });
+  const pe = (r as any).ph_event;
+  if (pe) launchEvents.push({ source: 'PH', date: pe.date, title: pe.name, meta: `${pe.votes} votes · ${pe.comments}c`, url: pe.url });
+  for (const e of ((r as any).hn_events ?? []))
+    launchEvents.push({ source: 'HN', date: e.date, title: e.title, meta: `${e.points} pts · ${e.comments}c`, url: e.hn || e.url, author: e.author });
+  launchEvents.sort((a, b) => (a.date < b.date ? -1 : 1));
+
   const dt = devToolsFor(slug);
   const aiTools = [
     ...((dt?.ai_tools ?? []).map((n) => ({ id: n.toLowerCase().replace(/[^a-z0-9]+/g, '-'), name: n, kind: 'config' }))),
@@ -113,7 +123,7 @@ export function toRepoView(slug: string) {
       contributors: (r.contributors ?? []).map((p) => ({ handle: p.name, commits: p.count })),
       langs: topLangs,
       workflow: { conventionalCommits: r.workflow?.conventional_pct ?? 0, prMergeRate: r.workflow?.merge_pct ?? 0, aiCoauthored: aiPct },
-      aiTools,
+      aiTools, launchEvents,
     },
   };
 }

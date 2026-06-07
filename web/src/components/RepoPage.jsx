@@ -128,6 +128,26 @@ export default function RepoPage({ view, initialLocale }) {
           <Section title="Monthly commit volume" sub="Commits authored per calendar month"><ColumnBars data={d.monthlyCommits} locale={intl} height={216} /></Section>
         </div>
 
+        {d.launchEvents?.length > 0 && (
+          <Section title="Launch moments" sub="The HN / Product Hunt / YC Launch posts behind the spikes — what actually drove the stars" style={{ marginBottom: 16 }}>
+            <div className="col" style={{ gap: 0 }}>
+              {d.launchEvents.map((e, i) => {
+                const col = e.source === 'HN' ? '#ff6600' : e.source === 'PH' ? '#da552f' : 'var(--accent)';
+                return (
+                  <a key={i} href={e.url} target="_blank" rel="noreferrer" className="row spread" style={{ padding: '9px 0', borderBottom: i < d.launchEvents.length - 1 ? '1px solid var(--border)' : 'none', textDecoration: 'none', alignItems: 'center', gap: 12 }}>
+                    <span className="row gap-3" style={{ minWidth: 0, alignItems: 'center' }}>
+                      <span className="badge mono" style={{ background: col + '22', color: col, borderColor: col + '55', flex: '0 0 auto' }}>{e.source}</span>
+                      <span className="mono faint" style={{ fontSize: 'var(--fs-xs)', flex: '0 0 auto', width: 74 }}>{e.date}</span>
+                      <span className="truncate" style={{ color: 'var(--text)', fontSize: 'var(--fs-sm)' }}>{e.title}</span>
+                    </span>
+                    <span className="mono faint" style={{ fontSize: 'var(--fs-xs)', flex: '0 0 auto' }}>{e.meta}</span>
+                  </a>
+                );
+              })}
+            </div>
+          </Section>
+        )}
+
         <Section title="Commit rhythm" sub={`Weekday × hour · author-local time · ${c.weekendPct}% on weekends (suggestive, not forensic)`} style={{ marginBottom: 16 }}
           right={<span className="row gap-2 faint" style={{ fontSize: 'var(--fs-xs)' }}>less <span className="meter" style={{ width: 60, background: 'linear-gradient(90deg, var(--heat-0), var(--accent))', height: 8 }}></span> more</span>}>
           <PunchCard grid={d.punchcard.grid} max={d.punchcard.max} locale={intl} />
