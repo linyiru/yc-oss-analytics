@@ -298,9 +298,44 @@
  "churn": null,
  "stars_curve": [
   {
-   "t": "2025-11-13",
-   "n": 1
+   "t": "2025-11-23",
+   "n": 8
+  },
+  {
+   "t": "2025-12-11",
+   "n": 9
+  },
+  {
+   "t": "2026-02-03",
+   "n": 10
   }
  ],
- "viral": null
+ "viral": {
+  "from": "2025-11-23",
+  "to": "2025-12-11",
+  "gain": 1,
+  "days": 18
+ },
+ "repo_id": 1090300896,
+ "repo_names": [
+  "nCompass-tech/ncompass"
+ ],
+ "star_spikes": [
+  {
+   "t": "2025-11-23",
+   "gain": 1
+  },
+  {
+   "t": "2025-12-11",
+   "gain": 1
+  },
+  {
+   "t": "2026-02-03",
+   "gain": 1
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "gharchive",
+ "curve_baseline": 7,
+ "curve_partial": true
 }

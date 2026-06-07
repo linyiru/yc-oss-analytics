@@ -273,5 +273,14 @@
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "repo_id": 304588125,
+ "repo_names": [
+  "markAPIado/tipe"
+ ],
+ "star_spikes": [],
+ "stars_daily": true,
+ "curve_source": "gharchive",
+ "curve_baseline": 0,
+ "curve_partial": 0
 }

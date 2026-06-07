@@ -294,7 +294,37 @@
   {
    "t": "2021-02-27",
    "n": 1
+  },
+  {
+   "t": "2022-02-20",
+   "n": 2
+  },
+  {
+   "t": "2022-08-02",
+   "n": 3
   }
  ],
- "viral": null
+ "viral": null,
+ "repo_id": 294714234,
+ "repo_names": [
+  "datamechanics/datamechanics_airflow_plugin"
+ ],
+ "star_spikes": [
+  {
+   "t": "2021-02-27",
+   "gain": 1
+  },
+  {
+   "t": "2022-02-20",
+   "gain": 1
+  },
+  {
+   "t": "2022-08-02",
+   "gain": 1
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "gharchive",
+ "curve_baseline": 0,
+ "curve_partial": false
 }

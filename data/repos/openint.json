@@ -443,9 +443,23 @@
  "churn": null,
  "stars_curve": [
   {
-   "t": "2024-05-22",
-   "n": 1
+   "t": "2026-04-11",
+   "n": 10
   }
  ],
- "viral": null
+ "viral": null,
+ "repo_id": 783445370,
+ "repo_names": [
+  "openint-bak/openint"
+ ],
+ "star_spikes": [
+  {
+   "t": "2026-04-11",
+   "gain": 1
+  }
+ ],
+ "stars_daily": true,
+ "curve_source": "gharchive",
+ "curve_baseline": 9,
+ "curve_partial": true
 }

@@ -270,5 +270,14 @@
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "repo_id": 1044426027,
+ "repo_names": [
+  "kv-cash/spaim"
+ ],
+ "star_spikes": [],
+ "stars_daily": true,
+ "curve_source": "gharchive",
+ "curve_baseline": 0,
+ "curve_partial": 0
 }
