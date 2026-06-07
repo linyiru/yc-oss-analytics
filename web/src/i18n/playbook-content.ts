@@ -209,12 +209,13 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
       compare: { aLabel: '最大的 40 個 repo', bLabel: '最小的 40 個' },
     },
     network: {
-      title: 'YC 生態系替你播下最初的星',
+      title: 'YC 生態系是你的最初用戶——也是你的技術棧',
       statLabel: '一個 repo「前 100 顆星」來自 YC 開源網路的中位比例',
       kicker: '前 100 顆星 {early100}% · 前 1,000 顆 {early1000}%',
       body: [
         '最初的那些星到底從哪來?壓倒性地,來自自己人。一個 repo 的前 100 位 star 者,中位有 {early100}% 同時也 star 了至少兩個「其他」的 YC 開源 repo——前 1,000 位則是 {early1000}%。攤到全部時間,它停在 {netLifetime}%,所以這個網路不只是個種子,而是長期維持的一塊觀眾。',
         '這是整份資料裡,對「新創界最常被引用的那句建議」最字面的印證:親手去你伸手可及的圈子裡,一個一個找到你的最初用戶。對一家 YC 公司來說,那個圈子是一張由創辦人、員工與校友織成、密集而重疊的圖,他們會穩定地為彼此的發表現身。誠實的解讀是雙面的——比例高,代表生態系給了你一個起跑的助力;比例低,代表你更早就觸及了真正的陌生人。兩者本身都不是目標;從前者走向後者的那條軌跡才是。',
+        '而且這個生態系不只是你最初的觀眾——它越來越是你的技術棧。這些 repo 裡有 {dogfoodPct}% 在自己的程式碼裡依賴另一家 YC 公司的產品:{dogfoodTop},還有更多。同一張替你帶來早期星標的圖,也遞給了你工具——而你的工具,又成了下一家公司的相依套件。刻意地接上去——建構在同儕之上,也成為同儕會建構於其上的東西——才是這個 flywheel 真正複利的方式。',
       ],
       echoes: [
         { principle: '親手、一個一個地找到你的最初用戶,並用非常手段讓他們開心——它不可規模化,而這正是重點。', ...SRC.ds },
@@ -224,14 +225,15 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
     license: {
       title: '你選的 License 就是一套變現策略',
       statLabel: '採用寬鬆授權(MIT / Apache / BSD)的比例',
-      kicker: '{copyleftPct}% 用 copyleft 來護住託管服務',
+      kicker: '{openCorePct}% open-core(核心 + 專有 EE)· {copyleftPct}% copyleft',
       body: [
         'License 看起來像法律註腳,實際上是一個 go-to-market 決策。這些公司有 {permissivePct}% 採用寬鬆授權——MIT、Apache、BSD——把「最低摩擦的採用」優化到極致:任何人都能嵌入、fork、塞進閉源產品裡,不必問你。其中 {mitPct}% specifically 選了 MIT。當開源專案是漏斗的頂端、而你賣的是另一層(託管雲、支援、企業功能)時,你會這樣選。',
         '另外 {copyleftPct}% 走反方向,選 copyleft——GPL,或越來越多的 AGPL。AGPL 強制任何「把改過的版本當網路服務在跑」的人公開他們的改動,這讓某個 hyperscaler 很難把你的專案 fork 成一個閉源的競品 SaaS。當託管版本就是你的生意時,那就是護城河:你可以真正開源,同時握住商業上的制高點。License 跟著模式走——寬鬆是為了極大化觸及,保護型是為了守住一門服務。',
+        '但最常見的商業化路徑既不是純開放、也不是純保護——而是 open-core。{openCorePct}%({openCoreN} 家)把專案以 MIT、Apache 或 AGPL 開源,同時把一塊專有的「Enterprise Edition」切進 ee/ 目錄:社群拿到核心,公司賣的是疊在上面的 SSO、RBAC 與稽核日誌那一層。另外 {sourceAvailN} 家走 source-available——Elastic、BUSL、FSL——原始碼看得見,但 hyperscaler 在法律上不能直接拿去轉售。GitHub 把這些全壓成「沒有授權」,悄悄藏起了這份資料裡最常見的商業模式。',
         '我們看不到營收,所以這不是在說哪種 License 比較會賺——而是 License 把策略給編碼進去了,而且多數團隊是刻意選的。從保護型 relicense 到寬鬆,遠比反過來容易,所以你「出貨時的預設」可能會悄悄把你唯一的護城河送掉。',
       ],
       echoes: [],
-      caveat: 'License 讀自每個 repo 宣告的 SPDX 授權。某個選擇實際上有沒有幫到變現,在這裡無法觀測——這談的是「被編碼的策略」,不是「被量測的結果」。',
+      caveat: '讀自每個 repo 真正的 LICENSE 檔(不只 GitHub 的單一 SPDX 欄位),並檢查是否有 ee/ 企業版目錄。某個選擇實際上有沒有幫到變現,在這裡無法觀測——這談的是「被編碼的策略」,不是「被量測的結果」。',
     },
     house: {
       title: '「同一套樣板」是真的——但它不是引擎',
@@ -240,6 +242,7 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
       body: [
         '看夠多這些公司,一套「樣板美學」會浮現出來,明顯而趨同。{singleTokenPct}% 用單一字詞當品牌——短、抽象、小寫,中位八個字元:bun、fig、modal、turso、beam、daily。{nonComPct}% 已經完全放棄 .com,落腳在 .dev、.io、.ai 或 .sh。命名這場遊戲有它的文法,而幾乎所有人都在說這套文法。',
         '定位也在趨同。{ossPct}% 把「open source」直接寫進一句話的 pitch,{infraPct}% 把自己定位成 managed infrastructure——一個 platform、一個 database、一個 API、一朵 cloud。這就是「開源楔子 + 託管層」的樣板,擺明了在那:拿一塊開發者已經愛用、卻又懶得自己維運的基礎設施,賣它的託管版。引擎蓋底下,趨同還在繼續——{tsPct}% 以 TypeScript 為主,和 pnpm、Turborepo、repo 內 MDX 文件聚成同一個辨識度極高的 monorepo 輪廓(Python 與 AI 那群是房間的另一半)。',
+        '它一路延伸到相依樹。典型的 TypeScript repo 在每一層都伸手拿同一份清單——{stackPicks}——標準到你打開 package.json 之前幾乎能猜中。而且它偏向自架而非外購:資料庫方面,{dbSelfN} 個 repo 直接接 {dbSelf},相對只有 {dbManagedN} 個用 {dbManaged};auth 用 raw JWT 而非託管供應商。這群是在 dogfood 底層原語的基礎設施人——他們寧可自己擁有底層,也不要用租的。',
         '誠實的部分來了。這些都不會造成成長。一個單字的 .dev 名字加一個 Stripe 風的文件站,是制服,不是引擎——它向用戶、同行與投資人發出「我在玩同一場遊戲」的訊號,而這種「可被讀懂」確實有價值,但每個競爭對手都穿同一套制服。趨同本身,正是它無法讓你與眾不同的原因。差異化得來自樣板碰不到的地方:你選的楔子、時機,以及你到底有沒有做出人們想要的東西。',
       ],
       echoes: [
@@ -334,12 +337,13 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
       compare: { aLabel: '最大的 40 个 repo', bLabel: '最小的 40 个' },
     },
     network: {
-      title: 'YC 生态替你播下最初的星',
+      title: 'YC 生态是你的最初用户——也是你的技术栈',
       statLabel: '一个 repo「前 100 颗星」来自 YC 开源网络的中位比例',
       kicker: '前 100 颗星 {early100}% · 前 1,000 颗 {early1000}%',
       body: [
         '最初的那些星到底从哪来?压倒性地,来自自己人。一个 repo 的前 100 位 star 者,中位有 {early100}% 同时也 star 了至少两个「其他」的 YC 开源 repo——前 1,000 位则是 {early1000}%。摊到全部时间,它停在 {netLifetime}%,所以这个网络不只是个种子,而是长期维持的一块观众。',
         '这是整份数据里,对「创业界最常被引用的那句建议」最字面的印证:亲手去你伸手可及的圈子里,一个一个找到你的最初用户。对一家 YC 公司来说,那个圈子是一张由创始人、员工与校友织成、密集而重叠的图,他们会稳定地为彼此的发布现身。诚实的解读是双面的——比例高,代表生态给了你一个起跑的助力;比例低,代表你更早就触及了真正的陌生人。两者本身都不是目标;从前者走向后者的那条轨迹才是。',
+        '而且这个生态不只是你最初的观众——它越来越是你的技术栈。这些 repo 里有 {dogfoodPct}% 在自己的代码里依赖另一家 YC 公司的产品:{dogfoodTop},还有更多。同一张替你带来早期星标的图,也递给了你工具——而你的工具,又成了下一家公司的依赖。刻意地接上去——构建在同侪之上,也成为同侪会构建于其上的东西——才是这个 flywheel 真正复利的方式。',
       ],
       echoes: [
         { principle: '亲手、一个一个地找到你的最初用户,并用非常手段让他们开心——它不可规模化,而这正是重点。', ...SRC.ds },
@@ -349,14 +353,15 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
     license: {
       title: '你选的 License 就是一套变现策略',
       statLabel: '采用宽松授权(MIT / Apache / BSD)的比例',
-      kicker: '{copyleftPct}% 用 copyleft 来护住托管服务',
+      kicker: '{openCorePct}% open-core(核心 + 专有 EE)· {copyleftPct}% copyleft',
       body: [
         'License 看起来像法律脚注,实际上是一个 go-to-market 决策。这些公司有 {permissivePct}% 采用宽松授权——MIT、Apache、BSD——把「最低摩擦的采用」优化到极致:任何人都能嵌入、fork、塞进闭源产品里,不必问你。其中 {mitPct}% 专门选了 MIT。当开源项目是漏斗的顶端、而你卖的是另一层(托管云、支持、企业功能)时,你会这样选。',
         '另外 {copyleftPct}% 走反方向,选 copyleft——GPL,或越来越多的 AGPL。AGPL 强制任何「把改过的版本当网络服务在跑」的人公开他们的改动,这让某个 hyperscaler 很难把你的项目 fork 成一个闭源的竞品 SaaS。当托管版本就是你的生意时,那就是护城河:你可以真正开源,同时握住商业上的制高点。License 跟着模式走——宽松是为了极大化触及,保护型是为了守住一门服务。',
+        '但最常见的商业化路径既不是纯开放、也不是纯保护——而是 open-core。{openCorePct}%({openCoreN} 家)把项目以 MIT、Apache 或 AGPL 开源,同时把一块专有的「Enterprise Edition」切进 ee/ 目录:社群拿到核心,公司卖的是叠在上面的 SSO、RBAC 与审计日志那一层。另外 {sourceAvailN} 家走 source-available——Elastic、BUSL、FSL——源代码看得见,但 hyperscaler 在法律上不能直接拿去转售。GitHub 把这些全压成「没有授权」,悄悄藏起了这份数据里最常见的商业模式。',
         '我们看不到营收,所以这不是在说哪种 License 比较会赚——而是 License 把策略给编码进去了,而且多数团队是刻意选的。从保护型 relicense 到宽松,远比反过来容易,所以你「交付时的默认」可能会悄悄把你唯一的护城河送掉。',
       ],
       echoes: [],
-      caveat: 'License 读自每个 repo 声明的 SPDX 授权。某个选择实际上有没有帮到变现,在这里无法观测——这谈的是「被编码的策略」,不是「被量测的结果」。',
+      caveat: '读自每个 repo 真正的 LICENSE 文件(不只 GitHub 的单一 SPDX 字段),并检查是否有 ee/ 企业版目录。某个选择实际上有没有帮到变现,在这里无法观测——这谈的是「被编码的策略」,不是「被量测的结果」。',
     },
     house: {
       title: '「同一套样板」是真的——但它不是引擎',
@@ -365,6 +370,7 @@ export const PB_LESSONS: Partial<Record<Locale, Record<string, LessonT>>> = {
       body: [
         '看够多这些公司,一套「样板美学」会浮现出来,明显而趋同。{singleTokenPct}% 用单一词当品牌——短、抽象、小写,中位八个字符:bun、fig、modal、turso、beam、daily。{nonComPct}% 已经完全放弃 .com,落脚在 .dev、.io、.ai 或 .sh。命名这场游戏有它的文法,而几乎所有人都在说这套文法。',
         '定位也在趋同。{ossPct}% 把「open source」直接写进一句话的 pitch,{infraPct}% 把自己定位成 managed infrastructure——一个 platform、一个 database、一个 API、一朵 cloud。这就是「开源楔子 + 托管层」的样板,摆明了在那:拿一块开发者已经爱用、却又懒得自己运维的基础设施,卖它的托管版。引擎盖底下,趋同还在继续——{tsPct}% 以 TypeScript 为主,和 pnpm、Turborepo、repo 内 MDX 文档聚成同一个辨识度极高的 monorepo 轮廓(Python 与 AI 那群是房间的另一半)。',
+        '它一路延伸到依赖树。典型的 TypeScript repo 在每一层都伸手拿同一份清单——{stackPicks}——标准到你打开 package.json 之前几乎能猜中。而且它偏向自架而非外购:数据库方面,{dbSelfN} 个 repo 直接接 {dbSelf},相对只有 {dbManagedN} 个用 {dbManaged};auth 用 raw JWT 而非托管供应商。这群是在 dogfood 底层原语的基础设施人——他们宁可自己拥有底层,也不要用租的。',
         '诚实的部分来了。这些都不会造成成长。一个单字的 .dev 名字加一个 Stripe 风的文档站,是制服,不是引擎——它向用户、同行与投资人发出「我在玩同一场游戏」的信号,而这种「可被读懂」确实有价值,但每个竞争对手都穿同一套制服。趋同本身,正是它无法让你与众不同的原因。差异化得来自样板碰不到的地方:你选的楔子、时机,以及你到底有没有做出人们想要的东西。',
       ],
       echoes: [

@@ -93,12 +93,13 @@
       "compare": { "aLabel": "Os 40 maiores repos", "bLabel": "Os 40 menores" }
     },
     "network": {
-      "title": "O ecossistema da YC semeia suas primeiras stars",
+      "title": "O ecossistema da YC é seu primeiro público — e seu stack",
       "statLabel": "% mediana das «primeiras 100 stars» de um repo vindas da rede open source da YC",
       "kicker": "Primeiras 100 stars {early100}% · primeiras 1.000 {early1000}%",
       "body": [
         "De onde vêm, afinal, aquelas primeiras stars? De forma esmagadora, de gente da própria casa. Dos 100 primeiros que deram star num repo, a mediana de {early100}% também deu star em pelo menos dois «outros» repos open source da YC — nos primeiros 1.000, são {early1000}%. Diluído por toda a vida do repo, para em {netLifetime}%, então essa rede não é só uma semente, é uma fatia de público sustentada no longo prazo.",
-        "Esta é, em todo o dataset, a confirmação mais literal daquele «conselho mais citado do mundo das startups»: vá pessoalmente, no seu círculo ao alcance da mão, achar seus primeiros usuários um a um. Para uma empresa da YC, esse círculo é um grafo denso e sobreposto, tecido por fundadores, funcionários e ex-alunos, que aparecem de forma consistente nos lançamentos uns dos outros. A leitura honesta tem dois lados — proporção alta significa que o ecossistema te deu um empurrão de largada; proporção baixa significa que você chegou mais cedo a desconhecidos de verdade. Nenhum dos dois é a meta em si; a meta é a trajetória que vai do primeiro ao segundo."
+        "Esta é, em todo o dataset, a confirmação mais literal daquele «conselho mais citado do mundo das startups»: vá pessoalmente, no seu círculo ao alcance da mão, achar seus primeiros usuários um a um. Para uma empresa da YC, esse círculo é um grafo denso e sobreposto, tecido por fundadores, funcionários e ex-alunos, que aparecem de forma consistente nos lançamentos uns dos outros. A leitura honesta tem dois lados — proporção alta significa que o ecossistema te deu um empurrão de largada; proporção baixa significa que você chegou mais cedo a desconhecidos de verdade. Nenhum dos dois é a meta em si; a meta é a trajetória que vai do primeiro ao segundo.",
+        "E o ecossistema não é só seu primeiro público — é, cada vez mais, seu stack. {dogfoodPct}% destes repos dependem, no próprio código, do produto de outra empresa YC: {dogfoodTop}, e mais. O mesmo grafo que te entrega as primeiras stars também te entrega as ferramentas — e a sua ferramenta vira dependência da próxima empresa. Plugar-se de propósito — construir sobre os pares e ser algo sobre o que os pares constroem — é como o flywheel de fato compõe juros."
       ],
       "echoes": [
         "Vá pessoalmente, um a um, achar seus primeiros usuários, e deixe-os felizes com medidas extraordinárias — não escala, e esse é justamente o ponto."
@@ -108,14 +109,15 @@
     "license": {
       "title": "A License que você escolhe é uma estratégia de monetização",
       "statLabel": "% que adota licença permissiva (MIT / Apache / BSD)",
-      "kicker": "{copyleftPct}% usam copyleft para proteger o serviço gerenciado",
+      "kicker": "{openCorePct}% open-core (núcleo + um EE proprietário) · {copyleftPct}% copyleft",
       "body": [
         "Uma License parece nota de rodapé jurídica, mas na real é uma decisão de go-to-market. {permissivePct}% dessas empresas adotam licença permissiva — MIT, Apache, BSD — otimizando ao extremo a «adoção com o mínimo de atrito»: qualquer um pode embutir, fazer fork, enfiar dentro de um produto fechado, sem te perguntar. Dessas, {mitPct}% escolheram especificamente a MIT. É o que você escolhe quando o projeto open source é o topo do funil e você vende outra camada (nuvem gerenciada, suporte, features enterprise).",
         "Os outros {copyleftPct}% vão na direção oposta e escolhem copyleft — GPL, ou, cada vez mais, AGPL. A AGPL força qualquer um que «rode uma versão modificada como serviço de rede» a abrir suas mudanças, o que dificulta muito para um hyperscaler forkar seu projeto num SaaS concorrente e fechado. Quando a versão hospedada é o seu negócio, isso é fosso: você pode ser genuinamente open source e ao mesmo tempo segurar o ponto comercial estratégico. A License acompanha o modelo — permissiva para maximizar alcance, protetiva para defender um serviço.",
+        "Mas o caminho comercial mais comum não é nem puro-aberto nem puro-protetivo — é open-core. {openCorePct}% ({openCoreN} das empresas) mantêm o projeto aberto sob MIT, Apache ou AGPL e recortam um «Enterprise Edition» proprietário num diretório ee/: a comunidade fica com o núcleo, a empresa vende a camada de SSO, RBAC e audit-log por cima. Outras {sourceAvailN} vão de source-available — Elastic, BUSL, FSL — onde a fonte é visível mas um hyperscaler legalmente não pode só revender. O GitHub achata tudo isso em «sem licença», o que esconde silenciosamente o modelo de negócio mais comum do dataset.",
         "Não enxergamos receita, então isto não diz qual License fatura mais — diz que a License codifica a estratégia, e que a maioria dos times escolhe de propósito. Relicenciar de protetiva para permissiva é muito mais fácil que o contrário, então o seu «padrão na hora de entregar» pode silenciosamente dar de bandeja o seu único fosso."
       ],
       "echoes": [],
-      "caveat": "A License é lida da licença SPDX declarada por cada repo. Se uma escolha de fato ajudou na monetização é algo não observável aqui — isto fala de «estratégia codificada», não de «resultado medido»."
+      "caveat": "Lida do LICENSE de verdade de cada repo (não só do campo SPDX único do GitHub) mais uma checagem de diretório ee/ enterprise. Se uma escolha ajudou na monetização não é observável aqui — isto é estratégia codificada, não resultado medido."
     },
     "house": {
       "title": "O «mesmo template» é real — mas não é o motor",
@@ -124,6 +126,7 @@
       "body": [
         "Olhe empresas dessas o suficiente e uma «estética de template» emerge, óbvia e convergente. {singleTokenPct}% usam uma única palavra como marca — curta, abstrata, minúscula, mediana de oito caracteres: bun, fig, modal, turso, beam, daily. {nonComPct}% já abandonaram o .com de vez, pousando em .dev, .io, .ai ou .sh. O jogo de naming tem sua própria gramática, e quase todo mundo fala essa gramática.",
         "O posicionamento também converge. {ossPct}% colocam «open source» direto no pitch de uma frase, e {infraPct}% se posicionam como managed infrastructure — uma platform, um database, uma API, uma cloud. É o template do «cunha open source + camada gerenciada», escancarado ali: pegue uma infra que os devs já amam usar mas têm preguiça de operar por conta própria, e venda a versão hospedada. Por baixo do capô, a convergência continua — {tsPct}% têm TypeScript como base, agrupando-se com pnpm, Turborepo e docs em MDX dentro do repo num mesmo perfil de monorepo altíssimamente reconhecível (a turma de Python e IA é a outra metade da sala).",
+        "E vai até o fundo da árvore de dependências. O repo TypeScript típico recorre à mesma shortlist em cada camada — {stackPicks} — e, dado que essa gente vende infra gerenciada, tende mais a build do que a buy: para o banco de dados, {dbSelfN} repos plugam {dbSelf} direto contra {dbManagedN} num {dbManaged}; para auth, JWT na unha em vez de um serviço hospedado. Eles operam a própria infra porque operar infra é o produto. Use a shortlist como ponto de partida, não como diferencial — o uniforme padrão, mais uma vez.",
         "Agora vem a parte honesta. Nada disso causa crescimento. Um nome de uma palavra em .dev mais um site de docs estilo Stripe são uniforme, não motor — sinalizam para usuários, pares e investidores que «estou jogando o mesmo jogo», e essa «legibilidade» tem valor de verdade, mas todo concorrente veste o mesmo uniforme. A própria convergência é justamente o motivo de ela não te diferenciar. A diferenciação vem de onde o template não toca: a cunha que você escolhe, o timing, e se você de fato fez ou não algo que as pessoas querem."
       ],
       "echoes": [
