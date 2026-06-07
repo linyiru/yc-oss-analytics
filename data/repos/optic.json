@@ -3852,5 +3852,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-03-21",
+   "title": "Show HN: Torch Lens Maker – Differentiable Geometric Optics in PyTorch",
+   "url": "https://victorpoughon.github.io/torchlensmaker/",
+   "author": "fouronnes3",
+   "points": 179,
+   "comments": 45,
+   "hn": "https://news.ycombinator.com/item?id=43435438"
+  },
+  {
+   "date": "2024-02-23",
+   "title": "Show HN: Refractify – Optical software against myopia",
+   "url": "https://refractify.io/",
+   "author": "macilacilove",
+   "points": 174,
+   "comments": 55,
+   "hn": "https://news.ycombinator.com/item?id=39484590"
+  },
+  {
+   "date": "2018-06-23",
+   "title": "Show HN: Optical stripe reading and floppy disk imaging attempt",
+   "url": "https://www.anfractuosity.com/projects/optical-magnetic-stripe-reading/#start",
+   "author": "anfractuosity",
+   "points": 71,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=17382508"
+  },
+  {
+   "date": "2023-02-25",
+   "title": "Show HN: Open Optical Designer, free and open source lens design software",
+   "url": "https://alexbock.github.io/open-optical-designer/",
+   "author": "alexbock",
+   "points": 59,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=34939954"
+  },
+  {
+   "date": "2025-01-16",
+   "title": "Show HN: Real-time nonlinear optics simulation (JS/GLSL)",
+   "url": "https://github.com/westoncb/nonlinear-optics-sandbox",
+   "author": "westoncb",
+   "points": 46,
+   "comments": 12,
+   "hn": "https://news.ycombinator.com/item?id=42731417"
+  },
+  {
+   "date": "2015-03-15",
+   "title": "Show HN: Neural network optical character recognition",
+   "url": "https://github.com/mateogianolio/mlp-character-recognition",
+   "author": "megalodon",
+   "points": 23,
+   "comments": 9,
+   "hn": "https://news.ycombinator.com/item?id=9206451"
+  }
+ ]
 }

@@ -4932,5 +4932,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 14319,
- "curve_partial": true
+ "curve_partial": true,
+ "hn_events": [
+  {
+   "date": "2015-05-14",
+   "title": "Show HN: Twenty",
+   "url": "http://twenty.frenchguys.net",
+   "author": "sossles",
+   "points": 666,
+   "comments": 167,
+   "hn": "https://news.ycombinator.com/item?id=9543005"
+  },
+  {
+   "date": "2024-06-11",
+   "title": "Twenty, a modern CRM alternative to Salesforce",
+   "url": "https://twenty.com",
+   "author": "client4",
+   "points": 378,
+   "comments": 165,
+   "hn": "https://news.ycombinator.com/item?id=40648082"
+  },
+  {
+   "date": "2023-10-07",
+   "title": "Twenty: A Modern open-source CRM",
+   "url": "https://github.com/twentyhq/twenty",
+   "author": "pretext",
+   "points": 164,
+   "comments": 67,
+   "hn": "https://news.ycombinator.com/item?id=37805520"
+  },
+  {
+   "date": "2015-09-16",
+   "title": "Show HN: It's almost four twenty somewhere in the world",
+   "url": "http://its.fourtwenty.in/",
+   "author": "ccvannorman",
+   "points": 8,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=10230640"
+  },
+  {
+   "date": "2016-09-07",
+   "title": "Show HN: Nweets – Keep up with technology news in twenty tweets",
+   "url": "https://nweets.co",
+   "author": "_zeo8",
+   "points": 6,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=12441817"
+  },
+  {
+   "date": "2016-08-24",
+   "title": "Show HN: Nweets – Keep up with tech news in twenty tweets",
+   "url": "https://news.ycombinator.com/item?id=12351526",
+   "author": "_zeo8",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=12351526"
+  }
+ ],
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-05-14",
+  "name": "Twenty",
+  "tagline": "A new twist on the 'threes' game mechanic",
+  "votes": 2,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/twenty-2/launches/twenty"
+ }
 }

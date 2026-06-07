@@ -2915,5 +2915,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-11-30",
+   "title": "Formance – The Color of Money: Towards a New Data Model for Fintech, Part II",
+   "url": "https://www.formance.com/blog/engineering/color-of-money",
+   "author": "lifeisstillgood",
+   "points": 9,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=42280641"
+  },
+  {
+   "date": "2024-11-28",
+   "title": "Warehousing Promises",
+   "url": "https://www.formance.com/blog/engineering/warehousing-promises",
+   "author": "superzamp",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42266700"
+  },
+  {
+   "date": "2024-12-05",
+   "title": "Funds Traceability in Digital Ledgers",
+   "url": "https://www.formance.com/blog/engineering/funds-traceability-in-digital-ledgers",
+   "author": "superzamp",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42329547"
+  },
+  {
+   "date": "2024-06-27",
+   "title": "Execution of Temporal Queries on Third-Party Data",
+   "url": "https://www.formance.com/blog/engineering/execution-of-temporal-queries-on-third-party-data",
+   "author": "superzamp",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40811925"
+  },
+  {
+   "date": "2024-11-30",
+   "title": "Formance – Warehousing Promises: Towards a New Data Model for Fintech, Part I",
+   "url": "https://www.formance.com/blog/engineering/warehousing-promises",
+   "author": "lifeisstillgood",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42280635"
+  },
+  {
+   "date": "2024-02-17",
+   "title": "Open Source Ledger for money-moving platforms",
+   "url": "https://www.formance.com/",
+   "author": "wiradikusuma",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39407488"
+  }
+ ]
 }

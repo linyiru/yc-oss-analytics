@@ -7577,5 +7577,59 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Activeloop Scientific Discover: The AI Analyst for Scientific Research",
+  "date": "2025-12-02",
+  "votes": 29,
+  "url": "https://www.ycombinator.com/launches/Ox5-activeloop-scientific-discover-the-ai-analyst-for-scientific-research"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-06-14",
+   "title": "Framework to compare LLMs (GPT-4 v/s 3.5 vs. Anthropic Claude v/s Cohere)",
+   "url": "https://www.activeloop.ai/resources/how-to-compare-large-language-models-gpt-4-3-5-vs-anthropic-claude-vs-cohere/",
+   "author": "akashsharma53",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36325707"
+  },
+  {
+   "date": "2024-01-16",
+   "title": "We Fine-Tuned LLMs on 8M Patents and Used AI Agents to Search and Write New Ones",
+   "url": "https://www.activeloop.ai/resources/how-we-finetuned-a-large-language-model-to-search-patents-generate-new-patents/",
+   "author": "davidbuniat",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39015668"
+  },
+  {
+   "date": "2023-09-26",
+   "title": "Show HN: Deep Lake HNSW Index. Rapidly Query 35M Vectors, Save 80%",
+   "url": "https://www.activeloop.ai/resources/deep-lake-hnsw-index-rapidly-query-35-m-vectors-save-80/",
+   "author": "mikayelh",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37663924"
+  },
+  {
+   "date": "2025-05-05",
+   "title": "Activeloop-L0: Agentic Reasoning on Your Multimodal Data",
+   "url": "https://www.activeloop.ai/resources/activeloop-l-0-agentic-reasoning-on-your-multimodal-data/",
+   "author": "davidbuniat",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43895378"
+  },
+  {
+   "date": "2022-02-14",
+   "title": "The open-source dataset format for data-centric computer vision workflows",
+   "url": "https://www.activeloop.ai/",
+   "author": "shcheklein",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=30338103"
+  }
+ ]
 }

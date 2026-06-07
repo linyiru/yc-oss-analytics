@@ -1788,5 +1788,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-09-13",
+   "title": "Show HN: Lantern – a PostgreSQL vector database for building AI applications",
+   "url": "https://docs.lantern.dev/blog/2023/09/13/hello-world",
+   "author": "ngalstyan4",
+   "points": 196,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=37499375"
+  },
+  {
+   "date": "2024-07-19",
+   "title": "Postgres vs. Pinecone",
+   "url": "https://lantern.dev/blog/postgres-vs-pinecone",
+   "author": "diqi",
+   "points": 119,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=41007624"
+  },
+  {
+   "date": "2024-01-02",
+   "title": "90x Faster Than Pgvector – Lantern's HNSW Index Creation Time",
+   "url": "https://lantern.dev/blog/hnsw-index-creation",
+   "author": "diqi",
+   "points": 109,
+   "comments": 36,
+   "hn": "https://news.ycombinator.com/item?id=38844945"
+  },
+  {
+   "date": "2024-09-02",
+   "title": "Understanding Pgvector's HNSW Index Storage in Postgres",
+   "url": "https://lantern.dev/blog/pgvector-storage",
+   "author": "varik77",
+   "points": 77,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=41426318"
+  },
+  {
+   "date": "2024-07-12",
+   "title": "Show HN: Dynamically loaded extensions in Postgres in the browser",
+   "url": "https://lantern.dev/blog/pglite-lantern",
+   "author": "varik77",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40945682"
+  },
+  {
+   "date": "2024-10-02",
+   "title": "Create Index Externally: Offloading Pgvector Indexing from Postgres",
+   "url": "https://lantern.dev/blog/pgvector-external-indexing",
+   "author": "diqi",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41721124"
+  }
+ ]
 }

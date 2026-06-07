@@ -814,5 +814,27 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-10-07",
+   "title": "Launch HN: LlamaFarm (YC W22) – Open-source framework for distributed AI",
+   "url": "https://github.com/llama-farm/llamafarm",
+   "author": "mhamann",
+   "points": 106,
+   "comments": 71,
+   "hn": "https://news.ycombinator.com/item?id=45504388"
+  },
+  {
+   "date": "2025-07-10",
+   "title": "Show HN: LlamaFarm – Working on binary AI Project deployment – (early preview)",
+   "url": "https://github.com/llama-farm/llamafarm",
+   "author": "rgthelen",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44525502"
+  }
+ ]
 }

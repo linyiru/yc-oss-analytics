@@ -5571,5 +5571,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2023-03-27",
+  "name": "Activepieces",
+  "tagline": "No-code business automation with more privacy",
+  "votes": 213,
+  "comments": 59,
+  "url": "https://www.producthunt.com/products/activepieces/launches/activepieces"
+ },
+ "hn_events": [
+  {
+   "date": "2025-04-02",
+   "title": "Show HN: Largest Open Source MCP Repo (280)",
+   "url": "https://www.activepieces.com/mcp",
+   "author": "ashrafsam",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43556900"
+  },
+  {
+   "date": "2024-03-06",
+   "title": "No-code automation can be unopinionated and extensible",
+   "url": "https://www.activepieces.com/blog/no-code-automation-unopinionated-extensible",
+   "author": "moabuaboud",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39616326"
+  },
+  {
+   "date": "2022-11-11",
+   "title": "Ask HN: SaaS founders, is offering a Segment.io in your app useful?",
+   "url": "https://link.activepieces.com",
+   "author": "ashrafsam",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=33559591"
+  },
+  {
+   "date": "2025-07-01",
+   "title": "Show HN: We just made automation runs/tasks unlimited and Launched agen",
+   "url": "https://www.activepieces.com/",
+   "author": "Kareem-nofal",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44435189"
+  },
+  {
+   "date": "2024-05-23",
+   "title": "Activepieces: Open-source no-code business automation",
+   "url": "https://www.activepieces.com/",
+   "author": "ulrischa",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40459151"
+  },
+  {
+   "date": "2022-11-10",
+   "title": "I'm building Multi tenant Segment for SaaS",
+   "url": "https://link.activepieces.com/",
+   "author": "moabuaboud",
+   "points": 1,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=33555439"
+  }
+ ]
 }

@@ -7280,5 +7280,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-10-11",
+  "name": "Refine",
+  "tagline": "Ad Blocker for Safari",
+  "votes": 1,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/refine/launches/refine"
+ },
+ "hn_events": [
+  {
+   "date": "2025-07-14",
+   "title": "Show HN: Refine – A Local Alternative to Grammarly",
+   "url": "https://refine.sh",
+   "author": "runjuu",
+   "points": 408,
+   "comments": 210,
+   "hn": "https://news.ycombinator.com/item?id=44556684"
+  },
+  {
+   "date": "2023-02-28",
+   "title": "Show HN: Scribble Diffusion – Turn your sketch into a refined image using AI",
+   "url": "https://scribblediffusion.com",
+   "author": "zsikelianos",
+   "points": 373,
+   "comments": 89,
+   "hn": "https://news.ycombinator.com/item?id=34971579"
+  },
+  {
+   "date": "2019-06-13",
+   "title": "Show HN: Browser Extension to Refine the HN Experience",
+   "url": "https://github.com/plibither8/refined-hacker-news",
+   "author": "plibither8",
+   "points": 259,
+   "comments": 122,
+   "hn": "https://news.ycombinator.com/item?id=20173974"
+  },
+  {
+   "date": "2026-03-11",
+   "title": "Show HN: I built a refinery simulator game to explain job to my kids",
+   "url": "https://fuelingcuriosity.com/game.html",
+   "author": "fuelingcurious",
+   "points": 127,
+   "comments": 55,
+   "hn": "https://news.ycombinator.com/item?id=47338091"
+  },
+  {
+   "date": "2023-01-25",
+   "title": "Show HN: Refine v3.97 – Open-source React framework for building CRUD apps",
+   "url": "https://github.com/refinedev/refine/blob/next/CHANGELOG.md",
+   "author": "salihozdemir",
+   "points": 102,
+   "comments": 54,
+   "hn": "https://news.ycombinator.com/item?id=34515128"
+  },
+  {
+   "date": "2023-01-25",
+   "title": "Show HN: UpTrain – Open-source ML observability and refinement tool",
+   "url": "https://github.com/uptrain-ai/uptrain",
+   "author": "sourabh0394agr",
+   "points": 88,
+   "comments": 14,
+   "hn": "https://news.ycombinator.com/item?id=34519052"
+  }
+ ]
 }

@@ -9764,5 +9764,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2019-10-07",
+   "title": "A multithreaded fork of Redis that is faster",
+   "url": "https://docs.keydb.dev/blog/2019/10/07/blog-post/",
+   "author": "ericblenkarn",
+   "points": 450,
+   "comments": 159,
+   "hn": "https://news.ycombinator.com/item?id=21182627"
+  },
+  {
+   "date": "2019-06-18",
+   "title": "How Fast can A Single Instance of Redis be?",
+   "url": "https://docs.keydb.dev/blog/2019/06/17/blog-post",
+   "author": "eblenkarn",
+   "points": 220,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=20216605"
+  },
+  {
+   "date": "2023-05-21",
+   "title": "KeyDB – A Multithreaded Fork of Redis",
+   "url": "https://docs.keydb.dev/",
+   "author": "nilsbunger",
+   "points": 203,
+   "comments": 126,
+   "hn": "https://news.ycombinator.com/item?id=36018149"
+  },
+  {
+   "date": "2020-04-15",
+   "title": "Comparing the new Redis6 multithreaded I/O to Elasticache and KeyDB",
+   "url": "https://docs.keydb.dev/blog/2020/04/15/blog-post/",
+   "author": "benschermel",
+   "points": 127,
+   "comments": 20,
+   "hn": "https://news.ycombinator.com/item?id=22879347"
+  },
+  {
+   "date": "2020-03-09",
+   "title": "Benchmarking the AWS Graviton2 with KeyDB – M6g up to 65% faster",
+   "url": "https://docs.keydb.dev/blog/2020/03/02/blog-post/",
+   "author": "otterley",
+   "points": 26,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=22525814"
+  },
+  {
+   "date": "2024-03-22",
+   "title": "KeyDB: A Multithreaded Fork of Redis",
+   "url": "https://github.com/Snapchat/KeyDB",
+   "author": "ccakes",
+   "points": 18,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=39791255"
+  }
+ ]
 }

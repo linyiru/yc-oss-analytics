@@ -3656,5 +3656,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Rivet - Burn down your design backlog",
+  "date": "2025-10-29",
+  "votes": 48,
+  "url": "https://www.ycombinator.com/launches/Oi3-rivet-burn-down-your-design-backlog"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-08-19",
+   "title": "Show HN: Rivet – Open-source game server management with Nomad and Rust",
+   "url": "https://github.com/rivet-gg/rivet",
+   "author": "NathanFlurry",
+   "points": 327,
+   "comments": 44,
+   "hn": "https://news.ycombinator.com/item?id=37188659"
+  },
+  {
+   "date": "2023-09-08",
+   "title": "Show HN: Rivet – open-source AI Agent dev env with real-world applications",
+   "url": "https://rivet.ironcladapp.com/",
+   "author": "gogwilt",
+   "points": 176,
+   "comments": 30,
+   "hn": "https://news.ycombinator.com/item?id=37433218"
+  },
+  {
+   "date": "2024-12-20",
+   "title": "Show HN: Rivet Actors – Durable Objects built with Rust, FoundationDB, Isolates",
+   "url": "https://github.com/rivet-gg/rivet",
+   "author": "NathanFlurry",
+   "points": 133,
+   "comments": 26,
+   "hn": "https://news.ycombinator.com/item?id=42472519"
+  },
+  {
+   "date": "2026-05-21",
+   "title": "We Reverse-Engineered Docker Sandbox's Undocumented MicroVM API",
+   "url": "https://rivet.dev/blog/2026-02-04-we-reverse-engineered-docker-sandbox-undocumented-microvm-api/",
+   "author": "yakkomajuri",
+   "points": 90,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=48223693"
+  },
+  {
+   "date": "2026-02-28",
+   "title": "Show HN: SQLite for Rivet Actors – one database per agent, tenant, or document",
+   "url": "https://github.com/rivet-dev/rivet",
+   "author": "NathanFlurry",
+   "points": 45,
+   "comments": 16,
+   "hn": "https://news.ycombinator.com/item?id=47197003"
+  },
+  {
+   "date": "2025-10-20",
+   "title": "WebSockets for Vercel Functions: How We Built It",
+   "url": "https://www.rivet.dev/blog/2025-10-20-how-we-built-websocket-servers-for-vercel-functions/",
+   "author": "NathanFlurry",
+   "points": 6,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=45644047"
+  }
+ ]
 }

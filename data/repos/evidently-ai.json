@@ -7497,5 +7497,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-12-04",
+   "title": "ML system design: 300 use cases from 80 companies",
+   "url": "https://www.evidentlyai.com/ml-system-design",
+   "author": "dmalyugina",
+   "points": 66,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=38520948"
+  },
+  {
+   "date": "2023-10-04",
+   "title": "Free Open-source ML observability course",
+   "url": "https://www.evidentlyai.com/ml-observability-course",
+   "author": "dmalyugina",
+   "points": 43,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=37768551"
+  },
+  {
+   "date": "2023-11-09",
+   "title": "Open-source ML observability course notes",
+   "url": "https://learn.evidentlyai.com/",
+   "author": "dmalyugina",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=38208126"
+  },
+  {
+   "date": "2023-07-04",
+   "title": "ML system design: 200 case studies to learn from",
+   "url": "https://www.evidentlyai.com/ml-system-design",
+   "author": "synergy20",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36593713"
+  },
+  {
+   "date": "2023-06-14",
+   "title": "List of 200 blogs on how tech companies use ML",
+   "url": "https://www.evidentlyai.com//ml-system-design",
+   "author": "elenasamuylova",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=36326485"
+  },
+  {
+   "date": "2025-04-28",
+   "title": "LLM evaluation for builders: free applied course",
+   "url": "https://www.evidentlyai.com/llm-evaluation-course-practice",
+   "author": "dmalyugina",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43820837"
+  }
+ ]
 }

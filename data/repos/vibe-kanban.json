@@ -1703,5 +1703,59 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Vibe Kanban - 10X your Claude Code usage",
+  "date": "2025-07-11",
+  "votes": 27,
+  "url": "https://www.ycombinator.com/launches/Nwy-vibe-kanban-10x-your-claude-code-usage"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-07-11",
+   "title": "Show HN: Vibe Kanban – Kanban board to manage your AI coding agents",
+   "url": "https://github.com/BloopAI/vibe-kanban",
+   "author": "louiskw",
+   "points": 195,
+   "comments": 132,
+   "hn": "https://news.ycombinator.com/item?id=44533004"
+  },
+  {
+   "date": "2025-12-01",
+   "title": "Can Coding Agents Do QA with a Browser?",
+   "url": "https://www.vibekanban.com/blog/does-playwright-mcp-unlock-autonomous-qa",
+   "author": "britannio",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=46107408"
+  },
+  {
+   "date": "2026-04-10",
+   "title": "Goodbye Bloop",
+   "url": "https://vibekanban.com/blog/goodbye-bloop",
+   "author": "arrowsmith",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47718190"
+  },
+  {
+   "date": "2025-12-28",
+   "title": "Tips and best practices for working with AI coding agents",
+   "url": "https://www.vibekanban.com/vibe-guide",
+   "author": "cjbarber",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46412022"
+  },
+  {
+   "date": "2026-01-19",
+   "title": "Vibe Kanban",
+   "url": "https://www.vibekanban.com/",
+   "author": "Zababa",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46678998"
+  }
+ ]
 }

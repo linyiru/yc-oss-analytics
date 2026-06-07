@@ -5822,5 +5822,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2022-09-27",
+  "name": "Infisical",
+  "tagline": "Help dev teams sync environment variables",
+  "votes": 87,
+  "comments": 9,
+  "url": "https://www.producthunt.com/products/infisical/launches/infisical"
+ },
+ "hn_events": [
+  {
+   "date": "2024-03-29",
+   "title": "The Great Migration from MongoDB to PostgreSQL",
+   "url": "https://infisical.com/blog/postgresql-migration-technical",
+   "author": "thunderbong",
+   "points": 345,
+   "comments": 323,
+   "hn": "https://news.ycombinator.com/item?id=39860769"
+  },
+  {
+   "date": "2023-08-11",
+   "title": "Infisical – open-source HashiCorp Vault alternative",
+   "url": "https://github.com/Infisical/infisical",
+   "author": "vmatsiiako",
+   "points": 284,
+   "comments": 105,
+   "hn": "https://news.ycombinator.com/item?id=37090754"
+  },
+  {
+   "date": "2022-12-19",
+   "title": "Show HN: Infisical – open-source secrets manager",
+   "url": "https://github.com/Infisical/infisical",
+   "author": "vmatsiiako",
+   "points": 232,
+   "comments": 97,
+   "hn": "https://news.ycombinator.com/item?id=34055132"
+  },
+  {
+   "date": "2026-02-06",
+   "title": "I spent 5 years in DevOps – Solutions engineering gave me what I was missing",
+   "url": "https://infisical.com/blog/devops-to-solutions-engineering",
+   "author": "vmatsiiako",
+   "points": 194,
+   "comments": 108,
+   "hn": "https://news.ycombinator.com/item?id=46915102"
+  },
+  {
+   "date": "2023-07-19",
+   "title": "Show HN: Infisical – open-source secret management platform",
+   "url": "https://infisical.com/",
+   "author": "vmatsiiako",
+   "points": 131,
+   "comments": 58,
+   "hn": "https://news.ycombinator.com/item?id=36788210"
+  },
+  {
+   "date": "2024-04-24",
+   "title": "Show HN: Open-source alternative to HashiCorp/IBM Vault",
+   "url": "https://github.com/Infisical/infisical/blob/main/README.md",
+   "author": "vmatsiiako",
+   "points": 123,
+   "comments": 41,
+   "hn": "https://news.ycombinator.com/item?id=40149608"
+  }
+ ]
 }

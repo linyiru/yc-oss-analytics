@@ -4753,5 +4753,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-10-04",
+   "title": "Strong static typing, a hill I'm willing to die on",
+   "url": "https://www.svix.com/blog/strong-typing-hill-to-die-on/",
+   "author": "tasn",
+   "points": 394,
+   "comments": 852,
+   "hn": "https://news.ycombinator.com/item?id=37764326"
+  },
+  {
+   "date": "2022-02-15",
+   "title": "Show HN: Svix – Open-Source Webhooks Service Written in Rust",
+   "url": "https://github.com/svix/svix-webhooks",
+   "author": "tasn",
+   "points": 176,
+   "comments": 28,
+   "hn": "https://news.ycombinator.com/item?id=30347858"
+  },
+  {
+   "date": "2023-04-06",
+   "title": "Spotting and avoiding heap fragmentation in Rust applications",
+   "url": "https://www.svix.com/blog/heap-fragmentation-in-rust-applications/",
+   "author": "tasn",
+   "points": 138,
+   "comments": 68,
+   "hn": "https://news.ycombinator.com/item?id=35469632"
+  },
+  {
+   "date": "2022-08-03",
+   "title": "You Can't Guarantee Webhook Ordering",
+   "url": "https://www.svix.com/blog/guaranteeing-webhook-ordering/",
+   "author": "yurisagalov",
+   "points": 57,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=32333661"
+  },
+  {
+   "date": "2024-12-03",
+   "title": "Webhooks Are Harder Than They Seem",
+   "url": "https://www.svix.com/blog/webhooks-are-harder-than-they-seem/",
+   "author": "KenRuf",
+   "points": 30,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=42309742"
+  },
+  {
+   "date": "2023-11-29",
+   "title": "Avoiding Bugs with Strong Static Typing Using Rust",
+   "url": "https://www.svix.com/blog/using-the-type-system-effectively/",
+   "author": "tasn",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38460147"
+  }
+ ]
 }

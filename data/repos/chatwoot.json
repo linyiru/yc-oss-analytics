@@ -10360,5 +10360,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2017-05-31",
+  "name": "Chatwoot",
+  "tagline": "Exceptional Customer Support Over Facebook Messenger",
+  "votes": 24,
+  "comments": 5,
+  "url": "https://www.producthunt.com/products/chatwoot/launches/chatwoot"
+ },
+ "hn_events": [
+  {
+   "date": "2019-11-17",
+   "title": "Show HN: Open-Source Alternative to Intercom, Drift, Zendesk, FreshChat",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "author": "pranavrajs",
+   "points": 417,
+   "comments": 79,
+   "hn": "https://news.ycombinator.com/item?id=21559139"
+  },
+  {
+   "date": "2022-09-26",
+   "title": "Show HN: Open-Source Intercom with Help Center",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "author": "pranav_rajs",
+   "points": 101,
+   "comments": 26,
+   "hn": "https://news.ycombinator.com/item?id=32980309"
+  },
+  {
+   "date": "2022-03-20",
+   "title": "Show HN: Open-Source Alternative to Intercom",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "author": "mikawp3",
+   "points": 20,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=30741956"
+  },
+  {
+   "date": "2020-08-15",
+   "title": "Failed startup to a trending open-source project: A one year followup",
+   "url": "https://www.chatwoot.com/blog/woot-journals-one-year-since-open-sourcing-chatwoot/",
+   "author": "pranavrajs",
+   "points": 11,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=24169746"
+  },
+  {
+   "date": "2021-12-09",
+   "title": "Show HN: Chatwoot 2.0 - Open-source Intercom / Zendesk",
+   "url": "https://github.com/chatwoot/chatwoot",
+   "author": "pranav_rajs",
+   "points": 7,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=29500167"
+  },
+  {
+   "date": "2024-05-30",
+   "title": "Getting to 50k self-hosted installations of Chatwoot",
+   "url": "https://www.chatwoot.com/blog/50-000-installations-of-chatwoot/",
+   "author": "sojanofficial",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40518915"
+  }
+ ]
 }

@@ -853,5 +853,34 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2026-02-28",
+  "name": "cmux",
+  "tagline": "The open-source terminal built for coding agents",
+  "votes": 85,
+  "comments": 7,
+  "url": "https://www.producthunt.com/products/cmux/launches/cmux"
+ },
+ "hn_events": [
+  {
+   "date": "2026-02-19",
+   "title": "Show HN: cmux - Ghostty-based terminal with vertical tabs and notifications",
+   "url": "https://github.com/manaflow-ai/cmux",
+   "author": "lawrencechen",
+   "points": 198,
+   "comments": 77,
+   "hn": "https://news.ycombinator.com/item?id=47079718"
+  },
+  {
+   "date": "2025-10-15",
+   "title": "Show HN: Cmux – Coding Agent Multiplexer",
+   "url": "https://github.com/coder/cmux",
+   "author": "ammario",
+   "points": 22,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=45596024"
+  }
+ ]
 }

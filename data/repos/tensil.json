@@ -1265,5 +1265,36 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-03-09",
+   "title": "Show HN: Open source machine learning inference accelerators on FPGA",
+   "url": "https://www.tensil.ai/",
+   "author": "tdba",
+   "points": 57,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=30615605"
+  },
+  {
+   "date": "2022-04-09",
+   "title": "Show HN: YOLO v4 Tiny with Tensil on Ultra96 FPGA Board",
+   "url": "https://k155la3.blog/2022/04/04/tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2/",
+   "author": "petrohi",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=30969598"
+  },
+  {
+   "date": "2023-06-22",
+   "title": "Tensil",
+   "url": "https://www.tensil.ai/blog/2022/03/25/launch-hn/",
+   "author": "ankitg12",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=36430051"
+  }
+ ]
 }

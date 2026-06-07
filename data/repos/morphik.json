@@ -1768,5 +1768,54 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-07-21",
+   "title": "Don't bother parsing: Just use images for RAG",
+   "url": "https://www.morphik.ai/blog/stop-parsing-docs",
+   "author": "Adityav369",
+   "points": 328,
+   "comments": 72,
+   "hn": "https://news.ycombinator.com/item?id=44637715"
+  },
+  {
+   "date": "2025-04-22",
+   "title": "Show HN: Morphik – Open-source RAG that understands PDF images, runs locally",
+   "url": "https://github.com/morphik-org/morphik-core",
+   "author": "Adityav369",
+   "points": 200,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=43763814"
+  },
+  {
+   "date": "2025-03-31",
+   "title": "Show HN: I built an open-source NotebookLM alternative using Morphik",
+   "url": "https://github.com/morphik-org/morphik-core",
+   "author": "ArnavAgrawal03",
+   "points": 23,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=43529539"
+  },
+  {
+   "date": "2025-04-06",
+   "title": "Show HN: Morphik – Open-source MCP server for technical document search",
+   "url": "https://docs.morphik.ai/using-morphik/mcp",
+   "author": "Adityav369",
+   "points": 7,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=43601495"
+  },
+  {
+   "date": "2025-03-29",
+   "title": "Show HN: I built an open-source vision RAG that embeds images and text together",
+   "url": "https://docs.morphik.ai/concepts/colpali",
+   "author": "Adityav369",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43514922"
+  }
+ ]
 }

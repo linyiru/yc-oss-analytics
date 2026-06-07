@@ -3121,5 +3121,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-08-29",
+   "title": "Show HN: A discovery-focused search engine for Hacker News",
+   "url": "https://hn.trieve.ai/",
+   "author": "skeptrune",
+   "points": 193,
+   "comments": 33,
+   "hn": "https://news.ycombinator.com/item?id=41393005"
+  },
+  {
+   "date": "2024-08-12",
+   "title": "History of Hacker News Search from 2007 to 2024",
+   "url": "https://trieve.ai/history-of-hnsearch/",
+   "author": "skeptrune",
+   "points": 120,
+   "comments": 72,
+   "hn": "https://news.ycombinator.com/item?id=41228935"
+  },
+  {
+   "date": "2024-09-09",
+   "title": "300μs typo detection for 1.3M words",
+   "url": "https://trieve.ai/building-blazingly-fast-typo-correction-in-rust/",
+   "author": "todsacerdoti",
+   "points": 96,
+   "comments": 12,
+   "hn": "https://news.ycombinator.com/item?id=41490384"
+  },
+  {
+   "date": "2024-03-11",
+   "title": "Source-available Rust-based RAG",
+   "url": "https://github.com/devflowinc/trieve",
+   "author": "beadlebardy",
+   "points": 58,
+   "comments": 30,
+   "hn": "https://news.ycombinator.com/item?id=39664612"
+  },
+  {
+   "date": "2024-09-13",
+   "title": "PGVector's Missing Features",
+   "url": "https://trieve.ai/pgvector-missing-features",
+   "author": "skeptrune",
+   "points": 51,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=41535857"
+  },
+  {
+   "date": "2025-06-18",
+   "title": "Show HN: Trieve CLI – Terminal-based LLM agent loop with search tool for PDFs",
+   "url": "https://github.com/devflowinc/trieve/tree/main/clients/cli",
+   "author": "skeptrune",
+   "points": 35,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=44309891"
+  }
+ ]
 }

@@ -3668,5 +3668,75 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Skyvern: Asking AI to build scrapers should be easy right?",
+  "date": "2025-10-17",
+  "votes": 12,
+  "url": "https://www.ycombinator.com/launches/Odo-skyvern-asking-ai-to-build-scrapers-should-be-easy-right"
+ },
+ "ph_event": {
+  "date": "2024-06-26",
+  "name": "Skyvern",
+  "tagline": "Open source AI agent to automate browser-based workflows",
+  "votes": 238,
+  "comments": 28,
+  "url": "https://www.producthunt.com/products/skyvern/launches/skyvern"
+ },
+ "hn_events": [
+  {
+   "date": "2024-03-14",
+   "title": "Show HN: Skyvern – Browser automation using LLMs and computer vision",
+   "url": "https://github.com/Skyvern-AI/skyvern",
+   "author": "suchintan",
+   "points": 422,
+   "comments": 139,
+   "hn": "https://news.ycombinator.com/item?id=39706004"
+  },
+  {
+   "date": "2024-10-24",
+   "title": "Launch HN: Skyvern (YC S23) – open-source AI agent for browser automations",
+   "url": "https://github.com/Skyvern-AI/Skyvern",
+   "author": "suchintan",
+   "points": 327,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=41936745"
+  },
+  {
+   "date": "2025-10-17",
+   "title": "Asking AI to build scrapers should be easy right?",
+   "url": "https://www.skyvern.com/blog/asking-ai-to-build-scrapers-should-be-easy-right/",
+   "author": "suchintan",
+   "points": 150,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=45620653"
+  },
+  {
+   "date": "2024-09-19",
+   "title": "We accidentally burned through 200GB of proxy bandwidth in 6 hours",
+   "url": "https://blog.skyvern.com/how-we-accidentally-burned-through-200gb-of-proxy-bandwidth-in-6-hours/",
+   "author": "suchintan",
+   "points": 96,
+   "comments": 137,
+   "hn": "https://news.ycombinator.com/item?id=41593410"
+  },
+  {
+   "date": "2025-01-17",
+   "title": "Skyvern Browser Agent 2.0: How We Reached State of the Art in Evals",
+   "url": "https://blog.skyvern.com/skyvern-2-0-state-of-the-art-web-navigation-with-85-8-on-webvoyager-eval/",
+   "author": "suchintan",
+   "points": 49,
+   "comments": 31,
+   "hn": "https://news.ycombinator.com/item?id=42738457"
+  },
+  {
+   "date": "2025-05-29",
+   "title": "Web Bench: a new way to compare AI browser agents",
+   "url": "https://blog.skyvern.com/web-bench-a-new-way-to-compare-ai-browser-agents/",
+   "author": "suchintan",
+   "points": 34,
+   "comments": 9,
+   "hn": "https://news.ycombinator.com/item?id=44126725"
+  }
+ ]
 }

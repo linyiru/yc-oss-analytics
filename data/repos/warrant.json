@@ -2190,5 +2190,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-06-25",
+   "title": "Why Google Zanzibar shines at building authorization",
+   "url": "https://blog.warrant.dev/why-zanzibar-shines-at-building-authorization/",
+   "author": "kkajla",
+   "points": 205,
+   "comments": 87,
+   "hn": "https://news.ycombinator.com/item?id=36470943"
+  },
+  {
+   "date": "2021-10-23",
+   "title": "Implementing Role Based Access Control in a Web Application",
+   "url": "https://blog.warrant.dev/implementing-role-based-access-control",
+   "author": "kkajla",
+   "points": 25,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=28970513"
+  },
+  {
+   "date": "2014-06-04",
+   "title": "Show HN: Warranty Genius ",
+   "url": "https://news.ycombinator.com/item?id=7845638",
+   "author": "codelitt",
+   "points": 25,
+   "comments": 15,
+   "hn": "https://news.ycombinator.com/item?id=7845638"
+  },
+  {
+   "date": "2022-03-02",
+   "title": "Self Service Permission Management for Your Customers with Warrant",
+   "url": "https://warrant.dev/features/self-service-dashboard",
+   "author": "kkajla",
+   "points": 8,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=30528601"
+  },
+  {
+   "date": "2023-06-29",
+   "title": "Show HN: Open-Source, Google Zanzibar Inspired Authorization Service",
+   "url": "https://github.com/warrant-dev/warrant",
+   "author": "kkajla",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36521787"
+  },
+  {
+   "date": "2021-11-11",
+   "title": "Authorization in Multi-Tenant SaaS Apps",
+   "url": "https://docs.warrant.dev/guides/multi-tenant-saas",
+   "author": "kkajla",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=29192516"
+  }
+ ]
 }

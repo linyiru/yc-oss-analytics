@@ -4801,5 +4801,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2025-03-11",
+  "name": "Reworkd",
+  "tagline": "Scrape 100s of unique websites using AI",
+  "votes": 277,
+  "comments": 42,
+  "url": "https://www.producthunt.com/products/reworkd/launches/reworkd"
+ },
+ "hn_events": [
+  {
+   "date": "2023-05-26",
+   "title": "Agent GPT – Assemble, configure, and deploy autonomous AI Agents in the browser",
+   "url": "https://agentgpt.reworkd.ai/",
+   "author": "kevinslin",
+   "points": 98,
+   "comments": 44,
+   "hn": "https://news.ycombinator.com/item?id=36079382"
+  },
+  {
+   "date": "2023-04-10",
+   "title": "AgentGPT: Autonomous AI in the Browser",
+   "url": "https://agentgpt.reworkd.ai/",
+   "author": "todsacerdoti",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35508813"
+  },
+  {
+   "date": "2023-08-14",
+   "title": "AgentGPT: Assemble, configure, and deploy AI Agents in the browser",
+   "url": "https://github.com/reworkd/AgentGPT",
+   "author": "olalonde",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37120788"
+  },
+  {
+   "date": "2023-04-11",
+   "title": "Agent GPT Beta Assemble, Configure, and Deploy Autonomous AI Agents",
+   "url": "https://agentgpt.reworkd.ai/",
+   "author": "jeroenvlek",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35529056"
+  },
+  {
+   "date": "2024-01-29",
+   "title": "AgentGPT: Assemble, configure, and deploy autonomous AI Agents in the browser",
+   "url": "https://github.com/reworkd/AgentGPT",
+   "author": "thatxliner",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39171993"
+  },
+  {
+   "date": "2023-04-13",
+   "title": "AgentGPT: OSS to deploy autonomous AI Agents in the browser",
+   "url": "https://github.com/reworkd/AgentGPT",
+   "author": "idonov",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35552753"
+  }
+ ]
 }

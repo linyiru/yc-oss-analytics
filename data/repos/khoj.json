@@ -5427,5 +5427,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2020-05-16",
+  "name": "Khoj",
+  "tagline": "Khoj helps you find the items in your enormous Figma file.",
+  "votes": 74,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/khoj/launches/khoj"
+ },
+ "hn_events": [
+  {
+   "date": "2023-07-30",
+   "title": "Show HN: Khoj – Chat offline with your second brain using Llama 2",
+   "url": "https://github.com/khoj-ai/khoj",
+   "author": "110",
+   "points": 565,
+   "comments": 150,
+   "hn": "https://news.ycombinator.com/item?id=36933452"
+  },
+  {
+   "date": "2023-07-08",
+   "title": "Khoj: An AI personal assistant for your digital brain",
+   "url": "https://khoj.dev/",
+   "author": "activatedgeek",
+   "points": 155,
+   "comments": 92,
+   "hn": "https://news.ycombinator.com/item?id=36641542"
+  },
+  {
+   "date": "2014-04-07",
+   "title": "Show HN: Khojo – Inspiring innovation in the form of shareable visual stories",
+   "url": "http://khojo.org",
+   "author": "nav",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=7544919"
+  },
+  {
+   "date": "2025-04-23",
+   "title": "Show HN: Annotated Paper – Easily read, annotate, and understand research papers",
+   "url": "https://annotatedpaper.khoj.dev/",
+   "author": "sabaimran",
+   "points": 3,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=43772692"
+  },
+  {
+   "date": "2025-08-21",
+   "title": "Blink Twice: Measuring Strategic Deception Amongst LLMs",
+   "url": "https://coup.khoj.dev/",
+   "author": "Leynos",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44971143"
+  },
+  {
+   "date": "2025-08-19",
+   "title": "Blink Twice: Measuring Strategic Deception Amongst LLMs",
+   "url": "https://coup.khoj.dev/",
+   "author": "sabaimran",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44951608"
+  }
+ ]
 }

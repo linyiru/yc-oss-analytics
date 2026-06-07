@@ -8635,5 +8635,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2020-11-12",
+  "name": "Airbyte",
+  "tagline": "Replicate data in minutes with prebuilt & custom connectors",
+  "votes": 131,
+  "comments": 22,
+  "url": "https://www.producthunt.com/products/airbyte/launches/airbyte"
+ },
+ "hn_events": [
+  {
+   "date": "2023-08-08",
+   "title": "Show HN: Chat with your data using LangChain, Pinecone, and Airbyte",
+   "url": "https://airbyte.com/tutorials/chat-with-your-data-using-openai-pinecone-airbyte-and-langchain",
+   "author": "mtricot",
+   "points": 220,
+   "comments": 59,
+   "hn": "https://news.ycombinator.com/item?id=37050532"
+  },
+  {
+   "date": "2024-01-11",
+   "title": "A Technical Dive into PostgreSQL's replication mechanisms",
+   "url": "https://airbyte.com/blog/a-guide-to-logical-replication-and-cdc-in-postgresql",
+   "author": "jacobprall",
+   "points": 210,
+   "comments": 25,
+   "hn": "https://news.ycombinator.com/item?id=38954867"
+  },
+  {
+   "date": "2022-10-24",
+   "title": "The evolution of the data engineer role",
+   "url": "https://airbyte.com/blog/data-engineering-past-present-and-future",
+   "author": "Arimbr",
+   "points": 167,
+   "comments": 117,
+   "hn": "https://news.ycombinator.com/item?id=33317126"
+  },
+  {
+   "date": "2026-05-05",
+   "title": "Show HN: Airbyte Agents – context for agents across multiple data sources",
+   "url": "https://news.ycombinator.com/item?id=48023496",
+   "author": "mtricot",
+   "points": 156,
+   "comments": 48,
+   "hn": "https://news.ycombinator.com/item?id=48023496"
+  },
+  {
+   "date": "2023-01-26",
+   "title": "Airbyte makes 100 alpha / beta connectors free",
+   "url": "https://airbyte.com/blog/why-airbyte-made-alpha-and-beta-connectors-free",
+   "author": "jeanlaf",
+   "points": 87,
+   "comments": 22,
+   "hn": "https://news.ycombinator.com/item?id=34533429"
+  },
+  {
+   "date": "2023-11-07",
+   "title": "ELTP: Extending ELT for Modern AI and Analytics",
+   "url": "https://airbyte.com/blog/eltp-extending-elt-for-modern-ai-and-analytics",
+   "author": "aaronsteers",
+   "points": 74,
+   "comments": 15,
+   "hn": "https://news.ycombinator.com/item?id=38178297"
+  }
+ ]
 }

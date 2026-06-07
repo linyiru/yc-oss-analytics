@@ -1896,5 +1896,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-05-13",
+   "title": "Show HN: HelixDB – Open-source vector-graph database for AI applications (Rust)",
+   "url": "https://github.com/HelixDB/helix-db/",
+   "author": "GeorgeCurtis",
+   "points": 237,
+   "comments": 112,
+   "hn": "https://news.ycombinator.com/item?id=43975423"
+  },
+  {
+   "date": "2025-04-11",
+   "title": "Show HN: HelixDB – Native graph and vector types for RAG and retrieval",
+   "url": "https://github.com/HelixDB/helix-db",
+   "author": "GeorgeCurtis",
+   "points": 25,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=43659999"
+  },
+  {
+   "date": "2025-02-24",
+   "title": "Show HN: HelixDB, Open-Source Hybrid Graph-Vector Database",
+   "url": "https://github.com/HelixDB/helix-db",
+   "author": "GeorgeCurtis",
+   "points": 4,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=43155338"
+  },
+  {
+   "date": "2026-02-20",
+   "title": "Show HN: HelixDB Explorer – A macOS GUI for HelixDB",
+   "url": "https://github.com/nodfans/helixdb-explorer",
+   "author": "jomamax",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47091275"
+  },
+  {
+   "date": "2026-02-25",
+   "title": "Show HN: A lightweight desktop explorer for HelixDB",
+   "url": "https://github.com/nodfans/helixdb-explorer",
+   "author": "jomamax",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47151691"
+  },
+  {
+   "date": "2025-06-12",
+   "title": "The Battle of the Storage Engines: RocksDB vs. LMDB",
+   "url": "https://www.helix-db.com/",
+   "author": "xavcochran",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44262494"
+  }
+ ]
 }

@@ -3977,5 +3977,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Superagent — Defender of AI agents 🥷",
+  "date": "2025-09-29",
+  "votes": 14,
+  "url": "https://www.ycombinator.com/launches/OVA-superagent-defender-of-ai-agents"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-09-09",
+   "title": "Show HN: Superagents – connect spreadsheets to any database, API or MCP server",
+   "url": "https://sourcetable.com/superagents",
+   "author": "mceoin",
+   "points": 35,
+   "comments": 13,
+   "hn": "https://news.ycombinator.com/item?id=45186904"
+  },
+  {
+   "date": "2025-11-18",
+   "title": "Are AI models getting safer over time, or is it just bullshit?",
+   "url": "https://www.superagent.sh/blog/gpt-vs-claude-ai-safety-benchmark",
+   "author": "homanp",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=45967078"
+  },
+  {
+   "date": "2023-10-30",
+   "title": "Superagent: The AI-assistant framework for LLMs",
+   "url": "https://www.superagent.sh/",
+   "author": "omarfarooq",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38076193"
+  },
+  {
+   "date": "2025-12-10",
+   "title": "SoC-2 is table stakes now. Here's what matters for AI products",
+   "url": "https://www.superagent.sh/blog/soc-2-is-table-stakes",
+   "author": "homanp",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=46224987"
+  },
+  {
+   "date": "2025-02-03",
+   "title": "ReAG: Reasoning-Augmented Generation",
+   "url": "https://www.superagent.sh/blog/reag-reasoning-augmented-generation",
+   "author": "atestu",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42922697"
+  },
+  {
+   "date": "2024-12-04",
+   "title": "Autonomous AI Agent Playing No Limit Texas Holdem'",
+   "url": "https://poker.superagent.sh",
+   "author": "homanp",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42317131"
+  }
+ ]
 }

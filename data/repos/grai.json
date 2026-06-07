@@ -1138,5 +1138,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-08-21",
+   "title": "Show HN: Permify 1.0 – Open-source fine-grained authorization service",
+   "url": "https://github.com/Permify/permify",
+   "author": "ucatbas",
+   "points": 154,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=41311489"
+  },
+  {
+   "date": "2016-03-29",
+   "title": "Show HN: Interactive, Visual Explanation of the GRAIL Handwriting Recognizer",
+   "url": "http://jackschaedler.github.io/handwriting-recognition/",
+   "author": "jackschaedler",
+   "points": 119,
+   "comments": 18,
+   "hn": "https://news.ycombinator.com/item?id=11380711"
+  },
+  {
+   "date": "2020-05-09",
+   "title": "Show HN: Bolt: A research language with finer-grained concurrency than Rust",
+   "url": "https://github.com/mukul-rathi/bolt",
+   "author": "mrathi12",
+   "points": 103,
+   "comments": 24,
+   "hn": "https://news.ycombinator.com/item?id=23122973"
+  },
+  {
+   "date": "2026-04-01",
+   "title": "Show HN: Sycamore – next gen Rust web UI library using fine-grained reactivity",
+   "url": "https://sycamore.dev",
+   "author": "lukechu10",
+   "points": 95,
+   "comments": 75,
+   "hn": "https://news.ycombinator.com/item?id=47599956"
+  },
+  {
+   "date": "2023-12-09",
+   "title": "Show HN: Fine-grained stylistic control of LLMs using model arithmetic",
+   "url": "https://github.com/eth-sri/language-model-arithmetic",
+   "author": "OcelotBane",
+   "points": 85,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=38586014"
+  },
+  {
+   "date": "2025-03-11",
+   "title": "Show HN: MCPGod: Fine-grained control over MCP clients, servers, and tools",
+   "url": "https://github.com/mcpgod/cli",
+   "author": "gavinuhma",
+   "points": 37,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=43331973"
+  }
+ ]
 }

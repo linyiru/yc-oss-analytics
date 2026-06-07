@@ -3839,5 +3839,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-09-18",
+   "title": "Show HN: HyperDX – open-source dev-friendly Datadog alternative",
+   "url": "https://github.com/hyperdxio/hyperdx",
+   "author": "mikeshi42",
+   "points": 722,
+   "comments": 163,
+   "hn": "https://news.ycombinator.com/item?id=37558357"
+  },
+  {
+   "date": "2025-06-05",
+   "title": "Show HN: ClickStack – Open-source Datadog alternative by ClickHouse and HyperDX",
+   "url": "https://github.com/hyperdxio/hyperdx",
+   "author": "mikeshi42",
+   "points": 241,
+   "comments": 83,
+   "hn": "https://news.ycombinator.com/item?id=44194082"
+  },
+  {
+   "date": "2024-11-12",
+   "title": "Show HN: Open-source Kibana alternative for logs and traces in ClickHouse",
+   "url": "https://github.com/hyperdxio/hyperdx/tree/v2",
+   "author": "mikeshi42",
+   "points": 125,
+   "comments": 40,
+   "hn": "https://news.ycombinator.com/item?id=42117970"
+  },
+  {
+   "date": "2024-04-02",
+   "title": "Show HN: HyperDX Local – Open-source Datadog alternative for local debugging/dev",
+   "url": "https://github.com/hyperdxio/hyperdx/blob/main/LOCAL.md",
+   "author": "mikeshi42",
+   "points": 29,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=39907137"
+  },
+  {
+   "date": "2025-02-27",
+   "title": "Logs Matter More Than Metrics",
+   "url": "https://www.hyperdx.io/blog/logs-matter-more-than-metrics",
+   "author": "mathewpregasen",
+   "points": 24,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=43199096"
+  },
+  {
+   "date": "2025-05-29",
+   "title": "Show HN: ClickStack – open-source Datadog alternative by ClickHouse and HyperDX",
+   "url": "https://github.com/hyperdxio/hyperdx",
+   "author": "mikeshi42",
+   "points": 14,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44128307"
+  }
+ ]
 }

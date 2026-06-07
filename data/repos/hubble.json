@@ -6718,5 +6718,54 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-07-12",
+   "title": "Show HN: Deriving Hubble's constant from fundamental constants",
+   "url": "https://colab.research.google.com/drive/1K1qoUFvqZp1fWbpcKJWq63nflgwS0ZHh?usp=sharing",
+   "author": "sahil50",
+   "points": 62,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=27806572"
+  },
+  {
+   "date": "2022-07-13",
+   "title": "Show HN: A JWST/Hubble deepfield comparison on a zoomable/pannable map interface",
+   "url": "https://academo.org/demos/james-webb-vs-hubble-telescope-comparison/",
+   "author": "outputchannel",
+   "points": 61,
+   "comments": 36,
+   "hn": "https://news.ycombinator.com/item?id=32082809"
+  },
+  {
+   "date": "2014-01-18",
+   "title": "Show HN: Hubble Ultra Deep Field Viewer",
+   "url": "http://domitable.com/static/zoomers/hudf.html",
+   "author": "parksy",
+   "points": 43,
+   "comments": 16,
+   "hn": "https://news.ycombinator.com/item?id=7080715"
+  },
+  {
+   "date": "2021-06-03",
+   "title": "Show HN: Lightdash – An open source Looker alternative",
+   "url": "https://github.com/lightdash/lightdash",
+   "author": "oliver101",
+   "points": 34,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=27380170"
+  },
+  {
+   "date": "2023-05-05",
+   "title": "Is GitHub a worthy alternative to Jira?",
+   "url": "https://www.lightdash.com/blogpost/is-github-a-worthy-alternative-to-jira",
+   "author": "oliver101",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35829594"
+  }
+ ]
 }

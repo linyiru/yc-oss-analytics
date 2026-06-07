@@ -5499,5 +5499,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-10-04",
+   "title": "Show HN: Shuttle – Build and ship backends without writing infrastructure files",
+   "url": "https://github.com/shuttle-hq/shuttle",
+   "author": "dohman",
+   "points": 167,
+   "comments": 66,
+   "hn": "https://news.ycombinator.com/item?id=37763822"
+  },
+  {
+   "date": "2013-05-24",
+   "title": "Show HN: log-shuttle – log delivery over HTTPs written in Go",
+   "url": "http://log-shuttle.io/",
+   "author": "ryandotsmith",
+   "points": 71,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=5764309"
+  },
+  {
+   "date": "2020-10-06",
+   "title": "Show HN: Deploy to K8s without YAML using ShuttleOps",
+   "url": "https://go.shuttleops.io/no-code-docker-kubernetes",
+   "author": "gscho",
+   "points": 62,
+   "comments": 54,
+   "hn": "https://news.ycombinator.com/item?id=24698326"
+  },
+  {
+   "date": "2017-07-18",
+   "title": "Show HN: Shuttlefinance.com, the Employee Benefit Savings App",
+   "url": "https://www.shuttlefinance.com/",
+   "author": "bambam2018",
+   "points": 22,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=14798589"
+  },
+  {
+   "date": "2020-05-04",
+   "title": "Show HN: ShuttleOps – A New No-Code CI/CD Solution with a Free Tier",
+   "url": "https://www.shuttleops.io/",
+   "author": "gscho",
+   "points": 13,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=23068672"
+  },
+  {
+   "date": "2023-06-02",
+   "title": "Show HN: Shuttle AI – Instant apps, from a single prompt",
+   "url": "https://www.shuttle.rs/ai",
+   "author": "openquery",
+   "points": 12,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36166580"
+  }
+ ]
 }

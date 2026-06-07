@@ -5452,5 +5452,75 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Reflex: AI app builder for creating production-grade web apps entirely in Python",
+  "date": "2025-10-22",
+  "votes": 10,
+  "url": "https://www.ycombinator.com/launches/OfZ-reflex-ai-app-builder-for-creating-production-grade-web-apps-entirely-in-python"
+ },
+ "ph_event": {
+  "date": "2015-05-19",
+  "name": "Reflex",
+  "tagline": "A fast-paced Quake-esque competitive arena shooter",
+  "votes": 61,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/reflex/launches/reflex"
+ },
+ "hn_events": [
+  {
+   "date": "2026-05-05",
+   "title": "Computer Use is 45x more expensive than structured APIs",
+   "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+   "author": "palashawas",
+   "points": 495,
+   "comments": 271,
+   "hn": "https://news.ycombinator.com/item?id=48024859"
+  },
+  {
+   "date": "2023-08-02",
+   "title": "Reflex – Web apps in pure Python",
+   "url": "https://github.com/reflex-dev/reflex",
+   "author": "simonpure",
+   "points": 254,
+   "comments": 144,
+   "hn": "https://news.ycombinator.com/item?id=36972398"
+  },
+  {
+   "date": "2024-03-22",
+   "title": "Designing a Pure Python Web Framework",
+   "url": "https://reflex.dev/blog/2024-03-21-reflex-architecture/",
+   "author": "picklelo",
+   "points": 117,
+   "comments": 53,
+   "hn": "https://news.ycombinator.com/item?id=39793505"
+  },
+  {
+   "date": "2024-12-19",
+   "title": "Top Python Web Development Frameworks in 2025",
+   "url": "https://reflex.dev/blog/2024-12-20-python-comparison/",
+   "author": "tgotsman",
+   "points": 19,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=42465042"
+  },
+  {
+   "date": "2024-11-15",
+   "title": "Game 987, Like 2048 but Fibonacci",
+   "url": "https://987.reflex.dev/",
+   "author": "adhami",
+   "points": 13,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42149840"
+  },
+  {
+   "date": "2025-05-16",
+   "title": "Overview and analysis of AI App Builders in 2025",
+   "url": "https://reflex.dev/blog/2025-05-16-top-5-ai-app-builders/",
+   "author": "tgotsman",
+   "points": 11,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44007436"
+  }
+ ]
 }

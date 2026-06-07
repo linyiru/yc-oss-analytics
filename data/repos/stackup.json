@@ -1181,5 +1181,18 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-12-24",
+   "title": "Show HN: Stackup – Configure your dev env for cross-platform",
+   "url": "https://github.com/ARAldhafeeri/stackup",
+   "author": "araldhafeeri",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46375155"
+  }
+ ]
 }

@@ -8328,5 +8328,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2021-02-24",
+  "name": "SigNoz",
+  "tagline": "Open source alternative to Datadog",
+  "votes": 228,
+  "comments": 35,
+  "url": "https://www.producthunt.com/products/signoz/launches/signoz"
+ },
+ "hn_events": [
+  {
+   "date": "2022-10-01",
+   "title": "Show HN: SigNoz – open-source alternative to DataDog, NewRelic",
+   "url": "https://github.com/SigNoz/signoz",
+   "author": "pranay01",
+   "points": 510,
+   "comments": 132,
+   "hn": "https://news.ycombinator.com/item?id=33049046"
+  },
+  {
+   "date": "2023-10-22",
+   "title": "OpenTelemetry at Scale: Using Kafka to handle bursty traffic",
+   "url": "https://signoz.io/blog/maximizing-scalability-apache-kafka-and-opentelemetry/",
+   "author": "pranay01",
+   "points": 181,
+   "comments": 51,
+   "hn": "https://news.ycombinator.com/item?id=37978060"
+  },
+  {
+   "date": "2024-01-12",
+   "title": "The current state of OpenTelemetry",
+   "url": "https://signoz.io/blog/opentelemetry-roundup-2023/",
+   "author": "pranay01",
+   "points": 160,
+   "comments": 93,
+   "hn": "https://news.ycombinator.com/item?id=38971178"
+  },
+  {
+   "date": "2025-06-11",
+   "title": "GitHub CI/CD observability with OpenTelemetry step by step guide",
+   "url": "https://signoz.io/blog/cicd-observability-with-opentelemetry/",
+   "author": "ankit01-oss",
+   "points": 152,
+   "comments": 59,
+   "hn": "https://news.ycombinator.com/item?id=44247020"
+  },
+  {
+   "date": "2025-09-27",
+   "title": "LLM Observability in the Wild – Why OpenTelemetry Should Be the Standard",
+   "url": "https://signoz.io/blog/llm-observability-opentelemetry/",
+   "author": "pranay01",
+   "points": 144,
+   "comments": 44,
+   "hn": "https://news.ycombinator.com/item?id=45398467"
+  },
+  {
+   "date": "2025-09-10",
+   "title": "Adding OR logic forced us to confront why users preferred raw SQL",
+   "url": "https://signoz.io/blog/query-builder-v5/",
+   "author": "ak_builds",
+   "points": 95,
+   "comments": 87,
+   "hn": "https://news.ycombinator.com/item?id=45196991"
+  }
+ ]
 }

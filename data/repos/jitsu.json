@@ -6099,5 +6099,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2012-11-12",
+   "title": "RoboNode - Simulated robot competition",
+   "url": "http://nic.nko3.jitsu.com/",
+   "author": "michael_fine",
+   "points": 13,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=4771376"
+  },
+  {
+   "date": "2012-01-17",
+   "title": "Building a distributed and anonymous cloud database",
+   "url": "http://blog.jitsu.com/building-an-anonymous-cloud-database",
+   "author": "JohnConnor",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=3473955"
+  },
+  {
+   "date": "2013-07-14",
+   "title": "Realtime Reykjavik Traffic (speed & heading) using D3, Leaflet and socket.io",
+   "url": "http://traffix.jitsu.com/",
+   "author": "zjonsson",
+   "points": 3,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=6041589"
+  },
+  {
+   "date": "2012-11-16",
+   "title": "Apily - The same-origin-policy cracker",
+   "url": "http://romejs.nko3.jitsu.com/index.html",
+   "author": "leoplct",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=4795817"
+  },
+  {
+   "date": "2025-03-09",
+   "title": "Show HN: I built a jiu jitsu gym database",
+   "url": "https://jiujitsunearme.org",
+   "author": "martentamm",
+   "points": 1,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=43313332"
+  },
+  {
+   "date": "2020-08-26",
+   "title": "Show HN: Queryable Knowledge Base for Brazilian Jiu-Jitsu (BJJ)",
+   "url": "https://combatknowledge.com/",
+   "author": "laybak",
+   "points": 1,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=24282727"
+  }
+ ]
 }

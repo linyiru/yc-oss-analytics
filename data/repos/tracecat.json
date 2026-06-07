@@ -2403,5 +2403,27 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-03-25",
+   "title": "Show HN: Tracecat – Open-source security alert automation / SOAR alternative",
+   "url": "https://github.com/TracecatHQ/tracecat",
+   "author": "neochris",
+   "points": 264,
+   "comments": 65,
+   "hn": "https://news.ycombinator.com/item?id=39819458"
+  },
+  {
+   "date": "2024-02-23",
+   "title": "Show HN: Generate malicious CloudTrail logs with AI agents",
+   "url": "https://simulation.tracecat.com/workbench",
+   "author": "neochris",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=39476084"
+  }
+ ]
 }

@@ -4306,5 +4306,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-08-06",
+   "title": "Full text search over Postgres: Elasticsearch vs. alternatives",
+   "url": "https://blog.paradedb.com/pages/elasticsearch_vs_postgres",
+   "author": "philippemnoel",
+   "points": 319,
+   "comments": 121,
+   "hn": "https://news.ycombinator.com/item?id=41173288"
+  },
+  {
+   "date": "2024-08-12",
+   "title": "Why we picked AGPL",
+   "url": "https://blog.paradedb.com/pages/agpl",
+   "author": "philippemnoel",
+   "points": 267,
+   "comments": 305,
+   "hn": "https://news.ycombinator.com/item?id=41227172"
+  },
+  {
+   "date": "2025-07-21",
+   "title": "We made Postgres writes faster, but it broke replication",
+   "url": "https://www.paradedb.com/blog/lsm_trees_in_postgres",
+   "author": "philippemnoel",
+   "points": 250,
+   "comments": 52,
+   "hn": "https://news.ycombinator.com/item?id=44633933"
+  },
+  {
+   "date": "2024-02-05",
+   "title": "Transforming Postgres into a Fast OLAP Database",
+   "url": "https://blog.paradedb.com/pages/introducing_analytics",
+   "author": "philippemnoel",
+   "points": 245,
+   "comments": 60,
+   "hn": "https://news.ycombinator.com/item?id=39263760"
+  },
+  {
+   "date": "2023-10-08",
+   "title": "Pg_bm25: Elastic-Quality Full Text Search Inside Postgres",
+   "url": "https://docs.paradedb.com/blog/introducing_bm25",
+   "author": "billwashere",
+   "points": 206,
+   "comments": 71,
+   "hn": "https://news.ycombinator.com/item?id=37809126"
+  },
+  {
+   "date": "2024-05-13",
+   "title": "Pg_lakehouse: Query Any Data Lake from Postgres",
+   "url": "https://github.com/paradedb/paradedb/tree/dev/pg_lakehouse",
+   "author": "landingunless",
+   "points": 171,
+   "comments": 72,
+   "hn": "https://news.ycombinator.com/item?id=40343131"
+  }
+ ]
 }

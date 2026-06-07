@@ -4483,5 +4483,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2024-07-29",
+  "name": "Confident AI",
+  "tagline": "all-in-one LLM evaluation platform",
+  "votes": 86,
+  "comments": 20,
+  "url": "https://www.producthunt.com/products/confident-ai/launches/confident-ai"
+ },
+ "hn_events": [
+  {
+   "date": "2023-08-28",
+   "title": "Unit Test LlamaIndex with DeepEval",
+   "url": "https://docs.confident-ai.com/docs/tutorials/evaluating-llamaindex",
+   "author": "jacky2wong",
+   "points": 35,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=37295408"
+  },
+  {
+   "date": "2023-12-11",
+   "title": "Show HN: I implemented evals metrics for LLMs that runs locally on your machine",
+   "url": "https://github.com/confident-ai/deepeval",
+   "author": "3d27",
+   "points": 22,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=38606787"
+  },
+  {
+   "date": "2023-09-25",
+   "title": "Show HN: DeepEval – Evaluation and Unit Testing for LLMs",
+   "url": "https://github.com/confident-ai/deepeval",
+   "author": "jacky2wong",
+   "points": 18,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=37649856"
+  },
+  {
+   "date": "2023-08-16",
+   "title": "Tackling the Weaknesses of BertScore",
+   "url": "https://docs.confident-ai.com/docs/metrics/bertscore",
+   "author": "jacky2wong",
+   "points": 9,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=37143995"
+  },
+  {
+   "date": "2024-01-24",
+   "title": "Everything I know about LLM evaluation metrics",
+   "url": "https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation",
+   "author": "3d27",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39115896"
+  },
+  {
+   "date": "2023-10-06",
+   "title": "Show HN: DeepEval – Unit Testing for LLMs (Open Science)",
+   "url": "https://github.com/confident-ai/deepeval",
+   "author": "jacky2wong",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37787328"
+  }
+ ]
 }

@@ -9698,5 +9698,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2022-10-03",
+   "title": "Postgres WASM",
+   "url": "https://supabase.com/blog/postgres-wasm",
+   "author": "kiwicopple",
+   "points": 887,
+   "comments": 185,
+   "hn": "https://news.ycombinator.com/item?id=33067962"
+  },
+  {
+   "date": "2024-04-19",
+   "title": "Supabase Storage now supports the S3 protocol",
+   "url": "https://supabase.com/blog/s3-compatible-storage",
+   "author": "inian",
+   "points": 501,
+   "comments": 187,
+   "hn": "https://news.ycombinator.com/item?id=40083807"
+  },
+  {
+   "date": "2021-12-03",
+   "title": "Pg_GraphQL: A GraphQL Extension for PostgreSQL",
+   "url": "https://supabase.com/blog/2021/12/03/pg-graphql",
+   "author": "samwillis",
+   "points": 431,
+   "comments": 99,
+   "hn": "https://news.ycombinator.com/item?id=29430720"
+  },
+  {
+   "date": "2025-09-10",
+   "title": "OrioleDB Patent: now freely available to the Postgres community",
+   "url": "https://supabase.com/blog/orioledb-patent-free",
+   "author": "tosh",
+   "points": 413,
+   "comments": 153,
+   "hn": "https://news.ycombinator.com/item?id=45196173"
+  },
+  {
+   "date": "2024-08-12",
+   "title": "Postgres.new: In-browser Postgres with an AI interface",
+   "url": "https://supabase.com/blog/postgres-new",
+   "author": "kiwicopple",
+   "points": 366,
+   "comments": 106,
+   "hn": "https://news.ycombinator.com/item?id=41224286"
+  },
+  {
+   "date": "2022-08-18",
+   "title": "Supabase – Realtime: Multiplayer Edition",
+   "url": "https://supabase.com/blog/supabase-realtime-multiplayer-general-availability",
+   "author": "samwillis",
+   "points": 356,
+   "comments": 143,
+   "hn": "https://news.ycombinator.com/item?id=32510405"
+  }
+ ],
+ "ph_event": {
+  "date": "2020-05-27",
+  "name": "Supabase (Alpha)",
+  "tagline": "An open source Firebase alternative",
+  "votes": 457,
+  "comments": 38,
+  "url": "https://www.producthunt.com/products/supabase/launches/supabase-alpha"
+ },
+ "yc_launch": null
 }

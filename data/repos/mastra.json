@@ -2739,5 +2739,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2026-01-21",
+  "name": "Mastra 1.0",
+  "tagline": "Build AI agents with a modern TypeScript stack",
+  "votes": 463,
+  "comments": 53,
+  "url": "https://www.producthunt.com/products/mastra/launches/mastra-1-0"
+ },
+ "hn_events": [
+  {
+   "date": "2025-02-19",
+   "title": "Show HN: Mastra – Open-source JS agent framework, by the developers of Gatsby",
+   "url": "https://github.com/mastra-ai/mastra",
+   "author": "calcsam",
+   "points": 442,
+   "comments": 154,
+   "hn": "https://news.ycombinator.com/item?id=43103073"
+  },
+  {
+   "date": "2025-06-10",
+   "title": "Show HN: A “Course” as an MCP Server",
+   "url": "https://mastra.ai/course",
+   "author": "codekarate",
+   "points": 213,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=44241202"
+  },
+  {
+   "date": "2026-01-20",
+   "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
+   "url": "https://github.com/mastra-ai/mastra",
+   "author": "calcsam",
+   "points": 213,
+   "comments": 70,
+   "hn": "https://news.ycombinator.com/item?id=46693959"
+  },
+  {
+   "date": "2025-04-10",
+   "title": "The MCP Registry Registry",
+   "url": "https://mastra.ai/mcp-registry-registry",
+   "author": "codekarate",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43644789"
+  },
+  {
+   "date": "2025-08-06",
+   "title": "Show HN: Principles of Building AI Agents book [pdf]",
+   "url": "https://github.com/mastra-ai/mastra/blob/main/book/principles-of-building-ai-agents.pdf",
+   "author": "calcsam",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44812367"
+  },
+  {
+   "date": "2025-07-11",
+   "title": "Mastra is now Apache 2.0 licensed",
+   "url": "https://mastra.ai/blog/apache-license",
+   "author": "codekarate",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44532082"
+  }
+ ]
 }

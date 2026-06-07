@@ -11314,5 +11314,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2015-12-30",
+   "title": "In Memoriam: Ian Murdock",
+   "url": "http://blog.docker.com/2015/12/ian-murdock/",
+   "author": "spb",
+   "points": 1457,
+   "comments": 366,
+   "hn": "https://news.ycombinator.com/item?id=10813524"
+  },
+  {
+   "date": "2020-09-21",
+   "title": "I no longer build software",
+   "url": "https://github.com/docker/cli/issues/267#issuecomment-695149477",
+   "author": "tagawa",
+   "points": 1287,
+   "comments": 856,
+   "hn": "https://news.ycombinator.com/item?id=24541964"
+  },
+  {
+   "date": "2016-03-24",
+   "title": "Docker for Mac and Windows Beta",
+   "url": "https://blog.docker.com/2016/03/docker-for-mac-windows-beta/",
+   "author": "ah3rz",
+   "points": 904,
+   "comments": 239,
+   "hn": "https://news.ycombinator.com/item?id=11352389"
+  },
+  {
+   "date": "2018-03-28",
+   "title": "Au Revoir",
+   "url": "https://blog.docker.com/2018/03/au-revoir/",
+   "author": "zapita",
+   "points": 898,
+   "comments": 287,
+   "hn": "https://news.ycombinator.com/item?id=16698932"
+  },
+  {
+   "date": "2025-06-18",
+   "title": "Show HN: Unregistry – “docker push” directly to servers without a registry",
+   "url": "https://github.com/psviderski/unregistry",
+   "author": "psviderski",
+   "points": 726,
+   "comments": 164,
+   "hn": "https://news.ycombinator.com/item?id=44314085"
+  },
+  {
+   "date": "2014-06-09",
+   "title": "Docker 1.0",
+   "url": "http://blog.docker.com/2014/06/its-here-docker-1-0/",
+   "author": "dominotw",
+   "points": 709,
+   "comments": 130,
+   "hn": "https://news.ycombinator.com/item?id=7868791"
+  }
+ ]
 }

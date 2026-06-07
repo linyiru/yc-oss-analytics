@@ -637,5 +637,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-01-26",
+   "title": "Show HN: Infracost (YC W21) – Open-source cloud cost policies",
+   "url": "https://github.com/infracost/infracost",
+   "author": "hkh",
+   "points": 121,
+   "comments": 28,
+   "hn": "https://news.ycombinator.com/item?id=30086789"
+  },
+  {
+   "date": "2023-08-09",
+   "title": "Show HN: Infracost (YC W21): Be proactive with your cloud costs",
+   "url": "https://news.ycombinator.com/item?id=37062007",
+   "author": "hkh",
+   "points": 86,
+   "comments": 37,
+   "hn": "https://news.ycombinator.com/item?id=37062007"
+  },
+  {
+   "date": "2022-06-29",
+   "title": "Show HN: Infracost (YC W21): Cloud Costs for Terraform in VSCode",
+   "url": "https://news.ycombinator.com/item?id=31921313",
+   "author": "hugorut",
+   "points": 76,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=31921313"
+  },
+  {
+   "date": "2026-01-21",
+   "title": "Show HN: See the carbon impact of your cloud as you code",
+   "url": "https://dashboard.infracost.io/",
+   "author": "hkh",
+   "points": 67,
+   "comments": 31,
+   "hn": "https://news.ycombinator.com/item?id=46706668"
+  },
+  {
+   "date": "2021-03-19",
+   "title": "Show HN: Infracost diff – “Git diff” but for cloud costs",
+   "url": "https://github.com/infracost/infracost#show-diff-of-monthly-costs-between-current-and-planned-state",
+   "author": "akh",
+   "points": 16,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=26514409"
+  },
+  {
+   "date": "2026-05-19",
+   "title": "We cut Claude's token usage 79% by redesigning our CLI for agents",
+   "url": "https://www.infracost.io/resources/blog/we-cut-claude-s-token-usage-79-by-redesigning-our-cli-for-agents",
+   "author": "glenngillen",
+   "points": 12,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=48193230"
+  }
+ ]
 }

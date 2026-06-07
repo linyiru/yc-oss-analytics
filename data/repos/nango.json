@@ -6523,5 +6523,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-04-26",
+   "title": "Why is OAuth still hard in 2023?",
+   "url": "https://www.nango.dev/blog/why-is-oauth-still-hard",
+   "author": "bastienbeurier",
+   "points": 642,
+   "comments": 282,
+   "hn": "https://news.ycombinator.com/item?id=35713518"
+  },
+  {
+   "date": "2023-02-07",
+   "title": "Show HN: Open-source OAuth service for 40+ APIs",
+   "url": "https://www.nango.dev",
+   "author": "rguldener",
+   "points": 206,
+   "comments": 56,
+   "hn": "https://news.ycombinator.com/item?id=34693233"
+  },
+  {
+   "date": "2023-11-09",
+   "title": "Show HN: Nango – Open unified API for product integrations",
+   "url": "https://www.nango.dev?source=hn-nov-2023",
+   "author": "rguldener",
+   "points": 106,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=38206973"
+  },
+  {
+   "date": "2026-03-30",
+   "title": "What we learned building 100 API integrations with OpenCode",
+   "url": "https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+   "author": "rguldener",
+   "points": 99,
+   "comments": 21,
+   "hn": "https://news.ycombinator.com/item?id=47579818"
+  },
+  {
+   "date": "2022-12-15",
+   "title": "Finding traction without a product: Our process",
+   "url": "https://www.nango.dev/blog/our-process-for-finding-initial-traction-pre-product",
+   "author": "rguldener",
+   "points": 62,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=34000762"
+  },
+  {
+   "date": "2025-10-03",
+   "title": "Lessons learned from building an infrastructure devtool",
+   "url": "https://www.nango.dev/blog/lessons-learned-building-infrastructure-devtool",
+   "author": "rguldener",
+   "points": 24,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=45464145"
+  }
+ ]
 }

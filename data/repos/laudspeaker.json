@@ -3147,5 +3147,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-06-05",
+   "title": "Show HN: Laudspeaker – Open-source mobile push, SMS and email automation",
+   "url": "https://github.com/laudspeaker/laudspeaker",
+   "author": "abe94",
+   "points": 193,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=40585559"
+  },
+  {
+   "date": "2023-02-17",
+   "title": "Show HN: Laudspeaker – open-source customer journey automation",
+   "url": "https://github.com/laudspeaker/laudspeaker",
+   "author": "abe94",
+   "points": 148,
+   "comments": 41,
+   "hn": "https://news.ycombinator.com/item?id=34835559"
+  },
+  {
+   "date": "2024-10-24",
+   "title": "Self-Hosting Marketing Automation Software: A Guide",
+   "url": "https://www.laudspeaker.com/post/self-hosting-marketing-automation-software-a-guide",
+   "author": "mcharawi",
+   "points": 22,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=41937046"
+  },
+  {
+   "date": "2023-03-17",
+   "title": "Inspiration from finite state machines for no code tools",
+   "url": "https://laudspeaker.com/docs/engineering-blog/inspiration-from-finite-state-machines-for-no-code-tools",
+   "author": "abe94",
+   "points": 14,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=35199223"
+  },
+  {
+   "date": "2023-03-21",
+   "title": "Finite state machines and drag and drop editors",
+   "url": "https://laudspeaker.com/docs/engineering-blog/finite-state-machines-and-drag-and-drop-editors",
+   "author": "oipoloi",
+   "points": 12,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=35246323"
+  },
+  {
+   "date": "2023-02-16",
+   "title": "laudspeaker",
+   "url": "https://github.com/laudspeaker/laudspeaker",
+   "author": "mcharawi",
+   "points": 8,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=34823391"
+  }
+ ]
 }

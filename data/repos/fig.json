@@ -7562,5 +7562,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-08-18",
+  "name": "Fig",
+  "tagline": "A curated platform for funding and developing games",
+  "votes": 86,
+  "comments": 8,
+  "url": "https://www.producthunt.com/products/fig-4/launches/fig"
+ },
+ "hn_events": [
+  {
+   "date": "2022-05-01",
+   "title": "Fig (YC S20) – Adds IDE-style autocomplete to your existing terminal",
+   "url": "https://fig.io/",
+   "author": "behnamoh",
+   "points": 587,
+   "comments": 245,
+   "hn": "https://news.ycombinator.com/item?id=31222277"
+  },
+  {
+   "date": "2021-05-25",
+   "title": "Launch HN: Fig (YC S20) – Autocomplete for the Terminal",
+   "url": "https://fig.io?ref=hn",
+   "author": "mschrage",
+   "points": 559,
+   "comments": 377,
+   "hn": "https://news.ycombinator.com/item?id=27277819"
+  },
+  {
+   "date": "2019-06-22",
+   "title": "Show HN: A job board for companies fighting ageism in tech",
+   "url": "https://noageismintech.com/",
+   "author": "leonagano",
+   "points": 523,
+   "comments": 291,
+   "hn": "https://news.ycombinator.com/item?id=20252097"
+  },
+  {
+   "date": "2020-03-25",
+   "title": "Show HN: To fight quarantine boredom I build a site to watch movies with friends",
+   "url": "https://bingetogether.com/",
+   "author": "l1am0",
+   "points": 515,
+   "comments": 203,
+   "hn": "https://news.ycombinator.com/item?id=22687086"
+  },
+  {
+   "date": "2019-09-28",
+   "title": "Show HN: Bot Land, a game where you fight others via code",
+   "url": "https://bot.land/",
+   "author": "Adam13531",
+   "points": 444,
+   "comments": 87,
+   "hn": "https://news.ycombinator.com/item?id=21101918"
+  },
+  {
+   "date": "2022-08-07",
+   "title": "Show HN: Figure is a daily logic puzzle game",
+   "url": "https://figure.game",
+   "author": "sumul",
+   "points": 417,
+   "comments": 113,
+   "hn": "https://news.ycombinator.com/item?id=32376154"
+  }
+ ]
 }

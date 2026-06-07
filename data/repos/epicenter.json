@@ -2908,5 +2908,13 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Whispering: Local-First, Open-Source Speech to Text at Your Fingertips",
+  "date": "2025-08-12",
+  "votes": 24,
+  "url": "https://www.ycombinator.com/launches/OAh-whispering-local-first-open-source-speech-to-text-at-your-fingertips"
+ },
+ "ph_event": null,
+ "hn_events": []
 }

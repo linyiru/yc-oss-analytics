@@ -3609,5 +3609,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2024-11-05",
+   "title": "Show HN: Firecrawl-Simple – Stable fork of Firecrawl optimized for self-hosting",
+   "url": "https://github.com/devflowinc/firecrawl-simple",
+   "author": "skeptrune",
+   "points": 35,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=42056056"
+  },
+  {
+   "date": "2024-11-21",
+   "title": "Show HN: Llms.txt Generator – Turn websites into a text file to feed to any LLM",
+   "url": "https://llmstxt.firecrawl.dev/",
+   "author": "ericciarla",
+   "points": 28,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=42207756"
+  },
+  {
+   "date": "2024-04-16",
+   "title": "Show HN: API to turn entire websites into Markdown",
+   "url": "https://www.firecrawl.dev/",
+   "author": "cpeffer",
+   "points": 23,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=40055103"
+  },
+  {
+   "date": "2024-04-13",
+   "title": "Turn entire websites into LLM-ready data",
+   "url": "https://www.firecrawl.dev/",
+   "author": "nickca",
+   "points": 16,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=40026782"
+  },
+  {
+   "date": "2024-04-25",
+   "title": "Show HN: From SERP to LLM-Ready Data Markdown in Seconds with Firesearch",
+   "url": "https://docs.firecrawl.dev/articles/search-announcement",
+   "author": "cpeffer",
+   "points": 14,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40162610"
+  },
+  {
+   "date": "2024-09-13",
+   "title": "Scaling an AI scraping service to 300k requests a day",
+   "url": "https://www.firecrawl.dev/blog/an-adventure-in-scaling",
+   "author": "ericciarla",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41535513"
+  }
+ ],
+ "ph_event": {
+  "date": "2025-03-01",
+  "name": "Firecrawl",
+  "tagline": "Automate the Web, Save Time, Scale Faster.",
+  "votes": 9,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/firecrawl/launches/firecrawl"
+ },
+ "yc_launch": null
 }

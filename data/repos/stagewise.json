@@ -1459,5 +1459,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "stagewise: The frontend coding agent for production codebases",
+  "date": "2025-07-25",
+  "votes": 88,
+  "url": "https://www.ycombinator.com/launches/O3M-stagewise-the-frontend-coding-agent-for-production-codebases"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-08-05",
+   "title": "Show HN: Stagewise (YC S25) – Front end coding agent for existing codebases",
+   "url": "https://github.com/stagewise-io/stagewise",
+   "author": "juliangoetze",
+   "points": 46,
+   "comments": 50,
+   "hn": "https://news.ycombinator.com/item?id=44798553"
+  },
+  {
+   "date": "2025-08-25",
+   "title": "Show HN: Stagewise – frontend coding agent for real codebases",
+   "url": "https://stagewise.io/",
+   "author": "glenntws",
+   "points": 42,
+   "comments": 18,
+   "hn": "https://news.ycombinator.com/item?id=45015838"
+  },
+  {
+   "date": "2025-08-28",
+   "title": "Show HN: Karton is a simple, type-safe RPC and state-syncing framework (OSS,MIT)",
+   "url": "https://github.com/stagewise-io/stagewise/tree/main/packages/karton",
+   "author": "glenntws",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=45047310"
+  },
+  {
+   "date": "2025-06-02",
+   "title": "Show HN: We built a tool that makes Cursor as easy to use as V0 or Loveable",
+   "url": "https://github.com/stagewise-io/stagewise",
+   "author": "glenntws",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44162841"
+  },
+  {
+   "date": "2025-06-03",
+   "title": "Stagewise",
+   "url": "https://stagewise.io/",
+   "author": "handfuloflight",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44173418"
+  },
+  {
+   "date": "2026-04-08",
+   "title": "Show HN: stagewise: The coding agent built for the web - OSS [video]",
+   "url": "https://www.youtube.com/watch?v=hmICdmqBKc0",
+   "author": "glenntws",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47692369"
+  }
+ ]
 }

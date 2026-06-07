@@ -279,5 +279,8 @@
  "stars_daily": true,
  "curve_source": "gharchive",
  "curve_baseline": 0,
- "curve_partial": 0
+ "curve_partial": 0,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": []
 }

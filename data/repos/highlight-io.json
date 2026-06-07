@@ -4758,5 +4758,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-02-22",
+   "title": "Show HN: We’re open-sourcing our session replay tool",
+   "url": "https://github.com/highlight/highlight",
+   "author": "podoman",
+   "points": 408,
+   "comments": 71,
+   "hn": "https://news.ycombinator.com/item?id=34897645"
+  },
+  {
+   "date": "2023-04-20",
+   "title": "Show HN: We built a ClickHouse-based logging service",
+   "url": "https://github.com/highlight/highlight/blob/main/README.md",
+   "author": "vadman97",
+   "points": 192,
+   "comments": 110,
+   "hn": "https://news.ycombinator.com/item?id=35643255"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Show HN: An open source performance monitoring tool",
+   "url": "https://github.com/highlight/highlight/blob/3cc29388f99716833055d1aaa4a53d938d9e786e/README.md",
+   "author": "podoman",
+   "points": 135,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=39217000"
+  },
+  {
+   "date": "2024-05-14",
+   "title": "Optimizing ClickHouse: Tactics that worked for us",
+   "url": "https://www.highlight.io/blog/lw5-clickhouse-performance-optimization",
+   "author": "podoman",
+   "points": 131,
+   "comments": 25,
+   "hn": "https://news.ycombinator.com/item?id=40355875"
+  },
+  {
+   "date": "2023-09-27",
+   "title": "Show HN: Using LLMs and Embeddings to classify application errors",
+   "url": "https://github.com/highlight/highlight/tree/main/backend/embeddings",
+   "author": "vadman97",
+   "points": 65,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=37675894"
+  },
+  {
+   "date": "2024-10-02",
+   "title": "Alert Evaluations: Incremental Merges in ClickHouse",
+   "url": "https://www.highlight.io/blog/alert-evaluations-incremental-merges-in-clickhouse",
+   "author": "vadman97",
+   "points": 38,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=41720084"
+  }
+ ]
 }

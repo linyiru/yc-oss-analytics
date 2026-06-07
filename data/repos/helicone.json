@@ -4617,5 +4617,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-01-23",
+   "title": "Show HN: Helicone (YC W23) – OSS LLM Observability and Development Platform",
+   "url": "https://github.com/Helicone/helicone",
+   "author": "justintorre75",
+   "points": 29,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=42806254"
+  },
+  {
+   "date": "2026-03-03",
+   "title": "Helicone Is Joining Mintlify",
+   "url": "https://www.helicone.ai/blog/joining-mintlify",
+   "author": "mgw",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=47236209"
+  },
+  {
+   "date": "2023-03-12",
+   "title": "GitHub – Helicone/Helicone",
+   "url": "https://github.com/Helicone/helicone",
+   "author": "swyx",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35117911"
+  },
+  {
+   "date": "2024-11-15",
+   "title": "LLM Stack Guide",
+   "url": "https://www.helicone.ai/blog/llm-stack-guide",
+   "author": "justintorre75",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42152561"
+  },
+  {
+   "date": "2024-11-20",
+   "title": "We open-sourced pricing data for 300 LLM APIs",
+   "url": "https://www.helicone.ai/llm-cost",
+   "author": "colegottdank",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42199232"
+  },
+  {
+   "date": "2024-11-14",
+   "title": "Out with Golden Datasets: Here's Why Random Sampling Is Better",
+   "url": "https://www.helicone.ai/blog/prompt-evaluation-for-llms",
+   "author": "stack-overflown",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42139711"
+  }
+ ]
 }

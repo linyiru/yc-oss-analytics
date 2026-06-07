@@ -825,5 +825,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 491,
- "curve_partial": true
+ "curve_partial": true,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-05-28",
+   "title": "Show HN: Tesseral – Open-Source Auth",
+   "url": "https://github.com/tesseral-labs/tesseral",
+   "author": "ucarion",
+   "points": 193,
+   "comments": 86,
+   "hn": "https://news.ycombinator.com/item?id=44117059"
+  },
+  {
+   "date": "2025-06-05",
+   "title": "What a developer needs to know about SCIM",
+   "url": "https://tesseral.com/blog/what-a-developer-needs-to-know-about-scim",
+   "author": "noleary",
+   "points": 148,
+   "comments": 36,
+   "hn": "https://news.ycombinator.com/item?id=44196393"
+  },
+  {
+   "date": "2025-07-28",
+   "title": "Playing with more user-friendly methods for multi-factor authentication",
+   "url": "https://tesseral.com/blog/i-designed-some-more-user-friendly-methods-for-multi-factor-authentication",
+   "author": "noleary",
+   "points": 79,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=44716280"
+  },
+  {
+   "date": "2025-06-30",
+   "title": "Auth for B2B SaaS: it's not like auth for consumer software",
+   "url": "https://tesseral.com/blog/b2b-auth-isnt-that-similar-to-b2c-auth",
+   "author": "noleary",
+   "points": 75,
+   "comments": 45,
+   "hn": "https://news.ycombinator.com/item?id=44424256"
+  },
+  {
+   "date": "2025-06-18",
+   "title": "Playing with more user-friendly methods for multi-factor authentication",
+   "url": "https://tesseral.com/blog/i-designed-some-more-user-friendly-methods-for-multi-factor-authentication",
+   "author": "noleary",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44310865"
+  },
+  {
+   "date": "2025-08-26",
+   "title": "The strange and broken world of DMV login pages",
+   "url": "https://tesseral.com/blog/the-nevada-indiana-and-florida-dmvs-have-unusually-bad-login-pages",
+   "author": "noleary",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=45031374"
+  }
+ ]
 }

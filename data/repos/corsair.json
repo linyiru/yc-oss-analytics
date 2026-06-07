@@ -547,5 +547,18 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2016-03-10",
+   "title": "Show HN: Corsair Game – Minecraft Meets the Martian in Space",
+   "url": "https://corsair-game.net",
+   "author": "Nestoriaan",
+   "points": 54,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=11258869"
+  }
+ ]
 }

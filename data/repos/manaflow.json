@@ -853,5 +853,39 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "cmux: the open source terminal built for coding agents",
+  "date": "2026-03-03",
+  "votes": 733,
+  "url": "https://www.ycombinator.com/launches/PbB-cmux-the-open-source-terminal-built-for-coding-agents"
+ },
+ "ph_event": {
+  "date": "2024-08-14",
+  "name": "Manaflow",
+  "tagline": "Automate repetitive office work in tables",
+  "votes": 200,
+  "comments": 30,
+  "url": "https://www.producthunt.com/products/manaflow/launches/manaflow"
+ },
+ "hn_events": [
+  {
+   "date": "2026-02-19",
+   "title": "Show HN: cmux - Ghostty-based terminal with vertical tabs and notifications",
+   "url": "https://github.com/manaflow-ai/cmux",
+   "author": "lawrencechen",
+   "points": 198,
+   "comments": 77,
+   "hn": "https://news.ycombinator.com/item?id=47079718"
+  },
+  {
+   "date": "2026-04-07",
+   "title": "Cmux – The Terminal Built for Multitasking",
+   "url": "https://cmux.com",
+   "author": "jonbaer",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47672822"
+  }
+ ]
 }

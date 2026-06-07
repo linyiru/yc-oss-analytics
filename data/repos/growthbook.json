@@ -6621,5 +6621,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-08-06",
+   "title": "Show HN: Open-source A/B testing framework",
+   "url": "https://github.com/growthbook/growthbook",
+   "author": "cheeseblubber",
+   "points": 199,
+   "comments": 37,
+   "hn": "https://news.ycombinator.com/item?id=28088882"
+  },
+  {
+   "date": "2022-03-01",
+   "title": "Launch HN: GrowthBook (YC W22) – Open-source feature flagging and A/B testing",
+   "url": "https://www.growthbook.io/",
+   "author": "combat_wombat",
+   "points": 148,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=30515940"
+  },
+  {
+   "date": "2021-06-08",
+   "title": "Show HN: Open-source A/B testing platform",
+   "url": "https://github.com/growthbook/growthbook",
+   "author": "jrdorn",
+   "points": 11,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=27439671"
+  },
+  {
+   "date": "2025-05-21",
+   "title": "Don't Let Vibe Coding Become Vibe Shipping",
+   "url": "https://blog.growthbook.io/vibe-shipping/",
+   "author": "jdorn",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44054020"
+  },
+  {
+   "date": "2025-05-19",
+   "title": "Show HN: GrowthBook MCP Server for Feature Flagging and Experimentation",
+   "url": "https://github.com/growthbook/growthbook-mcp",
+   "author": "royalfig",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44035385"
+  },
+  {
+   "date": "2025-04-28",
+   "title": "Benchmark Scores Aren't Enough: A/B Testing AI in Production",
+   "url": "https://blog.growthbook.io/how-to-a-b-test-ai-a-practical-guide/",
+   "author": "royalfig",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43825682"
+  }
+ ]
 }

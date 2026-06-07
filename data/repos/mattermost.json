@@ -16714,5 +16714,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-06-24",
+  "name": "Mattermost",
+  "tagline": "Open source, on-premises, Slack alternative",
+  "votes": 123,
+  "comments": 29,
+  "url": "https://www.producthunt.com/products/mattermost/launches/mattermost"
+ },
+ "hn_events": [
+  {
+   "date": "2025-12-25",
+   "title": "Mattermost restricted access to old messages after 10000 limit is reached",
+   "url": "https://github.com/mattermost/mattermost/issues/34271",
+   "author": "xvilka",
+   "points": 385,
+   "comments": 250,
+   "hn": "https://news.ycombinator.com/item?id=46383675"
+  },
+  {
+   "date": "2022-06-24",
+   "title": "Mattermost – open-source platform for secure collaboration",
+   "url": "https://github.com/mattermost/mattermost-server",
+   "author": "punnerud",
+   "points": 264,
+   "comments": 127,
+   "hn": "https://news.ycombinator.com/item?id=31858829"
+  },
+  {
+   "date": "2024-05-15",
+   "title": "Making a Postgres query 1k times faster",
+   "url": "https://mattermost.com/blog/making-a-postgres-query-1000-times-faster/",
+   "author": "d0mine",
+   "points": 228,
+   "comments": 60,
+   "hn": "https://news.ycombinator.com/item?id=40372296"
+  },
+  {
+   "date": "2020-12-14",
+   "title": "Coordinated disclosure of XML roundtrip vulnerabilities in Go’s standard library",
+   "url": "https://mattermost.com/blog/coordinated-disclosure-go-xml-vulnerabilities/",
+   "author": "jupenur",
+   "points": 223,
+   "comments": 114,
+   "hn": "https://news.ycombinator.com/item?id=25420814"
+  },
+  {
+   "date": "2026-02-02",
+   "title": "LICENSE: _may be_ licensed to use source code; incorrect license grant",
+   "url": "https://github.com/mattermost/mattermost/issues/8886",
+   "author": "MallocVoidstar",
+   "points": 172,
+   "comments": 155,
+   "hn": "https://news.ycombinator.com/item?id=46861331"
+  },
+  {
+   "date": "2019-02-06",
+   "title": "Mattermost Raises $20M Series A Funding",
+   "url": "https://mattermost.com/blog/mattermost-raises-20m-series-a-funding/",
+   "author": "ylere",
+   "points": 142,
+   "comments": 57,
+   "hn": "https://news.ycombinator.com/item?id=19094523"
+  }
+ ]
 }

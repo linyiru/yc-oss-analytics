@@ -376,5 +376,27 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-07-27",
+   "title": "Show HN: I built an open-source tool to make on-call suck less",
+   "url": "https://github.com/opslane/opslane",
+   "author": "aray07",
+   "points": 319,
+   "comments": 169,
+   "hn": "https://news.ycombinator.com/item?id=41086620"
+  },
+  {
+   "date": "2026-04-09",
+   "title": "Verification Is the Next Bottleneck in AI-Assisted Development",
+   "url": "https://www.opslane.com/blog/verification-bottleneck",
+   "author": "aray07",
+   "points": 6,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=47710405"
+  }
+ ]
 }

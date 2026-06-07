@@ -17402,5 +17402,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2014-12-01",
+   "title": "CoreOS is building a container runtime, Rocket",
+   "url": "https://coreos.com/blog/rocket/",
+   "author": "kelseyhightower",
+   "points": 902,
+   "comments": 277,
+   "hn": "https://news.ycombinator.com/item?id=8682525"
+  },
+  {
+   "date": "2013-07-30",
+   "title": "Show HN: CoreOS, a Linux distro for containers",
+   "url": "http://coreos.com/",
+   "author": "polvi",
+   "points": 417,
+   "comments": 97,
+   "hn": "https://news.ycombinator.com/item?id=6128700"
+  },
+  {
+   "date": "2014-07-25",
+   "title": "CoreOS Stable Release",
+   "url": "https://coreos.com/blog/stable-release/",
+   "author": "brynary",
+   "points": 349,
+   "comments": 66,
+   "hn": "https://news.ycombinator.com/item?id=8086258"
+  },
+  {
+   "date": "2017-02-07",
+   "title": "Container orchestration: Moving from fleet to Kubernetes",
+   "url": "https://coreos.com/blog/migrating-from-fleet-to-kubernetes.html",
+   "author": "trojanowski",
+   "points": 283,
+   "comments": 73,
+   "hn": "https://news.ycombinator.com/item?id=13592864"
+  },
+  {
+   "date": "2016-06-01",
+   "title": "Torus: A distributed storage system by CoreOS",
+   "url": "https://coreos.com/blog/torus-distributed-storage-by-coreos.html",
+   "author": "philips",
+   "points": 267,
+   "comments": 183,
+   "hn": "https://news.ycombinator.com/item?id=11816122"
+  },
+  {
+   "date": "2017-05-19",
+   "title": "Introducing zetcd",
+   "url": "https://coreos.com/blog/introducing-zetcd",
+   "author": "rtp",
+   "points": 264,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=14378655"
+  }
+ ],
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-06-30",
+  "name": "CoreOS",
+  "tagline": "Open Source Projects for Linux Containers.",
+  "votes": 2,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/coreos/launches/coreos"
+ }
 }

@@ -7272,5 +7272,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-12-28",
+   "title": "Is It Time for the JavaScript Temporal API?",
+   "url": "https://blog.openreplay.com/is-it-time-for-the-javascript-temporal-api/",
+   "author": "ceeb",
+   "points": 156,
+   "comments": 100,
+   "hn": "https://news.ycombinator.com/item?id=29712118"
+  },
+  {
+   "date": "2022-04-19",
+   "title": "Ajax Battle: XMLHttpRequest vs. the Fetch API",
+   "url": "https://blog.openreplay.com/ajax-battle-xmlhttprequest-vs-the-fetch-api/",
+   "author": "ceeb",
+   "points": 63,
+   "comments": 58,
+   "hn": "https://news.ycombinator.com/item?id=31084264"
+  },
+  {
+   "date": "2022-02-09",
+   "title": "GCP just cost me over $1k because of a small OSS bug",
+   "url": "https://github.com/openreplay/openreplay/issues/311",
+   "author": "warent",
+   "points": 26,
+   "comments": 15,
+   "hn": "https://news.ycombinator.com/item?id=30267628"
+  },
+  {
+   "date": "2022-01-11",
+   "title": "Form Validation Using JavaScript's Constraint Validation API",
+   "url": "https://blog.openreplay.com/form-validation-using-javascript-s-constraint-validation-api/",
+   "author": "ceeb",
+   "points": 15,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=29889877"
+  },
+  {
+   "date": "2021-10-27",
+   "title": "Another NPM Package Is Highjacked",
+   "url": "https://blog.openreplay.com/another-npm-package-is-highjacked-and-it-s-your-fault-that-this-happened/",
+   "author": "Liriel",
+   "points": 13,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=29012928"
+  },
+  {
+   "date": "2021-06-10",
+   "title": "OpenReplay is developer-friendly, open-source session replay",
+   "url": "https://openreplay.com/",
+   "author": "tilt",
+   "points": 12,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=27464600"
+  }
+ ]
 }

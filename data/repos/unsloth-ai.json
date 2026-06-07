@@ -4160,5 +4160,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2025-01-28",
+   "title": "Run DeepSeek R1 Dynamic 1.58-bit",
+   "url": "https://unsloth.ai/blog/deepseekr1-dynamic",
+   "author": "noch",
+   "points": 767,
+   "comments": 332,
+   "hn": "https://news.ycombinator.com/item?id=42850222"
+  },
+  {
+   "date": "2026-03-07",
+   "title": "How to run Qwen 3.5 locally",
+   "url": "https://unsloth.ai/docs/models/qwen3.5",
+   "author": "Curiositry",
+   "points": 490,
+   "comments": 168,
+   "hn": "https://news.ycombinator.com/item?id=47292522"
+  },
+  {
+   "date": "2026-03-04",
+   "title": "Qwen3.5 Fine-Tuning Guide",
+   "url": "https://unsloth.ai/docs/models/qwen3.5/fine-tune",
+   "author": "bilsbie",
+   "points": 416,
+   "comments": 107,
+   "hn": "https://news.ycombinator.com/item?id=47246296"
+  },
+  {
+   "date": "2026-03-17",
+   "title": "Unsloth Studio",
+   "url": "https://unsloth.ai/docs/new/studio",
+   "author": "brainless",
+   "points": 388,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=47414032"
+  },
+  {
+   "date": "2023-12-01",
+   "title": "Show HN: 80% faster, 50% less memory, 0% loss of accuracy Llama finetuning",
+   "url": "https://github.com/unslothai/unsloth",
+   "author": "danielhanchen",
+   "points": 385,
+   "comments": 119,
+   "hn": "https://news.ycombinator.com/item?id=38487199"
+  },
+  {
+   "date": "2026-02-28",
+   "title": "Unsloth Dynamic 2.0 GGUFs",
+   "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+   "author": "tosh",
+   "points": 237,
+   "comments": 68,
+   "hn": "https://news.ycombinator.com/item?id=47192505"
+  }
+ ],
+ "yc_launch": null,
+ "ph_event": null
 }

@@ -8287,5 +8287,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-05-11",
+   "title": "Supertokens: Open-Source Alternative to Auth0 / Firebase Auth / AWS Cognito",
+   "url": "https://github.com/supertokens/supertokens-core",
+   "author": "nateb2022",
+   "points": 212,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=35895840"
+  },
+  {
+   "date": "2021-04-20",
+   "title": "Open source self-hostable auth0 alternative",
+   "url": "https://github.com/supertokens/supertokens-core",
+   "author": "cheeseblubber",
+   "points": 10,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=26880554"
+  },
+  {
+   "date": "2023-05-10",
+   "title": "SuperTokens – Open-Source User Authentication",
+   "url": "https://supertokens.com",
+   "author": "doodlesdev",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35891800"
+  },
+  {
+   "date": "2022-03-23",
+   "title": "Open Source Auth0 Alternative",
+   "url": "https://github.com/supertokens/supertokens-core",
+   "author": "cheeseblubber",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=30779960"
+  },
+  {
+   "date": "2022-01-05",
+   "title": "OSS self-hostable Auth0 alternative",
+   "url": "https://github.com/supertokens/supertokens-core",
+   "author": "cheeseblubber",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=29810100"
+  },
+  {
+   "date": "2024-09-24",
+   "title": "SuperTokens – open-source User Authentication",
+   "url": "https://supertokens.com/",
+   "author": "aaossa",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41633109"
+  }
+ ]
 }

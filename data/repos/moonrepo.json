@@ -4654,5 +4654,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-12-22",
+   "title": "A build system and repo management tool for the web ecosystem, written in Rust",
+   "url": "https://moonrepo.dev/",
+   "author": "stephanos2k",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=34088041"
+  },
+  {
+   "date": "2022-06-24",
+   "title": "Moon: JavaScript build system with smart hashing and remote caching",
+   "url": "https://moonrepo.dev/",
+   "author": "mamouri",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=31856609"
+  },
+  {
+   "date": "2023-09-12",
+   "title": "Proto: Multi-Language Toolchain Manager",
+   "url": "https://moonrepo.dev/proto",
+   "author": "Lukestr",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=37486139"
+  },
+  {
+   "date": "2023-03-29",
+   "title": "Moon task runner now on v1",
+   "url": "https://moonrepo.dev/blog/moon-v1.0",
+   "author": "mileswjohnson",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35364205"
+  },
+  {
+   "date": "2022-06-15",
+   "title": "Moon: a build system for the JavaScript ecosystem written in Rust",
+   "url": "https://moonrepo.dev/",
+   "author": "bpierre",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=31752421"
+  },
+  {
+   "date": "2026-02-17",
+   "title": "Moonrepo V2 RC",
+   "url": "https://moonrepo.dev/blog/moon-v2-rc",
+   "author": "NamlchakKhandro",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47042115"
+  }
+ ]
 }

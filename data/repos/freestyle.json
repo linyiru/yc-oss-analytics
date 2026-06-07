@@ -1134,5 +1134,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2026-04-06",
+   "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
+   "url": "https://www.freestyle.sh/",
+   "author": "benswerd",
+   "points": 322,
+   "comments": 158,
+   "hn": "https://news.ycombinator.com/item?id=47663147"
+  },
+  {
+   "date": "2025-07-26",
+   "title": "We revamped our docs for AI-driven development",
+   "url": "https://docs.freestyle.sh/blog/docs-revamp",
+   "author": "benswerd",
+   "points": 90,
+   "comments": 35,
+   "hn": "https://news.ycombinator.com/item?id=44697689"
+  },
+  {
+   "date": "2018-12-02",
+   "title": "Show HN: An app that makes freestyle rapping fun and easy",
+   "url": "http://rap.coach",
+   "author": "TipVFL",
+   "points": 6,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=18583914"
+  },
+  {
+   "date": "2026-01-15",
+   "title": "Favorite Rust Crates of 2025",
+   "url": "https://docs.freestyle.sh/blog/rust-crates-2025",
+   "author": "benswerd",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46639691"
+  },
+  {
+   "date": "2026-04-19",
+   "title": "Show HN: Agentjail – Self Hosted Freestyle.sh",
+   "url": "https://github.com/bugthesystem/agentjail",
+   "author": "ziyasal",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47827862"
+  },
+  {
+   "date": "2025-07-31",
+   "title": "The missing trust model in AI tools",
+   "url": "https://docs.freestyle.sh/blog/missing-trust-model",
+   "author": "benswerd",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44749173"
+  }
+ ]
 }

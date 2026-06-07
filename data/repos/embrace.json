@@ -835,5 +835,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-01-18",
+   "title": "Show HN: Life calendar – use the concept of Memento mori to embrace every week",
+   "url": "https://life-cal.com",
+   "author": "chestercodes",
+   "points": 116,
+   "comments": 75,
+   "hn": "https://news.ycombinator.com/item?id=29978171"
+  },
+  {
+   "date": "2021-10-20",
+   "title": "Embrace Closes $45M Series B",
+   "url": "https://blog.embrace.io/embrace-closes-series-b/",
+   "author": "efutoran",
+   "points": 20,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=28932365"
+  },
+  {
+   "date": "2024-04-25",
+   "title": "Show HN: Android SDK that supports OpenTelemetry export",
+   "url": "https://github.com/embrace-io/embrace-android-sdk",
+   "author": "fractalwrench",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40155445"
+  },
+  {
+   "date": "2019-05-23",
+   "title": "Show HN: Network Watchdog by Embrace",
+   "url": "https://dev.embrace.io/product/network/",
+   "author": "e_futoran",
+   "points": 5,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=19997217"
+  },
+  {
+   "date": "2018-04-02",
+   "title": "Show HN: Anyshortcut – Forget mouse clicks, embrace shortcuts",
+   "url": "https://anyshortcut.com/",
+   "author": "Folyd",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=16733565"
+  },
+  {
+   "date": "2018-02-22",
+   "title": "Show HN: Mattermost embrace Grafana annotation",
+   "url": "https://github.com/Lujeni/fyi",
+   "author": "Lujeni",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=16442464"
+  }
+ ]
 }

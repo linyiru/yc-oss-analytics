@@ -11162,5 +11162,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-09-24",
+   "title": "Python on the Edge: Fast, sandboxed, and powered by WebAssembly",
+   "url": "https://wasmer.io/posts/python-on-the-edge-powered-by-webassembly",
+   "author": "baalimago",
+   "points": 399,
+   "comments": 158,
+   "hn": "https://news.ycombinator.com/item?id=45362023"
+  },
+  {
+   "date": "2019-02-26",
+   "title": "Universal Binaries Using WASM",
+   "url": "https://github.com/wasmerio/wasmer",
+   "author": "grey-area",
+   "points": 335,
+   "comments": 229,
+   "hn": "https://news.ycombinator.com/item?id=19252437"
+  },
+  {
+   "date": "2022-11-23",
+   "title": "Wasmer 3.0",
+   "url": "https://wasmer.io/posts/announcing-wasmer-3.0",
+   "author": "syrusakbary",
+   "points": 305,
+   "comments": 183,
+   "hn": "https://news.ycombinator.com/item?id=33721685"
+  },
+  {
+   "date": "2023-05-30",
+   "title": "WASIX, the Superset of WASI Supporting Threads, Processes and Sockets",
+   "url": "https://wasmer.io/posts/announcing-wasix",
+   "author": "the_duke",
+   "points": 210,
+   "comments": 197,
+   "hn": "https://news.ycombinator.com/item?id=36126032"
+  },
+  {
+   "date": "2021-06-17",
+   "title": "Wasmer 2.0",
+   "url": "https://wasmer.io/posts/wasmer-2.0",
+   "author": "jeltz",
+   "points": 209,
+   "comments": 56,
+   "hn": "https://news.ycombinator.com/item?id=27537541"
+  },
+  {
+   "date": "2024-10-29",
+   "title": "Wasmer 5.0",
+   "url": "https://wasmer.io/posts/introducing-wasmer-v5",
+   "author": "syrusakbary",
+   "points": 198,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=41990326"
+  }
+ ]
 }

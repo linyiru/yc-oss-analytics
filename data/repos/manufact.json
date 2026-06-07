@@ -1966,5 +1966,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Manufact (mcp-use) - Build and deploy MCP Servers for AI Agents & MCP Apps for ChatGPT / Claude users",
+  "date": "2025-07-24",
+  "votes": 85,
+  "url": "https://www.ycombinator.com/launches/O2c-manufact-mcp-use-build-and-deploy-mcp-servers-for-ai-agents-mcp-apps-for-chatgpt-claude-users"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-08-04",
+   "title": "Show HN: I've been building an ERP for manufacturing for the last 3 years",
+   "url": "https://github.com/crbnos/carbon",
+   "author": "barbinbrad",
+   "points": 322,
+   "comments": 158,
+   "hn": "https://news.ycombinator.com/item?id=44792005"
+  },
+  {
+   "date": "2025-07-31",
+   "title": "Show HN: Mcp-use – Connect any LLM to any MCP",
+   "url": "https://github.com/mcp-use/mcp-use",
+   "author": "pzullo",
+   "points": 155,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=44747229"
+  },
+  {
+   "date": "2026-02-03",
+   "title": "Show HN: Craftplan – Elixir-based micro-ERP for small-scale manufacturers",
+   "url": "https://puemos.github.io/craftplan/",
+   "author": "deofoo",
+   "points": 22,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=46869383"
+  },
+  {
+   "date": "2013-11-27",
+   "title": "Show HN: The Physical, Manufactured Party Game I Made In Only 12 Weeks",
+   "url": "http://www.indiegogo.com/projects/deck-around-an-immature-bluffing-party-game/x/5482375",
+   "author": "lesinski",
+   "points": 16,
+   "comments": 14,
+   "hn": "https://news.ycombinator.com/item?id=6808083"
+  },
+  {
+   "date": "2017-11-13",
+   "title": "Show HN: Pam M – Metal Additive Manufacturing",
+   "url": "https://pollen.am/pam-series-m",
+   "author": "arthurquerou",
+   "points": 10,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=15687633"
+  },
+  {
+   "date": "2020-08-27",
+   "title": "Show HN: One-Shot Recognition of Manufacturing Defects in Steel Surfaces",
+   "url": "https://github.com/adipandas/one-shot-steel-surfaces",
+   "author": "adipandas",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=24289934"
+  }
+ ]
 }

@@ -2202,5 +2202,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Sourcebot: The Code Understanding Platform",
+  "date": "2025-10-16",
+  "votes": 54,
+  "url": "https://www.ycombinator.com/launches/OdD-sourcebot-the-code-understanding-platform"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-10-01",
+   "title": "Show HN: Sourcebot, an open-source Sourcegraph alternative",
+   "url": "https://github.com/sourcebot-dev/sourcebot",
+   "author": "bshzzle",
+   "points": 259,
+   "comments": 59,
+   "hn": "https://news.ycombinator.com/item?id=41711032"
+  },
+  {
+   "date": "2025-07-30",
+   "title": "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
+   "url": "https://github.com/sourcebot-dev/sourcebot/releases/tag/v4.6.0",
+   "author": "bshzzle",
+   "points": 103,
+   "comments": 29,
+   "hn": "https://news.ycombinator.com/item?id=44734891"
+  },
+  {
+   "date": "2024-10-23",
+   "title": "Open-source code-search tool Sourcebot now supports Gitea",
+   "url": "https://github.com/sourcebot-dev/sourcebot/releases/tag/v2.1.0",
+   "author": "bshzzle",
+   "points": 21,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=41930001"
+  },
+  {
+   "date": "2025-05-06",
+   "title": "I built an AI code review agent in a few hours, here's what I learned",
+   "url": "https://www.sourcebot.dev/blog/review-agent-learnings",
+   "author": "msukkarieh",
+   "points": 13,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43908846"
+  },
+  {
+   "date": "2025-04-25",
+   "title": "Bitbucket search that doesn't suck – Sourcebot, OSS alternative to Sourcegraph",
+   "url": "https://www.sourcebot.dev/changelog/bitbucket-support",
+   "author": "bshzzle",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43798260"
+  },
+  {
+   "date": "2025-05-12",
+   "title": "Show HN: Open-source AI code review agent that's aware of your entire codebase",
+   "url": "https://docs.sourcebot.dev/docs/agents/review-agent",
+   "author": "msukkarieh",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=43968120"
+  }
+ ]
 }

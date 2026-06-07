@@ -913,5 +913,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2018-10-16",
+   "title": "CodeStream master plan",
+   "url": "https://blog.codestream.com/index.php/2018/10/16/codestream-master-plan/",
+   "author": "sqs",
+   "points": 45,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=18233696"
+  },
+  {
+   "date": "2020-06-24",
+   "title": "Show HN: CodeStream in-IDE Code Review and workflow tool",
+   "url": "https://codestream.com",
+   "author": "ppezaris",
+   "points": 14,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=23629091"
+  },
+  {
+   "date": "2021-06-10",
+   "title": "Codestream acquired by New Relic",
+   "url": "https://www.codestream.com/terms",
+   "author": "trwhite",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=27458337"
+  },
+  {
+   "date": "2019-05-16",
+   "title": "Better Code. IDE plugins to help dev teams discuss, review, and understand code",
+   "url": "https://www.codestream.com/",
+   "author": "nwrk",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=19931962"
+  },
+  {
+   "date": "2020-03-23",
+   "title": "Every Developer Is Now a Remote Developer",
+   "url": "https://www.codestream.com/blog/every-developer-is-now-a-remote-developer",
+   "author": "patrickdevivo",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=22664643"
+  },
+  {
+   "date": "2019-10-30",
+   "title": "I Joined Codestream: From VC to Dev Tools",
+   "url": "https://www.codestream.com/blog/why-i-joined-codestream-from-vc-to-dev-tools",
+   "author": "BHopen",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=21396955"
+  }
+ ]
 }

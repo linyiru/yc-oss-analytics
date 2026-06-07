@@ -1213,5 +1213,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-02-27",
+   "title": "Show HN: Superglue – open source API connector that writes its own code",
+   "url": "https://github.com/superglue-ai/superglue",
+   "author": "adinagoerres",
+   "points": 198,
+   "comments": 48,
+   "hn": "https://news.ycombinator.com/item?id=43196374"
+  },
+  {
+   "date": "2025-07-24",
+   "title": "Show HN: LLMs suck at writing integration code… for now",
+   "url": "https://github.com/superglue-ai/superglue/tree/main/packages/core/eval/api-ranking",
+   "author": "sfaist",
+   "points": 20,
+   "comments": 13,
+   "hn": "https://news.ycombinator.com/item?id=44671894"
+  },
+  {
+   "date": "2025-07-22",
+   "title": "Show HN: We let agents use APIs to find out if they can actually...do things?",
+   "url": "https://superglue.ai/api-ranking/",
+   "author": "adinagoerres",
+   "points": 11,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=44648120"
+  },
+  {
+   "date": "2025-05-28",
+   "title": "Show HN: Let your agent build its own tools with MCPglue",
+   "url": "https://superglue.ai/mcp.html",
+   "author": "adinagoerres",
+   "points": 7,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=44118955"
+  },
+  {
+   "date": "2025-11-25",
+   "title": "Show HN: Superglue – OSS integration tool that understands your legacy systems",
+   "url": "https://superglue.ai",
+   "author": "sfaist",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=46047444"
+  },
+  {
+   "date": "2025-12-04",
+   "title": "We created API-Bench to test how well LLMs execute against APIs",
+   "url": "https://superglue.ai/benchmark_v2",
+   "author": "adinagoerres",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=46146091"
+  }
+ ]
 }

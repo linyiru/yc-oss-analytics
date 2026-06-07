@@ -3760,5 +3760,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-12-19",
+   "title": "Winning over hearts and minds work: ADKAR my favorite change management approach",
+   "url": "https://blog.dagworks.io/p/winning-hearts-and-minds-at-work",
+   "author": "krawczstef",
+   "points": 55,
+   "comments": 26,
+   "hn": "https://news.ycombinator.com/item?id=38701043"
+  },
+  {
+   "date": "2024-11-19",
+   "title": "Show HN: Updates on Burr (OS) – a full-stack AI agent framework",
+   "url": "https://burr.dagworks.io/",
+   "author": "elijahbenizzy",
+   "points": 8,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42183809"
+  },
+  {
+   "date": "2024-12-02",
+   "title": "The graduation problem: avoid frameworks getting in the way",
+   "url": "https://blog.dagworks.io/p/the-graduation-problem-avoid-frameworks",
+   "author": "krawczstef",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42301656"
+  },
+  {
+   "date": "2023-07-11",
+   "title": "Building a maintainable and modular LLM application stack with Hamilton",
+   "url": "https://blog.dagworks.io/p/building-a-maintainable-and-modular",
+   "author": "elijahbenizzy",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36682399"
+  },
+  {
+   "date": "2023-08-18",
+   "title": "Containerized PDF Summarizer with FastAPI and Hamilton",
+   "url": "https://blog.dagworks.io/p/containerized-pdf-summarizer-with",
+   "author": "elijahbenizzy",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37177986"
+  },
+  {
+   "date": "2025-08-03",
+   "title": "Apache Hamilton (incubating): a Python library for DAGs of data transformations",
+   "url": "https://github.com/apache/hamilton",
+   "author": "saikatsg",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44775418"
+  }
+ ]
 }

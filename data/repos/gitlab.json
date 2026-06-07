@@ -15089,5 +15089,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 10705,
- "curve_partial": true
+ "curve_partial": true,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-01-31",
+  "name": "GitLab",
+  "tagline": "Open source alternative to GitHub",
+  "votes": 220,
+  "comments": 15,
+  "url": "https://www.producthunt.com/products/gitlab/launches/gitlab"
+ },
+ "hn_events": [
+  {
+   "date": "2022-01-21",
+   "title": "FalsiScan: Make it look like a PDF has been hand signed and scanned",
+   "url": "https://gitlab.com/edouardklein/falsisign",
+   "author": "tercio",
+   "points": 939,
+   "comments": 390,
+   "hn": "https://news.ycombinator.com/item?id=30024165"
+  },
+  {
+   "date": "2016-01-18",
+   "title": "Dear open-source maintainers, a letter from GitLab",
+   "url": "https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/",
+   "author": "levlaz",
+   "points": 924,
+   "comments": 318,
+   "hn": "https://news.ycombinator.com/item?id=10923379"
+  },
+  {
+   "date": "2019-11-03",
+   "title": "Gitlab considers not hiring SREs and Support Engineers in China and Russia",
+   "url": "https://gitlab.com/gitlab-com/www-gitlab-com/issues/5555",
+   "author": "capableweb",
+   "points": 828,
+   "comments": 518,
+   "hn": "https://news.ycombinator.com/item?id=21437334"
+  },
+  {
+   "date": "2018-06-15",
+   "title": "GitLab Web IDE",
+   "url": "https://about.gitlab.com/2018/06/15/introducing-gitlab-s-integrated-development-environment/",
+   "author": "Shinkirou",
+   "points": 776,
+   "comments": 273,
+   "hn": "https://news.ycombinator.com/item?id=17321921"
+  },
+  {
+   "date": "2020-04-08",
+   "title": "Show HN: FalsiScan – Make it look like a PDF has been hand signed and scanned",
+   "url": "https://gitlab.com/edouardklein/falsisign",
+   "author": "linschn",
+   "points": 770,
+   "comments": 186,
+   "hn": "https://news.ycombinator.com/item?id=22811653"
+  },
+  {
+   "date": "2026-05-11",
+   "title": "GitLab announces workforce reduction and end of their CREDIT values",
+   "url": "https://about.gitlab.com/blog/gitlab-act-2/",
+   "author": "AnonGitLabEmpl",
+   "points": 703,
+   "comments": 683,
+   "hn": "https://news.ycombinator.com/item?id=48100500"
+  }
+ ]
 }

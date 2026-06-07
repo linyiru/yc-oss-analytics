@@ -1344,5 +1344,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "InsForge: The backend platform for AI-native developers",
+  "date": "2026-05-18",
+  "votes": 27,
+  "url": "https://www.ycombinator.com/launches/QP6-insforge-the-backend-platform-for-ai-native-developers"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2026-05-18",
+   "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+   "url": "https://github.com/InsForge/InsForge",
+   "author": "mrcoldbrew",
+   "points": 62,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=48181342"
+  },
+  {
+   "date": "2025-10-02",
+   "title": "Show HN: InsForge AI, Open-Source Agent Friendly Alternative to Supabase",
+   "url": "https://insforge.dev/",
+   "author": "tonychang430",
+   "points": 15,
+   "comments": 19,
+   "hn": "https://news.ycombinator.com/item?id=45449787"
+  },
+  {
+   "date": "2025-10-09",
+   "title": "Show HN: A context aware backend for AI coding agents",
+   "url": "https://insforge.dev/",
+   "author": "ddmdd",
+   "points": 10,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=45528161"
+  },
+  {
+   "date": "2025-09-18",
+   "title": "InsForge – An open source backend for AI coding agents",
+   "url": "https://insforge.dev/",
+   "author": "ddmdd",
+   "points": 7,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=45291644"
+  },
+  {
+   "date": "2025-11-18",
+   "title": "Show HN: InsForge – A Postgres BaaS built for prompt-driven development",
+   "url": "https://insforge.dev/",
+   "author": "tonychang430",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=45968265"
+  },
+  {
+   "date": "2025-08-03",
+   "title": "Show HN: InsForge – Open-source agent-native alternative to Supabase",
+   "url": "https://github.com/InsForge/InsForge",
+   "author": "honoyomu",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44772898"
+  }
+ ]
 }

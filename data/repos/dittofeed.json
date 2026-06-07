@@ -3429,5 +3429,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Dittofeed 📬 Embedded Messaging Features for Your SaaS",
+  "date": "2025-07-07",
+  "votes": 13,
+  "url": "https://www.ycombinator.com/launches/Nup-dittofeed-embedded-messaging-features-for-your-saas"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-10-23",
+   "title": "Show HN: Open-source low-code email editor",
+   "url": "https://github.com/dittofeed/dittofeed/tree/main/packages/emailo",
+   "author": "chandlercraig",
+   "points": 148,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=41928203"
+  },
+  {
+   "date": "2023-09-19",
+   "title": "Show HN: Dittofeed – 1-Click deploy, self-host Mailchimp alternative",
+   "url": "https://github.com/dittofeed/dittofeed",
+   "author": "maxthegeek1",
+   "points": 100,
+   "comments": 29,
+   "hn": "https://news.ycombinator.com/item?id=37572743"
+  },
+  {
+   "date": "2025-06-30",
+   "title": "Show HN: Dittofeed – Embed Messaging Features in Your App",
+   "url": "https://news.ycombinator.com/item?id=44425564",
+   "author": "chandlercraig",
+   "points": 14,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=44425564"
+  },
+  {
+   "date": "2023-10-05",
+   "title": "Show HN: Dittofeed v0.5.0 – Self-host SMS and email customer messaging",
+   "url": "https://news.ycombinator.com/item?id=37781455",
+   "author": "maxthegeek1",
+   "points": 14,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=37781455"
+  },
+  {
+   "date": "2024-02-29",
+   "title": "Show HN: Dittofeed v0.10.0 – Transactional Messaging",
+   "url": "https://news.ycombinator.com/item?id=39551964",
+   "author": "maxthegeek1",
+   "points": 9,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=39551964"
+  },
+  {
+   "date": "2023-10-30",
+   "title": "Show HN: Dittofeed v0.6.0 – Reverse ETL for open-source customer messaging",
+   "url": "https://news.ycombinator.com/item?id=38073060",
+   "author": "maxthegeek1",
+   "points": 3,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=38073060"
+  }
+ ]
 }

@@ -1215,5 +1215,59 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Expected Parrot: Simulate your customers with AI agents",
+  "date": "2025-11-04",
+  "votes": 92,
+  "url": "https://www.ycombinator.com/launches/Ol2-expected-parrot-simulate-your-customers-with-ai-agents"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-08-14",
+   "title": "Python Library for Structured Data Extraction via LLM",
+   "url": "https://www.expectedparrot.com/",
+   "author": "npollock",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=41241948"
+  },
+  {
+   "date": "2025-11-01",
+   "title": "Superrational Reasoning in the Prisoner's Dilemma with LLMs",
+   "url": "https://www.expectedparrot.com/content/clajelli/superrationality-game-theory",
+   "author": "john_horton",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=45783363"
+  },
+  {
+   "date": "2025-02-17",
+   "title": "Using vision capable LLMs to transcribe a handwritten letter",
+   "url": "https://www.expectedparrot.com/content/johnjhorton/grant-letter",
+   "author": "john_horton",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43083309"
+  },
+  {
+   "date": "2024-08-15",
+   "title": "LaTeX writing checker in Python using LLMs",
+   "url": "https://www.expectedparrot.com/content/e8012216-2f36-42c2-9008-9ee040ffcf36?from_page=my_content",
+   "author": "john_horton",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=41257302"
+  },
+  {
+   "date": "2025-05-03",
+   "title": "A little bit of human-provided structure gives better LLM answers",
+   "url": "https://blog.expectedparrot.com/p/whit-diffie-erasure",
+   "author": "john_horton",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43882857"
+  }
+ ]
 }

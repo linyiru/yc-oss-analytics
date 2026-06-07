@@ -9895,5 +9895,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2020-07-30",
+  "name": "QuestDB",
+  "tagline": "Fastest open source database for time-series and analytics",
+  "votes": 194,
+  "comments": 28,
+  "url": "https://www.producthunt.com/products/questdb/launches/questdb"
+ },
+ "hn_events": [
+  {
+   "date": "2023-05-02",
+   "title": "Investigating Linux phantom disk reads",
+   "url": "https://questdb.io/blog/investigating-linux-phantom-disk-reads/",
+   "author": "kamaraju",
+   "points": 302,
+   "comments": 57,
+   "hn": "https://news.ycombinator.com/item?id=35793660"
+  },
+  {
+   "date": "2024-02-22",
+   "title": "The Billion Row Challenge (1BRC) – Step-by-Step from 71s to 1.7s",
+   "url": "https://questdb.io/blog/billion-row-challenge-step-by-step/",
+   "author": "mfiguiere",
+   "points": 274,
+   "comments": 41,
+   "hn": "https://news.ycombinator.com/item?id=39467885"
+  },
+  {
+   "date": "2020-06-23",
+   "title": "Show HN: Query 1.6B rows in milliseconds, live",
+   "url": "http://try.questdb.io:9000/index.html",
+   "author": "bluestreak",
+   "points": 271,
+   "comments": 93,
+   "hn": "https://news.ycombinator.com/item?id=23616878"
+  },
+  {
+   "date": "2024-03-09",
+   "title": "1BRC merykitty's magic SWAR: 8 lines of code explained in 3k words",
+   "url": "https://questdb.io/blog/1brc-merykittys-magic-swar/",
+   "author": "signa11",
+   "points": 257,
+   "comments": 83,
+   "hn": "https://news.ycombinator.com/item?id=39649732"
+  },
+  {
+   "date": "2021-06-06",
+   "title": "How we achieved write speeds of 1.4M rows per second",
+   "url": "https://questdb.io/blog/2021/05/10/questdb-release-6-0-tsbs-benchmark",
+   "author": "System_",
+   "points": 182,
+   "comments": 37,
+   "hn": "https://news.ycombinator.com/item?id=27411307"
+  },
+  {
+   "date": "2023-04-17",
+   "title": "The Inner Workings of Distributed Databases",
+   "url": "https://questdb.io/blog/inner-workings-distributed-databases/",
+   "author": "bluestreak",
+   "points": 175,
+   "comments": 27,
+   "hn": "https://news.ycombinator.com/item?id=35602983"
+  }
+ ]
 }

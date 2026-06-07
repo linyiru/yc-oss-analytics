@@ -282,5 +282,27 @@
  "stars_daily": true,
  "curve_source": "gharchive",
  "curve_baseline": 0,
- "curve_partial": 0
+ "curve_partial": 0,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2020-08-25",
+   "title": "Tipe raises $2.1M seed round to build a customizable CMS for developers",
+   "url": "https://tipe.io/blog/tipe-raises-seed",
+   "author": "tmvnty",
+   "points": 44,
+   "comments": 46,
+   "hn": "https://news.ycombinator.com/item?id=24275948"
+  },
+  {
+   "date": "2018-07-31",
+   "title": "Show HN: Tipe (YC W18) – Generate an API-First CMS from a GraphQL Schema",
+   "url": "https://tipe.io",
+   "author": "Hendrixer",
+   "points": 17,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=17654776"
+  }
+ ]
 }

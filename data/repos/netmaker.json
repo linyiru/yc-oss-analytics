@@ -7398,5 +7398,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-08-16",
+   "title": "NetMaker: Connect Everything with a WireGuard VPN",
+   "url": "https://www.netmaker.io/",
+   "author": "thunderbong",
+   "points": 292,
+   "comments": 164,
+   "hn": "https://news.ycombinator.com/item?id=37142388"
+  },
+  {
+   "date": "2023-09-25",
+   "title": "Show HN: Netmaker – Netmaker Goes Open Source",
+   "url": "https://github.com/gravitl/netmaker/blob/master/LICENSE.md",
+   "author": "Yebo_en_mesh",
+   "points": 85,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=37642011"
+  },
+  {
+   "date": "2023-07-16",
+   "title": "Why WireGuard? An Explainer in Simple Terms",
+   "url": "https://www.netmaker.io/resources/why-wireguard-an-explainer-in-simple-terms",
+   "author": "Yebo_en_mesh",
+   "points": 40,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36750332"
+  },
+  {
+   "date": "2023-09-21",
+   "title": "Netmaker Goes Open Source: Why We Switched to Apache-2.0",
+   "url": "https://www.netmaker.io/resources/netmaker-goes-open-source-why-we-switched-to-apache-2-0",
+   "author": "JazzyEssy",
+   "points": 34,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=37600649"
+  },
+  {
+   "date": "2023-07-20",
+   "title": "Build Your Own Remote Access VPN to AWS with WireGuard and Netmaker",
+   "url": "https://www.netmaker.io/resources/build-your-own-remote-access-vpn-to-aws-with-wireguard-and-netmaker",
+   "author": "Yebo_en_mesh",
+   "points": 16,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36803305"
+  },
+  {
+   "date": "2023-07-15",
+   "title": "The Future of Software Defined Networking (SDN) with WireGuard",
+   "url": "https://www.netmaker.io/resources/the-future-of-software-defined-networking-sdn-with-wireguard",
+   "author": "Yebo_en_mesh",
+   "points": 15,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=36738803"
+  }
+ ]
 }

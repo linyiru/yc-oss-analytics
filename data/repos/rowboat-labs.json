@@ -1763,5 +1763,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2026-02-10",
+   "title": "Show HN: Rowboat – AI coworker that turns your work into a knowledge graph (OSS)",
+   "url": "https://github.com/rowboatlabs/rowboat",
+   "author": "segmenta",
+   "points": 205,
+   "comments": 56,
+   "hn": "https://news.ycombinator.com/item?id=46962641"
+  },
+  {
+   "date": "2025-04-22",
+   "title": "Show HN: Rowboat – Open-source IDE for multi-agent systems",
+   "url": "https://github.com/rowboatlabs/rowboat",
+   "author": "segmenta",
+   "points": 161,
+   "comments": 51,
+   "hn": "https://news.ycombinator.com/item?id=43763967"
+  },
+  {
+   "date": "2025-11-18",
+   "title": "Show HN: RowboatX – open-source Claude Code for everyday automations",
+   "url": "https://github.com/rowboatlabs/rowboat",
+   "author": "segmenta",
+   "points": 131,
+   "comments": 42,
+   "hn": "https://news.ycombinator.com/item?id=45970338"
+  },
+  {
+   "date": "2025-09-16",
+   "title": "Launch HN: Rowboat (YC S24) – Open-source IDE for multi-agent systems",
+   "url": "https://github.com/rowboatlabs/rowboat",
+   "author": "segmenta",
+   "points": 66,
+   "comments": 28,
+   "hn": "https://news.ycombinator.com/item?id=45264867"
+  },
+  {
+   "date": "2026-01-21",
+   "title": "Show HN: Rowboat – Open-Source Claude Cowork with an Obsidian Vault",
+   "url": "https://www.rowboatlabs.com/",
+   "author": "segmenta",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=46708613"
+  },
+  {
+   "date": "2025-06-29",
+   "title": "Rowboat IDE powerful intuitive platform for building and managing your AI agents",
+   "url": "https://www.rowboatlabs.com/",
+   "author": "Bluestein",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44411222"
+  }
+ ]
 }

@@ -6191,5 +6191,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2018-02-19",
+  "name": "Windmill",
+  "tagline": "A companion for seamless iOS development.",
+  "votes": 4,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/windmill/launches/windmill"
+ },
+ "hn_events": [
+  {
+   "date": "2023-05-12",
+   "title": "Windmill: Open-source developer platform to turn scripts into workflows and UIs",
+   "url": "https://github.com/windmill-labs/windmill",
+   "author": "InitEnabler",
+   "points": 428,
+   "comments": 109,
+   "hn": "https://news.ycombinator.com/item?id=35920082"
+  },
+  {
+   "date": "2023-11-22",
+   "title": "Fast self-hostable open-source workflow engine",
+   "url": "https://www.windmill.dev/blog/launch-week-1/fastest-workflow-engine",
+   "author": "rubenfiszel",
+   "points": 378,
+   "comments": 170,
+   "hn": "https://news.ycombinator.com/item?id=38383138"
+  },
+  {
+   "date": "2022-05-05",
+   "title": "Windmill.dev",
+   "url": "https://docs.windmill.dev",
+   "author": "tosh",
+   "points": 245,
+   "comments": 81,
+   "hn": "https://news.ycombinator.com/item?id=31272793"
+  },
+  {
+   "date": "2023-08-04",
+   "title": "Add an AI Code Copilot to your product using GPT-4",
+   "url": "https://www.windmill.dev/blog/windmill-ai",
+   "author": "rubenfiszel",
+   "points": 208,
+   "comments": 57,
+   "hn": "https://news.ycombinator.com/item?id=37000920"
+  },
+  {
+   "date": "2023-06-29",
+   "title": "Show HN: Build a discord/Slack bot to answer questions with your docs and GPT4",
+   "url": "https://www.windmill.dev/blog/knowledge-base-discord-bot",
+   "author": "rubenfiszel",
+   "points": 144,
+   "comments": 22,
+   "hn": "https://news.ycombinator.com/item?id=36520410"
+  },
+  {
+   "date": "2023-11-20",
+   "title": "Show HN: How we built an AI copilot for Windmill's code workflows",
+   "url": "https://www.windmill.dev/blog/launch-week-1/ai-flow-builder#how-did-we-build-it",
+   "author": "rubenfiszel",
+   "points": 16,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38351096"
+  }
+ ]
 }

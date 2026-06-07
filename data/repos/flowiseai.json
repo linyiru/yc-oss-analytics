@@ -5126,5 +5126,54 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2024-12-25",
+   "title": "Flowise – Low Code LLM Apps Builder",
+   "url": "https://flowiseai.com/",
+   "author": "ulrischa",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42511724"
+  },
+  {
+   "date": "2023-05-05",
+   "title": "Flowise – Drag and drop UI to build your customized LLM flow using LangchainJS",
+   "url": "https://github.com/FlowiseAI/Flowise",
+   "author": "flurly",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35825516"
+  },
+  {
+   "date": "2023-04-15",
+   "title": "Flowise – Node-RED alternative for LLMs application",
+   "url": "https://github.com/FlowiseAI/Flowise",
+   "author": "HenryHengZJ",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35579504"
+  },
+  {
+   "date": "2025-05-23",
+   "title": "Flowise – Build AI Agents, Visually",
+   "url": "https://flowiseai.com/",
+   "author": "zhengiszen",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44075951"
+  },
+  {
+   "date": "2023-05-25",
+   "title": "FlowiseAI – Build LLMs Apps Easily",
+   "url": "https://flowiseai.com/",
+   "author": "jonbaer",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=36076047"
+  }
+ ],
+ "yc_launch": null,
+ "ph_event": null
 }

@@ -7548,5 +7548,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-08-23",
+   "title": "How to communicate why your startup is worth joining",
+   "url": "https://wasp-lang.dev/blog/2022/08/15/how-to-communicate-why-your-startup-is-worth-joining",
+   "author": "flreln",
+   "points": 212,
+   "comments": 50,
+   "hn": "https://news.ycombinator.com/item?id=32566123"
+  },
+  {
+   "date": "2023-03-17",
+   "title": "New React docs pretend SPAs don't exist anymore",
+   "url": "https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist",
+   "author": "matijash",
+   "points": 199,
+   "comments": 218,
+   "hn": "https://news.ycombinator.com/item?id=35201848"
+  },
+  {
+   "date": "2022-07-14",
+   "title": "ML code generation vs. coding by hand: what we think programming will look like",
+   "url": "https://wasp-lang.dev/blog/2022/06/24/ML-code-gen-vs-coding-by-hand-future",
+   "author": "matijash",
+   "points": 141,
+   "comments": 132,
+   "hn": "https://news.ycombinator.com/item?id=32098144"
+  },
+  {
+   "date": "2022-12-08",
+   "title": "Show HN: Wasp – DSL/framework for building full-stack web apps – now in beta",
+   "url": "https://news.ycombinator.com/item?id=33910997",
+   "author": "matijash",
+   "points": 115,
+   "comments": 37,
+   "hn": "https://news.ycombinator.com/item?id=33910997"
+  },
+  {
+   "date": "2021-11-23",
+   "title": "Our fundraising learning post-YC",
+   "url": "https://wasp-lang.dev/blog/2021/11/22/fundraising-learnings",
+   "author": "matijash",
+   "points": 79,
+   "comments": 39,
+   "hn": "https://news.ycombinator.com/item?id=29323315"
+  },
+  {
+   "date": "2021-07-26",
+   "title": "Wasp – A programming language that understands what a web app is",
+   "url": "https://github.com/wasp-lang/wasp",
+   "author": "ed",
+   "points": 49,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=27954965"
+  }
+ ]
 }

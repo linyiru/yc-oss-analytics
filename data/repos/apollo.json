@@ -13941,5 +13941,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-04-10",
+  "name": "Apollo",
+  "tagline": "Get a medical professional at your home in 1 hour",
+  "votes": 1,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/apollo-2/launches/apollo"
+ },
+ "hn_events": [
+  {
+   "date": "2022-12-15",
+   "title": "Apollo Layoffs",
+   "url": "https://www.apollographql.com/blog/announcement/ceo-geoff-schmidts-message-to-apollo-employees/",
+   "author": "adamkl",
+   "points": 158,
+   "comments": 212,
+   "hn": "https://news.ycombinator.com/item?id=34005889"
+  },
+  {
+   "date": "2018-11-07",
+   "title": "Introducing the Apollo GraphQL Platform",
+   "url": "https://blog.apollographql.com/introducing-the-apollo-graphql-platform-8ef34bb269e5",
+   "author": "b9s",
+   "points": 145,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=18402682"
+  },
+  {
+   "date": "2019-06-12",
+   "title": "Apollo raises $22M to simplify app development",
+   "url": "https://blog.apollographql.com/apollo-raises-22-million-to-simplify-app-development-ee30502c81b3",
+   "author": "mostafah",
+   "points": 113,
+   "comments": 73,
+   "hn": "https://news.ycombinator.com/item?id=20164531"
+  },
+  {
+   "date": "2019-02-14",
+   "title": "Goodbye, Slack. Hello, Spectrum",
+   "url": "https://blog.apollographql.com/goodbye-slack-hello-spectrum-8fa6b979645b",
+   "author": "jakear",
+   "points": 73,
+   "comments": 70,
+   "hn": "https://news.ycombinator.com/item?id=19159686"
+  },
+  {
+   "date": "2019-02-26",
+   "title": "Apollo Client 2.5 for GraphQL Announced",
+   "url": "https://blog.apollographql.com/announcing-apollo-client-2-5-c12230cabbb7",
+   "author": "saranshk",
+   "points": 73,
+   "comments": 20,
+   "hn": "https://news.ycombinator.com/item?id=19258826"
+  },
+  {
+   "date": "2021-11-05",
+   "title": "Moving Apollo Federation 2 to the Elastic License v2",
+   "url": "https://www.apollographql.com/blog/announcement/moving-apollo-federation-2-to-the-elastic-license-v2/",
+   "author": "cjcenizal",
+   "points": 57,
+   "comments": 67,
+   "hn": "https://news.ycombinator.com/item?id=29115263"
+  }
+ ]
 }

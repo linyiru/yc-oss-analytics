@@ -5366,5 +5366,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-02-01",
+   "title": "Show HN: We built a developer-first open-source Zapier alternative",
+   "url": "https://trigger.dev",
+   "author": "eallam",
+   "points": 745,
+   "comments": 190,
+   "hn": "https://news.ycombinator.com/item?id=34610686"
+  },
+  {
+   "date": "2025-12-14",
+   "title": "Shai-Hulud compromised a dev machine and raided GitHub org access: a post-mortem",
+   "url": "https://trigger.dev/blog/shai-hulud-postmortem",
+   "author": "nkko",
+   "points": 262,
+   "comments": 184,
+   "hn": "https://news.ycombinator.com/item?id=46262021"
+  },
+  {
+   "date": "2023-10-03",
+   "title": "Show HN: Trigger.dev V2 – a Temporal alternative for TypeScript devs",
+   "url": "https://trigger.dev",
+   "author": "eallam",
+   "points": 172,
+   "comments": 39,
+   "hn": "https://news.ycombinator.com/item?id=37750763"
+  },
+  {
+   "date": "2026-03-17",
+   "title": "How we give every user SQL access to a shared ClickHouse cluster",
+   "url": "https://trigger.dev/blog/how-trql-works",
+   "author": "eallam",
+   "points": 70,
+   "comments": 78,
+   "hn": "https://news.ycombinator.com/item?id=47414356"
+  },
+  {
+   "date": "2026-04-06",
+   "title": "We replaced Node.js with Bun for 5x throughput",
+   "url": "https://trigger.dev/blog/firebun",
+   "author": "pier25",
+   "points": 59,
+   "comments": 33,
+   "hn": "https://news.ycombinator.com/item?id=47656114"
+  },
+  {
+   "date": "2024-07-08",
+   "title": "How we tamed Node.js event loop lag: a deepdive",
+   "url": "https://trigger.dev/blog/event-loop-lag",
+   "author": "mifydev",
+   "points": 40,
+   "comments": 22,
+   "hn": "https://news.ycombinator.com/item?id=40909554"
+  }
+ ]
 }

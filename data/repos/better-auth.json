@@ -2870,5 +2870,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 9032,
- "curve_partial": true
+ "curve_partial": true,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-09-26",
+   "title": "Auth.js is now part of Better Auth",
+   "url": "https://www.better-auth.com/blog/authjs-joins-better-auth",
+   "author": "ShaggyHotDog",
+   "points": 179,
+   "comments": 79,
+   "hn": "https://news.ycombinator.com/item?id=45389293"
+  },
+  {
+   "date": "2024-11-29",
+   "title": "Better Auth – Authentication library for TypeScript",
+   "url": "https://www.better-auth.com/",
+   "author": "namuorg",
+   "points": 73,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=42272707"
+  },
+  {
+   "date": "2024-09-28",
+   "title": "Show HN: Comprehensive authentication library for TypeScript",
+   "url": "https://github.com/better-auth/better-auth",
+   "author": "khanmitdoit",
+   "points": 72,
+   "comments": 44,
+   "hn": "https://news.ycombinator.com/item?id=41678652"
+  },
+  {
+   "date": "2024-11-23",
+   "title": "Show HN: Better Auth v1.0 is here",
+   "url": "https://www.better-auth.com/v1",
+   "author": "khanmitdoit",
+   "points": 10,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42219837"
+  },
+  {
+   "date": "2024-11-23",
+   "title": "Better Auth:The most comprehensive authentication framework for TypeScript",
+   "url": "https://www.better-auth.com/",
+   "author": "kalishayish",
+   "points": 2,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=42223350"
+  },
+  {
+   "date": "2026-05-13",
+   "title": "Better Auth 1.6",
+   "url": "https://better-auth.com/blog/1-6",
+   "author": "ms7892",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48120658"
+  }
+ ]
 }

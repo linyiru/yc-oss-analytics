@@ -5014,5 +5014,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-09-07",
+   "title": "LLMs, RAG, and the missing storage layer for AI",
+   "url": "https://blog.lancedb.com/llms-rag-the-missing-storage-layer-for-ai-28ded35fa984",
+   "author": "yurisagalov",
+   "points": 151,
+   "comments": 61,
+   "hn": "https://news.ycombinator.com/item?id=37420628"
+  },
+  {
+   "date": "2023-11-02",
+   "title": "GPU-Accelerated Indexing in LanceDB",
+   "url": "https://blog.lancedb.com/gpu-accelerated-indexing-in-lancedb-27558fa7eee5",
+   "author": "yurisagalov",
+   "points": 19,
+   "comments": 4,
+   "hn": "https://news.ycombinator.com/item?id=38117101"
+  },
+  {
+   "date": "2023-05-16",
+   "title": "Show HN: LanceDB is an embedded vector database with a native JavaScript API",
+   "url": "https://github.com/lancedb/lancedb",
+   "author": "chop",
+   "points": 10,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=35964660"
+  },
+  {
+   "date": "2023-10-10",
+   "title": "LanceDB – Developer-friendly, serverless vector database for AI applications",
+   "url": "https://github.com/lancedb/lancedb",
+   "author": "rahimnathwani",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37827765"
+  },
+  {
+   "date": "2025-07-28",
+   "title": "Lance v2: A columnar container format for modern data (2024)",
+   "url": "https://blog.lancedb.com/lance-v2/",
+   "author": "fzliu",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44715698"
+  },
+  {
+   "date": "2023-08-14",
+   "title": "S3 Backed Full-Text Search with Tantivy",
+   "url": "https://blog.lancedb.com/s3-backed-full-text-search-with-tantivy-part-1-ac653017068b",
+   "author": "chop",
+   "points": 7,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=37124712"
+  }
+ ]
 }

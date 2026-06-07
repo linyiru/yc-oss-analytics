@@ -2467,5 +2467,75 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Pangolin – Open-source secure gateway to private networks",
+  "date": "2025-07-18",
+  "votes": 85,
+  "url": "https://www.ycombinator.com/launches/O0B-pangolin-open-source-secure-gateway-to-private-networks"
+ },
+ "ph_event": {
+  "date": "2025-09-21",
+  "name": "trymightnewts",
+  "tagline": "new guide tageline",
+  "votes": 6,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/pangolin/launches/trymightnewts"
+ },
+ "hn_events": [
+  {
+   "date": "2025-07-10",
+   "title": "Show HN: Pangolin – Open source alternative to Cloudflare Tunnels",
+   "url": "https://github.com/fosrl/pangolin",
+   "author": "miloschwartz",
+   "points": 500,
+   "comments": 125,
+   "hn": "https://news.ycombinator.com/item?id=44526015"
+  },
+  {
+   "date": "2026-02-15",
+   "title": "Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)",
+   "url": "https://github.com/fosrl/pangolin",
+   "author": "miloschwartz",
+   "points": 81,
+   "comments": 28,
+   "hn": "https://news.ycombinator.com/item?id=47022745"
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Building a peer-to-peer alternative to Cloudflare Tunnels with edge TLS certs",
+   "url": "https://pangolin.net/news/building-a-peer-to-edge-peer-reverse-proxy",
+   "author": "miloschwartz",
+   "points": 15,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=48311324"
+  },
+  {
+   "date": "2025-03-13",
+   "title": "Pangolin: Tunneled Mesh Reverse Proxy Server with Identity and Access Control",
+   "url": "https://github.com/fosrl/pangolin",
+   "author": "ianrahman",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43351869"
+  },
+  {
+   "date": "2025-03-05",
+   "title": "Pangolin: Tunneled mesh reverse proxy server",
+   "url": "https://github.com/fosrl/pangolin",
+   "author": "petecooper",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43273393"
+  },
+  {
+   "date": "2025-01-30",
+   "title": "Pangolin: Tunneled Reverse Proxy Management Server with Identity, Access Control",
+   "url": "https://github.com/fosrl/pangolin",
+   "author": "thunderbong",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=42881743"
+  }
+ ]
 }

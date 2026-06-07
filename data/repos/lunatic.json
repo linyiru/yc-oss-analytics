@@ -5376,5 +5376,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-11-30",
+   "title": "Lunatic is an Erlang-inspired runtime for WebAssembly",
+   "url": "https://lunatic.solutions/",
+   "author": "sts153",
+   "points": 231,
+   "comments": 99,
+   "hn": "https://news.ycombinator.com/item?id=33799784"
+  },
+  {
+   "date": "2022-09-06",
+   "title": "Lunatic: Erlang-Inspired Runtime for WebAssembly",
+   "url": "https://github.com/lunatic-solutions/lunatic",
+   "author": "cab404",
+   "points": 188,
+   "comments": 45,
+   "hn": "https://news.ycombinator.com/item?id=32733069"
+  },
+  {
+   "date": "2022-06-09",
+   "title": "Rust without the async (hard) part",
+   "url": "https://lunatic.solutions/blog/rust-without-the-async-hard-part/",
+   "author": "_5blv",
+   "points": 149,
+   "comments": 133,
+   "hn": "https://news.ycombinator.com/item?id=31681373"
+  },
+  {
+   "date": "2020-11-20",
+   "title": "Show HN: Lunatic – Actor System for Rust/WebAssembly",
+   "url": "https://github.com/lunatic-lang/lunatic",
+   "author": "bkolobara",
+   "points": 141,
+   "comments": 47,
+   "hn": "https://news.ycombinator.com/item?id=25160474"
+  },
+  {
+   "date": "2021-07-30",
+   "title": "Lunatic is an Erlang-inspired runtime for WebAssembly",
+   "url": "https://lunatic.solutions/",
+   "author": "juancampa",
+   "points": 131,
+   "comments": 40,
+   "hn": "https://news.ycombinator.com/item?id=28008737"
+  },
+  {
+   "date": "2022-10-17",
+   "title": "Magical Handler Functions in Rust",
+   "url": "https://lunatic.solutions/blog/magic-handler-functions-in-rust/",
+   "author": "bkolobara",
+   "points": 112,
+   "comments": 40,
+   "hn": "https://news.ycombinator.com/item?id=33231698"
+  }
+ ]
 }

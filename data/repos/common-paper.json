@@ -451,5 +451,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Gerri 2.0 - The AI Agent for Contracts from Common Paper",
+  "date": "2026-04-07",
+  "votes": 11,
+  "url": "https://www.ycombinator.com/launches/Pt8-gerri-2-0-the-ai-agent-for-contracts-from-common-paper"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-04-20",
+   "title": "The Common Paper API (YC W23)",
+   "url": "https://commonpaper.com/blog/introducing-the-common-paper-api/",
+   "author": "bengarvey",
+   "points": 17,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=35639283"
+  },
+  {
+   "date": "2022-09-08",
+   "title": "How to Work with Design Partners",
+   "url": "https://commonpaper.com/blog/how-to-work-with-design-partners/",
+   "author": "jakestein",
+   "points": 13,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=32770180"
+  },
+  {
+   "date": "2022-03-01",
+   "title": "Show HN: Common Paper",
+   "url": "https://news.ycombinator.com/item?id=30517088",
+   "author": "jakestein",
+   "points": 10,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=30517088"
+  },
+  {
+   "date": "2024-02-07",
+   "title": "Contract benchmark report – data from >1k companies",
+   "url": "https://commonpaper.com/resources/contract-benchmark-2024-q1/",
+   "author": "jakestein",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=39289225"
+  },
+  {
+   "date": "2022-02-07",
+   "title": "Contracts Should Be APIs",
+   "url": "https://commonpaper.com/blog/contracts-should-be-apis/",
+   "author": "jakestein",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=30248934"
+  },
+  {
+   "date": "2023-01-24",
+   "title": "Tech Contract Templates (CC-by-4.0): Mutual NDA, TOS, CSA, SLA, PSA, DPA",
+   "url": "https://commonpaper.com/standards/",
+   "author": "transpute",
+   "points": 3,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=34508943"
+  }
+ ]
 }

@@ -6565,5 +6565,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-09-01",
+   "title": "Run Stable Diffusion on Your M1 Mac’s GPU",
+   "url": "https://replicate.com/blog/run-stable-diffusion-on-m1-mac",
+   "author": "bfirsh",
+   "points": 1007,
+   "comments": 401,
+   "hn": "https://news.ycombinator.com/item?id=32678664"
+  },
+  {
+   "date": "2023-07-25",
+   "title": "Guide to running Llama 2 locally",
+   "url": "https://replicate.com/blog/run-llama-locally",
+   "author": "bfirsh",
+   "points": 683,
+   "comments": 170,
+   "hn": "https://news.ycombinator.com/item?id=36865495"
+  },
+  {
+   "date": "2022-08-31",
+   "title": "Stable Diffusion animation",
+   "url": "https://replicate.com/andreasjansson/stable-diffusion-animation",
+   "author": "gcollard-",
+   "points": 616,
+   "comments": 96,
+   "hn": "https://news.ycombinator.com/item?id=32658408"
+  },
+  {
+   "date": "2024-04-24",
+   "title": "Snowflake Arctic Instruct (128x3B MoE), largest open source model",
+   "url": "https://replicate.com/snowflake/snowflake-arctic-instruct",
+   "author": "cuuupid",
+   "points": 315,
+   "comments": 217,
+   "hn": "https://news.ycombinator.com/item?id=40146088"
+  },
+  {
+   "date": "2025-11-17",
+   "title": "Replicate is joining Cloudflare",
+   "url": "https://replicate.com/blog/replicate-cloudflare",
+   "author": "bfirsh",
+   "points": 288,
+   "comments": 68,
+   "hn": "https://news.ycombinator.com/item?id=45953702"
+  },
+  {
+   "date": "2024-10-13",
+   "title": "FLUX is fast and it's open source",
+   "url": "https://replicate.com/blog/flux-is-fast-and-open-source",
+   "author": "smusamashah",
+   "points": 258,
+   "comments": 122,
+   "hn": "https://news.ycombinator.com/item?id=41824390"
+  }
+ ]
 }

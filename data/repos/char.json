@@ -1941,5 +1941,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Hyprnote⚡️ Open-source AI notetaker for enterprises",
+  "date": "2025-08-20",
+  "votes": 58,
+  "url": "https://www.ycombinator.com/launches/OEu-hyprnote-open-source-ai-notetaker-for-enterprises"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2026-01-21",
+   "title": "Show HN: ChartGPU – WebGPU-powered charting library (1M points at 60fps)",
+   "url": "https://github.com/ChartGPU/ChartGPU",
+   "author": "huntergemmer",
+   "points": 670,
+   "comments": 214,
+   "hn": "https://news.ycombinator.com/item?id=46706528"
+  },
+  {
+   "date": "2022-07-13",
+   "title": "Show HN: Inflation-adjusted stock charts – Total Real Returns",
+   "url": "https://totalrealreturns.com/",
+   "author": "compumike",
+   "points": 507,
+   "comments": 272,
+   "hn": "https://news.ycombinator.com/item?id=32081943"
+  },
+  {
+   "date": "2024-09-06",
+   "title": "Show HN: Infinity – Realistic AI characters that can speak",
+   "url": "https://news.ycombinator.com/item?id=41467704",
+   "author": "lcolucci",
+   "points": 481,
+   "comments": 294,
+   "hn": "https://news.ycombinator.com/item?id=41467704"
+  },
+  {
+   "date": "2017-10-31",
+   "title": "Show HN: Frappe Charts – GitHub inspired JavaScript charting with zero dependencies",
+   "url": "https://frappe.github.io/charts/",
+   "author": "rushabh",
+   "points": 474,
+   "comments": 87,
+   "hn": "https://news.ycombinator.com/item?id=15594004"
+  },
+  {
+   "date": "2021-01-18",
+   "title": "Show HN: Compare prices that US hospitals charge patients, insurance companies",
+   "url": "https://turquoise.health/",
+   "author": "ageitgey",
+   "points": 447,
+   "comments": 374,
+   "hn": "https://news.ycombinator.com/item?id=25821873"
+  },
+  {
+   "date": "2019-08-19",
+   "title": "Show HN: Chart.xkcd – Xkcd-styled chart library",
+   "url": "https://github.com/timqian/chart.xkcd",
+   "author": "timqian",
+   "points": 435,
+   "comments": 41,
+   "hn": "https://news.ycombinator.com/item?id=20734956"
+  }
+ ]
 }

@@ -7471,5 +7471,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-01-29",
+   "title": "Show HN: Continuous profiling demo with 1 year of data",
+   "url": "https://demo.pyroscope.io/?name=hotrod.golang.driver%7B%7D&from=now-1y",
+   "author": "petethepig",
+   "points": 12,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=25958667"
+  },
+  {
+   "date": "2022-09-29",
+   "title": "The pros and cons of eBPF profiling",
+   "url": "https://pyroscope.io/blog/ebpf-profiling-pros-cons/",
+   "author": "Rperry2174",
+   "points": 11,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=33020664"
+  },
+  {
+   "date": "2023-08-29",
+   "title": "Grafana Pyroscope v1.0.0 Release",
+   "url": "https://github.com/grafana/pyroscope/releases/tag/v1.0.0",
+   "author": "buro9",
+   "points": 6,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=37306403"
+  },
+  {
+   "date": "2023-02-02",
+   "title": "Go 1.20 Experiment: Memory Arenas vs. Traditional Memory Management",
+   "url": "https://pyroscope.io/blog/go-1-20-memory-arenas/",
+   "author": "petethepig",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=34630834"
+  },
+  {
+   "date": "2023-12-06",
+   "title": "AI-Powered Flamegraph Interpreter in Grafana Pyroscope",
+   "url": "https://pyroscope.io/blog/ai-powered-flamegraph-interpreter/",
+   "author": "petethepig",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38546554"
+  },
+  {
+   "date": "2023-02-07",
+   "title": "Go 1.20 Experiment: Memory Arenas vs. Traditional Memory Management",
+   "url": "https://pyroscope.io/blog/go-1-20-memory-arenas/",
+   "author": "nitinreddy88",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=34690818"
+  }
+ ]
 }

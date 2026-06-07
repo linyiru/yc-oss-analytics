@@ -4763,5 +4763,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2026-03-31",
+   "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+   "url": "https://ollama.com/blog/mlx",
+   "author": "redundantly",
+   "points": 648,
+   "comments": 354,
+   "hn": "https://news.ycombinator.com/item?id=47582482"
+  },
+  {
+   "date": "2024-03-15",
+   "title": "Ollama now supports AMD graphics cards",
+   "url": "https://ollama.com/blog/amd-preview",
+   "author": "tosh",
+   "points": 633,
+   "comments": 224,
+   "hn": "https://news.ycombinator.com/item?id=39718558"
+  },
+  {
+   "date": "2025-07-30",
+   "title": "Ollama's new app",
+   "url": "https://ollama.com/blog/new-app",
+   "author": "BUFU",
+   "points": 560,
+   "comments": 284,
+   "hn": "https://news.ycombinator.com/item?id=44739632"
+  },
+  {
+   "date": "2025-08-05",
+   "title": "Ollama Turbo",
+   "url": "https://ollama.com/turbo",
+   "author": "amram_art",
+   "points": 430,
+   "comments": 243,
+   "hn": "https://news.ycombinator.com/item?id=44802414"
+  },
+  {
+   "date": "2024-02-17",
+   "title": "Ollama is now available on Windows in preview",
+   "url": "https://ollama.com/blog/windows-preview",
+   "author": "pentagrama",
+   "points": 374,
+   "comments": 153,
+   "hn": "https://news.ycombinator.com/item?id=39409650"
+  },
+  {
+   "date": "2025-05-16",
+   "title": "Ollama's new engine for multimodal models",
+   "url": "https://ollama.com/blog/multimodal-models",
+   "author": "LorenDB",
+   "points": 353,
+   "comments": 84,
+   "hn": "https://news.ycombinator.com/item?id=44001087"
+  }
+ ],
+ "ph_event": {
+  "date": "2023-08-22",
+  "name": "Ollama",
+  "tagline": "The easiest way to run large language models locally",
+  "votes": 244,
+  "comments": 31,
+  "url": "https://www.producthunt.com/products/ollama/launches/ollama"
+ },
+ "yc_launch": null
 }

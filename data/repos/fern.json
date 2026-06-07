@@ -4274,5 +4274,68 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Fern – Realtime Socially Aware AI for Meetings",
+  "date": "2026-02-19",
+  "votes": 26,
+  "url": "https://www.ycombinator.com/launches/PTp-fern-realtime-socially-aware-ai-for-meetings"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-01-11",
+   "title": "Show HN: Fern, a language for defining REST APIs that compiles into OpenAPI",
+   "url": "https://github.com/fern-api/fern",
+   "author": "zachkirsch",
+   "points": 18,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=34346428"
+  },
+  {
+   "date": "2023-03-07",
+   "title": "Fern: A cross-language alternative to tRPC",
+   "url": "https://github.com/fern-api/fern",
+   "author": "zachkirsch",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=35062496"
+  },
+  {
+   "date": "2026-03-28",
+   "title": "The AI-assisted solo technical writer",
+   "url": "https://buildwithfern.com/post/ai-assisted-technical-writer",
+   "author": "ivanech",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47555635"
+  },
+  {
+   "date": "2023-10-30",
+   "title": "Fern: Beautiful SDKs and Docs for Your API",
+   "url": "https://buildwithfern.com/",
+   "author": "omarfarooq",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38069560"
+  },
+  {
+   "date": "2022-06-30",
+   "title": "Fern – An Alternative to OpenAPI",
+   "url": "https://github.com/fern-api/fern",
+   "author": "discr3t3",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=31928633"
+  },
+  {
+   "date": "2019-03-24",
+   "title": "Show HN: Kern – Modular C++ logging library inspired by the Rust crate fern",
+   "url": "https://github.com/tsurai/kern",
+   "author": "aketsu",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=19477819"
+  }
+ ]
 }

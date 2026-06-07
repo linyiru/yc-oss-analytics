@@ -4002,5 +4002,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-06-06",
+   "title": "Show HN: Arroyo – Write SQL on streaming data",
+   "url": "https://github.com/ArroyoSystems/arroyo",
+   "author": "necubi",
+   "points": 115,
+   "comments": 32,
+   "hn": "https://news.ycombinator.com/item?id=36214393"
+  },
+  {
+   "date": "2025-04-10",
+   "title": "Arroyo (YC W23) has been acquired by Cloudflare",
+   "url": "https://www.arroyo.dev/blog/arroyo-is-joining-cloudflare",
+   "author": "necubi",
+   "points": 113,
+   "comments": 38,
+   "hn": "https://news.ycombinator.com/item?id=43643968"
+  },
+  {
+   "date": "2024-03-18",
+   "title": "Building a streaming SQL engine with Arrow and DataFusion",
+   "url": "https://www.arroyo.dev/blog/why-arrow-and-datafusion",
+   "author": "necubi",
+   "points": 112,
+   "comments": 30,
+   "hn": "https://news.ycombinator.com/item?id=39741600"
+  },
+  {
+   "date": "2025-03-23",
+   "title": "Fast columnar JSON decoding with arrow-rs",
+   "url": "https://www.arroyo.dev/blog/fast-arrow-json-decoding",
+   "author": "necubi",
+   "points": 56,
+   "comments": 7,
+   "hn": "https://news.ycombinator.com/item?id=43454238"
+  },
+  {
+   "date": "2024-06-02",
+   "title": "Building a dynamic lib plugin system for Rust",
+   "url": "https://www.arroyo.dev/blog/rust-plugin-systems",
+   "author": "necubi",
+   "points": 21,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=40558054"
+  },
+  {
+   "date": "2023-03-20",
+   "title": "10x faster sliding windows: how our Rust streaming engine beats Flink",
+   "url": "https://www.arroyo.dev/blog/how-arroyo-beats-flink-at-sliding-windows",
+   "author": "necubi",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=35234427"
+  }
+ ]
 }

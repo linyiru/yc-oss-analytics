@@ -6930,5 +6930,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2020-05-07",
+   "title": "Instant dev environments for cloud-native apps",
+   "url": "https://okteto.com/blog/step-out-from-the-dark-ages-develop-the-cloud-native-way/",
+   "author": "pchico83",
+   "points": 91,
+   "comments": 50,
+   "hn": "https://news.ycombinator.com/item?id=23103534"
+  },
+  {
+   "date": "2019-12-09",
+   "title": "Okteto – Kubernetes for Developers",
+   "url": "https://okteto.com",
+   "author": "alexellisuk",
+   "points": 23,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=21743401"
+  },
+  {
+   "date": "2025-06-18",
+   "title": "Show HN: Run AI Agents on your cloud infrastructure",
+   "url": "https://www.okteto.com/ai/",
+   "author": "Ramiro",
+   "points": 12,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44311193"
+  },
+  {
+   "date": "2020-01-22",
+   "title": "Okteto: Step out of the dark ages and start developing the cloud native way",
+   "url": "https://okteto.com/blog/step-out-from-the-dark-ages-develop-the-cloud-native-way/",
+   "author": "pchico83",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=22117243"
+  },
+  {
+   "date": "2021-05-19",
+   "title": "A Step-by-Step Guide on Deploying Your Docker Compose Application to Okteto",
+   "url": "https://okteto.com/blog/a-step-by-step-guide-on-deploying-your-docker-compose-application-to-okteto",
+   "author": "rlamana",
+   "points": 7,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=27211354"
+  },
+  {
+   "date": "2019-10-22",
+   "title": "How to Develop Go Applications in Kubernetes",
+   "url": "https://okteto.com/blog/how-to-develop-go-apps-in-kubernetes/",
+   "author": "pchico83",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=21321098"
+  }
+ ]
 }

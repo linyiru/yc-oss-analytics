@@ -16616,5 +16616,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 16560,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2014-05-27",
+   "title": "Show HN: Font Awesome to PNG",
+   "url": "http://fa2png.io/",
+   "author": "commanderj",
+   "points": 128,
+   "comments": 48,
+   "hn": "https://news.ycombinator.com/item?id=7805594"
+  },
+  {
+   "date": "2013-11-05",
+   "title": "Show HN: GlyphSearch – Search for icons from Font Awesome, Glyphicons, Ionicons",
+   "url": "http://glyphsearch.com/",
+   "author": "parkov",
+   "points": 43,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=6674895"
+  },
+  {
+   "date": "2020-03-06",
+   "title": "Show HN: A Better Alternative to Font Awesome – Unicons",
+   "url": "https://iconscout.com/unicons/explore/line",
+   "author": "tarunmangukiya",
+   "points": 40,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=22503642"
+  },
+  {
+   "date": "2017-12-07",
+   "title": "Font Awesome 5 Released – new icons, styles, SVG, ligatures, and more",
+   "url": "https://fontawesome.com/?utm_source=hn&utm_medium=display&utm_campaign=fa5_released",
+   "author": "fortawesome",
+   "points": 36,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=15872218"
+  },
+  {
+   "date": "2018-02-01",
+   "title": "(New) Font Awesome Website",
+   "url": "https://fontawesome.com/icons?d=gallery",
+   "author": "chrisacky",
+   "points": 25,
+   "comments": 15,
+   "hn": "https://news.ycombinator.com/item?id=16285399"
+  },
+  {
+   "date": "2017-02-21",
+   "title": "Show HN: Font Awesome to PNG Icon Generator in 100% JavaScript/HTML5",
+   "url": "https://www.easele.com/favicon-generator",
+   "author": "harrisreynolds",
+   "points": 14,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=13695317"
+  }
+ ],
+ "ph_event": {
+  "date": "2014-10-06",
+  "name": "Font Awesome",
+  "tagline": "A font of scalable vector icons",
+  "votes": 165,
+  "comments": 10,
+  "url": "https://www.producthunt.com/products/font-awesome-2/launches/font-awesome"
+ },
+ "yc_launch": null
 }

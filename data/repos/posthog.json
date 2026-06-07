@@ -9773,5 +9773,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-09-11",
+   "title": "Why our website looks like an operating system",
+   "url": "https://posthog.com/blog/why-os",
+   "author": "bnc319",
+   "points": 684,
+   "comments": 487,
+   "hn": "https://news.ycombinator.com/item?id=45217269"
+  },
+  {
+   "date": "2023-09-29",
+   "title": "Burning money on paid ads for a dev tool – what we've learned",
+   "url": "https://posthog.com/blog/dev-marketing-paid-ads",
+   "author": "fmerian",
+   "points": 679,
+   "comments": 273,
+   "hn": "https://news.ycombinator.com/item?id=37700847"
+  },
+  {
+   "date": "2022-06-28",
+   "title": "Job interview questions engineers should ask, but don't",
+   "url": "https://posthog.com/blog/what-to-ask-in-interviews",
+   "author": "james_impliu",
+   "points": 524,
+   "comments": 223,
+   "hn": "https://news.ycombinator.com/item?id=31906933"
+  },
+  {
+   "date": "2025-11-11",
+   "title": "Collaboration sucks",
+   "url": "https://newsletter.posthog.com/p/collaboration-sucks",
+   "author": "Kinrany",
+   "points": 486,
+   "comments": 248,
+   "hn": "https://news.ycombinator.com/item?id=45892394"
+  },
+  {
+   "date": "2024-01-14",
+   "title": "Posthog is closing their Slack community in favor of forum",
+   "url": "https://posthog.com/blog/slack-closure",
+   "author": "vmatsiiako",
+   "points": 396,
+   "comments": 216,
+   "hn": "https://news.ycombinator.com/item?id=38987383"
+  },
+  {
+   "date": "2025-03-05",
+   "title": "Things we've learned about building products",
+   "url": "https://newsletter.posthog.com/p/50-things-weve-learned-about-building",
+   "author": "fmerian",
+   "points": 313,
+   "comments": 110,
+   "hn": "https://news.ycombinator.com/item?id=43267095"
+  }
+ ]
 }

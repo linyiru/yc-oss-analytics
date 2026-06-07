@@ -14026,5 +14026,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 4338,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2018-04-03",
+   "title": "SailsJS 1.0 – Rails-like JS Framework",
+   "url": "https://sailsjs.com",
+   "author": "hit8run",
+   "points": 118,
+   "comments": 87,
+   "hn": "https://news.ycombinator.com/item?id=16749148"
+  },
+  {
+   "date": "2015-12-31",
+   "title": "Status of Sails.js",
+   "url": "https://github.com/balderdashy/sails/issues/3429",
+   "author": "kevinob11",
+   "points": 93,
+   "comments": 73,
+   "hn": "https://news.ycombinator.com/item?id=10819583"
+  },
+  {
+   "date": "2015-12-17",
+   "title": "Is Sails.js dying?",
+   "url": "https://github.com/balderdashy/sails/issues/3429#issuecomment-165004024",
+   "author": "nbrempel",
+   "points": 19,
+   "comments": 12,
+   "hn": "https://news.ycombinator.com/item?id=10755557"
+  },
+  {
+   "date": "2013-03-07",
+   "title": "Hack With Sails, MVC For Node.JS Done Right ",
+   "url": "http://email.sailsjs.com:1337/SxSW_Sailsjs_Hackathon.html",
+   "author": "skadamat",
+   "points": 6,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=5339881"
+  },
+  {
+   "date": "2015-12-22",
+   "title": "Status of Sails.js",
+   "url": "https://github.com/balderdashy/sails/issues/3429",
+   "author": "esistgut",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=10777087"
+  },
+  {
+   "date": "2013-03-07",
+   "title": "Sails.JS Hackathon",
+   "url": "http://email.sailsjs.com:1337/SxSW_Sailsjs_Hackathon_web.html",
+   "author": "dcbartlett",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=5339156"
+  }
+ ]
 }

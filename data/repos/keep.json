@@ -4546,5 +4546,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2010-03-16",
+   "title": "Show HN: I finally released that sheet music app I keep yammering about",
+   "url": "http://etudeapp.com",
+   "author": "dangrover",
+   "points": 318,
+   "comments": 112,
+   "hn": "https://news.ycombinator.com/item?id=1196055"
+  },
+  {
+   "date": "2020-03-27",
+   "title": "Show HN: Introvert – Generative artwork to keep you off your phone",
+   "url": "https://iamintrovert.co",
+   "author": "ilyayudanov",
+   "points": 312,
+   "comments": 90,
+   "hn": "https://news.ycombinator.com/item?id=22703112"
+  },
+  {
+   "date": "2017-02-25",
+   "title": "Show HN: PDFLayoutTextStripper – Converts PDF to text while keeping the layout",
+   "url": "https://github.com/JonathanLink/PDFLayoutTextStripper",
+   "author": "jlink",
+   "points": 283,
+   "comments": 92,
+   "hn": "https://news.ycombinator.com/item?id=13729301"
+  },
+  {
+   "date": "2024-07-10",
+   "title": "Show HN: I made a Note-Taking app for people who keep texting themselves",
+   "url": "https://strflow.app",
+   "author": "eguchi1904",
+   "points": 219,
+   "comments": 201,
+   "hn": "https://news.ycombinator.com/item?id=40925906"
+  },
+  {
+   "date": "2020-04-10",
+   "title": "Show HN: We made a web app so that our parents can keep reading to our daughter",
+   "url": "http://readastorytome.com/",
+   "author": "benja123",
+   "points": 185,
+   "comments": 57,
+   "hn": "https://news.ycombinator.com/item?id=22836940"
+  },
+  {
+   "date": "2020-04-04",
+   "title": "Show HN: A site to keep track of critters you can catch in Animal Crossing",
+   "url": "https://ac-catch.com/",
+   "author": "sawyerjhood",
+   "points": 182,
+   "comments": 45,
+   "hn": "https://news.ycombinator.com/item?id=22780124"
+  }
+ ]
 }

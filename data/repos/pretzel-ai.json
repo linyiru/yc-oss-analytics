@@ -1605,5 +1605,27 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-07-02",
+   "title": "Show HN: Adding Mistral Codestral and GPT-4o to Jupyter Notebooks",
+   "url": "https://github.com/pretzelai/pretzelai/blob/main/README.md",
+   "author": "prasoonds",
+   "points": 269,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=40857009"
+  },
+  {
+   "date": "2024-03-15",
+   "title": "Show HN: Open-source, browser-local data exploration using DuckDB-WASM and PRQL",
+   "url": "https://github.com/pretzelai/pretzelai",
+   "author": "prasoonds",
+   "points": 227,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=39717268"
+  }
+ ]
 }

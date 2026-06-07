@@ -1785,5 +1785,41 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Cactus 🌵: Deploy AI models locally on smartphones",
+  "date": "2025-07-11",
+  "votes": 40,
+  "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones"
+ },
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2025-07-10",
+   "title": "Show HN: Cactus – Ollama for Smartphones",
+   "url": "https://github.com/cactus-compute/cactus",
+   "author": "HenryNdubuaku",
+   "points": 231,
+   "comments": 82,
+   "hn": "https://news.ycombinator.com/item?id=44524544"
+  },
+  {
+   "date": "2025-09-18",
+   "title": "Launch HN: Cactus (YC S25) – AI inference on smartphones",
+   "url": "https://github.com/cactus-compute/cactus",
+   "author": "HenryNdubuaku",
+   "points": 123,
+   "comments": 63,
+   "hn": "https://news.ycombinator.com/item?id=45291024"
+  },
+  {
+   "date": "2021-04-04",
+   "title": "Show HN: Codepen Cactus animation I made with Framer Motion",
+   "url": "https://codepen.io/joshuawootonn/pen/abpZdzo",
+   "author": "joshuawootonn",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=26691994"
+  }
+ ]
 }

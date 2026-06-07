@@ -3383,5 +3383,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-05-06",
+   "title": "Show HN: Peerdb Streams – Simple, native Postgres change data capture",
+   "url": "https://news.ycombinator.com/item?id=40276768",
+   "author": "saisrirampur",
+   "points": 177,
+   "comments": 40,
+   "hn": "https://news.ycombinator.com/item?id=40276768"
+  },
+  {
+   "date": "2023-11-06",
+   "title": "Building a Streaming Platform in Go for Postgres",
+   "url": "https://blog.peerdb.io/building-a-streaming-platform-in-go-for-postgres",
+   "author": "saisrirampur",
+   "points": 167,
+   "comments": 49,
+   "hn": "https://news.ycombinator.com/item?id=38167423"
+  },
+  {
+   "date": "2024-02-21",
+   "title": "Moving a billion Postgres rows on a $100 budget",
+   "url": "https://blog.peerdb.io/moving-a-billion-postgres-rows-on-a-100-budget",
+   "author": "samaysharma",
+   "points": 153,
+   "comments": 68,
+   "hn": "https://news.ycombinator.com/item?id=39458636"
+  },
+  {
+   "date": "2024-04-25",
+   "title": "Parallel Snapshotting: make pg_dump and pg_restore multi-threaded per table",
+   "url": "https://blog.peerdb.io/how-can-we-make-pgdump-and-pgrestore-5-times-faster",
+   "author": "spathak",
+   "points": 83,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=40160467"
+  },
+  {
+   "date": "2024-02-05",
+   "title": "Reducing BigQuery Costs",
+   "url": "https://blog.peerdb.io/reducing-bigquery-costs-by-260x",
+   "author": "cauchyk",
+   "points": 76,
+   "comments": 38,
+   "hn": "https://news.ycombinator.com/item?id=39264487"
+  },
+  {
+   "date": "2024-03-04",
+   "title": "Comparing Postgres Managed Services: AWS, Azure, GCP and Supabase",
+   "url": "https://blog.peerdb.io/comparing-postgres-managed-services-aws-azure-gcp-and-supabase",
+   "author": "saisrirampur",
+   "points": 68,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=39593384"
+  }
+ ]
 }

@@ -6036,5 +6036,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2018-11-01",
+   "title": "Sales mistakes that software engineers make",
+   "url": "https://www.pipelinedb.com/blog/three-sales-mistakes-software-engineers-make",
+   "author": "Fergi",
+   "points": 777,
+   "comments": 201,
+   "hn": "https://news.ycombinator.com/item?id=18351891"
+  },
+  {
+   "date": "2018-10-24",
+   "title": "PipelineDB 1.0 – High-Performance Time-Series Aggregation for PostgreSQL",
+   "url": "https://www.pipelinedb.com/blog/pipelinedb-1-0-0-high-performance-time-series-aggregation-for-postgresql",
+   "author": "Fergi",
+   "points": 276,
+   "comments": 61,
+   "hn": "https://news.ycombinator.com/item?id=18295041"
+  },
+  {
+   "date": "2015-07-07",
+   "title": "To Be Continuous",
+   "url": "http://www.pipelinedb.com/blog/to-be-continuous",
+   "author": "Fergi",
+   "points": 153,
+   "comments": 51,
+   "hn": "https://news.ycombinator.com/item?id=9847374"
+  },
+  {
+   "date": "2018-04-25",
+   "title": "PipelineDB v0.9.9 – One More Release Until PipelineDB Is a PostgreSQL Extension",
+   "url": "https://www.pipelinedb.com/blog/pipelinedb-0-9-9-one-more-release-until-pipelinedb-is-a-postgresql-extension",
+   "author": "Fergi",
+   "points": 122,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=16925499"
+  },
+  {
+   "date": "2017-03-17",
+   "title": "PipelineDB 0.9.7 – Delta Streams and Towards a PostgreSQL Extension",
+   "url": "https://www.pipelinedb.com/blog/pipelinedb-0-9-7-delta-streams-and-towards-a-postgresql-extension",
+   "author": "grammr",
+   "points": 87,
+   "comments": 10,
+   "hn": "https://news.ycombinator.com/item?id=13897826"
+  },
+  {
+   "date": "2015-07-30",
+   "title": "Making Postgres Bloom",
+   "url": "http://www.pipelinedb.com/blog/making-postgres-bloom",
+   "author": "usman-m",
+   "points": 69,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=9976889"
+  }
+ ]
 }

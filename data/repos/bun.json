@@ -6353,5 +6353,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2022-07-05",
+   "title": "Bun: Fast JavaScript runtime, transpiler, and NPM client written in Zig",
+   "url": "https://bun.sh/?launch",
+   "author": "firloop",
+   "points": 1431,
+   "comments": 314,
+   "hn": "https://news.ycombinator.com/item?id=31993429"
+  },
+  {
+   "date": "2023-09-08",
+   "title": "Bun v1.0.0",
+   "url": "https://bun.sh/blog/bun-v1.0",
+   "author": "tuananh",
+   "points": 1089,
+   "comments": 367,
+   "hn": "https://news.ycombinator.com/item?id=37434117"
+  },
+  {
+   "date": "2026-05-05",
+   "title": "Zig → Rust porting guide",
+   "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+   "author": "SergeAx",
+   "points": 723,
+   "comments": 555,
+   "hn": "https://news.ycombinator.com/item?id=48016880"
+  },
+  {
+   "date": "2026-05-14",
+   "title": "Rewrite Bun in Rust has been merged",
+   "url": "https://github.com/oven-sh/bun/pull/30412",
+   "author": "Chaoses",
+   "points": 708,
+   "comments": 789,
+   "hn": "https://news.ycombinator.com/item?id=48132488"
+  },
+  {
+   "date": "2026-05-15",
+   "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+   "url": "https://github.com/oven-sh/bun/issues/30719",
+   "author": "ndiddy",
+   "points": 488,
+   "comments": 345,
+   "hn": "https://news.ycombinator.com/item?id=48150900"
+  },
+  {
+   "date": "2024-04-01",
+   "title": "Bun 1.1",
+   "url": "https://bun.sh/blog/bun-v1.1",
+   "author": "ksec",
+   "points": 462,
+   "comments": 263,
+   "hn": "https://news.ycombinator.com/item?id=39895744"
+  }
+ ],
+ "ph_event": {
+  "date": "2025-12-05",
+  "name": "Bun",
+  "tagline": "A fast JS runtime Node.js replacement with built‑in tools",
+  "votes": 320,
+  "comments": 9,
+  "url": "https://www.producthunt.com/products/bun-4/launches/bun"
+ },
+ "yc_launch": null
 }

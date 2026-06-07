@@ -2757,5 +2757,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2025-02-25",
+   "title": "Launch HN: Browser Use (YC W25) – open-source web agents",
+   "url": "https://github.com/browser-use/browser-use",
+   "author": "MagMueller",
+   "points": 259,
+   "comments": 100,
+   "hn": "https://news.ycombinator.com/item?id=43173378"
+  },
+  {
+   "date": "2025-08-20",
+   "title": "Closer to the Metal: Leaving Playwright for CDP",
+   "url": "https://browser-use.com/posts/playwright-to-cdp",
+   "author": "gregpr07",
+   "points": 182,
+   "comments": 118,
+   "hn": "https://news.ycombinator.com/item?id=44962869"
+  },
+  {
+   "date": "2026-04-15",
+   "title": "Prove you are a robot: CAPTCHAs for agents",
+   "url": "https://browser-use.com/posts/prove-you-are-a-robot",
+   "author": "lukasec",
+   "points": 108,
+   "comments": 70,
+   "hn": "https://news.ycombinator.com/item?id=47781950"
+  },
+  {
+   "date": "2026-02-27",
+   "title": "Building secure, scalable agent sandbox infrastructure",
+   "url": "https://browser-use.com/posts/two-ways-to-sandbox-agents",
+   "author": "gregpr07",
+   "points": 79,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=47181316"
+  },
+  {
+   "date": "2025-01-23",
+   "title": "Show HN: I Wrote an Open-Source Alternative to OpenAI Operator – For Any LLM",
+   "url": "https://github.com/browser-use/browser-use",
+   "author": "MagMueller",
+   "points": 15,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=42808043"
+  },
+  {
+   "date": "2026-01-31",
+   "title": "Browser Agent Benchmark: Comparing LLM models for web automation",
+   "url": "https://browser-use.com/posts/ai-browser-agent-benchmark",
+   "author": "MagMueller",
+   "points": 13,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=46837660"
+  }
+ ],
+ "ph_event": {
+  "date": "2025-01-16",
+  "name": "Browser Use",
+  "tagline": "We enable AI to control your browser",
+  "votes": 332,
+  "comments": 22,
+  "url": "https://www.producthunt.com/products/browser-use/launches/browser-use"
+ },
+ "yc_launch": null
 }

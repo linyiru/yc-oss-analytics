@@ -17219,5 +17219,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-07-09",
+   "title": "InfluxDB Cloud shuts down in Belgium; some weren't notified before data deletion",
+   "url": "https://community.influxdata.com/t/getting-weird-results-from-gcp-europe-west1/30615",
+   "author": "PaulAA",
+   "points": 443,
+   "comments": 266,
+   "hn": "https://news.ycombinator.com/item?id=36657829"
+  },
+  {
+   "date": "2018-08-22",
+   "title": "Open source takes continued investment, and that must be subsidized somehow",
+   "url": "https://www.influxdata.com/blog/its-time-for-the-open-source-community-to-get-real/",
+   "author": "runesoerensen",
+   "points": 396,
+   "comments": 250,
+   "hn": "https://news.ycombinator.com/item?id=17822257"
+  },
+  {
+   "date": "2018-10-22",
+   "title": "Rust can be difficult to learn and frustrating, but it's also very exciting",
+   "url": "https://www.influxdata.com/blog/rust-can-be-difficult-to-learn-and-frustrating-but-its-also-the-most-exciting-thing-in-software-development-in-a-long-time/",
+   "author": "pauldix",
+   "points": 287,
+   "comments": 274,
+   "hn": "https://news.ycombinator.com/item?id=18277450"
+  },
+  {
+   "date": "2018-05-28",
+   "title": "Will Kubernetes Collapse Under the Weight of Its Complexity?",
+   "url": "https://www.influxdata.com/blog/will-kubernetes-collapse-under-the-weight-of-its-complexity/",
+   "author": "tim_sw",
+   "points": 205,
+   "comments": 209,
+   "hn": "https://news.ycombinator.com/item?id=17175479"
+  },
+  {
+   "date": "2020-11-10",
+   "title": "InfluxDB is betting on Rust and Apache Arrow for next-gen data store",
+   "url": "https://www.influxdata.com/blog/announcing-influxdb-iox/",
+   "author": "mhall119",
+   "points": 205,
+   "comments": 113,
+   "hn": "https://news.ycombinator.com/item?id=25049253"
+  },
+  {
+   "date": "2022-10-26",
+   "title": "IOx: InfluxData’s New Storage Engine",
+   "url": "https://www.influxdata.com/blog/influxdb-engine/",
+   "author": "resizeitplz",
+   "points": 167,
+   "comments": 29,
+   "hn": "https://news.ycombinator.com/item?id=33344573"
+  }
+ ]
 }

@@ -6288,5 +6288,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-09-30",
+   "title": "SpiceDB Is Open Source",
+   "url": "https://authzed.com/blog/spicedb-is-open-source/",
+   "author": "jzelinskie",
+   "points": 197,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=28709886"
+  },
+  {
+   "date": "2021-04-17",
+   "title": "Onboarding with an M1",
+   "url": "https://authzed.com/blog/onboarding-with-an-m1/",
+   "author": "ingve",
+   "points": 165,
+   "comments": 161,
+   "hn": "https://news.ycombinator.com/item?id=26843228"
+  },
+  {
+   "date": "2022-12-08",
+   "title": "Google Zanzibar Through Our Eyes",
+   "url": "https://authzed.com/blog/annotated-zanzibar-launch/",
+   "author": "jzelinskie",
+   "points": 119,
+   "comments": 20,
+   "hn": "https://news.ycombinator.com/item?id=33910685"
+  },
+  {
+   "date": "2022-08-25",
+   "title": "Dropping playground latency by porting SpiceDB to WASM",
+   "url": "https://authzed.com/blog/some-assembly-required/",
+   "author": "jzelinskie",
+   "points": 71,
+   "comments": 12,
+   "hn": "https://news.ycombinator.com/item?id=32595310"
+  },
+  {
+   "date": "2021-06-16",
+   "title": "Maintaining a Stable Protobuf API",
+   "url": "https://authzed.com/blog/buf",
+   "author": "bufbuild",
+   "points": 18,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=27529274"
+  },
+  {
+   "date": "2021-09-30",
+   "title": "Show HN: SpiceDB – production-ready, open-source Google Zanzibar implementation",
+   "url": "https://github.com/authzed/spicedb/releases/tag/v1.0.0",
+   "author": "jzelinskie",
+   "points": 16,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=28707072"
+  }
+ ]
 }

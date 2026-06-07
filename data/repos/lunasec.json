@@ -2192,5 +2192,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2021-12-09",
+   "title": "Log4j RCE Found",
+   "url": "https://www.lunasec.io/docs/blog/log4j-zero-day/",
+   "author": "usmannk",
+   "points": 1385,
+   "comments": 503,
+   "hn": "https://news.ycombinator.com/item?id=29504755"
+  },
+  {
+   "date": "2021-12-15",
+   "title": "Log4Shell update: second Log4j vulnerability published",
+   "url": "https://www.lunasec.io/docs/blog/log4j-zero-day-update-on-cve-2021-45046/",
+   "author": "freeqaz",
+   "points": 698,
+   "comments": 278,
+   "hn": "https://news.ycombinator.com/item?id=29561532"
+  },
+  {
+   "date": "2023-03-29",
+   "title": "Cerebras-GPT vs. LLaMA AI Model Performance Comparison",
+   "url": "https://www.lunasec.io/docs/blog/cerebras-gpt-vs-llama-ai-model-comparison/",
+   "author": "freeqaz",
+   "points": 263,
+   "comments": 70,
+   "hn": "https://news.ycombinator.com/item?id=35362048"
+  },
+  {
+   "date": "2022-07-28",
+   "title": "How to build an open-source business (2021)",
+   "url": "https://www.lunasec.io/docs/blog/how-to-build-an-open-source-business-in-2021-part-1/",
+   "author": "freeqaz",
+   "points": 96,
+   "comments": 19,
+   "hn": "https://news.ycombinator.com/item?id=32269781"
+  },
+  {
+   "date": "2022-07-26",
+   "title": "Bun: A Complete Overhaul of the JavaScript Ecosystem",
+   "url": "https://www.lunasec.io/docs/blog/bun-first-look/",
+   "author": "freeqaz",
+   "points": 69,
+   "comments": 25,
+   "hn": "https://news.ycombinator.com/item?id=32243534"
+  },
+  {
+   "date": "2021-12-10",
+   "title": "RCE 0-day exploit found in log4j, a popular Java logging package",
+   "url": "https://www.lunasec.io/docs/blog/log4j-zero-day/",
+   "author": "freeqaz",
+   "points": 57,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=29505477"
+  }
+ ]
 }

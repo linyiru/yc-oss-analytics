@@ -3467,5 +3467,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-03-08",
+   "title": "Show HN: Hatchet – Open-source distributed task queue",
+   "url": "https://github.com/hatchet-dev/hatchet",
+   "author": "abelanger",
+   "points": 578,
+   "comments": 189,
+   "hn": "https://news.ycombinator.com/item?id=39643136"
+  },
+  {
+   "date": "2026-02-13",
+   "title": "Building a TUI is easy now",
+   "url": "https://hatchet.run/blog/tuis-are-easy-now",
+   "author": "abelanger",
+   "points": 306,
+   "comments": 255,
+   "hn": "https://news.ycombinator.com/item?id=47005509"
+  },
+  {
+   "date": "2025-04-03",
+   "title": "Show HN: Hatchet v1 – A task orchestration platform built on Postgres",
+   "url": "https://github.com/hatchet-dev/hatchet",
+   "author": "abelanger",
+   "points": 240,
+   "comments": 74,
+   "hn": "https://news.ycombinator.com/item?id=43572733"
+  },
+  {
+   "date": "2025-06-04",
+   "title": "Go is a good fit for agents",
+   "url": "https://docs.hatchet.run/blog/go-agents",
+   "author": "abelanger",
+   "points": 236,
+   "comments": 175,
+   "hn": "https://news.ycombinator.com/item?id=44179889"
+  },
+  {
+   "date": "2024-04-18",
+   "title": "Multi-tenant queues in Postgres",
+   "url": "https://docs.hatchet.run/blog/multi-tenant-queues",
+   "author": "abelanger",
+   "points": 233,
+   "comments": 45,
+   "hn": "https://news.ycombinator.com/item?id=40077233"
+  },
+  {
+   "date": "2025-12-12",
+   "title": "How to think about durable execution",
+   "url": "https://hatchet.run/blog/durable-execution",
+   "author": "abelanger",
+   "points": 96,
+   "comments": 37,
+   "hn": "https://news.ycombinator.com/item?id=46245238"
+  }
+ ]
 }

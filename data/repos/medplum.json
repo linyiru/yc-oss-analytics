@@ -4105,5 +4105,36 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2024-12-09",
+   "title": "Achieving a zero-downtime Postgres major version upgrade",
+   "url": "https://www.medplum.com/blog/zero-downtime-postgres-major-version-upgrade",
+   "author": "mattlong",
+   "points": 15,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=42369426"
+  },
+  {
+   "date": "2025-03-14",
+   "title": "A healthcare platform that helps you develop high-quality compliant applications",
+   "url": "https://github.com/medplum/medplum",
+   "author": "mooreds",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43362560"
+  },
+  {
+   "date": "2024-04-12",
+   "title": "Medplum: Healthcare platform to quickly develop compliant applications",
+   "url": "https://github.com/medplum/medplum",
+   "author": "nateb2022",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=40011836"
+  }
+ ]
 }

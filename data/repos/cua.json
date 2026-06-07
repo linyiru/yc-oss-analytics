@@ -2368,5 +2368,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2025-03-18",
+  "name": "Cua",
+  "tagline": "AI agents that control your MacOS, safely sandboxed",
+  "votes": 0,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/cua/launches/cua"
+ },
+ "hn_events": [
+  {
+   "date": "2026-04-28",
+   "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+   "url": "https://github.com/trycua/cua",
+   "author": "frabonacci",
+   "points": 192,
+   "comments": 43,
+   "hn": "https://news.ycombinator.com/item?id=47936312"
+  },
+  {
+   "date": "2025-04-23",
+   "title": "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
+   "url": "https://github.com/trycua/cua",
+   "author": "frabonacci",
+   "points": 172,
+   "comments": 73,
+   "hn": "https://news.ycombinator.com/item?id=43773563"
+  },
+  {
+   "date": "2025-05-14",
+   "title": "Show HN: Lumier – Run macOS VMs in a Docker",
+   "url": "https://github.com/trycua/cua/tree/main/libs/lumier",
+   "author": "GreenGames",
+   "points": 159,
+   "comments": 52,
+   "hn": "https://news.ycombinator.com/item?id=43985624"
+  },
+  {
+   "date": "2026-01-18",
+   "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
+   "url": "https://cua.ai/docs/lume/guide/getting-started/introduction",
+   "author": "frabonacci",
+   "points": 154,
+   "comments": 44,
+   "hn": "https://news.ycombinator.com/item?id=46670181"
+  },
+  {
+   "date": "2026-01-26",
+   "title": "Show HN: Cua-Bench – a benchmark for AI agents in GUI environments",
+   "url": "https://github.com/trycua/cua",
+   "author": "someguy101010",
+   "points": 40,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=46768906"
+  },
+  {
+   "date": "2025-09-26",
+   "title": "When hackathon judging is a public benchmark: my report from Hack the North",
+   "url": "https://github.com/trycua/cua/blob/main/blog/hack-the-north.md",
+   "author": "frabonacci",
+   "points": 18,
+   "comments": 3,
+   "hn": "https://news.ycombinator.com/item?id=45387214"
+  }
+ ]
 }

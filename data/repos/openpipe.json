@@ -2401,5 +2401,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-11-08",
+   "title": "Is AI the next crypto? Insights from HN comments",
+   "url": "https://openpipe.ai/blog/hn-ai-crypto",
+   "author": "kcorbitt",
+   "points": 237,
+   "comments": 367,
+   "hn": "https://news.ycombinator.com/item?id=38193978"
+  },
+  {
+   "date": "2023-12-20",
+   "title": "Mistral 7B Fine-Tune Optimized",
+   "url": "https://openpipe.ai/blog/mistral-7b-fine-tune-optimized",
+   "author": "tosh",
+   "points": 234,
+   "comments": 103,
+   "hn": "https://news.ycombinator.com/item?id=38712802"
+  },
+  {
+   "date": "2024-10-28",
+   "title": "Using reinforcement learning and $4.80 of GPU time to find the best HN post",
+   "url": "https://openpipe.ai/blog/hacker-news-rlhf-part-1",
+   "author": "kcorbitt",
+   "points": 217,
+   "comments": 95,
+   "hn": "https://news.ycombinator.com/item?id=41973591"
+  },
+  {
+   "date": "2025-03-06",
+   "title": "Using GRPO to Beat o1, o3-mini and R1 at “Temporal Clue”",
+   "url": "https://openpipe.ai/blog/using-grpo-to-beat-o1-o3-mini-and-r1-on-temporal-clue",
+   "author": "kcorbitt",
+   "points": 199,
+   "comments": 55,
+   "hn": "https://news.ycombinator.com/item?id=43284420"
+  },
+  {
+   "date": "2025-07-11",
+   "title": "Show HN: RULER – Easily apply RL to any agent",
+   "url": "https://openpipe.ai/blog/ruler",
+   "author": "kcorbitt",
+   "points": 81,
+   "comments": 11,
+   "hn": "https://news.ycombinator.com/item?id=44535078"
+  },
+  {
+   "date": "2024-06-20",
+   "title": "OpenPipe Mixture of Agents: Outperform GPT-4 at 1/25th the Cost",
+   "url": "https://openpipe.ai/blog/mixture-of-agents",
+   "author": "kcorbitt",
+   "points": 13,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=40740527"
+  }
+ ]
 }

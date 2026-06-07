@@ -15087,5 +15087,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-04-29",
+  "name": "RethinkDB",
+  "tagline": "RethinkDB pushes JSON to your apps in realtime.",
+  "votes": 2,
+  "comments": 1,
+  "url": "https://www.producthunt.com/products/rethinkdb-2-0/launches/rethinkdb"
+ },
+ "hn_events": [
+  {
+   "date": "2016-10-06",
+   "title": "RethinkDB is shutting down",
+   "url": "https://rethinkdb.com/blog/rethinkdb-shutdown/",
+   "author": "neumino",
+   "points": 1674,
+   "comments": 441,
+   "hn": "https://news.ycombinator.com/item?id=12649414"
+  },
+  {
+   "date": "2012-11-09",
+   "title": "RethinkDB: An open-source distributed database built with love over three years",
+   "url": "http://www.rethinkdb.com",
+   "author": "coffeemug",
+   "points": 739,
+   "comments": 237,
+   "hn": "https://news.ycombinator.com/item?id=4763879"
+  },
+  {
+   "date": "2017-02-06",
+   "title": "RethinkDB joins the Linux Foundation: What Happens Next",
+   "url": "https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation?",
+   "author": "mglukhovsky",
+   "points": 733,
+   "comments": 106,
+   "hn": "https://news.ycombinator.com/item?id=13581375"
+  },
+  {
+   "date": "2015-04-14",
+   "title": "RethinkDB 2.0 is now production ready",
+   "url": "http://rethinkdb.com/blog/2.0-release/",
+   "author": "hopeless",
+   "points": 407,
+   "comments": 152,
+   "hn": "https://news.ycombinator.com/item?id=9374927"
+  },
+  {
+   "date": "2013-12-16",
+   "title": "RethinkDB raises an $8M Series A",
+   "url": "http://rethinkdb.com/blog/funding/",
+   "author": "coffeemug",
+   "points": 299,
+   "comments": 126,
+   "hn": "https://news.ycombinator.com/item?id=6916062"
+  },
+  {
+   "date": "2015-08-11",
+   "title": "RethinkDB 2.1 is out: high availability",
+   "url": "http://rethinkdb.com/blog/2.1-release/",
+   "author": "coffeemug",
+   "points": 264,
+   "comments": 105,
+   "hn": "https://news.ycombinator.com/item?id=10042678"
+  }
+ ]
 }

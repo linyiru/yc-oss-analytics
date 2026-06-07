@@ -4700,5 +4700,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "hn_events": [
+  {
+   "date": "2026-03-24",
+   "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+   "url": "https://github.com/BerriAI/litellm/issues/24512",
+   "author": "dot_treo",
+   "points": 938,
+   "comments": 500,
+   "hn": "https://news.ycombinator.com/item?id=47501426"
+  },
+  {
+   "date": "2026-03-24",
+   "title": "Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer",
+   "url": "https://github.com/BerriAI/litellm/issues/24512",
+   "author": "theanonymousone",
+   "points": 739,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=47501729"
+  },
+  {
+   "date": "2023-08-12",
+   "title": "Show HN: liteLLM Proxy Server: 50+ LLM Models, Error Handling, Caching",
+   "url": "https://github.com/BerriAI/litellm/blob/main/cookbook/proxy-server/readme.md",
+   "author": "ij23",
+   "points": 140,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=37095542"
+  },
+  {
+   "date": "2023-07-27",
+   "title": "Show HN: Litellm – Simple library to standardize OpenAI, Cohere, Azure LLM I/O",
+   "url": "https://github.com/BerriAI/litellm",
+   "author": "ij23",
+   "points": 62,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=36887711"
+  },
+  {
+   "date": "2025-11-18",
+   "title": "Show HN: Optimizing LiteLLM with Rust – When Expectations Meet Reality",
+   "url": "https://github.com/neul-labs/fast-litellm",
+   "author": "ticktockten",
+   "points": 27,
+   "comments": 9,
+   "hn": "https://news.ycombinator.com/item?id=45968461"
+  },
+  {
+   "date": "2023-08-08",
+   "title": "Show HN: LiteLLM -Open-Source Library for Anthropic,Azure,OpenAI, etc. API Calls",
+   "url": "https://litellm.ai/",
+   "author": "ij23",
+   "points": 5,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=37048149"
+  }
+ ],
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2023-08-09",
+  "name": "liteLLM",
+  "tagline": "One library to standardize all LLM APIs",
+  "votes": 124,
+  "comments": 12,
+  "url": "https://www.producthunt.com/products/litellm/launches/litellm"
+ }
 }

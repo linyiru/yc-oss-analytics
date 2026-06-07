@@ -3814,5 +3814,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2023-10-11",
+   "title": "Show HN: OpenLLMetry – OpenTelemetry-based observability for LLMs",
+   "url": "https://github.com/traceloop/openllmetry",
+   "author": "nirga",
+   "points": 154,
+   "comments": 31,
+   "hn": "https://news.ycombinator.com/item?id=37843907"
+  },
+  {
+   "date": "2024-02-14",
+   "title": "Show HN: You don't need to adopt new tools for LLM observability",
+   "url": "https://github.com/traceloop/openllmetry-js",
+   "author": "tomerf2",
+   "points": 102,
+   "comments": 23,
+   "hn": "https://news.ycombinator.com/item?id=39371297"
+  },
+  {
+   "date": "2024-03-20",
+   "title": "Lessons Learned from Using LLMs to Evaluate LLMs",
+   "url": "https://www.traceloop.com/blog/lessons-learned-from-using-llms-to-evaluate-llms",
+   "author": "talboren",
+   "points": 4,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=39766051"
+  },
+  {
+   "date": "2023-12-07",
+   "title": "Observability for LLM's with Opentelemetry",
+   "url": "https://www.traceloop.com/blog/diy-observability-for-llm-with-opentelemetry",
+   "author": "shahargl",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=38556892"
+  },
+  {
+   "date": "2026-03-02",
+   "title": "Traceloop Is Joining ServiceNow",
+   "url": "https://traceloop.com/blog/traceloop-is-joining-servicenow",
+   "author": "Rutledge",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=47223218"
+  },
+  {
+   "date": "2023-02-23",
+   "title": "Show HN: Traceloop – open-source for generating tests from production traffic",
+   "url": "https://github.com/traceloop/jest-opentelemetry",
+   "author": "nirga",
+   "points": 3,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=34907938"
+  }
+ ]
 }

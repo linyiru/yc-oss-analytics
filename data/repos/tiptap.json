@@ -11934,5 +11934,75 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": {
+  "title": "Bidirectional Markdown Support for Tiptap",
+  "date": "2025-10-14",
+  "votes": 12,
+  "url": "https://www.ycombinator.com/launches/OcJ-bidirectional-markdown-support-for-tiptap"
+ },
+ "ph_event": {
+  "date": "2021-08-15",
+  "name": "TipTap",
+  "tagline": "The headless editor framework for web artisans.",
+  "votes": 14,
+  "comments": 0,
+  "url": "https://www.producthunt.com/products/tiptap/launches/tiptap"
+ },
+ "hn_events": [
+  {
+   "date": "2021-04-22",
+   "title": "Headless WYSISWYG Text Editor – tiptap editor",
+   "url": "https://www.tiptap.dev/",
+   "author": "me_bx",
+   "points": 204,
+   "comments": 108,
+   "hn": "https://news.ycombinator.com/item?id=26901975"
+  },
+  {
+   "date": "2025-06-04",
+   "title": "Show HN: Tiptap AI Agent – Add AI workflows to your text editor in minutes",
+   "url": "https://news.ycombinator.com/item?id=44177964",
+   "author": "philipisik",
+   "points": 45,
+   "comments": 18,
+   "hn": "https://news.ycombinator.com/item?id=44177964"
+  },
+  {
+   "date": "2025-04-15",
+   "title": "Show HN: Tiptap UI Components – Free React Components for Building Editor UIs",
+   "url": "https://github.com/ueberdosis/tiptap-ui-components",
+   "author": "philipisik",
+   "points": 19,
+   "comments": 6,
+   "hn": "https://news.ycombinator.com/item?id=43690157"
+  },
+  {
+   "date": "2025-05-06",
+   "title": "Show HN: Tiptap Editor 3.0 Beta is out",
+   "url": "https://tiptap.dev/tiptap-editor-v3",
+   "author": "philipisik",
+   "points": 10,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43905319"
+  },
+  {
+   "date": "2025-06-16",
+   "title": "Show HN: Better Docx Import and Export Support for Tiptap Editor",
+   "url": "https://news.ycombinator.com/item?id=44287639",
+   "author": "philipisik",
+   "points": 10,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=44287639"
+  },
+  {
+   "date": "2025-07-15",
+   "title": "Tiptap 3.0 is stable: open-source text editor built on ProseMirror",
+   "url": "https://tiptap.dev/docs/resources/whats-new",
+   "author": "philipisik",
+   "points": 9,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=44571088"
+  }
+ ]
 }

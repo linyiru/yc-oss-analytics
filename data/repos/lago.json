@@ -5829,5 +5829,63 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-05-18",
+   "title": "Billing systems are a nightmare for engineers",
+   "url": "https://www.getlago.com/blog/why-billing-systems-are-a-nightmare-for-engineers",
+   "author": "Rafsark",
+   "points": 777,
+   "comments": 359,
+   "hn": "https://news.ycombinator.com/item?id=31424450"
+  },
+  {
+   "date": "2025-01-29",
+   "title": "Why DeepSeek had to be open source",
+   "url": "https://www.getlago.com/blog/deepseek-open-source",
+   "author": "AnhTho_FR",
+   "points": 525,
+   "comments": 300,
+   "hn": "https://news.ycombinator.com/item?id=42866201"
+  },
+  {
+   "date": "2023-06-27",
+   "title": "Is ORM still an anti-pattern?",
+   "url": "https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F",
+   "author": "AnhTho_FR",
+   "points": 451,
+   "comments": 777,
+   "hn": "https://news.ycombinator.com/item?id=36497613"
+  },
+  {
+   "date": "2023-09-27",
+   "title": "Open Source does not win by being cheaper",
+   "url": "https://github.com/getlago/lago/wiki/Open-Source-does-not-win-by-being-cheaper",
+   "author": "thibo_skabgia",
+   "points": 425,
+   "comments": 273,
+   "hn": "https://news.ycombinator.com/item?id=37682684"
+  },
+  {
+   "date": "2022-12-09",
+   "title": "Stripe’s real pricing: a primer",
+   "url": "https://github.com/getlago/lago/wiki/Stripe%27s-real-pricing:-a-primer",
+   "author": "AnhTho_FR",
+   "points": 417,
+   "comments": 216,
+   "hn": "https://news.ycombinator.com/item?id=33920019"
+  },
+  {
+   "date": "2022-10-13",
+   "title": "Why doesn't Stripe use Stripe Billing?",
+   "url": "https://www.getlago.com/blog/is-stripe-using-stripe",
+   "author": "swyx",
+   "points": 336,
+   "comments": 186,
+   "hn": "https://news.ycombinator.com/item?id=33191307"
+  }
+ ]
 }

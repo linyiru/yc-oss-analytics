@@ -3552,5 +3552,70 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": {
+  "date": "2015-04-09",
+  "name": "daily",
+  "tagline": "the uncluttered list of things to do TODAY only",
+  "votes": 109,
+  "comments": 9,
+  "url": "https://www.producthunt.com/products/daily-2/launches/daily"
+ },
+ "hn_events": [
+  {
+   "date": "2016-02-09",
+   "title": "Show HN: I've been writing daily TILs for a year",
+   "url": "https://github.com/jbranchaud/til",
+   "author": "jbranchaud",
+   "points": 819,
+   "comments": 150,
+   "hn": "https://news.ycombinator.com/item?id=11068902"
+  },
+  {
+   "date": "2024-02-28",
+   "title": "Show HN: I made an app to use local AI as daily driver",
+   "url": "https://recurse.chat/",
+   "author": "xyc",
+   "points": 637,
+   "comments": 237,
+   "hn": "https://news.ycombinator.com/item?id=39532367"
+  },
+  {
+   "date": "2023-04-20",
+   "title": "Show HN: A 15 min daily stretch routine for desk workers",
+   "url": "https://stretch15.com",
+   "author": "almara",
+   "points": 550,
+   "comments": 129,
+   "hn": "https://news.ycombinator.com/item?id=35639810"
+  },
+  {
+   "date": "2025-10-13",
+   "title": "Show HN: SQLite Online – 11 years of solo development, 11K daily users",
+   "url": "https://sqliteonline.com/",
+   "author": "sqliteonline",
+   "points": 465,
+   "comments": 142,
+   "hn": "https://news.ycombinator.com/item?id=45567770"
+  },
+  {
+   "date": "2025-11-22",
+   "title": "Show HN: Forty.News – Daily news, but on a 40-year delay",
+   "url": "https://forty.news",
+   "author": "foxbarrington",
+   "points": 443,
+   "comments": 180,
+   "hn": "https://news.ycombinator.com/item?id=46017175"
+  },
+  {
+   "date": "2022-08-07",
+   "title": "Show HN: Figure is a daily logic puzzle game",
+   "url": "https://figure.game",
+   "author": "sumul",
+   "points": 417,
+   "comments": 113,
+   "hn": "https://news.ycombinator.com/item?id=32376154"
+  }
+ ]
 }

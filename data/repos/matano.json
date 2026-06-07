@@ -2944,5 +2944,36 @@
  "stars_daily": true,
  "curve_source": "bigquery",
  "curve_baseline": 0,
- "curve_partial": false
+ "curve_partial": false,
+ "yc_launch": null,
+ "ph_event": null,
+ "hn_events": [
+  {
+   "date": "2022-08-06",
+   "title": "Show HN: Open-source serverless security lake powered by Rust + Apache Iceberg",
+   "url": "https://github.com/matanolabs/matano",
+   "author": "shaeqahmed",
+   "points": 63,
+   "comments": 48,
+   "hn": "https://news.ycombinator.com/item?id=32367923"
+  },
+  {
+   "date": "2022-09-13",
+   "title": "Serverless data ingestion into Apache Iceberg tables",
+   "url": "https://www.matano.dev/blog/2022/09/13/ingesting-data-iceberg",
+   "author": "wizwit999",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=32828642"
+  },
+  {
+   "date": "2025-04-03",
+   "title": "Matano: Open-source security data lake for cybersecurity analytics",
+   "url": "https://github.com/matanolabs/matano",
+   "author": "teleforce",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=43576617"
+  }
+ ]
 }
