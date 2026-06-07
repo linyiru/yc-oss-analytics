@@ -73,3 +73,40 @@
 
 /* og card stage */
 .og-stage { background: repeating-linear-gradient(45deg, var(--surface-3), var(--surface-3) 10px, var(--surface-2) 10px, var(--surface-2) 20px); padding: 28px; border-radius: var(--r-md); display: grid; place-items: center; }
+
+/* ── Playbook deck ─────────────────────────────────────────────── */
+.pb-hero { max-width: 720px; margin: 4px 0 30px; }
+.pb-h1 { font-size: clamp(2rem, 5.4vw, 3.4rem); font-weight: 680; letter-spacing: -.03em; line-height: 1.04; margin: 12px 0 16px; }
+.pb-mark { color: var(--accent-text); position: relative; white-space: nowrap; }
+.pb-mark::after { content: ''; position: absolute; left: -2px; right: -2px; bottom: .06em; height: .34em; background: color-mix(in oklab, var(--accent) 26%, transparent); border-radius: 3px; z-index: -1; }
+.pb-lede { font-size: var(--fs-md); line-height: 1.62; max-width: 660px; }
+
+.pb-slides { display: flex; flex-direction: column; gap: 18px; }
+.pb-slide { position: relative; overflow: hidden; padding: 26px 28px; }
+.pb-slide::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 3px; background: linear-gradient(180deg, var(--accent), transparent 85%); opacity: .7; }
+.pb-idx { position: absolute; top: 8px; right: 18px; font-size: clamp(3.2rem, 9vw, 5.6rem); font-weight: 700; line-height: 1; color: var(--text); opacity: .045; letter-spacing: -.04em; pointer-events: none; }
+
+.pb-slide-grid { display: grid; grid-template-columns: 270px 1fr; gap: 30px; align-items: start; }
+.pb-evi { display: flex; flex-direction: column; gap: 9px; padding-right: 26px; border-right: 1px solid var(--border); }
+.pb-stat { font-size: clamp(1.7rem, 3.6vw, 2.3rem); font-weight: 750; letter-spacing: -.03em; line-height: 1.02; color: var(--accent-text); }
+.pb-stat-label { font-size: var(--fs-2xs); line-height: 1.4; }
+.pb-cmp { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
+.pb-mult { display: flex; align-items: baseline; gap: 8px; }
+.pb-mult span { font-size: var(--fs-2xl); font-weight: 800; color: var(--text); letter-spacing: -.03em; }
+.pb-mult em { font-style: normal; font-size: var(--fs-2xs); }
+
+.pb-narr { min-width: 0; display: flex; flex-direction: column; gap: 11px; }
+.pb-title { font-size: var(--fs-xl); font-weight: 640; letter-spacing: -.018em; line-height: 1.18; }
+.pb-kicker { align-self: flex-start; font-size: var(--fs-2xs); font-weight: 600; color: var(--accent-text); background: color-mix(in oklab, var(--accent) 13%, transparent); border: 1px solid color-mix(in oklab, var(--accent) 30%, transparent); padding: 3px 9px; border-radius: var(--r-full); }
+.pb-lesson { font-size: var(--fs-md); line-height: 1.66; color: var(--text-2); }
+.pb-eg { display: flex; flex-direction: column; gap: 7px; margin-top: 3px; }
+.pb-chip { text-decoration: none; transition: transform .12s var(--ease), border-color .12s var(--ease); }
+.pb-chip:hover { transform: translateY(-1px); border-color: var(--accent); }
+.pb-caveat { font-size: var(--fs-2xs); line-height: 1.55; margin-top: 2px; }
+.pb-foot { font-size: var(--fs-xs); line-height: 1.65; margin: 26px 0 0; max-width: 780px; }
+
+@media (max-width: 720px) {
+  .pb-slide-grid { grid-template-columns: 1fr; gap: 20px; }
+  .pb-evi { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: 18px; }
+  .pb-idx { font-size: 3.4rem; }
+}

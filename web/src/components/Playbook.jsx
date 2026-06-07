@@ -1,6 +1,35 @@
-/* Playbook — data-backed success factors. Numbers computed live; narrative human-written. */
+/* Playbook — data-backed success factors, presented like a deck.
+   Numbers are computed live in lib/playbook.ts; narrative is human-written. */
 import React, { useEffect } from 'react';
-import { Store, TopNav, Footer, Section, fmtInt } from './kit.jsx';
+import { Store, TopNav, Footer } from './kit.jsx';
+
+/* Two-bar "with vs without" comparison. Bars scale to the larger value. */
+function CompareBars({ c }) {
+  const hi = Math.max(c.a, c.b, 1);
+  const unit = c.unit || '';
+  const fmt = (n) => (unit ? n + unit : n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'K' : '' + n);
+  const Row = ({ v, label, lead }) => (
+    <div className="col" style={{ gap: 5 }}>
+      <div className="row" style={{ justifyContent: 'space-between', alignItems: 'baseline' }}>
+        <span style={{ fontSize: 'var(--fs-2xs)', color: lead ? 'var(--accent-text)' : 'var(--text-3)', fontWeight: lead ? 600 : 400 }}>{label}</span>
+        <span className="mono tabular" style={{ fontSize: 'var(--fs-sm)', fontWeight: 700, color: lead ? 'var(--accent-text)' : 'var(--text-2)' }}>{fmt(v)}</span>
+      </div>
+      <div style={{ height: lead ? 13 : 9, borderRadius: 7, background: 'var(--surface-2)', overflow: 'hidden' }}>
+        <i style={{
+          display: 'block', height: '100%', width: `${Math.max(3, (v / hi) * 100)}%`, borderRadius: 7,
+          background: lead ? 'linear-gradient(90deg, var(--accent), color-mix(in oklab, var(--accent) 60%, #fff 12%))' : 'var(--text-3)',
+          transition: 'width .7s var(--ease)',
+        }} />
+      </div>
+    </div>
+  );
+  return (
+    <div className="col" style={{ gap: 11, width: '100%' }}>
+      <Row v={c.a} label={c.aLabel} lead />
+      <Row v={c.b} label={c.bLabel} />
+    </div>
+  );
+}
 
 export default function Playbook({ data, initialLocale }) {
   useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
@@ -8,37 +37,60 @@ export default function Playbook({ data, initialLocale }) {
   return (
     <>
       <TopNav active="playbook" count={n} />
-      <main className="wrap" style={{ padding: '26px 20px 0', maxWidth: 980 }}>
-        <div style={{ maxWidth: 680, marginBottom: 24 }}>
+      <main className="wrap pb-deck" style={{ padding: '30px 20px 0', maxWidth: 1000 }}>
+        {/* Hero */}
+        <header className="pb-hero">
           <span className="eyebrow">The Playbook</span>
-          <h1 style={{ fontSize: 'var(--fs-3xl)', fontWeight: 600, letterSpacing: '-.025em', lineHeight: 1.1, margin: '8px 0 10px' }}>What the data says actually works.</h1>
-          <p className="muted" style={{ fontSize: 'var(--fs-md)', lineHeight: 1.55 }}>
-            Patterns shared by the {n} YC open-source companies that grew — each backed by a number computed straight from the dataset. These are <b style={{ color: 'var(--text)' }}>correlations, not commandments</b>: they describe what winners did, not a guarantee, and they can't see the teams that did the same and failed.
+          <h1 className="pb-h1">What the data says<br />actually <span className="pb-mark">works</span>.</h1>
+          <p className="muted pb-lede">
+            Seven patterns shared by the {n} YC open-source companies that grew — each backed by a number computed
+            straight from the dataset, recomputed as the data updates. These are <b style={{ color: 'var(--text)' }}>correlations,
+            not commandments</b>: they describe what winners did, not a guarantee, and they can't see the teams that did the same and failed.
           </p>
-        </div>
+        </header>
 
-        <div className="col" style={{ gap: 14 }}>
+        {/* Slides */}
+        <div className="pb-slides">
           {lessons.map((l, i) => (
-            <div key={l.key} className="card card-pad" style={{ display: 'grid', gridTemplateColumns: '160px 1fr', gap: 20, alignItems: 'start' }}>
-              <div className="col" style={{ gap: 4 }}>
-                <span className="mono" style={{ fontSize: 'var(--fs-2xl)', fontWeight: 700, color: 'var(--accent-text)', letterSpacing: '-.02em', lineHeight: 1.05 }}>{l.stat}</span>
-                <span className="faint" style={{ fontSize: 'var(--fs-2xs)' }}>{l.statLabel}</span>
-              </div>
-              <div className="col" style={{ gap: 8, minWidth: 0 }}>
-                <h3 style={{ fontSize: 'var(--fs-lg)', fontWeight: 600, letterSpacing: '-.01em' }}><span className="faint mono" style={{ fontSize: 'var(--fs-sm)', marginRight: 8 }}>{String(i + 1).padStart(2, '0')}</span>{l.title}</h3>
-                <p className="muted" style={{ fontSize: 'var(--fs-sm)', lineHeight: 1.6 }}>{l.lesson}</p>
-                <div className="row gap-2" style={{ flexWrap: 'wrap', alignItems: 'center', marginTop: 2 }}>
-                  <span className="eyebrow">e.g.</span>
-                  {l.examples.map((s) => <a key={s} href={`/${s}`} className="badge badge--batch mono" style={{ textDecoration: 'none' }}>{s}</a>)}
+            <section key={l.key} className="pb-slide card">
+              <span className="pb-idx mono" aria-hidden>{String(i + 1).padStart(2, '0')}</span>
+
+              <div className="pb-slide-grid">
+                {/* Evidence column */}
+                <div className="pb-evi">
+                  <div className="pb-stat mono">{l.stat}</div>
+                  <div className="pb-stat-label faint">{l.statLabel}</div>
+                  {l.compare && (
+                    <div className="pb-cmp">
+                      {l.compare.mult && <div className="pb-mult mono"><span>{l.compare.mult}</span><em className="faint">the difference</em></div>}
+                      <CompareBars c={l.compare} />
+                    </div>
+                  )}
                 </div>
-                <p className="faint" style={{ fontSize: 'var(--fs-2xs)', lineHeight: 1.5, marginTop: 2 }}>⚠ {l.caveat}</p>
+
+                {/* Narrative column */}
+                <div className="pb-narr">
+                  <h2 className="pb-title">{l.title}</h2>
+                  {l.kicker && <div className="pb-kicker mono">{l.kicker}</div>}
+                  <p className="pb-lesson">{l.lesson}</p>
+                  <div className="pb-eg">
+                    <span className="eyebrow">In practice</span>
+                    <div className="row gap-2" style={{ flexWrap: 'wrap' }}>
+                      {l.examples.map((s) => <a key={s} href={`/${s}`} className="badge badge--batch mono pb-chip">{s}</a>)}
+                    </div>
+                  </div>
+                  <p className="pb-caveat faint">⚠ {l.caveat}</p>
+                </div>
               </div>
-            </div>
+            </section>
           ))}
         </div>
 
-        <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.6, margin: '20px 0 0', maxWidth: 760 }}>
-          Every figure recomputes from the live dataset. Stars, launch events, issue/PR activity and the cross-star network are all derived from public GitHub history, the HN/Product Hunt/YC-Launch records, and GH Archive. See <a href="/methodology" style={{ color: 'var(--accent-text)' }}>Methodology</a> for limits — especially survivorship bias, which hides every team that did these things and still didn't make it.
+        <p className="faint pb-foot">
+          Every figure recomputes from the live dataset — stars, launch events, issue/PR activity and the cross-star
+          network, all derived from public GitHub history plus the HN, Product Hunt and YC-Launch records and GH Archive.
+          See <a href="/methodology" style={{ color: 'var(--accent-text)' }}>Methodology</a> for limits — above all survivorship
+          bias, which hides every team that did these same things and still didn't make it.
         </p>
       </main>
       <Footer />
