@@ -5,7 +5,7 @@ import { Store, useStore, TopNav, Footer, Section, StackedShare, RankedBars, lan
 const colorOf = (l) => (l === 'Other' ? 'var(--dormant)' : langColor(l));
 
 export default function Trends({ tr, initialLocale }) {
-  const { intl } = useStore();
+  const { intl, T } = useStore();
   useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
   const aiByYear = tr.byYear.filter((y) => y.repos > 0);
   const maxAi = Math.max(1, ...aiByYear.map((y) => y.aiAvg));
@@ -34,10 +34,10 @@ export default function Trends({ tr, initialLocale }) {
         </div>
 
         {tr.outcomes?.length > 0 && (
-          <Section title="Company outcomes" sub={`Survivorship made visible — YC's own status for ${tr.withStatus} companies. ${tr.notActive} are no longer independently active.`} style={{ marginBottom: 16 }}>
-            <RankedBars items={tr.outcomes.map((o) => ({ label: o.name, value: o.count, color: o.name === 'Active' ? 'var(--evergreen)' : o.name === 'Acquired' ? 'var(--steady)' : o.name === 'Public' ? 'var(--accent)' : 'var(--dormant)' }))} fmt={(v) => v + ''} />
+          <Section title={T('outcomesTitle')} sub={T('outcomesSub').replace('{a}', tr.withStatus).replace('{b}', tr.notActive)} style={{ marginBottom: 16 }}>
+            <RankedBars items={tr.outcomes.map((o) => ({ label: T(o.name), value: o.count, color: o.name === 'Active' ? 'var(--evergreen)' : o.name === 'Acquired' ? 'var(--steady)' : o.name === 'Public' ? 'var(--accent)' : 'var(--dormant)' }))} fmt={(v) => v + ''} />
             <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.5, marginTop: 14 }}>
-              Our analysis still over-represents the living — dead-and-delisted companies fall out of YC's directory entirely — but this is the part of survivorship we <i>can</i> see: {Math.round((100 * tr.notActive) / tr.withStatus)}% of the tracked companies have already been acquired, gone public, or marked inactive.
+              {T('outcomesNote').replace('{p}', Math.round((100 * tr.notActive) / tr.withStatus))}
             </p>
           </Section>
         )}

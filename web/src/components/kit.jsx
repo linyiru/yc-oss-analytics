@@ -44,6 +44,20 @@ const STR = {
   Rising: { en: 'Rising', 'zh-Hant': '崛起', 'zh-Hans': '崛起', ja: '上昇', ko: '상승', pt: 'Em alta' },
   Steady: { en: 'Steady', 'zh-Hant': '穩定', 'zh-Hans': '稳定', ja: '安定', ko: '안정', pt: 'Estável' },
   Dormant: { en: 'Dormant', 'zh-Hant': '休眠', 'zh-Hans': '休眠', ja: '休眠', ko: '휴면', pt: 'Dormente' },
+  // company outcome (YC ycdc_status)
+  Active: { en: 'Active', 'zh-Hant': '營運中', 'zh-Hans': '运营中', ja: '運営中', ko: '운영 중', pt: 'Ativa' },
+  Acquired: { en: 'Acquired', 'zh-Hant': '已被收購', 'zh-Hans': '已被收购', ja: '買収済み', ko: '인수됨', pt: 'Adquirida' },
+  Public: { en: 'Public', 'zh-Hant': '已上市', 'zh-Hans': '已上市', ja: '上場済み', ko: '상장됨', pt: 'Aberta' },
+  Inactive: { en: 'Inactive', 'zh-Hant': '已停業', 'zh-Hans': '已停业', ja: '休止中', ko: '비활성', pt: 'Inativa' },
+  // repo-page metadata
+  founded: { en: 'Founded', 'zh-Hant': '成立', 'zh-Hans': '成立', ja: '設立', ko: '설립', pt: 'Fundada' },
+  teamLbl: { en: 'team', 'zh-Hant': '團隊', 'zh-Hans': '团队', ja: 'チーム', ko: '팀', pt: 'equipe' },
+  ycPartner: { en: 'YC partner', 'zh-Hant': 'YC 合夥人', 'zh-Hans': 'YC 合伙人', ja: 'YC パートナー', ko: 'YC 파트너', pt: 'sócio YC' },
+  rebranded: { en: 'YC company listed as {n} (rebranded)', 'zh-Hant': 'YC 登記名稱為 {n}(已改名)', 'zh-Hans': 'YC 登记名称为 {n}(已改名)', ja: 'YC 登録名は {n}(リブランド済み)', ko: 'YC 등록명은 {n} (리브랜딩됨)', pt: 'Empresa YC registrada como {n} (rebatizada)' },
+  // trends — company outcomes
+  outcomesTitle: { en: 'Company outcomes', 'zh-Hant': '公司結局', 'zh-Hans': '公司结局', ja: '企業の行く末', ko: '회사의 결말', pt: 'Desfechos das empresas' },
+  outcomesSub: { en: "Survivorship made visible — YC's own status for {a} companies. {b} are no longer independently active.", 'zh-Hant': '讓倖存者偏誤現形——YC 自己對 {a} 家公司的狀態。其中 {b} 家已不再獨立營運。', 'zh-Hans': '让幸存者偏差现形——YC 自己对 {a} 家公司的状态。其中 {b} 家已不再独立运营。', ja: '生存者バイアスを可視化——{a} 社に対する YC 自身のステータス。うち {b} 社はすでに独立して運営していません。', ko: '생존 편향을 가시화 — {a}개 회사에 대한 YC 자체 상태. 그중 {b}개는 더 이상 독립적으로 운영되지 않습니다.', pt: 'Viés de sobrevivência à vista — o status da própria YC para {a} empresas. {b} já não operam de forma independente.' },
+  outcomesNote: { en: 'Our analysis still over-represents the living — dead-and-delisted companies fall out of YC\'s directory entirely — but this is the part of survivorship we can see: {p}% have already been acquired, gone public, or gone inactive.', 'zh-Hant': '我們的分析仍偏向倖存者——死掉並下架的公司會完全從 YC 目錄消失——但這是我們看得見的那部分倖存:{p}% 已被收購、上市或停業。', 'zh-Hans': '我们的分析仍偏向幸存者——死掉并下架的公司会完全从 YC 目录消失——但这是我们看得见的那部分幸存:{p}% 已被收购、上市或停业。', ja: '私たちの分析は今も「生きている側」に偏っています——倒れて掲載が消えた企業は YC のディレクトリから完全に外れます——が、これは見える範囲の生存者の姿です:{p}% はすでに買収・上場、または活動停止しています。', ko: '우리 분석은 여전히 살아있는 쪽에 치우쳐 있습니다 — 죽어 사라진 회사는 YC 디렉터리에서 완전히 빠집니다 — 하지만 이것이 우리가 볼 수 있는 생존의 단면입니다: {p}%가 이미 인수·상장되었거나 비활성 상태입니다.', pt: 'Nossa análise ainda super-representa os vivos — empresas mortas e removidas somem do diretório da YC — mas esta é a parte da sobrevivência que dá para ver: {p}% já foram adquiridas, abriram capital ou ficaram inativas.' },
 };
 const trf = (key, locale) => { const e = STR[key]; return (e && (e[locale] || e.en)) || key; };
 export const Store = (() => {
