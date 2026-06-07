@@ -60,6 +60,9 @@ jobs:
           python3 pipeline/yc_company.py verify || echo "::warning::yc snapshot refresh had issues"
           python3 pipeline/load_yc_snapshots.py
 
+      - name: Audit licenses (open-core / source-available / proprietary)
+        run: python3 pipeline/license_audit.py || echo "::warning::license audit had issues"
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
