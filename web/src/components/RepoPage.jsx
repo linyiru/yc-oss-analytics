@@ -155,10 +155,10 @@ export default function RepoPage({ view, initialLocale }) {
           <div className="row gap-4" style={{ alignItems: 'flex-start' }}>
             <span style={{ width: 4, alignSelf: 'stretch', background: c.liveness >= 60 ? 'var(--evergreen)' : 'var(--rising)', borderRadius: 4, flex: '0 0 4px' }}></span>
             <div>
-              <span className="eyebrow" style={{ display: 'block', marginBottom: 6 }}>Traction transparency · signals, not verdicts</span>
+              <span className="eyebrow" style={{ display: 'block', marginBottom: 6 }}>How the stars grew · context, not a verdict</span>
               <p className="muted" style={{ fontSize: 'var(--fs-sm)', lineHeight: 1.6, maxWidth: 820 }}>
                 {c.starsPerFork != null && <>This repo has <b style={{ color: 'var(--text)' }}>{c.starsPerFork}:1</b> stars-per-fork{c.starsPerContributor != null && <> and <b style={{ color: 'var(--text)' }}>{fi(c.starsPerContributor)}:1</b> stars-per-contributor</>}. </>}
-                These are neutral engagement ratios — high values can indicate either weak community pull or simply a very popular tool, and are <b style={{ color: 'var(--text)' }}>not</b> evidence of inflated traction on their own. {d.contributors.length > 6 ? 'Contribution is spread across the core team.' : 'Work is concentrated in a few maintainers.'}
+                These are neutral engagement ratios — high values can mean weak community pull or simply a very popular tool, and on their own say <b style={{ color: 'var(--text)' }}>nothing</b> about how the stars were earned. The star-growth curve above tells that story better — steady climb, an event-driven spike, or network amplification. {d.contributors.length > 6 ? 'Contribution is spread across the core team.' : 'Work is concentrated in a few maintainers.'}
               </p>
             </div>
           </div>

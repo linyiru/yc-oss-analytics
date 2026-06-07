@@ -33,16 +33,16 @@ Recent movement, not just totals.
 Group repos by YC batch year and chart language/stack mix over cohorts (e.g. is Rails fading,
 is the AI era TS/Python-heavy?). No historical snapshots needed — batch year is the timeline.
 
-### Star authenticity / "is this traction real?" — *now + sampling; deeper via archive*
-Surface **signals, never verdicts** (see README ethics).
-- Ratio checks (*now*): stars/forks, stars/contributors, stars/issues outliers.
-- Burst shape (*now*): organic spikes decay; purchased ones step-and-flatline.
-- Stargazer account quality (*sampling*): sample N stargazers → account age, followers,
-  public repos → low-quality share.
-- **YC-network early-star ratio** (*now, graph-based*): of a repo's first ~200 stargazers,
-  what share also starred ≥2 other YC repos in our set. Derived structurally from
-  cross-starring — **no roster of individuals**. Distinguishes legit YC-network amplification
-  (high-quality accounts) from farmed stars (low-quality accounts).
+### Star-growth story — *now + sampling; deeper via archive*
+Explore **how** a project's stars accumulated — descriptive lenses, never verdicts (see README).
+- Growth shape (*now*): from the star curve — steady organic climb vs. an event-driven spike.
+- Event attribution (*now/archive*): tie spikes to a moment (YC Launch, Show HN, Product Hunt,
+  HN front page, a tweet, a dependency adopting it).
+- **Alumni / network amplification** (*now, graph-based*): of a repo's first ~200 stargazers,
+  what share also starred ≥2 other YC repos in our set — a network effect, derived structurally
+  from cross-starring, with **no roster of individuals**.
+- Engagement ratios with peer context (*now*): stars/forks, stars/contributors as descriptive
+  context, never an accusation.
 
 ## Data quality
 

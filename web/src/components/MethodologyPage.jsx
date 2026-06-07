@@ -48,9 +48,9 @@ export default function MethodologyPage({ initialLocale }) {
           </ul>
         </Section>
 
-        <Section title="On “real vs. inflated traction”" sub="Signals, never verdicts" style={{ marginBottom: 16 }}>
+        <Section title="Reading the star-growth story" sub="The shape and sources of growth — descriptive, not a verdict" style={{ marginBottom: 16 }}>
           <p className="muted" style={{ fontSize: 'var(--fs-sm)', lineHeight: 1.6 }}>
-            We surface descriptive engagement ratios (stars-per-fork, stars-per-contributor) with peer context. These are <b style={{ color: 'var(--text)' }}>signals, not accusations</b>. A genuinely viral project can look statistically identical to one with purchased stars, so we never label a named company as fraudulent. We distinguish legitimate <b style={{ color: 'var(--text)' }}>network amplification</b> (real, active developers) from low-quality farmed accounts only with care, and we do not publish personal data or maintain dossiers on individuals.
+            We're curious about <b style={{ color: 'var(--text)' }}>how</b> a project's stars accumulated, not whether they're "real". A curve's shape usually points to one of a few all-legitimate paths: <b style={{ color: 'var(--text)' }}>steady organic growth</b>, an <b style={{ color: 'var(--text)' }}>event-driven spike</b> (a YC Launch, Show HN, Product Hunt, an HN front page, a well-timed tweet), or <b style={{ color: 'var(--text)' }}>alumni / network amplification</b> (early stars from the YC orbit). Engagement ratios (stars-per-fork, stars-per-contributor) are shown with peer context as descriptive lenses on that story — never accusations. We do not publish personal data or label any project as fake.
           </p>
         </Section>
 

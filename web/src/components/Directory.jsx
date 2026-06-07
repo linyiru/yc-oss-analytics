@@ -56,7 +56,7 @@ export default function Directory({ companies = [], initialLocale }) {
           <div style={{ maxWidth: 620 }}>
             <span className="eyebrow">YC Open-Source Analytics</span>
             <h1 style={{ fontSize: 'var(--fs-3xl)', fontWeight: 600, letterSpacing: '-.025em', lineHeight: 1.08, margin: '8px 0 10px', textWrap: 'balance' }}>How {all.length} YC open-source teams<br />actually build, decoded from git.</h1>
-            <p className="muted" style={{ fontSize: 'var(--fs-md)', lineHeight: 1.55, maxWidth: 560 }}>Reverse-engineered from public commit history & GitHub metadata. Every number is derived from the source — including <span style={{ color: 'var(--text)' }}>real vs. inflated traction</span>.</p>
+            <p className="muted" style={{ fontSize: 'var(--fs-md)', lineHeight: 1.55, maxWidth: 560 }}>Reverse-engineered from public commit history & GitHub metadata — including <span style={{ color: 'var(--text)' }}>how each project's stars actually grew</span>.</p>
           </div>
           <div className="kpi-strip">
             <StatCard label="Repos tracked" value={fmtInt(all.length, intl)} accent="var(--accent)" />
