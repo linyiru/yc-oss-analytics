@@ -82,6 +82,11 @@ export const IconGlobe = (p) => <Icon {...p} d={<><circle cx="12" cy="12" r="9" 
 export const IconGit = (p) => <Icon {...p} d={<><circle cx="12" cy="6" r="2.4" /><circle cx="6" cy="18" r="2.4" /><circle cx="18" cy="14" r="2.4" /><path d="M18 11.6V11a4 4 0 0 0-4-4H9M6 8.4v7.2" /></>} />;
 export const IconStar = (p) => <Icon {...p} d={<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2-5.5-2.9-5.5 2.9 1-6.2L3 9.6l6.2-.9Z" />} />;
 export const IconExt = (p) => <Icon {...p} size={13} d={<><path d="M7 17 17 7M9 7h8v8" /></>} />;
+export const IconX = ({ size = 13 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" style={{ display: 'block', flex: '0 0 auto' }}>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
 
 /* ---------- shell ---------- */
 export function Logo() {
@@ -134,7 +139,6 @@ export function TopNav({ active = 'directory', count = 158 }) {
         <div className="row gap-2">
           <span className="badge mono" style={{ color: 'var(--text-3)', borderColor: 'var(--border)' }}><i className="dot" style={{ background: 'var(--evergreen)' }}></i>{count} repos · live</span>
           <LangSwitcher /><ThemeToggle />
-          <a className="btn btn--icon" href="https://github.com/yc-oss" aria-label="GitHub"><IconGit /></a>
         </div>
       </div>
     </header>
@@ -173,10 +177,15 @@ export function Section({ title, sub, right, children, style }) {
 export function Footer() {
   return (
     <footer style={{ borderTop: '1px solid var(--border)', marginTop: 'var(--sp-12)', padding: '28px 0 48px' }}>
-      <div className="wrap row spread" style={{ flexWrap: 'wrap', gap: 16, alignItems: 'flex-start' }}>
+      <div className="wrap row spread" style={{ flexWrap: 'wrap', gap: '24px 40px', alignItems: 'flex-start' }}>
         <div className="col gap-2" style={{ maxWidth: 380 }}>
           <Logo />
           <p className="faint" style={{ fontSize: 'var(--fs-xs)', lineHeight: 1.6 }}>Independent analytics derived from public git history & GitHub metadata of ~158 Y Combinator open-source companies. Not affiliated with Y Combinator.</p>
+        </div>
+        <div className="col gap-3" style={{ alignItems: 'flex-start' }}>
+          <span className="eyebrow">Built &amp; maintained by</span>
+          <a className="foot-link row gap-2" href="https://x.com/linyiru" target="_blank" rel="noreferrer"><IconX /> @linyiru</a>
+          <a className="foot-link row gap-2" href="https://github.com/linyiru/yc-oss-analytics" target="_blank" rel="noreferrer"><IconGit /> Source on GitHub</a>
         </div>
       </div>
     </footer>

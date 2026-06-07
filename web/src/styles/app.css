@@ -120,3 +120,7 @@
 .pb-echo-item cite a { color: var(--text-2); text-decoration: none; border-bottom: 1px solid var(--border-2); }
 .pb-echo-item cite a:hover { color: var(--accent-text); border-color: var(--accent); }
 .pb-lesson + .pb-lesson { margin-top: 9px; }
+
+/* footer author/source links */
+.foot-link { font-size: var(--fs-sm); color: var(--text-2); text-decoration: none; transition: color .12s var(--ease); }
+.foot-link:hover { color: var(--accent-text); }
