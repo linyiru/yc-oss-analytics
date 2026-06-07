@@ -73,6 +73,23 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const teamBig = med(topN.map(conc)), teamSmall = med(botN.map(conc));
   const everAge = med(ever.map((r: any) => r.activity?.batch_age_years ?? 0)), everCpw = med(ever.map((r: any) => r.intensity?.commits_per_week ?? 0));
 
+  // "House style" — convergent culture: naming, positioning, stack (corroborates the YC infra-wrapper template)
+  const showHnPct = Math.round((100 * withHN.length) / R.length);
+  const medTop1 = med(R.map((r: any) => r.contributors?.[0]?.pct ?? 0));
+  const brandOf = (r: any): string => {
+    const w: string = r.yc?.website || '';
+    try { return new URL(w.includes('//') ? w : 'https://' + w).hostname.replace(/^www\./, ''); } catch { return ''; }
+  };
+  const nameOf = (b: string) => b.replace(/\.(com|io|dev|ai|sh|app|co|org|net|cloud|xyz|tech|so|run)$/, '');
+  const brands = R.map(brandOf).filter(Boolean);
+  const singleTokenPct = brands.length ? Math.round((100 * brands.filter((b) => { const n = nameOf(b); return n && !n.includes('-') && !n.includes('.'); }).length) / brands.length) : 0;
+  const nonComPct = brands.length ? Math.round((100 * brands.filter((b) => !b.endsWith('.com')).length) / brands.length) : 0;
+  const ol = (r: any) => (r.yc?.one_liner || '').toLowerCase();
+  const ossPct = Math.round((100 * R.filter((r) => /open[- ]?source/.test(ol(r))).length) / R.length);
+  const infraPct = Math.round((100 * R.filter((r) => /\b(managed|hosted|cloud|platform|infrastructure|serverless|database|api)\b/.test(ol(r))).length) / R.length);
+  const tsPct = Math.round((100 * R.filter((r) => r.metrics?.primary_lang === 'TypeScript').length) / R.length);
+  const houseExamples = [...R].filter((r) => { const n = nameOf(brandOf(r)); return n && n.length <= 6 && !n.includes('-'); }).sort((a, b) => stars(b) - stars(a)).slice(0, 4).map((r) => r.slug);
+
   const DS: Echo = { principle: 'Get your first users by hand, one at a time, and take extraordinary measures to make them happy — it does not scale, and that is exactly the point.', author: 'Paul Graham', source: "Do Things that Don't Scale", url: 'https://paulgraham.com/ds.html' };
 
   const lessons: Lesson[] = [
@@ -81,6 +98,7 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       stat: `${hnHi} vs ${hnLo}`,
       body: [
         `Of every signal in this dataset, a Hacker News front page is the most visible. Repos with a post that cracked 100 points carry a median ${hnHi} stars against ${hnLo} for those without — about ${hnMx}. On almost every repo's star curve, the steepest cliff is an HN day.`,
+        `It is also nearly universal: ${showHnPct}% of every repo in this dataset cleared a 100-point Hacker News post at least once. "Show HN" is not an edge case in this world — it is the default first move.`,
         `But "launch on Hacker News" badly undersells what the winners actually did. ${multiPct}% of them posted to HN more than once — a median of ${medHnPosts} notable posts each. The shape is a rhythm, not a moment: a Launch HN when the company is new, a Show HN for each major feature, a Tell HN or a technical deep-dive when something genuinely interesting ships. Every post is a fresh roll at the front page and a fresh cohort of first-time users.`,
         `The real takeaway is permission, not pressure: you are allowed to come back. One launch that underperforms is not a verdict on the company — it is one post on one Tuesday. The teams that grew kept finding honest reasons to show up again, for years.`,
       ],
@@ -157,7 +175,7 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       stat: `${teamBig}% vs ${teamSmall}%`,
       body: [
         `In the 40 biggest repos, the top contributor writes a median ${teamBig}% of all commits. In the 40 smallest, that figure is ${teamSmall}%. At scale, a single pair of hands and a large project almost never coexist.`,
-        `This is not a knock on the solo builder who starts something — nearly everything begins concentrated, with one person writing all of it. It is a statement about what growth demands: at some point the work has to spread, to a co-founder, to early hires, to a community of outside contributors. The projects that scaled are the ones whose founders made themselves replaceable in the codebase quickly enough for the project to outgrow them.`,
+        `This is not a knock on the solo builder who starts something — nearly everything begins concentrated. Across the whole dataset the top contributor still writes a median ${Math.round(medTop1)}% of all commits, and a single core author (often the open-source project's original maintainer, now a founder) is what gives most of these repos their credibility and their start. It is a statement about what growth demands: at some point the work has to spread, to a co-founder, to early hires, to a community of outside contributors. The projects that scaled are the ones whose founders made themselves replaceable in the codebase quickly enough for the project to outgrow them.`,
       ],
       echoes: [
         { principle: 'Have more than one founder. A single founder is one of the most common reasons startups fail — the work, the morale, and the decisions are too much for one person.', author: 'Paul Graham', source: 'What We Look for in Founders', url: 'https://paulgraham.com/founders.html' },
@@ -179,6 +197,22 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       kicker: `${early100}% of first 100 stars · ${early1000}% of first 1,000`,
       caveat: 'Derived structurally from cross-starring (an account that stars ≥2 YC repos); not a roster of individuals, and no one is named. "Network" is a broad proxy, not a claim about who specifically.',
       examples: top(netHi, 4),
+    },
+    {
+      key: 'house', title: 'The house style is real — but it is not the engine', statLabel: 'companies whose brand is a single word',
+      stat: `${singleTokenPct}%`,
+      body: [
+        `Look at enough of these companies and a house style emerges, unmistakable and convergent. ${singleTokenPct}% use a single-word brand — short, abstract, lowercase, a median of eight characters: bun, fig, modal, turso, beam, daily. ${nonComPct}% have given up on .com entirely and live on a .dev, .io, .ai or .sh domain. The naming game has a grammar, and almost everyone is speaking it.`,
+        `The positioning converges too. ${ossPct}% put "open source" directly in their one-line pitch, and ${infraPct}% frame themselves as managed infrastructure — a platform, a database, an API, a cloud. It is the open-source-wedge-plus-managed-tier template in plain sight: take a piece of infrastructure developers already love and resent operating, and sell the hosted version. Under the hood the convergence continues — ${tsPct}% lead in TypeScript, clustering with pnpm, Turborepo and in-repo MDX docs into one recognizable monorepo silhouette (the Python and AI cohort is the other half of the room).`,
+        `Here is the honest part. None of this causes growth. A single-word .dev name and a Stripe-flavored docs site are the uniform, not the engine — they signal to users, peers and investors that you are playing the same game, and that legibility has real value, but every competitor wears the same uniform. The convergence is exactly why it can't differentiate you. The edge has to come from somewhere the template can't reach: the wedge you chose, the timing, and whether you actually made something people want.`,
+      ],
+      echoes: [
+        { principle: 'In the end only one thing matters: make something people want. Surface polish and positioning are means, never the substance.', author: 'Y Combinator', source: 'Make Something People Want', url: 'https://www.ycombinator.com/library' },
+        { principle: 'Live in the future and build what is missing; the idea and the wedge matter far more than how the company is dressed.', author: 'Paul Graham', source: 'How to Get Startup Ideas', url: 'https://paulgraham.com/startupideas.html' },
+      ],
+      kicker: `${nonComPct}% on a non-.com domain · ${ossPct}% say "open source" · ${tsPct}% TypeScript`,
+      caveat: 'Naming, domain and stack are observed from public sites and repos; "house style" is convergence, not a growth lever. Founder pedigree, pricing and visual design are not in this dataset and are not claimed here.',
+      examples: houseExamples,
     },
   ];
   return { lessons, n: R.length };
