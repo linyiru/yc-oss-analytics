@@ -2,7 +2,7 @@
    Numbers are computed live in lib/playbook.ts; prose is translated in i18n/playbook-content.ts. */
 import React, { useEffect } from 'react';
 import { Store, useStore, TopNav, Footer } from './kit.jsx';
-import { PB_UI, PB_LESSONS, fill } from '../i18n/playbook-content.ts';
+import { PB_UI, PB_LESSONS, PB_ACTS, fill } from '../i18n/playbook-content.ts';
 
 /* Minimal inline markup → React nodes: **bold**, [text](url), «highlighted». */
 function rich(s) {
@@ -52,10 +52,13 @@ function CompareBars({ c }) {
 export default function Playbook({ data, initialLocale }) {
   useEffect(() => { if (initialLocale && initialLocale !== Store.get().locale) Store.set({ locale: initialLocale }); }, []);
   const { locale } = useStore();
-  const { lessons, n, vars = {} } = data;
+  const { lessons, n, vars = {}, acts = [] } = data;
   const V = { ...vars, n };
   const UI = PB_UI[locale] && PB_UI[locale].h1 ? PB_UI[locale] : PB_UI.en;
   const TR = PB_LESSONS[locale];
+  const ACT_T = (PB_ACTS && PB_ACTS[locale]) || {};
+  const actInfo = (key) => ACT_T[key] || acts.find((a) => a.key === key) || null;
+  let actNo = 0;
   const diff = DIFF[locale] || DIFF.en;
   return (
     <>
@@ -79,8 +82,18 @@ export default function Playbook({ data, initialLocale }) {
             const echoes = t ? t.echoes : l.echoes;
             const caveat = t ? fill(t.caveat, V) : l.caveat;
             const compare = l.compare ? { ...l.compare, ...(t && t.compare ? t.compare : {}) } : null;
+            const act = (i === 0 || lessons[i - 1].act !== l.act) ? actInfo(l.act) : null;
+            if (act) actNo++;
+            const romans = ['I', 'II', 'III', 'IV', 'V', 'VI'];
             return (
-              <section key={l.key} className="pb-slide card">
+              <React.Fragment key={l.key}>
+                {act && (
+                  <div className="pb-act">
+                    <span className="pb-act-no mono">{romans[actNo - 1]}</span>
+                    <div><h2 className="pb-act-title">{act.title}</h2><p className="pb-act-sub faint">{act.sub}</p></div>
+                  </div>
+                )}
+                <section className="pb-slide card">
                 <span className="pb-idx mono" aria-hidden>{String(i + 1).padStart(2, '0')}</span>
                 <div className="pb-slide-grid">
                   {/* Evidence column */}
@@ -122,7 +135,8 @@ export default function Playbook({ data, initialLocale }) {
                     <p className="pb-caveat faint">⚠ {caveat}</p>
                   </div>
                 </div>
-              </section>
+                </section>
+              </React.Fragment>
             );
           })}
         </div>

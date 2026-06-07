@@ -1,6 +1,7 @@
 // Data-backed "success factors" — every lesson's numbers are computed live from the dataset,
 // so they stay honest as the data updates. Narrative is human-written; figures are not.
 import { repos } from './data';
+import { depsView } from './depsView';
 
 const stars = (r: any) => r.metrics?.stars ?? 0;
 const eng = (r: any) => r.engagement ?? {};
@@ -30,7 +31,8 @@ function solveOLS(X: number[][], y: number[]): number[] {
 
 export interface Cmp { a: number; b: number; aLabel: string; bLabel: string; mult: string; unit?: string }
 export interface Echo { principle: string; author: string; source: string; url: string }
-export interface Lesson { key: string; title: string; stat: string; statLabel: string; body: string[]; echoes: Echo[]; caveat: string; examples: string[]; kicker?: string; compare?: Cmp }
+export interface Lesson { key: string; title: string; stat: string; statLabel: string; body: string[]; echoes: Echo[]; caveat: string; examples: string[]; kicker?: string; compare?: Cmp; act?: string }
+export interface Act { key: string; title: string; sub: string }
 
 export function playbook(): { lessons: Lesson[]; n: number } {
   const R = repos;
@@ -113,6 +115,19 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const infraPct = Math.round((100 * R.filter((r) => /\b(managed|hosted|cloud|platform|infrastructure|serverless|database|api)\b/.test(ol(r))).length) / R.length);
   const tsPct = Math.round((100 * R.filter((r) => r.metrics?.primary_lang === 'TypeScript').length) / R.length);
   const houseExamples = [...R].filter((r) => { const n = nameOf(brandOf(r)); return n && n.length <= 6 && !n.includes('-'); }).sort((a, b) => stars(b) - stars(a)).slice(0, 4).map((r) => r.slug);
+
+  // stack + licensing (from the dependency + license audits) — for the ecosystem / license / house lessons
+  const dv = depsView();
+  const dogfoodPct = dv.dogfood.withDeps ? Math.round((100 * dv.dogfood.reposUsing) / dv.dogfood.withDeps) : 0;
+  const dogfoodTop = dv.dogfood.top.slice(0, 4).map((d: any) => d.label).join(', ');
+  const ld = (r: any) => r.metrics?.license_detail;
+  const openCoreN = R.filter((r) => ld(r)?.model === 'Open-core').length;
+  const openCorePct = Math.round((100 * openCoreN) / R.length);
+  const sourceAvailN = R.filter((r) => ld(r)?.model === 'Source-available').length;
+  const stackPicks = dv.houseStack.items.slice(0, 8).map((it: any) => it.pick).join(' · ');
+  const dbBB = dv.buildBuy.find((b: any) => b.cat === 'database');
+  const dbSelf = dbBB?.selfTop ?? 'raw Postgres', dbManaged = dbBB?.managedTop ?? 'a managed DB';
+  const dbSelfN = dbBB?.self ?? 0, dbManagedN = dbBB?.managed ?? 0;
 
   // Controlled association: does each lever survive after accounting for repo age + language?
   // OLS of log(stars) on the binary signals + log(months active) + TS/Python dummies.
@@ -221,11 +236,12 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       compare: { a: teamBig, b: teamSmall, aLabel: '40 biggest repos', bLabel: '40 smallest', mult: '', unit: '%' },
     },
     {
-      key: 'network', title: 'The YC ecosystem seeds your first stars', statLabel: 'median share of a repo\'s FIRST 100 stars from inside the YC-OSS network',
+      key: 'network', title: 'The YC ecosystem is your first users — and your stack', statLabel: 'median share of a repo\'s FIRST 100 stars from inside the YC-OSS network',
       stat: `${early100}%`,
       body: [
         `Where do the very first stars come from? Overwhelmingly, from inside the family. A median ${early100}% of a repo's first 100 stargazers also star at least two other YC open-source repos — and ${early1000}% of the first 1,000. Across all of time it settles to ${netLifetime}%, so the network is not merely a seed; it stays a meaningful share of the audience.`,
         `This is the most literal confirmation in the whole dataset of the most-quoted advice in startups: get your first users by hand, from the circle already within reach. For a YC company that circle is a dense, overlapping graph of founders, employees, and alumni who reliably show up for one another's launches. The honest reading cuts both ways — a high share means the ecosystem handed you a running start; a lower one means you reached real strangers sooner. Neither is the goal on its own; the trajectory from one to the other is.`,
+        `And the ecosystem is not only your first audience — it is increasingly your stack. ${dogfoodPct}% of these repos depend, in their own code, on another YC company's product: ${dogfoodTop}, and more. The same graph that hands you early stars also hands you your tools — and your tool becomes the next company's dependency. Plugging in deliberately, building on your peers and being something peers build on, is how the flywheel actually compounds.`,
       ],
       echoes: [
         DS,
@@ -240,11 +256,12 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       body: [
         `A license looks like a legal footnote and is actually a go-to-market decision. ${permissivePct}% of these companies ship under a permissive license — MIT, Apache, BSD — optimizing for the most frictionless adoption possible: anyone can embed it, fork it, ship it inside a closed product, no questions asked. ${mitPct}% pick MIT specifically. You choose this when the open-source project is the top of the funnel and you sell a different layer — a hosted cloud, support, enterprise features.`,
         `${copyleftPct}% go the other way, copyleft — GPL or, increasingly, AGPL. AGPL forces anyone who runs a modified version as a network service to release their changes, which makes it legally awkward for a hyperscaler to fork your project into a closed competing SaaS. When the hosted version is the business, that is the moat: you get to be genuinely open and still own the commercial high ground. The license tracks the model — permissive to maximize reach, protective to defend a service.`,
+        `But the most common commercial path is neither pure-open nor pure-protective — it is open-core. ${openCorePct}% (${openCoreN} of the companies) keep the project open under MIT, Apache or AGPL while carving a proprietary "Enterprise Edition" into an ee/ directory: the community gets the core, the company sells the SSO, RBAC and audit-log layer bolted on top. Another ${sourceAvailN} go source-available — Elastic, BUSL, FSL — where the source is visible but a hyperscaler legally can't just resell it. GitHub flattens all of these to "no license", which quietly hides the single most common business model in the dataset.`,
         `We can't see revenue, so this is not a claim that one license out-earns another — it's that the license encodes the strategy, and most teams pick it on purpose. It is far easier to start protective and relicense toward permissive than the reverse, so the default you ship with can quietly hand away your only moat.`,
       ],
       echoes: [],
-      kicker: `${copyleftPct}% go copyleft to defend a hosted service`,
-      caveat: 'License is read from each repo\'s declared SPDX license. Whether a given choice actually helped monetization is not observable here — this is about encoded strategy, not measured outcome.',
+      kicker: `${openCorePct}% open-core (core + a proprietary EE) · ${copyleftPct}% copyleft`,
+      caveat: 'Read from each repo\'s actual LICENSE file (not just GitHub\'s single SPDX field) plus a check for an enterprise (ee/) directory. Whether a given choice helped monetization is not observable here — this is encoded strategy, not measured outcome.',
       examples: top(R.filter((r) => /^(AGPL|GPL)/.test(lic(r))), 4),
     },
     {
@@ -253,6 +270,7 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       body: [
         `Look at enough of these companies and a house style emerges, unmistakable and convergent. ${singleTokenPct}% use a single-word brand — short, abstract, lowercase, a median of eight characters: bun, fig, modal, turso, beam, daily. ${nonComPct}% have given up on .com entirely and live on a .dev, .io, .ai or .sh domain. The naming game has a grammar, and almost everyone is speaking it.`,
         `The positioning converges too. ${ossPct}% put "open source" directly in their one-line pitch, and ${infraPct}% frame themselves as managed infrastructure — a platform, a database, an API, a cloud. It is the open-source-wedge-plus-managed-tier template in plain sight: take a piece of infrastructure developers already love and resent operating, and sell the hosted version. Under the hood the convergence continues — ${tsPct}% lead in TypeScript, clustering with pnpm, Turborepo and in-repo MDX docs into one recognizable monorepo silhouette (the Python and AI cohort is the other half of the room).`,
+        `It runs all the way down to the dependency tree. The typical TypeScript repo reaches for the same shortlist at every layer — ${stackPicks} — a stack so standard you could almost guess it before opening package.json. And it leans build over buy: for the database, ${dbSelfN} repos wire up ${dbSelf} directly versus ${dbManagedN} on ${dbManaged}; for auth, raw JWT over a hosted provider. These are infrastructure people dogfooding primitives — they would rather own the low level than rent it.`,
         `Here is the honest part. None of this causes growth. A single-word .dev name and a Stripe-flavored docs site are the uniform, not the engine — they signal to users, peers and investors that you are playing the same game, and that legibility has real value, but every competitor wears the same uniform. The convergence is exactly why it can't differentiate you. The edge has to come from somewhere the template can't reach: the wedge you chose, the timing, and whether you actually made something people want.`,
       ],
       echoes: [
@@ -265,6 +283,19 @@ export function playbook(): { lessons: Lesson[]; n: number } {
     },
   ];
 
+  // Thematic acts — give the deck a narrative arc instead of a flat list.
+  const ACTS: Act[] = [
+    { key: 'found', title: 'Get found', sub: 'How they reached the first users.' },
+    { key: 'curve', title: 'Keep the curve alive', sub: 'Turning a spike into sustained, compounding growth.' },
+    { key: 'people', title: 'People & the ecosystem', sub: 'Who builds it, and the network it plugs into.' },
+    { key: 'business', title: 'Business & house style', sub: 'How the open source becomes a company.' },
+  ];
+  const ACT_OF: Record<string, string> = {
+    hn: 'found', ph: 'found', responsive: 'curve', compound: 'curve', evergreen: 'curve',
+    team: 'people', network: 'people', license: 'business', house: 'business',
+  };
+  for (const l of lessons) l.act = ACT_OF[l.key];
+
   // Figures exposed for locale templates (UI text is translated; these numbers are not).
   const vars: Record<string, string | number> = {
     hnHi, hnLo, hnMx, showHnPct, multiPct, medHnPosts, ctrlHN,
@@ -276,6 +307,8 @@ export function playbook(): { lessons: Lesson[]; n: number } {
     early100, early1000, netLifetime,
     permissivePct, mitPct, copyleftPct,
     singleTokenPct, nonComPct, ossPct, infraPct, tsPct,
+    dogfoodPct, dogfoodTop, openCorePct, openCoreN, sourceAvailN,
+    stackPicks, dbSelf, dbManaged, dbSelfN, dbManagedN,
   };
-  return { lessons, n: R.length, vars };
+  return { lessons, n: R.length, vars, acts: ACTS };
 }

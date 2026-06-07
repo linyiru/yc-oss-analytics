@@ -124,3 +124,10 @@
 /* footer author/source links */
 .foot-link { font-size: var(--fs-sm); color: var(--text-2); text-decoration: none; transition: color .12s var(--ease); }
 .foot-link:hover { color: var(--accent-text); }
+
+/* ── Playbook act dividers ─────────────────────────────────────── */
+.pb-act { display: flex; align-items: baseline; gap: 14px; margin: 30px 2px 4px; padding-top: 22px; border-top: 1px solid var(--border); }
+.pb-act:first-child { border-top: none; padding-top: 0; margin-top: 6px; }
+.pb-act-no { font-size: var(--fs-md); font-weight: 700; color: var(--accent-text); letter-spacing: .04em; flex: 0 0 auto; }
+.pb-act-title { font-size: var(--fs-xl); font-weight: 640; letter-spacing: -.02em; line-height: 1.1; }
+.pb-act-sub { font-size: var(--fs-sm); margin-top: 2px; }

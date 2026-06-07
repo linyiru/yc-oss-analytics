@@ -52,6 +52,46 @@ export const PB_UI: Record<Locale, PBChrome> = {
   ja: jaRaw.ui as PBChrome, ko: koRaw.ui as PBChrome, pt: ptRaw.ui as PBChrome,
 };
 
+// thematic acts (deck section dividers)
+export const PB_ACTS: Partial<Record<Locale, Record<string, { title: string; sub: string }>>> = {
+  en: {
+    found: { title: 'Get found', sub: 'How they reached the first users.' },
+    curve: { title: 'Keep the curve alive', sub: 'Turning a spike into sustained, compounding growth.' },
+    people: { title: 'People & the ecosystem', sub: 'Who builds it, and the network it plugs into.' },
+    business: { title: 'Business & house style', sub: 'How the open source becomes a company.' },
+  },
+  'zh-Hant': {
+    found: { title: '讓人發現你', sub: '他們如何觸及最初的用戶。' },
+    curve: { title: '讓曲線持續', sub: '把一次尖峰變成持續、複利的成長。' },
+    people: { title: '人與生態系', sub: '由誰打造,以及它接上的網路。' },
+    business: { title: '商業與樣板美學', sub: '開源如何變成一門生意。' },
+  },
+  'zh-Hans': {
+    found: { title: '让人发现你', sub: '他们如何触及最初的用户。' },
+    curve: { title: '让曲线持续', sub: '把一次尖峰变成持续、复利的成长。' },
+    people: { title: '人与生态', sub: '由谁打造,以及它接上的网络。' },
+    business: { title: '商业与样板美学', sub: '开源如何变成一门生意。' },
+  },
+  ja: {
+    found: { title: '見つけてもらう', sub: '最初のユーザーにどう届いたか。' },
+    curve: { title: '曲線を生かし続ける', sub: '一度のスパイクを、持続し複利で伸びる成長に変える。' },
+    people: { title: '人とエコシステム', sub: '誰が作るか、そしてどのネットワークに接続するか。' },
+    business: { title: 'ビジネスとハウススタイル', sub: 'オープンソースがどう会社になるか。' },
+  },
+  ko: {
+    found: { title: '발견되기', sub: '첫 사용자에게 어떻게 닿았는가.' },
+    curve: { title: '곡선을 살려두기', sub: '한 번의 급등을 지속적이고 복리로 자라는 성장으로.' },
+    people: { title: '사람과 생태계', sub: '누가 만드는가, 그리고 어떤 네트워크에 연결되는가.' },
+    business: { title: '비즈니스와 하우스 스타일', sub: '오픈소스가 어떻게 회사가 되는가.' },
+  },
+  pt: {
+    found: { title: 'Ser encontrado', sub: 'Como chegaram aos primeiros usuários.' },
+    curve: { title: 'Manter a curva viva', sub: 'Transformar um pico em crescimento sustentado e composto.' },
+    people: { title: 'Pessoas e ecossistema', sub: 'Quem constrói, e a rede em que se conecta.' },
+    business: { title: 'Negócio e house style', sub: 'Como o open source vira uma empresa.' },
+  },
+};
+
 // Essay/source attributions reused across locales (not translated).
 const SRC = {
   ds: { author: 'Paul Graham', source: "Do Things that Don't Scale", url: 'https://paulgraham.com/ds.html' },
