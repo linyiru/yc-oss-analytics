@@ -2011,6 +2011,12 @@
   "comments": 5663,
   "forks_gha": 307,
   "comments_per_issue": 4.4,
-  "network_star_pct": 78
+  "network_star_pct": 78,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 79,
+   "first1000": 1000,
+   "first1000_net_pct": 84
+  }
  }
 }

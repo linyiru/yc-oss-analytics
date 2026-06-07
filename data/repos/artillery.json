@@ -13568,6 +13568,12 @@
   "comments": 3161,
   "forks_gha": 392,
   "comments_per_issue": 2.1,
-  "network_star_pct": 72
+  "network_star_pct": 72,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 70,
+   "first1000": 1000,
+   "first1000_net_pct": 69
+  }
  }
 }

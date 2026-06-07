@@ -1993,6 +1993,12 @@
   "comments": 1146,
   "forks_gha": 93,
   "comments_per_issue": 8.6,
-  "network_star_pct": 56
+  "network_star_pct": 56,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 22,
+   "first1000": 731,
+   "first1000_net_pct": 56
+  }
  }
 }

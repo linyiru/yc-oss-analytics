@@ -27,6 +27,10 @@ export function playbook(): { lessons: Lesson[]; n: number } {
   const conc = (r: any) => r.contributors?.[0]?.pct ?? 0;
   const spikeShare = (r: any) => { const s = r.star_spikes?.[0]?.gain; return s && stars(r) ? Math.round((100 * s) / stars(r)) : null; };
   const netHi = R.filter((r: any) => (eng(r).network_star_pct ?? 0) >= 75);
+  const en = (r: any) => eng(r).early_network ?? {};
+  const early100 = med(R.map((r: any) => en(r).first100_net_pct).filter((x: any) => x != null));
+  const early1000 = med(R.map((r: any) => en(r).first1000_net_pct).filter((x: any) => x != null));
+  const netLifetime = med(R.map((r: any) => eng(r).network_star_pct).filter((x: any) => x != null));
 
   // Multiple launches: of repos with a top HN post, how many posted more than once?
   const bigHn = (r: any) => (r.hn_events ?? []).filter((e: any) => e.points >= 50);
@@ -111,10 +115,11 @@ export function playbook(): { lessons: Lesson[]; n: number } {
       compare: { a: med(topN.map(conc)), b: med(botN.map(conc)), aLabel: '40 biggest repos', bLabel: '40 smallest', mult: '', unit: '%' },
     },
     {
-      key: 'network', title: 'The YC ecosystem is a launch channel', statLabel: 'median share of stars from the YC-OSS network',
-      stat: `${med(netHi.length ? R.map((r: any) => eng(r).network_star_pct).filter((x: any) => x != null) : [0])}%`,
-      lesson: `A median ${med(R.map((r: any) => eng(r).network_star_pct).filter((x: any) => x != null))}% of a repo's stargazers also star other YC open-source repos — a tight, overlapping audience. The YC network is real early distribution; tap it, but know a low share means you reached beyond the bubble.`,
-      caveat: 'Derived structurally from cross-starring; not a roster of individuals.',
+      key: 'network', title: 'The YC ecosystem seeds your first stars', statLabel: 'median share of a repo\'s FIRST 100 stars that come from inside the YC-OSS network',
+      stat: `${early100}%`,
+      lesson: `Early traction is an inside job: a median ${early100}% of a repo's first 100 stargazers — and ${early1000}% of the first 1,000 — also star other YC open-source repos. Across all time it settles at ${netLifetime}%. The YC network is real, concrete early distribution; tap it deliberately, but know that a lower share means you broke out of the bubble sooner.`,
+      kicker: `${early100}% of first 100 stars · ${early1000}% of first 1,000`,
+      caveat: 'Derived structurally from cross-starring (an account that stars ≥2 YC repos); not a roster of individuals, and no one is named. "Network" is a broad proxy, not a claim about who specifically.',
       examples: top(netHi, 4),
     },
   ];

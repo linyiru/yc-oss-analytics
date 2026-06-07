@@ -1853,6 +1853,12 @@
   "comments": 1736,
   "forks_gha": 66,
   "comments_per_issue": 14.1,
-  "network_star_pct": 87
+  "network_star_pct": 87,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 81,
+   "first1000": 827,
+   "first1000_net_pct": 87
+  }
  }
 }

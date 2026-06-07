@@ -9770,6 +9770,12 @@
   "comments": 70957,
   "forks_gha": 12423,
   "comments_per_issue": 6.0,
-  "network_star_pct": 67
+  "network_star_pct": 67,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 89,
+   "first1000": 1000,
+   "first1000_net_pct": 82
+  }
  }
 }

@@ -4611,6 +4611,12 @@
   "comments": 11915,
   "forks_gha": 1230,
   "comments_per_issue": 3.0,
-  "network_star_pct": 86
+  "network_star_pct": 86,
+  "early_network": {
+   "first100": 100,
+   "first100_net_pct": 95,
+   "first1000": 1000,
+   "first1000_net_pct": 83
+  }
  }
 }
