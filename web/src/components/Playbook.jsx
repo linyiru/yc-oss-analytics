@@ -62,7 +62,7 @@ export default function Playbook({ data, initialLocale }) {
   const diff = DIFF[locale] || DIFF.en;
   return (
     <>
-      <TopNav active="playbook" count={n} />
+      <TopNav active="signals" count={n} />
       <main className="wrap pb-deck" style={{ padding: '30px 20px 0', maxWidth: 1000 }}>
         {/* Hero */}
         <header className="pb-hero">

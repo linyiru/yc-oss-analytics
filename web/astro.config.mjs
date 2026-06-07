@@ -11,4 +11,13 @@ export default defineConfig({
     locales: ['en', 'zh-Hant', 'zh-Hans', 'ja', 'ko', 'pt'],
     routing: { prefixDefaultLocale: false },
   },
+  // "Playbook" was renamed to "Signals"; keep the old URLs alive.
+  redirects: {
+    '/playbook': '/signals',
+    '/zh-Hant/playbook': '/zh-Hant/signals',
+    '/zh-Hans/playbook': '/zh-Hans/signals',
+    '/ja/playbook': '/ja/signals',
+    '/ko/playbook': '/ko/signals',
+    '/pt/playbook': '/pt/signals',
+  },
 });

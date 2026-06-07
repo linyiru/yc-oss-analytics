@@ -23,7 +23,7 @@ export interface PBChrome { eyebrow: string; h1: string; lede: string; inPractic
 // markup understood by the renderer: **bold**, [text](url), «highlighted»
 export const PB_UI: Record<Locale, PBChrome> = {
   en: {
-    eyebrow: 'The Playbook',
+    eyebrow: 'Signals',
     h1: 'What we learned from {n} «open-source» startups.',
     lede: 'Patterns we noticed across the {n} YC open-source companies in this dataset — each tied to a number computed straight from public history, recomputed as the data updates. What struck us is how closely they echo the startup canon: the data keeps landing on the same advice Paul Graham and the [YC library](https://www.ycombinator.com/library) have given for years — so we have paired each finding with the essay it confirms. Still, these are **observations, not instructions**: correlations among teams that grew, not proof of cause, and blind to everyone who did the same things and did not make it.',
     inPractice: 'In practice',
@@ -32,7 +32,7 @@ export const PB_UI: Record<Locale, PBChrome> = {
     footMethod: 'Every figure recomputes from the live dataset — stars, launch events, issue/PR activity and the cross-star network, all derived from public GitHub history plus the HN, Product Hunt and YC-Launch records and GH Archive. Where a finding could be confounded by repo size, we report the association after controlling for age and language. See [Methodology](/methodology) for limits — above all survivorship bias, which hides every team that did these same things and still did not make it.',
   },
   'zh-Hant': {
-    eyebrow: 'The Playbook',
+    eyebrow: 'Signals',
     h1: '我們從 {n} 家「«開源新創»」身上學到的事。',
     lede: '這是我們在資料中觀察到、{n} 家 YC 開源公司共有的模式——每一條都對應一個直接從公開歷史算出來、會隨資料更新重算的數字。最讓我們意外的是,它們和新創界的經典觀點高度呼應:數據一再落回 Paul Graham 與 [YC library](https://www.ycombinator.com/library) 講了多年的同一套建議——所以我們替每個發現都配上了它所印證的那篇文章。但請記得,這些是 **觀察,不是教條**:它們是成長中的團隊之間的相關性,不是因果證明,也看不見那些做了同樣的事卻沒成功的人。',
     inPractice: '實際案例',
@@ -41,7 +41,7 @@ export const PB_UI: Record<Locale, PBChrome> = {
     footMethod: '每個數字都從即時資料集重算——星數、發表事件、issue/PR 活躍度與跨 star 網路,全部來自公開的 GitHub 歷史,加上 HN、Product Hunt、YC Launch 紀錄與 GH Archive。當某個發現可能被 repo 規模干擾時,我們會回報「控制了年齡與語言後」的關聯。完整限制見 [Methodology](/methodology)——尤其是倖存者偏誤,它讓所有「做了同樣的事卻沒能成功」的團隊隱形。',
   },
   'zh-Hans': {
-    eyebrow: 'The Playbook',
+    eyebrow: 'Signals',
     h1: '我们从 {n} 家「«开源创业公司»」身上学到的事。',
     lede: '这是我们在数据中观察到、{n} 家 YC 开源公司共有的模式——每一条都对应一个直接从公开历史算出、会随数据更新重算的数字。最让我们意外的是,它们与创业界的经典观点高度呼应:数据一再落回 Paul Graham 与 [YC library](https://www.ycombinator.com/library) 讲了多年的同一套建议——所以我们给每个发现都配上了它所印证的那篇文章。但请记住,这些是 **观察,不是教条**:它们是成长中的团队之间的相关性,不是因果证明,也看不见那些做了同样的事却没成功的人。',
     inPractice: '实际案例',

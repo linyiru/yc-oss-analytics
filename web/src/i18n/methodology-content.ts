@@ -41,7 +41,7 @@ const en: MDContent = {
     ['Company status / outcome', 'YC\'s own ycdc_status per company (Active / Acquired / Public / Inactive), read from its public company page and snapshotted with a timestamp. Lets us show the part of survivorship we can see — the Trends page charts the distribution.'],
   ],
   limits: [
-    'Survivorship bias (now partly measured): we read each company\'s YC status, so the Trends page shows how many tracked companies were acquired, went public, or went inactive. But truly dead-and-delisted companies leave YC\'s directory entirely and stay invisible — so every "alive" impression is still inflated, and every Playbook pattern is blind to teams that did the same things and failed.',
+    'Survivorship bias (now partly measured): we read each company\'s YC status, so the Trends page shows how many tracked companies were acquired, went public, or went inactive. But truly dead-and-delisted companies leave YC\'s directory entirely and stay invisible — so every "alive" impression is still inflated, and every Signals pattern is blind to teams that did the same things and failed.',
     'Stars measure attention, not a business. Stars ≠ adoption ≠ revenue ≠ retention; a public repo may also just be marketing for a closed-source product.',
     '"With vs without" comparisons are between groups that differ on everything, not only the one signal. Where repo size could confound, we report the age- and language-controlled association — but selection on unobserved quality is never fully ruled out.',
     'Small n per batch (and small n for some signals, e.g. only ~40 Product Hunt launches) — read multiples loosely and do not rank cohorts on means.',
@@ -76,7 +76,7 @@ const zhHant: MDContent = {
     ['公司狀態 / 結局', 'YC 自己對每家公司的 ycdc_status(營運中 / 已被收購 / 已上市 / 已停業),讀自其公開公司頁並加上時間戳快照。讓我們能呈現「看得見的那部分倖存」——Trends 頁把分布畫成圖表。'],
   ],
   limits: [
-    '倖存者偏誤(現在已部分可量測):我們讀取每家公司的 YC 狀態,所以 Trends 頁會顯示有多少被追蹤的公司已被收購、上市或停業。但真正死掉並下架的公司會完全離開 YC 目錄、仍然隱形——所以每一個「還活著」的印象仍被高估,每一條 Playbook 模式也看不見那些做了同樣的事卻失敗的團隊。',
+    '倖存者偏誤(現在已部分可量測):我們讀取每家公司的 YC 狀態,所以 Trends 頁會顯示有多少被追蹤的公司已被收購、上市或停業。但真正死掉並下架的公司會完全離開 YC 目錄、仍然隱形——所以每一個「還活著」的印象仍被高估,每一條 Signals 模式也看不見那些做了同樣的事卻失敗的團隊。',
     'Star 衡量的是注意力,不是生意。Star ≠ 採用 ≠ 營收 ≠ 留存;一個公開 repo 也可能只是某個閉源產品的行銷。',
     '「有 vs 沒有」的比較,是在「什麼都不一樣」的兩群之間,而不只差那一個訊號。當規模可能造成干擾時,我們回報控制了年齡與語言後的關聯——但對未觀測品質的選擇偏誤永遠無法完全排除。',
     '每個梯次的 n 很小(某些訊號的 n 也很小,例如只有約 40 次 Product Hunt 發表)——倍率請寬鬆地讀,也別用平均值替梯次排名。',
@@ -111,7 +111,7 @@ const zhHans: MDContent = {
     ['公司状态 / 结局', 'YC 自己对每家公司的 ycdc_status(运营中 / 已被收购 / 已上市 / 已停业),读自其公开公司页并加上时间戳快照。让我们能呈现「看得见的那部分幸存」——Trends 页把分布画成图表。'],
   ],
   limits: [
-    '幸存者偏差(现在已部分可量测):我们读取每家公司的 YC 状态,所以 Trends 页会显示有多少被追踪的公司已被收购、上市或停业。但真正死掉并下架的公司会完全离开 YC 目录、仍然隐形——所以每一个「还活着」的印象仍被高估,每一条 Playbook 模式也看不见那些做了同样的事却失败的团队。',
+    '幸存者偏差(现在已部分可量测):我们读取每家公司的 YC 状态,所以 Trends 页会显示有多少被追踪的公司已被收购、上市或停业。但真正死掉并下架的公司会完全离开 YC 目录、仍然隐形——所以每一个「还活着」的印象仍被高估,每一条 Signals 模式也看不见那些做了同样的事却失败的团队。',
     'Star 衡量的是注意力,不是生意。Star ≠ 采用 ≠ 营收 ≠ 留存;一个公开 repo 也可能只是某个闭源产品的营销。',
     '「有 vs 没有」的比较,是在「什么都不一样」的两群之间,而不只差那一个信号。当规模可能造成干扰时,我们报告控制了年龄与语言后的关联——但对未观测质量的选择偏差永远无法完全排除。',
     '每个批次的 n 很小(某些信号的 n 也很小,例如只有约 40 次 Product Hunt 发布)——倍率请宽松地读,也别用平均值给批次排名。',

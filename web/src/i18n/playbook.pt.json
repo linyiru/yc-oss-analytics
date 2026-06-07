@@ -1,6 +1,6 @@
 {
   "ui": {
-    "eyebrow": "The Playbook",
+    "eyebrow": "Signals",
     "h1": "O que aprendemos com {n} startups «open source».",
     "lede": "Padrões que notamos nas {n} empresas open source da YC neste dataset — cada um amarrado a um número computado direto do histórico público, recalculado conforme os dados se atualizam. O que nos surpreendeu foi o quanto eles ecoam o cânone das startups: os dados não param de cair no mesmo conselho que Paul Graham e a [biblioteca da YC](https://www.ycombinator.com/library) vêm dando há anos — então emparelhamos cada achado com o ensaio que ele confirma. Ainda assim, isto são **observações, não instruções**: correlações entre times que cresceram, não prova de causa, e cegas a todo mundo que fez as mesmas coisas e não deu certo.",
     "inPractice": "Na prática",
