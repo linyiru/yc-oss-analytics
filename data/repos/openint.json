@@ -443,23 +443,77 @@
  "churn": null,
  "stars_curve": [
   {
+   "t": "2024-05-22",
+   "n": 1
+  },
+  {
+   "t": "2024-05-27",
+   "n": 3
+  },
+  {
+   "t": "2024-05-28",
+   "n": 4
+  },
+  {
+   "t": "2024-05-29",
+   "n": 5
+  },
+  {
+   "t": "2024-06-17",
+   "n": 6
+  },
+  {
+   "t": "2024-07-04",
+   "n": 8
+  },
+  {
+   "t": "2024-09-30",
+   "n": 9
+  },
+  {
    "t": "2026-04-11",
    "n": 10
   }
  ],
- "viral": null,
+ "viral": {
+  "from": "2024-05-22",
+  "to": "2024-06-17",
+  "gain": 5,
+  "days": 26
+ },
  "repo_id": 783445370,
  "repo_names": [
-  "openint-bak/openint"
+  "openint-bak/openint",
+  "openint-dev/openint"
  ],
  "star_spikes": [
   {
-   "t": "2026-04-11",
+   "t": "2024-05-27",
+   "gain": 2
+  },
+  {
+   "t": "2024-07-04",
+   "gain": 2
+  },
+  {
+   "t": "2024-05-22",
+   "gain": 1
+  },
+  {
+   "t": "2024-05-28",
+   "gain": 1
+  },
+  {
+   "t": "2024-05-29",
+   "gain": 1
+  },
+  {
+   "t": "2024-06-17",
    "gain": 1
   }
  ],
  "stars_daily": true,
- "curve_source": "gharchive",
- "curve_baseline": 9,
- "curve_partial": true
+ "curve_source": "bigquery",
+ "curve_baseline": 0,
+ "curve_partial": false
 }

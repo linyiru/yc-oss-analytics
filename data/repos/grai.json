@@ -580,7 +580,7 @@
   },
   {
    "t": "2023-03-03",
-   "n": 88
+   "n": 87
   },
   {
    "t": "2023-03-04",
@@ -1136,7 +1136,7 @@
   }
  ],
  "stars_daily": true,
- "curve_source": "gharchive",
+ "curve_source": "bigquery",
  "curve_baseline": 0,
  "curve_partial": false
 }

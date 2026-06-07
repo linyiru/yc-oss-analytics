@@ -1097,7 +1097,7 @@
   }
  ],
  "stars_daily": true,
- "curve_source": "gharchive",
+ "curve_source": "bigquery",
  "curve_baseline": 74,
  "curve_partial": true
 }
