@@ -28,6 +28,9 @@ jobs:
       ANALYZE_CAP: ${{ github.event.inputs.analyze_cap || '20' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0 # full history so the pre-push rebase can never land on a stale base
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -72,7 +75,16 @@ jobs:
             echo "no changes"
           else
             git commit -m "chore(data): sync YC OSS registry ($(date -u +%F))"
-            git push
+            # Never land a data commit on a stale base. Re-sync onto the latest
+            # origin/main and replay this commit on top, so the push is always a
+            # fast-forward and can never drop source commits pushed during the run.
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "::error::data commit could not rebase onto origin/main — aborting to avoid clobbering source history"
+              exit 1
+            fi
+            git push origin HEAD:main
           fi
 
       - name: Job summary
