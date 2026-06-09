@@ -7676,6 +7676,14 @@
  },
  "yc_launches": [
   {
+   "slug": "Qio-hivemind-continual-learning-for-coding-agents",
+   "title": "Hivemind: Continual Learning for Coding Agents",
+   "tagline": "Capture every coding agent interaction across your team, train it into reusable skills, and propagate those skills to every agent in your org. On your cloud storage.",
+   "date": "2026-06-08",
+   "votes": 0,
+   "url": "https://www.ycombinator.com/launches/Qio-hivemind-continual-learning-for-coding-agents"
+  },
+  {
    "slug": "Ox5-activeloop-scientific-discover-the-ai-analyst-for-scientific-research",
    "title": "Activeloop Scientific Discover: The AI Analyst for Scientific Research",
    "tagline": "Search, reason, and discover across 450M+ pages and 175TB of scientific research papers. Not just text, but charts, molecules, formulas, and tables.",

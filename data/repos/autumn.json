@@ -8,6 +8,7 @@
   "one_liner": "Billing infrastructure for AI",
   "website": "https://useautumn.com",
   "industry": "B2B",
+  "name": "Autumn",
   "year_founded": 2025,
   "location": "London, United Kingdom",
   "partner": "Pete Koomen",
@@ -20,15 +21,14 @@
     "name": "John Yeo",
     "title": "Founder"
    }
-  ],
-  "name": "Autumn"
+  ]
  },
  "metrics": {
-  "stars": 2577,
+  "stars": 2578,
   "forks": 221,
   "watchers": 10,
   "open_issues": 49,
-  "commits": 5289,
+  "commits": 5311,
   "contributors": 54,
   "license": "Apache-2.0",
   "created": "2025-01-21",
@@ -44,13 +44,13 @@
  "tier": "cheap",
  "timeline": {
   "first": "2025-01-21",
-  "last": "2026-06-05",
-  "span_months": 16.4
+  "last": "2026-06-08",
+  "span_months": 16.5
  },
  "intensity": {
-  "commits_per_week": 74.0,
-  "per_day": 10.58,
-  "weekend_pct": 10.8,
+  "commits_per_week": 73.9,
+  "per_day": 10.56,
+  "weekend_pct": 10.9,
   "punchcard": [
    [
     5,
@@ -64,16 +64,16 @@
     9,
     25,
     85,
-    79,
+    81,
     97,
-    75,
+    76,
     90,
-    56,
+    62,
     73,
     80,
     68,
     86,
-    62,
+    64,
     21,
     12,
     18
@@ -177,7 +177,7 @@
     89,
     78,
     68,
-    55,
+    59,
     20,
     25,
     17
@@ -192,7 +192,7 @@
     1,
     3,
     9,
-    8,
+    9,
     13,
     17,
     18,
@@ -202,9 +202,9 @@
     10,
     14,
     30,
-    15,
+    17,
     14,
-    11,
+    12,
     13,
     8
    ],
@@ -227,22 +227,22 @@
     26,
     46,
     30,
-    28,
+    29,
     25,
-    22,
+    24,
     23,
     5,
     10
    ]
   ],
   "dow": [
-   946,
+   957,
    1011,
    974,
    901,
-   887,
-   250,
-   320
+   891,
+   254,
+   323
   ],
   "ai_coauthor_total": 35
  },
@@ -251,11 +251,11 @@
   "conv": [
    {
     "k": "fix",
-    "v": 1558
+    "v": 1566
    },
    {
     "k": "chore",
-    "v": 984
+    "v": 986
    },
    {
     "k": "feat",
@@ -275,17 +275,17 @@
    },
    {
     "k": "docs",
-    "v": 29
+    "v": 30
    }
   ],
   "merge_pct": 29.5,
   "median_msg_len": 32
  },
  "activity": {
-  "last_commit_days": 1,
-  "commits_30d": 631,
-  "commits_90d": 1713,
-  "commits_365d": 4625,
+  "last_commit_days": 0,
+  "commits_30d": 600,
+  "commits_90d": 1724,
+  "commits_365d": 4641,
   "active_contributors_90d": 16,
   "years_since_first_commit": 1.4,
   "liveness": 100,
@@ -365,23 +365,23 @@
   },
   {
    "m": "2026-06",
-   "c": 100
+   "c": 122
   }
  ],
  "contributors": [
   {
    "name": "John Yeo",
-   "count": 2393,
-   "pct": 45.2
+   "count": 2411,
+   "pct": 45.4
   },
   {
    "name": "amianthus",
-   "count": 1287,
+   "count": 1288,
    "pct": 24.3
   },
   {
    "name": "Charlie Lamb",
-   "count": 739,
+   "count": 742,
    "pct": 14.0
   },
   {
@@ -392,7 +392,7 @@
   {
    "name": "Owen Greenhalgh",
    "count": 151,
-   "pct": 2.9
+   "pct": 2.8
   },
   {
    "name": "Scofield",
@@ -412,13 +412,13 @@
  ],
  "stack": {
   "languages": {
-   "TypeScript": 22085798,
+   "TypeScript": 22366650,
    "Python": 1993028,
    "MDX": 1437648,
    "Lua": 457875,
    "PLpgSQL": 86646,
    "JavaScript": 65085,
-   "Shell": 62160,
+   "Shell": 63586,
    "CSS": 45046,
    "Elixir": 10109,
    "Dockerfile": 2705,
@@ -447,1541 +447,11 @@
    "bun",
    "trigger",
    "turborepo"
-  ],
-  "deps": [
-   "@ai-sdk/anthropic",
-   "@ai-sdk/react",
-   "@anthropic-ai/sdk",
-   "@autumn/auth",
-   "@autumn/ksuid",
-   "@autumn/logging",
-   "@autumn/mcp",
-   "@autumn/shared",
-   "@autumn/stripe-sync",
-   "@aws-sdk/client-s3",
-   "@aws-sdk/client-scheduler",
-   "@aws-sdk/client-sqs",
-   "@axiomhq/js",
-   "@axiomhq/pino",
-   "@base-ui/react",
-   "@better-auth/cli",
-   "@better-auth/core",
-   "@better-auth/dash",
-   "@better-auth/oauth-provider",
-   "@better-auth/passkey",
-   "@biomejs/biome",
-   "@chat-adapter/slack",
-   "@chat-adapter/state-pg",
-   "@chronark/zod-bird",
-   "@clickhouse/client",
-   "@date-fns/tz",
-   "@date-fns/utc",
-   "@eslint/js",
-   "@fortawesome/free-brands-svg-icons",
-   "@fortawesome/react-fontawesome",
-   "@gsap/react",
-   "@hatchet-dev/typescript-sdk",
-   "@hono-rate-limiter/redis",
-   "@hono/node-server",
-   "@hono/otel",
-   "@hono/zod-validator",
-   "@hyperbrowser/sdk",
-   "@infisical/sdk",
-   "@inquirer/prompts",
-   "@kubiks/otel-drizzle",
-   "@mastra/core",
-   "@mastra/mcp",
-   "@mdx-js/loader",
-   "@mdx-js/mdx",
-   "@mdx-js/react",
-   "@mendable/firecrawl-js",
-   "@mishieck/ink-titled-box",
-   "@monaco-editor/react",
-   "@next/mdx",
-   "@onkernel/sdk",
-   "@opentelemetry/api",
-   "@opentelemetry/exporter-metrics-otlp-proto",
-   "@opentelemetry/exporter-trace-otlp-http",
-   "@opentelemetry/sdk-metrics",
-   "@opentelemetry/sdk-node",
-   "@opentelemetry/sdk-trace-base",
-   "@orpc/client",
-   "@orpc/contract",
-   "@orpc/openapi",
-   "@orpc/openapi-client",
-   "@orpc/zod",
-   "@phosphor-icons/react",
-   "@posthog/ai",
-   "@puzzmo/revenue-cat-webhook-types",
-   "@react-email/components",
-   "@sentry/bun",
-   "@sentry/react",
-   "@sentry/vite-plugin",
-   "@sindresorhus/tsconfig",
-   "@squircle/core",
-   "@squircle/paint-polyfill",
-   "@squircle/tailwindcss",
-   "@supabase/stripe-sync-engine",
-   "@supabase/supabase-js",
-   "@tailwindcss/postcss",
-   "@tailwindcss/typography",
-   "@tailwindcss/vite",
-   "@tanstack/react-form",
-   "@tanstack/react-query",
-   "@tanstack/react-table",
-   "@tanstack/react-virtual",
-   "@tinybirdco/sdk",
-   "@trigger.dev/build",
-   "@trigger.dev/react-hooks",
-   "@trigger.dev/sdk",
-   "@types/bun",
-   "@types/chai",
-   "@types/chai-http",
-   "@types/cors",
-   "@types/express",
-   "@types/lodash",
-   "@types/mdx",
-   "@types/mocha",
-   "@types/node",
-   "@types/pg",
-   "@types/prettier",
-   "@types/qs",
-   "@types/react",
-   "@types/react-dom",
-   "@types/react-syntax-highlighter",
-   "@types/semver",
-   "@types/ws",
-   "@typescript/native-preview",
-   "@upstash/ratelimit",
-   "@upstash/redis",
-   "@useautumn/sdk",
-   "@vdemedes/prettier-config",
-   "@vercel/analytics",
-   "@vercel/sdk",
-   "@vitejs/plugin-react",
-   "@wooorm/starry-night",
-   "ag-charts-react",
-   "ai",
-   "ajv",
-   "arctic",
-   "artillery",
-   "atmn",
-   "autumn-js",
-   "autumn-sdk",
-   "ava",
-   "axios",
-   "better-all",
-   "better-auth",
-   "better-call",
-   "better-result",
-   "body-parser",
-   "buffer",
-   "bullmq",
-   "cfonts",
-   "chai",
-   "chai-http",
-   "chalk",
-   "chat",
-   "class-variance-authority",
-   "cli-testing-library",
-   "clipboardy",
-   "clsx",
-   "cmdk",
-   "commander",
-   "concurrently",
-   "conf",
-   "cors",
-   "cron",
-   "cross-env",
-   "csv-parse",
-   "csv-parser",
-   "currency-symbol-map",
-   "date-fns",
-   "decimal.js",
-   "detect-content-type",
-   "dotenv",
-   "drizzle-kit",
-   "drizzle-orm",
-   "ervy",
-   "esbuild-plugin-path-alias",
-   "eslint",
-   "eslint-config-next",
-   "eslint-config-xo-react",
-   "eslint-plugin-react",
-   "eslint-plugin-react-hooks",
-   "eslint-plugin-react-refresh",
-   "express",
-   "express-rate-limit",
-   "fetch-retry",
-   "globals",
-   "gray-matter",
-   "gsap",
-   "hono",
-   "hono-rate-limiter",
-   "http-status-codes",
-   "httpcore",
-   "httpx",
-   "husky",
-   "ink",
-   "ink-big-text",
-   "ink-chart",
-   "ink-confirm-input",
-   "ink-scroll-list",
-   "ink-scroll-view",
-   "ink-select-input",
-   "ink-spinner",
-   "ink-table",
-   "ink-testing-library",
-   "ink-text-input",
-   "input-otp",
-   "inquirer",
-   "ioredis",
-   "jiti",
-   "jose",
-   "json5",
-   "kafkajs",
-   "knip",
-   "ksuid",
-   "kysely",
-   "lodash",
-   "loops",
-   "lottie-react",
-   "lottie-web",
-   "lru-cache",
-   "lucide-react",
-   "mime-detect",
-   "mintlify",
-   "mocha",
-   "motion",
-   "nanoid",
-   "next",
-   "ngrok",
-   "nodemon",
-   "nuqs",
-   "open",
-   "openai",
-   "p-limit",
-   "pg",
-   "pino",
-   "pino-pretty",
-   "playwright-core",
-   "postgres",
-   "posthog-js",
-   "posthog-node",
-   "prettier",
-   "puppeteer-core",
-   "pydantic",
-   "qs",
-   "query-string",
-   "radix-ui",
-   "react",
-   "react-day-picker",
-   "react-devtools-core",
-   "react-dom",
-   "react-email",
-   "react-grab",
-   "react-hotkeys-hook",
-   "react-resizable-panels",
-   "react-router",
-   "react-router-dom",
-   "react-syntax-highlighter",
-   "recharts",
-   "rehype-pretty-code",
-   "rehype-slug",
-   "remark-frontmatter",
-   "resend",
-   "rou3",
-   "semver",
-   "shadcn",
-   "shiki",
-   "sonner",
-   "streamdown",
-   "stripe",
-   "svix",
-   "svix-react",
-   "tailwind-merge",
-   "tailwind-scrollbar-hide",
-   "tailwindcss",
-   "tailwindcss-animate",
-   "trigger.dev",
-   "ts-node",
-   "ts-to-zod",
-   "tsc-alias",
-   "tsconfig-paths",
-   "tshy",
-   "tsup",
-   "tsx",
-   "turbo",
-   "tw-animate-css",
-   "typescript",
-   "typescript-eslint",
-   "use-debounce",
-   "use-stick-to-bottom",
-   "vaul",
-   "vite",
-   "vite-tsconfig-paths",
-   "ws",
-   "xo",
-   "yaml",
-   "yocto-spinner",
-   "zod",
-   "zod-openapi",
-   "zustand"
   ]
  },
  "churn": null,
- "stars_curve": [
-  {
-   "t": "2025-01-21",
-   "n": 8
-  },
-  {
-   "t": "2025-01-22",
-   "n": 13
-  },
-  {
-   "t": "2025-01-23",
-   "n": 15
-  },
-  {
-   "t": "2025-01-25",
-   "n": 23
-  },
-  {
-   "t": "2025-01-26",
-   "n": 25
-  },
-  {
-   "t": "2025-01-28",
-   "n": 28
-  },
-  {
-   "t": "2025-01-29",
-   "n": 30
-  },
-  {
-   "t": "2025-01-30",
-   "n": 36
-  },
-  {
-   "t": "2025-01-31",
-   "n": 40
-  },
-  {
-   "t": "2025-02-02",
-   "n": 49
-  },
-  {
-   "t": "2025-02-03",
-   "n": 51
-  },
-  {
-   "t": "2025-02-04",
-   "n": 53
-  },
-  {
-   "t": "2025-02-05",
-   "n": 55
-  },
-  {
-   "t": "2025-02-06",
-   "n": 59
-  },
-  {
-   "t": "2025-02-07",
-   "n": 64
-  },
-  {
-   "t": "2025-02-09",
-   "n": 66
-  },
-  {
-   "t": "2025-02-12",
-   "n": 68
-  },
-  {
-   "t": "2025-02-16",
-   "n": 70
-  },
-  {
-   "t": "2025-02-17",
-   "n": 87
-  },
-  {
-   "t": "2025-02-18",
-   "n": 113
-  },
-  {
-   "t": "2025-02-19",
-   "n": 123
-  },
-  {
-   "t": "2025-02-20",
-   "n": 132
-  },
-  {
-   "t": "2025-02-23",
-   "n": 138
-  },
-  {
-   "t": "2025-02-24",
-   "n": 140
-  },
-  {
-   "t": "2025-02-25",
-   "n": 144
-  },
-  {
-   "t": "2025-02-26",
-   "n": 146
-  },
-  {
-   "t": "2025-02-28",
-   "n": 147
-  },
-  {
-   "t": "2025-03-06",
-   "n": 149
-  },
-  {
-   "t": "2025-03-07",
-   "n": 151
-  },
-  {
-   "t": "2025-03-10",
-   "n": 155
-  },
-  {
-   "t": "2025-03-11",
-   "n": 157
-  },
-  {
-   "t": "2025-03-16",
-   "n": 180
-  },
-  {
-   "t": "2025-03-17",
-   "n": 221
-  },
-  {
-   "t": "2025-03-18",
-   "n": 250
-  },
-  {
-   "t": "2025-03-20",
-   "n": 259
-  },
-  {
-   "t": "2025-03-21",
-   "n": 263
-  },
-  {
-   "t": "2025-03-22",
-   "n": 267
-  },
-  {
-   "t": "2025-03-24",
-   "n": 268
-  },
-  {
-   "t": "2025-03-26",
-   "n": 274
-  },
-  {
-   "t": "2025-03-27",
-   "n": 276
-  },
-  {
-   "t": "2025-03-29",
-   "n": 278
-  },
-  {
-   "t": "2025-04-02",
-   "n": 280
-  },
-  {
-   "t": "2025-04-03",
-   "n": 282
-  },
-  {
-   "t": "2025-04-04",
-   "n": 287
-  },
-  {
-   "t": "2025-04-05",
-   "n": 291
-  },
-  {
-   "t": "2025-04-07",
-   "n": 295
-  },
-  {
-   "t": "2025-04-08",
-   "n": 297
-  },
-  {
-   "t": "2025-04-14",
-   "n": 299
-  },
-  {
-   "t": "2025-04-15",
-   "n": 301
-  },
-  {
-   "t": "2025-04-17",
-   "n": 306
-  },
-  {
-   "t": "2025-04-21",
-   "n": 308
-  },
-  {
-   "t": "2025-04-22",
-   "n": 318
-  },
-  {
-   "t": "2025-04-23",
-   "n": 338
-  },
-  {
-   "t": "2025-04-24",
-   "n": 354
-  },
-  {
-   "t": "2025-04-27",
-   "n": 355
-  },
-  {
-   "t": "2025-04-28",
-   "n": 357
-  },
-  {
-   "t": "2025-04-29",
-   "n": 365
-  },
-  {
-   "t": "2025-04-30",
-   "n": 371
-  },
-  {
-   "t": "2025-05-01",
-   "n": 374
-  },
-  {
-   "t": "2025-05-02",
-   "n": 378
-  },
-  {
-   "t": "2025-05-05",
-   "n": 380
-  },
-  {
-   "t": "2025-05-06",
-   "n": 382
-  },
-  {
-   "t": "2025-05-08",
-   "n": 384
-  },
-  {
-   "t": "2025-05-09",
-   "n": 386
-  },
-  {
-   "t": "2025-05-10",
-   "n": 391
-  },
-  {
-   "t": "2025-05-11",
-   "n": 393
-  },
-  {
-   "t": "2025-05-13",
-   "n": 397
-  },
-  {
-   "t": "2025-05-14",
-   "n": 401
-  },
-  {
-   "t": "2025-05-15",
-   "n": 435
-  },
-  {
-   "t": "2025-05-16",
-   "n": 448
-  },
-  {
-   "t": "2025-05-17",
-   "n": 450
-  },
-  {
-   "t": "2025-05-18",
-   "n": 452
-  },
-  {
-   "t": "2025-05-19",
-   "n": 454
-  },
-  {
-   "t": "2025-05-20",
-   "n": 458
-  },
-  {
-   "t": "2025-05-21",
-   "n": 461
-  },
-  {
-   "t": "2025-05-23",
-   "n": 465
-  },
-  {
-   "t": "2025-05-26",
-   "n": 469
-  },
-  {
-   "t": "2025-05-27",
-   "n": 473
-  },
-  {
-   "t": "2025-05-28",
-   "n": 493
-  },
-  {
-   "t": "2025-05-29",
-   "n": 509
-  },
-  {
-   "t": "2025-05-30",
-   "n": 516
-  },
-  {
-   "t": "2025-05-31",
-   "n": 520
-  },
-  {
-   "t": "2025-06-01",
-   "n": 522
-  },
-  {
-   "t": "2025-06-02",
-   "n": 526
-  },
-  {
-   "t": "2025-06-04",
-   "n": 531
-  },
-  {
-   "t": "2025-06-07",
-   "n": 533
-  },
-  {
-   "t": "2025-06-08",
-   "n": 535
-  },
-  {
-   "t": "2025-06-10",
-   "n": 539
-  },
-  {
-   "t": "2025-06-11",
-   "n": 541
-  },
-  {
-   "t": "2025-06-12",
-   "n": 543
-  },
-  {
-   "t": "2025-06-13",
-   "n": 552
-  },
-  {
-   "t": "2025-06-17",
-   "n": 556
-  },
-  {
-   "t": "2025-06-18",
-   "n": 599
-  },
-  {
-   "t": "2025-06-19",
-   "n": 616
-  },
-  {
-   "t": "2025-06-20",
-   "n": 622
-  },
-  {
-   "t": "2025-06-21",
-   "n": 624
-  },
-  {
-   "t": "2025-06-22",
-   "n": 626
-  },
-  {
-   "t": "2025-06-23",
-   "n": 635
-  },
-  {
-   "t": "2025-06-24",
-   "n": 821
-  },
-  {
-   "t": "2025-06-25",
-   "n": 1012
-  },
-  {
-   "t": "2025-06-26",
-   "n": 1066
-  },
-  {
-   "t": "2025-06-27",
-   "n": 1106
-  },
-  {
-   "t": "2025-06-28",
-   "n": 1136
-  },
-  {
-   "t": "2025-06-29",
-   "n": 1165
-  },
-  {
-   "t": "2025-06-30",
-   "n": 1204
-  },
-  {
-   "t": "2025-07-01",
-   "n": 1238
-  },
-  {
-   "t": "2025-07-02",
-   "n": 1248
-  },
-  {
-   "t": "2025-07-03",
-   "n": 1255
-  },
-  {
-   "t": "2025-07-04",
-   "n": 1280
-  },
-  {
-   "t": "2025-07-05",
-   "n": 1289
-  },
-  {
-   "t": "2025-07-06",
-   "n": 1308
-  },
-  {
-   "t": "2025-07-07",
-   "n": 1340
-  },
-  {
-   "t": "2025-07-08",
-   "n": 1367
-  },
-  {
-   "t": "2025-07-09",
-   "n": 1380
-  },
-  {
-   "t": "2025-07-10",
-   "n": 1460
-  },
-  {
-   "t": "2025-07-11",
-   "n": 1488
-  },
-  {
-   "t": "2025-07-12",
-   "n": 1513
-  },
-  {
-   "t": "2025-07-13",
-   "n": 1535
-  },
-  {
-   "t": "2025-07-14",
-   "n": 1554
-  },
-  {
-   "t": "2025-07-15",
-   "n": 1564
-  },
-  {
-   "t": "2025-07-16",
-   "n": 1588
-  },
-  {
-   "t": "2025-07-17",
-   "n": 1600
-  },
-  {
-   "t": "2025-07-18",
-   "n": 1611
-  },
-  {
-   "t": "2025-07-19",
-   "n": 1622
-  },
-  {
-   "t": "2025-07-20",
-   "n": 1628
-  },
-  {
-   "t": "2025-07-21",
-   "n": 1635
-  },
-  {
-   "t": "2025-07-22",
-   "n": 1643
-  },
-  {
-   "t": "2025-07-23",
-   "n": 1645
-  },
-  {
-   "t": "2025-07-25",
-   "n": 1654
-  },
-  {
-   "t": "2025-07-26",
-   "n": 1666
-  },
-  {
-   "t": "2025-07-27",
-   "n": 1681
-  },
-  {
-   "t": "2025-07-28",
-   "n": 1694
-  },
-  {
-   "t": "2025-07-30",
-   "n": 1696
-  },
-  {
-   "t": "2025-07-31",
-   "n": 1702
-  },
-  {
-   "t": "2025-08-01",
-   "n": 1705
-  },
-  {
-   "t": "2025-08-02",
-   "n": 1715
-  },
-  {
-   "t": "2025-08-03",
-   "n": 1724
-  },
-  {
-   "t": "2025-08-04",
-   "n": 1730
-  },
-  {
-   "t": "2025-08-05",
-   "n": 1751
-  },
-  {
-   "t": "2025-08-06",
-   "n": 1781
-  },
-  {
-   "t": "2025-08-07",
-   "n": 1787
-  },
-  {
-   "t": "2025-08-08",
-   "n": 1798
-  },
-  {
-   "t": "2025-08-09",
-   "n": 1802
-  },
-  {
-   "t": "2025-08-10",
-   "n": 1807
-  },
-  {
-   "t": "2025-08-11",
-   "n": 1815
-  },
-  {
-   "t": "2025-08-12",
-   "n": 1821
-  },
-  {
-   "t": "2025-08-13",
-   "n": 1842
-  },
-  {
-   "t": "2025-08-14",
-   "n": 1857
-  },
-  {
-   "t": "2025-08-15",
-   "n": 1891
-  },
-  {
-   "t": "2025-08-16",
-   "n": 1917
-  },
-  {
-   "t": "2025-08-17",
-   "n": 1925
-  },
-  {
-   "t": "2025-08-18",
-   "n": 1932
-  },
-  {
-   "t": "2025-08-19",
-   "n": 1936
-  },
-  {
-   "t": "2025-08-20",
-   "n": 1940
-  },
-  {
-   "t": "2025-08-21",
-   "n": 1947
-  },
-  {
-   "t": "2025-08-22",
-   "n": 1949
-  },
-  {
-   "t": "2025-08-23",
-   "n": 1953
-  },
-  {
-   "t": "2025-08-24",
-   "n": 1955
-  },
-  {
-   "t": "2025-08-25",
-   "n": 1961
-  },
-  {
-   "t": "2025-08-26",
-   "n": 2004
-  },
-  {
-   "t": "2025-08-27",
-   "n": 2023
-  },
-  {
-   "t": "2025-08-28",
-   "n": 2044
-  },
-  {
-   "t": "2025-08-29",
-   "n": 2051
-  },
-  {
-   "t": "2025-08-30",
-   "n": 2063
-  },
-  {
-   "t": "2025-08-31",
-   "n": 2074
-  },
-  {
-   "t": "2025-09-01",
-   "n": 2080
-  },
-  {
-   "t": "2025-09-02",
-   "n": 2087
-  },
-  {
-   "t": "2025-09-03",
-   "n": 2091
-  },
-  {
-   "t": "2025-09-05",
-   "n": 2101
-  },
-  {
-   "t": "2025-09-06",
-   "n": 2104
-  },
-  {
-   "t": "2025-09-07",
-   "n": 2112
-  },
-  {
-   "t": "2025-09-08",
-   "n": 2114
-  },
-  {
-   "t": "2025-09-09",
-   "n": 2123
-  },
-  {
-   "t": "2025-09-10",
-   "n": 2133
-  },
-  {
-   "t": "2025-09-11",
-   "n": 2144
-  },
-  {
-   "t": "2025-09-12",
-   "n": 2148
-  },
-  {
-   "t": "2025-09-13",
-   "n": 2153
-  },
-  {
-   "t": "2025-09-15",
-   "n": 2155
-  },
-  {
-   "t": "2025-09-16",
-   "n": 2163
-  },
-  {
-   "t": "2025-09-17",
-   "n": 2178
-  },
-  {
-   "t": "2025-09-18",
-   "n": 2193
-  },
-  {
-   "t": "2025-09-19",
-   "n": 2203
-  },
-  {
-   "t": "2025-09-20",
-   "n": 2216
-  },
-  {
-   "t": "2025-09-21",
-   "n": 2218
-  },
-  {
-   "t": "2025-09-22",
-   "n": 2220
-  },
-  {
-   "t": "2025-09-24",
-   "n": 2227
-  },
-  {
-   "t": "2025-09-27",
-   "n": 2229
-  },
-  {
-   "t": "2025-09-29",
-   "n": 2231
-  },
-  {
-   "t": "2025-09-30",
-   "n": 2233
-  },
-  {
-   "t": "2025-10-01",
-   "n": 2240
-  },
-  {
-   "t": "2025-10-02",
-   "n": 2250
-  },
-  {
-   "t": "2025-10-03",
-   "n": 2252
-  },
-  {
-   "t": "2025-10-04",
-   "n": 2257
-  },
-  {
-   "t": "2025-10-05",
-   "n": 2263
-  },
-  {
-   "t": "2025-10-06",
-   "n": 2271
-  },
-  {
-   "t": "2025-10-09",
-   "n": 2273
-  },
-  {
-   "t": "2025-10-15",
-   "n": 2274
-  },
-  {
-   "t": "2025-10-16",
-   "n": 2276
-  },
-  {
-   "t": "2025-10-17",
-   "n": 2284
-  },
-  {
-   "t": "2025-10-18",
-   "n": 2290
-  },
-  {
-   "t": "2025-10-21",
-   "n": 2292
-  },
-  {
-   "t": "2025-10-22",
-   "n": 2295
-  },
-  {
-   "t": "2025-10-23",
-   "n": 2297
-  },
-  {
-   "t": "2025-10-24",
-   "n": 2301
-  },
-  {
-   "t": "2025-10-25",
-   "n": 2305
-  },
-  {
-   "t": "2025-10-26",
-   "n": 2310
-  },
-  {
-   "t": "2025-10-27",
-   "n": 2312
-  },
-  {
-   "t": "2025-10-29",
-   "n": 2314
-  },
-  {
-   "t": "2025-10-30",
-   "n": 2316
-  },
-  {
-   "t": "2025-10-31",
-   "n": 2318
-  },
-  {
-   "t": "2025-11-01",
-   "n": 2320
-  },
-  {
-   "t": "2025-11-02",
-   "n": 2322
-  },
-  {
-   "t": "2025-11-03",
-   "n": 2324
-  },
-  {
-   "t": "2025-11-04",
-   "n": 2337
-  },
-  {
-   "t": "2025-11-05",
-   "n": 2344
-  },
-  {
-   "t": "2025-11-06",
-   "n": 2348
-  },
-  {
-   "t": "2025-11-07",
-   "n": 2350
-  },
-  {
-   "t": "2025-11-08",
-   "n": 2356
-  },
-  {
-   "t": "2025-11-09",
-   "n": 2367
-  },
-  {
-   "t": "2025-11-10",
-   "n": 2371
-  },
-  {
-   "t": "2025-11-12",
-   "n": 2375
-  },
-  {
-   "t": "2025-11-13",
-   "n": 2378
-  },
-  {
-   "t": "2025-11-16",
-   "n": 2380
-  },
-  {
-   "t": "2025-11-19",
-   "n": 2384
-  },
-  {
-   "t": "2025-11-22",
-   "n": 2390
-  },
-  {
-   "t": "2025-11-24",
-   "n": 2395
-  },
-  {
-   "t": "2025-11-25",
-   "n": 2401
-  },
-  {
-   "t": "2025-11-26",
-   "n": 2403
-  },
-  {
-   "t": "2025-11-28",
-   "n": 2407
-  },
-  {
-   "t": "2025-12-02",
-   "n": 2409
-  },
-  {
-   "t": "2025-12-04",
-   "n": 2413
-  },
-  {
-   "t": "2025-12-05",
-   "n": 2414
-  },
-  {
-   "t": "2025-12-07",
-   "n": 2418
-  },
-  {
-   "t": "2025-12-09",
-   "n": 2420
-  },
-  {
-   "t": "2025-12-13",
-   "n": 2422
-  },
-  {
-   "t": "2025-12-19",
-   "n": 2424
-  },
-  {
-   "t": "2025-12-26",
-   "n": 2430
-  },
-  {
-   "t": "2025-12-27",
-   "n": 2437
-  },
-  {
-   "t": "2025-12-28",
-   "n": 2439
-  },
-  {
-   "t": "2025-12-31",
-   "n": 2445
-  },
-  {
-   "t": "2026-01-01",
-   "n": 2456
-  },
-  {
-   "t": "2026-01-02",
-   "n": 2460
-  },
-  {
-   "t": "2026-01-04",
-   "n": 2462
-  },
-  {
-   "t": "2026-01-05",
-   "n": 2464
-  },
-  {
-   "t": "2026-01-06",
-   "n": 2465
-  },
-  {
-   "t": "2026-01-08",
-   "n": 2467
-  },
-  {
-   "t": "2026-01-11",
-   "n": 2469
-  },
-  {
-   "t": "2026-01-13",
-   "n": 2473
-  },
-  {
-   "t": "2026-01-16",
-   "n": 2477
-  },
-  {
-   "t": "2026-01-17",
-   "n": 2481
-  },
-  {
-   "t": "2026-01-19",
-   "n": 2482
-  },
-  {
-   "t": "2026-01-20",
-   "n": 2484
-  },
-  {
-   "t": "2026-01-22",
-   "n": 2486
-  },
-  {
-   "t": "2026-01-23",
-   "n": 2488
-  },
-  {
-   "t": "2026-01-29",
-   "n": 2490
-  },
-  {
-   "t": "2026-01-30",
-   "n": 2494
-  },
-  {
-   "t": "2026-02-01",
-   "n": 2498
-  },
-  {
-   "t": "2026-02-02",
-   "n": 2499
-  },
-  {
-   "t": "2026-02-03",
-   "n": 2501
-  },
-  {
-   "t": "2026-02-04",
-   "n": 2503
-  },
-  {
-   "t": "2026-02-05",
-   "n": 2505
-  },
-  {
-   "t": "2026-02-07",
-   "n": 2507
-  },
-  {
-   "t": "2026-02-12",
-   "n": 2509
-  },
-  {
-   "t": "2026-02-13",
-   "n": 2511
-  },
-  {
-   "t": "2026-02-15",
-   "n": 2518
-  },
-  {
-   "t": "2026-02-16",
-   "n": 2526
-  },
-  {
-   "t": "2026-02-17",
-   "n": 2528
-  },
-  {
-   "t": "2026-02-18",
-   "n": 2532
-  },
-  {
-   "t": "2026-02-21",
-   "n": 2534
-  },
-  {
-   "t": "2026-02-25",
-   "n": 2535
-  },
-  {
-   "t": "2026-02-27",
-   "n": 2537
-  },
-  {
-   "t": "2026-03-01",
-   "n": 2543
-  },
-  {
-   "t": "2026-03-04",
-   "n": 2547
-  },
-  {
-   "t": "2026-03-11",
-   "n": 2549
-  },
-  {
-   "t": "2026-03-14",
-   "n": 2551
-  },
-  {
-   "t": "2026-03-16",
-   "n": 2554
-  },
-  {
-   "t": "2026-04-03",
-   "n": 2564
-  },
-  {
-   "t": "2026-04-10",
-   "n": 2566
-  },
-  {
-   "t": "2026-04-16",
-   "n": 2568
-  },
-  {
-   "t": "2026-04-18",
-   "n": 2571
-  },
-  {
-   "t": "2026-04-20",
-   "n": 2573
-  },
-  {
-   "t": "2026-05-02",
-   "n": 2575
-  },
-  {
-   "t": "2026-05-25",
-   "n": 2577
-  }
- ],
- "viral": {
-  "from": "2025-06-17",
-  "to": "2025-07-17",
-  "gain": 1044,
-  "days": 30
- },
- "yc_launch": {
-  "title": "Autumn: Stripe for AI Startups",
-  "date": "2025-08-05",
-  "votes": 59,
-  "url": "https://www.ycombinator.com/launches/O7l-autumn-stripe-for-ai-startups"
- },
- "hn_events": [
-  {
-   "date": "2025-06-24",
-   "title": "Show HN: Autumn – Open-source infra over Stripe",
-   "url": "https://github.com/useautumn/autumn",
-   "author": "ayushrodrigues",
-   "points": 141,
-   "comments": 47,
-   "hn": "https://news.ycombinator.com/item?id=44365620"
-  },
-  {
-   "date": "2025-05-15",
-   "title": "We tried to make billing backendless",
-   "url": "https://useautumn.com/blog/backendless",
-   "author": "ayushrodrigues",
-   "points": 43,
-   "comments": 41,
-   "hn": "https://news.ycombinator.com/item?id=43995122"
-  },
-  {
-   "date": "2026-03-30",
-   "title": "Consumer psychology is important in AI pricing",
-   "url": "https://useautumn.com/blog/working-with-t3-chat-on-a-new-way-of-pricing",
-   "author": "ayushrodrigues",
-   "points": 7,
-   "comments": 0,
-   "hn": "https://news.ycombinator.com/item?id=47576945"
-  },
-  {
-   "date": "2025-07-24",
-   "title": "How we are trying to disrupt Stripe with open-source",
-   "url": "https://useautumn.com/blog/what-if-stripe-builds-this",
-   "author": "khoaduong",
-   "points": 4,
-   "comments": 3,
-   "hn": "https://news.ycombinator.com/item?id=44674153"
-  },
-  {
-   "date": "2025-01-25",
-   "title": "Show HN: One line solution to Stripe's painful DX",
-   "url": "https://useautumn.com/",
-   "author": "netswift",
-   "points": 3,
-   "comments": 6,
-   "hn": "https://news.ycombinator.com/item?id=42822932"
-  },
-  {
-   "date": "2025-01-26",
-   "title": "Easiest way I've seen to integrate Stripe",
-   "url": "https://useautumn.com/blog/the-easiest-way-to-integrate-stripe",
-   "author": "netswift",
-   "points": 3,
-   "comments": 2,
-   "hn": "https://news.ycombinator.com/item?id=42833303"
-  }
- ],
- "repo_id": 919987810,
- "repo_names": [
-  "johnyeocx/autumn",
-  "useautumn/autumn"
- ],
- "ph_event": null,
- "star_spikes": [
-  {
-   "t": "2025-06-25",
-   "gain": 101
-  },
-  {
-   "t": "2025-06-24",
-   "gain": 98
-  },
-  {
-   "t": "2025-07-10",
-   "gain": 42
-  },
-  {
-   "t": "2025-06-26",
-   "gain": 29
-  },
-  {
-   "t": "2025-06-18",
-   "gain": 23
-  },
-  {
-   "t": "2025-08-26",
-   "gain": 23
-  }
- ],
- "stars_daily": true,
- "curve_source": "bigquery",
- "curve_baseline": 0,
- "curve_partial": false,
- "engagement": {
-  "issues": 83,
-  "prs": 635,
-  "comments": 581,
-  "forks_gha": 110,
-  "comments_per_issue": 7.0,
-  "early_network": {
-   "first100": 100,
-   "first100_net_pct": 77,
-   "first1000": 1000,
-   "first1000_net_pct": 79,
-   "lifetime_net_pct": 78
-  }
- },
+ "stars_curve": [],
+ "viral": null,
  "yc_launches": [
   {
    "slug": "O7l-autumn-stripe-for-ai-startups",

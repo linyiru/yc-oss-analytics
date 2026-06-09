@@ -34,10 +34,10 @@
   "created": "2018-08-02",
   "primary_lang": "Python",
   "license_detail": {
-   "spdx": "NOASSERTION",
-   "detected": "Elastic-2.0",
-   "model": "Source-available",
-   "source_available": true,
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
    "ee": false
   }
  },
