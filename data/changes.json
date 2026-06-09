@@ -1,12 +1,10 @@
 {
  "date": "2026-06-09",
  "appeared": [
-  "autumn"
+  "superlog"
  ],
- "disappeared": [
-  "cmux"
- ],
+ "disappeared": [],
  "restored": [],
- "total_tracked": 164,
- "present": 163
+ "total_tracked": 165,
+ "present": 164
 }

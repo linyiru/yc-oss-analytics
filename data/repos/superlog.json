@@ -7,14 +7,28 @@
   "status": "Active",
   "one_liner": "Observability that installs itself and fixes the bugs it finds.",
   "website": "https://superlog.sh/",
-  "industry": "B2B"
+  "industry": "B2B",
+  "name": "Superlog",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "David Lieb",
+  "founders": [
+   {
+    "name": "Nicolò Magnante",
+    "title": "Founder"
+   },
+   {
+    "name": "Arseniy Shishaev",
+    "title": "Co-Founder and CTO"
+   }
+  ]
  },
  "metrics": {
-  "stars": 344,
-  "forks": 19,
+  "stars": 401,
+  "forks": 23,
   "watchers": 2,
-  "open_issues": 5,
-  "commits": 54,
+  "open_issues": 6,
+  "commits": 57,
   "contributors": 2,
   "license": "Apache-2.0",
   "created": "2026-06-02",
@@ -34,9 +48,9 @@
   "span_months": 0.2
  },
  "intensity": {
-  "commits_per_week": 63.0,
-  "per_day": 9.0,
-  "weekend_pct": 44.4,
+  "commits_per_week": 66.5,
+  "per_day": 9.5,
+  "weekend_pct": 42.1,
   "punchcard": [
    [
     0,
@@ -60,7 +74,7 @@
     0,
     1,
     2,
-    0,
+    3,
     1,
     0
    ],
@@ -222,7 +236,7 @@
    ]
   ],
   "dow": [
-   4,
+   7,
    21,
    2,
    3,
@@ -233,7 +247,7 @@
   "ai_coauthor_total": 0
  },
  "workflow": {
-  "conventional_pct": 20,
+  "conventional_pct": 23,
   "conv": [
    {
     "k": "web",
@@ -242,6 +256,10 @@
    {
     "k": "worker",
     "v": 3
+   },
+   {
+    "k": "fingerprint",
+    "v": 2
    },
    {
     "k": "fix",
@@ -256,14 +274,14 @@
     "v": 1
    }
   ],
-  "merge_pct": 40.0,
+  "merge_pct": 39.4,
   "median_msg_len": 56
  },
  "activity": {
   "last_commit_days": 0,
-  "commits_30d": 54,
-  "commits_90d": 54,
-  "commits_365d": 54,
+  "commits_30d": 57,
+  "commits_90d": 57,
+  "commits_365d": 57,
   "active_contributors_90d": 2,
   "years_since_first_commit": 0.0,
   "liveness": 87,
@@ -275,24 +293,24 @@
  "monthly": [
   {
    "m": "2026-06",
-   "c": 54
+   "c": 57
   }
  ],
  "contributors": [
   {
    "name": "Arseniy Shishaev",
-   "count": 53,
-   "pct": 98.1
+   "count": 56,
+   "pct": 98.2
   },
   {
    "name": "Superlog app",
    "count": 1,
-   "pct": 1.9
+   "pct": 1.8
   }
  ],
  "stack": {
   "languages": {
-   "TypeScript": 2915712,
+   "TypeScript": 2918743,
    "Shell": 56923,
    "CSS": 10988,
    "Dockerfile": 3773,
@@ -311,96 +329,19 @@
    "docker-compose",
    "pnpm",
    "turborepo"
-  ],
-  "deps": [
-   "@anthropic-ai/sdk",
-   "@aws-sdk/client-cloudcontrol",
-   "@aws-sdk/client-resource-groups-tagging-api",
-   "@aws-sdk/client-s3",
-   "@aws-sdk/client-sqs",
-   "@aws-sdk/client-sts",
-   "@aws-sdk/lib-storage",
-   "@base-ui/react",
-   "@biomejs/biome",
-   "@clickhouse/client",
-   "@electric-sql/pglite",
-   "@git-diff-view/file",
-   "@git-diff-view/react",
-   "@grpc/grpc-js",
-   "@hono/node-server",
-   "@hono/standard-validator",
-   "@hugeicons/core-free-icons",
-   "@hugeicons/react",
-   "@jridgewell/trace-mapping",
-   "@modelcontextprotocol/sdk",
-   "@opentelemetry/api",
-   "@opentelemetry/api-logs",
-   "@opentelemetry/auto-instrumentations-node",
-   "@opentelemetry/context-zone",
-   "@opentelemetry/exporter-logs-otlp-http",
-   "@opentelemetry/exporter-metrics-otlp-http",
-   "@opentelemetry/exporter-trace-otlp-grpc",
-   "@opentelemetry/exporter-trace-otlp-http",
-   "@opentelemetry/exporter-trace-otlp-proto",
-   "@opentelemetry/instrumentation",
-   "@opentelemetry/instrumentation-document-load",
-   "@opentelemetry/instrumentation-fetch",
-   "@opentelemetry/instrumentation-user-interaction",
-   "@opentelemetry/otlp-transformer",
-   "@opentelemetry/resources",
-   "@opentelemetry/sdk-logs",
-   "@opentelemetry/sdk-metrics",
-   "@opentelemetry/sdk-node",
-   "@opentelemetry/sdk-trace-base",
-   "@opentelemetry/sdk-trace-node",
-   "@opentelemetry/sdk-trace-web",
-   "@opentelemetry/semantic-conventions",
-   "@pierre/diffs",
-   "@radix-ui/react-scroll-area",
-   "@scalar/hono-api-reference",
-   "@superlog/db",
-   "@superlog/fingerprint",
-   "@tanstack/react-query",
-   "@types/node",
-   "@types/react",
-   "@types/react-dom",
-   "@types/react-grid-layout",
-   "@vercel/otel",
-   "@vitejs/plugin-react",
-   "atmn",
-   "autoprefixer",
-   "autumn-js",
-   "better-auth",
-   "dotenv",
-   "drizzle-kit",
-   "drizzle-orm",
-   "echarts",
-   "hono",
-   "hono-openapi",
-   "nanoid",
-   "next",
-   "pg-boss",
-   "pino",
-   "portless",
-   "postcss",
-   "postgres",
-   "posthog-js",
-   "react",
-   "react-dom",
-   "react-grid-layout",
-   "react-router-dom",
-   "recharts",
-   "resend",
-   "shiki",
-   "tailwindcss",
-   "tsx",
-   "turbo",
-   "typescript",
-   "vite",
-   "zod"
   ]
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs",
+   "title": "Superlog: The self-installing observability tool that fixes your bugs",
+   "tagline": "A wizard sets up your telemetry every day. An agent investigates incidents and ships mergeable PRs.",
+   "date": "2026-05-12",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs"
+  }
+ ]
 }

@@ -1,0 +1,44 @@
+{
+ "slug": "superlog",
+ "name": "Superlog",
+ "batch": "P26",
+ "website": "https://superlog.sh/",
+ "github_url": "https://github.com/superloglabs/skills",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Monitoring",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "David Lieb",
+ "founders": [
+  {
+   "name": "Nicolò Magnante",
+   "title": "Founder"
+  },
+  {
+   "name": "Arseniy Shishaev",
+   "title": "Co-Founder and CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs",
+   "title": "Superlog: The self-installing observability tool that fixes your bugs",
+   "tagline": "A wizard sets up your telemetry every day. An agent investigates incidents and ships mergeable PRs.",
+   "date": "2026-05-12",
+   "votes": 69,
+   "url": "https://www.ycombinator.com/launches/QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs"
+  }
+ ],
+ "page_repos": [
+  "superloglabs/skills"
+ ],
+ "fetched_at": "2026-06-09T07:15:54+00:00"
+}
