@@ -3,7 +3,7 @@
  "github": "mastra-ai/mastra",
  "yc": {
   "batch": "W25",
-  "team_size": 8,
+  "team_size": 30,
   "status": "Active",
   "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
   "website": "https://mastra.ai",

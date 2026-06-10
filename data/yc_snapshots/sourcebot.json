@@ -3,19 +3,17 @@
  "name": "Sourcebot",
  "batch": "F25",
  "website": "https://www.sourcebot.dev/",
- "github_url": "https://github.com/sourcebot-dev/sourcebot",
+ "github_url": "",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
-  "DevSecOps",
-  "B2B",
-  "Open Source",
-  "AI"
+  "Open Source"
  ],
  "status": "Active",
  "year_founded": 2024,
  "team_size": 3,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Nicolas Dessaigne",
  "founders": [
   {
@@ -37,8 +35,6 @@
    "url": "https://www.ycombinator.com/launches/OdD-sourcebot-the-code-understanding-platform"
   }
  ],
- "page_repos": [
-  "sourcebot-dev/sourcebot"
- ],
- "fetched_at": "2026-06-07T15:58:49+00:00"
+ "page_repos": [],
+ "fetched_at": "2026-06-10T07:30:24+00:00"
 }
