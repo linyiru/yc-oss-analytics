@@ -15,7 +15,7 @@
  "team_size": 30,
  "location": "London, United Kingdom",
  "country": "GB",
- "partner": null,
+ "partner": "Nicolas Dessaigne",
  "founders": [
   {
    "name": "Nicolas Hourcard",
@@ -41,5 +41,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:45+00:00"
+ "fetched_at": "2026-06-11T07:42:30+00:00"
 }
