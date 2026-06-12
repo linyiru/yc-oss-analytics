@@ -3,15 +3,15 @@
  "name": "Manaflow",
  "batch": "S24",
  "website": "https://www.cmux.com",
- "github_url": "https://github.com/manaflow-ai",
+ "github_url": "https://github.com/manaflow-ai/cmux",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source",
-  "AI"
+  "Open Source"
  ],
  "status": "Active",
  "year_founded": 2024,
- "team_size": 2,
+ "team_size": 3,
  "location": "San Francisco",
  "country": "US",
  "partner": null,
@@ -46,5 +46,5 @@
  "page_repos": [
   "manaflow-ai/cmux"
  ],
- "fetched_at": "2026-06-07T16:00:05+00:00"
+ "fetched_at": "2026-06-12T07:38:44+00:00"
 }

@@ -1,8 +1,10 @@
 {
- "date": "2026-06-11",
+ "date": "2026-06-12",
  "appeared": [],
- "disappeared": [],
+ "disappeared": [
+  "insforge"
+ ],
  "restored": [],
  "total_tracked": 165,
- "present": 164
+ "present": 163
 }

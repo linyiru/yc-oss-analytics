@@ -3,19 +3,13 @@
  "name": "Superlog",
  "batch": "P26",
  "website": "https://superlog.sh/",
- "github_url": "https://github.com/superloglabs/superlog",
- "tags": [
-  "Artificial Intelligence",
-  "Developer Tools",
-  "Open Source",
-  "Monitoring",
-  "AI"
- ],
+ "github_url": null,
+ "tags": [],
  "status": "Active",
  "year_founded": 2026,
  "team_size": 2,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "David Lieb",
  "founders": [
   {
@@ -37,8 +31,6 @@
    "url": "https://www.ycombinator.com/launches/QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs"
   }
  ],
- "page_repos": [
-  "superloglabs/superlog"
- ],
- "fetched_at": "2026-06-11T07:42:36+00:00"
+ "page_repos": [],
+ "fetched_at": "2026-06-12T07:38:57+00:00"
 }

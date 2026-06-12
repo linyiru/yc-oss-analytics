@@ -3,17 +3,13 @@
  "name": "InsForge",
  "batch": "P26",
  "website": "https://insforge.dev/",
- "github_url": "https://github.com/InsForge/InsForge",
- "tags": [
-  "Developer Tools",
-  "Open Source",
-  "Infrastructure"
- ],
+ "github_url": null,
+ "tags": [],
  "status": "Active",
  "year_founded": 2025,
  "team_size": 6,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -38,5 +34,5 @@
  "page_repos": [
   "InsForge/InsForge"
  ],
- "fetched_at": "2026-06-07T15:58:29+00:00"
+ "fetched_at": "2026-06-12T07:38:40+00:00"
 }

@@ -3,17 +3,13 @@
  "name": "Clawvisor",
  "batch": "P26",
  "website": "https://clawvisor.com",
- "github_url": "https://github.com/clawvisor",
- "tags": [
-  "Artificial Intelligence",
-  "Security",
-  "Open Source"
- ],
+ "github_url": null,
+ "tags": [],
  "status": "Active",
  "year_founded": 2026,
  "team_size": 1,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Garry Tan",
  "founders": [
   {
@@ -34,5 +30,5 @@
  "page_repos": [
   "clawvisor/clawvisor"
  ],
- "fetched_at": "2026-06-07T15:58:16+00:00"
+ "fetched_at": "2026-06-12T07:38:30+00:00"
 }
