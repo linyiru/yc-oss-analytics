@@ -3,18 +3,13 @@
  "name": "Inth",
  "batch": "P26",
  "website": "https://inth.com",
- "github_url": "http://github.com/inthhq",
- "tags": [
-  "Developer Tools",
-  "Compliance",
-  "Open Source",
-  "Web Development"
- ],
+ "github_url": null,
+ "tags": [],
  "status": "Active",
  "year_founded": 2025,
  "team_size": 3,
- "location": "London, United Kingdom",
- "country": "GB",
+ "location": null,
+ "country": null,
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -33,5 +28,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:29+00:00"
+ "fetched_at": "2026-06-13T07:20:14+00:00"
 }
