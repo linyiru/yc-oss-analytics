@@ -3,7 +3,7 @@
  "name": "InsForge",
  "batch": "P26",
  "website": "https://insforge.dev/",
- "github_url": "",
+ "github_url": null,
  "tags": [],
  "status": "Active",
  "year_founded": 2025,
@@ -34,5 +34,5 @@
  "page_repos": [
   "InsForge/InsForge"
  ],
- "fetched_at": "2026-06-13T07:20:14+00:00"
+ "fetched_at": "2026-06-14T07:36:55+00:00"
 }

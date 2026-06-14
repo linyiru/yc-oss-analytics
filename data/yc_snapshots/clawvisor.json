@@ -3,13 +3,13 @@
  "name": "Clawvisor",
  "batch": "P26",
  "website": "https://clawvisor.com",
- "github_url": "",
+ "github_url": null,
  "tags": [],
  "status": "Active",
  "year_founded": 2026,
  "team_size": 1,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Garry Tan",
  "founders": [
   {
@@ -30,5 +30,5 @@
  "page_repos": [
   "clawvisor/clawvisor"
  ],
- "fetched_at": "2026-06-13T07:20:05+00:00"
+ "fetched_at": "2026-06-14T07:36:47+00:00"
 }
