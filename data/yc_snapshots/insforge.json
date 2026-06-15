@@ -8,8 +8,8 @@
  "status": "Active",
  "year_founded": 2025,
  "team_size": 6,
- "location": null,
- "country": null,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -27,12 +27,12 @@
    "title": "InsForge: The backend platform for AI-native developers",
    "tagline": "Let your coding agent deploy, operate, and debug your backend end-to-end",
    "date": "2026-05-18",
-   "votes": 27,
+   "votes": 28,
    "url": "https://www.ycombinator.com/launches/QP6-insforge-the-backend-platform-for-ai-native-developers"
   }
  ],
  "page_repos": [
   "InsForge/InsForge"
  ],
- "fetched_at": "2026-06-14T07:36:55+00:00"
+ "fetched_at": "2026-06-15T08:00:11+00:00"
 }

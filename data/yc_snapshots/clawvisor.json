@@ -8,8 +8,8 @@
  "status": "Active",
  "year_founded": 2026,
  "team_size": 1,
- "location": null,
- "country": null,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "Garry Tan",
  "founders": [
   {
@@ -30,5 +30,5 @@
  "page_repos": [
   "clawvisor/clawvisor"
  ],
- "fetched_at": "2026-06-14T07:36:47+00:00"
+ "fetched_at": "2026-06-15T08:00:01+00:00"
 }

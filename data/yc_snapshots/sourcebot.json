@@ -12,8 +12,8 @@
  "status": "Active",
  "year_founded": 2024,
  "team_size": 3,
- "location": null,
- "country": null,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "Nicolas Dessaigne",
  "founders": [
   {
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-10T07:30:24+00:00"
+ "fetched_at": "2026-06-15T08:00:27+00:00"
 }

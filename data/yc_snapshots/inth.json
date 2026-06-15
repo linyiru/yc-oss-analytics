@@ -3,12 +3,8 @@
  "name": "Inth",
  "batch": "P26",
  "website": "https://inth.com",
- "github_url": "",
- "tags": [
-  "Artificial Intelligence",
-  "Developer Tools",
-  "Compliance"
- ],
+ "github_url": null,
+ "tags": [],
  "status": "Active",
  "year_founded": 2025,
  "team_size": 3,
@@ -32,5 +28,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-14T07:36:55+00:00"
+ "fetched_at": "2026-06-15T08:00:11+00:00"
 }
