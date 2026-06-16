@@ -29,7 +29,7 @@
    "title": "Hivemind: Continual Learning for Coding Agents",
    "tagline": "Capture every coding agent interaction across your team, train it into reusable skills, and propagate those skills to every agent in your org. On your cloud storage.",
    "date": "2026-06-08",
-   "votes": 8,
+   "votes": 9,
    "url": "https://www.ycombinator.com/launches/Qio-hivemind-continual-learning-for-coding-agents"
   },
   {
@@ -61,5 +61,5 @@
   "activeloopai/deeplake",
   "activeloopai/hivemind"
  ],
- "fetched_at": "2026-06-15T07:59:54+00:00"
+ "fetched_at": "2026-06-16T07:58:23+00:00"
 }

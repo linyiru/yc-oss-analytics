@@ -1,15 +1,15 @@
 {
  "slug": "manufact",
- "name": "Manufact (formerly mcp-use)",
+ "name": "Manufact",
  "batch": "S25",
  "website": "https://manufact.com",
  "github_url": "https://github.com/mcp-use",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
   "B2B",
   "Open Source",
-  "Infrastructure",
-  "AI"
+  "Infrastructure"
  ],
  "status": "Active",
  "year_founded": 2025,
@@ -40,5 +40,5 @@
  "page_repos": [
   "mcp-use/mcp-use"
  ],
- "fetched_at": "2026-06-07T15:58:35+00:00"
+ "fetched_at": "2026-06-16T07:58:45+00:00"
 }

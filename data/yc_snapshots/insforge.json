@@ -8,8 +8,8 @@
  "status": "Active",
  "year_founded": 2025,
  "team_size": 6,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -34,5 +34,5 @@
  "page_repos": [
   "InsForge/InsForge"
  ],
- "fetched_at": "2026-06-15T08:00:11+00:00"
+ "fetched_at": "2026-06-16T07:58:40+00:00"
 }

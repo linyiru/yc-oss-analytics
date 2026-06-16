@@ -5,11 +5,11 @@
  "website": "https://opslane.com",
  "github_url": "",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
   "Open Source",
   "Enterprise",
-  "DevOps",
-  "AI"
+  "DevOps"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -36,5 +36,5 @@
  "page_repos": [
   "opslane/opslane"
  ],
- "fetched_at": "2026-06-07T15:58:42+00:00"
+ "fetched_at": "2026-06-16T07:58:50+00:00"
 }
