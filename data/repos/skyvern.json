@@ -3,7 +3,7 @@
  "github": "Skyvern-AI/skyvern",
  "yc": {
   "batch": "S23",
-  "team_size": 6,
+  "team_size": 10,
   "status": "Active",
   "one_liner": "Open Source AI Agent to automate browser workflows via an API",
   "website": "https://www.skyvern.com/",

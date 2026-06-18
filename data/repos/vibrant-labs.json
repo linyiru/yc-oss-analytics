@@ -3,7 +3,7 @@
  "github": "vibrantlabsai/ragas",
  "yc": {
   "batch": "W24",
-  "team_size": 2,
+  "team_size": 6,
   "status": "Active",
   "one_liner": "RL environments for long horizon AI Agents",
   "website": "https://vibrantlabs.com/",

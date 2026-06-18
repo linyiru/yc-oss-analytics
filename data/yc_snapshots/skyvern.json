@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2023,
- "team_size": 6,
+ "team_size": 10,
  "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
@@ -99,5 +99,5 @@
   "Skyvern-AI/skyvern",
   "bytedance/UI-TARS"
  ],
- "fetched_at": "2026-06-07T15:58:49+00:00"
+ "fetched_at": "2026-06-18T07:42:15+00:00"
 }

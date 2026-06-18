@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2023,
- "team_size": 2,
+ "team_size": 6,
  "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
@@ -44,5 +44,5 @@
   "explodinggradients/ragas",
   "laion-ai/open-assistant"
  ],
- "fetched_at": "2026-06-07T15:58:56+00:00"
+ "fetched_at": "2026-06-18T07:42:20+00:00"
 }
