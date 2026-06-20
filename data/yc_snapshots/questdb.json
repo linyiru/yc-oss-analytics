@@ -2,7 +2,7 @@
  "slug": "questdb",
  "name": "QuestDB",
  "batch": "S20",
- "website": "https://questdb.io/",
+ "website": "https://questdb.com/",
  "github_url": "https://github.com/questdb",
  "tags": [
   "Developer Tools",
@@ -41,5 +41,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-11T07:42:30+00:00"
+ "fetched_at": "2026-06-20T07:21:41+00:00"
 }

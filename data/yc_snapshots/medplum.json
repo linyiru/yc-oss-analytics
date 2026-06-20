@@ -21,10 +21,6 @@
    "title": "Founder"
   },
   {
-   "name": "Rahul Agarwal",
-   "title": "Founder"
-  },
-  {
    "name": "Cody Ebberson",
    "title": "Co-Founder and CTO"
   }
@@ -42,5 +38,5 @@
  "page_repos": [
   "medplum/foomedical"
  ],
- "fetched_at": "2026-06-07T15:58:36+00:00"
+ "fetched_at": "2026-06-20T07:21:35+00:00"
 }
