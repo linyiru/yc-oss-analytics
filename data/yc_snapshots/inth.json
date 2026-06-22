@@ -8,8 +8,8 @@
  "status": "Active",
  "year_founded": 2025,
  "team_size": 3,
- "location": null,
- "country": null,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -28,5 +28,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-15T08:00:11+00:00"
+ "fetched_at": "2026-06-22T08:02:11+00:00"
 }

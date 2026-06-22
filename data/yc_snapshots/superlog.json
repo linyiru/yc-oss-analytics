@@ -8,8 +8,8 @@
  "status": "Active",
  "year_founded": 2026,
  "team_size": 2,
- "location": null,
- "country": null,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "David Lieb",
  "founders": [
   {
@@ -32,5 +32,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-17T07:51:55+00:00"
+ "fetched_at": "2026-06-22T08:02:28+00:00"
 }

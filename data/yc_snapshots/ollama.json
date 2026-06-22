@@ -12,7 +12,7 @@
  "status": "Active",
  "year_founded": null,
  "team_size": null,
- "location": "Palo Alto",
+ "location": "San Francisco",
  "country": "US",
  "partner": "Jared Friedman",
  "founders": [
@@ -29,5 +29,5 @@
  "page_repos": [
   "ollama/ollama"
  ],
- "fetched_at": "2026-06-07T15:58:41+00:00"
+ "fetched_at": "2026-06-22T08:02:19+00:00"
 }

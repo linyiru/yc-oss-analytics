@@ -3,18 +3,13 @@
  "name": "stagewise",
  "batch": "S25",
  "website": "https://stagewise.io",
- "github_url": "https://github.com/stagewise-io",
- "tags": [
-  "Artificial Intelligence",
-  "Developer Tools",
-  "Open Source",
-  "Web Development"
- ],
+ "github_url": "",
+ "tags": [],
  "status": "Active",
  "year_founded": 2024,
  "team_size": 2,
- "location": "San Francisco",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Jared Friedman",
  "founders": [
   {
@@ -37,5 +32,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:50+00:00"
+ "fetched_at": "2026-06-22T08:02:26+00:00"
 }
