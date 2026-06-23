@@ -2,3 +2,4 @@
 {"date": "2026-06-09", "appeared": ["autumn"], "disappeared": ["cmux"], "restored": [], "total_tracked": 164, "present": 163}
 {"date": "2026-06-09", "appeared": ["superlog"], "disappeared": [], "restored": [], "total_tracked": 165, "present": 164}
 {"date": "2026-06-12", "appeared": [], "disappeared": ["insforge"], "restored": [], "total_tracked": 165, "present": 163}
+{"date": "2026-06-23", "appeared": [], "disappeared": ["stagewise"], "restored": [], "total_tracked": 165, "present": 162}
