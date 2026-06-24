@@ -5,8 +5,8 @@
  "website": "https://authzed.com",
  "github_url": "https://github.com/authzed",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
-  "SaaS",
   "Security",
   "Open Source",
   "Data Engineering"
@@ -33,5 +33,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:12+00:00"
+ "fetched_at": "2026-06-24T07:12:35+00:00"
 }
