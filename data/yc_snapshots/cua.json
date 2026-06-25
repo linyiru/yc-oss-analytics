@@ -25,12 +25,12 @@
    "title": "c/ua - Docker Container for Computer-Use Agents",
    "tagline": "c/ua runs lightweight containers for Computer-Use AI Agents with your own language models.",
    "date": "2025-04-17",
-   "votes": 68,
+   "votes": 69,
    "url": "https://www.ycombinator.com/launches/NJc-c-ua-docker-container-for-computer-use-agents"
   }
  ],
  "page_repos": [
   "trycua/cua"
  ],
- "fetched_at": "2026-06-07T15:58:18+00:00"
+ "fetched_at": "2026-06-25T07:13:01+00:00"
 }
