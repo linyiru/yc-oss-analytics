@@ -5,10 +5,10 @@
  "website": "https://confident-ai.com",
  "github_url": "https://github.com/confident-ai/deepeval",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Generative AI",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -39,5 +39,5 @@
  "page_repos": [
   "confident-ai/deepeval"
  ],
- "fetched_at": "2026-06-07T15:58:17+00:00"
+ "fetched_at": "2026-06-26T07:19:01+00:00"
 }
