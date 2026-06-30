@@ -10,7 +10,13 @@
   "industry": "B2B",
   "year_founded": 2021,
   "location": "London, United Kingdom",
-  "name": "Convoy"
+  "name": "Convoy",
+  "founders": [
+   {
+    "name": "Subomi Oluwalana",
+    "title": "Founder"
+   }
+  ]
  },
  "metrics": {
   "stars": 2808,

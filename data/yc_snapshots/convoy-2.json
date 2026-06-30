@@ -15,7 +15,12 @@
  "location": "London, United Kingdom",
  "country": "GB",
  "partner": null,
- "founders": [],
+ "founders": [
+  {
+   "name": "Subomi Oluwalana",
+   "title": "Founder"
+  }
+ ],
  "launches": [
   {
    "slug": "Isv-nohooks-webhooks-for-platforms-without-webhooks",
@@ -35,5 +40,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:17+00:00"
+ "fetched_at": "2026-06-30T07:19:11+00:00"
 }
