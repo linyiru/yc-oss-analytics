@@ -3,7 +3,7 @@
  "github": "medplum/medplum",
  "yc": {
   "batch": "S22",
-  "team_size": 12,
+  "team_size": 20,
   "status": "Active",
   "one_liner": "API first electronic health record (EHR) that is open source",
   "website": "https://www.medplum.com",

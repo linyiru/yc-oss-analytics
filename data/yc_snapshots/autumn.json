@@ -7,7 +7,7 @@
  "tags": [],
  "status": "Active",
  "year_founded": 2025,
- "team_size": 2,
+ "team_size": 5,
  "location": "London, United Kingdom",
  "country": "GB",
  "partner": "Pete Koomen",
@@ -34,5 +34,5 @@
  "page_repos": [
   "johnyeocx/autumn"
  ],
- "fetched_at": "2026-06-07T15:58:12+00:00"
+ "fetched_at": "2026-07-01T07:31:02+00:00"
 }
