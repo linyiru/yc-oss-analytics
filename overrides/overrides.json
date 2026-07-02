@@ -8,7 +8,8 @@
     { "slug": "inth", "github": "inthhq/inrepo", "reason": "Tagged open-source (X26) but absent from repositories.json; resolved via inth.com -> inthhq org (verified, active)." },
     { "slug": "mistle", "github": "mistlehq/mistle", "reason": "Tagged open-source (S22) but absent from repositories.json; resolved via mistle.dev -> mistlehq org (verified, active)." },
     { "slug": "autumn", "github": "useautumn/autumn", "reason": "False negative: YC profile has EMPTY tags (no Open Source tag), so absent from the tag-derived dataset, but useautumn/autumn is a real OSS pricing/billing platform (~2.5k stars, S25). Recovered via discover.py-style website->org link evidence." },
-    { "slug": "superlog", "github": "superloglabs/superlog", "reason": "Spring 2026; repo created 2026-06-02 (didn't exist at the prior sweep) under the 'superloglabs' org, which our common org-name variants missed. Verified: Apache-2.0 OSS observability tool, ~293 stars, active." }
+    { "slug": "superlog", "github": "superloglabs/superlog", "reason": "Spring 2026; repo created 2026-06-02 (didn't exist at the prior sweep) under the 'superloglabs' org, which our common org-name variants missed. Verified: Apache-2.0 OSS observability tool, ~293 stars, active." },
+    { "slug": "stably-ai", "github": "stablyai/orca", "reason": "False negative: W22, present in companies/all.json with NO Open Source tag and github:None, so absent from the tag-derived dataset. Its own one_liner says 'Makers of Orca (OSS Cursor)'. Verified: stablyai/orca is a real OSS agent IDE (~11k stars, non-fork, active)." }
   ],
   "corrections": {},
   "exclusions": [],
