@@ -1,0 +1,421 @@
+{
+ "slug": "stably-ai",
+ "github": "stablyai/orca",
+ "yc": {
+  "batch": "?",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "",
+  "website": null,
+  "industry": null,
+  "name": "Stably AI (Orca)",
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Jinjing Liang",
+    "title": "Co-founder & CEO"
+   },
+   {
+    "name": "Neil Parker",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 11229,
+  "forks": 742,
+  "watchers": 25,
+  "open_issues": 987,
+  "commits": 5849,
+  "contributors": 162,
+  "license": "MIT",
+  "created": "2026-03-17",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-03-16",
+  "last": "2026-07-03",
+  "span_months": 3.6
+ },
+ "intensity": {
+  "commits_per_week": 379.1,
+  "per_day": 54.16,
+  "weekend_pct": 35.3,
+  "punchcard": [
+   [
+    46,
+    30,
+    12,
+    9,
+    5,
+    5,
+    8,
+    4,
+    7,
+    16,
+    13,
+    23,
+    26,
+    31,
+    32,
+    42,
+    54,
+    39,
+    54,
+    38,
+    62,
+    43,
+    48,
+    72
+   ],
+   [
+    71,
+    40,
+    14,
+    10,
+    8,
+    9,
+    7,
+    6,
+    7,
+    9,
+    31,
+    27,
+    30,
+    29,
+    38,
+    62,
+    59,
+    44,
+    44,
+    34,
+    48,
+    40,
+    37,
+    34
+   ],
+   [
+    35,
+    22,
+    12,
+    13,
+    10,
+    4,
+    5,
+    4,
+    2,
+    12,
+    17,
+    9,
+    13,
+    33,
+    38,
+    38,
+    46,
+    40,
+    42,
+    38,
+    44,
+    32,
+    64,
+    59
+   ],
+   [
+    58,
+    80,
+    29,
+    7,
+    6,
+    6,
+    7,
+    10,
+    6,
+    10,
+    13,
+    22,
+    23,
+    45,
+    22,
+    31,
+    55,
+    45,
+    35,
+    32,
+    46,
+    41,
+    57,
+    54
+   ],
+   [
+    32,
+    33,
+    45,
+    26,
+    17,
+    19,
+    20,
+    23,
+    16,
+    22,
+    44,
+    40,
+    69,
+    51,
+    46,
+    47,
+    52,
+    51,
+    56,
+    56,
+    52,
+    37,
+    50,
+    50
+   ],
+   [
+    63,
+    55,
+    48,
+    40,
+    34,
+    29,
+    23,
+    24,
+    24,
+    27,
+    41,
+    95,
+    93,
+    81,
+    50,
+    47,
+    31,
+    54,
+    58,
+    36,
+    31,
+    32,
+    49,
+    42
+   ],
+   [
+    35,
+    55,
+    38,
+    38,
+    43,
+    35,
+    38,
+    33,
+    32,
+    51,
+    42,
+    53,
+    22,
+    32,
+    23,
+    50,
+    53,
+    29,
+    31,
+    35,
+    26,
+    47,
+    49,
+    69
+   ]
+  ],
+  "dow": [
+   719,
+   738,
+   632,
+   740,
+   954,
+   1107,
+   959
+  ],
+  "ai_coauthor_total": 217
+ },
+ "workflow": {
+  "conventional_pct": 52,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 1647
+   },
+   {
+    "k": "release",
+    "v": 512
+   },
+   {
+    "k": "feat",
+    "v": 423
+   },
+   {
+    "k": "perf",
+    "v": 254
+   },
+   {
+    "k": "refactor",
+    "v": 44
+   },
+   {
+    "k": "test",
+    "v": 41
+   },
+   {
+    "k": "docs",
+    "v": 39
+   }
+  ],
+  "merge_pct": 0.1,
+  "median_msg_len": 49
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 1672,
+  "commits_90d": 5488,
+  "commits_365d": 5849,
+  "active_contributors_90d": 160,
+  "years_since_first_commit": 0.3,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": null,
+  "batch_age_years": null,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2026-03",
+   "c": 341
+  },
+  {
+   "m": "2026-04",
+   "c": 1010
+  },
+  {
+   "m": "2026-05",
+   "c": 2761
+  },
+  {
+   "m": "2026-06",
+   "c": 1635
+  },
+  {
+   "m": "2026-07",
+   "c": 102
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Neil",
+   "count": 2139,
+   "pct": 36.6
+  },
+  {
+   "name": "Jinjing",
+   "count": 1241,
+   "pct": 21.2
+  },
+  {
+   "name": "Jinwoo Hong",
+   "count": 720,
+   "pct": 12.3
+  },
+  {
+   "name": "Brennan Benson",
+   "count": 647,
+   "pct": 11.1
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 533,
+   "pct": 9.1
+  },
+  {
+   "name": "buf0-bot[bot]",
+   "count": 91,
+   "pct": 1.6
+  },
+  {
+   "name": "Trevin Chow",
+   "count": 66,
+   "pct": 1.1
+  },
+  {
+   "name": "Jinwoo-H",
+   "count": 26,
+   "pct": 0.4
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 54073459,
+   "JavaScript": 965668,
+   "CSS": 209628,
+   "Swift": 206159,
+   "HTML": 122037,
+   "PowerShell": 48463,
+   "Python": 43169,
+   "Kotlin": 22918,
+   "Shell": 20096,
+   "Ruby": 13361,
+   "Batchfile": 1047
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [
+   "@electron-toolkit/preload",
+   "@electron-toolkit/utils",
+   "@floating-ui/dom",
+   "@linear/sdk",
+   "@parcel/watcher",
+   "@xterm/addon-serialize",
+   "@xterm/headless",
+   "agent-browser",
+   "electron-updater",
+   "i18next",
+   "jsonc-parser",
+   "node-pty",
+   "posthog-node",
+   "qrcode",
+   "react-i18next",
+   "serve-sim",
+   "sherpa-onnx",
+   "ssh2",
+   "tweetnacl",
+   "ws",
+   "yaml",
+   "zod"
+  ],
+  "infra": [
+   "claude-code",
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "NvN-stably-tests-every-code-change-like-your-best-engineer-would",
+   "title": "Stably - Tests Every Code Change Like Your Best Engineer Would",
+   "tagline": "AI agent for testing your PRs and releases",
+   "date": "2025-07-09",
+   "votes": 336,
+   "url": "https://www.ycombinator.com/launches/NvN-stably-tests-every-code-change-like-your-best-engineer-would"
+  }
+ ]
+}

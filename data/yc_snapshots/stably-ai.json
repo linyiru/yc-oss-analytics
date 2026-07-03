@@ -1,0 +1,44 @@
+{
+ "slug": "stably-ai-orca",
+ "name": "Stably AI (Orca)",
+ "batch": "W22",
+ "website": "http://onorca.dev/",
+ "github_url": "https://github.com/stablyai/orca",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "SaaS",
+  "DevOps",
+  "Web Development"
+ ],
+ "status": "Active",
+ "year_founded": 2022,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Jinjing Liang",
+   "title": "Co-founder & CEO"
+  },
+  {
+   "name": "Neil Parker",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "NvN-stably-tests-every-code-change-like-your-best-engineer-would",
+   "title": "Stably - Tests Every Code Change Like Your Best Engineer Would",
+   "tagline": "AI agent for testing your PRs and releases",
+   "date": "2025-07-09",
+   "votes": 336,
+   "url": "https://www.ycombinator.com/launches/NvN-stably-tests-every-code-change-like-your-best-engineer-would"
+  }
+ ],
+ "page_repos": [
+  "stablyai/orca"
+ ],
+ "fetched_at": "2026-07-03T07:06:34+00:00"
+}
