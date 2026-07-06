@@ -14,7 +14,7 @@
  "status": "Active",
  "year_founded": 2024,
  "team_size": 2,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": "Gustaf Alstromer",
  "founders": [
@@ -27,5 +27,5 @@
  "page_repos": [
   "corsairdev/corsair"
  ],
- "fetched_at": "2026-06-07T15:58:18+00:00"
+ "fetched_at": "2026-07-06T07:33:29+00:00"
 }

@@ -12,7 +12,7 @@
  "status": "Active",
  "year_founded": 2023,
  "team_size": 7,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": "David Lieb",
  "founders": [
@@ -38,5 +38,5 @@
  "page_repos": [
   "hatchet-dev/hatchet"
  ],
- "fetched_at": "2026-06-07T15:58:25+00:00"
+ "fetched_at": "2026-07-06T07:33:33+00:00"
 }

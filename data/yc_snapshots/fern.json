@@ -14,7 +14,7 @@
  "status": "Acquired",
  "year_founded": 2022,
  "team_size": 30,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": "Brad Flora",
  "founders": [
@@ -48,5 +48,5 @@
  "page_repos": [
   "fern-api/fern"
  ],
- "fetched_at": "2026-06-07T15:58:22+00:00"
+ "fetched_at": "2026-07-06T07:33:31+00:00"
 }

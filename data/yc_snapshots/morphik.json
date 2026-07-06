@@ -5,11 +5,9 @@
  "website": "https://morphik.ai",
  "github_url": "https://github.com/morphik-org/morphik-core",
  "tags": [
-  "Artificial Intelligence",
-  "Developer Tools",
-  "Open Source",
-  "Search",
-  "Databases"
+  "B2B",
+  "Healthcare",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2025,
@@ -40,5 +38,5 @@
  "page_repos": [
   "morphik-org/morphik-core"
  ],
- "fetched_at": "2026-06-07T15:58:38+00:00"
+ "fetched_at": "2026-07-06T07:33:39+00:00"
 }

@@ -1,8 +1,10 @@
 {
- "date": "2026-07-05",
+ "date": "2026-07-06",
  "appeared": [],
- "disappeared": [],
+ "disappeared": [
+  "morphik"
+ ],
  "restored": [],
  "total_tracked": 166,
- "present": 163
+ "present": 162
 }

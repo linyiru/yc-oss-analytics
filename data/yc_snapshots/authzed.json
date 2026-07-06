@@ -14,7 +14,7 @@
  "status": "Active",
  "year_founded": 2020,
  "team_size": 31,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": "Nicolas Dessaigne",
  "founders": [
@@ -33,5 +33,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-24T07:12:35+00:00"
+ "fetched_at": "2026-07-06T07:33:26+00:00"
 }

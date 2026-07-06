@@ -14,7 +14,7 @@
  "status": "Active",
  "year_founded": 2020,
  "team_size": 3,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": null,
  "founders": [
@@ -29,5 +29,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:38+00:00"
+ "fetched_at": "2026-07-06T07:33:38+00:00"
 }

@@ -13,7 +13,7 @@
  "status": "Active",
  "year_founded": 2020,
  "team_size": 7,
- "location": "Pleasanton, CA",
+ "location": "San Francisco",
  "country": "US",
  "partner": "Gustaf Alstromer",
  "founders": [
@@ -24,5 +24,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:55+00:00"
+ "fetched_at": "2026-07-06T07:33:48+00:00"
 }

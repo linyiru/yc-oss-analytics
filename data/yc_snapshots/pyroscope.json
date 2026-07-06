@@ -13,7 +13,7 @@
  "status": "Acquired",
  "year_founded": 2021,
  "team_size": 5,
- "location": "Oakland, CA",
+ "location": "San Francisco",
  "country": "US",
  "partner": null,
  "founders": [
@@ -28,5 +28,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:45+00:00"
+ "fetched_at": "2026-07-06T07:33:42+00:00"
 }

@@ -11,7 +11,7 @@
  "status": "Acquired",
  "year_founded": 2018,
  "team_size": 5,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": null,
  "founders": [
@@ -22,5 +22,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:42+00:00"
+ "fetched_at": "2026-07-06T07:33:40+00:00"
 }

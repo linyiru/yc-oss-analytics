@@ -13,7 +13,7 @@
  "status": "Active",
  "year_founded": 2016,
  "team_size": 120,
- "location": "Palo Alto",
+ "location": "San Francisco",
  "country": "US",
  "partner": null,
  "founders": [
@@ -24,5 +24,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:36+00:00"
+ "fetched_at": "2026-07-06T07:33:37+00:00"
 }

@@ -13,7 +13,7 @@
  "status": "Active",
  "year_founded": 2020,
  "team_size": 40,
- "location": "Palo Alto",
+ "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
  "founders": [
@@ -28,5 +28,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:25+00:00"
+ "fetched_at": "2026-07-06T07:33:32+00:00"
 }

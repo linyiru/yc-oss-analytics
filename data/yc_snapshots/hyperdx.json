@@ -14,7 +14,7 @@
  "status": "Acquired",
  "year_founded": 2022,
  "team_size": 4,
- "location": "San Mateo, CA",
+ "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
  "founders": [
@@ -29,5 +29,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:28+00:00"
+ "fetched_at": "2026-07-06T07:33:33+00:00"
 }

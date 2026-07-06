@@ -13,7 +13,7 @@
  "status": "Active",
  "year_founded": 2021,
  "team_size": 5,
- "location": "New York",
+ "location": "New York City, NY",
  "country": "US",
  "partner": null,
  "founders": [
@@ -39,5 +39,5 @@
  "page_repos": [
   "beam-cloud/beta9"
  ],
- "fetched_at": "2026-06-07T15:58:13+00:00"
+ "fetched_at": "2026-07-06T07:33:26+00:00"
 }

@@ -12,8 +12,8 @@
  "status": "Active",
  "year_founded": null,
  "team_size": 6,
- "location": "London, United Kingdom",
- "country": "GB",
+ "location": "Zagreb, Croatia",
+ "country": "HR",
  "partner": "Aaron Epstein",
  "founders": [
   {
@@ -27,5 +27,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:57+00:00"
+ "fetched_at": "2026-07-06T07:33:49+00:00"
 }
