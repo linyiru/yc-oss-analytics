@@ -27,7 +27,7 @@
    "title": "Better Auth - The Authentication Framework for TypeScript",
    "tagline": "The fastest growing Auth framework for TypeScript: 13K stars + 100K weekly downloads!",
    "date": "2025-05-13",
-   "votes": 2192,
+   "votes": 2194,
    "url": "https://www.ycombinator.com/launches/NUm-better-auth-the-authentication-framework-for-typescript"
   }
  ],
@@ -38,5 +38,5 @@
   "better-auth/better-auth",
   "onejs/one"
  ],
- "fetched_at": "2026-07-01T07:31:03+00:00"
+ "fetched_at": "2026-07-07T07:12:05+00:00"
 }
