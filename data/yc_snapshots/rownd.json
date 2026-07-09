@@ -5,9 +5,9 @@
  "website": "https://rownd.ai",
  "github_url": "https://github.com/llama-farm",
  "tags": [
+  "Artificial Intelligence",
   "Drones",
   "Open Source",
-  "AI",
   "ML"
  ],
  "status": "Active",
@@ -34,5 +34,5 @@
  "page_repos": [
   "in/mhamann"
  ],
- "fetched_at": "2026-06-11T07:42:33+00:00"
+ "fetched_at": "2026-07-09T07:17:28+00:00"
 }

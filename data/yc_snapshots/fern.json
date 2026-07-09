@@ -19,10 +19,6 @@
  "partner": "Brad Flora",
  "founders": [
   {
-   "name": "Danny Sheridan",
-   "title": "Founder"
-  },
-  {
    "name": "Deep Singhvi",
    "title": "Founder"
   }
@@ -48,5 +44,5 @@
  "page_repos": [
   "fern-api/fern"
  ],
- "fetched_at": "2026-07-06T07:33:31+00:00"
+ "fetched_at": "2026-07-09T07:17:10+00:00"
 }
