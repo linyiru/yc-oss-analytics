@@ -1,6 +1,6 @@
 {
- "slug": "sst",
- "name": "SST",
+ "slug": "opencode",
+ "name": "OpenCode",
  "batch": "W21",
  "website": "https://sst.dev",
  "github_url": "https://github.com/sst",
@@ -37,5 +37,5 @@
  "page_repos": [
   "serverless-stack/open-next"
  ],
- "fetched_at": "2026-06-07T15:58:49+00:00"
+ "fetched_at": "2026-07-11T06:46:49+00:00"
 }

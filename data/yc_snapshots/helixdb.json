@@ -33,7 +33,7 @@
    "title": "HelixDB - The database for RAG & AI",
    "tagline": "HelixDB is a graph-vector database that brings structure to your un-structured data for RAG and AI applications. ",
    "date": "2025-05-24",
-   "votes": 153,
+   "votes": 154,
    "url": "https://www.ycombinator.com/launches/Naz-helixdb-the-database-for-rag-ai"
   }
  ],
@@ -41,5 +41,5 @@
   "HelixDB/helix-db",
   "helixdb/helix-db"
  ],
- "fetched_at": "2026-06-07T15:58:26+00:00"
+ "fetched_at": "2026-07-11T06:46:34+00:00"
 }
