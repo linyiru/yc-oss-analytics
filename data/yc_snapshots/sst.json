@@ -2,15 +2,15 @@
  "slug": "opencode",
  "name": "OpenCode",
  "batch": "W21",
- "website": "https://sst.dev",
- "github_url": "https://github.com/sst",
+ "website": "https://opencode.ai",
+ "github_url": "https://github.com/anomalyco",
  "tags": [
   "Developer Tools",
   "Open Source"
  ],
  "status": "Active",
  "year_founded": 2010,
- "team_size": 8,
+ "team_size": 24,
  "location": "Toronto, Canada",
  "country": "CA",
  "partner": "Harj Taggar",
@@ -37,5 +37,5 @@
  "page_repos": [
   "serverless-stack/open-next"
  ],
- "fetched_at": "2026-07-11T06:46:49+00:00"
+ "fetched_at": "2026-07-12T06:54:27+00:00"
 }

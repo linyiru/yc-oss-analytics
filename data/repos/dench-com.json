@@ -34,9 +34,9 @@
   "created": "2026-02-01",
   "primary_lang": "TypeScript",
   "license_detail": {
-   "spdx": null,
-   "detected": "Custom / Proprietary",
-   "model": "Custom",
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
    "source_available": false,
    "ee": false
   }
