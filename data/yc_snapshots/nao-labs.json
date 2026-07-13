@@ -12,8 +12,8 @@
  "status": "Active",
  "year_founded": 2024,
  "team_size": 2,
- "location": "San Francisco",
- "country": "US",
+ "location": "Paris, France",
+ "country": "FR",
  "partner": "Nicolas Dessaigne",
  "founders": [
   {
@@ -38,5 +38,5 @@
  "page_repos": [
   "getnao/nao"
  ],
- "fetched_at": "2026-06-07T15:58:39+00:00"
+ "fetched_at": "2026-07-13T07:07:52+00:00"
 }

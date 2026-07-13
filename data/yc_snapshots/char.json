@@ -14,8 +14,8 @@
  "status": "Active",
  "year_founded": 2023,
  "team_size": 4,
- "location": "San Francisco",
- "country": "US",
+ "location": "Seoul, South Korea",
+ "country": "KR",
  "partner": "Brad Flora",
  "founders": [
   {
@@ -44,5 +44,5 @@
  "page_repos": [
   "fastrepl/hyprnote"
  ],
- "fetched_at": "2026-06-07T15:58:15+00:00"
+ "fetched_at": "2026-07-13T07:07:33+00:00"
 }

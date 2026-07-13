@@ -13,8 +13,8 @@
  "status": "Active",
  "year_founded": 2020,
  "team_size": 35,
- "location": "San Francisco",
- "country": "US",
+ "location": "Campinas, Brazil",
+ "country": "BR",
  "partner": "Nicolas Dessaigne",
  "founders": [
   {
@@ -28,5 +28,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:13+00:00"
+ "fetched_at": "2026-07-13T07:07:31+00:00"
 }

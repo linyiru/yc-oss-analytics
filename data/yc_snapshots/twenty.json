@@ -14,8 +14,8 @@
  "status": "Active",
  "year_founded": 2023,
  "team_size": 11,
- "location": "San Francisco",
- "country": "US",
+ "location": "Paris, France",
+ "country": "FR",
  "partner": "Pete Koomen",
  "founders": [
   {
@@ -35,5 +35,5 @@
  "page_repos": [
   "twentyhq/twenty"
  ],
- "fetched_at": "2026-06-07T15:58:55+00:00"
+ "fetched_at": "2026-07-13T07:08:06+00:00"
 }
