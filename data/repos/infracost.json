@@ -3,7 +3,7 @@
  "github": "infracost/infracost-azure-devops",
  "yc": {
   "batch": "W21",
-  "team_size": 20,
+  "team_size": 25,
   "status": "Active",
   "one_liner": "Shift FinOps Left: Proactively Find & Fix Cloud Cost Issues",
   "website": "https://infracost.io",

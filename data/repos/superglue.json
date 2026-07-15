@@ -3,7 +3,7 @@
  "github": "superglue-ai/superglue",
  "yc": {
   "batch": "W25",
-  "team_size": 4,
+  "team_size": 6,
   "status": "Active",
   "one_liner": "AI that fixes enterprise glue",
   "website": "https://superglue.ai/",
