@@ -3890,6 +3890,14 @@
  },
  "yc_launches": [
   {
+   "slug": "RXn-rustwright-rewrite-of-playwright-in-rust-that-uses-70-less-memory-and-is-2-55x-faster",
+   "title": "Rustwright: Rewrite of Playwright in rust that uses 70% less memory (and is 2.55x faster)",
+   "tagline": "Remove the subprocess and save so much memory",
+   "date": "2026-07-15",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/RXn-rustwright-rewrite-of-playwright-in-rust-that-uses-70-less-memory-and-is-2-55x-faster"
+  },
+  {
    "slug": "Odo-skyvern-asking-ai-to-build-scrapers-should-be-easy-right",
    "title": "Skyvern: Asking AI to build scrapers should be easy right?",
    "tagline": "Let AI maintain those pesky scrapers",
