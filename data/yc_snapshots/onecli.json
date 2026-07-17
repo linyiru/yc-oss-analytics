@@ -1,0 +1,35 @@
+{
+ "slug": "onecli",
+ "name": "OneCLI",
+ "batch": "S26",
+ "website": "https://onecli.sh",
+ "github_url": "https://github.com/onecli/onecli",
+ "tags": [
+  "B2B",
+  "Security",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": null,
+ "team_size": 0,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Brad Flora",
+ "founders": [
+  {
+   "name": "Guy Ben Aharon",
+   "title": "Founder"
+  },
+  {
+   "name": "Jonathan Fishner",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "onecli/onecli"
+ ],
+ "fetched_at": "2026-07-17T06:48:39+00:00"
+}

@@ -1,0 +1,375 @@
+{
+ "slug": "onecli",
+ "github": "onecli/onecli",
+ "yc": {
+  "batch": "S26",
+  "team_size": 0,
+  "status": "Active",
+  "one_liner": "The Identity Gateway for AI Agents",
+  "website": "https://onecli.sh",
+  "industry": "B2B",
+  "name": "OneCLI",
+  "location": "San Francisco",
+  "partner": "Brad Flora",
+  "founders": [
+   {
+    "name": "Guy Ben Aharon",
+    "title": "Founder"
+   },
+   {
+    "name": "Jonathan Fishner",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 2515,
+  "forks": 143,
+  "watchers": 10,
+  "open_issues": 86,
+  "commits": 301,
+  "contributors": 20,
+  "license": "Apache-2.0",
+  "created": "2026-03-08",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-03-08",
+  "last": "2026-07-12",
+  "span_months": 4.1
+ },
+ "intensity": {
+  "commits_per_week": 16.9,
+  "per_day": 2.41,
+  "weekend_pct": 23.3,
+  "punchcard": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    4,
+    3,
+    5,
+    6,
+    6,
+    5,
+    6,
+    1,
+    4,
+    3,
+    5,
+    0,
+    2
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    4,
+    6,
+    3,
+    7,
+    3,
+    9,
+    4,
+    6,
+    3,
+    3,
+    1,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    4,
+    1,
+    2,
+    2,
+    1,
+    5,
+    3,
+    2,
+    2,
+    7,
+    0,
+    1,
+    2
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    5,
+    1,
+    3,
+    3,
+    8,
+    3,
+    2,
+    8,
+    7,
+    3,
+    1,
+    0,
+    4,
+    4,
+    2
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    4,
+    1,
+    1,
+    3,
+    4,
+    5,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    3,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    3,
+    4,
+    1,
+    7,
+    7,
+    4,
+    3,
+    3,
+    7,
+    3,
+    5,
+    4,
+    1
+   ]
+  ],
+  "dow": [
+   55,
+   56,
+   34,
+   58,
+   28,
+   12,
+   58
+  ],
+  "ai_coauthor_total": 8
+ },
+ "workflow": {
+  "conventional_pct": 96,
+  "conv": [
+   {
+    "k": "chore",
+    "v": 110
+   },
+   {
+    "k": "fix",
+    "v": 94
+   },
+   {
+    "k": "feat",
+    "v": 73
+   },
+   {
+    "k": "refactor",
+    "v": 12
+   },
+   {
+    "k": "docs",
+    "v": 1
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 57
+ },
+ "activity": {
+  "last_commit_days": 4,
+  "commits_30d": 20,
+  "commits_90d": 136,
+  "commits_365d": 301,
+  "active_contributors_90d": 12,
+  "years_since_first_commit": 0.4,
+  "liveness": 93,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.6,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-03",
+   "c": 124
+  },
+  {
+   "m": "2026-04",
+   "c": 65
+  },
+  {
+   "m": "2026-05",
+   "c": 72
+  },
+  {
+   "m": "2026-06",
+   "c": 32
+  },
+  {
+   "m": "2026-07",
+   "c": 8
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Guy Ben-Aharon",
+   "count": 250,
+   "pct": 83.1
+  },
+  {
+   "name": "Jonathan Fishner",
+   "count": 27,
+   "pct": 9.0
+  },
+  {
+   "name": "Emmanuel Venisse",
+   "count": 4,
+   "pct": 1.3
+  },
+  {
+   "name": "Charlie Savage",
+   "count": 2,
+   "pct": 0.7
+  },
+  {
+   "name": "Michael Bravo",
+   "count": 2,
+   "pct": 0.7
+  },
+  {
+   "name": "Christian Oudard",
+   "count": 2,
+   "pct": 0.7
+  },
+  {
+   "name": "CloudLearn Development",
+   "count": 1,
+   "pct": 0.3
+  },
+  {
+   "name": "jarvisanwyl",
+   "count": 1,
+   "pct": 0.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 1485368,
+   "Rust": 775678,
+   "JavaScript": 11423,
+   "Shell": 8674,
+   "Dockerfile": 5472,
+   "CSS": 5265
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "pnpm",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

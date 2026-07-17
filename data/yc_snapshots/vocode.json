@@ -10,7 +10,7 @@
   "Open Source",
   "Conversational AI"
  ],
- "status": "Active",
+ "status": "Acquired",
  "year_founded": 2023,
  "team_size": 3,
  "location": "San Francisco",
@@ -39,5 +39,5 @@
  "page_repos": [
   "vocodedev/vocode-python"
  ],
- "fetched_at": "2026-06-07T15:58:56+00:00"
+ "fetched_at": "2026-07-17T06:48:53+00:00"
 }
