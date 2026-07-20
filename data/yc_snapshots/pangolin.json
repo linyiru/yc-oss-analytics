@@ -12,7 +12,7 @@
  "status": "Active",
  "year_founded": 2025,
  "team_size": 3,
- "location": "San Francisco",
+ "location": "New York City, NY",
  "country": "US",
  "partner": "Andrew Miklas",
  "founders": [
@@ -38,5 +38,5 @@
  "page_repos": [
   "fosrl/pangolin"
  ],
- "fetched_at": "2026-06-07T15:58:43+00:00"
+ "fetched_at": "2026-07-20T07:05:43+00:00"
 }
