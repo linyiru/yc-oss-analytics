@@ -1,0 +1,56 @@
+{
+ "slug": "unify",
+ "name": "Unify",
+ "batch": "W23",
+ "website": "https://unify.ai",
+ "github_url": "https://github.com/unifyai",
+ "tags": [
+  "Artificial Intelligence",
+  "Productivity",
+  "Open Source",
+  "AI",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 6,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Daniel Lenton",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "PpG-unify-self-learning-virtual-colleauges",
+   "title": "Unify: Self-Learning Virtual Colleauges",
+   "tagline": "Your new hire learns on the job to master every workflow 🔁",
+   "date": "2026-03-31",
+   "votes": 9,
+   "url": "https://www.ycombinator.com/launches/PpG-unify-self-learning-virtual-colleauges"
+  },
+  {
+   "slug": "N5M-unify-notion-for-ai-observability",
+   "title": "Unify: Notion for AI Observability 📊",
+   "tagline": "Too Many Tools, Too Complex, Build Your Own Workflow in Seconds ⚡",
+   "date": "2025-03-18",
+   "votes": 15,
+   "url": "https://www.ycombinator.com/launches/N5M-unify-notion-for-ai-observability"
+  },
+  {
+   "slug": "L4t-unify-the-best-llm-on-every-prompt",
+   "title": "Unify - The best LLM on every prompt ✨",
+   "tagline": "Dynamically route each prompt to the best LLM, so you can balance quality, speed and cost with ease",
+   "date": "2024-05-22",
+   "votes": 47,
+   "url": "https://www.ycombinator.com/launches/L4t-unify-the-best-llm-on-every-prompt"
+  }
+ ],
+ "page_repos": [
+  "unifyai/unify"
+ ],
+ "fetched_at": "2026-07-21T06:52:50+00:00"
+}

@@ -7,3 +7,4 @@
 {"date": "2026-07-06", "appeared": [], "disappeared": ["morphik"], "restored": [], "total_tracked": 166, "present": 162}
 {"date": "2026-07-11", "appeared": [], "disappeared": ["sst"], "restored": [], "total_tracked": 166, "present": 161}
 {"date": "2026-07-17", "appeared": ["onecli"], "disappeared": [], "restored": [], "total_tracked": 167, "present": 162}
+{"date": "2026-07-21", "appeared": ["opencode", "robocurve", "unify"], "disappeared": [], "restored": [], "total_tracked": 170, "present": 165}

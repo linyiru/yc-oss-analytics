@@ -1,8 +1,12 @@
 {
- "date": "2026-07-20",
- "appeared": [],
+ "date": "2026-07-21",
+ "appeared": [
+  "opencode",
+  "robocurve",
+  "unify"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 167,
- "present": 162
+ "total_tracked": 170,
+ "present": 165
 }

@@ -1,0 +1,33 @@
+{
+ "slug": "robocurve",
+ "name": "Robocurve",
+ "batch": "S26",
+ "website": "https://robocurve.org",
+ "github_url": "https://github.com/robocurve",
+ "tags": [
+  "Hard Tech",
+  "Hardware",
+  "Robotics",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Ankit Gupta",
+ "founders": [
+  {
+   "name": "Jay Chooi",
+   "title": "Founder"
+  },
+  {
+   "name": "Aris Zhu",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-07-21T06:52:44+00:00"
+}
