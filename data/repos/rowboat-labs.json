@@ -2091,6 +2091,14 @@
  },
  "yc_launches": [
   {
+   "slug": "Rma-rowboat-your-ai-coworker-with-memory",
+   "title": "Rowboat – Your AI coworker, with memory",
+   "tagline": "Open-source, local-first alternative to Claude Desktop: an AI coworker with a memory of your work as plain Markdown, and work surfaces you can build yourself.",
+   "date": "2026-07-21",
+   "votes": 9,
+   "url": "https://www.ycombinator.com/launches/Rma-rowboat-your-ai-coworker-with-memory"
+  },
+  {
    "slug": "LbS-rowboat-labs-llm-agents-for-human-like-customer-support",
    "title": "RowBoat Labs - LLM agents for human-like customer support",
    "tagline": "Faster resolutions and improved customer satisfaction with AI.",

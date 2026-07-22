@@ -5,11 +5,11 @@
  "website": "https://onecli.sh",
  "github_url": "https://github.com/onecli/onecli",
  "tags": [
+  "Artificial Intelligence",
   "B2B",
   "Security",
   "Open Source",
-  "Infrastructure",
-  "AI"
+  "Infrastructure"
  ],
  "status": "Active",
  "year_founded": null,
@@ -31,5 +31,5 @@
  "page_repos": [
   "onecli/onecli"
  ],
- "fetched_at": "2026-07-17T06:48:39+00:00"
+ "fetched_at": "2026-07-22T06:53:12+00:00"
 }

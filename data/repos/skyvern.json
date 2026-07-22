@@ -3894,7 +3894,7 @@
    "title": "Rustwright: Rewrite of Playwright in rust that uses 70% less memory (and is 2.55x faster)",
    "tagline": "Remove the subprocess and save so much memory",
    "date": "2026-07-15",
-   "votes": 5,
+   "votes": 7,
    "url": "https://www.ycombinator.com/launches/RXn-rustwright-rewrite-of-playwright-in-rust-that-uses-70-less-memory-and-is-2-55x-faster"
   },
   {
