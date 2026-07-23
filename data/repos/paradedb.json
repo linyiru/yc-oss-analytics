@@ -3,7 +3,7 @@
  "github": "paradedb/paradedb",
  "yc": {
   "batch": "S23",
-  "team_size": 10,
+  "team_size": 11,
   "status": "Active",
   "one_liner": "Simple, Elastic-quality search for Postgres",
   "website": "https://paradedb.com",
