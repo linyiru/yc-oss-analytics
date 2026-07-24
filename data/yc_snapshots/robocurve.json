@@ -27,7 +27,16 @@
    "title": "Founder"
   }
  ],
- "launches": [],
+ "launches": [
+  {
+   "slug": "RpY-robocurve-real-world-evaluations-of-ai-and-robots",
+   "title": "Robocurve: Real-World Evaluations of AI and Robots",
+   "tagline": "We measure how good AI and robots are in the physical world.",
+   "date": "2026-07-23",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/RpY-robocurve-real-world-evaluations-of-ai-and-robots"
+  }
+ ],
  "page_repos": [],
- "fetched_at": "2026-07-21T06:52:44+00:00"
+ "fetched_at": "2026-07-24T06:52:14+00:00"
 }
