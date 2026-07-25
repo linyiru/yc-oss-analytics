@@ -378,7 +378,7 @@
    "title": "OneCLI - Your AI agents shouldn't be holding raw secrets",
    "tagline": "Agents hold placeholder tokens, real secrets get injected at the network layer",
    "date": "2026-07-23",
-   "votes": 8,
+   "votes": 10,
    "url": "https://www.ycombinator.com/launches/RoJ-onecli-your-ai-agents-shouldn-t-be-holding-raw-secrets"
   }
  ]
