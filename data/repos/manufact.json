@@ -2176,6 +2176,14 @@
  },
  "yc_launches": [
   {
+   "slug": "RxG-manufact-mcp-cloud-for-your-claude-connector-chatgpt-plugin",
+   "title": "Manufact: MCP Cloud for your Claude Connector & ChatGPT Plugin",
+   "tagline": "Get your product on Claude and ChatGPT and usable by AI Agents ",
+   "date": "2026-07-28",
+   "votes": 39,
+   "url": "https://www.ycombinator.com/launches/RxG-manufact-mcp-cloud-for-your-claude-connector-chatgpt-plugin"
+  },
+  {
    "slug": "O2c-manufact-mcp-use-build-and-deploy-mcp-servers-for-ai-agents-mcp-apps-for-chatgpt-claude-users",
    "title": "Manufact (mcp-use) - Build and deploy MCP Servers for AI Agents & MCP Apps for ChatGPT / Claude users",
    "tagline": "Create MCP servers/apps in minutes, connect your GitHub repo, and make them immediately available to AI agents and ChatGPT / Claude.",

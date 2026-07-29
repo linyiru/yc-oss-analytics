@@ -3,8 +3,14 @@
  "name": "Superlog",
  "batch": "P26",
  "website": "https://superlog.sh/",
- "github_url": null,
- "tags": [],
+ "github_url": "",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Kubernetes",
+  "Enterprise Software"
+ ],
  "status": "Active",
  "year_founded": 2026,
  "team_size": 2,
@@ -32,5 +38,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-22T08:02:28+00:00"
+ "fetched_at": "2026-07-29T06:55:28+00:00"
 }
