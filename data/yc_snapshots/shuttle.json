@@ -19,11 +19,19 @@
  "partner": "Brad Flora",
  "founders": [
   {
+   "name": "Christos Hadjiaslanis",
+   "title": "Founder"
+  },
+  {
    "name": "Nodar Daneliya",
    "title": "Founder"
+  },
+  {
+   "name": "Damien Broka",
+   "title": "Founder, CTO"
   }
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-07-29T06:55:26+00:00"
+ "fetched_at": "2026-07-30T06:54:25+00:00"
 }

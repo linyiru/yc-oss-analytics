@@ -13,8 +13,16 @@
   "partner": "Brad Flora",
   "founders": [
    {
+    "name": "Christos Hadjiaslanis",
+    "title": "Founder"
+   },
+   {
     "name": "Nodar Daneliya",
     "title": "Founder"
+   },
+   {
+    "name": "Damien Broka",
+    "title": "Founder, CTO"
    }
   ],
   "name": "Shuttle"
