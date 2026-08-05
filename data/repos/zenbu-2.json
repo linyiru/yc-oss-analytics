@@ -1,0 +1,322 @@
+{
+ "slug": "zenbu-2",
+ "github": "zenbu-labs/zenbu-release",
+ "yc": {
+  "batch": "X26",
+  "team_size": 1,
+  "status": "Active",
+  "one_liner": "The extensible IDE for coding agents",
+  "website": "https://www.zenbu.dev/",
+  "industry": "B2B",
+  "name": "Zenbu",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Pete Koomen",
+  "founders": [
+   {
+    "name": "Rob Pruzan",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 16,
+  "forks": 5,
+  "watchers": 0,
+  "open_issues": 3,
+  "commits": 41,
+  "contributors": 2,
+  "license": null,
+  "created": "2026-05-22",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": null,
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-05-22",
+  "last": "2026-06-04",
+  "span_months": 0.4
+ },
+ "intensity": {
+  "commits_per_week": 22.1,
+  "per_day": 3.15,
+  "weekend_pct": 4.9,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5,
+    0,
+    0,
+    0,
+    1,
+    5,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    2,
+    5,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   0,
+   9,
+   14,
+   14,
+   2,
+   2,
+   0
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 95,
+  "conv": [
+   {
+    "k": "chore",
+    "v": 39
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 26
+ },
+ "activity": {
+  "last_commit_days": 61,
+  "commits_30d": 0,
+  "commits_90d": 41,
+  "commits_365d": 41,
+  "active_contributors_90d": 2,
+  "years_since_first_commit": 0.2,
+  "liveness": 75,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.7,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-05",
+   "c": 18
+  },
+  {
+   "m": "2026-06",
+   "c": 23
+  }
+ ],
+ "contributors": [
+  {
+   "name": "RobPruzan",
+   "count": 39,
+   "pct": 95.1
+  },
+  {
+   "name": "Rob Pruzan",
+   "count": 2,
+   "pct": 4.9
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 2829842,
+   "CSS": 26528,
+   "HTML": 21473,
+   "JavaScript": 12406
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [
+   "@zenbujs/core"
+  ],
+  "infra": [
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "Qey-zenbu-the-extensible-ide-for-managing-coding-agents",
+   "title": "Zenbu - The extensible IDE for managing coding agents",
+   "tagline": "An IDE for coding agents, shaped by the way you work",
+   "date": "2026-06-03",
+   "votes": 5,
+   "url": "https://www.ycombinator.com/launches/Qey-zenbu-the-extensible-ide-for-managing-coding-agents"
+  }
+ ]
+}

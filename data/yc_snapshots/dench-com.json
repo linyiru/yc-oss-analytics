@@ -5,10 +5,10 @@
  "website": "https://dench.com",
  "github_url": "https://github.com/orgs/DenchHQ",
  "tags": [
-  "Artificial Intelligence",
   "Workflow Automation",
   "Open Source",
   "CRM",
+  "AI",
   "AI Assistant"
  ],
  "status": "Active",
@@ -48,5 +48,5 @@
  "page_repos": [
   "orgs/DenchHQ"
  ],
- "fetched_at": "2026-07-08T06:50:53+00:00"
+ "fetched_at": "2026-08-05T06:54:49+00:00"
 }

@@ -1,0 +1,43 @@
+{
+ "slug": "vendo",
+ "name": "Vendo",
+ "batch": "S26",
+ "website": "https://vendo.run/",
+ "github_url": "https://github.com/runvendo/vendo",
+ "tags": [
+  "Artificial Intelligence",
+  "B2B",
+  "Customer Success",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Ankit Gupta",
+ "founders": [
+  {
+   "name": "Nour Zahzah",
+   "title": "Co-Founder & CEO"
+  },
+  {
+   "name": "Yousef Helal",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product",
+   "title": "Vendo: Let Your Users Build Their Own Features on Top of Your Product",
+   "tagline": "Vendo is the customization layer that lets your users build their own features and micro-apps on top of your product, within your brand and guardrails.",
+   "date": "2026-07-21",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product"
+  }
+ ],
+ "page_repos": [
+  "runvendo/vendo"
+ ],
+ "fetched_at": "2026-08-05T06:55:11+00:00"
+}

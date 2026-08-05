@@ -1,0 +1,48 @@
+{
+ "slug": "s2-dev",
+ "name": "s2.dev",
+ "batch": "F25",
+ "website": "https://s2.dev",
+ "github_url": "https://github.com/s2-streamstore",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "API",
+  "Infrastructure",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Shikhar Bhushan",
+   "title": "Co-founder and CEO"
+  },
+  {
+   "name": "Stephen Balogh",
+   "title": "Co-founder and CTO"
+  },
+  {
+   "name": "Dwarak Govind Parthiban",
+   "title": "Co-founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OnP-s2-dev-streams-as-a-cloud-storage-primitive",
+   "title": "s2.dev: Streams as a cloud storage primitive",
+   "tagline": "The serverless API for unlimited, durable, real-time streams",
+   "date": "2025-11-08",
+   "votes": 63,
+   "url": "https://www.ycombinator.com/launches/OnP-s2-dev-streams-as-a-cloud-storage-primitive"
+  }
+ ],
+ "page_repos": [
+  "s2-streamstore/s2"
+ ],
+ "fetched_at": "2026-08-05T06:55:05+00:00"
+}

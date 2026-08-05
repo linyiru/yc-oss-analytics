@@ -1,0 +1,36 @@
+{
+ "slug": "zenbu-2",
+ "name": "Zenbu",
+ "batch": "P26",
+ "website": "https://www.zenbu.dev/",
+ "github_url": "https://github.com/zenbu-labs",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Pete Koomen",
+ "founders": [
+  {
+   "name": "Rob Pruzan",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Qey-zenbu-the-extensible-ide-for-managing-coding-agents",
+   "title": "Zenbu - The extensible IDE for managing coding agents",
+   "tagline": "An IDE for coding agents, shaped by the way you work",
+   "date": "2026-06-03",
+   "votes": 5,
+   "url": "https://www.ycombinator.com/launches/Qey-zenbu-the-extensible-ide-for-managing-coding-agents"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-08-05T06:55:12+00:00"
+}

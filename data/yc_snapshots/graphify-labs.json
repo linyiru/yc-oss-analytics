@@ -1,0 +1,27 @@
+{
+ "slug": "graphify-labs",
+ "name": "Graphify Labs",
+ "batch": "S26",
+ "website": "https://www.graphify.com/",
+ "github_url": "https://github.com/Graphify-Labs",
+ "tags": [
+  "Developer Tools",
+  "Reinforcement Learning",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Safi Shamsi",
+   "title": "CEO/Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-08-05T06:54:52+00:00"
+}

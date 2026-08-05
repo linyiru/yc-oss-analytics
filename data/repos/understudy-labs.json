@@ -1,0 +1,397 @@
+{
+ "slug": "understudy-labs",
+ "github": "understudylabs/understudy-agent-tools",
+ "yc": {
+  "batch": "S26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Effortlessly move to open weight models",
+  "website": "https://understudylabs.com/",
+  "industry": "B2B",
+  "name": "Understudy Labs",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Tyler Bosmeny",
+  "founders": [
+   {
+    "name": "Luis Manrique",
+    "title": "Founder"
+   },
+   {
+    "name": "Aamir Poonawalla",
+    "title": "CTO & Co-Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 10,
+  "forks": 5,
+  "watchers": 0,
+  "open_issues": 11,
+  "commits": 789,
+  "contributors": 9,
+  "license": "MIT",
+  "created": "2026-06-03",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-06-03",
+  "last": "2026-08-04",
+  "span_months": 2.0
+ },
+ "intensity": {
+  "commits_per_week": 89.1,
+  "per_day": 12.73,
+  "weekend_pct": 13.7,
+  "punchcard": [
+   [
+    1,
+    3,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    7,
+    13,
+    11,
+    13,
+    8,
+    6,
+    0,
+    4,
+    19,
+    36,
+    18,
+    14,
+    10,
+    13,
+    30,
+    20
+   ],
+   [
+    12,
+    12,
+    7,
+    12,
+    13,
+    14,
+    11,
+    17,
+    7,
+    3,
+    7,
+    5,
+    5,
+    9,
+    1,
+    7,
+    15,
+    12,
+    17,
+    9,
+    9,
+    11,
+    7,
+    5
+   ],
+   [
+    1,
+    8,
+    4,
+    0,
+    0,
+    3,
+    1,
+    0,
+    4,
+    9,
+    3,
+    5,
+    13,
+    4,
+    9,
+    15,
+    8,
+    11,
+    15,
+    5,
+    2,
+    9,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    5,
+    3,
+    4,
+    1,
+    10,
+    15,
+    3,
+    0,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    1,
+    1,
+    0,
+    2,
+    4,
+    6,
+    4,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    5,
+    1,
+    1,
+    8,
+    10,
+    5,
+    5,
+    3,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    5,
+    18,
+    8,
+    3,
+    2,
+    2,
+    3,
+    5,
+    2,
+    2,
+    3,
+    4,
+    2,
+    1,
+    1,
+    1
+   ]
+  ],
+  "dow": [
+   241,
+   227,
+   130,
+   56,
+   27,
+   45,
+   63
+  ],
+  "ai_coauthor_total": 316
+ },
+ "workflow": {
+  "conventional_pct": 41,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 136
+   },
+   {
+    "k": "fix",
+    "v": 75
+   },
+   {
+    "k": "docs",
+    "v": 18
+   },
+   {
+    "k": "chore",
+    "v": 15
+   },
+   {
+    "k": "release",
+    "v": 14
+   },
+   {
+    "k": "skills",
+    "v": 9
+   },
+   {
+    "k": "test",
+    "v": 6
+   }
+  ],
+  "merge_pct": 16.2,
+  "median_msg_len": 50
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 442,
+  "commits_90d": 789,
+  "commits_365d": 789,
+  "active_contributors_90d": 9,
+  "years_since_first_commit": 0.2,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.7,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-06",
+   "c": 299
+  },
+  {
+   "m": "2026-07",
+   "c": 462
+  },
+  {
+   "m": "2026-08",
+   "c": 28
+  }
+ ],
+ "contributors": [
+  {
+   "name": "luis manrique",
+   "count": 724,
+   "pct": 91.8
+  },
+  {
+   "name": "Luis Manrique",
+   "count": 35,
+   "pct": 4.4
+  },
+  {
+   "name": "Aamir Poonawalla",
+   "count": 12,
+   "pct": 1.5
+  },
+  {
+   "name": "aamir",
+   "count": 9,
+   "pct": 1.1
+  },
+  {
+   "name": "Luis Manrique",
+   "count": 4,
+   "pct": 0.5
+  },
+  {
+   "name": "devin-ai-integration[bot]",
+   "count": 2,
+   "pct": 0.3
+  },
+  {
+   "name": "nk-pavan-official",
+   "count": 1,
+   "pct": 0.1
+  },
+  {
+   "name": "DIPSHA DAS",
+   "count": 1,
+   "pct": 0.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 4408594,
+   "JavaScript": 2263968,
+   "Rust": 1576728,
+   "CSS": 388238,
+   "Python": 135249,
+   "HTML": 112478,
+   "Shell": 68720
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": null,
+  "deps_top": [
+   "@ai-sdk/openai-compatible",
+   "@anthropic-ai/sdk",
+   "@earendil-works/pi-ai",
+   "@earendil-works/pi-coding-agent",
+   "@inquirer/prompts",
+   "@modelcontextprotocol/sdk",
+   "ai",
+   "commander",
+   "kleur",
+   "openai",
+   "zod"
+  ],
+  "infra": [
+   "claude-code"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "SPb-understudy-the-self-optimizing-inference-cloud",
+   "title": "Understudy: The self-optimizing inference cloud",
+   "tagline": "We distill your production usage into cheaper, specialized models your company owns",
+   "date": "2026-08-05",
+   "votes": 3,
+   "url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud"
+  }
+ ]
+}

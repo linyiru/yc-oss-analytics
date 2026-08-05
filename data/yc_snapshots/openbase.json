@@ -1,0 +1,27 @@
+{
+ "slug": "openbase",
+ "name": "Openbase",
+ "batch": "S20",
+ "website": null,
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "DevSecOps",
+  "Open Source"
+ ],
+ "status": "Inactive",
+ "year_founded": 2019,
+ "team_size": 0,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": null,
+ "founders": [
+  {
+   "name": "Lior Grossman",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-08-05T06:55:00+00:00"
+}

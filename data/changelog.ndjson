@@ -8,3 +8,4 @@
 {"date": "2026-07-11", "appeared": [], "disappeared": ["sst"], "restored": [], "total_tracked": 166, "present": 161}
 {"date": "2026-07-17", "appeared": ["onecli"], "disappeared": [], "restored": [], "total_tracked": 167, "present": 162}
 {"date": "2026-07-21", "appeared": ["opencode", "robocurve", "unify"], "disappeared": [], "restored": [], "total_tracked": 170, "present": 165}
+{"date": "2026-08-05", "appeared": ["graphify-labs", "tracer", "s2-dev", "vendo", "zenbu-2", "openbase", "understudy-labs", "riften"], "disappeared": [], "restored": [], "total_tracked": 178, "present": 173}

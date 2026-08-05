@@ -1,0 +1,363 @@
+{
+ "slug": "tracer",
+ "github": "adrida/tracer",
+ "yc": {
+  "batch": "S26",
+  "team_size": 1,
+  "status": "Active",
+  "one_liner": "Combining open-source AI models for better answers at lower cost",
+  "website": "https://tracerml.ai",
+  "industry": "B2B",
+  "name": "Tracer",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Diana Hu"
+ },
+ "metrics": {
+  "stars": 1026,
+  "forks": 70,
+  "watchers": 6,
+  "open_issues": 39,
+  "commits": 49,
+  "contributors": 6,
+  "license": "MIT",
+  "created": "2026-03-29",
+  "primary_lang": "Jupyter Notebook",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-03-29",
+  "last": "2026-07-12",
+  "span_months": 3.5
+ },
+ "intensity": {
+  "commits_per_week": 3.3,
+  "per_day": 0.47,
+  "weekend_pct": 22.4,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    5,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    4,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   14,
+   5,
+   5,
+   1,
+   13,
+   1,
+   10
+  ],
+  "ai_coauthor_total": 21
+ },
+ "workflow": {
+  "conventional_pct": 65,
+  "conv": [
+   {
+    "k": "docs",
+    "v": 13
+   },
+   {
+    "k": "feat",
+    "v": 6
+   },
+   {
+    "k": "fix",
+    "v": 4
+   },
+   {
+    "k": "release",
+    "v": 4
+   },
+   {
+    "k": "chore",
+    "v": 2
+   },
+   {
+    "k": "fit",
+    "v": 1
+   },
+   {
+    "k": "update",
+    "v": 1
+   }
+  ],
+  "merge_pct": 3.9,
+  "median_msg_len": 58
+ },
+ "activity": {
+  "last_commit_days": 23,
+  "commits_30d": 8,
+  "commits_90d": 35,
+  "commits_365d": 49,
+  "active_contributors_90d": 6,
+  "years_since_first_commit": 0.4,
+  "liveness": 80,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.7,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-03",
+   "c": 9
+  },
+  {
+   "m": "2026-04",
+   "c": 5
+  },
+  {
+   "m": "2026-06",
+   "c": 27
+  },
+  {
+   "m": "2026-07",
+   "c": 8
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Adam Rida",
+   "count": 39,
+   "pct": 79.6
+  },
+  {
+   "name": "Ilansky",
+   "count": 5,
+   "pct": 10.2
+  },
+  {
+   "name": "Anwesh Ale",
+   "count": 2,
+   "pct": 4.1
+  },
+  {
+   "name": "Raghav Matta",
+   "count": 1,
+   "pct": 2.0
+  },
+  {
+   "name": "Mohammed Arsalan",
+   "count": 1,
+   "pct": 2.0
+  },
+  {
+   "name": "ggSohamgg",
+   "count": 1,
+   "pct": 2.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Jupyter Notebook": 447056,
+   "Python": 366481,
+   "TypeScript": 50968
+  },
+  "manifests": [
+   "pyproject.toml"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "SBl-tracer-fable-level-ai-at-1-3-the-cost-using-open-weight-models",
+   "title": "Tracer: Fable-level AI at 1/3 the cost using open-weight models",
+   "tagline": "Adaptive AI systems that combine open-weight models for better answers at lower cost.",
+   "date": "2026-07-31",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/SBl-tracer-fable-level-ai-at-1-3-the-cost-using-open-weight-models"
+  }
+ ]
+}

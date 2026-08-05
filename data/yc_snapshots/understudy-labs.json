@@ -1,0 +1,43 @@
+{
+ "slug": "understudy-labs",
+ "name": "Understudy Labs",
+ "batch": "S26",
+ "website": "https://understudylabs.com/",
+ "github_url": "https://github.com/understudylabs/understudy-agent-tools",
+ "tags": [
+  "Artificial Intelligence",
+  "Open Source",
+  "AI",
+  "ML"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Tyler Bosmeny",
+ "founders": [
+  {
+   "name": "Luis Manrique",
+   "title": "Founder"
+  },
+  {
+   "name": "Aamir Poonawalla",
+   "title": "CTO & Co-Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "SPb-understudy-the-self-optimizing-inference-cloud",
+   "title": "Understudy: The self-optimizing inference cloud",
+   "tagline": "We distill your production usage into cheaper, specialized models your company owns",
+   "date": "2026-08-05",
+   "votes": 3,
+   "url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud"
+  }
+ ],
+ "page_repos": [
+  "understudylabs/understudy-agent-tools"
+ ],
+ "fetched_at": "2026-08-05T06:55:10+00:00"
+}
