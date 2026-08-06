@@ -11,7 +11,7 @@
  ],
  "status": "Active",
  "year_founded": 2024,
- "team_size": 25,
+ "team_size": 35,
  "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
@@ -66,5 +66,5 @@
  "page_repos": [
   "mendableai/firecrawl"
  ],
- "fetched_at": "2026-06-07T15:58:23+00:00"
+ "fetched_at": "2026-08-06T08:27:03+00:00"
 }

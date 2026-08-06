@@ -3,7 +3,7 @@
  "github": "firecrawl/firecrawl",
  "yc": {
   "batch": "S22",
-  "team_size": 25,
+  "team_size": 35,
   "status": "Active",
   "one_liner": "The API to search, scrape, and interact with the web at scale. 🔥",
   "website": "https://www.firecrawl.dev",

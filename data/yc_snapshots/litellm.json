@@ -6,15 +6,15 @@
  "github_url": "https://github.com/BerriAI/litellm",
  "tags": [
   "AIOps",
+  "Artificial Intelligence",
   "Developer Tools",
   "Generative AI",
-  "Open Source",
-  "AI"
+  "Open Source"
  ],
  "status": "Active",
  "year_founded": 2023,
  "team_size": 10,
- "location": "Albany, NY",
+ "location": "San Francisco",
  "country": "US",
  "partner": "Aaron Epstein",
  "founders": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "BerriAI/litellm"
  ],
- "fetched_at": "2026-07-20T07:05:35+00:00"
+ "fetched_at": "2026-08-06T08:27:10+00:00"
 }
