@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14",
+ "updated": "2026-08-15",
  "companies": {
   "ollama": {
    "github": "ollama/ollama",
@@ -7,7 +7,7 @@
    "status": "Active",
    "stars": 178485,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -17,7 +17,7 @@
    "status": "Active",
    "stars": 166990,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -27,7 +27,7 @@
    "status": "Active",
    "stars": 107968,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -37,7 +37,7 @@
    "status": "Active",
    "stars": 109124,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -47,7 +47,7 @@
    "status": "Acquired",
    "stars": 95410,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -57,7 +57,7 @@
    "status": "Active",
    "stars": 76839,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -67,7 +67,7 @@
    "status": "Active",
    "stars": 71067,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -77,7 +77,7 @@
    "status": "Active",
    "stars": 64700,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -87,7 +87,7 @@
    "status": "Active",
    "stars": 63211,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -97,7 +97,7 @@
    "status": "Acquired",
    "stars": 55364,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -107,7 +107,7 @@
    "status": "Acquired",
    "stars": 52121,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -117,7 +117,7 @@
    "status": "Active",
    "stars": 56279,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -127,7 +127,7 @@
    "status": "Active",
    "stars": 54889,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -137,7 +137,7 @@
    "status": "Acquired",
    "stars": 44131,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -147,7 +147,7 @@
    "status": "Active",
    "stars": 39560,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -157,7 +157,7 @@
    "status": "Active",
    "stars": 38005,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -167,7 +167,7 @@
    "status": "Active",
    "stars": 38761,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -177,7 +177,7 @@
    "status": "Active",
    "stars": 36306,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -187,7 +187,7 @@
    "status": "Active",
    "stars": 36485,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -197,7 +197,7 @@
    "status": "Active",
    "stars": 37661,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -207,7 +207,7 @@
    "status": "Active",
    "stars": 35514,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -217,7 +217,7 @@
    "status": "Active",
    "stars": 31693,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -227,7 +227,7 @@
    "status": "Active",
    "stars": 31584,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -237,7 +237,7 @@
    "status": "Active",
    "stars": 35805,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -247,7 +247,7 @@
    "status": "Active",
    "stars": 29536,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -257,7 +257,7 @@
    "status": "Acquired",
    "stars": 33067,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -267,7 +267,7 @@
    "status": "Active",
    "stars": 28812,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -277,7 +277,7 @@
    "status": "Active",
    "stars": 28752,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -287,7 +287,7 @@
    "status": "Active",
    "stars": 31835,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -297,7 +297,7 @@
    "status": "Acquired",
    "stars": 26996,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -307,7 +307,7 @@
    "status": "Active",
    "stars": 27778,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -328,7 +328,7 @@
    "status": "Acquired",
    "stars": 25220,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -338,7 +338,7 @@
    "status": "Active",
    "stars": 27181,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -348,7 +348,7 @@
    "status": "Public",
    "stars": 24532,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -358,7 +358,7 @@
    "status": "Active",
    "stars": 22806,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -368,7 +368,7 @@
    "status": "Active",
    "stars": 23768,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -378,7 +378,7 @@
    "status": "Active",
    "stars": 22744,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -388,7 +388,7 @@
    "status": "Active",
    "stars": 21887,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -398,7 +398,7 @@
    "status": "Active",
    "stars": 26025,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -408,7 +408,7 @@
    "status": "Active",
    "stars": 22286,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -418,7 +418,7 @@
    "status": "Active",
    "stars": 20950,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -428,7 +428,7 @@
    "status": "Active",
    "stars": 19811,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -438,7 +438,7 @@
    "status": "Active",
    "stars": 18681,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -448,7 +448,7 @@
    "status": "Active",
    "stars": 21322,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -458,7 +458,7 @@
    "status": "Active",
    "stars": 17099,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -468,7 +468,7 @@
    "status": "Active",
    "stars": 17255,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -478,7 +478,7 @@
    "status": "Active",
    "stars": 17534,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -488,7 +488,7 @@
    "status": "Active",
    "stars": 17578,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -498,7 +498,7 @@
    "status": "Active",
    "stars": 16008,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -508,7 +508,7 @@
    "status": "Active",
    "stars": 15261,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -518,7 +518,7 @@
    "status": "Active",
    "stars": 17221,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -528,7 +528,7 @@
    "status": "Active",
    "stars": 15302,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -538,7 +538,7 @@
    "status": "Active",
    "stars": 14102,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -548,7 +548,7 @@
    "status": "Acquired",
    "stars": 12689,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -558,7 +558,7 @@
    "status": "Acquired",
    "stars": 12510,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -568,7 +568,7 @@
    "status": "Active",
    "stars": 12497,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -578,7 +578,7 @@
    "status": "Acquired",
    "stars": 12203,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -588,7 +588,7 @@
    "status": "Active",
    "stars": 11749,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -598,7 +598,7 @@
    "status": "Acquired",
    "stars": 11625,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -619,7 +619,7 @@
    "status": "Active",
    "stars": 10940,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -629,7 +629,7 @@
    "status": "Active",
    "stars": 11145,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -639,7 +639,7 @@
    "status": "Active",
    "stars": 10486,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -649,7 +649,7 @@
    "status": "Active",
    "stars": 11445,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -659,7 +659,7 @@
    "status": "Active",
    "stars": 10329,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -669,7 +669,7 @@
    "status": "Acquired",
    "stars": 9828,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -679,7 +679,7 @@
    "status": "Acquired",
    "stars": 9456,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -689,7 +689,7 @@
    "status": "Acquired",
    "stars": 9365,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -699,7 +699,7 @@
    "status": "Active",
    "stars": 9226,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -709,7 +709,7 @@
    "status": "Active",
    "stars": 9053,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -719,7 +719,7 @@
    "status": "Active",
    "stars": 9150,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -729,7 +729,7 @@
    "status": "Active",
    "stars": 9013,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -739,7 +739,7 @@
    "status": "Active",
    "stars": 9046,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -749,7 +749,7 @@
    "status": "Active",
    "stars": 8029,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -759,7 +759,7 @@
    "status": "Active",
    "stars": 8121,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -769,7 +769,7 @@
    "status": "Active",
    "stars": 7805,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -779,7 +779,7 @@
    "status": "Active",
    "stars": 7716,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -789,7 +789,7 @@
    "status": "Acquired",
    "stars": 7378,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -799,7 +799,7 @@
    "status": "Inactive",
    "stars": 6929,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -809,7 +809,7 @@
    "status": "Active",
    "stars": 6960,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -819,7 +819,7 @@
    "status": "Acquired",
    "stars": 6748,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -840,7 +840,7 @@
    "status": "Active",
    "stars": 6714,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -850,7 +850,7 @@
    "status": "Active",
    "stars": 6001,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -860,7 +860,7 @@
    "status": "Active",
    "stars": 6033,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -870,7 +870,7 @@
    "status": "Acquired",
    "stars": 6064,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -880,17 +880,17 @@
    "status": "Active",
    "stars": 6027,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
   "cactus": {
    "github": "cactus-compute/cactus",
-   "batch": "S25",
-   "status": "Active",
+   "batch": "?",
+   "status": null,
    "stars": 5738,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -900,7 +900,7 @@
    "status": "Acquired",
    "stars": 4994,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -910,7 +910,7 @@
    "status": "Inactive",
    "stars": 4880,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -920,7 +920,7 @@
    "status": "Acquired",
    "stars": 5026,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -930,7 +930,7 @@
    "status": "Active",
    "stars": 5729,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -940,7 +940,7 @@
    "status": "Active",
    "stars": 4755,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -950,7 +950,7 @@
    "status": "Inactive",
    "stars": 4045,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -960,7 +960,7 @@
    "status": "Acquired",
    "stars": 3783,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -970,7 +970,7 @@
    "status": "Acquired",
    "stars": 3754,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -980,7 +980,7 @@
    "status": "Active",
    "stars": 3767,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1001,7 +1001,7 @@
    "status": "Active",
    "stars": 3532,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1011,7 +1011,7 @@
    "status": "Active",
    "stars": 3872,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1021,7 +1021,7 @@
    "status": "Active",
    "stars": 3349,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1031,7 +1031,7 @@
    "status": "Acquired",
    "stars": 3238,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1041,7 +1041,7 @@
    "status": "Acquired",
    "stars": 3188,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1051,7 +1051,7 @@
    "status": "Acquired",
    "stars": 2823,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1061,7 +1061,7 @@
    "status": "Active",
    "stars": 2852,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1071,7 +1071,7 @@
    "status": "Active",
    "stars": 2897,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1081,7 +1081,7 @@
    "status": "Acquired",
    "stars": 2712,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1091,7 +1091,7 @@
    "status": "Acquired",
    "stars": 2660,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1101,7 +1101,7 @@
    "status": "Active",
    "stars": 2648,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1111,7 +1111,7 @@
    "status": "Acquired",
    "stars": 2617,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1121,7 +1121,7 @@
    "status": "Acquired",
    "stars": 2562,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1131,7 +1131,7 @@
    "status": "Active",
    "stars": 2608,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1141,7 +1141,7 @@
    "status": "Active",
    "stars": 2391,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1151,7 +1151,7 @@
    "status": "Active",
    "stars": 2187,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1161,7 +1161,7 @@
    "status": "Active",
    "stars": 2043,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1171,7 +1171,7 @@
    "status": "Active",
    "stars": 2303,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1181,7 +1181,7 @@
    "status": "Inactive",
    "stars": 1831,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1191,7 +1191,7 @@
    "status": "Active",
    "stars": 1693,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1201,7 +1201,7 @@
    "status": "Active",
    "stars": 1742,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1211,7 +1211,7 @@
    "status": "Active",
    "stars": 1644,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1221,7 +1221,7 @@
    "status": "Acquired",
    "stars": 1535,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1231,7 +1231,7 @@
    "status": "Inactive",
    "stars": 1469,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1241,7 +1241,7 @@
    "status": "Acquired",
    "stars": 1336,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1251,7 +1251,7 @@
    "status": "Active",
    "stars": 1328,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1261,7 +1261,7 @@
    "status": "Active",
    "stars": 1343,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1271,7 +1271,7 @@
    "status": "Active",
    "stars": 1557,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1281,7 +1281,7 @@
    "status": "Inactive",
    "stars": 1138,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1291,7 +1291,7 @@
    "status": "Active",
    "stars": 9749,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1301,7 +1301,7 @@
    "status": "Inactive",
    "stars": 888,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1311,7 +1311,7 @@
    "status": "Active",
    "stars": 835,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1321,7 +1321,7 @@
    "status": "Acquired",
    "stars": 778,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1331,7 +1331,7 @@
    "status": "Active",
    "stars": 795,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1341,7 +1341,7 @@
    "status": "Active",
    "stars": 488,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1351,7 +1351,7 @@
    "status": "Inactive",
    "stars": 399,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1361,7 +1361,7 @@
    "status": "Active",
    "stars": 344,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1371,7 +1371,7 @@
    "status": "Inactive",
    "stars": 327,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1381,7 +1381,7 @@
    "status": "Inactive",
    "stars": 315,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1391,7 +1391,7 @@
    "status": "Active",
    "stars": 282,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1401,7 +1401,7 @@
    "status": "Active",
    "stars": 244,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1411,7 +1411,7 @@
    "status": "Active",
    "stars": 191,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1421,7 +1421,7 @@
    "status": "Active",
    "stars": 142,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1431,7 +1431,7 @@
    "status": "Active",
    "stars": 143,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1441,7 +1441,7 @@
    "status": "Active",
    "stars": 129,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1451,7 +1451,7 @@
    "status": "Active",
    "stars": 115,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1461,7 +1461,7 @@
    "status": "Inactive",
    "stars": 69,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1471,7 +1471,7 @@
    "status": "Acquired",
    "stars": 65,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1481,7 +1481,7 @@
    "status": "Active",
    "stars": 62,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1491,7 +1491,7 @@
    "status": "Inactive",
    "stars": 52,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1501,7 +1501,7 @@
    "status": "Active",
    "stars": 58,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1511,7 +1511,7 @@
    "status": "Active",
    "stars": 27,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1521,7 +1521,7 @@
    "status": "Active",
    "stars": 27,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1531,7 +1531,7 @@
    "status": "Acquired",
    "stars": 10,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1541,7 +1541,7 @@
    "status": "Active",
    "stars": 10,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1551,7 +1551,7 @@
    "status": "Acquired",
    "stars": 3,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1561,7 +1561,7 @@
    "status": "Inactive",
    "stars": 0,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1571,7 +1571,7 @@
    "status": "Active",
    "stars": 0,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1581,7 +1581,7 @@
    "status": "Active",
    "stars": 89,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1591,7 +1591,7 @@
    "status": "Active",
    "stars": 41,
    "source": "override",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1606,7 +1606,7 @@
    "status": "Active",
    "stars": 931,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1614,9 +1614,9 @@
    "github": "clawvisor/clawvisor",
    "batch": "X26",
    "status": "Active",
-   "stars": 267,
+   "stars": 268,
    "source": "override",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1626,7 +1626,7 @@
    "status": "Active",
    "stars": 1540,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1634,9 +1634,9 @@
    "github": "useautumn/autumn",
    "batch": "S25",
    "status": "Active",
-   "stars": 2638,
+   "stars": 2640,
    "source": "override",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1646,7 +1646,7 @@
    "status": "Active",
    "stars": 1249,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-06-09",
    "state": "present"
   },
@@ -1654,9 +1654,9 @@
    "github": "stablyai/orca",
    "batch": "?",
    "status": null,
-   "stars": 45174,
+   "stars": 45781,
    "source": "override",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-07-03",
    "state": "present"
   },
@@ -1666,7 +1666,7 @@
    "status": "Active",
    "stars": 3084,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-07-17",
    "state": "present"
   },
@@ -1676,7 +1676,7 @@
    "status": "Active",
    "stars": 197120,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-07-21",
    "state": "present"
   },
@@ -1686,7 +1686,7 @@
    "status": "Active",
    "stars": 137,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-07-21",
    "state": "present"
   },
@@ -1696,7 +1696,7 @@
    "status": "Active",
    "stars": 103,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-07-21",
    "state": "present"
   },
@@ -1706,7 +1706,7 @@
    "status": "Active",
    "stars": 106044,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1716,7 +1716,7 @@
    "status": "Active",
    "stars": 1032,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1726,7 +1726,7 @@
    "status": "Active",
    "stars": 594,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1736,7 +1736,7 @@
    "status": "Active",
    "stars": 388,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1746,7 +1746,7 @@
    "status": "Active",
    "stars": 16,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1756,7 +1756,7 @@
    "status": "Inactive",
    "stars": 19,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1766,7 +1766,7 @@
    "status": "Active",
    "stars": 14,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   },
@@ -1776,7 +1776,7 @@
    "status": "Active",
    "stars": 0,
    "source": "yc-tag",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-15",
    "first_seen": "2026-08-05",
    "state": "present"
   }

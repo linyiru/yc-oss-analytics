@@ -1,9 +1,9 @@
 {
- "slug": "cactus",
- "name": "Cactus",
+ "slug": "cactus-compute",
+ "name": "Cactus Compute",
  "batch": "S25",
  "website": "https://www.cactuscompute.com/",
- "github_url": "https://github.com/cactus-compute/cactus",
+ "github_url": "https://github.com/cactus-compute",
  "tags": [
   "Artificial Intelligence",
   "Developer Tools",
@@ -40,5 +40,5 @@
  "page_repos": [
   "cactus-compute/cactus"
  ],
- "fetched_at": "2026-06-07T15:58:14+00:00"
+ "fetched_at": "2026-08-15T06:29:09+00:00"
 }
