@@ -1,0 +1,446 @@
+{
+ "slug": "cactus-compute",
+ "github": "cactus-compute/cactus",
+ "yc": {
+  "batch": "S25",
+  "team_size": 8,
+  "status": "Active",
+  "one_liner": "Tiny Edge AI For Tiny Devices",
+  "website": "https://www.cactuscompute.com/",
+  "industry": "B2B",
+  "name": "Cactus Compute",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Roman Shemet",
+    "title": "Founder"
+   },
+   {
+    "name": "Henry Ndubuaku",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 5770,
+  "forks": 474,
+  "watchers": 44,
+  "open_issues": 89,
+  "commits": 933,
+  "contributors": 56,
+  "license": "NOASSERTION",
+  "created": "2025-04-23",
+  "primary_lang": "C++",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-04-23",
+  "last": "2026-08-13",
+  "span_months": 15.7
+ },
+ "intensity": {
+  "commits_per_week": 13.7,
+  "per_day": 1.96,
+  "weekend_pct": 17.1,
+  "punchcard": [
+   [
+    10,
+    3,
+    5,
+    5,
+    2,
+    1,
+    3,
+    0,
+    3,
+    7,
+    6,
+    10,
+    10,
+    11,
+    7,
+    10,
+    16,
+    15,
+    9,
+    6,
+    2,
+    5,
+    6,
+    5
+   ],
+   [
+    4,
+    13,
+    8,
+    3,
+    2,
+    0,
+    3,
+    2,
+    0,
+    12,
+    10,
+    5,
+    6,
+    13,
+    9,
+    14,
+    10,
+    15,
+    11,
+    5,
+    7,
+    8,
+    2,
+    8
+   ],
+   [
+    4,
+    4,
+    3,
+    5,
+    2,
+    8,
+    2,
+    3,
+    1,
+    4,
+    7,
+    13,
+    13,
+    12,
+    4,
+    5,
+    8,
+    10,
+    6,
+    5,
+    6,
+    3,
+    12,
+    7
+   ],
+   [
+    9,
+    13,
+    10,
+    7,
+    1,
+    6,
+    0,
+    5,
+    0,
+    14,
+    7,
+    9,
+    14,
+    6,
+    11,
+    14,
+    9,
+    3,
+    9,
+    1,
+    1,
+    6,
+    5,
+    5
+   ],
+   [
+    9,
+    6,
+    3,
+    0,
+    2,
+    0,
+    0,
+    4,
+    4,
+    9,
+    14,
+    16,
+    5,
+    1,
+    4,
+    8,
+    12,
+    5,
+    5,
+    9,
+    4,
+    3,
+    7,
+    4
+   ],
+   [
+    9,
+    7,
+    2,
+    2,
+    1,
+    0,
+    0,
+    2,
+    8,
+    4,
+    2,
+    10,
+    4,
+    2,
+    1,
+    1,
+    6,
+    3,
+    9,
+    6,
+    2,
+    2,
+    2,
+    12
+   ],
+   [
+    3,
+    3,
+    1,
+    5,
+    2,
+    0,
+    1,
+    0,
+    0,
+    4,
+    0,
+    4,
+    3,
+    3,
+    3,
+    2,
+    4,
+    3,
+    4,
+    6,
+    3,
+    3,
+    4,
+    2
+   ]
+  ],
+  "dow": [
+   157,
+   170,
+   147,
+   165,
+   134,
+   97,
+   63
+  ],
+  "ai_coauthor_total": 9
+ },
+ "workflow": {
+  "conventional_pct": 6,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 15
+   },
+   {
+    "k": "docs",
+    "v": 10
+   },
+   {
+    "k": "feat",
+    "v": 5
+   },
+   {
+    "k": "chore",
+    "v": 3
+   },
+   {
+    "k": "gemma4",
+    "v": 2
+   },
+   {
+    "k": "transpiler",
+    "v": 2
+   },
+   {
+    "k": "parakeet",
+    "v": 1
+   }
+  ],
+  "merge_pct": 2.6,
+  "median_msg_len": 33
+ },
+ "activity": {
+  "last_commit_days": 2,
+  "commits_30d": 64,
+  "commits_90d": 202,
+  "commits_365d": 746,
+  "active_contributors_90d": 18,
+  "years_since_first_commit": 1.3,
+  "liveness": 97,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.7,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-04",
+   "c": 23
+  },
+  {
+   "m": "2025-05",
+   "c": 83
+  },
+  {
+   "m": "2025-06",
+   "c": 28
+  },
+  {
+   "m": "2025-07",
+   "c": 48
+  },
+  {
+   "m": "2025-08",
+   "c": 7
+  },
+  {
+   "m": "2025-09",
+   "c": 40
+  },
+  {
+   "m": "2025-10",
+   "c": 59
+  },
+  {
+   "m": "2025-11",
+   "c": 71
+  },
+  {
+   "m": "2025-12",
+   "c": 44
+  },
+  {
+   "m": "2026-01",
+   "c": 51
+  },
+  {
+   "m": "2026-02",
+   "c": 136
+  },
+  {
+   "m": "2026-03",
+   "c": 63
+  },
+  {
+   "m": "2026-04",
+   "c": 53
+  },
+  {
+   "m": "2026-05",
+   "c": 50
+  },
+  {
+   "m": "2026-06",
+   "c": 77
+  },
+  {
+   "m": "2026-07",
+   "c": 85
+  },
+  {
+   "m": "2026-08",
+   "c": 15
+  }
+ ],
+ "contributors": [
+  {
+   "name": "HenryNdubuaku",
+   "count": 477,
+   "pct": 51.1
+  },
+  {
+   "name": "Parkirat",
+   "count": 84,
+   "pct": 9.0
+  },
+  {
+   "name": "Jakub Mroz",
+   "count": 71,
+   "pct": 7.6
+  },
+  {
+   "name": "Noah Cylich",
+   "count": 48,
+   "pct": 5.1
+  },
+  {
+   "name": "rshemet",
+   "count": 36,
+   "pct": 3.9
+  },
+  {
+   "name": "Karen Mosoyan",
+   "count": 32,
+   "pct": 3.4
+  },
+  {
+   "name": "Parkirat Sandhu",
+   "count": 28,
+   "pct": 3.0
+  },
+  {
+   "name": "Justin Lee",
+   "count": 26,
+   "pct": 2.8
+  }
+ ],
+ "stack": {
+  "languages": {
+   "C++": 2991578,
+   "Python": 2792792,
+   "TypeScript": 2219979,
+   "C": 657632,
+   "Metal": 194206,
+   "Objective-C++": 174527,
+   "Shell": 49020,
+   "Kotlin": 46458,
+   "Makefile": 44900,
+   "Swift": 26830,
+   "CMake": 18151,
+   "Dart": 13759,
+   "Ruby": 9743,
+   "Objective-C": 5796,
+   "Rust": 5326,
+   "JavaScript": 682
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "Nwp-cactus-deploy-ai-models-locally-on-smartphones",
+   "title": "Cactus 🌵: Deploy AI models locally on smartphones",
+   "tagline": "Cross-platform open-source framework for deploying LLMs, VLMs, Embedding, and other models locally in your apps.",
+   "date": "2025-07-11",
+   "votes": 40,
+   "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones"
+  }
+ ]
+}

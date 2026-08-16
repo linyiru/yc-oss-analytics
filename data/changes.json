@@ -1,8 +1,12 @@
 {
- "date": "2026-08-15",
- "appeared": [],
- "disappeared": [],
+ "date": "2026-08-16",
+ "appeared": [
+  "cactus-compute"
+ ],
+ "disappeared": [
+  "cactus"
+ ],
  "restored": [],
- "total_tracked": 178,
+ "total_tracked": 179,
  "present": 173
 }
