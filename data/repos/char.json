@@ -39,10 +39,10 @@
   "primary_lang": "Rust",
   "license_detail": {
    "spdx": "MIT",
-   "detected": "MIT",
-   "model": "Permissive",
+   "detected": "MIT + EE",
+   "model": "Open-core",
    "source_available": false,
-   "ee": false
+   "ee": true
   }
  },
  "tier": "cheap",
