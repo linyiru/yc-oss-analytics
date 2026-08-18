@@ -4,7 +4,7 @@
  "yc": {
   "batch": "W24",
   "team_size": 4,
-  "status": "Active",
+  "status": "Acquired",
   "one_liner": "AI agent that generates unit and integration tests",
   "website": "https://usetusk.ai",
   "industry": "B2B",
