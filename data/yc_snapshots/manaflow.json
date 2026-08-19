@@ -1,6 +1,6 @@
 {
- "slug": "manaflow",
- "name": "Manaflow",
+ "slug": "cmux",
+ "name": "cmux",
  "batch": "S24",
  "website": "https://www.cmux.com",
  "github_url": "https://github.com/manaflow-ai/cmux",
@@ -46,5 +46,5 @@
  "page_repos": [
   "manaflow-ai/cmux"
  ],
- "fetched_at": "2026-08-13T07:19:16+00:00"
+ "fetched_at": "2026-08-19T06:35:15+00:00"
 }
