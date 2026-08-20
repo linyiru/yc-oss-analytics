@@ -3,7 +3,7 @@
  "name": "Understudy Labs",
  "batch": "S26",
  "website": "https://understudylabs.com/",
- "github_url": "https://github.com/understudylabs/understudy-agent-tools",
+ "github_url": null,
  "tags": [
   "Artificial Intelligence",
   "Open Source",
@@ -36,8 +36,6 @@
    "url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud"
   }
  ],
- "page_repos": [
-  "understudylabs/understudy-agent-tools"
- ],
- "fetched_at": "2026-08-18T06:34:51+00:00"
+ "page_repos": [],
+ "fetched_at": "2026-08-20T06:37:15+00:00"
 }

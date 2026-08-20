@@ -10,3 +10,4 @@
 {"date": "2026-07-21", "appeared": ["opencode", "robocurve", "unify"], "disappeared": [], "restored": [], "total_tracked": 170, "present": 165}
 {"date": "2026-08-05", "appeared": ["graphify-labs", "tracer", "s2-dev", "vendo", "zenbu-2", "openbase", "understudy-labs", "riften"], "disappeared": [], "restored": [], "total_tracked": 178, "present": 173}
 {"date": "2026-08-16", "appeared": ["cactus-compute"], "disappeared": ["cactus"], "restored": [], "total_tracked": 179, "present": 173}
+{"date": "2026-08-20", "appeared": [], "disappeared": ["manaflow"], "restored": ["cmux"], "total_tracked": 179, "present": 173}

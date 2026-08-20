@@ -1,8 +1,12 @@
 {
- "date": "2026-08-19",
+ "date": "2026-08-20",
  "appeared": [],
- "disappeared": [],
- "restored": [],
+ "disappeared": [
+  "manaflow"
+ ],
+ "restored": [
+  "cmux"
+ ],
  "total_tracked": 179,
  "present": 173
 }

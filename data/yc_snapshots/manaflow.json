@@ -5,9 +5,9 @@
  "website": "https://www.cmux.com",
  "github_url": "https://github.com/manaflow-ai/cmux",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -46,5 +46,5 @@
  "page_repos": [
   "manaflow-ai/cmux"
  ],
- "fetched_at": "2026-08-19T06:35:15+00:00"
+ "fetched_at": "2026-08-20T06:36:57+00:00"
 }
