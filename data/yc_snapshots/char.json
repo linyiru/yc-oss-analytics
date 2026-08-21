@@ -5,15 +5,15 @@
  "website": "https://char.com",
  "github_url": "https://github.com/fastrepl",
  "tags": [
+  "Artificial Intelligence",
   "SaaS",
   "Productivity",
   "Open Source",
-  "AI",
   "AI Assistant"
  ],
  "status": "Active",
  "year_founded": 2023,
- "team_size": 4,
+ "team_size": 3,
  "location": "Seoul, South Korea",
  "country": "KR",
  "partner": "Brad Flora",
@@ -44,5 +44,5 @@
  "page_repos": [
   "fastrepl/hyprnote"
  ],
- "fetched_at": "2026-07-13T07:07:33+00:00"
+ "fetched_at": "2026-08-21T06:37:14+00:00"
 }
