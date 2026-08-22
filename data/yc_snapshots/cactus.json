@@ -33,12 +33,12 @@
    "title": "Cactus 🌵: Deploy AI models locally on smartphones",
    "tagline": "Cross-platform open-source framework for deploying LLMs, VLMs, Embedding, and other models locally in your apps.",
    "date": "2025-07-11",
-   "votes": 40,
+   "votes": 41,
    "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones"
   }
  ],
  "page_repos": [
   "cactus-compute/cactus"
  ],
- "fetched_at": "2026-08-15T06:29:09+00:00"
+ "fetched_at": "2026-08-22T06:31:02+00:00"
 }
