@@ -5,29 +5,25 @@
  "website": "https://char.com",
  "github_url": "https://github.com/fastrepl",
  "tags": [
-  "Artificial Intelligence",
   "SaaS",
   "Productivity",
   "Open Source",
+  "AI",
   "AI Assistant"
  ],
  "status": "Active",
  "year_founded": 2023,
- "team_size": 3,
+ "team_size": 2,
  "location": "Seoul, South Korea",
  "country": "KR",
  "partner": "Brad Flora",
  "founders": [
   {
    "name": "John Jeong",
-   "title": "Co-founder, Co-CEO"
+   "title": "Co-founder, CEO"
   },
   {
    "name": "Deokhaeng Lee",
-   "title": "Founder"
-  },
-  {
-   "name": "Yujong Lee",
    "title": "Founder"
   }
  ],
@@ -44,5 +40,5 @@
  "page_repos": [
   "fastrepl/hyprnote"
  ],
- "fetched_at": "2026-08-21T06:37:14+00:00"
+ "fetched_at": "2026-08-23T06:32:26+00:00"
 }

@@ -3,7 +3,7 @@
  "github": "fastrepl/anarlog",
  "yc": {
   "batch": "S25",
-  "team_size": 3,
+  "team_size": 2,
   "status": "Active",
   "one_liner": "The AI notepad that knows and works for you",
   "website": "https://char.com",
@@ -14,14 +14,10 @@
   "founders": [
    {
     "name": "John Jeong",
-    "title": "Co-founder, Co-CEO"
+    "title": "Co-founder, CEO"
    },
    {
     "name": "Deokhaeng Lee",
-    "title": "Founder"
-   },
-   {
-    "name": "Yujong Lee",
     "title": "Founder"
    }
   ],
