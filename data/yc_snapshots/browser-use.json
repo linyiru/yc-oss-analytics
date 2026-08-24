@@ -19,11 +19,11 @@
  "founders": [
   {
    "name": "Magnus Müller",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Gregor Zunic",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -39,5 +39,5 @@
  "page_repos": [
   "gregpr07/browser-use"
  ],
- "fetched_at": "2026-06-07T15:58:14+00:00"
+ "fetched_at": "2026-08-24T06:46:55+00:00"
 }

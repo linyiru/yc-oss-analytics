@@ -18,11 +18,11 @@
  "founders": [
   {
    "name": "Michael Sukkarieh",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Brendan Kellam",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-15T08:00:27+00:00"
+ "fetched_at": "2026-08-24T06:47:19+00:00"
 }

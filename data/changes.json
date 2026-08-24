@@ -1,8 +1,11 @@
 {
- "date": "2026-08-23",
- "appeared": [],
+ "date": "2026-08-24",
+ "appeared": [
+  "trustai",
+  "random-labs"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 179,
- "present": 173
+ "total_tracked": 181,
+ "present": 175
 }

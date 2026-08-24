@@ -19,7 +19,7 @@
  "founders": [
   {
    "name": "Nir Gazit",
-   "title": "Co-Founder & CEO"
+   "title": "Founder/CEO"
   },
   {
    "name": "Gal Kleinman",
@@ -40,5 +40,5 @@
   "traceloop/hub",
   "traceloop/openllmetry"
  ],
- "fetched_at": "2026-06-07T15:58:53+00:00"
+ "fetched_at": "2026-08-24T06:47:22+00:00"
 }

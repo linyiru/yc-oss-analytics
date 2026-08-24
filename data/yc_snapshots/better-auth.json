@@ -18,7 +18,7 @@
  "founders": [
   {
    "name": "Bereket Engida",
-   "title": "Founder"
+   "title": "Founder/CEO"
   }
  ],
  "launches": [
@@ -38,5 +38,5 @@
   "better-auth/better-auth",
   "onejs/one"
  ],
- "fetched_at": "2026-07-07T07:12:05+00:00"
+ "fetched_at": "2026-08-24T06:46:55+00:00"
 }

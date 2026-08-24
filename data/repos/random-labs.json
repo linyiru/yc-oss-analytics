@@ -1,34 +1,38 @@
 {
- "slug": "zenbu-2",
- "github": "zenbu-labs/zenbu-release",
+ "slug": "random-labs",
+ "github": "n00el/research",
  "yc": {
-  "batch": "X26",
-  "team_size": 1,
+  "batch": "S24",
+  "team_size": null,
   "status": "Active",
-  "one_liner": "The extensible IDE for coding agents",
-  "website": "https://www.zenbu.dev/",
+  "one_liner": "Random labs is building long running autonomous coding agents.",
+  "website": "https://randomlabs.ai",
   "industry": "B2B",
-  "name": "Zenbu",
-  "year_founded": 2026,
+  "name": "Random Labs",
+  "year_founded": 2024,
   "location": "San Francisco",
-  "partner": "Pete Koomen",
+  "partner": "Garry Tan",
   "founders": [
    {
-    "name": "Rob Pruzan",
+    "name": "Kiran (Random Labs)",
     "title": "Founder/CEO"
+   },
+   {
+    "name": "Mihir Chintawar",
+    "title": "Founder/CTO"
    }
   ]
  },
  "metrics": {
-  "stars": 16,
-  "forks": 5,
+  "stars": 0,
+  "forks": 1,
   "watchers": 0,
-  "open_issues": 3,
-  "commits": 41,
-  "contributors": 2,
+  "open_issues": 0,
+  "commits": 15,
+  "contributors": 1,
   "license": null,
-  "created": "2026-05-22",
-  "primary_lang": "TypeScript",
+  "created": "2026-03-15",
+  "primary_lang": "HTML",
   "license_detail": {
    "spdx": null,
    "detected": "Custom / Proprietary",
@@ -39,14 +43,14 @@
  },
  "tier": "cheap",
  "timeline": {
-  "first": "2026-05-22",
-  "last": "2026-06-04",
-  "span_months": 0.4
+  "first": "2026-03-15",
+  "last": "2026-06-24",
+  "span_months": 3.3
  },
  "intensity": {
-  "commits_per_week": 22.1,
-  "per_day": 3.15,
-  "weekend_pct": 4.9,
+  "commits_per_week": 1.0,
+  "per_day": 0.15,
+  "weekend_pct": 6.7,
   "punchcard": [
    [
     0,
@@ -57,6 +61,7 @@
     0,
     0,
     0,
+    1,
     0,
     0,
     0,
@@ -64,11 +69,10 @@
     0,
     0,
     0,
+    1,
+    1,
     0,
-    0,
-    0,
-    0,
-    0,
+    2,
     0,
     0,
     0,
@@ -85,15 +89,15 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    2,
     4,
-    1,
     0,
-    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
     0,
     0,
     0,
@@ -110,67 +114,15 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    5,
-    0,
-    0,
-    0,
-    1,
-    5,
     2,
     0,
-    0
-   ],
-   [
-    0,
-    0,
-    3,
-    2,
-    5,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     1,
     0,
     0,
     0,
     0,
     0,
-    1,
     0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
     0,
     0,
     0,
@@ -181,7 +133,7 @@
    [
     0,
     0,
-    2,
+    0,
     0,
     0,
     0,
@@ -215,6 +167,58 @@
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
     0,
     0,
     0,
@@ -232,78 +236,63 @@
    ]
   ],
   "dow": [
+   5,
+   6,
+   3,
    0,
-   9,
-   14,
-   14,
-   2,
-   2,
-   0
+   0,
+   0,
+   1
   ],
   "ai_coauthor_total": 0
  },
  "workflow": {
-  "conventional_pct": 95,
-  "conv": [
-   {
-    "k": "chore",
-    "v": 39
-   }
-  ],
+  "conventional_pct": 0,
+  "conv": [],
   "merge_pct": 0.0,
-  "median_msg_len": 26
+  "median_msg_len": 1
  },
  "activity": {
-  "last_commit_days": 61,
+  "last_commit_days": 60,
   "commits_30d": 0,
-  "commits_90d": 41,
-  "commits_365d": 41,
-  "active_contributors_90d": 2,
-  "years_since_first_commit": 0.2,
-  "liveness": 75,
-  "still_active": true,
-  "batch_year": 2026,
-  "batch_age_years": 0.7,
+  "commits_90d": 3,
+  "commits_365d": 15,
+  "active_contributors_90d": 1,
+  "years_since_first_commit": 0.4,
+  "liveness": 57,
+  "still_active": false,
+  "batch_year": 2024,
+  "batch_age_years": 2.7,
   "class": "rising"
  },
  "monthly": [
   {
-   "m": "2026-05",
-   "c": 18
+   "m": "2026-03",
+   "c": 12
   },
   {
    "m": "2026-06",
-   "c": 23
+   "c": 3
   }
  ],
  "contributors": [
   {
-   "name": "RobPruzan",
-   "count": 39,
-   "pct": 95.1
-  },
-  {
-   "name": "Rob Pruzan",
-   "count": 2,
-   "pct": 4.9
+   "name": "ntompos",
+   "count": 15,
+   "pct": 100.0
   }
  ],
  "stack": {
   "languages": {
-   "TypeScript": 2829842,
-   "CSS": 26528,
-   "HTML": 21473,
-   "JavaScript": 12406
+   "HTML": 1549665776,
+   "Python": 31801,
+   "JavaScript": 8898
   },
-  "manifests": [
-   "package.json"
-  ],
-  "pkg_manager": "pnpm",
-  "deps_top": [
-   "@zenbujs/core"
-  ],
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
   "infra": [
-   "pnpm"
+   "claude-code"
   ]
  },
  "churn": null,
@@ -311,12 +300,12 @@
  "viral": null,
  "yc_launches": [
   {
-   "slug": "Qey-zenbu-the-extensible-ide-for-managing-coding-agents",
-   "title": "Zenbu - The extensible IDE for managing coding agents",
-   "tagline": "An IDE for coding agents, shaped by the way you work",
-   "date": "2026-06-03",
-   "votes": 5,
-   "url": "https://www.ycombinator.com/launches/Qey-zenbu-the-extensible-ide-for-managing-coding-agents"
+   "slug": "Lnp-random-labs-an-open-source-software-agent-that-lives-in-your-codebase",
+   "title": "Random Labs: An open source software agent that lives in your codebase",
+   "tagline": "A 1,155,075 line codebase should feel like Playdough.",
+   "date": "2024-09-06",
+   "votes": 44,
+   "url": "https://www.ycombinator.com/launches/Lnp-random-labs-an-open-source-software-agent-that-lives-in-your-codebase"
   }
  ]
 }

@@ -27,7 +27,7 @@
    "title": "AnythingLLM - The all-in-one desktop AI assistant",
    "tagline": "An all-in-one desktop assistant for RAG, AI agents, and more with privacy by default built for everyday people.",
    "date": "2024-09-05",
-   "votes": 5,
+   "votes": 6,
    "url": "https://www.ycombinator.com/launches/LnQ-anythingllm-the-all-in-one-desktop-ai-assistant"
   }
  ],
@@ -35,5 +35,5 @@
   "Mintplex-Labs/anything-llm",
   "anything-llm/anythingllm"
  ],
- "fetched_at": "2026-06-07T15:58:10+00:00"
+ "fetched_at": "2026-08-24T06:46:53+00:00"
 }

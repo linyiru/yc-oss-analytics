@@ -1,0 +1,337 @@
+{
+ "slug": "trustai",
+ "github": "Prithviraj6/TrustAi",
+ "yc": {
+  "batch": "S26",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "The cheapest, fastest lightweight inference. ",
+  "website": "https://trytrust.ai",
+  "industry": "B2B",
+  "name": "TrustAI",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Ankit Gupta",
+  "founders": [
+   {
+    "name": "Hannah Chung",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Medha Venkatapathy",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 1,
+  "forks": 0,
+  "watchers": 1,
+  "open_issues": 0,
+  "commits": 8,
+  "contributors": 2,
+  "license": "MIT",
+  "created": "2025-12-15",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-12-15",
+  "last": "2026-04-07",
+  "span_months": 3.7
+ },
+ "intensity": {
+  "commits_per_week": 0.5,
+  "per_day": 0.07,
+  "weekend_pct": 0.0,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    1,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   6,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 25,
+  "conv": [
+   {
+    "k": "docs",
+    "v": 1
+   },
+   {
+    "k": "refactor",
+    "v": 1
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 37
+ },
+ "activity": {
+  "last_commit_days": 138,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 8,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 0.7,
+  "liveness": 34,
+  "still_active": false,
+  "batch_year": 2026,
+  "batch_age_years": 0.7,
+  "class": "steady"
+ },
+ "monthly": [
+  {
+   "m": "2025-12",
+   "c": 6
+  },
+  {
+   "m": "2026-02",
+   "c": 1
+  },
+  {
+   "m": "2026-04",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Prithviraj6",
+   "count": 7,
+   "pct": 87.5
+  },
+  {
+   "name": "Prrithviraj Patil",
+   "count": 1,
+   "pct": 12.5
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 492190,
+   "Python": 63179,
+   "CSS": 23777,
+   "JavaScript": 2096,
+   "HTML": 360
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer",
+   "title": "TrustAI - The fastest, cheapest inference, powered by KV cache transfer",
+   "tagline": "Lightweight novel inference ",
+   "date": "2026-08-21",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer"
+  },
+  {
+   "slug": "RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems",
+   "title": "TrustAI - Continuous compliance and governance for AI agents on sensitive systems",
+   "tagline": "Governance and safety for agents with access to critical systems ",
+   "date": "2026-07-21",
+   "votes": 14,
+   "url": "https://www.ycombinator.com/launches/RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems"
+  }
+ ]
+}

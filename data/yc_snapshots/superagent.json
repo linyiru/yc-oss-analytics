@@ -19,7 +19,7 @@
  "founders": [
   {
    "name": "Alan Zabihi",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Ismail Pelaseyed",
@@ -73,5 +73,5 @@
   "superagent-ai/superagent",
   "superagent-ai/vibekit"
  ],
- "fetched_at": "2026-06-07T15:58:51+00:00"
+ "fetched_at": "2026-08-24T06:47:20+00:00"
 }

@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Pietro Zullo",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Luigi Pederzani",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -48,5 +48,5 @@
  "page_repos": [
   "mcp-use/mcp-use"
  ],
- "fetched_at": "2026-08-06T08:27:12+00:00"
+ "fetched_at": "2026-08-24T06:47:08+00:00"
 }

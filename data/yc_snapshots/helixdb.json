@@ -20,7 +20,7 @@
  "founders": [
   {
    "name": "George Curtis",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Xavier Cochran",
@@ -41,5 +41,5 @@
   "HelixDB/helix-db",
   "helixdb/helix-db"
  ],
- "fetched_at": "2026-08-21T06:37:22+00:00"
+ "fetched_at": "2026-08-24T06:47:03+00:00"
 }

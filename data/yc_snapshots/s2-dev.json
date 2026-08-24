@@ -20,15 +20,15 @@
  "founders": [
   {
    "name": "Shikhar Bhushan",
-   "title": "Co-founder and CEO"
+   "title": "Founder/CEO"
   },
   {
    "name": "Stephen Balogh",
-   "title": "Co-founder and CTO"
+   "title": "Founder/CTO"
   },
   {
    "name": "Dwarak Govind Parthiban",
-   "title": "Co-founder"
+   "title": "Founder"
   }
  ],
  "launches": [
@@ -44,5 +44,5 @@
  "page_repos": [
   "s2-streamstore/s2"
  ],
- "fetched_at": "2026-08-05T06:55:05+00:00"
+ "fetched_at": "2026-08-24T06:47:18+00:00"
 }

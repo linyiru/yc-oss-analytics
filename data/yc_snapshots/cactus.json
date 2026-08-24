@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Roman Shemet",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Henry Ndubuaku",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "cactus-compute/cactus"
  ],
- "fetched_at": "2026-08-22T06:31:02+00:00"
+ "fetched_at": "2026-08-24T06:46:56+00:00"
 }

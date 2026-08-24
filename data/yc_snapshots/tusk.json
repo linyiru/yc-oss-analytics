@@ -18,11 +18,11 @@
  "founders": [
   {
    "name": "Marcel Tan",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Sohil Kshirsagar",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -44,5 +44,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-18T06:34:51+00:00"
+ "fetched_at": "2026-08-24T06:47:23+00:00"
 }

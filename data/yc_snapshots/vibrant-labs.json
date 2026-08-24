@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Jithin James",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Shahul ES",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -44,5 +44,5 @@
   "explodinggradients/ragas",
   "laion-ai/open-assistant"
  ],
- "fetched_at": "2026-06-18T07:42:20+00:00"
+ "fetched_at": "2026-08-24T06:47:25+00:00"
 }

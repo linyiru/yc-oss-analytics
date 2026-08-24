@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Nick Khami",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Denzell Ford",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "devflowinc/trieve"
  ],
- "fetched_at": "2026-06-07T15:58:54+00:00"
+ "fetched_at": "2026-08-24T06:47:23+00:00"
 }

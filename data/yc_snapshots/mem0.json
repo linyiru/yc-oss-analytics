@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Taranjeet Singh",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Deshraj Yadav",
-   "title": "Co-Founder and CTO"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "mem0ai/mem0"
  ],
- "fetched_at": "2026-06-07T15:58:37+00:00"
+ "fetched_at": "2026-08-24T06:47:09+00:00"
 }

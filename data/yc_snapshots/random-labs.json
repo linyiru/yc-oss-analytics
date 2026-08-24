@@ -1,0 +1,41 @@
+{
+ "slug": "random-labs",
+ "name": "Random Labs",
+ "batch": "S24",
+ "website": "https://randomlabs.ai",
+ "github_url": "https://github.com/entropy-research",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "AI",
+  "AI Assistant"
+ ],
+ "status": "Active",
+ "year_founded": 2024,
+ "team_size": null,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Garry Tan",
+ "founders": [
+  {
+   "name": "Kiran (Random Labs)",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Mihir Chintawar",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "Lnp-random-labs-an-open-source-software-agent-that-lives-in-your-codebase",
+   "title": "Random Labs: An open source software agent that lives in your codebase",
+   "tagline": "A 1,155,075 line codebase should feel like Playdough.",
+   "date": "2024-09-06",
+   "votes": 44,
+   "url": "https://www.ycombinator.com/launches/Lnp-random-labs-an-open-source-software-agent-that-lives-in-your-codebase"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-08-24T06:47:15+00:00"
+}

@@ -19,11 +19,11 @@
  "founders": [
   {
    "name": "Nour Zahzah",
-   "title": "Co-Founder & CEO"
+   "title": "Founder/CEO"
   },
   {
    "name": "Yousef Helal",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -39,5 +39,5 @@
  "page_repos": [
   "runvendo/vendo"
  ],
- "fetched_at": "2026-08-05T06:55:11+00:00"
+ "fetched_at": "2026-08-24T06:47:24+00:00"
 }

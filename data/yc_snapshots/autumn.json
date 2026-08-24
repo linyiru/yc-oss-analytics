@@ -14,11 +14,11 @@
  "founders": [
   {
    "name": "Ayush Rodrigues",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "John Yeo",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -34,5 +34,5 @@
  "page_repos": [
   "johnyeocx/autumn"
  ],
- "fetched_at": "2026-07-01T07:31:02+00:00"
+ "fetched_at": "2026-08-24T06:46:55+00:00"
 }

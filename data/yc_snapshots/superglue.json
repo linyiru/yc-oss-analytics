@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Adina Goerres",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Stefan Faistenauer",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "superglue-ai/superglue"
  ],
- "fetched_at": "2026-07-15T06:46:27+00:00"
+ "fetched_at": "2026-08-24T06:47:21+00:00"
 }

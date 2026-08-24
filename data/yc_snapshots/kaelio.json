@@ -17,11 +17,11 @@
  "founders": [
   {
    "name": "Luca Martial",
-   "title": "Co-founder & CEO"
+   "title": "Founder/CEO"
   },
   {
    "name": "Andrey Avtomonov",
-   "title": "Co-founder & CTO"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -37,5 +37,5 @@
  "page_repos": [
   "Kaelio/ktx"
  ],
- "fetched_at": "2026-06-07T15:58:30+00:00"
+ "fetched_at": "2026-08-24T06:47:05+00:00"
 }

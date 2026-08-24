@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Ashraf Samhouri",
-   "title": "Co-founder and CEO"
+   "title": "Founder/CEO"
   },
   {
    "name": "Mohammad AbuAboud",
-   "title": "Co-Founder & CTO"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -40,5 +40,5 @@
  "page_repos": [
   "activepieces/activepieces"
  ],
- "fetched_at": "2026-08-11T06:58:01+00:00"
+ "fetched_at": "2026-08-24T06:46:53+00:00"
 }

@@ -20,11 +20,11 @@
  "founders": [
   {
    "name": "Mark Rachapoom",
-   "title": "Founder"
+   "title": "Founder/CEO"
   },
   {
    "name": "Kumar Abhirup",
-   "title": "Founder"
+   "title": "Founder/CTO"
   }
  ],
  "launches": [
@@ -48,5 +48,5 @@
  "page_repos": [
   "orgs/DenchHQ"
  ],
- "fetched_at": "2026-08-05T06:54:49+00:00"
+ "fetched_at": "2026-08-24T06:46:59+00:00"
 }
