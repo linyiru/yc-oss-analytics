@@ -1,14 +1,14 @@
 {
- "slug": "trustai",
- "name": "TrustAI",
+ "slug": "onetriangle",
+ "name": "OneTriangle",
  "batch": "S26",
- "website": "https://trytrust.ai",
+ "website": "https://onetriangle.ai/",
  "github_url": "",
  "tags": [
-  "Artificial Intelligence",
   "Smart Packaging",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -32,7 +32,7 @@
    "title": "TrustAI - The fastest, cheapest inference, powered by KV cache transfer",
    "tagline": "Lightweight novel inference ",
    "date": "2026-08-21",
-   "votes": 4,
+   "votes": 6,
    "url": "https://www.ycombinator.com/launches/T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer"
   },
   {
@@ -40,10 +40,10 @@
    "title": "TrustAI - Continuous compliance and governance for AI agents on sensitive systems",
    "tagline": "Governance and safety for agents with access to critical systems ",
    "date": "2026-07-21",
-   "votes": 14,
+   "votes": 15,
    "url": "https://www.ycombinator.com/launches/RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems"
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:23+00:00"
+ "fetched_at": "2026-08-25T06:37:59+00:00"
 }
