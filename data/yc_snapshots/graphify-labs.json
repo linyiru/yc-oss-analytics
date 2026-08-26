@@ -3,7 +3,7 @@
  "name": "Graphify Labs",
  "batch": "S26",
  "website": "https://www.graphify.com/",
- "github_url": "https://github.com/Graphify-Labs",
+ "github_url": null,
  "tags": [
   "Developer Tools",
   "Open Source"
@@ -26,12 +26,12 @@
    "title": "Graphify Labs: Knowledge Graph Engine for Enterprises 🧠",
    "tagline": "Shared memory of your codebase, for humans and agents.",
    "date": "2026-08-19",
-   "votes": 60,
+   "votes": 61,
    "url": "https://www.ycombinator.com/launches/SvA-graphify-labs-knowledge-graph-engine-for-enterprises"
   }
  ],
  "page_repos": [
   "Graphify-Labs/graphify"
  ],
- "fetched_at": "2026-08-25T06:37:43+00:00"
+ "fetched_at": "2026-08-26T06:39:18+00:00"
 }
