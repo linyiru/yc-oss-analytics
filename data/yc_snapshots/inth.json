@@ -3,19 +3,19 @@
  "name": "Inth",
  "batch": "P26",
  "website": "https://inth.com",
- "github_url": "",
+ "github_url": "https://github.com/inthhq",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Compliance",
   "Web Development",
-  "Trust & Safety"
+  "Trust & Safety",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2025,
  "team_size": 3,
- "location": "San Francisco",
- "country": "US",
+ "location": "London, United Kingdom",
+ "country": "GB",
  "partner": "Andrew Miklas",
  "founders": [
   {
@@ -34,5 +34,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:05+00:00"
+ "fetched_at": "2026-08-27T17:15:00+00:00"
 }
