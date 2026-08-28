@@ -5,10 +5,9 @@
  "website": "https://onetriangle.ai/",
  "github_url": "",
  "tags": [
-  "Smart Packaging",
+  "Artificial Intelligence",
   "Open Source",
-  "Infrastructure",
-  "AI"
+  "Infrastructure"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -28,22 +27,14 @@
  ],
  "launches": [
   {
-   "slug": "T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer",
-   "title": "TrustAI - The fastest, cheapest inference, powered by KV cache transfer",
+   "slug": "T0B-onetriangle-the-fastest-cheapest-inference-powered-by-kv-cache-transfer",
+   "title": "OneTriangle - The fastest, cheapest inference, powered by KV cache transfer",
    "tagline": "Lightweight novel inference ",
    "date": "2026-08-21",
-   "votes": 7,
-   "url": "https://www.ycombinator.com/launches/T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer"
-  },
-  {
-   "slug": "RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems",
-   "title": "TrustAI - Continuous compliance and governance for AI agents on sensitive systems",
-   "tagline": "Governance and safety for agents with access to critical systems ",
-   "date": "2026-07-21",
-   "votes": 15,
-   "url": "https://www.ycombinator.com/launches/RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems"
+   "votes": 8,
+   "url": "https://www.ycombinator.com/launches/T0B-onetriangle-the-fastest-cheapest-inference-powered-by-kv-cache-transfer"
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-27T17:15:24+00:00"
+ "fetched_at": "2026-08-28T18:07:54+00:00"
 }

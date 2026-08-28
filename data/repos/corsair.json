@@ -690,5 +690,15 @@
    "first1000_net_pct": 13,
    "lifetime_net_pct": 13
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "TE8-corsair-connect-your-users-to-their-apps",
+   "title": "Corsair: Connect your users to their apps",
+   "tagline": "10k GitHub stars, 200+ integrations: Open-source integration layer for agents and product UIs.",
+   "date": "2026-08-27",
+   "votes": 22,
+   "url": "https://www.ycombinator.com/launches/TE8-corsair-connect-your-users-to-their-apps"
+  }
+ ]
 }

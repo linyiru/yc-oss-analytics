@@ -3,7 +3,7 @@
  "name": "cmux",
  "batch": "S24",
  "website": "https://www.cmux.com",
- "github_url": "https://github.com/manaflow-ai/cmux",
+ "github_url": null,
  "tags": [
   "Developer Tools",
   "Open Source",
@@ -46,5 +46,5 @@
  "page_repos": [
   "manaflow-ai/cmux"
  ],
- "fetched_at": "2026-08-25T06:37:47+00:00"
+ "fetched_at": "2026-08-28T18:07:37+00:00"
 }

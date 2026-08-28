@@ -3,7 +3,7 @@
  "name": "OneCLI",
  "batch": "S26",
  "website": "https://onecli.sh",
- "github_url": "https://github.com/onecli/onecli",
+ "github_url": null,
  "tags": [
   "B2B",
   "Security",
@@ -48,5 +48,5 @@
  "page_repos": [
   "onecli/onecli"
  ],
- "fetched_at": "2026-08-25T06:37:50+00:00"
+ "fetched_at": "2026-08-28T18:07:41+00:00"
 }
