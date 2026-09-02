@@ -1,8 +1,10 @@
 {
- "date": "2026-09-01",
+ "date": "2026-09-02",
  "appeared": [],
- "disappeared": [],
+ "disappeared": [
+  "freestyle"
+ ],
  "restored": [],
  "total_tracked": 181,
- "present": 174
+ "present": 173
 }
