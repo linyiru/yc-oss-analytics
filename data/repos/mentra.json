@@ -34,8 +34,8 @@
   "created": "2023-08-12",
   "primary_lang": "TypeScript",
   "license_detail": {
-   "spdx": "MIT",
-   "detected": "MIT",
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
    "model": "Permissive",
    "source_available": false,
    "ee": false

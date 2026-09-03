@@ -31,7 +31,7 @@
    "title": "Rowboat – Your AI coworker, with memory",
    "tagline": "Open-source, local-first alternative to Claude Desktop: an AI coworker with a memory of your work as plain Markdown, and work surfaces you can build yourself.",
    "date": "2026-07-21",
-   "votes": 11,
+   "votes": 12,
    "url": "https://www.ycombinator.com/launches/Rma-rowboat-your-ai-coworker-with-memory"
   },
   {
@@ -46,5 +46,5 @@
  "page_repos": [
   "rowboatlabs/rowboat"
  ],
- "fetched_at": "2026-08-24T06:47:17+00:00"
+ "fetched_at": "2026-09-03T10:35:01+00:00"
 }
