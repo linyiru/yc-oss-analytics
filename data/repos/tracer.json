@@ -11,7 +11,13 @@
   "name": "Tracer",
   "year_founded": 2026,
   "location": "San Francisco",
-  "partner": "Diana Hu"
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Adam Rida",
+    "title": "Founder/CEO"
+   }
+  ]
  },
  "metrics": {
   "stars": 1026,

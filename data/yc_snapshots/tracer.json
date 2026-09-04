@@ -15,7 +15,12 @@
  "location": "San Francisco",
  "country": "US",
  "partner": "Diana Hu",
- "founders": [],
+ "founders": [
+  {
+   "name": "Adam Rida",
+   "title": "Founder/CEO"
+  }
+ ],
  "launches": [
   {
    "slug": "SBl-tracer-fable-level-ai-at-1-3-the-cost-using-open-weight-models",
@@ -29,5 +34,5 @@
  "page_repos": [
   "adrida/tracer"
  ],
- "fetched_at": "2026-08-12T07:17:25+00:00"
+ "fetched_at": "2026-09-04T10:26:49+00:00"
 }

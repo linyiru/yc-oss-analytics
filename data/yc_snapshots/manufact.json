@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2025,
- "team_size": 6,
+ "team_size": 5,
  "location": "San Francisco",
  "country": "US",
  "partner": "Jon Xu",
@@ -48,5 +48,5 @@
  "page_repos": [
   "mcp-use/mcp-use"
  ],
- "fetched_at": "2026-08-30T11:07:09+00:00"
+ "fetched_at": "2026-09-04T10:26:37+00:00"
 }
