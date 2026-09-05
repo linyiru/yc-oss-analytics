@@ -11,7 +11,7 @@
   "Search",
   "AI"
  ],
- "status": "Active",
+ "status": "Acquired",
  "year_founded": 2023,
  "team_size": 20,
  "location": "San Francisco",
@@ -41,5 +41,5 @@
   "danswer-ai/danswer",
   "onyx-dot-app/onyx"
  ],
- "fetched_at": "2026-06-07T15:58:41+00:00"
+ "fetched_at": "2026-09-05T09:52:38+00:00"
 }
