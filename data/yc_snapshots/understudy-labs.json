@@ -1,9 +1,9 @@
 {
- "slug": "understudy-labs",
- "name": "Understudy Labs",
+ "slug": "orchestra",
+ "name": "Orchestra",
  "batch": "S26",
- "website": "https://understudylabs.com/",
- "github_url": null,
+ "website": "https://orchestra.ai/",
+ "github_url": "",
  "tags": [
   "Artificial Intelligence",
   "Open Source",
@@ -37,5 +37,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:24+00:00"
+ "fetched_at": "2026-09-07T11:25:09+00:00"
 }

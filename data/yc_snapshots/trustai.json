@@ -3,7 +3,7 @@
  "name": "OneTriangle",
  "batch": "S26",
  "website": "https://onetriangle.ai/",
- "github_url": "",
+ "github_url": null,
  "tags": [
   "Artificial Intelligence",
   "Open Source",
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-09-04T10:26:50+00:00"
+ "fetched_at": "2026-09-07T11:25:08+00:00"
 }

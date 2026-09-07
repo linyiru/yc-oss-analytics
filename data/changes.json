@@ -1,8 +1,10 @@
 {
- "date": "2026-09-06",
+ "date": "2026-09-07",
  "appeared": [],
- "disappeared": [],
+ "disappeared": [
+  "understudy-labs"
+ ],
  "restored": [],
  "total_tracked": 181,
- "present": 173
+ "present": 172
 }
