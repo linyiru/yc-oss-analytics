@@ -3,16 +3,16 @@
  "name": "Graphify Labs",
  "batch": "S26",
  "website": "https://www.graphify.com/",
- "github_url": null,
+ "github_url": "",
  "tags": [
   "Developer Tools",
   "Open Source"
  ],
  "status": "Active",
  "year_founded": 2026,
- "team_size": 2,
- "location": "London, United Kingdom",
- "country": "GB",
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
  "partner": "Jared Friedman",
  "founders": [
   {
@@ -33,5 +33,5 @@
  "page_repos": [
   "Graphify-Labs/graphify"
  ],
- "fetched_at": "2026-09-04T10:26:33+00:00"
+ "fetched_at": "2026-09-08T10:28:40+00:00"
 }

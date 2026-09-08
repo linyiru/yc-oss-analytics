@@ -3,14 +3,14 @@
  "github": "Graphify-Labs/graphify",
  "yc": {
   "batch": "S26",
-  "team_size": 2,
+  "team_size": 1,
   "status": "Active",
   "one_liner": "On-device knowledge graph engine for enterprises",
   "website": "https://www.graphify.com/",
   "industry": "B2B",
   "name": "Graphify Labs",
   "year_founded": 2026,
-  "location": "London, United Kingdom",
+  "location": "San Francisco",
   "partner": "Jared Friedman",
   "founders": [
    {
