@@ -1,0 +1,642 @@
+{
+ "slug": "orchestra",
+ "github": "orchestral/platform",
+ "yc": {
+  "batch": "S26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Self-optimizing neocloud that cuts LLM costs by 100x",
+  "website": "https://orchestra.ai/",
+  "industry": "B2B",
+  "name": "Orchestra",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Tyler Bosmeny",
+  "founders": [
+   {
+    "name": "Luis Manrique",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Aamir Poonawalla",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 308,
+  "forks": 32,
+  "watchers": 25,
+  "open_issues": 1,
+  "commits": 935,
+  "contributors": 63,
+  "license": null,
+  "created": "2012-12-03",
+  "primary_lang": "PHP",
+  "license_detail": {
+   "spdx": null,
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2012-12-03",
+  "last": "2020-08-29",
+  "span_months": 93.0
+ },
+ "intensity": {
+  "commits_per_week": 2.3,
+  "per_day": 0.33,
+  "weekend_pct": 27.3,
+  "punchcard": [
+   [
+    0,
+    4,
+    1,
+    0,
+    0,
+    0,
+    2,
+    9,
+    3,
+    7,
+    16,
+    4,
+    7,
+    6,
+    3,
+    5,
+    10,
+    10,
+    6,
+    9,
+    4,
+    1,
+    4,
+    4
+   ],
+   [
+    4,
+    0,
+    0,
+    1,
+    0,
+    0,
+    9,
+    15,
+    8,
+    4,
+    6,
+    12,
+    7,
+    3,
+    9,
+    3,
+    8,
+    4,
+    10,
+    6,
+    4,
+    9,
+    8,
+    0
+   ],
+   [
+    3,
+    2,
+    0,
+    0,
+    0,
+    1,
+    3,
+    22,
+    13,
+    13,
+    17,
+    4,
+    6,
+    1,
+    7,
+    6,
+    4,
+    4,
+    7,
+    14,
+    9,
+    13,
+    7,
+    1
+   ],
+   [
+    2,
+    3,
+    2,
+    0,
+    0,
+    0,
+    8,
+    16,
+    10,
+    12,
+    13,
+    7,
+    6,
+    1,
+    6,
+    1,
+    8,
+    8,
+    8,
+    4,
+    12,
+    7,
+    8,
+    9
+   ],
+   [
+    2,
+    0,
+    2,
+    0,
+    0,
+    1,
+    3,
+    10,
+    2,
+    13,
+    10,
+    13,
+    5,
+    0,
+    11,
+    5,
+    12,
+    4,
+    9,
+    8,
+    5,
+    3,
+    7,
+    2
+   ],
+   [
+    3,
+    4,
+    1,
+    4,
+    0,
+    0,
+    3,
+    6,
+    7,
+    7,
+    4,
+    9,
+    6,
+    5,
+    8,
+    7,
+    13,
+    4,
+    7,
+    2,
+    15,
+    3,
+    5,
+    5
+   ],
+   [
+    2,
+    2,
+    3,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    7,
+    14,
+    4,
+    6,
+    6,
+    3,
+    10,
+    4,
+    11,
+    6,
+    12,
+    10,
+    13,
+    5,
+    4
+   ]
+  ],
+  "dow": [
+   115,
+   130,
+   157,
+   151,
+   127,
+   128,
+   127
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 0,
+  "conv": [],
+  "merge_pct": 16.6,
+  "median_msg_len": 27
+ },
+ "activity": {
+  "last_commit_days": 2202,
+  "commits_30d": 0,
+  "commits_90d": 0,
+  "commits_365d": 0,
+  "active_contributors_90d": 0,
+  "years_since_first_commit": 13.8,
+  "liveness": 0,
+  "still_active": false,
+  "batch_year": 2026,
+  "batch_age_years": 0.8,
+  "class": "dormant"
+ },
+ "monthly": [
+  {
+   "m": "2012-12",
+   "c": 2
+  },
+  {
+   "m": "2013-02",
+   "c": 1
+  },
+  {
+   "m": "2013-04",
+   "c": 38
+  },
+  {
+   "m": "2013-05",
+   "c": 28
+  },
+  {
+   "m": "2013-06",
+   "c": 13
+  },
+  {
+   "m": "2013-07",
+   "c": 7
+  },
+  {
+   "m": "2013-08",
+   "c": 12
+  },
+  {
+   "m": "2013-09",
+   "c": 1
+  },
+  {
+   "m": "2013-10",
+   "c": 31
+  },
+  {
+   "m": "2013-11",
+   "c": 19
+  },
+  {
+   "m": "2013-12",
+   "c": 24
+  },
+  {
+   "m": "2014-01",
+   "c": 15
+  },
+  {
+   "m": "2014-02",
+   "c": 5
+  },
+  {
+   "m": "2014-03",
+   "c": 3
+  },
+  {
+   "m": "2014-04",
+   "c": 2
+  },
+  {
+   "m": "2014-05",
+   "c": 12
+  },
+  {
+   "m": "2014-06",
+   "c": 10
+  },
+  {
+   "m": "2014-07",
+   "c": 2
+  },
+  {
+   "m": "2014-08",
+   "c": 32
+  },
+  {
+   "m": "2014-09",
+   "c": 10
+  },
+  {
+   "m": "2014-10",
+   "c": 26
+  },
+  {
+   "m": "2014-11",
+   "c": 67
+  },
+  {
+   "m": "2014-12",
+   "c": 35
+  },
+  {
+   "m": "2015-01",
+   "c": 31
+  },
+  {
+   "m": "2015-02",
+   "c": 23
+  },
+  {
+   "m": "2015-03",
+   "c": 18
+  },
+  {
+   "m": "2015-04",
+   "c": 16
+  },
+  {
+   "m": "2015-05",
+   "c": 30
+  },
+  {
+   "m": "2015-06",
+   "c": 36
+  },
+  {
+   "m": "2015-07",
+   "c": 20
+  },
+  {
+   "m": "2015-08",
+   "c": 15
+  },
+  {
+   "m": "2015-09",
+   "c": 4
+  },
+  {
+   "m": "2015-10",
+   "c": 21
+  },
+  {
+   "m": "2015-11",
+   "c": 15
+  },
+  {
+   "m": "2015-12",
+   "c": 50
+  },
+  {
+   "m": "2016-01",
+   "c": 7
+  },
+  {
+   "m": "2016-02",
+   "c": 10
+  },
+  {
+   "m": "2016-03",
+   "c": 19
+  },
+  {
+   "m": "2016-04",
+   "c": 2
+  },
+  {
+   "m": "2016-05",
+   "c": 17
+  },
+  {
+   "m": "2016-06",
+   "c": 28
+  },
+  {
+   "m": "2016-07",
+   "c": 26
+  },
+  {
+   "m": "2016-08",
+   "c": 10
+  },
+  {
+   "m": "2016-09",
+   "c": 4
+  },
+  {
+   "m": "2016-10",
+   "c": 3
+  },
+  {
+   "m": "2016-11",
+   "c": 3
+  },
+  {
+   "m": "2016-12",
+   "c": 7
+  },
+  {
+   "m": "2017-02",
+   "c": 4
+  },
+  {
+   "m": "2017-10",
+   "c": 7
+  },
+  {
+   "m": "2017-11",
+   "c": 4
+  },
+  {
+   "m": "2018-03",
+   "c": 3
+  },
+  {
+   "m": "2018-06",
+   "c": 3
+  },
+  {
+   "m": "2018-07",
+   "c": 1
+  },
+  {
+   "m": "2018-08",
+   "c": 4
+  },
+  {
+   "m": "2018-10",
+   "c": 1
+  },
+  {
+   "m": "2018-11",
+   "c": 1
+  },
+  {
+   "m": "2018-12",
+   "c": 5
+  },
+  {
+   "m": "2019-01",
+   "c": 2
+  },
+  {
+   "m": "2019-02",
+   "c": 1
+  },
+  {
+   "m": "2019-03",
+   "c": 21
+  },
+  {
+   "m": "2019-04",
+   "c": 3
+  },
+  {
+   "m": "2019-06",
+   "c": 2
+  },
+  {
+   "m": "2019-07",
+   "c": 4
+  },
+  {
+   "m": "2019-08",
+   "c": 9
+  },
+  {
+   "m": "2019-09",
+   "c": 11
+  },
+  {
+   "m": "2019-10",
+   "c": 4
+  },
+  {
+   "m": "2019-11",
+   "c": 4
+  },
+  {
+   "m": "2019-12",
+   "c": 5
+  },
+  {
+   "m": "2020-01",
+   "c": 5
+  },
+  {
+   "m": "2020-02",
+   "c": 6
+  },
+  {
+   "m": "2020-03",
+   "c": 12
+  },
+  {
+   "m": "2020-04",
+   "c": 1
+  },
+  {
+   "m": "2020-05",
+   "c": 1
+  },
+  {
+   "m": "2020-08",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "crynobone",
+   "count": 813,
+   "pct": 87.0
+  },
+  {
+   "name": "Taylor Otwell",
+   "count": 40,
+   "pct": 4.3
+  },
+  {
+   "name": "Mohamed Said",
+   "count": 5,
+   "pct": 0.5
+  },
+  {
+   "name": "Graham Campbell",
+   "count": 5,
+   "pct": 0.5
+  },
+  {
+   "name": "Joseph Silber",
+   "count": 4,
+   "pct": 0.4
+  },
+  {
+   "name": "Ahmad Shah Hafizan Hamidin",
+   "count": 4,
+   "pct": 0.4
+  },
+  {
+   "name": "Leif Singer",
+   "count": 3,
+   "pct": 0.3
+  },
+  {
+   "name": "Phil Bates",
+   "count": 2,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "PHP": 85457,
+   "HTML": 15750
+  },
+  "manifests": [
+   "package.json",
+   "composer.json"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "TgJ-orchestra-self-optimizing-inference-cloud-to-cut-your-ai-costs-by-100x",
+   "title": "Orchestra: Self-optimizing inference cloud to cut your AI costs by 100x",
+   "tagline": "Your AI inference gets smarter and cheaper the more you use it. ",
+   "date": "2026-09-07",
+   "votes": 3,
+   "url": "https://www.ycombinator.com/launches/TgJ-orchestra-self-optimizing-inference-cloud-to-cut-your-ai-costs-by-100x"
+  },
+  {
+   "slug": "SPb-understudy-the-self-optimizing-inference-cloud",
+   "title": "Understudy: The self-optimizing inference cloud",
+   "tagline": "We distill your production usage into cheaper, specialized models your company owns",
+   "date": "2026-08-05",
+   "votes": 15,
+   "url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud"
+  }
+ ]
+}

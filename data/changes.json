@@ -1,8 +1,10 @@
 {
- "date": "2026-09-08",
- "appeared": [],
+ "date": "2026-09-09",
+ "appeared": [
+  "orchestra"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 181,
- "present": 172
+ "total_tracked": 182,
+ "present": 173
 }
