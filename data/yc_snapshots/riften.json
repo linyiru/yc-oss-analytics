@@ -5,15 +5,15 @@
  "website": "https://riften.ai",
  "github_url": null,
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Reinforcement Learning",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
- "team_size": 0,
+ "team_size": 5,
  "location": "San Francisco",
  "country": "US",
  "partner": "Harshita Arora",
@@ -34,5 +34,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-09-07T11:25:03+00:00"
+ "fetched_at": "2026-09-10T10:28:05+00:00"
 }
