@@ -3,7 +3,7 @@
  "name": "OpenFoundry",
  "batch": "W24",
  "website": "https://www.openfoundry.ai/",
- "github_url": "https://github.com/openfoundry-ai",
+ "github_url": null,
  "tags": [
   "Developer Tools",
   "B2B",
@@ -36,5 +36,5 @@
  "page_repos": [
   "openfoundry-ai/model_manager"
  ],
- "fetched_at": "2026-08-24T06:47:12+00:00"
+ "fetched_at": "2026-09-12T09:58:29+00:00"
 }

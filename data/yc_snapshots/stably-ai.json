@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2022,
- "team_size": 4,
+ "team_size": 25,
  "location": "San Francisco",
  "country": "US",
  "partner": "Brad Flora",
@@ -40,5 +40,5 @@
  "page_repos": [
   "stablyai/orca"
  ],
- "fetched_at": "2026-08-24T06:47:19+00:00"
+ "fetched_at": "2026-09-12T09:58:36+00:00"
 }
