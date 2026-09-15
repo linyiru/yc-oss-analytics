@@ -1,0 +1,40 @@
+{
+ "slug": "modelence",
+ "name": "Modelence",
+ "batch": "S25",
+ "website": "https://modelence.com",
+ "github_url": "https://github.com/modelence",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Tyler Bosmeny",
+ "founders": [
+  {
+   "name": "Aram Shatakhtsyan",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Eduard Piliposyan",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "O5R-modelence-all-in-one-typescript-platform-for-startups",
+   "title": "Modelence: all-in-one TypeScript platform for startups",
+   "tagline": "Ship production AI apps 10x faster with built-in auth, database and LLM integration",
+   "date": "2025-07-30",
+   "votes": 19,
+   "url": "https://www.ycombinator.com/launches/O5R-modelence-all-in-one-typescript-platform-for-startups"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-09-15T10:55:00+00:00"
+}

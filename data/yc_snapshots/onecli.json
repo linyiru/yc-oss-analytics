@@ -3,13 +3,13 @@
  "name": "OneCLI",
  "batch": "S26",
  "website": "https://onecli.sh",
- "github_url": null,
+ "github_url": "",
  "tags": [
+  "AIOps",
+  "Artificial Intelligence",
   "B2B",
-  "Security",
-  "Open Source",
-  "Infrastructure",
-  "AI"
+  "Workflow Automation",
+  "Open Source"
  ],
  "status": "Active",
  "year_founded": null,
@@ -48,5 +48,5 @@
  "page_repos": [
   "onecli/onecli"
  ],
- "fetched_at": "2026-09-05T09:52:38+00:00"
+ "fetched_at": "2026-09-15T10:55:02+00:00"
 }
