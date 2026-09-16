@@ -43,7 +43,7 @@
    "title": "Firecrawl 🔥: Open source crawling and scraping for AI-ready web data",
    "tagline": "The easiest way to connect web data to your AI apps",
    "date": "2024-07-30",
-   "votes": 59,
+   "votes": 60,
    "url": "https://www.ycombinator.com/launches/LTf-firecrawl-open-source-crawling-and-scraping-for-ai-ready-web-data"
   },
   {
@@ -66,5 +66,5 @@
  "page_repos": [
   "mendableai/firecrawl"
  ],
- "fetched_at": "2026-08-24T06:47:01+00:00"
+ "fetched_at": "2026-09-16T10:44:12+00:00"
 }
