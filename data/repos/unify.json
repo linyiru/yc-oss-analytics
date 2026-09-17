@@ -3,7 +3,7 @@
  "github": "unifyai/unify",
  "yc": {
   "batch": "W23",
-  "team_size": 6,
+  "team_size": 4,
   "status": "Active",
   "one_liner": "AI teammates for everyone else 🤖",
   "website": "https://unify.ai",
@@ -419,22 +419,6 @@
  "stars_curve": [],
  "viral": null,
  "yc_launches": [
-  {
-   "slug": "PpG-unify-self-learning-virtual-colleauges",
-   "title": "Unify: Self-Learning Virtual Colleauges",
-   "tagline": "Your new hire learns on the job to master every workflow 🔁",
-   "date": "2026-03-31",
-   "votes": 9,
-   "url": "https://www.ycombinator.com/launches/PpG-unify-self-learning-virtual-colleauges"
-  },
-  {
-   "slug": "N5M-unify-notion-for-ai-observability",
-   "title": "Unify: Notion for AI Observability 📊",
-   "tagline": "Too Many Tools, Too Complex, Build Your Own Workflow in Seconds ⚡",
-   "date": "2025-03-18",
-   "votes": 15,
-   "url": "https://www.ycombinator.com/launches/N5M-unify-notion-for-ai-observability"
-  },
   {
    "slug": "L4t-unify-the-best-llm-on-every-prompt",
    "title": "Unify - The best LLM on every prompt ✨",
