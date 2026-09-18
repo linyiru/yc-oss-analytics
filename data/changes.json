@@ -1,11 +1,7 @@
 {
- "date": "2026-09-17",
- "appeared": [
-  "teclada"
- ],
- "disappeared": [
-  "kv-cash"
- ],
+ "date": "2026-09-18",
+ "appeared": [],
+ "disappeared": [],
  "restored": [],
  "total_tracked": 184,
  "present": 174
