@@ -5,11 +5,11 @@
  "website": "https://tracecat.com",
  "github_url": "https://github.com/TracecatHQ/tracecat",
  "tags": [
-  "Security",
+  "Artificial Intelligence",
   "Open Source",
+  "Cybersecurity",
   "Enterprise",
-  "Automation",
-  "AI"
+  "Automation"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -31,5 +31,5 @@
  "page_repos": [
   "TracecatHQ/tracecat"
  ],
- "fetched_at": "2026-08-27T17:15:22+00:00"
+ "fetched_at": "2026-09-19T10:12:11+00:00"
 }
