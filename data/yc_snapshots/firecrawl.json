@@ -5,9 +5,9 @@
  "website": "https://www.firecrawl.dev",
  "github_url": "https://github.com/firecrawl",
  "tags": [
+  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source",
-  "AI"
+  "Open Source"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -66,5 +66,5 @@
  "page_repos": [
   "mendableai/firecrawl"
  ],
- "fetched_at": "2026-09-16T10:44:12+00:00"
+ "fetched_at": "2026-09-20T10:30:16+00:00"
 }
