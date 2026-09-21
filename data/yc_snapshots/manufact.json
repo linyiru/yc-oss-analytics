@@ -14,8 +14,8 @@
  "status": "Active",
  "year_founded": 2025,
  "team_size": 5,
- "location": "San Francisco",
- "country": "US",
+ "location": "Switzerland",
+ "country": "CH",
  "partner": "Jon Xu",
  "founders": [
   {
@@ -48,5 +48,5 @@
  "page_repos": [
   "mcp-use/mcp-use"
  ],
- "fetched_at": "2026-09-09T10:39:48+00:00"
+ "fetched_at": "2026-09-21T11:49:02+00:00"
 }

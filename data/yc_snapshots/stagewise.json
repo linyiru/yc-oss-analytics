@@ -4,7 +4,11 @@
  "batch": "S25",
  "website": "https://stagewise.io",
  "github_url": "",
- "tags": [],
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source"
+ ],
  "status": "Active",
  "year_founded": 2024,
  "team_size": 2,
@@ -32,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:20+00:00"
+ "fetched_at": "2026-09-21T11:49:14+00:00"
 }
