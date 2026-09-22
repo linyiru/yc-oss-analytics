@@ -3,7 +3,7 @@
  "github": "BerriAI/litellm",
  "yc": {
   "batch": "W23",
-  "team_size": 10,
+  "team_size": 20,
   "status": "Active",
   "one_liner": "Call every LLM API like it's OpenAI [100+ LLMs]",
   "website": "https://www.litellm.ai/",

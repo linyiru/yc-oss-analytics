@@ -18,3 +18,4 @@
 {"date": "2026-09-09", "appeared": ["orchestra"], "disappeared": [], "restored": [], "total_tracked": 182, "present": 173}
 {"date": "2026-09-15", "appeared": ["modelence"], "disappeared": [], "restored": [], "total_tracked": 183, "present": 174}
 {"date": "2026-09-17", "appeared": ["teclada"], "disappeared": ["kv-cash"], "restored": [], "total_tracked": 184, "present": 174}
+{"date": "2026-09-22", "appeared": [], "disappeared": [], "restored": ["stagewise"], "total_tracked": 184, "present": 175}

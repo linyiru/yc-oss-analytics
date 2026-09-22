@@ -3,7 +3,7 @@
  "github": "unslothai/unsloth",
  "yc": {
   "batch": "S24",
-  "team_size": 8,
+  "team_size": 12,
   "status": "Active",
   "one_liner": "Open-Source Reinforcement Learning (RL) & Fine-tuning for LLMs.",
   "website": "https://unsloth.ai/",

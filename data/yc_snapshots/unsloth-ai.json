@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2023,
- "team_size": 8,
+ "team_size": 12,
  "location": "San Francisco",
  "country": "US",
  "partner": "Nicolas Dessaigne",
@@ -31,5 +31,5 @@
  "page_repos": [
   "unslothai/unsloth"
  ],
- "fetched_at": "2026-06-07T15:58:55+00:00"
+ "fetched_at": "2026-09-22T10:51:16+00:00"
 }
