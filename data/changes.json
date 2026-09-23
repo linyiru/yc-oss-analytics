@@ -1,10 +1,10 @@
 {
- "date": "2026-09-22",
- "appeared": [],
- "disappeared": [],
- "restored": [
-  "stagewise"
+ "date": "2026-09-23",
+ "appeared": [
+  "runanywhere"
  ],
- "total_tracked": 184,
- "present": 175
+ "disappeared": [],
+ "restored": [],
+ "total_tracked": 185,
+ "present": 176
 }

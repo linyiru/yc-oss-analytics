@@ -1,0 +1,44 @@
+{
+ "slug": "runanywhere",
+ "name": "RunAnywhere",
+ "batch": "W26",
+ "website": "https://www.runanywhere.ai/",
+ "github_url": "https://github.com/RunanywhereAI",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 5,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Sanchit Monga",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Shubham Malhotra",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "PFB-runanywhere-the-default-way-to-run-on-device-ai-at-scale",
+   "title": "RunAnywhere: The default way to run On-Device AI at scale",
+   "tagline": "One SDK + Control Plane to Deploy, Route, Update, and Observe On-Device AI – Offline-First, Hybrid-Smart, Fleet-Managed",
+   "date": "2026-01-22",
+   "votes": 25,
+   "url": "https://www.ycombinator.com/launches/PFB-runanywhere-the-default-way-to-run-on-device-ai-at-scale"
+  }
+ ],
+ "page_repos": [
+  "RunanywhereAI/runanywhere-sdks"
+ ],
+ "fetched_at": "2026-09-23T10:40:04+00:00"
+}
