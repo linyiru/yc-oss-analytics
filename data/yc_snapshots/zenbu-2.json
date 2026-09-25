@@ -5,9 +5,9 @@
  "website": "https://www.zenbu.dev/",
  "github_url": "https://github.com/zenbu-labs",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -31,6 +31,8 @@
    "url": "https://www.ycombinator.com/launches/Qey-zenbu-the-extensible-ide-for-managing-coding-agents"
   }
  ],
- "page_repos": [],
- "fetched_at": "2026-08-24T06:47:26+00:00"
+ "page_repos": [
+  "zenbu-labs/terminal-browser"
+ ],
+ "fetched_at": "2026-09-25T11:00:23+00:00"
 }
