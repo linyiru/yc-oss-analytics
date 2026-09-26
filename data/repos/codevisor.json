@@ -1,0 +1,385 @@
+{
+ "slug": "codevisor",
+ "github": "851-labs/codevisor",
+ "yc": {
+  "batch": "W25",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "The fastest native app for agentic engineering.",
+  "website": "https://www.codevisor.dev",
+  "industry": "B2B",
+  "name": "Codevisor",
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "partner": "Jared Friedman",
+  "founders": [
+   {
+    "name": "Alexandru Turcanu",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Dylan Player",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 15,
+  "forks": 3,
+  "watchers": 0,
+  "open_issues": 0,
+  "commits": 1727,
+  "contributors": 4,
+  "license": "AGPL-3.0",
+  "created": "2026-07-01",
+  "primary_lang": "Swift",
+  "license_detail": {
+   "spdx": "AGPL-3.0",
+   "detected": "AGPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-06-30",
+  "last": "2026-09-25",
+  "span_months": 2.9
+ },
+ "intensity": {
+  "commits_per_week": 139.0,
+  "per_day": 19.85,
+  "weekend_pct": 10.0,
+  "punchcard": [
+   [
+    5,
+    5,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    4,
+    11,
+    19,
+    22,
+    34,
+    24,
+    22,
+    5,
+    9,
+    10,
+    9,
+    7,
+    8,
+    19
+   ],
+   [
+    12,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    24,
+    21,
+    18,
+    15,
+    26,
+    42,
+    21,
+    17,
+    11,
+    30,
+    21,
+    22,
+    12
+   ],
+   [
+    10,
+    7,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    5,
+    12,
+    14,
+    13,
+    25,
+    28,
+    49,
+    33,
+    11,
+    15,
+    14,
+    16,
+    15,
+    23,
+    11
+   ],
+   [
+    4,
+    11,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    17,
+    30,
+    42,
+    51,
+    39,
+    20,
+    21,
+    30,
+    17,
+    14,
+    19,
+    34,
+    22
+   ],
+   [
+    12,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    8,
+    37,
+    37,
+    55,
+    34,
+    39,
+    27,
+    21,
+    15,
+    7,
+    16,
+    9,
+    11,
+    7
+   ],
+   [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    6,
+    5,
+    4,
+    7,
+    13,
+    5,
+    10,
+    2,
+    7,
+    5,
+    3,
+    2
+   ],
+   [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    7,
+    11,
+    13,
+    18,
+    5,
+    5,
+    10,
+    5,
+    12
+   ]
+  ],
+  "dow": [
+   217,
+   299,
+   309,
+   382,
+   347,
+   77,
+   96
+  ],
+  "ai_coauthor_total": 944
+ },
+ "workflow": {
+  "conventional_pct": 12,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 60
+   },
+   {
+    "k": "feat",
+    "v": 50
+   },
+   {
+    "k": "macos",
+    "v": 37
+   },
+   {
+    "k": "ci",
+    "v": 15
+   },
+   {
+    "k": "ios",
+    "v": 8
+   },
+   {
+    "k": "chore",
+    "v": 7
+   },
+   {
+    "k": "perf",
+    "v": 5
+   }
+  ],
+  "merge_pct": 0.3,
+  "median_msg_len": 51
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 799,
+  "commits_90d": 1727,
+  "commits_365d": 1727,
+  "active_contributors_90d": 4,
+  "years_since_first_commit": 0.2,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.8,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-06",
+   "c": 27
+  },
+  {
+   "m": "2026-07",
+   "c": 630
+  },
+  {
+   "m": "2026-08",
+   "c": 402
+  },
+  {
+   "m": "2026-09",
+   "c": 668
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Dylan Player",
+   "count": 1168,
+   "pct": 67.6
+  },
+  {
+   "name": "Alexandru Ţurcanu",
+   "count": 546,
+   "pct": 31.6
+  },
+  {
+   "name": "Dylan Player",
+   "count": 11,
+   "pct": 0.6
+  },
+  {
+   "name": "Codevisor Test",
+   "count": 2,
+   "pct": 0.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Swift": 10877109,
+   "TypeScript": 7164752,
+   "JavaScript": 481258,
+   "Shell": 106611,
+   "Objective-C++": 58133,
+   "MDX": 54165,
+   "Python": 49549,
+   "Tree-sitter Query": 47667,
+   "CSS": 11914,
+   "HTML": 11381,
+   "Objective-C": 6716,
+   "C++": 3992,
+   "Dockerfile": 587,
+   "C": 18
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "bun",
+  "deps_top": [],
+  "infra": [
+   "bun",
+   "turborepo"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "OLT-lightbox-cursor-for-content-creation",
+   "title": "Lightbox - Cursor for Content Creation",
+   "tagline": "From idea to brand, merch, or UGC — all in one AI-native flow.",
+   "date": "2025-09-04",
+   "votes": 20,
+   "url": "https://www.ycombinator.com/launches/OLT-lightbox-cursor-for-content-creation"
+  },
+  {
+   "slug": "MuK-emojis-com-ai-copilot-for-graphic-design",
+   "title": "emojis.com - AI Copilot for graphic design",
+   "tagline": "We allow small businesses to easily create brand assets, like logos and icons, with AI",
+   "date": "2025-02-26",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/MuK-emojis-com-ai-copilot-for-graphic-design"
+  }
+ ]
+}

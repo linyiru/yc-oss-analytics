@@ -9,7 +9,7 @@
   "Messaging",
   "Open Source"
  ],
- "status": "Active",
+ "status": "Inactive",
  "year_founded": 2022,
  "team_size": 2,
  "location": "Los Angeles, CA",
@@ -46,5 +46,5 @@
  "page_repos": [
   "dittofeed/dittofeed"
  ],
- "fetched_at": "2026-06-07T15:58:20+00:00"
+ "fetched_at": "2026-09-26T10:42:20+00:00"
 }

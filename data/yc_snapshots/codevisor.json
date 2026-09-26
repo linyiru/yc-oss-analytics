@@ -1,0 +1,48 @@
+{
+ "slug": "codevisor",
+ "name": "Codevisor",
+ "batch": "W25",
+ "website": "https://www.codevisor.dev",
+ "github_url": "https://github.com/851-labs",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jared Friedman",
+ "founders": [
+  {
+   "name": "Alexandru Turcanu",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Dylan Player",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "OLT-lightbox-cursor-for-content-creation",
+   "title": "Lightbox - Cursor for Content Creation",
+   "tagline": "From idea to brand, merch, or UGC — all in one AI-native flow.",
+   "date": "2025-09-04",
+   "votes": 20,
+   "url": "https://www.ycombinator.com/launches/OLT-lightbox-cursor-for-content-creation"
+  },
+  {
+   "slug": "MuK-emojis-com-ai-copilot-for-graphic-design",
+   "title": "emojis.com - AI Copilot for graphic design",
+   "tagline": "We allow small businesses to easily create brand assets, like logos and icons, with AI",
+   "date": "2025-02-26",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/MuK-emojis-com-ai-copilot-for-graphic-design"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-09-26T10:42:17+00:00"
+}
