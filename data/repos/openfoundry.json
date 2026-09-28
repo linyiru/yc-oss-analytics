@@ -17,7 +17,7 @@
     "title": "Founder/CEO"
    }
   ],
-  "name": "OpenFoundry"
+  "name": "Overheard"
  },
  "metrics": {
   "stars": 342,
@@ -909,12 +909,12 @@
  },
  "yc_launches": [
   {
-   "slug": "KhY-openfoundry-developer-infrastructure-for-open-source-ai",
-   "title": "OpenFoundry: Developer infrastructure for open source AI 🛠️🤖",
-   "tagline": "The fastest developer experience for building on open source AI.",
+   "slug": "KhY-overheard-formerly-openfoundry-know-what-to-build-next-backed-by-what-your-users-actually-said",
+   "title": "Overheard (formerly OpenFoundry): Know what to build next, backed by what your users actually said",
+   "tagline": "An AI product researcher that interviews your users.",
    "date": "2024-03-21",
    "votes": 59,
-   "url": "https://www.ycombinator.com/launches/KhY-openfoundry-developer-infrastructure-for-open-source-ai"
+   "url": "https://www.ycombinator.com/launches/KhY-overheard-formerly-openfoundry-know-what-to-build-next-backed-by-what-your-users-actually-said"
   }
  ]
 }

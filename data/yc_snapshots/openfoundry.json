@@ -1,14 +1,14 @@
 {
- "slug": "openfoundry",
- "name": "OpenFoundry",
+ "slug": "overheard",
+ "name": "Overheard",
  "batch": "W24",
- "website": "https://www.openfoundry.ai/",
- "github_url": null,
+ "website": "https://withoverheard.com",
+ "github_url": "",
  "tags": [
-  "Developer Tools",
   "B2B",
-  "Open Source",
-  "Infrastructure",
+  "Productivity",
+  "Design",
+  "Market Research",
   "AI"
  ],
  "status": "Active",
@@ -25,16 +25,16 @@
  ],
  "launches": [
   {
-   "slug": "KhY-openfoundry-developer-infrastructure-for-open-source-ai",
-   "title": "OpenFoundry: Developer infrastructure for open source AI 🛠️🤖",
-   "tagline": "The fastest developer experience for building on open source AI.",
+   "slug": "KhY-overheard-formerly-openfoundry-know-what-to-build-next-backed-by-what-your-users-actually-said",
+   "title": "Overheard (formerly OpenFoundry): Know what to build next, backed by what your users actually said",
+   "tagline": "An AI product researcher that interviews your users.",
    "date": "2024-03-21",
    "votes": 59,
-   "url": "https://www.ycombinator.com/launches/KhY-openfoundry-developer-infrastructure-for-open-source-ai"
+   "url": "https://www.ycombinator.com/launches/KhY-overheard-formerly-openfoundry-know-what-to-build-next-backed-by-what-your-users-actually-said"
   }
  ],
  "page_repos": [
   "openfoundry-ai/model_manager"
  ],
- "fetched_at": "2026-09-12T09:58:29+00:00"
+ "fetched_at": "2026-09-28T12:44:06+00:00"
 }
