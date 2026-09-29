@@ -1,0 +1,429 @@
+{
+ "slug": "traceroot-ai",
+ "github": "traceroot-ai/traceroot",
+ "yc": {
+  "batch": "S25",
+  "team_size": 4,
+  "status": "Active",
+  "one_liner": "Open source self-improving layer for AI agents",
+  "website": "https://traceroot.ai",
+  "industry": "B2B",
+  "name": "TraceRoot.AI",
+  "year_founded": 2025,
+  "location": "San Francisco",
+  "partner": "Jon Xu",
+  "founders": [
+   {
+    "name": "Xinwei He",
+    "title": "Founder/CEO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 786,
+  "forks": 261,
+  "watchers": 2,
+  "open_issues": 502,
+  "commits": 3474,
+  "contributors": 86,
+  "license": "NOASSERTION",
+  "created": "2025-07-22",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Apache-2.0 + EE",
+   "model": "Open-core",
+   "source_available": false,
+   "ee": true
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-07-22",
+  "last": "2026-09-29",
+  "span_months": 14.2
+ },
+ "intensity": {
+  "commits_per_week": 56.2,
+  "per_day": 8.02,
+  "weekend_pct": 15.5,
+  "punchcard": [
+   [
+    14,
+    18,
+    5,
+    13,
+    3,
+    0,
+    0,
+    0,
+    4,
+    10,
+    16,
+    37,
+    58,
+    42,
+    41,
+    44,
+    46,
+    33,
+    24,
+    35,
+    22,
+    37,
+    38,
+    24
+   ],
+   [
+    27,
+    20,
+    20,
+    9,
+    3,
+    1,
+    1,
+    2,
+    5,
+    27,
+    27,
+    40,
+    58,
+    47,
+    48,
+    56,
+    58,
+    56,
+    14,
+    19,
+    25,
+    28,
+    27,
+    27
+   ],
+   [
+    14,
+    15,
+    11,
+    8,
+    3,
+    0,
+    0,
+    6,
+    3,
+    12,
+    27,
+    43,
+    54,
+    61,
+    62,
+    62,
+    46,
+    37,
+    45,
+    39,
+    10,
+    40,
+    48,
+    51
+   ],
+   [
+    34,
+    29,
+    12,
+    2,
+    2,
+    0,
+    1,
+    3,
+    17,
+    24,
+    26,
+    47,
+    58,
+    68,
+    68,
+    62,
+    45,
+    51,
+    26,
+    17,
+    37,
+    17,
+    22,
+    15
+   ],
+   [
+    18,
+    26,
+    12,
+    3,
+    4,
+    1,
+    1,
+    4,
+    5,
+    9,
+    15,
+    20,
+    17,
+    43,
+    34,
+    30,
+    13,
+    40,
+    8,
+    4,
+    4,
+    14,
+    11,
+    10
+   ],
+   [
+    16,
+    12,
+    13,
+    9,
+    5,
+    1,
+    2,
+    6,
+    2,
+    6,
+    13,
+    11,
+    16,
+    21,
+    9,
+    19,
+    7,
+    15,
+    21,
+    12,
+    5,
+    5,
+    12,
+    30
+   ],
+   [
+    20,
+    9,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    16,
+    7,
+    18,
+    9,
+    25,
+    19,
+    29,
+    23,
+    20,
+    8,
+    5,
+    14,
+    19,
+    8,
+    14
+   ]
+  ],
+  "dow": [
+   564,
+   645,
+   697,
+   683,
+   346,
+   268,
+   271
+  ],
+  "ai_coauthor_total": 1242
+ },
+ "workflow": {
+  "conventional_pct": 77,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 1064
+   },
+   {
+    "k": "feat",
+    "v": 715
+   },
+   {
+    "k": "test",
+    "v": 229
+   },
+   {
+    "k": "docs",
+    "v": 179
+   },
+   {
+    "k": "chore",
+    "v": 149
+   },
+   {
+    "k": "refactor",
+    "v": 118
+   },
+   {
+    "k": "style",
+    "v": 41
+   }
+  ],
+  "merge_pct": 28.8,
+  "median_msg_len": 61
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 619,
+  "commits_90d": 1686,
+  "commits_365d": 3129,
+  "active_contributors_90d": 33,
+  "years_since_first_commit": 1.2,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2025,
+  "batch_age_years": 1.8,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-07",
+   "c": 57
+  },
+  {
+   "m": "2025-08",
+   "c": 159
+  },
+  {
+   "m": "2025-09",
+   "c": 158
+  },
+  {
+   "m": "2025-10",
+   "c": 75
+  },
+  {
+   "m": "2025-11",
+   "c": 40
+  },
+  {
+   "m": "2025-12",
+   "c": 4
+  },
+  {
+   "m": "2026-01",
+   "c": 42
+  },
+  {
+   "m": "2026-02",
+   "c": 105
+  },
+  {
+   "m": "2026-03",
+   "c": 288
+  },
+  {
+   "m": "2026-04",
+   "c": 279
+  },
+  {
+   "m": "2026-05",
+   "c": 180
+  },
+  {
+   "m": "2026-06",
+   "c": 415
+  },
+  {
+   "m": "2026-07",
+   "c": 588
+  },
+  {
+   "m": "2026-08",
+   "c": 487
+  },
+  {
+   "m": "2026-09",
+   "c": 597
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Hao Yan",
+   "count": 761,
+   "pct": 21.9
+  },
+  {
+   "name": "XinweiHe",
+   "count": 731,
+   "pct": 21.0
+  },
+  {
+   "name": "ka1kqi",
+   "count": 659,
+   "pct": 19.0
+  },
+  {
+   "name": "GabrielDrapor",
+   "count": 257,
+   "pct": 7.4
+  },
+  {
+   "name": "Zecheng Zhang",
+   "count": 214,
+   "pct": 6.2
+  },
+  {
+   "name": "Lucas",
+   "count": 189,
+   "pct": 5.4
+  },
+  {
+   "name": "shirleyai-co",
+   "count": 175,
+   "pct": 5.0
+  },
+  {
+   "name": "Sundaram Kumar Jha",
+   "count": 44,
+   "pct": 1.3
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 7347850,
+   "Python": 2672928,
+   "Shell": 8145,
+   "JavaScript": 6169,
+   "PLpgSQL": 4980,
+   "Makefile": 2078,
+   "CSS": 1668
+  },
+  "manifests": [
+   "pyproject.toml"
+  ],
+  "pkg_manager": "uv",
+  "deps_top": [],
+  "infra": [
+   "docker-compose"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "O8v-traceroot-open-source-ai-agents-that-automatically-fix-your-production-bugs",
+   "title": "TraceRoot - Open source AI agents that automatically fix your production bugs",
+   "tagline": "We help engineering teams fix production bugs faster using AI agents.",
+   "date": "2025-08-07",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/O8v-traceroot-open-source-ai-agents-that-automatically-fix-your-production-bugs"
+  }
+ ]
+}

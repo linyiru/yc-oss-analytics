@@ -1,8 +1,12 @@
 {
- "date": "2026-09-28",
- "appeared": [],
- "disappeared": [],
+ "date": "2026-09-29",
+ "appeared": [
+  "traceroot-ai"
+ ],
+ "disappeared": [
+  "openfoundry"
+ ],
  "restored": [],
- "total_tracked": 186,
+ "total_tracked": 187,
  "present": 177
 }

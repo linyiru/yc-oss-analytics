@@ -13,7 +13,7 @@
  ],
  "status": "Acquired",
  "year_founded": 2022,
- "team_size": 19,
+ "team_size": 26,
  "location": "Berlin, Germany",
  "country": "DE",
  "partner": "Gustaf Alstromer",
@@ -52,5 +52,5 @@
  "page_repos": [
   "langfuse/langfuse"
  ],
- "fetched_at": "2026-08-24T06:47:06+00:00"
+ "fetched_at": "2026-09-29T12:00:30+00:00"
 }

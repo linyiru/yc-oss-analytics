@@ -5,13 +5,13 @@
  "website": "https://tiptap.dev/",
  "github_url": "https://github.com/ueberdosis/tiptap",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2022,
- "team_size": 19,
+ "team_size": 20,
  "location": "Berlin, Germany",
  "country": "DE",
  "partner": "Tom Blomfield",
@@ -103,5 +103,5 @@
   "ueberdosis/tiptap",
   "ueberdosis/tiptap-ui-components"
  ],
- "fetched_at": "2026-06-30T07:19:38+00:00"
+ "fetched_at": "2026-09-29T12:00:51+00:00"
 }
