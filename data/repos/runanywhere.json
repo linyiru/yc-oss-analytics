@@ -432,6 +432,14 @@
  "viral": null,
  "yc_launches": [
   {
+   "slug": "UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",
+   "title": "Wally by RunAnywhere: The fastest inference for open frontier models",
+   "tagline": "Open-weight frontier models at real-time speed for voice and agent products, live on day one. Serverless, BYOC or on-prem.",
+   "date": "2026-09-29",
+   "votes": 0,
+   "url": "https://www.ycombinator.com/launches/UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models"
+  },
+  {
    "slug": "PFB-runanywhere-the-default-way-to-run-on-device-ai-at-scale",
    "title": "RunAnywhere: The default way to run On-Device AI at scale",
    "tagline": "One SDK + Control Plane to Deploy, Route, Update, and Observe On-Device AI – Offline-First, Hybrid-Smart, Fleet-Managed",

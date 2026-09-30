@@ -1,0 +1,29 @@
+{
+ "slug": "openseo",
+ "name": "OpenSEO",
+ "batch": "F26",
+ "website": "https://openseo.so/",
+ "github_url": "https://github.com/every-app/open-seo",
+ "tags": [
+  "Open Source",
+  "Marketing",
+  "SEO"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "Boston",
+ "country": "US",
+ "partner": "Charlie Warren",
+ "founders": [
+  {
+   "name": "Ben Senescu",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "every-app/open-seo"
+ ],
+ "fetched_at": "2026-09-30T11:49:12+00:00"
+}
