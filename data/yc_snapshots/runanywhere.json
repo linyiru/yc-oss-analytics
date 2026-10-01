@@ -33,7 +33,7 @@
    "title": "Wally by RunAnywhere: The fastest inference for open frontier models",
    "tagline": "Open-weight frontier models at real-time speed for voice and agent products, live on day one. Serverless, BYOC or on-prem.",
    "date": "2026-09-29",
-   "votes": 0,
+   "votes": 10,
    "url": "https://www.ycombinator.com/launches/UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models"
   },
   {
@@ -48,5 +48,5 @@
  "page_repos": [
   "RunanywhereAI/runanywhere-sdks"
  ],
- "fetched_at": "2026-09-30T11:49:18+00:00"
+ "fetched_at": "2026-10-01T12:18:39+00:00"
 }

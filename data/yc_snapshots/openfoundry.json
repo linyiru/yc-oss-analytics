@@ -5,11 +5,11 @@
  "website": "https://withoverheard.com",
  "github_url": "",
  "tags": [
+  "Artificial Intelligence",
   "B2B",
   "Productivity",
   "Design",
-  "Market Research",
-  "AI"
+  "Market Research"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -36,5 +36,5 @@
  "page_repos": [
   "openfoundry-ai/model_manager"
  ],
- "fetched_at": "2026-09-28T12:44:06+00:00"
+ "fetched_at": "2026-10-01T12:18:30+00:00"
 }
