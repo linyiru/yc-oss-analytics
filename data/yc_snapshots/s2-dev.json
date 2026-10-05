@@ -25,10 +25,6 @@
   {
    "name": "Stephen Balogh",
    "title": "Founder/CTO"
-  },
-  {
-   "name": "Dwarak Govind Parthiban",
-   "title": "Founder"
   }
  ],
  "launches": [
@@ -44,5 +40,5 @@
  "page_repos": [
   "s2-streamstore/s2"
  ],
- "fetched_at": "2026-08-24T06:47:18+00:00"
+ "fetched_at": "2026-10-05T13:25:24+00:00"
 }
