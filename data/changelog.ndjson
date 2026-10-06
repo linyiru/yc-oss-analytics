@@ -23,3 +23,4 @@
 {"date": "2026-09-26", "appeared": ["codevisor"], "disappeared": [], "restored": [], "total_tracked": 186, "present": 177}
 {"date": "2026-09-29", "appeared": ["traceroot-ai"], "disappeared": ["openfoundry"], "restored": [], "total_tracked": 187, "present": 177}
 {"date": "2026-09-30", "appeared": ["openseo"], "disappeared": [], "restored": [], "total_tracked": 188, "present": 178}
+{"date": "2026-10-06", "appeared": [], "disappeared": ["vendo", "riften"], "restored": [], "total_tracked": 188, "present": 176}
