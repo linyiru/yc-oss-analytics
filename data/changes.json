@@ -1,11 +1,10 @@
 {
- "date": "2026-10-06",
- "appeared": [],
- "disappeared": [
-  "vendo",
-  "riften"
+ "date": "2026-10-07",
+ "appeared": [
+  "acyclic"
  ],
+ "disappeared": [],
  "restored": [],
- "total_tracked": 188,
- "present": 176
+ "total_tracked": 189,
+ "present": 177
 }

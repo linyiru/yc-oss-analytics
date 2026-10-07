@@ -1,0 +1,21 @@
+{
+ "slug": "acyclic",
+ "name": "Acyclic Labs",
+ "batch": "F26",
+ "website": "https://acyclic.dev",
+ "github_url": "https://github.com/acyclic-labs",
+ "tags": [
+  "Swarm AI",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Aaron Epstein",
+ "founders": [],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-10-07T12:31:57+00:00"
+}
