@@ -1,8 +1,10 @@
 {
- "date": "2026-10-08",
- "appeared": [],
+ "date": "2026-10-09",
+ "appeared": [
+  "lucebox"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 189,
- "present": 177
+ "total_tracked": 190,
+ "present": 178
 }

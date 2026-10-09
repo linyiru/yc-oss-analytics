@@ -1,0 +1,32 @@
+{
+ "slug": "lucebox",
+ "name": "Lucebox",
+ "batch": "W27",
+ "website": "https://www.lucebox.com/",
+ "github_url": "https://github.com/Luce-Org/lucebox-hub",
+ "tags": [
+  "Hardware",
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 2,
+ "location": "Milan, Italy",
+ "country": "IT",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Alessandro Puppo",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Davide Cifarelli",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "Luce-Org/lucebox-hub"
+ ],
+ "fetched_at": "2026-10-09T12:28:33+00:00"
+}

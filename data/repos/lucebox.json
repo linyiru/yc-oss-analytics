@@ -1,0 +1,400 @@
+{
+ "slug": "lucebox",
+ "github": "Luce-Org/lucebox",
+ "yc": {
+  "batch": "W27",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Self-improving inference workstation",
+  "website": "https://www.lucebox.com/",
+  "industry": "Consumer",
+  "name": "Lucebox",
+  "year_founded": 2025,
+  "location": "Milan, Italy",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Alessandro Puppo",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Davide Cifarelli",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 2904,
+  "forks": 283,
+  "watchers": 23,
+  "open_issues": 105,
+  "commits": 1527,
+  "contributors": 79,
+  "license": "Apache-2.0",
+  "created": "2026-04-03",
+  "primary_lang": "C++",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-04-03",
+  "last": "2026-10-09",
+  "span_months": 6.2
+ },
+ "intensity": {
+  "commits_per_week": 56.9,
+  "per_day": 8.12,
+  "weekend_pct": 20.8,
+  "punchcard": [
+   [
+    20,
+    12,
+    8,
+    2,
+    0,
+    0,
+    1,
+    4,
+    7,
+    9,
+    21,
+    19,
+    18,
+    17,
+    12,
+    16,
+    23,
+    17,
+    20,
+    16,
+    5,
+    7,
+    6,
+    10
+   ],
+   [
+    7,
+    6,
+    4,
+    3,
+    1,
+    2,
+    3,
+    6,
+    2,
+    4,
+    22,
+    9,
+    9,
+    16,
+    7,
+    4,
+    15,
+    8,
+    11,
+    15,
+    9,
+    6,
+    2,
+    5
+   ],
+   [
+    13,
+    7,
+    1,
+    3,
+    0,
+    1,
+    1,
+    3,
+    6,
+    6,
+    12,
+    19,
+    15,
+    15,
+    13,
+    20,
+    7,
+    23,
+    23,
+    14,
+    15,
+    11,
+    18,
+    14
+   ],
+   [
+    9,
+    7,
+    1,
+    0,
+    3,
+    0,
+    0,
+    7,
+    9,
+    11,
+    12,
+    16,
+    17,
+    19,
+    12,
+    20,
+    13,
+    11,
+    14,
+    17,
+    12,
+    8,
+    14,
+    9
+   ],
+   [
+    9,
+    10,
+    2,
+    9,
+    4,
+    3,
+    0,
+    3,
+    7,
+    5,
+    7,
+    12,
+    13,
+    13,
+    2,
+    9,
+    14,
+    34,
+    35,
+    33,
+    7,
+    10,
+    8,
+    13
+   ],
+   [
+    7,
+    4,
+    3,
+    2,
+    2,
+    6,
+    3,
+    6,
+    2,
+    5,
+    4,
+    5,
+    11,
+    14,
+    11,
+    8,
+    11,
+    15,
+    8,
+    5,
+    8,
+    8,
+    7,
+    10
+   ],
+   [
+    3,
+    8,
+    7,
+    2,
+    1,
+    2,
+    1,
+    4,
+    3,
+    3,
+    9,
+    5,
+    6,
+    14,
+    11,
+    6,
+    8,
+    9,
+    9,
+    3,
+    4,
+    8,
+    16,
+    11
+   ]
+  ],
+  "dow": [
+   270,
+   176,
+   260,
+   241,
+   262,
+   165,
+   153
+  ],
+  "ai_coauthor_total": 192
+ },
+ "workflow": {
+  "conventional_pct": 82,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 447
+   },
+   {
+    "k": "feat",
+    "v": 205
+   },
+   {
+    "k": "perf",
+    "v": 132
+   },
+   {
+    "k": "docs",
+    "v": 129
+   },
+   {
+    "k": "test",
+    "v": 87
+   },
+   {
+    "k": "refactor",
+    "v": 43
+   },
+   {
+    "k": "chore",
+    "v": 36
+   }
+  ],
+  "merge_pct": 22.3,
+  "median_msg_len": 58
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 212,
+  "commits_90d": 627,
+  "commits_365d": 1527,
+  "active_contributors_90d": 30,
+  "years_since_first_commit": 0.5,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2027,
+  "batch_age_years": -0.2,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-04",
+   "c": 135
+  },
+  {
+   "m": "2026-05",
+   "c": 542
+  },
+  {
+   "m": "2026-06",
+   "c": 191
+  },
+  {
+   "m": "2026-07",
+   "c": 152
+  },
+  {
+   "m": "2026-08",
+   "c": 176
+  },
+  {
+   "m": "2026-09",
+   "c": 303
+  },
+  {
+   "m": "2026-10",
+   "c": 28
+  }
+ ],
+ "contributors": [
+  {
+   "name": "mrciffa",
+   "count": 446,
+   "pct": 29.2
+  },
+  {
+   "name": "Howard Su",
+   "count": 274,
+   "pct": 17.9
+  },
+  {
+   "name": "dusterbloom",
+   "count": 100,
+   "pct": 6.5
+  },
+  {
+   "name": "Marcelo Ribeiro Mendes",
+   "count": 81,
+   "pct": 5.3
+  },
+  {
+   "name": "mrciffa",
+   "count": 75,
+   "pct": 4.9
+  },
+  {
+   "name": "Graffioh",
+   "count": 63,
+   "pct": 4.1
+  },
+  {
+   "name": "weicj",
+   "count": 61,
+   "pct": 4.0
+  },
+  {
+   "name": "cheese-cakee",
+   "count": 48,
+   "pct": 3.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "C++": 17560483,
+   "Cuda": 3671758,
+   "C": 3531988,
+   "Python": 1711185,
+   "Metal": 444070,
+   "CMake": 353298,
+   "GLSL": 300400,
+   "WGSL": 220361,
+   "Shell": 161476,
+   "Go Template": 99108,
+   "Objective-C": 90211,
+   "Dockerfile": 14616,
+   "HTML": 14254,
+   "HCL": 7312,
+   "Makefile": 3882,
+   "Jinja": 67
+  },
+  "manifests": [
+   "pyproject.toml"
+  ],
+  "pkg_manager": "uv",
+  "deps_top": [],
+  "infra": [
+   "docker"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

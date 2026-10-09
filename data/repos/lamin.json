@@ -3,7 +3,7 @@
  "github": "laminlabs/lamindb",
  "yc": {
   "batch": "S22",
-  "team_size": 10,
+  "team_size": 12,
   "status": "Active",
   "one_liner": "Open data lakehouse for biology",
   "website": "https://lamin.ai",

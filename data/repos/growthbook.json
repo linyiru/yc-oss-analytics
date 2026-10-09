@@ -3,7 +3,7 @@
  "github": "growthbook/growthbook",
  "yc": {
   "batch": "W22",
-  "team_size": 40,
+  "team_size": 46,
   "status": "Active",
   "one_liner": "Open source feature flagging and A/B testing",
   "website": "https://www.growthbook.io",
