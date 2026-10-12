@@ -3,7 +3,7 @@
  "github": "questdb/questdb",
  "yc": {
   "batch": "S20",
-  "team_size": 30,
+  "team_size": 20,
   "status": "Active",
   "one_liner": "The fastest open source time series database",
   "website": "https://questdb.io/",

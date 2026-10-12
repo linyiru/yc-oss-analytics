@@ -12,7 +12,7 @@
  ],
  "status": "Active",
  "year_founded": 2019,
- "team_size": 30,
+ "team_size": 20,
  "location": "London, United Kingdom",
  "country": "GB",
  "partner": "Nicolas Dessaigne",
@@ -41,5 +41,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-20T07:21:41+00:00"
+ "fetched_at": "2026-10-12T14:15:02+00:00"
 }
