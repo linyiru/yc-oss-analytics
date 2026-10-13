@@ -5,13 +5,13 @@
  "website": "https://stagewise.io",
  "github_url": "",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
- "team_size": 2,
+ "team_size": 3,
  "location": null,
  "country": null,
  "partner": "Jared Friedman",
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-10-12T14:15:09+00:00"
+ "fetched_at": "2026-10-13T13:25:10+00:00"
 }

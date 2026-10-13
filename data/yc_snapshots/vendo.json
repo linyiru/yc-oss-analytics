@@ -1,14 +1,13 @@
 {
- "slug": "vendo",
- "name": "Vendo",
- "batch": "S26",
- "website": "https://vendo.run/",
- "github_url": "https://github.com/runvendo/vendo",
+ "slug": "gradon",
+ "name": "Gradon",
+ "batch": "F26",
+ "website": "https://heygradon.com/",
+ "github_url": "",
  "tags": [
   "Artificial Intelligence",
-  "B2B",
-  "Customer Success",
-  "Open Source"
+  "Construction",
+  "B2B"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -26,18 +25,7 @@
    "title": "Founder/CTO"
   }
  ],
- "launches": [
-  {
-   "slug": "RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product",
-   "title": "Vendo: Let Your Users Build Their Own Features on Top of Your Product",
-   "tagline": "Vendo is the customization layer that lets your users build their own features and micro-apps on top of your product, within your brand and guardrails.",
-   "date": "2026-07-21",
-   "votes": 27,
-   "url": "https://www.ycombinator.com/launches/RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product"
-  }
- ],
- "page_repos": [
-  "runvendo/vendo"
- ],
- "fetched_at": "2026-09-09T10:40:07+00:00"
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-10-13T13:25:20+00:00"
 }

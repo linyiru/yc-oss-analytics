@@ -13,7 +13,7 @@
  "team_size": 2,
  "location": "Milan, Italy",
  "country": "IT",
- "partner": "Andrew Miklas",
+ "partner": "Jon Xu",
  "founders": [
   {
    "name": "Alessandro Puppo",
@@ -28,5 +28,5 @@
  "page_repos": [
   "Luce-Org/lucebox-hub"
  ],
- "fetched_at": "2026-10-09T12:28:33+00:00"
+ "fetched_at": "2026-10-13T13:24:48+00:00"
 }

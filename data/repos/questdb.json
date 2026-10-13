@@ -10104,12 +10104,12 @@
  },
  "yc_launches": [
   {
-   "slug": "IvM-questdb-purpose-built-database-for-financial-market-data",
-   "title": "QuestDB - Purpose built database for financial market data",
-   "tagline": "High speed ingestion, millisecond queries, and open formats.",
+   "slug": "IvM-questdb-data-platform-for-mission-critical-real-time-workloads",
+   "title": "QuestDB - Data platform for mission-critical real-time workloads",
+   "tagline": "Where data cannot be lost and batch is too slow",
    "date": "2023-07-04",
    "votes": 31,
-   "url": "https://www.ycombinator.com/launches/IvM-questdb-purpose-built-database-for-financial-market-data"
+   "url": "https://www.ycombinator.com/launches/IvM-questdb-data-platform-for-mission-critical-real-time-workloads"
   }
  ]
 }

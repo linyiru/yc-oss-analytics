@@ -3,7 +3,7 @@
  "github": "stagewise-io/stagewise",
  "yc": {
   "batch": "S25",
-  "team_size": 2,
+  "team_size": 3,
   "status": "Active",
   "one_liner": "The Open Source Agentic IDE",
   "website": "https://stagewise.io",
