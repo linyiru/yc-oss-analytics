@@ -25,7 +25,16 @@
    "title": "Founder/CTO"
   }
  ],
- "launches": [],
+ "launches": [
+  {
+   "slug": "Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms",
+   "title": "Gradon: Legora for AEC (Architecture, Engineering, & Construction) firms",
+   "tagline": "The AI partner that makes every engineer 10x.",
+   "date": "2026-10-13",
+   "votes": 7,
+   "url": "https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms"
+  }
+ ],
  "page_repos": [],
- "fetched_at": "2026-10-13T13:25:20+00:00"
+ "fetched_at": "2026-10-14T11:03:11+00:00"
 }

@@ -1,0 +1,23 @@
+{
+ "slug": "caveman",
+ "name": "Caveman",
+ "batch": "F26",
+ "website": "https://caveman.so",
+ "github_url": "https://github.com/caveman-ai",
+ "tags": [
+  "Artificial Intelligence",
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 1,
+ "location": "Amsterdam, Netherlands",
+ "country": "NL",
+ "partner": "Max Kolysh",
+ "founders": [],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-10-14T11:02:38+00:00"
+}

@@ -1,8 +1,10 @@
 {
- "date": "2026-10-13",
- "appeared": [],
+ "date": "2026-10-14",
+ "appeared": [
+  "caveman"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 190,
- "present": 178
+ "total_tracked": 191,
+ "present": 179
 }

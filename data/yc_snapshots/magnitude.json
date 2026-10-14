@@ -27,16 +27,7 @@
    "title": "Founder/CTO"
   }
  ],
- "launches": [
-  {
-   "slug": "OD3-sidekick-automation-for-the-rest-of-us",
-   "title": "Sidekick - Automation for the rest of us",
-   "tagline": "Just describe what you want and watch the automation build itself",
-   "date": "2025-08-17",
-   "votes": 16,
-   "url": "https://www.ycombinator.com/launches/OD3-sidekick-automation-for-the-rest-of-us"
-  }
- ],
+ "launches": [],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:08+00:00"
+ "fetched_at": "2026-10-14T11:02:52+00:00"
 }

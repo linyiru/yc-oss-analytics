@@ -1,0 +1,389 @@
+{
+ "slug": "caveman",
+ "github": "JuliusBrussee/caveman",
+ "yc": {
+  "batch": "F26",
+  "team_size": 1,
+  "status": "Active",
+  "one_liner": "Caveman cuts what AI agents cost without making them dumber.",
+  "website": "https://caveman.so",
+  "industry": "B2B",
+  "name": "Caveman",
+  "year_founded": 2026,
+  "location": "Amsterdam, Netherlands",
+  "partner": "Max Kolysh"
+ },
+ "metrics": {
+  "stars": 111635,
+  "forks": 6477,
+  "watchers": 260,
+  "open_issues": 41,
+  "commits": 1536,
+  "contributors": 97,
+  "license": "Apache-2.0",
+  "created": "2026-04-04",
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-04-04",
+  "last": "2026-10-13",
+  "span_months": 6.3
+ },
+ "intensity": {
+  "commits_per_week": 56.0,
+  "per_day": 8.0,
+  "weekend_pct": 30.9,
+  "punchcard": [
+   [
+    1,
+    2,
+    6,
+    0,
+    0,
+    0,
+    1,
+    24,
+    8,
+    14,
+    5,
+    0,
+    2,
+    0,
+    1,
+    17,
+    15,
+    27,
+    15,
+    15,
+    25,
+    115,
+    23,
+    12
+   ],
+   [
+    5,
+    19,
+    19,
+    12,
+    0,
+    0,
+    0,
+    22,
+    0,
+    6,
+    27,
+    34,
+    8,
+    12,
+    13,
+    5,
+    2,
+    5,
+    14,
+    8,
+    14,
+    14,
+    11,
+    12
+   ],
+   [
+    15,
+    3,
+    0,
+    0,
+    6,
+    1,
+    0,
+    21,
+    3,
+    1,
+    9,
+    10,
+    5,
+    5,
+    10,
+    15,
+    9,
+    6,
+    20,
+    7,
+    4,
+    3,
+    8,
+    8
+   ],
+   [
+    16,
+    22,
+    20,
+    1,
+    12,
+    2,
+    3,
+    14,
+    6,
+    0,
+    0,
+    2,
+    2,
+    9,
+    8,
+    12,
+    3,
+    11,
+    2,
+    5,
+    13,
+    8,
+    0,
+    3
+   ],
+   [
+    14,
+    21,
+    6,
+    0,
+    17,
+    4,
+    0,
+    9,
+    1,
+    0,
+    0,
+    1,
+    3,
+    11,
+    12,
+    1,
+    11,
+    5,
+    3,
+    1,
+    3,
+    2,
+    3,
+    0
+   ],
+   [
+    81,
+    28,
+    20,
+    10,
+    2,
+    21,
+    13,
+    18,
+    7,
+    2,
+    2,
+    6,
+    9,
+    3,
+    0,
+    3,
+    10,
+    6,
+    8,
+    4,
+    1,
+    1,
+    10,
+    6
+   ],
+   [
+    9,
+    15,
+    7,
+    7,
+    0,
+    12,
+    9,
+    16,
+    2,
+    3,
+    23,
+    2,
+    6,
+    18,
+    5,
+    4,
+    2,
+    21,
+    17,
+    5,
+    6,
+    10,
+    4,
+    1
+   ]
+  ],
+  "dow": [
+   328,
+   262,
+   169,
+   174,
+   128,
+   271,
+   204
+  ],
+  "ai_coauthor_total": 1151
+ },
+ "workflow": {
+  "conventional_pct": 94,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 799
+   },
+   {
+    "k": "feat",
+    "v": 177
+   },
+   {
+    "k": "docs",
+    "v": 140
+   },
+   {
+    "k": "chore",
+    "v": 132
+   },
+   {
+    "k": "test",
+    "v": 116
+   },
+   {
+    "k": "ci",
+    "v": 35
+   },
+   {
+    "k": "perf",
+    "v": 11
+   }
+  ],
+  "merge_pct": 12.8,
+  "median_msg_len": 65
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 980,
+  "commits_90d": 1336,
+  "commits_365d": 1536,
+  "active_contributors_90d": 60,
+  "years_since_first_commit": 0.5,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.8,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-04",
+   "c": 110
+  },
+  {
+   "m": "2026-05",
+   "c": 35
+  },
+  {
+   "m": "2026-06",
+   "c": 25
+  },
+  {
+   "m": "2026-07",
+   "c": 39
+  },
+  {
+   "m": "2026-08",
+   "c": 234
+  },
+  {
+   "m": "2026-09",
+   "c": 357
+  },
+  {
+   "m": "2026-10",
+   "c": 736
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Julius Brussee",
+   "count": 1065,
+   "pct": 69.3
+  },
+  {
+   "name": "Claude",
+   "count": 115,
+   "pct": 7.5
+  },
+  {
+   "name": "Julius Brussee",
+   "count": 97,
+   "pct": 6.3
+  },
+  {
+   "name": "github-actions[bot]",
+   "count": 28,
+   "pct": 1.8
+  },
+  {
+   "name": "Nik Pushkarski",
+   "count": 21,
+   "pct": 1.4
+  },
+  {
+   "name": "Amir Fathi",
+   "count": 15,
+   "pct": 1.0
+  },
+  {
+   "name": "Douglas J Hunley",
+   "count": 13,
+   "pct": 0.8
+  },
+  {
+   "name": "Alot1z",
+   "count": 9,
+   "pct": 0.6
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Go": 6883537,
+   "JavaScript": 3779125,
+   "TypeScript": 2052042,
+   "Python": 1399414,
+   "Shell": 39620,
+   "PLpgSQL": 38366,
+   "PowerShell": 35969,
+   "HTML": 23791,
+   "CSS": 8893,
+   "Dockerfile": 4373
+  },
+  "manifests": [
+   "package.json",
+   "go.mod"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [
+   "@caveman-ai/cli"
+  ],
+  "infra": [
+   "claude-code",
+   "docker",
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}
