@@ -14,8 +14,17 @@
  "location": "London, United Kingdom",
  "country": "GB",
  "partner": "Aaron Epstein",
- "founders": [],
+ "founders": [
+  {
+   "name": "Ram Vinjamuri",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Varun Latthe",
+   "title": "Founder/CTO"
+  }
+ ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-10-07T12:31:57+00:00"
+ "fetched_at": "2026-10-15T10:45:32+00:00"
 }

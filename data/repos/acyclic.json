@@ -11,7 +11,17 @@
   "name": "Acyclic Labs",
   "year_founded": 2026,
   "location": "London, United Kingdom",
-  "partner": "Aaron Epstein"
+  "partner": "Aaron Epstein",
+  "founders": [
+   {
+    "name": "Ram Vinjamuri",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Varun Latthe",
+    "title": "Founder/CTO"
+   }
+  ]
  },
  "metrics": {
   "stars": 25,
