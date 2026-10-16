@@ -3,13 +3,13 @@
  "name": "Opslane",
  "batch": "S24",
  "website": "https://opslane.com",
- "github_url": "",
+ "github_url": "github.com/opslane",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Open Source",
   "Enterprise",
-  "DevOps"
+  "DevOps",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -36,5 +36,5 @@
  "page_repos": [
   "opslane/opslane"
  ],
- "fetched_at": "2026-08-24T06:47:13+00:00"
+ "fetched_at": "2026-10-16T10:33:35+00:00"
 }

@@ -5,8 +5,8 @@
  "website": "https://anythingllm.com",
  "github_url": "https://github.com/Mintplex-Labs",
  "tags": [
-  "Artificial Intelligence",
   "Open Source",
+  "AI",
   "AI Assistant"
  ],
  "status": "Active",
@@ -32,8 +32,7 @@
   }
  ],
  "page_repos": [
-  "Mintplex-Labs/anything-llm",
   "anything-llm/anythingllm"
  ],
- "fetched_at": "2026-08-24T06:46:53+00:00"
+ "fetched_at": "2026-10-16T10:33:09+00:00"
 }

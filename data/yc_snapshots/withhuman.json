@@ -1,0 +1,34 @@
+{
+ "slug": "withhuman",
+ "name": "withHuman",
+ "batch": "S23",
+ "website": "https://withhuman.ai",
+ "github_url": "https://github.com/withHumanAI",
+ "tags": [
+  "Open Source"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "London, United Kingdom",
+ "country": "GB",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Chris Battarbee",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "J8g-metoro-debug-production-systems-faster-with-ai",
+   "title": "Metoro: Debug production systems faster with AI",
+   "tagline": "Metoro surfaces relevant metrics and logs, performs root cause analysis and suggests remediations",
+   "date": "2023-07-30",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/J8g-metoro-debug-production-systems-faster-with-ai"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-10-16T10:33:53+00:00"
+}

@@ -1,0 +1,335 @@
+{
+ "slug": "withhuman",
+ "github": "withHumanAI/withHuman",
+ "yc": {
+  "batch": "S23",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "The Approval Layer for AI Agents",
+  "website": "https://withhuman.ai",
+  "industry": "B2B",
+  "name": "withHuman",
+  "year_founded": 2026,
+  "location": "London, United Kingdom",
+  "partner": "Diana Hu",
+  "founders": [
+   {
+    "name": "Chris Battarbee",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 11,
+  "forks": 2,
+  "watchers": 0,
+  "open_issues": 1,
+  "commits": 94,
+  "contributors": 5,
+  "license": "NOASSERTION",
+  "created": "2026-09-23",
+  "primary_lang": "Go",
+  "license_detail": {
+   "spdx": "NOASSERTION",
+   "detected": "Elastic-2.0",
+   "model": "Source-available",
+   "source_available": true,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-09-24",
+  "last": "2026-10-16",
+  "span_months": 0.7
+ },
+ "intensity": {
+  "commits_per_week": 31.3,
+  "per_day": 4.48,
+  "weekend_pct": 2.1,
+  "punchcard": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    6,
+    0,
+    0,
+    1,
+    4,
+    5,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    1,
+    6,
+    3,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    3,
+    0,
+    0,
+    5,
+    3,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   22,
+   21,
+   13,
+   13,
+   23,
+   2,
+   0
+  ],
+  "ai_coauthor_total": 59
+ },
+ "workflow": {
+  "conventional_pct": 0,
+  "conv": [],
+  "merge_pct": 32.4,
+  "median_msg_len": 58
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 94,
+  "commits_90d": 94,
+  "commits_365d": 94,
+  "active_contributors_90d": 5,
+  "years_since_first_commit": 0.1,
+  "liveness": 91,
+  "still_active": true,
+  "batch_year": 2023,
+  "batch_age_years": 3.8,
+  "class": "evergreen"
+ },
+ "monthly": [
+  {
+   "m": "2026-09",
+   "c": 23
+  },
+  {
+   "m": "2026-10",
+   "c": 71
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Chris Battarbee",
+   "count": 31,
+   "pct": 33.0
+  },
+  {
+   "name": "Ece Kayan",
+   "count": 31,
+   "pct": 33.0
+  },
+  {
+   "name": "Chris Battarbee",
+   "count": 20,
+   "pct": 21.3
+  },
+  {
+   "name": "Ece Kayan",
+   "count": 11,
+   "pct": 11.7
+  },
+  {
+   "name": "Chris Battarbee",
+   "count": 1,
+   "pct": 1.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Go": 4891128,
+   "TypeScript": 2164711,
+   "PLpgSQL": 170171,
+   "Shell": 43682,
+   "CSS": 13919,
+   "Dockerfile": 2610,
+   "Makefile": 1128,
+   "HTML": 916
+  },
+  "manifests": [
+   "go.mod"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "docker"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "J8g-metoro-debug-production-systems-faster-with-ai",
+   "title": "Metoro: Debug production systems faster with AI",
+   "tagline": "Metoro surfaces relevant metrics and logs, performs root cause analysis and suggests remediations",
+   "date": "2023-07-30",
+   "votes": 58,
+   "url": "https://www.ycombinator.com/launches/J8g-metoro-debug-production-systems-faster-with-ai"
+  }
+ ]
+}

@@ -1,10 +1,10 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "appeared": [
-  "agent-relay"
+  "withhuman"
  ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 192,
- "present": 180
+ "total_tracked": 193,
+ "present": 181
 }
