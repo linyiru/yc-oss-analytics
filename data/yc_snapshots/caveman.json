@@ -5,10 +5,10 @@
  "website": "https://caveman.so",
  "github_url": "https://github.com/caveman-ai",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -19,5 +19,5 @@
  "founders": [],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-10-14T11:02:38+00:00"
+ "fetched_at": "2026-10-17T10:02:46+00:00"
 }
