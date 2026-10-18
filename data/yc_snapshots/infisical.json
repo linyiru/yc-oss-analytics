@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2022,
- "team_size": 50,
+ "team_size": 70,
  "location": "San Francisco",
  "country": "US",
  "partner": "Diana Hu",
@@ -44,5 +44,5 @@
  "page_repos": [
   "Infisical/infisical"
  ],
- "fetched_at": "2026-06-07T15:58:28+00:00"
+ "fetched_at": "2026-10-18T10:16:30+00:00"
 }
