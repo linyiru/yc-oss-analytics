@@ -5,9 +5,9 @@
  "website": "https://usetusk.ai",
  "github_url": "https://github.com/Use-Tusk",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Inactive",
  "year_founded": 2023,
@@ -44,5 +44,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-09-11T10:30:07+00:00"
+ "fetched_at": "2026-10-19T11:56:10+00:00"
 }

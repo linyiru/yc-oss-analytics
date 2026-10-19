@@ -5,11 +5,11 @@
  "website": "https://www.shuttle.dev",
  "github_url": "https://github.com/shuttle-hq",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "SaaS",
   "Open Source",
-  "DevOps"
+  "DevOps",
+  "AI"
  ],
  "status": "Inactive",
  "year_founded": 2019,
@@ -33,5 +33,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:18+00:00"
+ "fetched_at": "2026-10-19T11:56:05+00:00"
 }

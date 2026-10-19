@@ -5,9 +5,9 @@
  "website": "https://ollama.com",
  "github_url": "https://github.com/ollama/ollama",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": null,
@@ -29,5 +29,5 @@
  "page_repos": [
   "ollama/ollama"
  ],
- "fetched_at": "2026-06-22T08:02:19+00:00"
+ "fetched_at": "2026-10-19T11:55:57+00:00"
 }

@@ -5,7 +5,6 @@
  "website": "https://superagent.sh/",
  "github_url": "https://github.com/superagent-ai/",
  "tags": [
-  "Artificial Intelligence",
   "Security",
   "Open Source",
   "AI"
@@ -73,5 +72,5 @@
   "superagent-ai/superagent",
   "superagent-ai/vibekit"
  ],
- "fetched_at": "2026-08-24T06:47:20+00:00"
+ "fetched_at": "2026-10-19T11:56:07+00:00"
 }

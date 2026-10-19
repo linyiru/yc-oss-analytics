@@ -6,10 +6,10 @@
  "github_url": "https://github.com/dagworks-inc/",
  "tags": [
   "AIOps",
-  "Artificial Intelligence",
   "Developer Tools",
   "Generative AI",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Acquired",
  "year_founded": 2022,
@@ -41,5 +41,5 @@
   "dagworks-inc/burr",
   "dagworks-inc/hamilton"
  ],
- "fetched_at": "2026-06-07T15:58:18+00:00"
+ "fetched_at": "2026-10-19T11:55:42+00:00"
 }

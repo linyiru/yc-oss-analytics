@@ -5,9 +5,9 @@
  "website": "https://onetriangle.ai/",
  "github_url": null,
  "tags": [
-  "Artificial Intelligence",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-10-18T10:16:37+00:00"
+ "fetched_at": "2026-10-19T11:55:58+00:00"
 }

@@ -5,10 +5,10 @@
  "website": "https://flowiseai.com",
  "github_url": "https://github.com/FlowiseAI",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Generative AI",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Acquired",
  "year_founded": 2023,
@@ -47,5 +47,5 @@
  "page_repos": [
   "FlowiseAI/Flowise"
  ],
- "fetched_at": "2026-06-07T15:58:23+00:00"
+ "fetched_at": "2026-10-19T11:55:45+00:00"
 }

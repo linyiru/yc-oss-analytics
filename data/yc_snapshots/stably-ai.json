@@ -5,11 +5,11 @@
  "website": "http://onorca.dev/",
  "github_url": "https://github.com/stablyai/orca",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "SaaS",
   "DevOps",
-  "Web Development"
+  "Web Development",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2022,
@@ -40,5 +40,5 @@
  "page_repos": [
   "stablyai/orca"
  ],
- "fetched_at": "2026-09-12T09:58:36+00:00"
+ "fetched_at": "2026-10-19T11:56:06+00:00"
 }

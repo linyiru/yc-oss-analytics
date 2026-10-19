@@ -6,10 +6,10 @@
  "github_url": "https://github.com/BerriAI/litellm",
  "tags": [
   "AIOps",
-  "Artificial Intelligence",
   "Developer Tools",
   "Generative AI",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2023,
@@ -40,5 +40,5 @@
  "page_repos": [
   "BerriAI/litellm"
  ],
- "fetched_at": "2026-09-22T10:50:54+00:00"
+ "fetched_at": "2026-10-19T11:55:52+00:00"
 }

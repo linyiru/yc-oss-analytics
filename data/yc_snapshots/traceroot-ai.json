@@ -5,10 +5,10 @@
  "website": "https://traceroot.ai",
  "github_url": "",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2025,
@@ -35,5 +35,5 @@
  "page_repos": [
   "traceroot-ai/traceroot"
  ],
- "fetched_at": "2026-09-29T12:00:51+00:00"
+ "fetched_at": "2026-10-19T11:56:09+00:00"
 }

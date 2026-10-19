@@ -5,11 +5,11 @@
  "website": "https://www.skyvern.com/",
  "github_url": "",
  "tags": [
-  "Artificial Intelligence",
   "Robotic Process Automation",
   "Workflow Automation",
   "Open Source",
-  "API"
+  "API",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2023,
@@ -109,5 +109,5 @@
   "bytedance/UI-TARS",
   "microsoft/playwright-python"
  ],
- "fetched_at": "2026-10-14T11:03:04+00:00"
+ "fetched_at": "2026-10-19T11:56:05+00:00"
 }

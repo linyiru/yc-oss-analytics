@@ -5,10 +5,10 @@
  "website": "https://www.ncompass.tech",
  "github_url": "https://github.com/nCompass-tech/ncompass",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Hardware",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -64,5 +64,5 @@
   "nCompass-tech/nCompass",
   "nCompass-tech/ncompass"
  ],
- "fetched_at": "2026-08-24T06:47:11+00:00"
+ "fetched_at": "2026-10-19T11:55:57+00:00"
 }

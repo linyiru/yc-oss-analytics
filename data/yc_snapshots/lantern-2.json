@@ -5,10 +5,10 @@
  "website": "http://lantern.dev",
  "github_url": "http://github.com/lanterndata",
  "tags": [
-  "Artificial Intelligence",
   "B2B",
   "Open Source",
   "Enterprise",
+  "AI",
   "Databases"
  ],
  "status": "Inactive",
@@ -40,5 +40,5 @@
  "page_repos": [
   "lanterndata/lantern"
  ],
- "fetched_at": "2026-06-07T15:58:33+00:00"
+ "fetched_at": "2026-10-19T11:55:52+00:00"
 }

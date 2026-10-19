@@ -6,8 +6,8 @@
  "github_url": "https://github.com/openpipe/openpipe",
  "tags": [
   "AIOps",
-  "Artificial Intelligence",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Acquired",
  "year_founded": 2023,
@@ -39,5 +39,5 @@
   "OpenPipe/OpenPipe",
   "openpipe/openpipe"
  ],
- "fetched_at": "2026-06-07T15:58:42+00:00"
+ "fetched_at": "2026-10-19T11:55:59+00:00"
 }

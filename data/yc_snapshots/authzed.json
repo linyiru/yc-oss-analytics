@@ -5,11 +5,11 @@
  "website": "https://authzed.com",
  "github_url": "https://github.com/authzed",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Security",
   "Open Source",
-  "Data Engineering"
+  "Data Engineering",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2020,
@@ -33,5 +33,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-07-06T07:33:26+00:00"
+ "fetched_at": "2026-10-19T11:55:38+00:00"
 }

@@ -5,9 +5,9 @@
  "website": "https://heygradon.com/",
  "github_url": "",
  "tags": [
-  "Artificial Intelligence",
   "Construction",
-  "B2B"
+  "B2B",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-10-14T11:03:11+00:00"
+ "fetched_at": "2026-10-19T11:56:11+00:00"
 }

@@ -5,9 +5,9 @@
  "website": "https://vibekanban.com",
  "github_url": "https://github.com/bloopai",
  "tags": [
-  "Artificial Intelligence",
   "Machine Learning",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2021,
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:56+00:00"
+ "fetched_at": "2026-10-19T11:56:11+00:00"
 }

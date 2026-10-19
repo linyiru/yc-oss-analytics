@@ -5,11 +5,11 @@
  "website": "https://reflex.dev",
  "github_url": "https://github.com/reflex-dev",
  "tags": [
-  "Artificial Intelligence",
   "Developer Tools",
   "Open Source",
   "Web Development",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2023,
@@ -48,5 +48,5 @@
  "page_repos": [
   "pynecone-io/pynecone"
  ],
- "fetched_at": "2026-06-07T15:58:46+00:00"
+ "fetched_at": "2026-10-19T11:56:02+00:00"
 }

@@ -5,10 +5,10 @@
  "website": "https://reworkd.ai",
  "github_url": "https://github.com/reworkd/AgentGPT",
  "tags": [
-  "Artificial Intelligence",
   "Generative AI",
   "B2B",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2023,
@@ -51,5 +51,5 @@
  "page_repos": [
   "reworkd/AgentGPT"
  ],
- "fetched_at": "2026-06-07T15:58:47+00:00"
+ "fetched_at": "2026-10-19T11:56:03+00:00"
 }

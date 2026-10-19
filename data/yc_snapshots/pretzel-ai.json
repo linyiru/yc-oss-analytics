@@ -5,8 +5,8 @@
  "website": "https://withpretzel.com",
  "github_url": "https://github.com/pretzelai",
  "tags": [
-  "Artificial Intelligence",
-  "Open Source"
+  "Open Source",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2024,
@@ -26,5 +26,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:14+00:00"
+ "fetched_at": "2026-10-19T11:56:01+00:00"
 }

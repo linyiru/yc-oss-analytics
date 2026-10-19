@@ -5,10 +5,10 @@
  "website": "https://mentra.glass",
  "github_url": "https://github.com/mentralabs",
  "tags": [
-  "Artificial Intelligence",
   "Hardware",
   "Consumer",
   "Open Source",
+  "AI",
   "AR"
  ],
  "status": "Active",
@@ -29,5 +29,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-08-24T06:47:09+00:00"
+ "fetched_at": "2026-10-19T11:55:55+00:00"
 }
