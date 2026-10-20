@@ -3,7 +3,7 @@
  "name": "Confident AI",
  "batch": "W25",
  "website": "https://confident-ai.com",
- "github_url": "https://github.com/confident-ai/deepeval",
+ "github_url": "https://github.com/confident-ai",
  "tags": [
   "Developer Tools",
   "Generative AI",
@@ -36,8 +36,6 @@
    "url": "https://www.ycombinator.com/launches/Mnp-confident-ai-the-evals-platform-for-ai-quality-observability"
   }
  ],
- "page_repos": [
-  "confident-ai/deepeval"
- ],
- "fetched_at": "2026-08-24T06:46:57+00:00"
+ "page_repos": [],
+ "fetched_at": "2026-10-20T10:50:40+00:00"
 }
