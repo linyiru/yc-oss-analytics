@@ -1,0 +1,30 @@
+{
+ "slug": "phone-harness",
+ "name": "Phone Harness",
+ "batch": "F26",
+ "website": "https://phone-harness.com/",
+ "github_url": "https://github.com/ShawnPana/phone-harness",
+ "tags": [
+  "Open Source",
+  "API",
+  "Automation",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 1,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Shawn Pana",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [
+  "ShawnPana/phone-harness"
+ ],
+ "fetched_at": "2026-10-21T11:03:10+00:00"
+}

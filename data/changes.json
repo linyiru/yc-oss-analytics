@@ -1,8 +1,10 @@
 {
- "date": "2026-10-20",
- "appeared": [],
+ "date": "2026-10-21",
+ "appeared": [
+  "phone-harness"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 194,
- "present": 181
+ "total_tracked": 195,
+ "present": 182
 }
