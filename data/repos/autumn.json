@@ -34,9 +34,9 @@
   "created": "2025-01-21",
   "primary_lang": "TypeScript",
   "license_detail": {
-   "spdx": "Apache-2.0",
-   "detected": "Apache-2.0",
-   "model": "Permissive",
+   "spdx": null,
+   "detected": "Custom / Proprietary",
+   "model": "Custom",
    "source_available": false,
    "ee": false
   }

@@ -1,0 +1,83 @@
+{
+ "slug": "harnessrouter",
+ "name": "HarnessRouter",
+ "batch": "S23",
+ "website": "https://harnessrouter.ai/",
+ "github_url": "https://github.com/HarnessRouter/",
+ "tags": [
+  "Developer Tools",
+  "SaaS",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2023,
+ "team_size": 3,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Diana Hu",
+ "founders": [
+  {
+   "name": "Richard Song",
+   "title": "Founder"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "VnV-uhp-unified-harness-protocol-by-harnessrouter",
+   "title": "UHP: Unified Harness Protocol by HarnessRouter",
+   "tagline": "An open standard for running complete agent harnesses as your product's backend, now officially adopted by Qoder by Alibaba",
+   "date": "2026-10-14",
+   "votes": 6,
+   "url": "https://www.ycombinator.com/launches/VnV-uhp-unified-harness-protocol-by-harnessrouter"
+  },
+  {
+   "slug": "Sv6-harnessrouter-open-sourcing-the-world-s-first-unified-interface-for-agent-harnesses-and-the-unified-harness-protocol",
+   "title": "HarnessRouter: Open-Sourcing the World’s First Unified Interface for Agent Harnesses and the Unified Harness Protocol",
+   "tagline": "Plug Codex, Claude Code, and Hermes into your backend on your own infrastructure. Introducing the Unified Harness Protocol (UHP), an open standard for connecting applications to different agent harnesses.",
+   "date": "2026-08-17",
+   "votes": 6,
+   "url": "https://www.ycombinator.com/launches/Sv6-harnessrouter-open-sourcing-the-world-s-first-unified-interface-for-agent-harnesses-and-the-unified-harness-protocol"
+  },
+  {
+   "slug": "RpL-harnessrouter-bring-the-world-s-best-ai-agents-into-your-app-with-one-api",
+   "title": "HarnessRouter: Bring the World's Best AI Agents Into Your App, With One API",
+   "tagline": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.",
+   "date": "2026-07-23",
+   "votes": 29,
+   "url": "https://www.ycombinator.com/launches/RpL-harnessrouter-bring-the-world-s-best-ai-agents-into-your-app-with-one-api"
+  },
+  {
+   "slug": "PwR-clawtrace-make-your-openclaw-agent-better-cheaper-and-faster",
+   "title": "ClawTrace — Make Your OpenClaw Agent Better, Cheaper, and Faster",
+   "tagline": "The observability platform for OpenClaw agents: execution traces, cost analysis, and Tracy, your OpenClaw's doctor agent.",
+   "date": "2026-04-14",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/PwR-clawtrace-make-your-openclaw-agent-better-cheaper-and-faster"
+  },
+  {
+   "slug": "Ls3-epsilla-ship-production-ready-ai-agents-on-day-1",
+   "title": "Epsilla — Ship production-ready AI agents on day 1",
+   "tagline": "All-in-one platform to create AI agents with your private data and knowledge.",
+   "date": "2024-09-17",
+   "votes": 35,
+   "url": "https://www.ycombinator.com/launches/Ls3-epsilla-ship-production-ready-ai-agents-on-day-1"
+  },
+  {
+   "slug": "J8t-epsilla-a-10x-faster-open-source-vector-database",
+   "title": "Epsilla - A 10x faster open source vector database",
+   "tagline": "The information retrieval foundation for the next generation of AI applications",
+   "date": "2023-07-31",
+   "votes": 41,
+   "url": "https://www.ycombinator.com/launches/J8t-epsilla-a-10x-faster-open-source-vector-database"
+  }
+ ],
+ "page_repos": [
+  "HarnessRouter/harnessrouter",
+  "HarnessRouter/starter-kit",
+  "epsilla-cloud/clawtrace",
+  "epsilla-cloud/vectordb"
+ ],
+ "fetched_at": "2026-10-23T10:55:07+00:00"
+}

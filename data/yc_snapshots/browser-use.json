@@ -12,7 +12,7 @@
  ],
  "status": "Active",
  "year_founded": 2024,
- "team_size": 7,
+ "team_size": 5,
  "location": "San Francisco",
  "country": "US",
  "partner": "Jared Friedman",
@@ -39,5 +39,5 @@
  "page_repos": [
   "gregpr07/browser-use"
  ],
- "fetched_at": "2026-09-02T10:28:48+00:00"
+ "fetched_at": "2026-10-23T10:54:58+00:00"
 }

@@ -1,8 +1,10 @@
 {
- "date": "2026-10-22",
- "appeared": [],
+ "date": "2026-10-23",
+ "appeared": [
+  "harnessrouter"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 195,
- "present": 182
+ "total_tracked": 196,
+ "present": 183
 }

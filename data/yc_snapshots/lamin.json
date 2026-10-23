@@ -27,7 +27,18 @@
    "title": "Founder"
   }
  ],
- "launches": [],
- "page_repos": [],
- "fetched_at": "2026-10-09T12:28:32+00:00"
+ "launches": [
+  {
+   "slug": "WI0-lamin-open-data-platform-for-science",
+   "title": "Lamin — Open data platform for science",
+   "tagline": "pip install lamindb to trace, query & govern multimodal data in bio/AI",
+   "date": "2026-10-22",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/WI0-lamin-open-data-platform-for-science"
+  }
+ ],
+ "page_repos": [
+  "laminlabs/lamindb"
+ ],
+ "fetched_at": "2026-10-23T10:55:12+00:00"
 }

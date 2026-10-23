@@ -1152,5 +1152,15 @@
    "first1000_net_pct": 32,
    "lifetime_net_pct": 32
   }
- }
+ },
+ "yc_launches": [
+  {
+   "slug": "WI0-lamin-open-data-platform-for-science",
+   "title": "Lamin — Open data platform for science",
+   "tagline": "pip install lamindb to trace, query & govern multimodal data in bio/AI",
+   "date": "2026-10-22",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/WI0-lamin-open-data-platform-for-science"
+  }
+ ]
 }

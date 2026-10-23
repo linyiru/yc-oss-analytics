@@ -32,3 +32,4 @@
 {"date": "2026-10-17", "appeared": [], "disappeared": ["zenbu-2"], "restored": [], "total_tracked": 193, "present": 180}
 {"date": "2026-10-18", "appeared": ["onetriangle"], "disappeared": [], "restored": [], "total_tracked": 194, "present": 181}
 {"date": "2026-10-21", "appeared": ["phone-harness"], "disappeared": [], "restored": [], "total_tracked": 195, "present": 182}
+{"date": "2026-10-23", "appeared": ["harnessrouter"], "disappeared": [], "restored": [], "total_tracked": 196, "present": 183}
