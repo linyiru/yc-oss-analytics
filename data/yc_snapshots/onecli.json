@@ -14,8 +14,8 @@
  "status": "Active",
  "year_founded": null,
  "team_size": 0,
- "location": "San Francisco",
- "country": "US",
+ "location": "Tel Aviv-Yafo, Israel",
+ "country": "IL",
  "partner": "Brad Flora",
  "founders": [
   {
@@ -48,5 +48,5 @@
  "page_repos": [
   "onecli/onecli"
  ],
- "fetched_at": "2026-10-14T11:02:56+00:00"
+ "fetched_at": "2026-10-26T12:08:26+00:00"
 }

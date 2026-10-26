@@ -1,19 +1,19 @@
 {
- "slug": "openseo",
- "name": "OpenSEO",
+ "slug": "everyapp",
+ "name": "EveryApp",
  "batch": "F26",
- "website": "https://openseo.so/",
- "github_url": "https://github.com/every-app/open-seo",
+ "website": "https://everyapp.com",
+ "github_url": "https://github.com/every-app/every-app",
  "tags": [
+  "Developer Tools",
   "Open Source",
-  "Marketing",
-  "SEO"
+  "Marketing"
  ],
  "status": "Active",
  "year_founded": 2026,
  "team_size": 2,
- "location": "Boston",
- "country": "US",
+ "location": null,
+ "country": null,
  "partner": "Charlie Warren",
  "founders": [
   {
@@ -23,7 +23,7 @@
  ],
  "launches": [],
  "page_repos": [
-  "every-app/open-seo"
+  "every-app/every-app"
  ],
- "fetched_at": "2026-09-30T11:49:12+00:00"
+ "fetched_at": "2026-10-26T12:08:28+00:00"
 }
