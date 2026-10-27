@@ -1,0 +1,38 @@
+{
+ "slug": "everyapp",
+ "name": "EveryApp",
+ "batch": "F26",
+ "website": "https://everyapp.com",
+ "github_url": "https://github.com/every-app/every-app",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Marketing"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": null,
+ "country": null,
+ "partner": "Charlie Warren",
+ "founders": [
+  {
+   "name": "Ben Senescu",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "WKA-everyapp-make-every-app-open-source",
+   "title": "EveryApp - Make every app open source",
+   "tagline": "Every tool your business runs on, built by your agent, owned by you",
+   "date": "2026-10-26",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source"
+  }
+ ],
+ "page_repos": [
+  "every-app/every-app"
+ ],
+ "fetched_at": "2026-10-27T11:29:52+00:00"
+}

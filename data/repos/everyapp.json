@@ -1,0 +1,379 @@
+{
+ "slug": "everyapp",
+ "github": "every-app/every-app",
+ "yc": {
+  "batch": "F26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Make every app open source",
+  "website": "https://everyapp.com",
+  "industry": "B2B",
+  "name": "EveryApp",
+  "year_founded": 2026,
+  "partner": "Charlie Warren",
+  "founders": [
+   {
+    "name": "Ben Senescu",
+    "title": "Founder/CEO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 254,
+  "forks": 11,
+  "watchers": 1,
+  "open_issues": 0,
+  "commits": 837,
+  "contributors": 4,
+  "license": "MIT",
+  "created": "2025-11-13",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-11-13",
+  "last": "2026-10-27",
+  "span_months": 11.4
+ },
+ "intensity": {
+  "commits_per_week": 16.9,
+  "per_day": 2.41,
+  "weekend_pct": 41.8,
+  "punchcard": [
+   [
+    10,
+    43,
+    18,
+    12,
+    6,
+    1,
+    2,
+    0,
+    0,
+    5,
+    1,
+    5,
+    5,
+    7,
+    5,
+    8,
+    5,
+    6,
+    7,
+    6,
+    8,
+    6,
+    10,
+    7
+   ],
+   [
+    1,
+    5,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    3,
+    4,
+    2,
+    9,
+    1,
+    2,
+    2,
+    3,
+    2,
+    3,
+    5,
+    3,
+    5,
+    1
+   ],
+   [
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    4,
+    2,
+    1,
+    5,
+    2,
+    0,
+    2,
+    3,
+    4,
+    3,
+    4,
+    5,
+    4
+   ],
+   [
+    2,
+    1,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    1,
+    3,
+    10,
+    3,
+    6,
+    5,
+    0,
+    13,
+    1,
+    7,
+    1
+   ],
+   [
+    1,
+    4,
+    3,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    4,
+    1,
+    2,
+    6,
+    3,
+    0,
+    3,
+    2,
+    1,
+    12,
+    18,
+    17,
+    12,
+    39
+   ],
+   [
+    23,
+    9,
+    16,
+    13,
+    6,
+    10,
+    7,
+    10,
+    2,
+    0,
+    1,
+    1,
+    4,
+    18,
+    2,
+    21,
+    22,
+    14,
+    13,
+    21,
+    18,
+    9,
+    17,
+    17
+   ],
+   [
+    12,
+    6,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    11,
+    9,
+    4,
+    5,
+    7,
+    8,
+    7
+   ]
+  ],
+  "dow": [
+   183,
+   57,
+   49,
+   65,
+   133,
+   274,
+   76
+  ],
+  "ai_coauthor_total": 92
+ },
+ "workflow": {
+  "conventional_pct": 17,
+  "conv": [
+   {
+    "k": "gateway",
+    "v": 30
+   },
+   {
+    "k": "todo",
+    "v": 23
+   },
+   {
+    "k": "docs",
+    "v": 19
+   },
+   {
+    "k": "cli",
+    "v": 12
+   },
+   {
+    "k": "sdk",
+    "v": 7
+   },
+   {
+    "k": "readme",
+    "v": 6
+   },
+   {
+    "k": "home",
+    "v": 6
+   }
+  ],
+  "merge_pct": 1.2,
+  "median_msg_len": 79
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 586,
+  "commits_90d": 594,
+  "commits_365d": 837,
+  "active_contributors_90d": 3,
+  "years_since_first_commit": 1.0,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.8,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-11",
+   "c": 42
+  },
+  {
+   "m": "2025-12",
+   "c": 55
+  },
+  {
+   "m": "2026-01",
+   "c": 97
+  },
+  {
+   "m": "2026-02",
+   "c": 32
+  },
+  {
+   "m": "2026-03",
+   "c": 17
+  },
+  {
+   "m": "2026-08",
+   "c": 7
+  },
+  {
+   "m": "2026-09",
+   "c": 1
+  },
+  {
+   "m": "2026-10",
+   "c": 586
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Ben Senescu",
+   "count": 742,
+   "pct": 88.6
+  },
+  {
+   "name": "Ben Senescu",
+   "count": 66,
+   "pct": 7.9
+  },
+  {
+   "name": "Carter Smith",
+   "count": 28,
+   "pct": 3.3
+  },
+  {
+   "name": "Claude",
+   "count": 1,
+   "pct": 0.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 12880593,
+   "JavaScript": 400842,
+   "MDX": 250038,
+   "CSS": 10543,
+   "Dockerfile": 2835
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "claude-code",
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "WKA-everyapp-make-every-app-open-source",
+   "title": "EveryApp - Make every app open source",
+   "tagline": "Every tool your business runs on, built by your agent, owned by you",
+   "date": "2026-10-26",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source"
+  }
+ ]
+}

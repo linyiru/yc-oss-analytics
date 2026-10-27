@@ -7,11 +7,12 @@
  "tags": [
   "B2B",
   "Open Source",
-  "Infrastructure"
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
- "year_founded": 2022,
- "team_size": 5,
+ "year_founded": 2023,
+ "team_size": 7,
  "location": "San Francisco",
  "country": "US",
  "partner": "Diana Hu",
@@ -36,5 +37,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:47+00:00"
+ "fetched_at": "2026-10-27T11:30:20+00:00"
 }

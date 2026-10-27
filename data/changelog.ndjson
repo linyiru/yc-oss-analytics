@@ -33,3 +33,4 @@
 {"date": "2026-10-18", "appeared": ["onetriangle"], "disappeared": [], "restored": [], "total_tracked": 194, "present": 181}
 {"date": "2026-10-21", "appeared": ["phone-harness"], "disappeared": [], "restored": [], "total_tracked": 195, "present": 182}
 {"date": "2026-10-23", "appeared": ["harnessrouter"], "disappeared": [], "restored": [], "total_tracked": 196, "present": 183}
+{"date": "2026-10-27", "appeared": ["0security", "everyapp"], "disappeared": ["openseo"], "restored": [], "total_tracked": 198, "present": 184}

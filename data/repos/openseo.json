@@ -283,5 +283,15 @@
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "WKA-everyapp-make-every-app-open-source",
+   "title": "EveryApp - Make every app open source",
+   "tagline": "Every tool your business runs on, built by your agent, owned by you",
+   "date": "2026-10-26",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source"
+  }
+ ]
 }

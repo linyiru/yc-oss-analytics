@@ -21,9 +21,18 @@
    "title": "Founder/CEO"
   }
  ],
- "launches": [],
+ "launches": [
+  {
+   "slug": "WKA-everyapp-make-every-app-open-source",
+   "title": "EveryApp - Make every app open source",
+   "tagline": "Every tool your business runs on, built by your agent, owned by you",
+   "date": "2026-10-26",
+   "votes": 16,
+   "url": "https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source"
+  }
+ ],
  "page_repos": [
   "every-app/every-app"
  ],
- "fetched_at": "2026-10-26T12:08:28+00:00"
+ "fetched_at": "2026-10-27T11:30:11+00:00"
 }
