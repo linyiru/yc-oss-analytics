@@ -1,13 +1,10 @@
 {
- "date": "2026-10-27",
- "appeared": [
-  "0security",
-  "everyapp"
- ],
+ "date": "2026-10-28",
+ "appeared": [],
  "disappeared": [
-  "openseo"
+  "superglue"
  ],
  "restored": [],
  "total_tracked": 198,
- "present": 184
+ "present": 183
 }

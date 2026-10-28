@@ -3,10 +3,8 @@
  "name": "superglue",
  "batch": "W25",
  "website": "https://superglue.ai/",
- "github_url": "https://github.com/superglue-ai/superglue",
+ "github_url": "",
  "tags": [
-  "Open Source",
-  "API",
   "Enterprise",
   "Enterprise Software",
   "AI"
@@ -40,5 +38,5 @@
  "page_repos": [
   "superglue-ai/superglue"
  ],
- "fetched_at": "2026-08-24T06:47:21+00:00"
+ "fetched_at": "2026-10-28T12:00:16+00:00"
 }

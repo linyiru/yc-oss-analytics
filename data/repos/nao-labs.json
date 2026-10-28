@@ -35,10 +35,10 @@
   "primary_lang": "TypeScript",
   "license_detail": {
    "spdx": "NOASSERTION",
-   "detected": "Apache-2.0 + EE",
-   "model": "Open-core",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
    "source_available": false,
-   "ee": true
+   "ee": false
   }
  },
  "tier": "cheap",

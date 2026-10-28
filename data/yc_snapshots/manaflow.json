@@ -31,7 +31,7 @@
    "title": "cmux: the open source terminal built for coding agents",
    "tagline": "Native macOS Ghostty-based terminal with vertical tabs, notifications, and built-in browser",
    "date": "2026-03-03",
-   "votes": 735,
+   "votes": 736,
    "url": "https://www.ycombinator.com/launches/PbB-cmux-the-open-source-terminal-built-for-coding-agents"
   },
   {
@@ -46,5 +46,5 @@
  "page_repos": [
   "manaflow-ai/cmux"
  ],
- "fetched_at": "2026-09-06T10:09:43+00:00"
+ "fetched_at": "2026-10-28T11:59:56+00:00"
 }
