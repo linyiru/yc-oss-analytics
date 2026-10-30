@@ -3,7 +3,7 @@
  "name": "Lucebox",
  "batch": "W27",
  "website": "https://www.lucebox.com/",
- "github_url": "https://github.com/Luce-Org/lucebox-hub",
+ "github_url": null,
  "tags": [
   "Hardware",
   "Open Source"
@@ -25,8 +25,6 @@
   }
  ],
  "launches": [],
- "page_repos": [
-  "Luce-Org/lucebox-hub"
- ],
- "fetched_at": "2026-10-13T13:24:48+00:00"
+ "page_repos": [],
+ "fetched_at": "2026-10-30T12:00:47+00:00"
 }

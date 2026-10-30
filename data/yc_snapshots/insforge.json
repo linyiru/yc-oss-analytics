@@ -1,8 +1,8 @@
 {
- "slug": "insforge-instacloud",
- "name": "InsForge (InstaCloud)",
+ "slug": "instabox",
+ "name": "InstaBox",
  "batch": "P26",
- "website": "https://insforge.dev/",
+ "website": "https://instabox.sh/",
  "github_url": "",
  "tags": [
   "Developer Tools",
@@ -39,5 +39,5 @@
  "page_repos": [
   "InsForge/InsForge"
  ],
- "fetched_at": "2026-10-27T11:29:57+00:00"
+ "fetched_at": "2026-10-30T12:00:42+00:00"
 }
