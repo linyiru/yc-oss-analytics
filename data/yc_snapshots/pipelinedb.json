@@ -2,7 +2,7 @@
  "slug": "pipelinedb",
  "name": "PipelineDB",
  "batch": "W14",
- "website": "http://www.pipelinedb.com",
+ "website": null,
  "github_url": null,
  "tags": [
   "Open Source",
@@ -22,5 +22,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:44+00:00"
+ "fetched_at": "2026-10-31T11:36:32+00:00"
 }

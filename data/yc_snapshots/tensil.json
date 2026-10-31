@@ -2,7 +2,7 @@
  "slug": "tensil",
  "name": "Tensil",
  "batch": "S19",
- "website": "https://www.tensil.ai",
+ "website": null,
  "github_url": "https://github.com/tensil-ai",
  "tags": [
   "Edge Computing Semiconductors",
@@ -24,5 +24,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:52+00:00"
+ "fetched_at": "2026-10-31T11:36:40+00:00"
 }

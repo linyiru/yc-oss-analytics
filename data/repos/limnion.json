@@ -1,0 +1,310 @@
+{
+ "slug": "limnion",
+ "github": "limina-ai/limina-python",
+ "yc": {
+  "batch": "F26",
+  "team_size": 3,
+  "status": "Active",
+  "one_liner": "Telemetry storage for the agentic era.",
+  "website": "https://limnion.ai",
+  "industry": "B2B",
+  "name": "Limnion",
+  "year_founded": 2026,
+  "location": "Seattle, WA",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Todd Persen",
+    "title": "Founder"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 1,
+  "forks": 1,
+  "watchers": 0,
+  "open_issues": 1,
+  "commits": 24,
+  "contributors": 1,
+  "license": "MIT",
+  "created": "2026-08-15",
+  "primary_lang": "Python",
+  "license_detail": {
+   "spdx": "MIT",
+   "detected": "MIT",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-08-15",
+  "last": "2026-10-03",
+  "span_months": 1.6
+ },
+ "intensity": {
+  "commits_per_week": 3.4,
+  "per_day": 0.49,
+  "weekend_pct": 37.5,
+  "punchcard": [
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dow": [
+   5,
+   2,
+   3,
+   4,
+   1,
+   6,
+   3
+  ],
+  "ai_coauthor_total": 0
+ },
+ "workflow": {
+  "conventional_pct": 12,
+  "conv": [
+   {
+    "k": "test",
+    "v": 1
+   },
+   {
+    "k": "sdk",
+    "v": 1
+   },
+   {
+    "k": "feat",
+    "v": 1
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 6
+ },
+ "activity": {
+  "last_commit_days": 27,
+  "commits_30d": 1,
+  "commits_90d": 24,
+  "commits_365d": 24,
+  "active_contributors_90d": 1,
+  "years_since_first_commit": 0.2,
+  "liveness": 76,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.8,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-08",
+   "c": 20
+  },
+  {
+   "m": "2026-09",
+   "c": 3
+  },
+  {
+   "m": "2026-10",
+   "c": 1
+  }
+ ],
+ "contributors": [
+  {
+   "name": "unknown",
+   "count": 24,
+   "pct": 100.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Python": 41390
+  },
+  "manifests": [],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

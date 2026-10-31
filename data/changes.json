@@ -1,8 +1,10 @@
 {
- "date": "2026-10-30",
- "appeared": [],
+ "date": "2026-10-31",
+ "appeared": [
+  "limnion"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 198,
- "present": 183
+ "total_tracked": 199,
+ "present": 184
 }

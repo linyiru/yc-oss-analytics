@@ -1,0 +1,27 @@
+{
+ "slug": "limnion",
+ "name": "Limnion",
+ "batch": "F26",
+ "website": "https://limnion.ai",
+ "github_url": null,
+ "tags": [
+  "Open Source",
+  "Infrastructure",
+  "Databases"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 3,
+ "location": "Seattle, WA",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Todd Persen",
+   "title": "Founder"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-10-31T11:36:22+00:00"
+}

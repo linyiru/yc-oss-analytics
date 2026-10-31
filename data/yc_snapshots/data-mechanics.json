@@ -2,7 +2,7 @@
  "slug": "data-mechanics",
  "name": "Data Mechanics",
  "batch": "S19",
- "website": "https://www.datamechanics.co",
+ "website": null,
  "github_url": "",
  "tags": [
   "SaaS",
@@ -28,5 +28,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:19+00:00"
+ "fetched_at": "2026-10-31T11:36:11+00:00"
 }
