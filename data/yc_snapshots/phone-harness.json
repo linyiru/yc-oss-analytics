@@ -22,9 +22,18 @@
    "title": "Founder/CEO"
   }
  ],
- "launches": [],
+ "launches": [
+  {
+   "slug": "WdR-phone-harness-let-your-agent-tap-scroll-and-type-on-your-iphone-or-android",
+   "title": "Phone Harness: Let your agent tap, scroll, and type on your iPhone or Android",
+   "tagline": "Let your agent use your personal phone, or its own iPhone/Android in the cloud",
+   "date": "2026-11-04",
+   "votes": 6,
+   "url": "https://www.ycombinator.com/launches/WdR-phone-harness-let-your-agent-tap-scroll-and-type-on-your-iphone-or-android"
+  }
+ ],
  "page_repos": [
   "ShawnPana/phone-harness"
  ],
- "fetched_at": "2026-10-21T11:03:10+00:00"
+ "fetched_at": "2026-11-05T13:53:47+00:00"
 }
