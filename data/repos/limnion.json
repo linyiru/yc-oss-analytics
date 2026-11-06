@@ -306,5 +306,15 @@
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "WhD-limnion-telemetry-storage-built-for-the-agentic-era",
+   "title": "Limnion: Telemetry storage built for the agentic era",
+   "tagline": "The open foundation for building agent-first observability.",
+   "date": "2026-11-05",
+   "votes": 3,
+   "url": "https://www.ycombinator.com/launches/WhD-limnion-telemetry-storage-built-for-the-agentic-era"
+  }
+ ]
 }

@@ -21,7 +21,18 @@
    "title": "Founder"
   }
  ],
- "launches": [],
- "page_repos": [],
- "fetched_at": "2026-10-31T11:36:22+00:00"
+ "launches": [
+  {
+   "slug": "WhD-limnion-telemetry-storage-built-for-the-agentic-era",
+   "title": "Limnion: Telemetry storage built for the agentic era",
+   "tagline": "The open foundation for building agent-first observability.",
+   "date": "2026-11-05",
+   "votes": 3,
+   "url": "https://www.ycombinator.com/launches/WhD-limnion-telemetry-storage-built-for-the-agentic-era"
+  }
+ ],
+ "page_repos": [
+  "siglake/siglake"
+ ],
+ "fetched_at": "2026-11-06T13:39:17+00:00"
 }
