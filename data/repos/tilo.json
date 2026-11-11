@@ -1,0 +1,394 @@
+{
+ "slug": "tilo",
+ "github": "tilo-os/tilo",
+ "yc": {
+  "batch": "F26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "The Microsoft of the AI era: the operating system for AI agents.",
+  "website": "https://tilo.so",
+  "industry": "B2B",
+  "name": "Tilo",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Grey Baker",
+  "founders": [
+   {
+    "name": "Xaver Emmerling",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Quinten Wolff",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 3,
+  "forks": 0,
+  "watchers": 0,
+  "open_issues": 0,
+  "commits": 34503,
+  "contributors": 4,
+  "license": "AGPL-3.0",
+  "created": "2026-09-20",
+  "primary_lang": "Rust",
+  "license_detail": {
+   "spdx": "AGPL-3.0",
+   "detected": "AGPL-3.0",
+   "model": "Copyleft",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-02-18",
+  "last": "2026-11-11",
+  "span_months": 8.8
+ },
+ "intensity": {
+  "commits_per_week": 908.0,
+  "per_day": 129.71,
+  "weekend_pct": 33.2,
+  "punchcard": [
+   [
+    330,
+    272,
+    198,
+    136,
+    111,
+    127,
+    86,
+    109,
+    78,
+    90,
+    175,
+    202,
+    240,
+    249,
+    255,
+    247,
+    294,
+    281,
+    261,
+    229,
+    184,
+    213,
+    251,
+    224
+   ],
+   [
+    181,
+    188,
+    203,
+    144,
+    164,
+    152,
+    193,
+    141,
+    141,
+    164,
+    234,
+    261,
+    263,
+    237,
+    245,
+    260,
+    221,
+    323,
+    280,
+    345,
+    266,
+    279,
+    228,
+    287
+   ],
+   [
+    267,
+    241,
+    204,
+    172,
+    113,
+    109,
+    107,
+    103,
+    129,
+    130,
+    96,
+    151,
+    134,
+    210,
+    171,
+    148,
+    121,
+    119,
+    138,
+    163,
+    120,
+    184,
+    242,
+    176
+   ],
+   [
+    198,
+    218,
+    162,
+    125,
+    100,
+    151,
+    176,
+    128,
+    106,
+    150,
+    225,
+    250,
+    239,
+    206,
+    230,
+    170,
+    254,
+    226,
+    223,
+    233,
+    283,
+    297,
+    242,
+    250
+   ],
+   [
+    255,
+    215,
+    157,
+    179,
+    179,
+    200,
+    169,
+    155,
+    177,
+    140,
+    224,
+    189,
+    180,
+    155,
+    192,
+    137,
+    135,
+    157,
+    178,
+    174,
+    145,
+    171,
+    188,
+    182
+   ],
+   [
+    197,
+    213,
+    188,
+    228,
+    186,
+    157,
+    183,
+    186,
+    175,
+    196,
+    244,
+    294,
+    304,
+    277,
+    221,
+    213,
+    234,
+    230,
+    253,
+    220,
+    271,
+    257,
+    235,
+    294
+   ],
+   [
+    357,
+    291,
+    321,
+    229,
+    211,
+    208,
+    187,
+    136,
+    105,
+    102,
+    208,
+    315,
+    281,
+    262,
+    215,
+    269,
+    274,
+    270,
+    235,
+    221,
+    186,
+    264,
+    428,
+    407
+   ]
+  ],
+  "dow": [
+   4842,
+   5400,
+   3748,
+   4842,
+   4233,
+   5456,
+   5982
+  ],
+  "ai_coauthor_total": 21871
+ },
+ "workflow": {
+  "conventional_pct": 90,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 10347
+   },
+   {
+    "k": "feat",
+    "v": 5533
+   },
+   {
+    "k": "test",
+    "v": 4241
+   },
+   {
+    "k": "refactor",
+    "v": 2866
+   },
+   {
+    "k": "ci",
+    "v": 1379
+   },
+   {
+    "k": "perf",
+    "v": 1194
+   },
+   {
+    "k": "docs",
+    "v": 1074
+   }
+  ],
+  "merge_pct": 19.5,
+  "median_msg_len": 65
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 16889,
+  "commits_90d": 31734,
+  "commits_365d": 34503,
+  "active_contributors_90d": 4,
+  "years_since_first_commit": 0.7,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.9,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-02",
+   "c": 5
+  },
+  {
+   "m": "2026-03",
+   "c": 20
+  },
+  {
+   "m": "2026-04",
+   "c": 551
+  },
+  {
+   "m": "2026-05",
+   "c": 317
+  },
+  {
+   "m": "2026-06",
+   "c": 470
+  },
+  {
+   "m": "2026-07",
+   "c": 1177
+  },
+  {
+   "m": "2026-08",
+   "c": 1776
+  },
+  {
+   "m": "2026-09",
+   "c": 8146
+  },
+  {
+   "m": "2026-10",
+   "c": 17167
+  },
+  {
+   "m": "2026-11",
+   "c": 4874
+  }
+ ],
+ "contributors": [
+  {
+   "name": "qwolff",
+   "count": 29184,
+   "pct": 84.6
+  },
+  {
+   "name": "xemmerling",
+   "count": 5084,
+   "pct": 14.7
+  },
+  {
+   "name": "t CI auto-fix",
+   "count": 234,
+   "pct": 0.7
+  },
+  {
+   "name": "Quik2007",
+   "count": 1,
+   "pct": 0.0
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Rust": 205021636,
+   "Python": 11659602,
+   "Shell": 4061838,
+   "JavaScript": 3114227,
+   "Fluent": 1876788,
+   "C++": 997502,
+   "Dockerfile": 493043,
+   "TypeScript": 379148,
+   "PowerShell": 254037,
+   "C": 128718,
+   "HTML": 117370,
+   "Java": 100139,
+   "WGSL": 31743,
+   "Objective-C++": 23712,
+   "Ruby": 18089,
+   "CMake": 15587,
+   "Swift": 14464,
+   "GLSL": 8059,
+   "Nix": 3320,
+   "Inno Setup": 2293
+  },
+  "manifests": [
+   "Cargo.toml"
+  ],
+  "pkg_manager": null,
+  "deps_top": [],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "byteask",
+ "name": "ByteAsk",
+ "batch": "F26",
+ "website": "https://byteask.ai/",
+ "github_url": "https://github.com/ByteAsk",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Enterprise Software",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Nicolas Dessaigne",
+ "founders": [
+  {
+   "name": "Anirudha Kulkarni",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Pratyush Saini",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them",
+   "title": "ByteAsk: Your AI C++ engineer, and a swarm of them",
+   "tagline": "Give it a C/C++/CUDA bug, get back a tested pull request at 68% lower cost",
+   "date": "2026-11-10",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them"
+  }
+ ],
+ "page_repos": [],
+ "fetched_at": "2026-11-11T13:27:19+00:00"
+}

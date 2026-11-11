@@ -1,0 +1,32 @@
+{
+ "slug": "tilo",
+ "name": "Tilo",
+ "batch": "F26",
+ "website": "https://tilo.so",
+ "github_url": "https://code.tilo.so/tilo",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Grey Baker",
+ "founders": [
+  {
+   "name": "Xaver Emmerling",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Quinten Wolff",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [],
+ "page_repos": [],
+ "fetched_at": "2026-11-11T13:27:47+00:00"
+}

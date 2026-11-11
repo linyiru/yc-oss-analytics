@@ -1,0 +1,462 @@
+{
+ "slug": "byteask",
+ "github": "ByteAsk/cli",
+ "yc": {
+  "batch": "F26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "The AI coding agent for C and C++",
+  "website": "https://byteask.ai/",
+  "industry": "B2B",
+  "name": "ByteAsk",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Nicolas Dessaigne",
+  "founders": [
+   {
+    "name": "Anirudha Kulkarni",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Pratyush Saini",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 98,
+  "forks": 2,
+  "watchers": 0,
+  "open_issues": 8,
+  "commits": 12978,
+  "contributors": 708,
+  "license": "Apache-2.0",
+  "created": "2026-07-06",
+  "primary_lang": "Rust",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2025-04-16",
+  "last": "2026-11-11",
+  "span_months": 18.8
+ },
+ "intensity": {
+  "commits_per_week": 158.5,
+  "per_day": 22.65,
+  "weekend_pct": 9.0,
+  "punchcard": [
+   [
+    33,
+    11,
+    10,
+    10,
+    12,
+    1,
+    12,
+    15,
+    77,
+    109,
+    142,
+    151,
+    111,
+    116,
+    142,
+    144,
+    180,
+    176,
+    150,
+    141,
+    108,
+    118,
+    130,
+    105
+   ],
+   [
+    74,
+    49,
+    34,
+    30,
+    29,
+    31,
+    12,
+    24,
+    50,
+    118,
+    148,
+    151,
+    139,
+    139,
+    175,
+    158,
+    208,
+    223,
+    159,
+    143,
+    114,
+    111,
+    139,
+    91
+   ],
+   [
+    79,
+    66,
+    46,
+    37,
+    30,
+    25,
+    19,
+    17,
+    47,
+    88,
+    130,
+    171,
+    138,
+    147,
+    158,
+    161,
+    171,
+    194,
+    154,
+    133,
+    133,
+    124,
+    136,
+    114
+   ],
+   [
+    101,
+    51,
+    34,
+    31,
+    41,
+    31,
+    20,
+    20,
+    48,
+    99,
+    140,
+    157,
+    128,
+    119,
+    170,
+    151,
+    193,
+    194,
+    161,
+    119,
+    91,
+    93,
+    103,
+    84
+   ],
+   [
+    78,
+    49,
+    42,
+    32,
+    17,
+    19,
+    30,
+    19,
+    44,
+    87,
+    116,
+    126,
+    149,
+    119,
+    158,
+    167,
+    164,
+    155,
+    134,
+    85,
+    106,
+    87,
+    81,
+    93
+   ],
+   [
+    49,
+    26,
+    29,
+    12,
+    16,
+    20,
+    8,
+    8,
+    9,
+    11,
+    14,
+    20,
+    25,
+    22,
+    30,
+    34,
+    33,
+    37,
+    30,
+    32,
+    29,
+    39,
+    28,
+    32
+   ],
+   [
+    18,
+    11,
+    16,
+    9,
+    7,
+    13,
+    15,
+    8,
+    4,
+    10,
+    16,
+    27,
+    18,
+    17,
+    23,
+    40,
+    40,
+    40,
+    32,
+    31,
+    53,
+    30,
+    54,
+    46
+   ]
+  ],
+  "dow": [
+   2204,
+   2549,
+   2518,
+   2379,
+   2157,
+   593,
+   578
+  ],
+  "ai_coauthor_total": 12
+ },
+ "workflow": {
+  "conventional_pct": 26,
+  "conv": [
+   {
+    "k": "feat",
+    "v": 992
+   },
+   {
+    "k": "fix",
+    "v": 989
+   },
+   {
+    "k": "chore",
+    "v": 569
+   },
+   {
+    "k": "tui",
+    "v": 126
+   },
+   {
+    "k": "core",
+    "v": 92
+   },
+   {
+    "k": "nit",
+    "v": 81
+   },
+   {
+    "k": "docs",
+    "v": 68
+   }
+  ],
+  "merge_pct": 0.0,
+  "median_msg_len": 57
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 852,
+  "commits_90d": 3819,
+  "commits_365d": 11087,
+  "active_contributors_90d": 268,
+  "years_since_first_commit": 1.6,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.9,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2025-04",
+   "c": 261
+  },
+  {
+   "m": "2025-05",
+   "c": 153
+  },
+  {
+   "m": "2025-06",
+   "c": 44
+  },
+  {
+   "m": "2025-07",
+   "c": 137
+  },
+  {
+   "m": "2025-08",
+   "c": 417
+  },
+  {
+   "m": "2025-09",
+   "c": 399
+  },
+  {
+   "m": "2025-10",
+   "c": 383
+  },
+  {
+   "m": "2025-11",
+   "c": 387
+  },
+  {
+   "m": "2025-12",
+   "c": 420
+  },
+  {
+   "m": "2026-01",
+   "c": 654
+  },
+  {
+   "m": "2026-02",
+   "c": 876
+  },
+  {
+   "m": "2026-03",
+   "c": 850
+  },
+  {
+   "m": "2026-04",
+   "c": 1086
+  },
+  {
+   "m": "2026-05",
+   "c": 925
+  },
+  {
+   "m": "2026-06",
+   "c": 929
+  },
+  {
+   "m": "2026-07",
+   "c": 881
+  },
+  {
+   "m": "2026-08",
+   "c": 1266
+  },
+  {
+   "m": "2026-09",
+   "c": 1631
+  },
+  {
+   "m": "2026-10",
+   "c": 1262
+  },
+  {
+   "m": "2026-11",
+   "c": 17
+  }
+ ],
+ "contributors": [
+  {
+   "name": "jif-oai",
+   "count": 1975,
+   "pct": 15.2
+  },
+  {
+   "name": "Michael Bolin",
+   "count": 1056,
+   "pct": 8.1
+  },
+  {
+   "name": "Eric Traut",
+   "count": 1012,
+   "pct": 7.8
+  },
+  {
+   "name": "pakrym-oai",
+   "count": 622,
+   "pct": 4.8
+  },
+  {
+   "name": "Ahmed Ibrahim",
+   "count": 620,
+   "pct": 4.8
+  },
+  {
+   "name": "Adam Perry @ OpenAI",
+   "count": 297,
+   "pct": 2.3
+  },
+  {
+   "name": "Dylan Hurd",
+   "count": 279,
+   "pct": 2.1
+  },
+  {
+   "name": "felixxia-oai",
+   "count": 274,
+   "pct": 2.1
+  }
+ ],
+ "stack": {
+  "languages": {
+   "Rust": 87526686,
+   "Python": 2308174,
+   "Shell": 453033,
+   "PowerShell": 228252,
+   "Starlark": 162371,
+   "TypeScript": 102523,
+   "HTML": 41156,
+   "JavaScript": 39139,
+   "CSS": 35839,
+   "Jupyter Notebook": 20546,
+   "C++": 14822,
+   "Smarty": 7627,
+   "Just": 7519,
+   "Nix": 4349,
+   "Batchfile": 389,
+   "C": 52
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": "pnpm",
+  "deps_top": [],
+  "infra": [
+   "pnpm"
+  ]
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them",
+   "title": "ByteAsk: Your AI C++ engineer, and a swarm of them",
+   "tagline": "Give it a C/C++/CUDA bug, get back a tested pull request at 68% lower cost",
+   "date": "2026-11-10",
+   "votes": 17,
+   "url": "https://www.ycombinator.com/launches/WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them"
+  }
+ ]
+}

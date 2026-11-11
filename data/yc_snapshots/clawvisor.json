@@ -1,13 +1,15 @@
 {
- "slug": "clawvisor",
- "name": "Clawvisor",
+ "slug": "wakeshift",
+ "name": "Wakeshift",
  "batch": "P26",
- "website": "https://clawvisor.com",
- "github_url": null,
- "tags": [],
+ "website": "https://wakeshift.ai",
+ "github_url": "",
+ "tags": [
+  "AI"
+ ],
  "status": "Active",
  "year_founded": 2026,
- "team_size": 1,
+ "team_size": 3,
  "location": "San Francisco",
  "country": "US",
  "partner": "Garry Tan",
@@ -30,5 +32,5 @@
  "page_repos": [
   "clawvisor/clawvisor"
  ],
- "fetched_at": "2026-07-06T07:33:28+00:00"
+ "fetched_at": "2026-11-11T13:27:20+00:00"
 }

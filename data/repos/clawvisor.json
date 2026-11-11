@@ -3,7 +3,7 @@
  "github": "clawvisor/clawvisor",
  "yc": {
   "batch": "X26",
-  "team_size": 1,
+  "team_size": 3,
   "status": "Active",
   "one_liner": "The Authorization Layer for AI Agents",
   "website": "https://clawvisor.com",
@@ -17,7 +17,7 @@
     "title": "Founder"
    }
   ],
-  "name": "Clawvisor"
+  "name": "Wakeshift"
  },
  "metrics": {
   "stars": 221,
