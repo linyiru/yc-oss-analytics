@@ -385,5 +385,15 @@
  },
  "churn": null,
  "stars_curve": [],
- "viral": null
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "XQG-caveman-f26-the-joke-with-120k-github-stars-is-now-the-most-efficient-coding-agent",
+   "title": "Caveman (F26) - The joke with 120k GitHub stars is now the most efficient coding agent",
+   "tagline": "Every coding agent in one app. 21% cheaper than Codex on Terminal-Bench 4, 76% cheaper than Claude Code across connected apps.",
+   "date": "2026-11-13",
+   "votes": 4,
+   "url": "https://www.ycombinator.com/launches/XQG-caveman-f26-the-joke-with-120k-github-stars-is-now-the-most-efficient-coding-agent"
+  }
+ ]
 }

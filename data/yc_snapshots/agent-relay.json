@@ -3,7 +3,7 @@
  "name": "Agent Relay",
  "batch": "F26",
  "website": "https://agentrelay.com",
- "github_url": "https://github.com/agentworkforce",
+ "github_url": null,
  "tags": [
   "Developer Tools",
   "Swarm AI",
@@ -39,5 +39,5 @@
  "page_repos": [
   "agentworkforce/relay"
  ],
- "fetched_at": "2026-10-31T11:36:04+00:00"
+ "fetched_at": "2026-11-13T13:49:31+00:00"
 }

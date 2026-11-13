@@ -6,7 +6,10 @@
  "github_url": "https://github.com/acyclic-labs",
  "tags": [
   "Swarm AI",
-  "Open Source"
+  "Open Source",
+  "Data Engineering",
+  "Infrastructure",
+  "AI"
  ],
  "status": "Active",
  "year_founded": 2026,
@@ -24,7 +27,16 @@
    "title": "Founder/CTO"
   }
  ],
- "launches": [],
+ "launches": [
+  {
+   "slug": "XSq-acyclic-labs-building-the-foundations-for-ai-swarms",
+   "title": "Acyclic Labs: Building the foundations for AI swarms",
+   "tagline": "Infrastructure, benchmarks, RL environments and models for AI agents working together at scale.",
+   "date": "2026-11-13",
+   "votes": 18,
+   "url": "https://www.ycombinator.com/launches/XSq-acyclic-labs-building-the-foundations-for-ai-swarms"
+  }
+ ],
  "page_repos": [],
- "fetched_at": "2026-10-15T10:45:32+00:00"
+ "fetched_at": "2026-11-13T13:49:31+00:00"
 }
