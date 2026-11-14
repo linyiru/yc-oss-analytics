@@ -15,12 +15,7 @@
  "location": "Seattle, WA",
  "country": "US",
  "partner": "Andrew Miklas",
- "founders": [
-  {
-   "name": "Todd Persen",
-   "title": "Founder"
-  }
- ],
+ "founders": [],
  "launches": [
   {
    "slug": "WhD-limnion-telemetry-storage-built-for-the-agentic-era",
@@ -34,5 +29,5 @@
  "page_repos": [
   "siglake/siglake"
  ],
- "fetched_at": "2026-11-07T12:19:49+00:00"
+ "fetched_at": "2026-11-14T12:52:52+00:00"
 }

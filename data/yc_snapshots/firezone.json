@@ -13,7 +13,7 @@
  ],
  "status": "Active",
  "year_founded": 2021,
- "team_size": 3,
+ "team_size": null,
  "location": "San Francisco",
  "country": "US",
  "partner": null,
@@ -25,5 +25,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:23+00:00"
+ "fetched_at": "2026-11-14T12:52:47+00:00"
 }
