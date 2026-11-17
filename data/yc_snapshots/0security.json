@@ -3,7 +3,7 @@
  "name": "0.security",
  "batch": "F26",
  "website": "https://0.security",
- "github_url": null,
+ "github_url": "https://github.com/0sec-labs/0security",
  "tags": [
   "B2B",
   "Open Source",
@@ -37,6 +37,8 @@
    "url": "https://www.ycombinator.com/launches/X77-0-security-the-autonomous-cybersecurity-team-that-ships-fixes-not-findings"
   }
  ],
- "page_repos": [],
- "fetched_at": "2026-11-14T12:52:38+00:00"
+ "page_repos": [
+  "0sec-labs/0security"
+ ],
+ "fetched_at": "2026-11-17T15:24:38+00:00"
 }

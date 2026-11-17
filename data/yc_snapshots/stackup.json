@@ -11,7 +11,7 @@
   "B2B",
   "Open Source"
  ],
- "status": "Active",
+ "status": "Inactive",
  "year_founded": 2021,
  "team_size": 4,
  "location": "Los Angeles, CA",
@@ -25,5 +25,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-06-07T15:58:50+00:00"
+ "fetched_at": "2026-11-17T15:25:20+00:00"
 }
