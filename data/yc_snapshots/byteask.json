@@ -3,7 +3,7 @@
  "name": "ByteAsk",
  "batch": "F26",
  "website": "https://byteask.ai/",
- "github_url": "https://github.com/ByteAsk",
+ "github_url": null,
  "tags": [
   "Developer Tools",
   "Open Source",
@@ -37,5 +37,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-11-12T14:31:09+00:00"
+ "fetched_at": "2026-11-18T14:58:51+00:00"
 }
