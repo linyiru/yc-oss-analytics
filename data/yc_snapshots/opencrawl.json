@@ -1,0 +1,43 @@
+{
+ "slug": "opencrawl",
+ "name": "OpenCrawl",
+ "batch": "F26",
+ "website": "https://getopencrawl.com",
+ "github_url": "https://github.com/getopencrawl",
+ "tags": [
+  "Developer Tools",
+  "Collaboration",
+  "Open Source",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2026,
+ "team_size": 2,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Andrew Miklas",
+ "founders": [
+  {
+   "name": "Shalin Patel",
+   "title": "Founder/CEO"
+  },
+  {
+   "name": "Deep Utkarsh",
+   "title": "Founder/CTO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "XFb-opencrawl-multiplayer-for-your-coding-agents",
+   "title": "OpenCrawl: Multiplayer for your coding agents",
+   "tagline": "Let coding agents search each other’s histories and talk to each other.",
+   "date": "2026-11-16",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/XFb-opencrawl-multiplayer-for-your-coding-agents"
+  }
+ ],
+ "page_repos": [
+  "getopencrawl/opencrawl-core"
+ ],
+ "fetched_at": "2026-11-19T15:07:30+00:00"
+}

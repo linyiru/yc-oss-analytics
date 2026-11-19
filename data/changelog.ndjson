@@ -38,3 +38,4 @@
 {"date": "2026-10-31", "appeared": ["limnion"], "disappeared": [], "restored": [], "total_tracked": 199, "present": 184}
 {"date": "2026-11-11", "appeared": ["byteask", "tilo"], "disappeared": ["unify"], "restored": [], "total_tracked": 201, "present": 185}
 {"date": "2026-11-15", "appeared": [], "disappeared": [], "restored": ["unify"], "total_tracked": 201, "present": 186}
+{"date": "2026-11-19", "appeared": ["opencrawl"], "disappeared": [], "restored": [], "total_tracked": 202, "present": 187}

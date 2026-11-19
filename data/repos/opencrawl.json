@@ -1,0 +1,379 @@
+{
+ "slug": "opencrawl",
+ "github": "getopencrawl/opencrawl-core",
+ "yc": {
+  "batch": "F26",
+  "team_size": 2,
+  "status": "Active",
+  "one_liner": "Multiplayer for your coding agents.",
+  "website": "https://getopencrawl.com",
+  "industry": "B2B",
+  "name": "OpenCrawl",
+  "year_founded": 2026,
+  "location": "San Francisco",
+  "partner": "Andrew Miklas",
+  "founders": [
+   {
+    "name": "Shalin Patel",
+    "title": "Founder/CEO"
+   },
+   {
+    "name": "Deep Utkarsh",
+    "title": "Founder/CTO"
+   }
+  ]
+ },
+ "metrics": {
+  "stars": 68,
+  "forks": 11,
+  "watchers": 0,
+  "open_issues": 25,
+  "commits": 649,
+  "contributors": 7,
+  "license": "Apache-2.0",
+  "created": "2026-11-04",
+  "primary_lang": "TypeScript",
+  "license_detail": {
+   "spdx": "Apache-2.0",
+   "detected": "Apache-2.0",
+   "model": "Permissive",
+   "source_available": false,
+   "ee": false
+  }
+ },
+ "tier": "cheap",
+ "timeline": {
+  "first": "2026-11-03",
+  "last": "2026-11-18",
+  "span_months": 0.5
+ },
+ "intensity": {
+  "commits_per_week": 302.9,
+  "per_day": 43.27,
+  "weekend_pct": 29.4,
+  "punchcard": [
+   [
+    3,
+    6,
+    7,
+    2,
+    0,
+    2,
+    0,
+    4,
+    7,
+    10,
+    5,
+    4,
+    2,
+    2,
+    2,
+    2,
+    5,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    5,
+    11,
+    10,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    4,
+    1,
+    2,
+    3,
+    3,
+    1,
+    4,
+    8,
+    3,
+    7,
+    18,
+    14
+   ],
+   [
+    15,
+    20,
+    10,
+    12,
+    1,
+    5,
+    0,
+    1,
+    0,
+    1,
+    6,
+    8,
+    4,
+    5,
+    5,
+    8,
+    5,
+    7,
+    19,
+    9,
+    2,
+    6,
+    5,
+    3
+   ],
+   [
+    2,
+    7,
+    8,
+    5,
+    0,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    2,
+    2,
+    3,
+    7,
+    3,
+    2,
+    3,
+    6,
+    5,
+    13,
+    5,
+    2,
+    3
+   ],
+   [
+    4,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    3,
+    3,
+    6,
+    4,
+    4,
+    7,
+    3,
+    1,
+    1,
+    3,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    7,
+    7,
+    12,
+    10,
+    6,
+    12,
+    16,
+    2,
+    0,
+    2,
+    6,
+    9
+   ],
+   [
+    9,
+    8,
+    4,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    1,
+    0,
+    1,
+    1,
+    3,
+    18,
+    9,
+    2,
+    11,
+    7,
+    10,
+    1,
+    8
+   ]
+  ],
+  "dow": [
+   67,
+   103,
+   157,
+   84,
+   47,
+   92,
+   99
+  ],
+  "ai_coauthor_total": 51
+ },
+ "workflow": {
+  "conventional_pct": 7,
+  "conv": [
+   {
+    "k": "fix",
+    "v": 31
+   },
+   {
+    "k": "test",
+    "v": 7
+   },
+   {
+    "k": "docs",
+    "v": 5
+   },
+   {
+    "k": "usage",
+    "v": 1
+   },
+   {
+    "k": "ci",
+    "v": 1
+   }
+  ],
+  "merge_pct": 22.3,
+  "median_msg_len": 62
+ },
+ "activity": {
+  "last_commit_days": 0,
+  "commits_30d": 649,
+  "commits_90d": 649,
+  "commits_365d": 649,
+  "active_contributors_90d": 7,
+  "years_since_first_commit": 0.0,
+  "liveness": 100,
+  "still_active": true,
+  "batch_year": 2026,
+  "batch_age_years": 0.9,
+  "class": "rising"
+ },
+ "monthly": [
+  {
+   "m": "2026-11",
+   "c": 649
+  }
+ ],
+ "contributors": [
+  {
+   "name": "Deepanshu Utkarsh",
+   "count": 395,
+   "pct": 60.9
+  },
+  {
+   "name": "Deepanshu Utkarsh",
+   "count": 105,
+   "pct": 16.2
+  },
+  {
+   "name": "Deepanshu Utkarsh",
+   "count": 102,
+   "pct": 15.7
+  },
+  {
+   "name": "Shalin Patel",
+   "count": 43,
+   "pct": 6.6
+  },
+  {
+   "name": "marshall-ufo",
+   "count": 2,
+   "pct": 0.3
+  },
+  {
+   "name": "Codex",
+   "count": 1,
+   "pct": 0.2
+  },
+  {
+   "name": "Shalin Patel",
+   "count": 1,
+   "pct": 0.2
+  }
+ ],
+ "stack": {
+  "languages": {
+   "TypeScript": 4493165,
+   "JavaScript": 1287531,
+   "CSS": 99051,
+   "Python": 50396,
+   "Shell": 13710,
+   "C": 5044,
+   "PowerShell": 3639,
+   "Go Template": 2531,
+   "Dockerfile": 2121,
+   "Batchfile": 170
+  },
+  "manifests": [
+   "package.json"
+  ],
+  "pkg_manager": null,
+  "deps_top": [
+   "@better-auth/oauth-provider",
+   "@modelcontextprotocol/node",
+   "@modelcontextprotocol/server",
+   "@trpc/client",
+   "@trpc/server",
+   "@workos-inc/node",
+   "better-auth",
+   "gpt-tokenizer",
+   "jose",
+   "parse5",
+   "pdfjs-dist",
+   "pg",
+   "zod"
+  ],
+  "infra": []
+ },
+ "churn": null,
+ "stars_curve": [],
+ "viral": null,
+ "yc_launches": [
+  {
+   "slug": "XFb-opencrawl-multiplayer-for-your-coding-agents",
+   "title": "OpenCrawl: Multiplayer for your coding agents",
+   "tagline": "Let coding agents search each other’s histories and talk to each other.",
+   "date": "2026-11-16",
+   "votes": 12,
+   "url": "https://www.ycombinator.com/launches/XFb-opencrawl-multiplayer-for-your-coding-agents"
+  }
+ ]
+}

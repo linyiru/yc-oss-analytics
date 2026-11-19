@@ -1,8 +1,10 @@
 {
- "date": "2026-11-18",
- "appeared": [],
+ "date": "2026-11-19",
+ "appeared": [
+  "opencrawl"
+ ],
  "disappeared": [],
  "restored": [],
- "total_tracked": 201,
- "present": 186
+ "total_tracked": 202,
+ "present": 187
 }
