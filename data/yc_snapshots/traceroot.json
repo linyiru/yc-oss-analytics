@@ -1,0 +1,39 @@
+{
+ "slug": "traceroot",
+ "name": "traceroot",
+ "batch": "S25",
+ "website": "https://traceroot.ai",
+ "github_url": "",
+ "tags": [
+  "Developer Tools",
+  "Open Source",
+  "Infrastructure",
+  "AI"
+ ],
+ "status": "Active",
+ "year_founded": 2025,
+ "team_size": 4,
+ "location": "San Francisco",
+ "country": "US",
+ "partner": "Jon Xu",
+ "founders": [
+  {
+   "name": "Xinwei He",
+   "title": "Founder/CEO"
+  }
+ ],
+ "launches": [
+  {
+   "slug": "O8v-traceroot-open-source-ai-agents-that-automatically-fix-your-production-bugs",
+   "title": "TraceRoot - Open source AI agents that automatically fix your production bugs",
+   "tagline": "We help engineering teams fix production bugs faster using AI agents.",
+   "date": "2025-08-07",
+   "votes": 27,
+   "url": "https://www.ycombinator.com/launches/O8v-traceroot-open-source-ai-agents-that-automatically-fix-your-production-bugs"
+  }
+ ],
+ "page_repos": [
+  "traceroot-ai/traceroot"
+ ],
+ "fetched_at": "2026-11-20T14:48:27+00:00"
+}

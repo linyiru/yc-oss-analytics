@@ -1,6 +1,6 @@
 {
- "slug": "traceroot-ai",
- "name": "TraceRoot.AI",
+ "slug": "traceroot",
+ "name": "traceroot",
  "batch": "S25",
  "website": "https://traceroot.ai",
  "github_url": "",
@@ -35,5 +35,5 @@
  "page_repos": [
   "traceroot-ai/traceroot"
  ],
- "fetched_at": "2026-10-19T11:56:09+00:00"
+ "fetched_at": "2026-11-20T14:48:27+00:00"
 }

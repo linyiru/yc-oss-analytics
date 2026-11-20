@@ -1,10 +1,12 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "appeared": [
-  "opencrawl"
+  "traceroot"
  ],
- "disappeared": [],
+ "disappeared": [
+  "traceroot-ai"
+ ],
  "restored": [],
- "total_tracked": 202,
+ "total_tracked": 203,
  "present": 187
 }

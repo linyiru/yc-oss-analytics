@@ -37,7 +37,7 @@
    "title": "Fern Docs: Developer-friendly API Docs",
    "tagline": "Build a \"Stripe-level\" docs website powered by OpenAPI",
    "date": "2024-09-08",
-   "votes": 1266,
+   "votes": 1267,
    "url": "https://www.ycombinator.com/launches/LoR-fern-docs-developer-friendly-api-docs"
   },
   {
@@ -52,5 +52,5 @@
  "page_repos": [
   "fern-api/fern"
  ],
- "fetched_at": "2026-08-10T07:21:59+00:00"
+ "fetched_at": "2026-11-20T14:47:50+00:00"
 }
