@@ -1,11 +1,7 @@
 {
- "date": "2026-11-20",
- "appeared": [
-  "traceroot"
- ],
- "disappeared": [
-  "traceroot-ai"
- ],
+ "date": "2026-11-21",
+ "appeared": [],
+ "disappeared": [],
  "restored": [],
  "total_tracked": 203,
  "present": 187
