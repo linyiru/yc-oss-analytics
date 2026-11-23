@@ -12,8 +12,8 @@
  "status": "Active",
  "year_founded": 2024,
  "team_size": 3,
- "location": null,
- "country": null,
+ "location": "Bielefeld, Germany",
+ "country": "DE",
  "partner": "Jared Friedman",
  "founders": [
   {
@@ -36,5 +36,5 @@
   }
  ],
  "page_repos": [],
- "fetched_at": "2026-10-13T13:25:10+00:00"
+ "fetched_at": "2026-11-23T17:12:18+00:00"
 }

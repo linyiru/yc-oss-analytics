@@ -2,7 +2,7 @@
  "slug": "graphify-labs",
  "name": "Graphify Labs",
  "batch": "S26",
- "website": "https://www.graphify.com/",
+ "website": "https://graphify.com/",
  "github_url": "",
  "tags": [
   "Developer Tools",
@@ -33,5 +33,5 @@
  "page_repos": [
   "Graphify-Labs/graphify"
  ],
- "fetched_at": "2026-11-05T13:53:35+00:00"
+ "fetched_at": "2026-11-23T17:11:55+00:00"
 }
