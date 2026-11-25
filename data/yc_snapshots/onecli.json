@@ -3,16 +3,16 @@
  "name": "OneCLI",
  "batch": "S26",
  "website": "https://onecli.sh",
- "github_url": "",
+ "github_url": "https://github.com/onecli/onecli",
  "tags": [
-  "AIOps",
   "B2B",
-  "Workflow Automation",
+  "Security",
   "Open Source",
+  "Infrastructure",
   "AI"
  ],
  "status": "Active",
- "year_founded": null,
+ "year_founded": 2026,
  "team_size": 0,
  "location": "Tel Aviv-Yafo, Israel",
  "country": "IL",
@@ -48,5 +48,5 @@
  "page_repos": [
   "onecli/onecli"
  ],
- "fetched_at": "2026-10-26T12:08:26+00:00"
+ "fetched_at": "2026-11-25T16:41:56+00:00"
 }

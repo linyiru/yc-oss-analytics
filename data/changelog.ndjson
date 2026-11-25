@@ -40,3 +40,4 @@
 {"date": "2026-11-15", "appeared": [], "disappeared": [], "restored": ["unify"], "total_tracked": 201, "present": 186}
 {"date": "2026-11-19", "appeared": ["opencrawl"], "disappeared": [], "restored": [], "total_tracked": 202, "present": 187}
 {"date": "2026-11-20", "appeared": ["traceroot"], "disappeared": ["traceroot-ai"], "restored": [], "total_tracked": 203, "present": 187}
+{"date": "2026-11-25", "appeared": [], "disappeared": ["beam"], "restored": [], "total_tracked": 203, "present": 186}
