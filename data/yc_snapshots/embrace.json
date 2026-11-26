@@ -3,7 +3,7 @@
  "name": "Embrace",
  "batch": "S19",
  "website": "https://embrace.io",
- "github_url": null,
+ "github_url": "",
  "tags": [
   "SaaS",
   "Open Source",
@@ -28,5 +28,5 @@
  ],
  "launches": [],
  "page_repos": [],
- "fetched_at": "2026-09-11T10:29:46+00:00"
+ "fetched_at": "2026-11-26T16:15:35+00:00"
 }

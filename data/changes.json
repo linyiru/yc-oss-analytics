@@ -1,9 +1,7 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "appeared": [],
- "disappeared": [
-  "beam"
- ],
+ "disappeared": [],
  "restored": [],
  "total_tracked": 203,
  "present": 186
