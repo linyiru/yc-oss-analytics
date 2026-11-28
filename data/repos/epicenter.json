@@ -30,7 +30,7 @@
   "created": "2023-03-16",
   "primary_lang": "TypeScript",
   "license_detail": {
-   "spdx": "NOASSERTION",
+   "spdx": "AGPL-3.0",
    "detected": "AGPL-3.0",
    "model": "Copyleft",
    "source_available": false,
